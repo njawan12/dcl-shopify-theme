@@ -1,6 +1,6 @@
 # ADR-001: Theme foundation
 
-- **Status:** Accepted for M1; implementation remains blocked until M1 gates pass
+- **Status:** Proposed, conditional M1A recommendation; not accepted for implementation until M0 closes, the live foundation facts are revalidated, and the remaining M1 gates pass
 - **Decision date:** 2 October 2026
 - **Decision owners:** Product and engineering
 - **Scope:** Select the eligible starting-code strategy for this product; this ADR does not authorize production theme work
@@ -44,9 +44,9 @@ Ratings are relative for this product: **advantage**, **neutral**, or **disadvan
 | Testing burden | Still substantial, but starts from a smaller known reference | Highest: both primitives and product systems need first-principles coverage | Skeleton does not waive any test; it reduces the number of novel claims. |
 | Accidental convergence with existing Theme Store themes | Risk if Skeleton defaults survive into shipped composition | Risk through familiar patterns and competitor observation despite original authorship | Anti-convergence controls and comparison evidence matter more than authorship route. |
 
-## Decision
+## Conditional recommendation
 
-**Adopt Shopify Skeleton Theme as a pinned, audited primitive foundation, subject to live eligibility and license revalidation immediately before M2.**
+**Conditionally prefer Shopify Skeleton Theme as a pinned, audited primitive foundation, subject to M0 closure, the remaining M1 evidence, and live eligibility and license revalidation immediately before M2.**
 
 This is a recommendation for this product, not a general preference. Its value is the opportunity cost it avoids: rebuilding solved Shopify plumbing would consume accessibility, commerce-correctness, and testing capacity without strengthening the merchant promise. Fully original code would be justified if Skeleton proves legally or technically ineligible, materially violates the performance/accessibility architecture, or imposes composition assumptions that cannot be removed cleanly. None of those contradictions is established in the repository baseline.
 

@@ -72,7 +72,7 @@ Core storefront behavior must not depend on an app or API-backed app-like theme 
 
 ## Architecture decision gates
 
-- ADR-001: **accepted for M1**—use Skeleton Theme only as a pinned, audited primitive foundation, with live eligibility/license revalidation and an inherited-file inventory before M2; Dawn and Horizon are excluded.
+- ADR-001: **proposed conditional M1A recommendation**—prefer Skeleton Theme only as a pinned, audited primitive foundation if M0 closes, the remaining M1 gates pass, and live eligibility/license revalidation plus an inherited-file inventory are complete before M2; Dawn and Horizon are excluded.
 - ADR-002: theme-block adoption/nesting based on current support and editor test.
 - ADR-003: structured-content namespaces/recipes and portability.
 - ADR-004: cart page first; drawer only if usability/performance evidence supports it.
