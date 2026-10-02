@@ -1,5 +1,7 @@
 # Performance budget
 
+This budget is the authoritative internal performance gate referenced by [`engineering-compliance-standard.md`](engineering-compliance-standard.md) for every M2+ implementation; it remains separate from Shopify's submission floor.
+
 **Verified Theme Store floor (2 October 2026):** average Lighthouse scores of **60 Performance** and **90 Accessibility** across home, product, and collection pages, each tested on desktop and mobile, under Shopify's [performance requirements](https://shopify.dev/docs/storefronts/themes/store/requirements#performance). These are submission minimums, not our quality target. Refresh them before submission.
 
 Our internal targets below are deliberately stricter and remain separate release gates measured on realistic demo content. Meeting the internal target should satisfy the numeric Theme Store floor, but neither Lighthouse score proves full accessibility or guarantees approval.

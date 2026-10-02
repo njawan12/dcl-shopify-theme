@@ -1,5 +1,7 @@
 # Shopify Theme Store requirements baseline
 
+This dated record is the source for rules classified **SHOPIFY-REQUIRED** in [`engineering-compliance-standard.md`](engineering-compliance-standard.md). The engineering standard governs M2+ implementation and review, while unchecked items here remain **REVALIDATE** rather than implied requirements.
+
 **Verified-current snapshot:** 2 October 2026. The requirements explicitly marked **VERIFIED 2026-10-02** below were independently checked against Shopify's official [Theme Store requirements](https://shopify.dev/docs/storefronts/themes/store/requirements), [submission documentation](https://shopify.dev/docs/storefronts/themes/store/submission), and linked official guidance. Other unchecked details remain **REVALIDATE**. Because requirements change, refresh the complete snapshot before M1's foundation ADR and again before submission.
 
 Theme Store approval is a product and architecture constraint from the first ADR, not a submission cleanup exercise. A verified requirement is a current input, not a claim that this product complies or will be approved.

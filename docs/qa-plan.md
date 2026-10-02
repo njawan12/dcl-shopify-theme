@@ -1,5 +1,7 @@
 # QA plan
 
+From M2 onward, this plan supplies test evidence for the mandatory pre-code and implementation PR gates in [`engineering-compliance-standard.md`](engineering-compliance-standard.md). Applicable hard gates cannot be marked complete on automation alone or while a known failure remains.
+
 ## Quality gates
 
 1. Schema/static gate: JSON parse, Theme Check, locale parity, packaging allowlist.
