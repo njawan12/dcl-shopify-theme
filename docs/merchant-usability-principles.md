@@ -12,6 +12,10 @@
 8. **Safe boundaries.** Tokenized choices prevent unreadable widths, tiny targets and chaotic spacing.
 9. **Honest preview.** Editor behavior matches storefront behavior and responds to editor lifecycle events.
 10. **Apps are guests.** Generic app-block positions are visible and resilient; no vendor lock-in.
+11. **Start with intent.** Product Launch, Paid Landing Page, Collection Launch, Editorial Story, and Product Education are native presets/templates with a coherent default sequence—not a separate builder.
+12. **Bound the promise.** “Without routine developer dependence” covers common brand, content, merchandising, and campaign work; it does not cover bespoke logic or arbitrary app behavior.
+
+The shallow-structure rule also implements Shopify's verified warning against unnecessarily deep block nesting and configuration that obscures primary controls. M1 must test the hierarchy itself, not only whether participants eventually finish a task.
 
 ## Task acceptance criteria
 
@@ -21,7 +25,7 @@
 | Homepage | Start from a complete preset, reorder sections, replace content; no blank canvas required |
 | Polished PDP | Reorder purchase/story blocks, select gallery mode, connect optional sources without creating Liquid templates |
 | New product | Standard product data launches acceptably; enhancements are optional |
-| Campaign page | Assign one campaign template, add job-named presets, publish without template duplication |
+| Intent-led page | Choose a job-appropriate native template/preset, replace content, reorder bounded sections, and publish without template or code duplication |
 | Collection merchandising | Configure hero, filters, card quick add and promotion modules with legitimate data |
 | Promotions | Use announcement, offer callout and promo tiles; no fake urgency |
 | Product information | Reorder grouped blocks and accordions; no fragment-per-block clutter |
@@ -45,3 +49,7 @@ For every common scenario: give a marketing manager representative content, obse
 ## Structured content onboarding
 
 Ship documentation recipes, not required definitions. Use namespaced definitions only after confirming Theme Store rules and portability. Demonstrate a zero-setup PDP, then optional benefits/usage/ingredients/FAQ enhancement. Never hide critical purchase information solely in a metaobject.
+
+## Intent-led workflow model
+
+Starting compositions are versioned JSON template defaults and section presets in Shopify's editor. They front-load the smallest coherent set of decisions for a commercial job, inherit global tokens, use ordinary sections/blocks, and remain reorderable. Job language may appear in preset names and documentation; storefront labels remain content-appropriate. Success is fewer decisions and faster task completion—not merely a different default JSON order.

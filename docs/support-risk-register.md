@@ -22,6 +22,11 @@ Scales: likelihood (L) and impact (I), 1–5. Score = L×I. Review each mileston
 | S16 | Demo imagery sets unrealistic expectation | 3 | 3 | 9 | Multiple content qualities/aspect ratios; accurate listing disclosure | Marketing |
 | S17 | Originality rejected | 2 | 5 | 10 | Original design history, code audit, pre-submission comparison | Product/legal |
 | S18 | Requirements change after architecture | 3 | 5 | 15 | Revalidate at each release; traceability matrix | Technical owner |
+| S19 | Multi-vertical ambition creates generic controls | 4 | 5 | 20 | Cross-vertical prototype tasks; setting budgets; narrow on trigger | Product/design |
+| S20 | “No developer dependence” is read as unlimited customization | 4 | 4 | 16 | Define routine jobs and exclusions in listing/docs/support policy | Product/support |
+| S21 | Intent presets are renamed templates, not differentiated workflow | 3 | 5 | 15 | Measure decision count, completion time and comprehension against blank/default baseline | Research |
+| S22 | Each preset multiplies demo, documentation, QA and support obligations | 4 | 4 | 16 | Require funded demo/support owner before approving a preset; cap launch presets | Product/support |
+| S23 | Theme Store exclusivity conflicts with distribution plan | 2 | 5 | 10 | Founder accepts exclusive channel before M1 investment; legal/commercial review | Founder/legal |
 
 ## Support design rules
 

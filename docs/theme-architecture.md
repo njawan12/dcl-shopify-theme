@@ -11,7 +11,7 @@ Repository inspection on 2 October 2026 found an empty Git tree: no prototype, c
 | DELETE | Nothing |
 | NEEDS INVESTIGATION | Git remote/history and intended packaging/CI remain unknown |
 
-Decision: start an original foundation only after the approved-starting-code rule and product hypothesis are validated. There is nothing to preserve.
+Verified foundation constraint as of 2 October 2026: use **Skeleton Theme or fully original code only**. Dawn and Horizon are excluded from new Theme Store submissions. ADR-001 will choose between the two eligible paths before production implementation; there is nothing in this repository to preserve.
 
 ## Proposed distributable tree
 
@@ -42,10 +42,17 @@ Business logic belongs in one snippet/module. Blocks express merchant intent, no
 ## Template strategy
 
 - One excellent default per required resource.
-- `page.campaign.json` is a reusable landing canvas; merchants assign it rather than duplicate Liquid.
+- Native JSON templates and section presets provide five intent-led starts: Product Launch, Paid Landing Page, Collection Launch, Editorial Story, and Product Education. Exact template count/names are an M1 decision; do not create one template per permutation.
+- A campaign/landing template is a bounded native canvas; merchants assign it rather than duplicate Liquid. It is not a proprietary page builder.
 - Product flexibility comes from blocks in the main product section and dynamic sources, not dozens of alternate templates.
 - Section groups own announcement/header/footer surfaces.
 - Preset JSON is treated as product UX and versioned/tested.
+
+## Composition contracts
+
+**Reveal → Explain → Prove → Compare → Act** is responsibility metadata used in briefs, schemas, defaults, and QA—not a runtime funnel or mandatory sequence. Sections have one primary responsibility and can serve more than one job context without becoming universal containers. PDPs preserve a factual purchase core; collections preserve product/filter semantics; landing pages choose only the stages needed; mobile priority may reorder or condense supporting content while preserving meaning.
+
+Shared contracts describe durable intent (hero/reveal, benefit/explanation, evidence/proof, comparison, purchase/CTA), while preset copy and default content express Beauty & Wellness. A proposed adjacent preset must reuse these contracts with no vertical-mode switch, no unexplained generic settings, and no material increase above setting budgets. Otherwise an ADR must recommend narrowing.
 
 ## JavaScript strategy
 
@@ -59,10 +66,16 @@ Native cascade layers and custom properties: reset → base → tokens → compo
 
 Main product, featured product and selected content surfaces accept `@app`. Wrappers must not impose destructive widths. Native recommendations and complementary-product APIs are used where supported. No theme-owned reviews, subscriptions, loyalty, bundle engine or analytics.
 
+Core storefront behavior must not depend on an app or API-backed app-like theme functionality. App blocks are optional extension surfaces: removing or never installing an app cannot make the theme's promised core experience incomplete.
+
 ## Architecture decision gates
 
-- ADR-001: approved starting foundation after official revalidation.
+- ADR-001: choose Skeleton Theme or fully original code, with provenance, licensing, originality, maintenance, and delivery trade-offs; Dawn and Horizon are excluded.
 - ADR-002: theme-block adoption/nesting based on current support and editor test.
 - ADR-003: structured-content namespaces/recipes and portability.
 - ADR-004: cart page first; drawer only if usability/performance evidence supports it.
 - ADR-005: RTL product commitment versus feasibility-only support.
+- ADR-006: intent-led native template/preset map and merchant naming after editor prototype tests.
+- ADR-007: multi-vertical fitness decision after Beauty & Wellness, apparel, and food/beverage content stress tests; narrowing is an acceptable result.
+
+Theme Store approval is a hard architecture constraint. Supported directories, Online Store 2.0 templates/sections/blocks, shallow configuration, editor lifecycle, optional app blocks, performance, accessibility, responsiveness, localization, required commerce behavior, per-preset demo quality, support obligations, and prohibited-function boundaries enter ADR acceptance criteria. The dated verified baseline and remaining unknowns live in `shopify-requirements.md`; no unchecked implementation item is compliance.

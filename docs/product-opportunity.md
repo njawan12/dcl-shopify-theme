@@ -4,7 +4,7 @@
 
 Score: 1 weak/unfavorable, 5 strong/favorable. For support burden and complexity, 5 means low burden/low complexity. Scores are hypotheses pending interviews and current listing audit.
 
-| Criterion | Launch OS for beauty/personal care | High-volume generalist | Editorial fashion | Wellness education |
+| Criterion | Beauty-first operability system | High-volume generalist | Editorial fashion | Wellness education |
 |---|---:|---:|---:|---:|
 | Addressable audience | 4 | 5 | 5 | 3 |
 | Competitive whitespace | 3 | 1 | 2 | 4 |
@@ -19,9 +19,13 @@ Score: 1 weak/unfavorable, 5 strong/favorable. For support burden and complexity
 | Multi-preset potential | 5 | 5 | 3 | 4 |
 | **Total / 55** | **46** | **31** | **38** | **41** |
 
-## Recommendation
+## Reconciled product hypothesis
 
-Build a **launch-oriented premium theme for beauty and personal-care DTC teams**, expandable to adjacent wellness and lifestyle presets. Position it as “from product truth to coordinated launch”: a merchant can create structured, optional product stories and reuse a consistent visual grammar across PDPs, collections, and campaign pages.
+Build a **premium, multi-vertical—but deliberately non-universal—theme for design-conscious DTC brands whose marketing/ecommerce teams want an agency-quality storefront without routine developer dependence**. Beauty & Wellness is the first preset and reference implementation, not a constraint baked into section names or data contracts. Apparel/fashion, lifestyle, and food/beverage are candidates only after the same architecture produces coherent, low-complexity workflows for them.
+
+The north star is **maximum useful flexibility with minimum cognitive complexity**. The primary differentiator is merchant operability: exceptional defaults, mobile commerce, semantic controls, sophisticated storytelling and merchandising, and optional structured content. Feature count is not the proposition.
+
+This broadens the addressable hypothesis from “beauty launch OS” without reverting to a generalist theme. If prototype tests require vague abstractions, vertical switch settings, excessive controls, or degraded Beauty & Wellness UX, narrow the product rather than force preset breadth.
 
 This is not a claim that native data is automatically synchronized everywhere; Liquid sections must expose deliberate dynamic sources and fallbacks. The promise is a designed workflow, not magic.
 
@@ -45,16 +49,28 @@ This is not a claim that native data is automatically synchronized everywhere; L
 
 ## Go/no-go conditions
 
-Proceed to M1 only if: at least 8 target-merchant interviews show repeated launch/PDP maintenance pain; five moderated users can understand the proposed content model; current competitor teardown identifies at least three workflow gaps; DCL commits a named product owner, support owner, design lead and QA capacity; and official eligibility/requirements are revalidated.
+Proceed to M1 only if: at least 8 target-merchant interviews show repeated launch/PDP maintenance pain; concept walkthroughs show the proposed content model is understandable enough to prototype; current competitor teardown identifies at least three workflow gaps; DCL commits a named product owner, support owner, design lead and QA capacity; and official eligibility/requirements are revalidated. The five-user comparative usability study belongs to M1, not this gate.
+
+## Positioning and commercial promise
+
+**Agency-quality DTC commerce that a marketing team can operate.** Native Shopify starting compositions help merchants begin with a commercial job—Product Launch, Paid Landing Page, Collection Launch, Editorial Story, or Product Education—instead of an empty canvas or an uncurated section catalog. This is not a proprietary builder and must not promise automatic cross-page synchronization Shopify does not provide.
 
 ## Business recommendation
 
-**CHANGE DIRECTION, then BUILD conditionally.** Do not build a broad “premium high-volume DTC theme.” Validate and build the narrower launch operating system. Failure of any go/no-go condition means **DO NOT BUILD yet**.
+**PROCEED TO VALIDATION, not implementation.** Test the multi-vertical architecture through Beauty & Wellness first. Do not build a broad “premium high-volume” theme. Failure of a go/no-go condition means **DO NOT START M1**; failure of cross-vertical prototype tests means narrow the positioning and preset roadmap rather than add abstraction.
 
 ## Founder decisions
 
-1. Approve beauty/personal care as the lead market and wellness/lifestyle only as future presets?
+1. Approve design-conscious DTC teams as the target and Beauty & Wellness as the first reference preset?
 2. Commit to interviews and moderated usability before implementation?
 3. Choose a support SLA, staffing model and annual maintenance budget?
 4. Accept an opinionated scope that rejects fake urgency and app-like features?
 5. Fund original demo photography/copy and accessibility review?
+
+## Unresolved strategic risks
+
+- “Agency-quality” may depend more on costly imagery and copy than theme architecture; grayscale testing must isolate the product contribution.
+- Intent-led compositions may be only renamed presets. They differentiate only if they reduce setup decisions and preserve a coherent decision flow under real content.
+- One block/section vocabulary may not serve beauty education, apparel variants, and food merchandising without generic labels or setting growth.
+- Reduced developer dependence can become an unbounded support promise. It means routine publishing and brand work, not custom business logic or every app integration.
+- Theme Store originality and starting-foundation rules remain live-verification gates; this strategy is a hypothesis, not evidence of approval.

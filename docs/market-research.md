@@ -5,7 +5,7 @@
 
 ## Method and evidence standard
 
-The repository contained no prototype or prior research at the start of M0. This study uses the official Theme Store taxonomy, product-page feature vocabulary, Shopify developer documentation, and publicly observable merchant-review patterns. A network proxy blocked live retrieval during this work; therefore volatile facts (price, preset count, review count/rating, current browser and Lighthouse thresholds) are explicitly marked **REVALIDATE**, never presented as current fact. Review count is treated as adoption evidence, not sales evidence.
+The repository contained no prototype or prior research at the start of M0. This study uses the official Theme Store taxonomy, product-page feature vocabulary, Shopify developer documentation, and publicly observable merchant-review patterns. A network proxy blocked live retrieval during the original study; therefore listing price, preset count, review count/rating, and current browser versions remain **REVALIDATE**, never presented from memory. Nine Theme Store requirement facts—including the Lighthouse floor—were subsequently independently verified and dated 2 October 2026 in [`shopify-requirements.md`](./shopify-requirements.md). Review count is treated as adoption evidence, not sales evidence.
 
 Sources to re-open during the approval gate: [Theme Store](https://themes.shopify.com/), [Theme Store collections](https://themes.shopify.com/collections), [Theme Store requirements](https://shopify.dev/docs/storefronts/themes/store/requirements), [theme architecture](https://shopify.dev/docs/storefronts/themes/architecture), and each linked listing below.
 
@@ -43,13 +43,15 @@ The required four are joined by Broadcast, Symmetry, Motion, and Pipeline becaus
 | Home/lifestyle | Storytelling and specifications | High | Larger media/specification needs; fewer repeat launches | Adjacent |
 | General high-volume | Broad audience | Very high | Becomes generic and checklist-led | Reject as positioning |
 
-## Customer hypothesis to validate
+## Customer and vertical hypothesis to validate
 
-The best initial customer is a design-conscious beauty, personal-care, or adjacent wellness DTC team with roughly 20–500 products, frequent launches, a marketing manager operating the theme editor, and enough revenue to value reduced agency dependence. Catalog range is a design target, not a promise that every enterprise workflow is native.
+The target is a design-conscious DTC brand with a marketing/ecommerce team operating Shopify, enough content and campaign cadence to value agency-quality presentation, and a desire to complete routine storefront work without a developer. It is not the developer-free promise of a SaaS builder, nor a fit for every catalog or enterprise workflow.
+
+Beauty & Wellness is the first research lens, demo preset, and reference content model because product education and launch cadence stress the proposed system well. Architecture may later support apparel/fashion, lifestyle, and food/beverage presets, but only through demonstrated shared jobs—not universalized labels or vertical toggles. The current 20–500-product range remains a research assumption, not a listing claim.
 
 ## Primary research still required
 
-Before M1, DCL should conduct 8–12 structured merchant interviews, review at least 50 recent reviews across the sample, record Theme Store listing facts in a dated spreadsheet, and run task-based teardowns of live demos on phone and desktop. Questions must test campaign creation time, PDP maintenance, structured content adoption, app-block friction, and upgrade pain. This is a go/no-go gate, not optional validation.
+Before M1, DCL should conduct 8–12 structured merchant interviews (a majority in Beauty & Wellness and at least three across candidate adjacent verticals), review at least 50 recent reviews across the sample, record Theme Store listing facts in a dated spreadsheet, and run task-based teardowns of live demos on phone and desktop. Questions must test campaign creation time, PDP maintenance, semantic-setting comprehension, structured content adoption, app-block friction, mobile workflows, and upgrade pain. This is a go/no-go gate, not optional validation.
 
 ## Facts versus hypotheses
 
