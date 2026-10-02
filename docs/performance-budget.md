@@ -1,6 +1,8 @@
 # Performance budget
 
-Shopify’s current minimum must be re-read at [Theme Store requirements](https://shopify.dev/docs/storefronts/themes/store/requirements#performance). Our internal target is deliberately higher and measured on realistic demo content, both mobile and desktop.
+**Verified Theme Store floor (2 October 2026):** average Lighthouse scores of **60 Performance** and **90 Accessibility** across home, product, and collection pages, each tested on desktop and mobile, under Shopify's [performance requirements](https://shopify.dev/docs/storefronts/themes/store/requirements#performance). These are submission minimums, not our quality target. Refresh them before submission.
+
+Our internal targets below are deliberately stricter and remain separate release gates measured on realistic demo content. Meeting the internal target should satisfy the numeric Theme Store floor, but neither Lighthouse score proves full accessibility or guarantees approval.
 
 ## User-experience budgets (75th percentile lab repeat set)
 
@@ -31,7 +33,7 @@ Images are content-dependent; enforce responsive widths, accurate `sizes`, dimen
 
 ## Reference pages and fixtures
 
-Test home editorial, 24-product collection with filters, media-heavy product (10 images + video), simple product, campaign page, search results, and populated cart. Use production builds, cold cache, consistent mobile throttling, three or more runs, median plus worst run, and saved reports.
+Test home editorial, 24-product collection with filters, media-heavy product (10 images + video), simple product, each materially distinct intent-led composition, search results, and populated cart. Use production builds, cold cache, consistent mobile throttling, three or more runs, median plus worst run, and saved reports. Presets share budgets; multi-vertical ambition does not justify loading unused assets or code.
 
 ## Engineering rules
 
@@ -45,4 +47,4 @@ Test home editorial, 24-product collection with filters, media-heavy product (10
 
 ## CI and release gate
 
-Theme Check and static budgets run on every change. Lighthouse CI runs against a representative preview when credentials exist. Production-like store measurements require Shopify credentials and content; until supplied, this remains an explicit blocked check, never a pass.
+Theme Check and static budgets run on every change. Lighthouse CI runs against a representative preview when credentials exist. The submission report records home, product, and collection on desktop and mobile, then calculates the required averages separately from internal pass/fail results. Production-like store measurements require Shopify credentials and content; until supplied, this remains an explicit blocked check, never a pass.

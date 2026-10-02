@@ -20,6 +20,8 @@
 | Long translations break polished compositions | Known localization risk | Truncation/overflow | Flexible layouts and pseudo-localization | Never encode text in imagery |
 | Merchants cannot tell what will happen when data is absent | Review pattern | Empty gaps and support demand | Explicit editor help and graceful omission | Preview all empty states |
 | “Flexible” themes produce inconsistent brands | Product hypothesis | Store looks templated or broken | Constrained tokens and opinionated presets | No arbitrary per-block pixel controls |
+| Merchants begin from a blank canvas or irrelevant section list | Product hypothesis | Slow assembly and incoherent campaigns | Native job-led starting compositions | Presets remain editable; no proprietary builder |
+| Routine edits require developer interpretation | Product hypothesis | Cost, delay and fragile source edits | Semantic controls, strong defaults and documented boundaries | Do not imply support for custom business logic |
 
 ## Jobs to be done
 
@@ -28,6 +30,7 @@
 3. “When I run a promotion, let me emphasize legitimate offers without damaging trust or mobile usability.”
 4. “When our catalog grows, keep navigation and product comparison understandable.”
 5. “When apps are installed, provide stable insertion points without making the theme depend on them.”
+6. “When I start a commercial job, give me a coherent native composition whose next decisions I understand.”
 
 ## Custom-code requests to quantify
 

@@ -9,6 +9,8 @@
 5. Performance gate: budgets on realistic fixtures.
 6. Release gate: required browser/webview matrix, regression and Theme Store checklist.
 
+The Theme Store Lighthouse evidence set is fixed by the verified 2 October 2026 baseline: home, product, and collection on desktop and mobile, with average minimums of 60 Performance and 90 Accessibility. Report these submission results separately from the stricter internal budgets in `performance-budget.md`; automated accessibility scores never replace manual testing.
+
 ## Fixture matrix
 
 - **Products:** one variant; many options/variants within platform limits; unavailable combinations; sold out; sale; unit price; long title/description; one/many/no media; image/video/3D; no structured content; complete structured content; selling-plan app block.
@@ -24,6 +26,12 @@ Phone widths 320, 360, 390/393 and 430 px; common tablet portrait/landscape; 128
 ## Critical journeys
 
 Search → filter → product → select variant → add → update cart → checkout handoff; deep mobile navigation; gallery/video/zoom; quick add simple and complex products; predictive search keyboard flow; localization change; campaign CTA; app-block placement; failure/offline-ish response states.
+
+## Product-hypothesis tests
+
+Before implementation, compare each intent-led composition with a blank/default editor start. Record time, decision count, reversals, help requests, completion, and confidence. Five target merchants must each complete representative routine work without code; at least 80% of tasks must succeed unassisted. Test Beauty & Wellness content deeply and run architecture-fit probes with apparel and food/beverage content. Fail the multi-vertical hypothesis if probes require vertical switches, vague labels, setting-budget exceptions, inaccessible mobile compromises, or developer intervention for routine work.
+
+For Launch Narrative prototypes, verify that participants understand the shopper decision flow without seeing the internal stage names; test omitted and reordered stages, empty structured data, and mobile priority. A different JSON order alone is not a pass.
 
 ## Editor coverage
 
@@ -41,6 +49,7 @@ Automated axe/Lighthouse cannot certify accessibility. Manually verify landmarks
 - axe integration for repeatable rule detection.
 - Lighthouse CI for reference routes and budget assertions.
 - Visual regression with deterministic fixtures and reviewed baselines.
+- Preset/demo traceability: every preset maps to at least one demo store matching its primary industry and catalog position.
 
 Credentials and a development store are required for meaningful end-to-end, editor, Markets, app-block and performance checks. Their absence blocks those checks.
 

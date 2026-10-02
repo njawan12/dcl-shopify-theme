@@ -3,10 +3,35 @@
 No production theme work begins until M0 gates are approved. Each milestone is an independently reviewable merge with updated requirements, risk register and evidence.
 
 ## M0 — Research and validation (current)
-**Objective:** establish a defensible decision. **Scope/files:** 13 `docs/` deliverables; live listing/review workbook and interviews still gated. **Acceptance:** founder decisions answered, current requirements captured, ≥8 interviews and competitor task teardowns completed. **Tests:** link check, document consistency, evidence audit. **Dependencies:** network access and participants. **Risks:** directional desk research mistaken for validation.
+**Objective:** establish a defensible product direction. **Scope/files:** 13 reconciled `docs/` deliverables; live listing/review workbook and interviews remain gates. **Acceptance:** one consistent target/positioning/vertical strategy; explicit unknowns; founder decisions answered; current official requirements captured; ≥8 interviews and competitor task teardowns completed. **Tests:** link check, terminology/priority audit, evidence audit. **Dependencies:** live official sources and participants. **Risks:** internally consistent hypotheses being mistaken for validation.
 
 ## M1 — Experience prototype and foundation decision
-**Objective:** prove Launch Narrative System before code. **Scope:** journeys, grayscale/mobile prototypes, token specimen, ADR-001–005. **Files:** design source, `docs/adr/`, architecture updates. **Acceptance:** five target merchants complete core prototype tasks; originality review passes; approved starting foundation documented. **Tests:** moderated tasks, accessibility annotation review. **Dependencies:** M0 gate. **Risks:** differentiation depends on imagery.
+**Objective:** decide whether operability, intent-led starts, and the Launch Narrative create a distinctive, usable product before production theme code.
+
+**Exact scope:**
+
+1. Map current-state and proposed journeys for Product Launch, Paid Landing Page, Collection Launch, Editorial Story, and Product Education.
+2. Produce grayscale, mobile-first clickable prototypes for home, PDP, collection, and campaign/landing contexts, including empty/long content and zero structured-data states.
+3. Prototype the Beauty & Wellness preset deeply; apply the same section/block contracts to one apparel and one food/beverage content probe without polishing them into launch presets.
+4. Define semantic global tokens and bounded section controls in a token/schema specimen; inventory setting counts and progressive disclosure.
+5. Map Reveal/Explain/Prove/Compare/Act responsibilities to each surface, including omissions, mobile priority, merchandising, and optional data.
+6. Compare intent-led starts against a blank/default baseline in moderated editor simulations with five target merchants.
+7. Complete ADR-001–007: choose Skeleton Theme or fully original code (Dawn/Horizon excluded), then decide theme blocks, structured data, cart, RTL, native intent-composition map, and multi-vertical fitness/narrowing.
+8. Refresh remaining Theme Store unknowns and dated competitor evidence. Produce an architectural originality comparison and requirements traceability map; do not claim approval.
+
+**Acceptance criteria:**
+
+- Five target merchants complete at least 80% of representative tasks unassisted, without code; median time and decision count improve over the baseline, and no critical accessibility issue is designed in.
+- Participants can choose the correct starting composition and explain the shopper flow without being taught the internal narrative terms.
+- Zero-setup states are visually complete; structured content demonstrably enhances rather than unlocks basic quality.
+- Beauty & Wellness has a distinctive, agency-quality reference direction in grayscale and token specimens—not solely through photography, copy, fonts, or motion.
+- Apparel and food/beverage probes reuse contracts within documented setting budgets and without vertical toggles or vague catch-all controls; otherwise ADR-007 explicitly narrows the product.
+- Mobile prototypes keep purchase/navigation priorities clear, use no conflicting sticky layers, and specify keyboard, focus, reduced-motion, zoom, and content-order behavior.
+- **Blocking originality gate:** a competitor comparison identifies at least three defensible workflow gaps, and prototype/system evidence demonstrates a fundamentally different architecture and overall experience with meaningful design and functional innovation. Intent-led templates, Launch Narrative terminology, semantic settings, presets, extra sections/settings, styling, or different JSON ordering alone fail this gate and block M2.
+- ADR-001 chooses Skeleton Theme or fully original code, documenting provenance and trade-offs; Dawn and Horizon are excluded. All applicable Theme Store requirements have an owner, architecture mapping, validation status, and test plan; unknown mandatory rules block M2.
+- Founder approves the target, Theme Store-exclusive distribution, support/bug-fix obligation, public documentation/contact plan, per-preset demo investment, named product/design/engineering/QA/support owners, and the resulting build/narrow/no-build decision.
+
+**Out of scope:** production Liquid, final CSS/JavaScript, a complete scaffold, integrations, and production presets. **Dependencies:** completed M0 empirical gates. **Risks:** imagery carries perceived quality; workflow advantage is not measurable; cross-vertical abstraction weakens Beauty & Wellness; official requirements invalidate a foundation choice.
 
 ## M2 — Theme foundation/design system
 **Objective:** valid, fast, accessible shell. **Scope:** layouts, tokens, settings, locales, base primitives, section groups, CI/package allowlist. **Files:** `layout/`, `config/`, `locales/`, base `assets/`, core `snippets/`. **Acceptance:** required skeleton routes render, branding task ≤10 minutes. **Tests:** Theme Check, JSON/locale parity, keyboard baseline, CSS/JS budgets. **Dependencies:** M1. **Risks:** starting-code policy changes.
@@ -24,10 +49,10 @@ No production theme work begins until M0 gates are approved. Each milestone is a
 **Objective:** calm, correct cart page; decide drawer separately. **Files:** cart sections/templates/modules. **Acceptance:** add/update/remove/errors and assistive announcements. **Tests:** concurrency/error/app-block cases, browsers. **Dependencies:** M5. **Risks:** accelerated checkout/app behavior.
 
 ## M7 — Narrative content system
-**Objective:** implement Reveal/Explain/Prove/Compare/Act reusable grammar. **Files:** narrative sections/blocks/snippets and presets. **Acceptance:** missing-data safety and three art-direction demonstrations. **Tests:** editor task study, long content, reduced motion, visual regression. **Dependencies:** M2/M5. **Risks:** generic-section drift.
+**Objective:** implement the validated Reveal/Explain/Prove/Compare/Act responsibility grammar without forcing a five-step funnel. **Files:** narrative sections/blocks/snippets and presets. **Acceptance:** missing-data safety and validated context-specific compositions. **Tests:** editor task study, omitted/reordered stages, long content, reduced motion, visual regression. **Dependencies:** M2/M5. **Risks:** generic-section drift or marketing-only terminology.
 
 ## M8 — Campaign workflow
-**Objective:** build a launch page without developer/template copying. **Files:** `page.campaign.json`, six section presets, documentation. **Acceptance:** marketing managers complete launch task at ≥80% unassisted success. **Tests:** editor lifecycle, duplicate/reorder/remove, mobile/performance. **Dependencies:** M7. **Risks:** too much choice.
+**Objective:** implement validated native starting compositions without developer/template copying. **Files:** the minimum approved JSON templates and job-named section presets, plus documentation. **Acceptance:** marketing managers choose an appropriate start and complete each supported job at ≥80% unassisted success. **Tests:** editor lifecycle, duplicate/reorder/remove, mobile/performance. **Dependencies:** M7. **Risks:** too much choice or one-template-per-job sprawl.
 
 ## M9 — Search and content completeness
 **Objective:** complete required storefront resources. **Files:** search, blog/article, page, 404, password, gift-card, customer-related templates as currently required. **Acceptance:** requirements traceability complete. **Tests:** content/empty/localization/a11y cases. **Dependencies:** M2–M3. **Risks:** overlooked platform states.
@@ -48,11 +73,11 @@ No production theme work begins until M0 gates are approved. Each milestone is a
 **Objective:** production confidence across current required matrix. **Acceptance:** no P0/P1 defects; localization and webviews verified. **Tests:** complete QA plan, failure injection and regression. **Dependencies:** M12–M13. **Risks:** device lab access.
 
 ## M15 — Demo preset and commercial readiness
-**Objective:** honest, distinctive sales demonstration and support readiness. **Scope:** original licensed content, listing assets, docs, support playbooks, release notes. **Acceptance:** demo shows standard and enhanced data; no misleading claims; SLA staffed. **Tests:** content/license audit, merchant onboarding rehearsal. **Dependencies:** M11–M14. **Risks:** visual quality/content cost.
+**Objective:** honest, distinctive sales demonstration and support readiness. **Scope:** at least one industry/catalog-appropriate demo store for every preset, original licensed content, listing assets, public documentation and support contact form, support/bug-fix playbooks, and release notes. **Acceptance:** every preset has a corresponding demo; demos show standard and enhanced data; no misleading claims; support ownership and SLA are staffed. **Tests:** preset/demo mapping, content/license audit, public support-path check, merchant onboarding rehearsal. **Dependencies:** M11–M14. **Risks:** visual quality, multiplied preset cost, and support capacity.
 
 ## M16 — Theme Store submission
 **Objective:** submit a traceable compliant package. **Scope:** final requirements refresh, package, listing and reviewer responses. **Acceptance:** all official checks and internal release gates pass; version tagged. **Tests:** clean-store install, package diff, full smoke and checklist. **Dependencies:** M15. **Risks:** requirement drift/reviewer findings.
 
 ## Exact next milestone
 
-Complete the unfinished empirical portion of **M0**—live requirement capture, dated competitor/review audit, and 8–12 merchant interviews—then hold a founder go/no-go review. Only after approval begin M1; do not scaffold theme code yet.
+Complete the unfinished empirical portion of **M0**—refresh remaining unverified official requirements, complete the dated competitor/review audit, conduct 8–12 merchant interviews (including adjacent-vertical evidence), and hold the founder go/no-go review. The nine dated requirement facts in `shopify-requirements.md` are now verified; implementation compliance is not. M0 is **not ready to close** until the remaining gates pass. Only after approval begin the exact M1 scope above; do not scaffold theme code yet.

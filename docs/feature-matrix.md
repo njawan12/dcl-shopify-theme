@@ -22,7 +22,7 @@ Priorities: **P0** initial commercial release; **P1** valuable follow-up; **P2**
 | Grouped accordions/highlights | P0 | High | Medium | Low | Medium | Dynamic sources optional |
 | `@app` block surfaces | P0 | High | Medium | Medium | Low | Vendor-neutral |
 | Launch Narrative System sections | P0 | High | High | Medium | High | Reveal/Explain/Prove/Compare/Act |
-| Campaign page template + six presets | P0 | High | High | Medium | High | No proprietary builder |
+| Five intent-led native starting compositions | P0 | High | High | Medium | High | Product Launch, Paid Landing, Collection Launch, Editorial Story, Product Education; no proprietary builder |
 | Optional metafield/metaobject recipes | P0 | High | High | High | High | Documentation + fallbacks |
 | Cart page with errors/updates | P0 | High | High | Medium | Low | Server-correct baseline |
 | Cart drawer | P1 | Medium | High | High | Low | Only after app/a11y validation |
@@ -31,7 +31,7 @@ Priorities: **P0** initial commercial release; **P1** valuable follow-up; **P2**
 | Product comparison section | P1 | Medium | High | High | High | Manual/native data only |
 | Routine/collection builder editorial flow | P1 | High | High | Medium | High | Not an actual bundle engine |
 | RTL production support | P1 | Medium | High | High | Medium | Commit only with native-language QA |
-| Additional food/home preset | P2 | Medium | High | Medium | Medium | After primary-market traction |
+| Apparel/lifestyle/food-beverage presets | P2 | Medium | High | High | Medium | Only after architecture-fit evidence; narrow instead of adding generic controls |
 | Advanced B2B/quantity rules UX | P2 | Medium | High | High | Medium | Re-evaluate audience |
 | Reviews engine | REJECT | Low | High | High | Low | App responsibility |
 | Subscription engine | REJECT | Low | High | High | Low | App/platform responsibility |
