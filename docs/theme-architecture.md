@@ -1,5 +1,7 @@
 # Theme architecture
 
+All production architecture selected for M2 onward must pass the pre-code and implementation review gates in [`engineering-compliance-standard.md`](engineering-compliance-standard.md); the standard classifies Shopify requirements separately from DCL architecture rules and best practices.
+
 ## Prototype disposition
 
 Repository inspection on 2 October 2026 found an empty Git tree: no prototype, configuration, assets, or tests.

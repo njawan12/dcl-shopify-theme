@@ -2,6 +2,8 @@
 
 No production theme work begins until M0 gates are approved. Each milestone is an independently reviewable merge with updated requirements, risk register and evidence.
 
+From M2 onward, every milestone must complete the pre-code review and every implementation PR must pass the mandatory checklist in [`engineering-compliance-standard.md`](engineering-compliance-standard.md). Known failures of applicable Shopify requirements or internal hard gates block implementation completion.
+
 ## M0 — Research and validation (current)
 **Objective:** establish a defensible product direction. **Scope/files:** 13 reconciled `docs/` deliverables; live listing/review workbook and interviews remain gates. **Acceptance:** one consistent target/positioning/vertical strategy; explicit unknowns; founder decisions answered; current official requirements captured; ≥8 interviews and competitor task teardowns completed. **Tests:** link check, terminology/priority audit, evidence audit. **Dependencies:** live official sources and participants. **Risks:** internally consistent hypotheses being mistaken for validation.
 
