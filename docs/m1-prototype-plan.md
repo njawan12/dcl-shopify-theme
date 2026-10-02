@@ -91,7 +91,7 @@ These are fitness probes, not launch presets. If either requires unique section 
 4. Count every consequential merchant choice: selecting/adding/removing/reordering a section, selecting a data source/object, changing a default, or reversing an error. Do not count navigation clicks that make no design/content decision; record them separately.
 5. Measure task time from reading the brief to a declared preview-ready state; pause only for moderator/equipment interruption. Record completion, assists, errors, backtracks, and confidence.
 6. Keep merchant-flow explanation as a merchant mental-model measure; use the separate representative-shopper study below for shopper comprehension.
-7. Compare workflow-level paired medians and raw participant data. These small samples provide directional product evidence only; do not calculate or claim statistical significance.
+7. Pre-register these B1 median time ceilings before testing: **Product Launch 12 minutes; Paid Landing Page 8 minutes; Collection Launch 10 minutes; Editorial Story 9 minutes; Product Education 12 minutes.** Timing starts when the participant finishes reading the task brief and begins work, and ends at the declared preview-ready state; only moderator/equipment interruptions pause the clock. Scope is the complete representative workflow task defined by the assigned brief, not a partial subtask.\n8. Compare workflow-level paired medians and raw participant data. Each workflow must meet **both** its absolute B1 median ceiling and a below-zero paired median change versus B0. These small samples provide directional product evidence only; do not calculate or claim statistical significance.
 
 ## Five-user moderated test
 
@@ -115,7 +115,7 @@ Each session includes consent/check-in, the two assigned paired tasks, an unaide
 
 The moderator does not teach Reveal/Explain/Prove/Compare/Act. Any hint, corrective direction, demonstrated step, or answer needed to continue counts as moderator assistance and makes that scored task **not unassisted**, even if the participant later finishes. Record it at the moment and classify it as comprehension, navigation, data, content, or prototype/tooling limitation.
 
-A genuine prototype/tooling failure is a broken link, unavailable control, corrupted state, or fidelity limitation that prevents the intended action despite correct participant intent. Mark that attempt **invalid**, fix the prototype, and rerun the affected arm with an equivalent content variant; never score it as success or comprehension failure. Confusing labels, undiscoverable controls, incorrect starting-state choice, or inability to decide what to do are product/comprehension failures, not tooling exclusions.
+A genuine prototype/tooling failure is a broken link, unavailable control, corrupted state, or fidelity limitation that prevents the intended action despite correct participant intent. Mark that attempt **invalid**, fix the prototype, and rerun the **complete B0/B1 pair** with equivalent unseen content variants so one-arm practice cannot bias the result; never score it as success or comprehension failure. Confusing labels, undiscoverable controls, incorrect starting-state choice, or inability to decide what to do are product/comprehension failures, not tooling exclusions.
 
 ## Success criteria and stop rules
 
@@ -123,9 +123,9 @@ A genuine prototype/tooling failure is a broken link, unavailable control, corru
 
 - **Every merchant must complete at least four of their five scored B1 representative tasks (80%) unassisted**: the four assigned workflow builds plus the mobile/missing-data recovery task. The recovery task is also a mandatory independent gate: every merchant must complete it unassisted, so success on four workflow builds cannot compensate for failure to recover from a missing/error state. Aggregate success cannot compensate for a participant below either threshold.
 - Report B0 and B1 completion, assistance, time, and decisions separately for every workflow. With four valid B1 observations, meeting the existing ≥80% workflow threshold requires **four of four unassisted completions**; three of four is 75% and fails.
-- For every workflow, B1 must improve the paired median time **and** paired median consequential-decision count versus B0. Report magnitude and all raw pairs; a tie or regression fails that workflow.
+- For every workflow, B1 must satisfy its pre-registered absolute median time ceiling **and** improve the paired median time **and** paired median consequential-decision count versus B0. The absolute and paired time gates are independently blocking. Report magnitude and all raw pairs; exceeding the ceiling, a tie, or a regression fails that workflow.
 - All five participants select appropriate starts for their assigned briefs and explain their composed shopper flows without internal terminology; this is merchant comprehension, not shopper-comprehension evidence.
-- No participant needs code or a proprietary tool to complete a supported task.
+- No participant needs code or a proprietary tool to complete a supported task.\n- The blocking token/schema specimen in [`m1-token-schema-specimen.md`](m1-token-schema-specimen.md) is exercised in the editor simulation: proposed versus observed setting counts, initially visible controls, reveal paths, workflow compositions, global-token propagation, vertical reuse, and developer-dependence evidence are recorded. Any independent control-architecture failure blocks M1.
 - Zero-setup outputs are judged complete, and disconnecting structured data leaves a coherent result.
 - No critical accessibility issue is designed in; no unresolved high-severity commerce ambiguity proceeds.
 
@@ -186,3 +186,4 @@ Apply the classification discipline of [`engineering-compliance-standard.md`](en
 - explicit build, narrow, redesign, or stop recommendation.
 
 Stop after the M1 review. Do not begin production implementation or M2 until every blocking gate is approved.
+\n## Blocking M1 design deliverables\n\nThe token/schema specimen and setting-count/progressive-disclosure inventory in [`m1-token-schema-specimen.md`](m1-token-schema-specimen.md) are separate blocking deliverables. They must be updated with observed counts and evidence from the prototype sessions; missing inventory, exceeded ceilings, displaced complexity, token-propagation failures, vertical schema forks, or routine developer dependence block M1 regardless of other usability/originality results.\n
