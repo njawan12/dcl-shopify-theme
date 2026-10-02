@@ -53,3 +53,4 @@ Ship documentation recipes, not required definitions. Use namespaced definitions
 ## Intent-led workflow model
 
 Starting compositions are versioned JSON template defaults and section presets in Shopify's editor. They front-load the smallest coherent set of decisions for a commercial job, inherit global tokens, use ordinary sections/blocks, and remain reorderable. Job language may appear in preset names and documentation; storefront labels remain content-appropriate. Success is fewer decisions and faster task completion—not merely a different default JSON order.
+\nThe blocking control-architecture evidence is maintained in [`m1-token-schema-specimen.md`](m1-token-schema-specimen.md). Its setting ceilings, progressive-disclosure inventory, global-token propagation, cross-vertical reuse, and no-routine-developer-dependence evidence are independent M1 gates.\n
