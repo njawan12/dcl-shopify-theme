@@ -87,48 +87,73 @@ These are fitness probes, not launch presets. If either requires unique section 
 
 1. Build two content-equivalent grayscale prototypes: **B0**, a blank/default native-style assembly using generic sections; and **B1**, the intent-led system.
 2. Normalize viewport, copy, media placeholders, product data, typography, color, motion, and participant instructions.
-3. Counterbalance order across participants to reduce learning effects. Use the same representative tasks, starting data, and completion definition.
+3. Use the repeated-measures assignment and arm order below to control workflow coverage, learning, and order effects. Use equivalent content, the same starting data quality, and one completion definition for both arms.
 4. Count every consequential merchant choice: selecting/adding/removing/reordering a section, selecting a data source/object, changing a default, or reversing an error. Do not count navigation clicks that make no design/content decision; record them separately.
 5. Measure task time from reading the brief to a declared preview-ready state; pause only for moderator/equipment interruption. Record completion, assists, errors, backtracks, and confidence.
-6. Blind-review shopper outputs without labels. Ask reviewers to order the intended shopper questions and identify the next action.
-7. Compare medians and raw participant data; five users are directional, so report effect and observations, not statistical significance.
+6. Keep merchant-flow explanation as a merchant mental-model measure; use the separate representative-shopper study below for shopper comprehension.
+7. Compare workflow-level paired medians and raw participant data. These small samples provide directional product evidence only; do not calculate or claim statistical significance.
 
 ## Five-user moderated test
 
 Recruit five marketing/ecommerce managers matching the target: responsible for routine launches/content, active Shopify theme-editor experience, not primarily developers, and spanning small teams/catalog complexity. Aim for three Beauty & Wellness and two adjacent-vertical participants if recruitment permits; record experience and accessibility needs. Do not substitute DCL staff for target users.
 
-Each 60–75 minute remote or in-person session:
+Each merchant completes **four paired workflow tasks**—eight short builds total, because every assigned workflow is attempted once in B0 and once in B1—plus one scored B1 mobile/missing-data recovery task. Split the work into two sessions of at most 60 minutes, with two workflow pairs per session, rather than trading coverage for fatigue. Use equivalent content variants between arms and rotate them with arm order so the second build is not a copy exercise.
 
-1. consent, background, and confidence calibration;
-2. unaided starting-state choice for two counterbalanced workflows;
-3. one matched B0/B1 build task using think-aloud only until stuck;
-4. mobile preview and missing-data recovery;
-5. cross-surface shopper-flow explanation without narrative vocabulary;
-6. stripped-output recognition/comparison exercise;
-7. short ease/confidence interview and debrief.
+The balanced assignment produces exactly four paired observations for every workflow:
 
-The moderator does not teach Reveal/Explain/Prove/Compare/Act. Assistance is recorded at the moment and classified as comprehension, navigation, data, content, or prototype limitation.
+| Merchant | Session/order positions 1–4 | Omitted workflow |
+|---|---|---|
+| M1 | Product Launch **B0-first**; Paid Landing **B1-first**; Collection Launch **B0-first**; Editorial Story **B1-first** | Product Education |
+| M2 | Paid Landing **B0-first**; Collection Launch **B1-first**; Editorial Story **B0-first**; Product Education **B1-first** | Product Launch |
+| M3 | Collection Launch **B0-first**; Editorial Story **B1-first**; Product Education **B0-first**; Product Launch **B1-first** | Paid Landing |
+| M4 | Editorial Story **B0-first**; Product Education **B1-first**; Product Launch **B0-first**; Paid Landing **B1-first** | Collection Launch |
+| M5 | Product Education **B0-first**; Product Launch **B1-first**; Paid Landing **B0-first**; Collection Launch **B1-first** | Editorial Story |
+
+This rotated incomplete-block schedule gives each workflow two B0-first and two B1-first pairs. Reverse the position order for alternate participants within each session where scheduling permits, while preserving the listed first-arm balance. A valid workflow-level median requires at least four completed pairs from four different merchants. Calculate each merchant's within-pair change (`B1 − B0`) for time and consequential decisions, then take the median of the four changes; improvement requires both medians to be below zero. If withdrawal or prototype failure leaves fewer than four valid pairs, recruit a targeted replacement for the missing workflow pair; report the shortfall and make no workflow pass, median-improvement claim, or M1 decision until the fourth valid pair exists.
+
+Each session includes consent/check-in, the two assigned paired tasks, an unaided starting-state choice, and a short debrief. Across the two sessions, each merchant also completes the one scored B1 mobile/missing-data recovery task and explains the composed shopper flow without being taught the narrative vocabulary.
+
+The moderator does not teach Reveal/Explain/Prove/Compare/Act. Any hint, corrective direction, demonstrated step, or answer needed to continue counts as moderator assistance and makes that scored task **not unassisted**, even if the participant later finishes. Record it at the moment and classify it as comprehension, navigation, data, content, or prototype/tooling limitation.
+
+A genuine prototype/tooling failure is a broken link, unavailable control, corrupted state, or fidelity limitation that prevents the intended action despite correct participant intent. Mark that attempt **invalid**, fix the prototype, and rerun the affected arm with an equivalent content variant; never score it as success or comprehension failure. Confusing labels, undiscoverable controls, incorrect starting-state choice, or inability to decide what to do are product/comprehension failures, not tooling exclusions.
 
 ## Success criteria and stop rules
 
 ### Task success
 
-- At least 80% of representative tasks are completed unassisted across the planned set, consistent with the roadmap gate.
-- All five participants select the appropriate starting composition for the tested brief and at least four can explain its shopper flow without internal terminology.
-- B1 improves median time **and** consequential decision count versus B0 for the matched tasks; report magnitude. A tie does not validate the operability claim.
+- **Every merchant must complete at least four of their five scored B1 representative tasks (80%) unassisted**: the four assigned workflow builds plus the mobile/missing-data recovery task. Aggregate success cannot compensate for a participant below this threshold.
+- Report B0 and B1 completion, assistance, time, and decisions separately for every workflow. With four valid B1 observations, meeting the existing ≥80% workflow threshold requires **four of four unassisted completions**; three of four is 75% and fails.
+- For every workflow, B1 must improve the paired median time **and** paired median consequential-decision count versus B0. Report magnitude and all raw pairs; a tie or regression fails that workflow.
+- All five participants select appropriate starts for their assigned briefs and explain their composed shopper flows without internal terminology; this is merchant comprehension, not shopper-comprehension evidence.
 - No participant needs code or a proprietary tool to complete a supported task.
 - Zero-setup outputs are judged complete, and disconnecting structured data leaves a coherent result.
 - No critical accessibility issue is designed in; no unresolved high-severity commerce ambiguity proceeds.
 
+If any merchant finishes fewer than four of five scored B1 tasks unassisted, stop the overall pass decision, diagnose the affected contracts, redesign, and retest that participant-level risk with a replacement or follow-up target merchant. If any workflow has fewer than four valid pairs, fewer than four of four unassisted B1 completions, or no improvement on either paired median, that workflow fails and must be narrowed, redesigned, and retested; it cannot disappear inside the overall average.
+
 ### Decision/time instrumentation
 
-For each task record: start/end timestamps, completion state, decisions by category, navigation actions, reversals, errors, assists, sections/blocks/settings touched, preview checks, confidence (1–5), and final composition. Two researchers independently code one session and reconcile the counting rubric before the rest are analyzed.
+For each arm and the recovery task record: participant, workflow, arm order, content variant, start/end timestamps, valid/invalid reason, completion state, decisions by category, navigation actions, reversals, errors, assists, sections/blocks/settings touched, preview checks, confidence (1–5), and final composition. Two researchers independently code one session and reconcile the counting rubric before the rest are analyzed.
 
 ### Originality evaluation
 
 Run a dated teardown of Prestige, Impulse, Impact, Enterprise, Broadcast, Symmetry, Motion, and Pipeline using equivalent jobs. Evaluate start selection, decisions, cross-surface continuity, mobile priority, standard-data quality, structured enhancement, narrow section roles, and failure states—not section-count claims. A blind panel of product/design/theme experts reviews normalized stripped outputs and interaction maps.
 
 The M1 blocking gate requires at least three competitor workflow gaps plus system/prototype evidence of meaningful architectural and overall-experience innovation. Reviewers must name the distinguishing behavior without relying on photography, fonts, copy, colors, motion, internal terminology, or preset names. If the result is explainable as reordered generic sections, M1 fails.
+
+Expert review tests architectural comparison, feasibility, and whether the stripped system is distinguishable from competitor patterns. Experts are not evidence that representative shoppers understand it and cannot satisfy the shopper-comprehension gate.
+
+### Separate shopper-comprehension validation
+
+Recruit **six representative shoppers**, separate from the five merchants and expert panel. Each must have bought online in Beauty & Wellness or an adjacent probe category within the previous six months; include a mix of mobile-first shoppers, familiarity levels, and accessibility needs where recruitment permits. Exclude DCL staff, theme professionals, ecommerce implementers, and anyone who participated in the merchant study.
+
+Use four stripped, neutral shopper flows: (A) Product Launch campaign → PDP; (B) Paid Landing → Product Education/PDP; (C) Collection Launch campaign → collection → PDP; and (D) Editorial Story → referenced PDP. Assign S1 to A/B, S2 to A/C, S3 to A/D, S4 to B/C, S5 to B/D, and S6 to C/D; reverse presentation order for S2, S4, and S6. This balanced incomplete-block assignment yields **three independent observations per flow** and 12 observations total. Do not show B0/B1 labels, branded photography, distinctive fonts, color, motion, internal narrative terms, or merchant-editor UI.
+
+For each surface, ask the shopper to think aloud and answer without prompts: “What is this page helping you understand?”, “What question would you expect it to answer next?”, and “What would you do next?” After each transition, ask what carried forward, what felt repeated, and what became confusing. Do not teach Reveal → Explain → Prove → Compare → Act or reveal the intended route before the task.
+
+A flow passes directional comprehension only when at least two of its three shoppers independently identify a materially correct surface purpose, logical next question, and intended next action, and describe the handoff as continuous without material repetition or confusion. Any repeated material confusion reported by two shoppers blocks that flow even if the other answers pass. If a tooling failure prevents exposure, replace that observation; if fewer than three valid observations remain, collect a top-up and make no claim meanwhile. A failed flow is redesigned and retested, and the cross-surface originality claim does not pass while the campaign → collection → PDP flow fails.
+
+This study tests the shopper-facing decision path, not merchant editor operability, build time, or setting decisions. Its small sample is directional qualitative evidence, not statistical proof. Preserve raw responses and report dissent rather than converting the result into an aggregate conversion claim.
 
 ### Accessibility design review
 

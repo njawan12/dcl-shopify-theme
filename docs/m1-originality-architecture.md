@@ -4,7 +4,7 @@
 
 The hypothesis **passes conditionally as an architecture worth prototyping; it does not yet pass the M1 originality gate**. The differentiator is not a five-word narrative, a set of presets, or more sections. It is a constrained **decision-path system** that carries one commercial argument across campaign, collection, and product surfaces while preserving the native job of each surface and substantially reducing merchant assembly decisions.
 
-That claim must be demonstrated against current competitor implementations and five merchant tests. If a stripped prototype is perceived as generic, or intent-led starts do not measurably reduce time and decisions, the architecture fails and M2 remains blocked.
+That claim must be demonstrated against current competitor implementations, the repeated-measures five-merchant study, and a separate six-person representative-shopper comprehension study. Every workflow needs sufficient paired baseline evidence; expert originality review cannot substitute for shopper understanding. If a stripped prototype is perceived as generic, a shopper flow fails comprehension, or an intent-led workflow does not measurably reduce time and decisions, the architecture fails and M2 remains blocked.
 
 ## The distinctive system: decision paths, not pages
 
@@ -163,7 +163,7 @@ Before M2, the prototype must change or stop if any of these occur:
 - mobile prioritization adds settings instead of making governed decisions;
 - each workflow requires unique sections, proving there is no coherent system;
 - adjacent-vertical probes require “industry mode” toggles or generic catch-all controls;
-- merchants do not beat the blank/default baseline on completion, time, and decision count;
+- any merchant misses the per-participant success gate, any workflow lacks four valid pairs or misses its completion/time/decision gates, or a representative-shopper flow misses its comprehension gate;
 - current competitor teardowns show the same end-to-end system without at least three material workflow gaps.
 
 If it fails, first narrow the supported workflows and strengthen argument handoff and surface-specific rules. Do not add sections, settings, motion, or novelty styling as a substitute. If those changes still cannot produce measurable difference, do not build the product.
@@ -173,6 +173,7 @@ If it fails, first narrow the supported workflows and strengthen argument handof
 - dated task-level teardowns of all eight named themes, not feature-list comparison;
 - grayscale stripped-system comparison using equivalent content and data;
 - merchant task recordings, decisions, completion time, errors, and comprehension;
+- representative-shopper purpose, next-question, next-action, and handoff-continuity responses, kept distinct from expert review;
 - section responsibility and cross-surface handoff maps;
 - mobile priority diffs and zero/structured-data pairs;
 - design history, rejected alternatives, provenance ledger, and foundation diff;

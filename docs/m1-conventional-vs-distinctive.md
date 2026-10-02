@@ -85,4 +85,4 @@ Defaults determine order, omission, media priority, empty-state behavior, and ac
 
 ## Gate
 
-Conventional primitives may look familiar in isolation. The assembled stripped system must still demonstrate at least three verified workflow gaps against the named competitors and materially improve merchant completion, time, decisions, and comprehension. If it does not, the answer is not more custom primitives; the product architecture must be narrowed or rejected.
+Conventional primitives may look familiar in isolation. The assembled stripped system must still demonstrate at least three verified workflow gaps against the named competitors, pass the per-participant and per-workflow merchant gates, materially improve paired time and decisions for every workflow, and pass separate representative-shopper comprehension for the stripped flows. Expert originality review cannot replace either merchant or shopper evidence. If it does not, the answer is not more custom primitives; the product architecture must be narrowed or rejected.

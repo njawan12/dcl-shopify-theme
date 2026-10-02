@@ -44,7 +44,7 @@ The shallow-structure rule also implements Shopify's verified warning against un
 
 ## No-developer test
 
-For every common scenario: give a marketing manager representative content, observe without coaching, and require ≥80% task completion, no code use, no critical accessibility defect, and median completion within the task target. Uncommon failures do not justify global complexity; document the workaround or app boundary.
+For every common scenario: give a marketing manager representative content, observe without coaching, and require each participant to complete ≥80% of their assigned tasks unassisted, with no code use, no critical accessibility defect, and median completion within the task target. Report workflow results separately so an aggregate cannot hide a weak workflow. Uncommon failures do not justify global complexity; document the workaround or app boundary.
 
 ## Structured content onboarding
 

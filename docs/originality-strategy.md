@@ -50,7 +50,7 @@ Checkout-bound actions, labels, focus behavior, variant selection, filters and c
 
 ## Proof required before implementation
 
-Prototype the home-to-PDP-to-collection-to-campaign grammar in grayscale. Compare intent-led starts against a blank/default baseline; measure decision count, completion, time, reversals, and comprehension with five target merchants. Stress the same contracts with lightweight apparel and food/beverage content. If the experience is only distinguishable by imagery/font, terminology, or JSON ordering—or cross-vertical use requires generic controls—return to product strategy and narrow if necessary.
+Prototype the home-to-PDP-to-collection-to-campaign grammar in grayscale. Use the repeated-measures plan in [`m1-prototype-plan.md`](m1-prototype-plan.md) to give every workflow four valid merchant B0/B1 pairs and measure decisions, completion, time, reversals, and merchant comprehension; test shopper comprehension separately with representative shoppers. Stress the same contracts with lightweight apparel and food/beverage content. If the experience is only distinguishable by imagery/font, terminology, or JSON ordering—or cross-vertical use requires generic controls—return to product strategy and narrow if necessary.
 
 ## Weaknesses requiring validation
 

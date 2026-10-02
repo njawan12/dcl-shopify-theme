@@ -19,14 +19,14 @@ From M2 onward, every milestone must complete the pre-code review and every impl
 3. Prototype the Beauty & Wellness preset deeply; apply the same section/block contracts to one apparel and one food/beverage content probe without polishing them into launch presets.
 4. Define semantic global tokens and bounded section controls in a token/schema specimen; inventory setting counts and progressive disclosure.
 5. Map Reveal/Explain/Prove/Compare/Act responsibilities to each surface, including omissions, mobile priority, merchandising, and optional data.
-6. Compare intent-led starts against a blank/default baseline in moderated editor simulations with five target merchants.
+6. Compare intent-led starts against a blank/default baseline in repeated-measures, counterbalanced editor simulations with five target merchants, providing at least four valid paired B0/B1 observations per workflow; separately validate stripped shopper-flow comprehension with six representative shoppers.
 7. Complete ADR-001–007: choose Skeleton Theme or fully original code (Dawn/Horizon excluded), then decide theme blocks, structured data, cart, RTL, native intent-composition map, and multi-vertical fitness/narrowing.
 8. Refresh remaining Theme Store unknowns and dated competitor evidence. Produce an architectural originality comparison and requirements traceability map; do not claim approval.
 
 **Acceptance criteria:**
 
-- Five target merchants complete at least 80% of representative tasks unassisted, without code; median time and decision count improve over the baseline, and no critical accessibility issue is designed in.
-- Participants can choose the correct starting composition and explain the shopper flow without being taught the internal narrative terms.
+- Each of five target merchants completes at least 80% of their assigned B1 representative tasks unassisted and without code; aggregate completion cannot mask an individual failure. Each workflow has at least four valid paired observations, meets ≥80% unassisted B1 completion (therefore four of four), and improves paired median time and decision count over its baseline.
+- Merchant participants can choose the correct starting composition and explain the shopper flow without being taught the internal narrative terms. In a separate six-person representative-shopper study, each stripped flow meets the documented purpose, next-question, next-action, and handoff-continuity comprehension gate; expert review cannot substitute for shopper evidence.
 - Zero-setup states are visually complete; structured content demonstrably enhances rather than unlocks basic quality.
 - Beauty & Wellness has a distinctive, agency-quality reference direction in grayscale and token specimens—not solely through photography, copy, fonts, or motion.
 - Apparel and food/beverage probes reuse contracts within documented setting budgets and without vertical toggles or vague catch-all controls; otherwise ADR-007 explicitly narrows the product.
