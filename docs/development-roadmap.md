@@ -25,7 +25,7 @@ From M2 onward, every milestone must complete the pre-code review and every impl
 
 **Acceptance criteria:**
 
-- Each of five target merchants completes at least 80% of their assigned B1 representative tasks unassisted and without code; aggregate completion cannot mask an individual failure. Each workflow has at least four valid paired observations, meets ≥80% unassisted B1 completion (therefore four of four), and improves paired median time and decision count over its baseline.
+- Each of five target merchants completes at least 80% of their assigned B1 representative tasks unassisted and without code, and every merchant separately completes the mobile/missing-data recovery task unassisted; neither aggregate completion nor success on other tasks can mask an individual recovery failure. Each workflow has at least four valid paired observations, meets ≥80% unassisted B1 completion (therefore four of four), and improves paired median time and decision count over its baseline.
 - Merchant participants can choose the correct starting composition and explain the shopper flow without being taught the internal narrative terms. In a separate six-person representative-shopper study, each stripped flow meets the documented purpose, next-question, next-action, and handoff-continuity comprehension gate; expert review cannot substitute for shopper evidence.
 - Zero-setup states are visually complete; structured content demonstrably enhances rather than unlocks basic quality.
 - Beauty & Wellness has a distinctive, agency-quality reference direction in grayscale and token specimens—not solely through photography, copy, fonts, or motion.

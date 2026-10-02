@@ -121,7 +121,7 @@ A genuine prototype/tooling failure is a broken link, unavailable control, corru
 
 ### Task success
 
-- **Every merchant must complete at least four of their five scored B1 representative tasks (80%) unassisted**: the four assigned workflow builds plus the mobile/missing-data recovery task. Aggregate success cannot compensate for a participant below this threshold.
+- **Every merchant must complete at least four of their five scored B1 representative tasks (80%) unassisted**: the four assigned workflow builds plus the mobile/missing-data recovery task. The recovery task is also a mandatory independent gate: every merchant must complete it unassisted, so success on four workflow builds cannot compensate for failure to recover from a missing/error state. Aggregate success cannot compensate for a participant below either threshold.
 - Report B0 and B1 completion, assistance, time, and decisions separately for every workflow. With four valid B1 observations, meeting the existing ≥80% workflow threshold requires **four of four unassisted completions**; three of four is 75% and fails.
 - For every workflow, B1 must improve the paired median time **and** paired median consequential-decision count versus B0. Report magnitude and all raw pairs; a tie or regression fails that workflow.
 - All five participants select appropriate starts for their assigned briefs and explain their composed shopper flows without internal terminology; this is merchant comprehension, not shopper-comprehension evidence.
@@ -129,7 +129,7 @@ A genuine prototype/tooling failure is a broken link, unavailable control, corru
 - Zero-setup outputs are judged complete, and disconnecting structured data leaves a coherent result.
 - No critical accessibility issue is designed in; no unresolved high-severity commerce ambiguity proceeds.
 
-If any merchant finishes fewer than four of five scored B1 tasks unassisted, stop the overall pass decision, diagnose the affected contracts, redesign, and retest that participant-level risk with a replacement or follow-up target merchant. If any workflow has fewer than four valid pairs, fewer than four of four unassisted B1 completions, or no improvement on either paired median, that workflow fails and must be narrowed, redesigned, and retested; it cannot disappear inside the overall average.
+If any merchant finishes fewer than four of five scored B1 tasks unassisted **or does not complete the recovery task unassisted**, stop the overall pass decision, diagnose the affected contracts, redesign, and retest that participant-level risk with a replacement or follow-up target merchant. If any workflow has fewer than four valid pairs, fewer than four of four unassisted B1 completions, or no improvement on either paired median, that workflow fails and must be narrowed, redesigned, and retested; it cannot disappear inside the overall average.
 
 ### Decision/time instrumentation
 
