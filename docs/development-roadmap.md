@@ -10,6 +10,8 @@ From M2 onward, every milestone must complete the pre-code review and every impl
 ## M1 — Experience prototype and foundation decision
 **Objective:** decide whether operability, intent-led starts, and the Launch Narrative create a distinctive, usable product before production theme code.
 
+**Provisional status:** M1A foundation/originality architecture is documented in parallel, but it does not close or bypass M0's open empirical gates. Visual prototyping and the remaining M1 work cannot establish readiness for M2 until M0 is approved.
+
 **Exact scope:**
 
 1. Map current-state and proposed journeys for Product Launch, Paid Landing Page, Collection Launch, Editorial Story, and Product Education.
@@ -82,4 +84,4 @@ From M2 onward, every milestone must complete the pre-code review and every impl
 
 ## Exact next milestone
 
-Complete the unfinished empirical portion of **M0**—refresh remaining unverified official requirements, complete the dated competitor/review audit, conduct 8–12 merchant interviews (including adjacent-vertical evidence), and hold the founder go/no-go review. The nine dated requirement facts in `shopify-requirements.md` are now verified; implementation compliance is not. M0 is **not ready to close** until the remaining gates pass. Only after approval begin the exact M1 scope above; do not scaffold theme code yet.
+Complete the unfinished empirical portion of **M0**—refresh remaining unverified official requirements, complete the dated competitor/review audit, conduct 8–12 merchant interviews (including adjacent-vertical evidence), complete the required competitor workflow/task teardowns, and hold the founder go/no-go review. The nine dated requirement facts in `shopify-requirements.md` are now verified; implementation compliance is not. M0 is **not ready to close** until the remaining gates pass. The provisional M1A documents and ADR-001 do not alter that gate; do not begin visual prototyping, scaffold theme code, or proceed to M2.

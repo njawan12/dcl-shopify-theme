@@ -13,7 +13,7 @@ Repository inspection on 2 October 2026 found an empty Git tree: no prototype, c
 | DELETE | Nothing |
 | NEEDS INVESTIGATION | Git remote/history and intended packaging/CI remain unknown |
 
-Verified foundation constraint as of 2 October 2026: use **Skeleton Theme or fully original code only**. Dawn and Horizon are excluded from new Theme Store submissions. ADR-001 will choose between the two eligible paths before production implementation; there is nothing in this repository to preserve.
+Verified foundation constraint as of 2 October 2026: use **Skeleton Theme or fully original code only**. Dawn and Horizon are excluded from new Theme Store submissions. [`ADR-001`](adr/001-theme-foundation.md) recommends a pinned, audited Skeleton Theme primitive foundation, conditional on live revalidation before M2; there is nothing in this repository to preserve.
 
 ## Proposed distributable tree
 
@@ -72,7 +72,7 @@ Core storefront behavior must not depend on an app or API-backed app-like theme 
 
 ## Architecture decision gates
 
-- ADR-001: choose Skeleton Theme or fully original code, with provenance, licensing, originality, maintenance, and delivery trade-offs; Dawn and Horizon are excluded.
+- ADR-001: **accepted for M1**—use Skeleton Theme only as a pinned, audited primitive foundation, with live eligibility/license revalidation and an inherited-file inventory before M2; Dawn and Horizon are excluded.
 - ADR-002: theme-block adoption/nesting based on current support and editor test.
 - ADR-003: structured-content namespaces/recipes and portability.
 - ADR-004: cart page first; drawer only if usability/performance evidence supports it.

@@ -25,7 +25,7 @@ Theme Store approval is a product and architecture constraint from the first ADR
 - [ ] Confirm partner account, Theme Store eligibility, submission route, review stages and fees in the [submission documentation](https://shopify.dev/docs/storefronts/themes/store/submission).
 - [x] **VERIFIED 2026-10-02:** accept Theme Store exclusivity and no other-marketplace distribution; founder commercial approval remains open. See V07.
 - [x] **VERIFIED 2026-10-02:** meet architectural/overall-experience originality, not superficial variation. Product evidence remains open. See V01.
-- [x] **VERIFIED 2026-10-02:** eligible foundations are Skeleton Theme or fully original code; Dawn and Horizon are excluded. ADR-001 choice remains open. See V02.
+- [x] **VERIFIED 2026-10-02:** eligible foundations are Skeleton Theme or fully original code; Dawn and Horizon are excluded. [`ADR-001`](adr/001-theme-foundation.md) recommends a pinned, audited Skeleton Theme primitive foundation, conditional on live revalidation before M2. See V02.
 - [ ] Prepare accurate listings and at least one industry/catalog-appropriate demo store per preset, plus public documentation, public support contact form, version and release notes. See V08–V09 and [submission documentation](https://shopify.dev/docs/storefronts/themes/store/submission).
 
 ## Architecture and merchant features
