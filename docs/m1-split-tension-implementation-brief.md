@@ -1,7 +1,7 @@
 # M1 Split Tension — Prototype Implementation Brief
 
 **Date:** 2026-10-03  
-**Status:** Draft implementation contract; requires pre-code red-team approval before Codex implementation.  
+**Status:** Pre-code red-team approved for isolated M1 prototype implementation only. Production code remains prohibited.  
 **Authority:** Must comply with `m1-split-tension-commerce-state-machine.md`, `m1-living-canvas-prebuild-red-team-matrix.md`, `m1-signature-system.md`, and the M1 product architecture contract. If this brief conflicts with the state-machine contract, the state-machine contract wins.
 
 ## 1. Named experiment
@@ -394,7 +394,166 @@ Stop and report rather than silently redesign if:
 
 Do not weaken acceptance criteria to make the experiment pass.
 
-## 22. Completion output
+## 22. Pre-code adversarial review — binding corrections
+
+The implementation brief was adversarially reviewed before coding. The following corrections are binding and exist specifically to prevent an implementation from technically satisfying earlier wording while missing the experiment.
+
+### 22.1 Do not build 24 separate mini-apps
+
+Fixtures are data/state variations of one Split Tension implementation. Do not fork markup, CSS, or behavior per fixture except where the fixture explicitly simulates initialization failure or multiple instances.
+
+Acceptance: one component/state engine must survive the fixture matrix. Fixture-specific code may choose data/response mode; it may not contain a separate implementation of the component.
+
+### 22.2 Hydration identity
+
+The default server-rendered baseline and its hydrated state must represent the same products, step identities, ordering, prices and availability. Hydration may attach controls and state but may not silently swap the default fixture or replace the baseline with a different data model.
+
+Where JS must add enhanced controls that cannot function without JS, insert/reveal those controls after successful initialization rather than shipping dead controls in baseline HTML.
+
+### 22.3 Invalid variant combinations
+
+The multi-option fixture must contain at least one combination of individually valid option values that does **not** map to a real variant.
+
+Acceptance:
+- selecting that combination produces an unresolved/unavailable-combination state;
+- no stale prior variant ID, price or eligibility remains;
+- it cannot be included or submitted;
+- recovery does not require page reload.
+
+This closes the gap between “sold-out variant” and “variant combination does not exist.”
+
+### 22.4 Compare-at and unit-price mutation
+
+At least one fixture must exercise compare-at appearing/disappearing across variant changes and at least one must display unit-price context.
+
+Acceptance:
+- stale sale styling/text disappears when compare-at is no longer valid;
+- unit-price context remains attached to the item, never the aggregate total;
+- neither state creates invented savings language.
+
+### 22.5 Fixture switching is teardown/reinitialization
+
+Changing the harness fixture is itself a lifecycle test.
+
+Before rendering the next fixture:
+- abort/neutralize pending timers;
+- remove instance-owned listeners not discarded with the subtree;
+- discard runtime state;
+- prevent a response from the old fixture mutating the new fixture;
+- restore deterministic initial state.
+
+Rapidly switch fixtures while a simulated request is pending as an explicit test.
+
+### 22.6 History/query state is test instrumentation only
+
+If fixture selection uses a URL query parameter, invalid/unknown fixture values must fall back safely. Browser history restoration must not restore shopper inclusion/variant state unless deliberately implemented and tested. The URL may identify the torture fixture; it must not become a hidden persistence mechanism for commerce state.
+
+### 22.7 Error announcement discipline
+
+Do not use one permanently noisy live region for every state change.
+
+- routine option/price changes should be understandable in context and only announced when necessary;
+- request pending/result uses a scoped status mechanism;
+- validation errors use an appropriate alert/error relationship;
+- the same error must not be announced repeatedly because render ran twice.
+
+### 22.8 CSS failure-resistance
+
+The signature may use CSS Grid/Flex/pseudo-elements/clip-path where progressive enhancement is acceptable, but essential product text, controls and links cannot depend on decorative clipping, absolute positioning or generated content.
+
+Test with:
+- very long heading;
+- 3-line product title;
+- missing image;
+- portrait/square/landscape packshot;
+- browser text enlargement;
+- all five steps.
+
+No fixed content height may clip merchant content.
+
+### 22.9 Visual acceptance is not delegated to Codex
+
+Codex may report screenshots and observations, but it does not decide whether Split Tension is premium, distinctive or Theme-Store-worthy. Those visual criteria remain a human product/design gate.
+
+Therefore `findings.md` must separate:
+- engineering/state-machine result;
+- visual evidence captured;
+- visual/product-owner decision: **PENDING HUMAN REVIEW** until explicitly reviewed.
+
+Codex must not give the overall experiment PASS solely because automated tests pass.
+
+### 22.10 Prototype visual floor
+
+Although this is not production UI, it cannot be an unstyled engineering wireframe because visual identity is one of the named uncertainties.
+
+Required:
+- intentional spacing/typographic hierarchy;
+- credible premium product-card treatment;
+- deliberate desktop asymmetry;
+- coherent neutral mode;
+- polished focus/hover/selected/sold-out/error states;
+- no placeholder developer UI inside the storefront simulation.
+
+Harness controls may look utilitarian because they are outside the storefront simulation.
+
+### 22.11 Evidence capture when a browser exists
+
+If browser automation/runtime is available, capture evidence for at least:
+- default desktop 1440;
+- neutral desktop 1440;
+- five-step mobile 375;
+- multi-option unresolved/resolved state;
+- long/localized 320;
+- two-instance 1280;
+- request error state.
+
+If a browser is unavailable, do not spend time inventing alternate preview infrastructure inside the repository. Mark visual evidence pending and stop at the documented limitation.
+
+### 22.12 Test the state engine, not just fixture names
+
+Static assertion that fixture names exist is insufficient.
+
+Where executable DOM/browser testing is unavailable, add dependency-free state-level assertions for pure functions/data transitions covering at minimum:
+- unresolved → resolved available;
+- resolved → nonexistent combination;
+- included eligible → variant becomes invalid;
+- price mutation;
+- exact money total;
+- duplicate eligibility rule;
+- all-ineligible aggregate omission;
+- failure/ambiguous response messaging model;
+- stale response/version rejection.
+
+If the implementation cannot expose testable pure state transitions without coupling them to DOM mutation, treat that as an architecture smell and refactor before completion.
+
+### 22.13 Complexity budget
+
+This experiment is testing whether the signature can remain bounded. A technically correct but oversized implementation is evidence against the concept.
+
+At completion, report:
+- non-comment JS line count;
+- CSS line count;
+- number of runtime state fields;
+- number of event types handled;
+- number of distinct interactive control types.
+
+There is no arbitrary numeric PASS threshold at M1, but surprising complexity must produce NARROW/FAIL discussion rather than being hidden.
+
+### 22.14 Do not fake Shopify verification
+
+Names such as “Shopify-shaped,” “422,” “selling plan,” or “Markets” describe fixture semantics only. The harness does not prove real Shopify integration.
+
+Every such finding must be labeled **simulated**. Real Shopify endpoint, Liquid object, Markets, app-block and selling-plan behavior remains a later real-store gate.
+
+## 23. Pre-code verdict
+
+**APPROVED TO IMPLEMENT THE ISOLATED M1 PROTOTYPE.**
+
+This approval means the implementation question is sufficiently bounded. It does **not** approve production architecture, M2, Skeleton import, Shopify integration, or the Split Tension composition itself.
+
+The implementation must satisfy sections 1–22 as one contract. If Codex encounters a conflict, it must stop and report the conflict instead of choosing a convenient interpretation.
+
+## 24. Completion output
 
 A completed Codex task must report:
 - exact files added/changed;
