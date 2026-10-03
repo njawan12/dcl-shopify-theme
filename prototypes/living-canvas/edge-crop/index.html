@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Edge Crop — M1 validation prototype</title>
+  <link rel="stylesheet" href="edge-crop.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="fixtures.js" defer></script>
+  <script src="edge-crop.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#edge-crop">Skip to Edge Crop</a>
+  <header class="prototype-header">
+    <p><strong>Living Canvas / Edge Crop</strong> <span>M1 isolated validation harness</span></p>
+    <div class="fixture-picker">
+      <label for="fixture">Torture fixture</label>
+      <select id="fixture" autocomplete="off">
+        <option value="beauty">1 — Art-directed lifestyle</option>
+        <option value="packshot">2 — Ordinary packshot</option>
+        <option value="long-copy">3 — Long heading + body</option>
+        <option value="one-info">4 — One information hotspot</option>
+        <option value="four-mixed">5 — Four mixed hotspots</option>
+        <option value="missing-product">6 — Missing product target</option>
+        <option value="no-mobile">7 — No mobile-specific image</option>
+        <option value="minimal">8 — Minimal content</option>
+      </select>
+      <output id="fixture-status" class="fixture-status" aria-live="polite">Art-directed lifestyle loaded</output>
+    </div>
+  </header>
+
+  <main id="edge-crop" class="canvas" tabindex="-1">
+    <section class="edge-crop" aria-labelledby="canvas-heading">
+      <div class="editorial">
+        <p class="eyebrow" id="eyebrow">Botanical study 04</p>
+        <h1 id="canvas-heading">Care that begins at the source.</h1>
+        <p class="lede" id="body-copy">A focused daily formula, made with traceable plant oils and designed to leave skin comfortable—not coated.</p>
+        <p class="action-wrap"><a class="primary-action" id="primary-action" href="#prototype-note">Read the field notes</a></p>
+        <p class="prototype-note" id="prototype-note">Prototype links remain local; product destinations model Shopify URLs.</p>
+      </div>
+
+      <div class="media-zone">
+        <div class="media-crop">
+          <picture id="hero-picture">
+            <source id="mobile-source" media="(max-width: 47.99rem)" srcset="media/lifestyle-tall.svg">
+            <img id="hero-image" src="media/lifestyle-wide.svg" width="1600" height="1200" alt="Amber glass skincare bottles on folded fabric" fetchpriority="high" decoding="async">
+          </picture>
+        </div>
+        <div id="hotspots" class="hotspots" aria-label="Image details">
+          <article class="hotspot anchor-upper-left" data-hotspot>
+            <button class="hotspot-trigger" type="button" aria-expanded="false" aria-controls="hotspot-panel-origin"><span aria-hidden="true">1</span><span class="visually-hidden">Open ingredient origin details</span></button>
+            <div class="hotspot-panel" id="hotspot-panel-origin" tabindex="-1">
+              <button class="panel-close" type="button" aria-label="Close ingredient origin details">×</button>
+              <p class="panel-kicker">Ingredient note</p><h2>Cold-pressed seed oil</h2><p>Sourced from a single grower cooperative and pressed without added fragrance.</p>
+            </div>
+          </article>
+          <article class="hotspot anchor-lower-right" data-hotspot>
+            <button class="hotspot-trigger" type="button" aria-expanded="false" aria-controls="hotspot-panel-product"><span aria-hidden="true">2</span><span class="visually-hidden">Open Daily Field Oil product details</span></button>
+            <div class="hotspot-panel product-panel" id="hotspot-panel-product" tabindex="-1">
+              <button class="panel-close" type="button" aria-label="Close Daily Field Oil product details">×</button>
+              <p class="panel-kicker">Featured product</p><h2>Daily Field Oil</h2><p class="price"><span>$48.00</span> <s>$56.00</s></p><p>Available</p><a href="products/daily-field-oil">View Daily Field Oil</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><p>Validation prototype only — not production theme code or a Theme Store compliance claim.</p></footer>
+</body>
+</html>
