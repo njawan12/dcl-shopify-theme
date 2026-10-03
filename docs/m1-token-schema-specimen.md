@@ -80,7 +80,7 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Explain / text-media | section | media position | auto | initial | always |
 | Explain / text-media | section | emphasis | balanced | initial | always |
 | Explain / text-media | section | content width | reading | initial | always |
-| Explain / text-media | section | alignment | start | conditional | reveal when text alignment is merchant-relevant |
+| Explain / text-media | section | alignment | start | initial | always |
 | Explain / text-media | section | media treatment | contained | conditional | reveal when media is present |
 | Explain / text-media | section | detail density | standard | conditional | reveal when optional supporting detail is enabled |
 | Explain / text-media | block | heading | empty | initial | always |
