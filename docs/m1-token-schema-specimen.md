@@ -48,7 +48,7 @@ Audit rule: the count of controls in this global inventory must exactly reconcil
 | Surface/role | Initially visible section controls | Conditional controls | Representative block controls | Default/reveal rule |
 |---|---:|---:|---:|---|
 | Reveal / campaign hero | 5 | 3 | 4 | media-specific controls appear only when media exists |
-| Explain / text-media | 4 | 3 | 5 | alignment/detail controls reveal only after corresponding content is enabled |
+| Explain / text-media | 5 | 2 | 5 | media/detail controls reveal only after corresponding content is enabled |
 | Prove / evidence | 4 | 2 | 5 | source/attribution controls reveal only when evidence is present |
 | Compare | 4 | 3 | 5 | comparison-detail controls reveal only after a comparison source is connected |
 | Act / CTA | 3 | 2 | 4 | secondary-action controls reveal only when a secondary action is enabled |
