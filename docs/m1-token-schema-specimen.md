@@ -47,7 +47,7 @@ Audit rule: the count of controls in this global inventory must exactly reconcil
 
 | Surface/role | Initially visible section controls | Conditional controls | Representative block controls | Default/reveal rule |
 |---|---:|---:|---:|---|
-| Reveal / campaign hero | 5 | 3 | 4 | media-specific controls appear only when media exists |
+| Reveal / campaign hero | 6 | 2 | 4 | focal-point and crop controls appear only when media exists; media priority is always visible |
 | Explain / text-media | 5 | 2 | 5 | media/detail controls reveal only after corresponding content is enabled |
 | Prove / evidence | 4 | 2 | 5 | source/attribution controls reveal only when evidence is present |
 | Compare | 4 | 3 | 5 | comparison-detail controls reveal only after a comparison source is connected |
@@ -69,9 +69,9 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Reveal / campaign hero | section | primary heading source | product title | initial | always |
 | Reveal / campaign hero | section | supporting copy source | product description excerpt | initial | always |
 | Reveal / campaign hero | section | primary action destination | product | initial | always |
-| Reveal / campaign hero | section | media focal point | center | conditional | reveal when media source is present |
-| Reveal / campaign hero | section | media crop behavior | natural | conditional | reveal when media source is present |
-| Reveal / campaign hero | section | media priority | normal | conditional | reveal when media source is present and section can be above the fold |
+| Reveal / campaign hero | section | media focal point | center | conditional | reveal when the media source field is non-empty |
+| Reveal / campaign hero | section | media crop behavior | natural | conditional | reveal when the media source field is non-empty |
+| Reveal / campaign hero | section | media priority | normal | initial | always |
 | Reveal / campaign hero | block | eyebrow | empty | initial | always |
 | Reveal / campaign hero | block | badge | empty | initial | always |
 | Reveal / campaign hero | block | secondary copy | empty | initial | always |
@@ -81,7 +81,7 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Explain / text-media | section | emphasis | balanced | initial | always |
 | Explain / text-media | section | content width | reading | initial | always |
 | Explain / text-media | section | alignment | start | initial | always |
-| Explain / text-media | section | media treatment | contained | conditional | reveal when media is present |
+| Explain / text-media | section | media treatment | contained | conditional | reveal when the media block/source is non-empty |
 | Explain / text-media | section | detail density | standard | conditional | reveal when at least one key-point or supporting-detail block is enabled |
 | Explain / text-media | block | heading | empty | initial | always |
 | Explain / text-media | block | body | empty | initial | always |
@@ -92,8 +92,8 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Prove / evidence | section | evidence type | factual | initial | always |
 | Prove / evidence | section | display density | standard | initial | always |
 | Prove / evidence | section | attribution position | inline | initial | always |
-| Prove / evidence | section | source label | empty | conditional | reveal when at least one evidence/claim block contains non-empty claim content |
-| Prove / evidence | section | source URL/reference | empty | conditional | reveal when at least one evidence/claim block contains non-empty claim content |
+| Prove / evidence | section | source label | empty | conditional | reveal when at least one evidence/claim block has a non-empty claim field |
+| Prove / evidence | section | source URL/reference | empty | conditional | reveal when at least one evidence/claim block has a non-empty claim field |
 | Prove / evidence | block | claim | empty | initial | always |
 | Prove / evidence | block | supporting detail | empty | initial | always |
 | Prove / evidence | block | source | empty | initial | always |
@@ -103,9 +103,9 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Compare | section | comparison axis | merchant-defined | initial | always |
 | Compare | section | emphasis | neutral | initial | always |
 | Compare | section | layout | table/list auto | initial | always |
-| Compare | section | highlight item | none | conditional | reveal when comparison has two or more items |
+| Compare | section | highlight item | none | conditional | reveal when the comparison contains at least 2 compared items |
 | Compare | section | detail density | standard | conditional | reveal when at least one comparison item contains a non-empty qualifier or source/reference value |
-| Compare | section | mobile condensation | auto | conditional | reveal when the comparison contains more than 4 comparison rows or more than 3 compared items at the active mobile breakpoint |
+| Compare | section | mobile condensation | auto | conditional | reveal when the comparison contains more than 4 comparison rows or more than 3 compared items; prototype mobile checks use the fixed 390 px viewport defined for M1 |
 | Compare | block | item label | empty | initial | always |
 | Compare | block | value | empty | initial | always |
 | Compare | block | qualifier | empty | initial | always |
@@ -114,8 +114,8 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Act / CTA | section | primary action label | context-derived | initial | always |
 | Act / CTA | section | primary destination | context-derived | initial | always |
 | Act / CTA | section | alignment | context-derived | initial | always |
-| Act / CTA | section | secondary action label | empty | conditional | reveal when secondary action is enabled |
-| Act / CTA | section | secondary destination | none | conditional | reveal when secondary action is enabled |
+| Act / CTA | section | secondary action label | empty | conditional | reveal when the secondary-action toggle is on |
+| Act / CTA | section | secondary destination | none | conditional | reveal when the secondary-action toggle is on |
 | Act / CTA | block | supporting copy | empty | initial | always |
 | Act / CTA | block | trust note | empty | initial | always |
 | Act / CTA | block | secondary action toggle | off | initial | always |
@@ -125,9 +125,9 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Product purchase core | section | sticky action policy | auto | initial | always |
 | Product purchase core | section | supporting content position | after purchase core | initial | always |
 | Product purchase core | section | app insertion seam | enabled | initial | always |
-| Product purchase core | section | variant display mode | auto | conditional | reveal when product has multiple variants |
-| Product purchase core | section | media gallery treatment | auto | conditional | reveal when product has multiple media items |
-| Product purchase core | section | pickup display | auto | conditional | reveal when pickup data exists |
+| Product purchase core | section | variant display mode | auto | conditional | reveal when the product has more than 1 variant |
+| Product purchase core | section | media gallery treatment | auto | conditional | reveal when the product has more than 1 media item |
+| Product purchase core | section | pickup display | auto | conditional | reveal when Shopify provides at least 1 pickup-availability location for the selected variant |
 | Product purchase core | section | selling-plan/app accommodation | auto | conditional | reveal when the product exposes at least one selling plan or an app block is present in the purchase-core section |
 | Product purchase core | block | title | product title | initial | always |
 | Product purchase core | block | price/status | product data | initial | always |
@@ -139,9 +139,9 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Collection merchandising | section | sort visibility | shown | initial | always |
 | Collection merchandising | section | editorial interruption | off | initial | always |
 | Collection merchandising | section | merchandising emphasis | balanced | initial | always |
-| Collection merchandising | section | interruption position | after first product row | conditional | reveal when editorial interruption is enabled |
-| Collection merchandising | section | interruption source | none | conditional | reveal when editorial interruption is enabled |
-| Collection merchandising | section | interruption span | full row | conditional | reveal when editorial interruption is enabled |
+| Collection merchandising | section | interruption position | after first product row | conditional | reveal when the editorial-interruption toggle is on |
+| Collection merchandising | section | interruption source | none | conditional | reveal when the editorial-interruption toggle is on |
+| Collection merchandising | section | interruption span | full row | conditional | reveal when the editorial-interruption toggle is on |
 | Collection merchandising | block | product card | native product | initial | always |
 | Collection merchandising | block | editorial tile | empty | initial | always |
 | Collection merchandising | block | collection note | empty | initial | always |
@@ -150,8 +150,8 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Editorial story | section | reading width | reading | initial | always |
 | Editorial story | section | media rhythm | auto | initial | always |
 | Editorial story | section | commerce reference | none | initial | always |
-| Editorial story | section | commerce reference position | contextual | conditional | reveal when a product or collection reference is attached |
-| Editorial story | section | commerce reference treatment | subtle | conditional | reveal when a product or collection reference is attached |
+| Editorial story | section | commerce reference position | contextual | conditional | reveal when the commerce-reference field contains a product or collection |
+| Editorial story | section | commerce reference treatment | subtle | conditional | reveal when the commerce-reference field contains a product or collection |
 | Editorial story | block | heading | empty | initial | always |
 | Editorial story | block | rich text | empty | initial | always |
 | Editorial story | block | media | empty | initial | always |
