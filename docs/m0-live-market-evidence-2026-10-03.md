@@ -87,3 +87,44 @@ M0 requires at least three of these to survive live competitor task teardown and
 - Hold the explicit M0 go/no-go review.
 
 Until those are complete, M0 remains open and M2 remains blocked.
+
+
+## Competitor workflow teardown — public evidence pass
+
+### Method limitation
+
+This pass uses current official Theme Store listing/preset evidence. It can establish how competitors publicly structure and sell their systems, but it cannot prove every editor interaction. Claims about actual task completion, section selection counts, mobile recovery, and cross-surface reuse remain reserved for hands-on demo/editor testing.
+
+### What competitors actually provide
+
+| Theme | Public composition model observed | Implication for DCL hypothesis |
+|---|---|---|
+| Prestige | Premium design plus 30+ configurable sections and extensive merchandising/conversion capabilities | Premium visuals and section breadth are table stakes; DCL must reduce composition decisions, not add more sections |
+| Impulse | Ready-made design presets plus customizable conversion sections, promotions and shoppable hero patterns | DCL cannot claim “conversion sections” or “launch-ready visuals” as whitespace |
+| Impact | 35+ sections plus conversion-oriented purchase patterns | Large component catalog is mature; more section count is actively the wrong competitive axis |
+| Enterprise | Presets plus dense built-in conversion, catalog and merchandising functionality | Feature replacement/app reduction is already a competitor proposition |
+| Broadcast | Multiple presets and customizable sections; merchants publicly praise ease of use | “No-code/easy customization” is occupied territory and cannot be the primary differentiation |
+| Symmetry | Five ready-made designs and broad drag-and-drop/customization positioning | Flexible native editing is already mature; workflow decision economy must be measurably better |
+| Motion | Multiple landing, product and collection templates plus 20+ sections, product sales points and metafields | Important counter-evidence: competitors already provide multiple template starting points; DCL must demonstrate job-specific composition is materially clearer than template abundance |
+| Pipeline | Four presets, 40+ sections and OS 3.0 nested blocks | “Maximum flexibility” through more sections/nesting is strongly occupied; DCL should intentionally constrain rather than imitate |
+
+### Candidate gap status after public teardown
+
+1. **Blank-canvas/section-catalog decision load — REFINED, not proven.**
+   Competitors are not pure blank canvases. They provide presets, templates and extensive sections. Motion explicitly advertises multiple landing/product/collection templates. The test is therefore whether a merchant can choose and adapt the *right* starting composition for a commercial job with fewer consequential decisions—not whether templates exist.
+
+2. **Cross-surface continuity — STILL PLAUSIBLE, unproven.**
+   Current public listing evidence shows page/template/feature breadth but does not demonstrate a job-level campaign argument intentionally continuing campaign → collection → PDP. Hands-on task teardown is required.
+
+3. **Structured-but-optional product education — NARROWED, unproven.**
+   Competitors already advertise metafields, product sales points, usage information, ingredients/nutrition and product tabs. DCL cannot differentiate on supporting structured education. The test is whether structured enhancement remains optional while a standard-data-only state is polished and whether the workflow is materially easier.
+
+4. **Mobile recovery without custom intervention — STILL PLAUSIBLE, unproven.**
+   Competitors claim responsive/mobile quality, while review evidence surfaces cropping/configuration/support friction. A controlled hands-on recovery task is required; public marketing cannot establish this gap.
+
+5. **Customization without complexity displacement — STRONGEST PUBLIC-EVIDENCE HYPOTHESIS.**
+   The market repeatedly competes on 20–40+ sections, multiple templates, nested blocks and broad feature catalogs. This creates a falsifiable opportunity for a bounded-decision architecture, but only merchant task evidence can show that fewer/better-organized choices improve outcomes rather than merely reduce capability.
+
+### M0 interpretation
+
+The public teardown does **not** yet satisfy the roadmap's task-based teardown gate because we have not executed controlled tasks inside the competitors' editable demos. It does, however, prevent a false premise: the relevant competitors already have presets, landing/product/collection templates, metafields, rich merchandising and no-code customization. DCL's M1 proposition must outperform that mature baseline on decision economy and coherent job completion rather than feature availability.
