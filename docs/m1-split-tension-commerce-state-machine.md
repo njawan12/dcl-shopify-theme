@@ -344,7 +344,160 @@ It must not:
 
 Before coding, the implementation brief must convert this contract into exact files, fixtures, interaction rules, test commands, and PASS/NARROW/FAIL reporting.
 
-## 18. Decision rule after prototype
+## 18. Red-team corrections before implementation
+
+The 2026-10-03 pre-build red-team found the following gaps. These are now part of the controlling contract.
+
+### 18.1 Inclusion defaults and shopper intent
+
+Resolved purchase eligibility does **not** imply shopper consent to include an item.
+
+- On initial load, no step is included in an aggregate Add selected payload merely because it is single-variant or otherwise resolvable.
+- Inclusion requires an explicit shopper action in the enhanced flow.
+- A variant/option change may preserve inclusion only when the shopper had already explicitly included that same step and the new state resolves to an eligible variant. If the step becomes unresolved/ineligible, inclusion is cleared.
+- Returning later to an eligible state does not silently re-include a step that was cleared because of invalidity.
+- Browser back/forward restoration must not manufacture inclusion or stale totals; prototype behavior must be deterministic.
+
+This prevents a guided set from behaving like a pre-checked upsell bundle.
+
+### 18.2 Quantity contract
+
+M1 aggregate add is **quantity 1 per included step**.
+
+- Split Tension exposes no aggregate quantity selector in the first prototype.
+- Existing cart quantity is irrelevant to the pending set total; the total describes only the items about to be requested.
+- Quantity rules/minimums/maximums/increments make that step **link-only** unless a later contract proves correct inline support.
+- Two steps referencing the same variant remain two authored steps but must not create ambiguous duplicate lines. For M1, duplicate product/variant references are rejected by the fixture/configuration model or narrowed to product links rather than silently coalesced.
+
+### 18.3 Variant availability mutation and request race
+
+The browser's pre-submit state can become stale between render and Shopify's cart response.
+
+- Availability at selection time is advisory; Shopify's add response is authoritative.
+- Every option/selection mutation increments local state/version and invalidates any stale derived total.
+- While an add request is pending, controls that would mutate its payload are disabled for that instance.
+- If the section is re-rendered/unloaded in later production while a request is pending, the request is aborted/ignored and stale responses may not mutate replacement UI.
+- A 422/validation/inventory error is a normal recoverable commerce state, not an exceptional crash.
+
+### 18.4 Multi-add result strategy
+
+The production implementation may not assume atomic multi-line cart addition until the current Shopify Cart API behavior is verified against official documentation and a real Shopify test store at the implementation milestone.
+
+The M1 harness therefore models three outcomes:
+1. confirmed full success;
+2. confirmed request failure;
+3. ambiguous/partial outcome.
+
+For outcome 3, the UI must **not** infer which items were added from the outgoing payload. It reports that the cart could not be fully confirmed and provides a safe route to review the cart/retry after reconciliation. Production must reconcile against authoritative cart state before making item-level success claims.
+
+If current Shopify behavior later proves a stronger atomic guarantee, the production contract may be simplified with dated official evidence.
+
+### 18.5 Markets, currency, and money truth
+
+The prototype uses fixture money only to test state transitions. Production must treat Shopify's active market/context as authoritative.
+
+- Do not cache or calculate across currencies.
+- Do not perform floating-point money arithmetic.
+- Aggregate arithmetic uses integer minor units or an equivalently exact representation supplied by Shopify.
+- Currency/formatting follows the active Shopify context.
+- If market/context changes invalidate serialized prices/variants, stale state must not remain add-eligible.
+- The aggregate label must identify that it is the total of currently selected items, not a guaranteed checkout total; taxes, shipping, duties, discounts, and later cart rules are outside this component.
+
+### 18.6 Product-form properties and line identity
+
+Products requiring line-item properties, recipient fields, personalization, uploads, or other product-form metadata are **link-only** in M1.
+
+The aggregate add may not copy unknown hidden properties from a PDP or app. A normal variant ID alone is eligible only when that is sufficient for a truthful ordinary add.
+
+### 18.7 Accelerated checkout and dynamic checkout
+
+Split Tension does not expose accelerated/dynamic checkout buttons. The component is a merchandising/add-to-cart surface, not a checkout surface. Product pages/cart retain responsibility for accelerated checkout.
+
+### 18.8 Cart drawer and theme-global cart ownership
+
+M1 does not assume a cart drawer exists.
+
+After confirmed success, the component may announce success and expose a cart link. Any production integration with a global cart drawer/count/event bus must use the theme's eventual single cart contract rather than Split Tension inventing its own global protocol.
+
+### 18.9 Multiple section instances
+
+The executable harness must model at least two Split Tension instances on one page.
+
+Acceptance:
+- IDs/names/labels are instance-scoped;
+- option changes in one instance never alter the other;
+- totals and pending states are independent;
+- document-level listeners are avoided unless justified and cleaned up;
+- a request in one instance does not disable the other.
+
+### 18.10 Form semantics and Enter key
+
+Nested forms are prohibited.
+
+If per-step no-JS product forms are ever used, the aggregate enhanced UI cannot create invalid nested form markup. Enter/Space behavior must follow native control semantics and must not accidentally submit the wrong step or aggregate action.
+
+### 18.11 Initialization and failure boundary
+
+Server-rendered content is authoritative. Enhanced controls are revealed/enabled only after that instance initializes successfully.
+
+If initialization throws:
+- product/story links remain usable;
+- no dead inclusion controls or Add selected button remain exposed;
+- existing content is not destroyed;
+- failure in one instance does not prevent another instance from initializing.
+
+### 18.12 Configuration and product duplication
+
+Merchant/editor configuration must be deterministic when:
+- fewer than two valid products remain after deleted references;
+- the same product is selected in multiple steps;
+- all steps are ineligible for inline add.
+
+For M1:
+- one surviving valid step may render as editorial/product discovery but aggregate Add selected is omitted;
+- duplicate product references are permitted only as editorial steps if intentionally authored, but only one duplicate may be aggregate-add eligible; otherwise duplicates become link-only to avoid accidental duplicate purchase;
+- if zero steps are aggregate-add eligible, the aggregate summary/action is omitted rather than disabled as a permanent scar.
+
+### 18.13 Security/output boundary
+
+Production serialization of product/variant fixture-equivalent data must use safe JSON serialization and escaped merchant content. Client code must not build executable HTML from untrusted strings. Product URLs and IDs come from Shopify objects, not merchant-authored arbitrary scriptable values.
+
+### 18.14 Visual identity remains a separate gate
+
+Commerce correctness cannot earn Split Tension a PASS by itself.
+
+Before the composition survives M1, browser-rendered evidence must prove that:
+- editorial and commerce zones create recognizable tension rather than a generic two-column routine builder;
+- neutral system typography, neutral palette, and ordinary packshots retain the structural signature;
+- 2-step and 5-step layouts both feel intentional;
+- mobile remains premium rather than becoming a long settings/form stack.
+
+If visual proof is weak, narrow or kill the composition even if the state machine is technically correct.
+
+## 19. Expanded required red-team fixtures
+
+In addition to the fixtures in section 15, implementation must test:
+
+15. **Explicit inclusion default** — eligible products load unselected; total/action reflects no assumed consent.
+16. **Quantity-rule product** — safely link-only.
+17. **Duplicate reference** — no accidental duplicate aggregate purchase.
+18. **Two instances** — isolated state and identifiers.
+19. **Initialization failure** — fallback remains usable.
+20. **Inventory race / 422** — stale availability rejected truthfully.
+21. **All inline-ineligible** — no permanent empty aggregate action.
+22. **One surviving valid step** — coherent discovery, no misleading set action.
+23. **Money precision/context** — exact integer arithmetic and truthful aggregate label.
+24. **Required line-item properties** — safely link-only.
+
+## 20. Pre-implementation verdict
+
+**Contract verdict: PASS WITH CORRECTIONS.**
+
+The state machine is now sufficiently closed for an isolated M1 implementation brief, subject to one live-platform check before production: current Shopify cart/multi-line request semantics must be revalidated from official Shopify documentation and a real Shopify test store. That check is intentionally not represented as proven by this static M1 contract.
+
+The next artifact is an implementation brief. Codex still has no authorization to write production theme code.
+
+## 21. Decision rule after prototype
 
 **PASS:** truthful complex-variant behavior, useful no-JS path, comprehensible five-step mobile state, bounded merchant model, and no false cart semantics are evidenced.
 
