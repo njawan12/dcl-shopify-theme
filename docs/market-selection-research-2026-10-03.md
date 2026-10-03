@@ -109,3 +109,84 @@ For each Tier A market:
 - produce a commercial opportunity matrix with evidence confidence.
 
 Only then select the launch market and resume market-specific M1 visual work.
+
+
+# Conclusive archetype decision — 2026-10-03
+
+## Decision
+
+**Build for premium, brand-led DTC merchants with a focused-to-medium catalog (primary target: Shopify “Some”, 11–100+ products) where the PDP and merchandising system must do more than simply display a SKU.**
+
+The launch product is not an “industry theme.” It is a **merchant-archetype theme**.
+
+### Core merchant archetype
+
+The target merchant:
+- has a differentiated consumer brand rather than a commodity catalog;
+- usually carries roughly 11–100+ products, with the architecture remaining sound for smaller focused catalogs;
+- depends heavily on mobile traffic and direct-to-product landing;
+- needs premium visual storytelling and strong purchase clarity simultaneously;
+- sells products that require some combination of education, options/variants, proof/trust, comparison, routines/sets, materials/ingredients/specifications, delivery/returns context or complementary-product merchandising;
+- runs campaigns and changes merchandising without wanting routine code edits;
+- uses apps for specialized capabilities, so the theme must host apps cleanly rather than imitate them;
+- values a strong zero-setup state but needs bounded structural control as the brand evolves.
+
+### Cross-industry fit
+
+Best launch-preset territories for this archetype:
+1. **Beauty + Wellness** — strongest fit for education, proof, routines/replenishment, subscription/app seams and product storytelling.
+2. **Jewelry + Accessories** — strongest fit for premium visual presentation, materials/options, trust, gifting and considered purchase.
+3. **Food + Drink** — strongest fit for flavor/pack variants, ingredients/nutrition, replenishment, bundles/app seams and campaign merchandising.
+
+Clothing and Home remain important Shopify markets but are not the primary v1 archetype:
+- Clothing pushes the product toward deeper size/fit/combined-listing/collection-merchandising complexity in an exceptionally crowded theme category.
+- Home spans focused design brands through very large furniture/decor catalogs and can pull the architecture toward delivery/specification and large-catalog discovery requirements.
+
+### Launch preset decision
+
+**First preset: Beauty + Wellness.**
+
+This is no longer justified by DCL history. It is selected because independent current market evidence shows Beauty & Fitness is one of Shopify’s largest store categories, Shopify exposes both Beauty and Wellness as discovery industries, and the archetype’s strongest cross-industry surface requirements can be demonstrated naturally in this preset.
+
+The architecture, naming and controls must remain archetype-led rather than skincare-specific. Jewelry/Accessories and Food/Drink are future preset validation targets, not separate code architectures.
+
+### Catalog decision
+
+Primary listing catalog tag for the first preset: **Some (11–100+)**.
+
+Reason: it is the dominant Theme Store catalog segment (861 of 1,299 themes in the 2026-10-03 snapshot) and best matches the focused/medium brand-led archetype. Demo data should be realistic enough to test collection/search/navigation and not be a six-product art-direction illusion.
+
+### Product thesis
+
+> A premium Shopify theme for brand-led DTC merchants who need an exceptional storefront, conversion-clear product pages and unusually strong native merchandising control without turning the theme editor into a page builder.
+
+### What is table stakes, not differentiation
+
+Mega menus, sticky headers, swatches, quick view, breadcrumbs, before/after, stock display, promotional tiles, app blocks, recommendations and standard product media are capabilities/quality requirements where appropriate. Their presence is not the product thesis.
+
+### Differentiation to prove in M1
+
+1. **Premium visual system that survives ordinary merchant content.**
+2. **Bounded structural flexibility on high-value surfaces** rather than hundreds of styling knobs.
+3. **PDP-first information architecture** that can support education, proof, options and app seams without becoming a long stack of generic accordions.
+4. **Merchant-operable merchandising** for campaigns, collections and product storytelling.
+5. **Mobile commerce as a designed system**, not a collapsed desktop layout.
+6. **Clean extension architecture and update resilience** so customization does not make the theme fragile.
+
+### Evidence basis
+
+This decision uses:
+- Shopify Theme Store’s current industry/catalog taxonomy and listing model;
+- Shopify’s current 1,299-theme supply snapshot and feature saturation;
+- current third-party Shopify store-category distribution as directional demand evidence;
+- current Theme Store review evidence showing recurring complaints around missing bounded controls, mobile-specific presentation, update regressions, product/collection limitations, performance, structured data, documentation and support;
+- current specialist/large-catalog theme positioning showing that “many features” and “large catalog” are already crowded propositions;
+- Shopify’s current originality rule requiring architectural/experiential differentiation, not cosmetic or additive changes.
+
+DCL client history is explicitly excluded from the market-selection rationale.
+
+## Stop reopening market selection
+
+Market selection is now closed for M1 unless new evidence materially contradicts the archetype. M1 should test the product thesis, not repeatedly reopen industry selection.
+
+Beauty/Wellness-specific visual work may resume, but every component must be checked against the archetype contract so that the underlying system is not skincare-locked.
