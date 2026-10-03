@@ -47,14 +47,14 @@ Audit rule: the count of controls in this global inventory must exactly reconcil
 
 | Surface/role | Initially visible section controls | Conditional controls | Representative block controls | Default/reveal rule |
 |---|---:|---:|---:|---|
-| Reveal / campaign hero | 6 | 2 | 4 | focal-point and crop controls appear only when media exists; media priority is always visible |
-| Explain / text-media | 5 | 2 | 5 | media/detail controls reveal only after corresponding content is enabled |
-| Prove / evidence | 4 | 2 | 5 | source/attribution controls reveal only when evidence is present |
-| Compare | 4 | 3 | 5 | comparison-detail controls reveal only after a comparison source is connected |
-| Act / CTA | 3 | 2 | 4 | secondary-action controls reveal only when a secondary action is enabled |
-| Product purchase core | 5 | 4 | 5 | variant/media/app-specific controls appear only when applicable |
-| Collection merchandising | 5 | 3 | 4 | editorial interruption controls reveal only when enabled |
-| Editorial story | 4 | 2 | 4 | commerce-reference controls reveal only when a product/collection is attached |
+| Reveal / campaign hero | 6 | 2 | 4 | focal-point and crop controls reveal when the media source field is non-empty; media priority is always visible |
+| Explain / text-media | 5 | 2 | 5 | media treatment reveals when media is non-empty; detail density reveals when a key-point or supporting-detail block is enabled |
+| Prove / evidence | 4 | 2 | 5 | source label/reference reveal when at least one evidence/claim block has a non-empty claim field |
+| Compare | 4 | 3 | 5 | conditional controls use the explicit item/detail/count predicates in the row-level inventory |
+| Act / CTA | 3 | 2 | 4 | secondary-action label/destination reveal when the secondary-action toggle is on |
+| Product purchase core | 5 | 4 | 5 | conditional controls use explicit variant, media, pickup-location, selling-plan, or app-block presence predicates |
+| Collection merchandising | 5 | 3 | 4 | interruption position/source/span reveal when the editorial-interruption toggle is on |
+| Editorial story | 4 | 2 | 4 | commerce-reference position/treatment reveal when the reference field contains a product or collection |
 
 No representative section may exceed 8 initially visible merchant decisions without an explicit M1 redesign decision. No representative block may exceed 6 initially visible controls. Conditional controls must be causally tied to an enabled feature, connected data source, or an explicit measurable content-state threshold recorded in this specimen; “advanced” dumping grounds do not count as progressive disclosure.
 
@@ -159,6 +159,19 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 
 Audit rule: the summary counts in the first table must equal the number of row-level controls above by surface/role, scope, and visibility classification. Prototype instrumentation must record the exact control names touched so observed behavior can be reconciled directly against this inventory. Any unlisted control used during testing is a specimen defect and blocks M1 until the inventory is corrected and the affected task is retested.
 
+### Mechanical reconciliation procedure
+
+Before requesting review or accepting any specimen change:
+
+1. Count section rows by surface and visibility; each total must exactly equal the corresponding summary-table initial/conditional count.
+2. Count block rows by surface; each total must exactly equal the corresponding summary-table block count.
+3. Count global rows by token group; each total must exactly equal the token-summary ceiling.
+4. Every conditional row must name an observable field, toggle, Shopify object/data presence, or numeric threshold. Subjective predicates fail the audit.
+5. Every initial row must use `always` as its reveal predicate.
+6. Any reclassification requires updating the row and its roll-up in the same change.
+
+A mismatch fails the specimen audit before external review.
+
 ## Applied workflow compositions
 
 | Workflow | Starting composition | Expected merchant decisions before preview-ready |
@@ -170,6 +183,10 @@ Audit rule: the summary counts in the first table must equal the number of row-l
 | Product Education | Explain → Prove → Compare → Act/product handoff | ≤10 |
 
 The inventory must be exercised in the clickable editor simulation. Record actual sections/blocks/settings touched and compare observed decision counts with these proposed ceilings; do not infer usability from schema counts alone.
+
+## Prototype observability constants
+
+For M1 reproducibility, mobile-state predicates are evaluated at a fixed **390 px CSS viewport width** unless a workflow contract explicitly defines another fixture. Content-state predicates use the explicit field, toggle, object-presence, or count conditions named in the row-level inventory. Prototype authors must not infer control visibility from subjective notions such as “important,” “merchant-relevant,” “applicable,” or “above the fold.”
 
 ## Progressive-disclosure rules
 
