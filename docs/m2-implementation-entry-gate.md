@@ -1,6 +1,6 @@
 # M2 implementation entry gate
 
-Status: implementation branch opened after M1A documentation merge. This file records the live Shopify revalidation performed immediately before production theme scaffolding.
+Status: pre-M2 readiness only. M2 remains closed until the repository's blocking M0 and M1 validation gates are completed and approved. This file records compliance facts and the intended entry criteria; it does not authorize production scaffolding.
 
 ## Live Shopify revalidation — 2026-10-03
 
@@ -17,13 +17,13 @@ Official Shopify documentation was rechecked before M2 implementation. The imple
 
 ## Foundation decision for M2
 
-ADR-001 remains the controlling decision. Production scaffolding may use only a pinned/audited Shopify Skeleton foundation or fully original code. No Dawn or Horizon code may enter the repository.
+ADR-001 remains the controlling decision. When M2 is authorized after M0/M1 closure, production scaffolding may use only a pinned/audited Shopify Skeleton foundation or fully original code. No Dawn or Horizon code may enter the repository.
 
-Before importing any Skeleton files, record the exact upstream commit/tag and audit the inherited files. If provenance cannot be established cleanly, use fully original scaffolding instead.
+After M0/M1 closure and before importing any Skeleton files, record the exact upstream commit/tag and audit the inherited files. If provenance cannot be established cleanly, use fully original scaffolding instead.
 
 ## First implementation slice
 
-M2 begins with the smallest runnable production foundation, not a broad feature dump:
+When the blocking M0/M1 gates are closed, M2 must begin with the smallest runnable production foundation, not a broad feature dump:
 
 1. valid Shopify directory/layout/config/locales/template skeleton;
 2. global design-token plumbing;
@@ -50,4 +50,10 @@ The first M2 implementation PR cannot merge unless:
 - no production feature contradicts the M1 bounded-complexity/control contracts;
 - no app dependency, fake scarcity, or API-backed app-like functionality is introduced.
 
-This gate intentionally freezes the compliance facts needed to begin implementation without pretending that later M0/M1 empirical validation has been completed. Empirical product validation remains tracked separately and can still force redesign before submission.
+## Blocking dependency
+
+This document does **not** authorize production scaffolding or M2 implementation yet. The controlling roadmap and M1 prototype plan remain authoritative: M0 approval and every blocking M1 validation gate must be completed and recorded before production implementation begins.
+
+Until those approvals are recorded, this document is only a pre-M2 compliance/readiness checklist. No production Liquid, JSON templates, sections, blocks, assets, config, locales, or inherited Skeleton files may be added under this milestone.
+
+Once M0 and M1 are formally closed, revalidate any volatile Shopify requirements and then use the implementation slice and acceptance conditions above as the M2 entry gate.
