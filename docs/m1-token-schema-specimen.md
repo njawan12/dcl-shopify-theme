@@ -56,7 +56,7 @@ Audit rule: the count of controls in this global inventory must exactly reconcil
 | Collection merchandising | 5 | 3 | 4 | editorial interruption controls reveal only when enabled |
 | Editorial story | 4 | 2 | 4 | commerce-reference controls reveal only when a product/collection is attached |
 
-No representative section may exceed 8 initially visible merchant decisions without an explicit M1 redesign decision. No representative block may exceed 6 initially visible controls. Conditional controls must be causally tied to an enabled feature or connected data source; “advanced” dumping grounds do not count as progressive disclosure.
+No representative section may exceed 8 initially visible merchant decisions without an explicit M1 redesign decision. No representative block may exceed 6 initially visible controls. Conditional controls must be causally tied to an enabled feature, connected data source, or an explicit measurable content-state threshold recorded in this specimen; “advanced” dumping grounds do not count as progressive disclosure.
 
 ### Row-level control inventory
 
@@ -105,7 +105,7 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Compare | section | layout | table/list auto | initial | always |
 | Compare | section | highlight item | none | conditional | reveal when comparison has two or more items |
 | Compare | section | detail density | standard | conditional | reveal when comparison has supporting detail |
-| Compare | section | mobile condensation | auto | conditional | reveal when comparison exceeds the mobile density threshold |
+| Compare | section | mobile condensation | auto | conditional | reveal when the comparison contains more than 4 comparison rows or more than 3 compared items at the active mobile breakpoint |
 | Compare | block | item label | empty | initial | always |
 | Compare | block | value | empty | initial | always |
 | Compare | block | qualifier | empty | initial | always |
