@@ -58,6 +58,15 @@ Audit rule: the count of controls in this global inventory must exactly reconcil
 
 No representative section may exceed 8 initially visible merchant decisions without an explicit M1 redesign decision. No representative block may exceed 6 initially visible controls. Conditional controls must be causally tied to an enabled feature, connected data source, or an explicit measurable content-state threshold recorded in this specimen; “advanced” dumping grounds do not count as progressive disclosure.
 
+### Source-mode transition rules
+
+Source-mode controls use one concrete initial state so prototype timing and decision counts are reproducible:
+
+- **Explain / text-media:** default source mode = `manual`. Switching the control to `connected` is the only action that enters connected mode; the prototype then requires selecting one supported connected source before connected content is considered present.
+- **Prove / evidence:** default source mode = `manual`. Switching to `connected` exposes the connected-evidence source selector; no connected state is assumed until a source is selected.
+- **Editorial story:** default source mode = `manual`. Switching to `connected` exposes the connected story source selector; no connected state is assumed until a source is selected.
+- Returning a source-mode control to `manual` clears the prototype's active connected-source state for that section. Connected-source data may remain conceptually available outside the prototype, but it must not affect visibility, timing, or decision-count measurements while mode = `manual`.
+
 ### Row-level control inventory
 
 The aggregate counts above are only summaries. The audit source of truth is the row-level inventory below; every proposed merchant-facing control is named, assigned a scope, given a default, classified as initially visible or conditional, and tied to an explicit reveal predicate where conditional.
@@ -76,7 +85,7 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Reveal / campaign hero | block | badge | empty | initial | always |
 | Reveal / campaign hero | block | secondary copy | empty | initial | always |
 | Reveal / campaign hero | block | secondary action | disabled | initial | always |
-| Explain / text-media | section | content source | manual/connected | initial | always |
+| Explain / text-media | section | content source mode | manual | initial | always |
 | Explain / text-media | section | media position | auto | initial | always |
 | Explain / text-media | section | emphasis | balanced | initial | always |
 | Explain / text-media | section | content width | reading | initial | always |
@@ -88,7 +97,7 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Explain / text-media | block | media | empty | initial | always |
 | Explain / text-media | block | key point | empty | initial | always |
 | Explain / text-media | block | action | disabled | initial | always |
-| Prove / evidence | section | evidence source | connected/manual | initial | always |
+| Prove / evidence | section | evidence source mode | manual | initial | always |
 | Prove / evidence | section | evidence type | factual | initial | always |
 | Prove / evidence | section | display density | standard | initial | always |
 | Prove / evidence | section | attribution position | inline | initial | always |
@@ -146,7 +155,7 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Collection merchandising | block | editorial tile | empty | initial | always |
 | Collection merchandising | block | collection note | empty | initial | always |
 | Collection merchandising | block | app insertion seam | enabled | initial | always |
-| Editorial story | section | story source | manual/connected | initial | always |
+| Editorial story | section | story source mode | manual | initial | always |
 | Editorial story | section | reading width | reading | initial | always |
 | Editorial story | section | media rhythm | auto | initial | always |
 | Editorial story | section | commerce reference | none | initial | always |
@@ -159,6 +168,23 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 
 Audit rule: the summary counts in the first table must equal the number of row-level controls above by surface/role, scope, and visibility classification. Prototype instrumentation must record the exact control names touched so observed behavior can be reconciled directly against this inventory. Any unlisted control used during testing is a specimen defect and blocks M1 until the inventory is corrected and the affected task is retested.
 
+### Block cardinality and ordering rules
+
+These rules are part of the audit source of truth. They bound decision load and remove arbitrary prototype-author limits.
+
+| Surface/role | Allowed block types | Min / max instances | Duplicate rule | Ordering rule |
+|---|---|---|---|---|
+| Reveal / campaign hero | eyebrow; badge; secondary copy; secondary action | 0 / 1 of each type | no duplicates of any type | fixed semantic order: eyebrow → badge → secondary copy → secondary action; omitted types collapse without gaps |
+| Explain / text-media | heading; body; media; key point; action | heading 0–1; body 0–1; media 0–1; key point 0–4; action 0–1 | only key point may repeat | heading precedes body; media may appear before or after body; repeated key points remain contiguous; action is last |
+| Prove / evidence | claim; supporting detail; source; qualifier; icon/media | claim 1–6; supporting detail 0–1 per claim; source 0–1 per claim; qualifier 0–1 per claim; icon/media 0–1 per claim | claim groups may repeat up to 6 | each claim is immediately followed only by its own optional supporting detail/source/qualifier/icon-media group; claim groups may be reordered as whole units |
+| Compare | item label; value; qualifier; source/reference; emphasis flag | compared items 2–4; per item: one label, 1–6 values, 0–1 qualifier, 0–1 source/reference, 0–1 emphasis flag | compared items may repeat up to 4; value rows may repeat up to 6 per item | item label starts each item group; its values follow; qualifier/source/emphasis follow that item's values; item groups may be reordered as whole units |
+| Act / CTA | supporting copy; trust note; secondary action toggle; app insertion seam | supporting copy 0–1; trust note 0–1; secondary action toggle 1; app insertion seam 1 | no duplicates | fixed order: supporting copy → trust note → secondary action toggle → app insertion seam |
+| Product purchase core | title; price/status; variant selector; quantity/action; supporting facts/app seam | exactly 1 of each core block type | no duplicates of core block types | fixed commerce order: title → price/status → variant selector → quantity/action → supporting facts/app seam |
+| Collection merchandising | product card; editorial tile; collection note; app insertion seam | product cards 1–24 in M1 fixture; editorial tile 0–2; collection note 0–1; app insertion seam 0–1 | product card and editorial tile may repeat within maxima | product cards preserve collection order; editorial tiles may interrupt only after a completed product row; collection note precedes first product row; app seam follows merchandising content |
+| Editorial story | heading; rich text; media; contextual product/collection reference | heading 1–3; rich text 1–6; media 0–4; contextual reference 0–3 | all except a single top-level lead heading may repeat within maxima | first block is a heading; rich text/media may interleave; contextual commerce references may appear only after at least one narrative block and never as the first block |
+
+For prototype scoring, adding a block beyond these maxima, using an unlisted block type, or violating an ordering rule is a specimen failure rather than a merchant choice. Changes to these bounds require a documented redesign and retest because they can alter decision counts and completion time.
+
 ### Mechanical reconciliation procedure
 
 Before requesting review or accepting any specimen change:
@@ -168,7 +194,9 @@ Before requesting review or accepting any specimen change:
 3. Count global rows by token group; each total must exactly equal the token-summary ceiling.
 4. Every conditional row must name an observable field, toggle, Shopify object/data presence, or numeric threshold. Subjective predicates fail the audit.
 5. Every initial row must use `always` as its reveal predicate.
-6. Any reclassification requires updating the row and its roll-up in the same change.
+6. Every source-mode control must have one concrete initial default and one explicit transition action into each alternate mode; slash-combined defaults such as `manual/connected` are invalid.
+7. Every representative surface must have explicit block min/max cardinality, duplicate policy, and ordering rules; prototype fixtures must conform exactly.
+8. Any reclassification, source-mode change, or block-bound change requires updating the detailed rule and its roll-up/affected acceptance evidence in the same change.
 
 A mismatch fails the specimen audit before external review.
 
