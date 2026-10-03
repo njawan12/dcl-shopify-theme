@@ -130,3 +130,47 @@ Do not:
 No production code follows from this brief.
 
 M1 visual direction passes only after the three PDP directions are actually visualized, compared against this brief, stress-tested with realistic content, and one coherent system is selected or synthesized with Nouman's approval.
+
+
+## Selected synthesis direction — 2026-10-03
+
+Founder alignment: proceed with **Clinical Editorial structural discipline + Contemporary Ritual art direction**. This is a synthesis to prototype, not a literal combination of the generated concepts and not final visual approval.
+
+### Conversion-first requirement
+
+Visual distinction may never obscure purchase clarity. The PDP system must make modern conversion practice a product capability while avoiding unsupported claims that any fixed pattern universally increases conversion.
+
+Current Shopify guidance (rechecked 2026-10-03) reinforces: prominent above-fold purchase action; scannable title/rating/price/options/availability; clear variant state; useful multi-format media; visible shipping/returns reassurance; social proof/app seams; mobile persistent purchase access; responsive/lightweight media; structured product data; and testing changes against product conversion/add-to-cart/reached-checkout/AOV/returns rather than assuming a design converts.
+
+### Modern capability set to prototype
+
+The system must account for:
+- sticky mobile purchase action with collision-safe behavior;
+- native variant/options states including unavailable/sold-out combinations and deep-linked variant truth;
+- selling-plan-compatible purchase UI without vendor lock-in;
+- accelerated checkout support where Shopify context permits;
+- rich product media with image/video/3D-compatible rendering and accessible controls;
+- review/rating and other app-block seams without built-in fake review logic;
+- factual benefit/trust microcontent close to the purchase decision;
+- shipping/returns/delivery-information placement that can be merchant-controlled without clutter;
+- complementary-product/routine merchandising;
+- comparison/product-education primitives;
+- ingredient/specification and usage/process content with graceful no-metafield fallback;
+- cart drawer/page continuity, quantity changes, discounts/status messaging and app compatibility;
+- predictive-search/navigation quality as later surface-system work;
+- product structured data/rich-result correctness;
+- fast responsive imagery, low-JS progressive enhancement and Core Web Vitals discipline;
+- accessibility, keyboard/focus/reduced-motion/reflow requirements;
+- analytics/A-B-test-friendly stable markup and component boundaries without embedding an experimentation platform.
+
+### CRO doctrine
+
+"CRO best practice" means **reduce friction, answer purchase questions, preserve truth, keep the primary action obvious, and make meaningful variants testable**. It does not mean adding urgency widgets, badges, countdowns, upsells or sticky UI by default.
+
+Any conversion feature must pass four questions:
+1. Does it solve a documented shopper/merchant problem?
+2. Is it truthful and compatible with Shopify commerce state?
+3. Does it preserve accessibility, mobile usability and performance?
+4. Can a merchant test or disable it without developer intervention?
+
+The theme should enable excellent experimentation; it must not pretend that one layout is the universal highest-converting layout.
