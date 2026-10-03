@@ -18,6 +18,31 @@ Global controls are semantic roles, not per-component styling escape hatches.
 
 Global-token changes must propagate across representative surfaces without section-by-section repair. The prototype records proposed count, observed merchant decisions, and any control requested but intentionally excluded.
 
+### Global control inventory
+
+The global token summary above is only a roll-up. The audit source of truth for global controls is the row-level inventory below.
+
+| Token group | Control | Default | Visibility | Reveal predicate |
+|---|---|---|---|---|
+| Brand | logo source | merchant logo or text fallback | initial | always |
+| Brand | primary type role | system-safe sans | initial | always |
+| Brand | secondary type role | inherit primary | initial | always |
+| Brand | brand scale | medium | initial | always |
+| Color roles | background | neutral light | initial | always |
+| Color roles | surface | neutral surface | initial | always |
+| Color roles | text | high-contrast dark | initial | always |
+| Color roles | muted text | accessible muted dark | initial | always |
+| Color roles | accent | restrained brand accent | initial | always |
+| Color roles | critical/status | accessible semantic status role | initial | always |
+| Layout | content width | medium | initial | always |
+| Layout | reading width | narrow/reading | initial | always |
+| Layout | section rhythm | medium | initial | always |
+| Shape | radius role | restrained | initial | always |
+| Shape | border treatment | subtle | initial | always |
+| Motion | motion policy | standard with reduced-motion support | initial | always |
+
+Audit rule: the count of controls in this global inventory must exactly reconcile with the ceilings in the token summary table. Any additional global setting introduced during prototyping is a specimen defect until it is added here with a default, visibility classification, and reveal predicate. Prototype instrumentation must record the exact global control names changed so brand-level decisions are auditable alongside section/block decisions.
+
 ## Representative section and block inventory
 
 | Surface/role | Initially visible section controls | Conditional controls | Representative block controls | Default/reveal rule |
