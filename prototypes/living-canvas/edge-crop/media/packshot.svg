@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Ordinary white-background product packshot</title>
+  <desc id="desc">A centered amber pump bottle on a plain white background.</desc>
+  <rect width="1200" height="1200" fill="#fff"/><ellipse cx="600" cy="1025" rx="260" ry="42" fill="#e7e7e7"/>
+  <rect x="390" y="300" width="420" height="700" rx="65" fill="#72452e"/><rect x="500" y="180" width="200" height="150" rx="24" fill="#202622"/>
+  <path d="M600 180v-65h245v58H690" fill="#202622"/><rect x="430" y="535" width="340" height="250" rx="10" fill="#f4efe5"/>
+  <text x="600" y="640" text-anchor="middle" font-family="Arial,sans-serif" font-size="38" fill="#202622">FIELD NOTE</text>
+  <text x="600" y="695" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="#202622">DAILY OIL</text>
+</svg>
