@@ -65,7 +65,10 @@ Source-mode controls use one concrete initial state so prototype timing and deci
 - **Explain / text-media:** default source mode = `manual`. Switching the control to `connected` is the only action that enters connected mode; the prototype then requires selecting one supported connected source before connected content is considered present.
 - **Prove / evidence:** default source mode = `manual`. Switching to `connected` exposes the connected-evidence source selector; no connected state is assumed until a source is selected.
 - **Editorial story:** default source mode = `manual`. Switching to `connected` exposes the connected story source selector; no connected state is assumed until a source is selected.
+- **Compare:** default source mode = `manual`. Switching to `connected` exposes the connected comparison source selector; no connected state is assumed until a source is selected.
 - Returning a source-mode control to `manual` clears the prototype's active connected-source state for that section. Connected-source data may remain conceptually available outside the prototype, but it must not affect visibility, timing, or decision-count measurements while mode = `manual`.
+
+For `Compare`, `layout = auto` is one concrete default. In the M1 prototype it renders as a table at widths ≥768 px and a stacked list below 768 px; merchants may explicitly switch to `table` or `list` if those alternate modes are exposed in the simulation.
 
 ### Row-level control inventory
 
@@ -108,10 +111,10 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Prove / evidence | block | source | empty | initial | always |
 | Prove / evidence | block | qualifier | empty | initial | always |
 | Prove / evidence | block | icon/media | empty | initial | always |
-| Compare | section | comparison source | connected/manual | initial | always |
+| Compare | section | comparison source mode | manual | initial | always |
 | Compare | section | comparison axis | merchant-defined | initial | always |
 | Compare | section | emphasis | neutral | initial | always |
-| Compare | section | layout | table/list auto | initial | always |
+| Compare | section | layout | auto | initial | always |
 | Compare | section | highlight item | none | conditional | reveal when the comparison contains at least 2 compared items |
 | Compare | section | detail density | standard | conditional | reveal when at least one comparison item contains a non-empty qualifier or source/reference value |
 | Compare | section | mobile condensation | auto | conditional | reveal when the comparison contains more than 4 comparison rows or more than 3 compared items; prototype mobile checks use the fixed 390 px viewport defined for M1 |
