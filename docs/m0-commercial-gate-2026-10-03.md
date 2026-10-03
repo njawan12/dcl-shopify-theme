@@ -79,10 +79,10 @@ Do not pick a final price merely by averaging competitors. If the validated work
 
 Do not authorize M2 merely because M1 prototypes look attractive. Reconsider or narrow the product if any of these remain true:
 
-1. Target merchants do not report repeated, costly launch/PDP/campaign composition pain.
-2. A strong incumbent template/preset baseline performs similarly to DCL's job-oriented workflow.
-3. The architecture needs frequent custom code or support to accommodate ordinary target-merchant variation.
-4. Adjacent vertical support materially expands schema/support burden without demonstrated demand.
+1. The recurring DCL customization inventory cannot be translated into a compact set of useful, repeatable controls/surface variants.
+2. Strong incumbents already provide comparable structural flexibility on the targeted high-value surfaces, leaving no defensible system-level distinction.
+3. The architecture needs frequent custom code or support for ordinary variation that the product explicitly claims to support.
+4. The Beauty/Wellness reference system cannot produce materially different premium outcomes without schema/settings explosion.
 5. DCL cannot name ongoing product, engineering/maintenance, QA and merchant-support ownership.
 6. Demo/content quality required to sell the theme cannot be funded/maintained.
 7. Shopify eligibility/originality requirements cannot be satisfied with a defensible architecture/provenance trail.
@@ -121,10 +121,10 @@ Before M0 closes, founder approval must explicitly answer:
 
 - target customer and deliberate non-targets;
 - willingness to accept Theme Store-exclusive distribution;
-- product/design/engineering/QA/support ownership;
-- support SLA and escalation model;
-- annual maintenance/QA budget;
-- demo photography/copy/content budget;
+- product/design/engineering/QA/support ownership (one person may own multiple roles before launch, but every responsibility must be named);
+- support SLA and escalation model meeting Shopify's current two-business-day response requirement and immediate critical-bug obligation;
+- maintenance/QA capacity and budget appropriate to release cadence;
+- demo photography/copy/content budget/capacity;
 - willingness to narrow to Beauty & Wellness first if adjacent-vertical evidence is weak;
 - commercial threshold for continuing after launch.
 
