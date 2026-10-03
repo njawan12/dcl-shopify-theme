@@ -33,6 +33,107 @@ Global-token changes must propagate across representative surfaces without secti
 
 No representative section may exceed 8 initially visible merchant decisions without an explicit M1 redesign decision. No representative block may exceed 6 initially visible controls. Conditional controls must be causally tied to an enabled feature or connected data source; “advanced” dumping grounds do not count as progressive disclosure.
 
+### Row-level control inventory
+
+The aggregate counts above are only summaries. The audit source of truth is the row-level inventory below; every proposed merchant-facing control is named, assigned a scope, given a default, classified as initially visible or conditional, and tied to an explicit reveal predicate where conditional.
+
+| Surface/role | Scope | Control | Default | Visibility | Reveal predicate |
+|---|---|---|---|---|---|
+| Reveal / campaign hero | section | content emphasis | product-led | initial | always |
+| Reveal / campaign hero | section | media source | product media | initial | always |
+| Reveal / campaign hero | section | primary heading source | product title | initial | always |
+| Reveal / campaign hero | section | supporting copy source | product description excerpt | initial | always |
+| Reveal / campaign hero | section | primary action destination | product | initial | always |
+| Reveal / campaign hero | section | media focal point | center | conditional | reveal when media source is present |
+| Reveal / campaign hero | section | media crop behavior | natural | conditional | reveal when media source is present |
+| Reveal / campaign hero | section | media priority | normal | conditional | reveal when media source is present and section can be above the fold |
+| Reveal / campaign hero | block | eyebrow | empty | initial | always |
+| Reveal / campaign hero | block | badge | empty | initial | always |
+| Reveal / campaign hero | block | secondary copy | empty | initial | always |
+| Reveal / campaign hero | block | secondary action | disabled | initial | always |
+| Explain / text-media | section | content source | manual/connected | initial | always |
+| Explain / text-media | section | media position | auto | initial | always |
+| Explain / text-media | section | emphasis | balanced | initial | always |
+| Explain / text-media | section | content width | reading | initial | always |
+| Explain / text-media | section | alignment | start | conditional | reveal when text alignment is merchant-relevant |
+| Explain / text-media | section | media treatment | contained | conditional | reveal when media is present |
+| Explain / text-media | section | detail density | standard | conditional | reveal when optional supporting detail is enabled |
+| Explain / text-media | block | heading | empty | initial | always |
+| Explain / text-media | block | body | empty | initial | always |
+| Explain / text-media | block | media | empty | initial | always |
+| Explain / text-media | block | key point | empty | initial | always |
+| Explain / text-media | block | action | disabled | initial | always |
+| Prove / evidence | section | evidence source | connected/manual | initial | always |
+| Prove / evidence | section | evidence type | factual | initial | always |
+| Prove / evidence | section | display density | standard | initial | always |
+| Prove / evidence | section | attribution position | inline | initial | always |
+| Prove / evidence | section | source label | empty | conditional | reveal when evidence is present |
+| Prove / evidence | section | source URL/reference | empty | conditional | reveal when evidence is present |
+| Prove / evidence | block | claim | empty | initial | always |
+| Prove / evidence | block | supporting detail | empty | initial | always |
+| Prove / evidence | block | source | empty | initial | always |
+| Prove / evidence | block | qualifier | empty | initial | always |
+| Prove / evidence | block | icon/media | empty | initial | always |
+| Compare | section | comparison source | connected/manual | initial | always |
+| Compare | section | comparison axis | merchant-defined | initial | always |
+| Compare | section | emphasis | neutral | initial | always |
+| Compare | section | layout | table/list auto | initial | always |
+| Compare | section | highlight item | none | conditional | reveal when comparison has two or more items |
+| Compare | section | detail density | standard | conditional | reveal when comparison has supporting detail |
+| Compare | section | mobile condensation | auto | conditional | reveal when comparison exceeds the mobile density threshold |
+| Compare | block | item label | empty | initial | always |
+| Compare | block | value | empty | initial | always |
+| Compare | block | qualifier | empty | initial | always |
+| Compare | block | source/reference | empty | initial | always |
+| Compare | block | emphasis flag | off | initial | always |
+| Act / CTA | section | primary action label | context-derived | initial | always |
+| Act / CTA | section | primary destination | context-derived | initial | always |
+| Act / CTA | section | alignment | context-derived | initial | always |
+| Act / CTA | section | secondary action label | empty | conditional | reveal when secondary action is enabled |
+| Act / CTA | section | secondary destination | none | conditional | reveal when secondary action is enabled |
+| Act / CTA | block | supporting copy | empty | initial | always |
+| Act / CTA | block | trust note | empty | initial | always |
+| Act / CTA | block | secondary action toggle | off | initial | always |
+| Act / CTA | block | app insertion seam | enabled | initial | always |
+| Product purchase core | section | media priority | product-first | initial | always |
+| Product purchase core | section | purchase information density | standard | initial | always |
+| Product purchase core | section | sticky action policy | auto | initial | always |
+| Product purchase core | section | supporting content position | after purchase core | initial | always |
+| Product purchase core | section | app insertion seam | enabled | initial | always |
+| Product purchase core | section | variant display mode | auto | conditional | reveal when product has multiple variants |
+| Product purchase core | section | media gallery treatment | auto | conditional | reveal when product has multiple media items |
+| Product purchase core | section | pickup display | auto | conditional | reveal when pickup data exists |
+| Product purchase core | section | selling-plan/app accommodation | auto | conditional | reveal when relevant app/selling-plan content exists |
+| Product purchase core | block | title | product title | initial | always |
+| Product purchase core | block | price/status | product data | initial | always |
+| Product purchase core | block | variant selector | auto | initial | always |
+| Product purchase core | block | quantity/action | enabled | initial | always |
+| Product purchase core | block | supporting facts/app seam | enabled | initial | always |
+| Collection merchandising | section | grid density | auto | initial | always |
+| Collection merchandising | section | filter presentation | auto | initial | always |
+| Collection merchandising | section | sort visibility | shown | initial | always |
+| Collection merchandising | section | editorial interruption | off | initial | always |
+| Collection merchandising | section | merchandising emphasis | balanced | initial | always |
+| Collection merchandising | section | interruption position | after first product row | conditional | reveal when editorial interruption is enabled |
+| Collection merchandising | section | interruption source | none | conditional | reveal when editorial interruption is enabled |
+| Collection merchandising | section | interruption span | full row | conditional | reveal when editorial interruption is enabled |
+| Collection merchandising | block | product card | native product | initial | always |
+| Collection merchandising | block | editorial tile | empty | initial | always |
+| Collection merchandising | block | collection note | empty | initial | always |
+| Collection merchandising | block | app insertion seam | enabled | initial | always |
+| Editorial story | section | story source | manual/connected | initial | always |
+| Editorial story | section | reading width | reading | initial | always |
+| Editorial story | section | media rhythm | auto | initial | always |
+| Editorial story | section | commerce reference | none | initial | always |
+| Editorial story | section | commerce reference position | contextual | conditional | reveal when a product or collection reference is attached |
+| Editorial story | section | commerce reference treatment | subtle | conditional | reveal when a product or collection reference is attached |
+| Editorial story | block | heading | empty | initial | always |
+| Editorial story | block | rich text | empty | initial | always |
+| Editorial story | block | media | empty | initial | always |
+| Editorial story | block | contextual product/collection reference | empty | initial | always |
+
+Audit rule: the summary counts in the first table must equal the number of row-level controls above by surface/role, scope, and visibility classification. Prototype instrumentation must record the exact control names touched so observed behavior can be reconciled directly against this inventory. Any unlisted control used during testing is a specimen defect and blocks M1 until the inventory is corrected and the affected task is retested.
+
 ## Applied workflow compositions
 
 | Workflow | Starting composition | Expected merchant decisions before preview-ready |
