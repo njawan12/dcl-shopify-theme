@@ -12,10 +12,10 @@ This is the controlling finite checklist for closing M0. It reconciles the roadm
 | G2 Current competitor commercial facts | dated price/review/preset/position snapshot | SUBSTANTIALLY COMPLETE in PR #7 | Yes | normalize final dated table/workbook |
 | G3 Review evidence | ≥50 recent reviews across sample, systematically coded with positive/counter-evidence and friction | **PASS WITH LIMITATION** — 50 official reviews coded; two Pipeline observations older due sparse current accessible reviews | Yes | reopen only under documented triggers |
 | G4 Competitor task teardown | live phone + desktop task-based teardown; ≥3 defensible workflow gaps | OPEN; public listing teardown only | Partly | hands-on live demo task execution and evidence capture |
-| G5 Merchant interviews | 8–12 structured interviews; ≥8 target merchants; majority Beauty & Wellness; ≥3 adjacent-vertical participants; repeated launch/PDP pain; concept understandable enough to prototype | OPEN | **No** — requires real merchants | recruit/interview participants using fixed script |
+| G5 Operator / merchant problem evidence | Founder/operator evidence from repeated DCL client work plus independent merchant evidence where practical; distinguish evidence types; validate recurring customization demand without fabricating equivalence | **PARTIAL — FOUNDER/OPERATOR EVIDENCE CAPTURED**; routine launch-pain premise contradicted; recurring flexibility/customization demand strongly reported | Partly | build a 15-request historical customization inventory; collect independent merchant evidence opportunistically, not as a fake numeric gate |
 | G6 Product/positioning coherence | one target, positioning and vertical strategy; explicit non-targets/unknowns | PROVISIONAL/PASS | Yes + founder | final reconcile after G3–G5 |
 | G7 Commercial/support commitment | founder accepts exclusivity, support/bug-fix duty, docs/contact plan, demo investment; named product/design/engineering/QA/support ownership; SLA/maintenance budget | OPEN | No — founder decision | structured founder decision gate |
-| G8 M0 go/no-go | ≥8 interviews support pain; concept understandable; ≥3 competitor workflow gaps; requirements revalidated; ownership committed | OPEN | No — depends on G1–G7 | formal founder review after evidence complete |
+| G8 M0 go/no-go | revised thesis survives historical customization inventory and incumbent challenge; requirements revalidated; product/support ownership committed; no unresolved blocking originality/compliance risk | OPEN | No — depends on G1–G7 | formal founder review after finite evidence tasks complete |
 
 ## Stop rule
 
@@ -29,11 +29,11 @@ M0 research stops when G1–G7 have enough evidence to make G8. We do **not** co
 4. Refresh the remaining M0-relevant official Shopify unknowns.
 5. Prepare a fixed merchant interview script, recruitment criteria, coding sheet and pass/fail rubric.
 
-After those are ready, the project reaches a genuine human-evidence dependency: real competitor task interaction where access permits, real merchant interviews, and founder commercial decisions.
+After those are ready, the project reaches a genuine human-evidence dependency: real competitor task interaction where access permits, real operator/merchant evidence where practical, and founder commercial decisions.
 
-## M0 interview evidence rule
+## M0 operator / merchant evidence rule
 
-Do not count casual DCL client conversations retroactively unless the same required questions and evidence are captured. Do not fabricate, infer, or have AI role-play merchant evidence. Interview notes must record participant fit, vertical, role, relevant workflow frequency, current process, pain/cost/delay, support/developer dependence, concept comprehension, objections, and whether the observed evidence supports or contradicts the hypothesis.
+Do not fabricate, infer, or have AI role-play merchant evidence. Founder/operator evidence from repeated DCL work may inform the product thesis, but must be labeled as such and must not be represented as ten independent merchant interviews. Independent merchant evidence remains valuable and should be captured when practical. Historical DCL work may be used for a customization-demand inventory when the request and outcome can be reconstructed honestly.
 
 ## M0 teardown evidence rule
 
@@ -79,4 +79,4 @@ Do not use M0 as an excuse to start:
 - final presets;
 - M2 foundation.
 
-M1 prototype work begins only after G8 authorizes it.
+M1 prototype/product-definition work begins only after G8 authorizes it. The controlling revised thesis is documented in `m0-product-thesis-reconciliation-2026-10-03.md`.
