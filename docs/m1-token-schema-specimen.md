@@ -82,7 +82,7 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Explain / text-media | section | content width | reading | initial | always |
 | Explain / text-media | section | alignment | start | initial | always |
 | Explain / text-media | section | media treatment | contained | conditional | reveal when media is present |
-| Explain / text-media | section | detail density | standard | conditional | reveal when optional supporting detail is enabled |
+| Explain / text-media | section | detail density | standard | conditional | reveal when at least one key-point or supporting-detail block is enabled |
 | Explain / text-media | block | heading | empty | initial | always |
 | Explain / text-media | block | body | empty | initial | always |
 | Explain / text-media | block | media | empty | initial | always |
@@ -92,8 +92,8 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Prove / evidence | section | evidence type | factual | initial | always |
 | Prove / evidence | section | display density | standard | initial | always |
 | Prove / evidence | section | attribution position | inline | initial | always |
-| Prove / evidence | section | source label | empty | conditional | reveal when evidence is present |
-| Prove / evidence | section | source URL/reference | empty | conditional | reveal when evidence is present |
+| Prove / evidence | section | source label | empty | conditional | reveal when at least one evidence/claim block contains non-empty claim content |
+| Prove / evidence | section | source URL/reference | empty | conditional | reveal when at least one evidence/claim block contains non-empty claim content |
 | Prove / evidence | block | claim | empty | initial | always |
 | Prove / evidence | block | supporting detail | empty | initial | always |
 | Prove / evidence | block | source | empty | initial | always |
@@ -104,7 +104,7 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Compare | section | emphasis | neutral | initial | always |
 | Compare | section | layout | table/list auto | initial | always |
 | Compare | section | highlight item | none | conditional | reveal when comparison has two or more items |
-| Compare | section | detail density | standard | conditional | reveal when comparison has supporting detail |
+| Compare | section | detail density | standard | conditional | reveal when at least one comparison item contains a non-empty qualifier or source/reference value |
 | Compare | section | mobile condensation | auto | conditional | reveal when the comparison contains more than 4 comparison rows or more than 3 compared items at the active mobile breakpoint |
 | Compare | block | item label | empty | initial | always |
 | Compare | block | value | empty | initial | always |
@@ -128,7 +128,7 @@ The aggregate counts above are only summaries. The audit source of truth is the 
 | Product purchase core | section | variant display mode | auto | conditional | reveal when product has multiple variants |
 | Product purchase core | section | media gallery treatment | auto | conditional | reveal when product has multiple media items |
 | Product purchase core | section | pickup display | auto | conditional | reveal when pickup data exists |
-| Product purchase core | section | selling-plan/app accommodation | auto | conditional | reveal when relevant app/selling-plan content exists |
+| Product purchase core | section | selling-plan/app accommodation | auto | conditional | reveal when the product exposes at least one selling plan or an app block is present in the purchase-core section |
 | Product purchase core | block | title | product title | initial | always |
 | Product purchase core | block | price/status | product data | initial | always |
 | Product purchase core | block | variant selector | auto | initial | always |
