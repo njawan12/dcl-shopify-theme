@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Edge Crop — M1 validation prototype</title>
   <link rel="stylesheet" href="edge-crop.css">
-  <script>document.documentElement.classList.add('js');</script>
   <script src="fixtures.js" defer></script>
   <script src="edge-crop.js" defer></script>
 </head>
@@ -24,8 +23,10 @@
         <option value="missing-product">6 — Missing product target</option>
         <option value="no-mobile">7 — No mobile-specific image</option>
         <option value="minimal">8 — Minimal content</option>
+        <option value="neutral">9 — Neutral originality torture</option>
       </select>
       <output id="fixture-status" class="fixture-status" aria-live="polite">Art-directed lifestyle loaded</output>
+      <p id="fixture-diagnostic" class="fixture-diagnostic" hidden></p>
     </div>
   </header>
 
@@ -49,16 +50,16 @@
         <div id="hotspots" class="hotspots" aria-label="Image details">
           <article class="hotspot anchor-upper-left" data-hotspot>
             <button class="hotspot-trigger" type="button" aria-expanded="false" aria-controls="hotspot-panel-origin"><span aria-hidden="true">1</span><span class="visually-hidden">Open ingredient origin details</span></button>
-            <div class="hotspot-panel" id="hotspot-panel-origin" tabindex="-1">
+            <div class="hotspot-panel" id="hotspot-panel-origin">
               <button class="panel-close" type="button" aria-label="Close ingredient origin details">×</button>
               <p class="panel-kicker">Ingredient note</p><h2>Cold-pressed seed oil</h2><p>Sourced from a single grower cooperative and pressed without added fragrance.</p>
             </div>
           </article>
           <article class="hotspot anchor-lower-right" data-hotspot>
             <button class="hotspot-trigger" type="button" aria-expanded="false" aria-controls="hotspot-panel-product"><span aria-hidden="true">2</span><span class="visually-hidden">Open Daily Field Oil product details</span></button>
-            <div class="hotspot-panel product-panel" id="hotspot-panel-product" tabindex="-1">
+            <div class="hotspot-panel product-panel" id="hotspot-panel-product">
               <button class="panel-close" type="button" aria-label="Close Daily Field Oil product details">×</button>
-              <p class="panel-kicker">Featured product</p><h2>Daily Field Oil</h2><p class="price"><span>$48.00</span> <s>$56.00</s></p><p>Available</p><a href="products/daily-field-oil">View Daily Field Oil</a>
+              <p class="panel-kicker">Featured product</p><h2>Daily Field Oil</h2><p class="price"><span>$48.00</span> <s>$56.00</s></p><p>Available</p><a href="/products/daily-field-oil">View Daily Field Oil</a>
             </div>
           </article>
         </div>

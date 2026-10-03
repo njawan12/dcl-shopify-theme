@@ -4,6 +4,7 @@
   const hotspotData = window.EDGE_CROP_HOTSPOTS;
   const picker = document.querySelector('#fixture');
   const hotspotRoot = document.querySelector('#hotspots');
+  const canvas = document.querySelector('.edge-crop');
   let openTrigger = null;
 
   function element(tag, attributes = {}, text = '') {
@@ -29,7 +30,7 @@
     const article = element('article', { class: `hotspot anchor-${data.anchor}`, 'data-hotspot': '' });
     const trigger = element('button', { class: 'hotspot-trigger', type: 'button', 'aria-expanded': 'false', 'aria-controls': id });
     trigger.append(element('span', { 'aria-hidden': 'true' }, String(index + 1)), element('span', { class: 'visually-hidden' }, `Open ${data.label}`));
-    const panel = element('div', { class: `hotspot-panel${data.kind === 'product' ? ' product-panel' : ''}`, id, tabindex: '-1' });
+    const panel = element('div', { class: `hotspot-panel${data.kind === 'product' ? ' product-panel' : ''}`, id });
     panel.append(element('button', { class: 'panel-close', type: 'button', 'aria-label': `Close ${data.label}` }, '×'), element('p', { class: 'panel-kicker' }, data.kicker));
     if (data.product) {
       const summary = element('div', { class: 'product-summary' });
@@ -50,7 +51,7 @@
     return article;
   }
 
-  function applyFixture(key, announce = true) {
+  function applyFixture(key, announce = true, hydrateInitial = false) {
     const fixture = fixtures[key] || fixtures.beauty;
     closeHotspot(false);
     document.querySelector('#eyebrow').textContent = fixture.eyebrow;
@@ -67,7 +68,11 @@
     const image = document.querySelector('#hero-image');
     image.src = fixture.image;
     image.alt = fixture.alt;
-    hotspotRoot.replaceChildren(...fixture.hotspots.map(buildHotspot));
+    canvas.classList.toggle('is-neutral', Boolean(fixture.neutral));
+    const diagnostic = document.querySelector('#fixture-diagnostic');
+    diagnostic.textContent = fixture.diagnostic || '';
+    diagnostic.hidden = !fixture.diagnostic;
+    if (!hydrateInitial) hotspotRoot.replaceChildren(...fixture.hotspots.map(buildHotspot));
     if (announce) document.querySelector('#fixture-status').textContent = `${fixture.label} loaded`;
     const url = new URL(window.location.href);
     url.searchParams.set('fixture', key);
@@ -83,7 +88,9 @@
         openTrigger = trigger;
         trigger.closest('[data-hotspot]').classList.add('is-open');
         trigger.setAttribute('aria-expanded', 'true');
-        document.querySelector(`#${trigger.getAttribute('aria-controls')}`).focus();
+        const panel = document.getElementById(trigger.getAttribute('aria-controls'));
+        const focusTarget = panel.querySelector('button, a[href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+        if (focusTarget) focusTarget.focus();
       }
       return;
     }
@@ -94,5 +101,7 @@
   picker.addEventListener('change', () => applyFixture(picker.value));
   const initial = new URLSearchParams(location.search).get('fixture');
   picker.value = fixtures[initial] ? initial : 'beauty';
-  applyFixture(picker.value, false);
+  const canHydrateServerMarkup = picker.value === 'beauty' && hotspotRoot.querySelectorAll('[data-hotspot]').length === fixtures.beauty.hotspots.length;
+  applyFixture(picker.value, false, canHydrateServerMarkup);
+  document.documentElement.classList.add('js');
 }());

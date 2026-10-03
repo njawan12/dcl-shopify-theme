@@ -31,8 +31,9 @@ window.EDGE_CROP_FIXTURES = {
   },
   'missing-product': {
     label: 'Missing product target', eyebrow: 'Broken reference test', heading: 'A missing target leaves no empty floating UI.',
-    body: 'The deleted product becomes a clear unavailable annotation with no fabricated price, inventory, or dead destination.',
-    action: 'Continue reading', image: 'media/packshot.svg', mobileImage: null, alt: 'Amber pump bottle centered on a white background', hotspots: ['origin', 'missing']
+    body: 'The deleted product is omitted, leaving the remaining merchant-authored information intact without a dead destination.',
+    action: 'Continue reading', image: 'media/packshot.svg', mobileImage: null, alt: 'Amber pump bottle centered on a white background', hotspots: ['origin'],
+    diagnostic: 'Harness diagnostic: the missing product reference has no merchant-authored fallback, so no product hotspot is rendered.'
   },
   'no-mobile': {
     label: 'No mobile-specific image', eyebrow: 'One source, two compositions', heading: 'The crop adapts without a duplicate download.',
@@ -43,13 +44,20 @@ window.EDGE_CROP_FIXTURES = {
   minimal: {
     label: 'Minimal content', eyebrow: '', heading: 'Essential, still intentional.', body: '', action: '',
     image: 'media/packshot.svg', mobileImage: null, alt: 'Amber pump bottle centered on a white background', hotspots: []
+  },
+  neutral: {
+    label: 'Neutral originality torture', eyebrow: 'Object study 01', heading: 'A useful object, clearly presented.',
+    body: 'Generic product information occupies the same bounded composition without beauty language, campaign photography, decorative type, or brand-led color.',
+    action: 'View object details', image: 'media/neutral-object.svg', mobileImage: null,
+    alt: 'Plain dark rectangular object centered on a white background', hotspots: ['material', 'genericProduct'], neutral: true
   }
 };
 
 window.EDGE_CROP_HOTSPOTS = {
   origin: { anchor: 'upper-left', kind: 'info', label: 'ingredient origin details', kicker: 'Ingredient note', title: 'Cold-pressed seed oil', body: 'Sourced from a single grower cooperative and pressed without added fragrance.' },
-  product: { anchor: 'lower-right', kind: 'product', label: 'Daily Field Oil product details', kicker: 'Featured product', product: { id: 4815162342, handle: 'daily-field-oil', title: 'Daily Field Oil', url: 'products/daily-field-oil', image: 'media/packshot.svg', price: '$48.00', compareAtPrice: '$56.00', available: true } },
+  product: { anchor: 'lower-right', kind: 'product', label: 'Daily Field Oil product details', kicker: 'Featured product', product: { id: 4815162342, handle: 'daily-field-oil', title: 'Daily Field Oil', url: '/products/daily-field-oil', image: 'media/packshot.svg', price: '$48.00', compareAtPrice: '$56.00', available: true } },
   packaging: { anchor: 'upper-right', kind: 'info', label: 'packaging details', kicker: 'Material note', title: 'Glass, designed for reuse', body: 'The bottle is glass; local recycling rules vary for the pump.' },
-  soldout: { anchor: 'lower-left', kind: 'product', label: 'Night Field Balm product details', kicker: 'Featured product', product: { id: 4815162399, handle: 'night-field-balm', title: 'Night Field Balm', url: 'products/night-field-balm', image: 'media/packshot.svg', price: '$38.00', compareAtPrice: null, available: false } },
-  missing: { anchor: 'lower-right', kind: 'missing', label: 'unavailable product details', kicker: 'Product unavailable', title: 'This product reference was removed', body: 'Choose another product in the theme editor. The remaining story and media stay usable.' }
+  soldout: { anchor: 'lower-left', kind: 'product', label: 'Night Field Balm product details', kicker: 'Featured product', product: { id: 4815162399, handle: 'night-field-balm', title: 'Night Field Balm', url: '/products/night-field-balm', image: 'media/packshot.svg', price: '$38.00', compareAtPrice: null, available: false } },
+  material: { anchor: 'upper-left', kind: 'info', label: 'object material details', kicker: 'Material', title: 'Powder-coated steel', body: 'A durable, generic material specification supplied by the merchant.' },
+  genericProduct: { anchor: 'lower-right', kind: 'product', label: 'Utility Object product details', kicker: 'Product', product: { id: 4815162401, handle: 'utility-object', title: 'Utility Object', url: '/products/utility-object', image: 'media/neutral-object.svg', price: '$40.00', compareAtPrice: null, available: true } }
 };
