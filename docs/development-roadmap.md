@@ -10,21 +10,24 @@ From M2 onward, every milestone must complete the pre-code review and every impl
 ## M1 — Experience prototype and foundation decision
 **Objective:** decide whether operability, intent-led starts, and the Launch Narrative create a distinctive, usable product before production theme code.
 
+**Provisional status:** M1A foundation/originality architecture is documented in parallel, but it does not close or bypass M0's open empirical gates. Visual prototyping and the remaining M1 work cannot establish readiness for M2 until M0 is approved.
+
 **Exact scope:**
 
 1. Map current-state and proposed journeys for Product Launch, Paid Landing Page, Collection Launch, Editorial Story, and Product Education.
 2. Produce grayscale, mobile-first clickable prototypes for home, PDP, collection, and campaign/landing contexts, including empty/long content and zero structured-data states.
 3. Prototype the Beauty & Wellness preset deeply; apply the same section/block contracts to one apparel and one food/beverage content probe without polishing them into launch presets.
-4. Define semantic global tokens and bounded section controls in a token/schema specimen; inventory setting counts and progressive disclosure.
+4. Define semantic global tokens and bounded section controls in the blocking [`m1-token-schema-specimen.md`](m1-token-schema-specimen.md); inventory proposed and observed setting counts, defaults, initially visible controls, reveal conditions, global-token propagation, cross-vertical reuse, and developer-dependence evidence.
 5. Map Reveal/Explain/Prove/Compare/Act responsibilities to each surface, including omissions, mobile priority, merchandising, and optional data.
-6. Compare intent-led starts against a blank/default baseline in moderated editor simulations with five target merchants.
+6. Compare intent-led starts against a blank/default baseline in repeated-measures, counterbalanced editor simulations with five target merchants, providing at least four valid paired B0/B1 observations per workflow; separately validate stripped shopper-flow comprehension with six representative shoppers.
 7. Complete ADR-001–007: choose Skeleton Theme or fully original code (Dawn/Horizon excluded), then decide theme blocks, structured data, cart, RTL, native intent-composition map, and multi-vertical fitness/narrowing.
 8. Refresh remaining Theme Store unknowns and dated competitor evidence. Produce an architectural originality comparison and requirements traceability map; do not claim approval.
 
 **Acceptance criteria:**
 
-- Five target merchants complete at least 80% of representative tasks unassisted, without code; median time and decision count improve over the baseline, and no critical accessibility issue is designed in.
-- Participants can choose the correct starting composition and explain the shopper flow without being taught the internal narrative terms.
+- Each of five target merchants completes at least 80% of their assigned B1 representative tasks unassisted and without code, and every merchant separately completes the mobile/missing-data recovery task unassisted; neither aggregate completion nor success on other tasks can mask an individual recovery failure. Each workflow has at least four valid paired observations, meets ≥80% unassisted B1 completion (therefore four of four), meets its pre-registered B1 median ceiling (Product Launch 12 minutes; Paid Landing Page 8; Collection Launch 10; Editorial Story 9; Product Education 12), and improves paired median time and decision count over its baseline. The absolute and paired time gates are independently blocking.
+- Merchant participants can choose the correct starting composition and explain the shopper flow without being taught the internal narrative terms. In a separate six-person representative-shopper study, each stripped flow meets the documented purpose, next-question, next-action, and handoff-continuity comprehension gate; expert review cannot substitute for shopper evidence.
+- **Blocking control-architecture gate:** the token/schema specimen and setting-count/progressive-disclosure inventory are complete and exercised. Ceiling breaches, missing inventory, displaced complexity, global-token propagation failures, cross-vertical schema forks, or routine developer dependence independently block M2.
 - Zero-setup states are visually complete; structured content demonstrably enhances rather than unlocks basic quality.
 - Beauty & Wellness has a distinctive, agency-quality reference direction in grayscale and token specimens—not solely through photography, copy, fonts, or motion.
 - Apparel and food/beverage probes reuse contracts within documented setting budgets and without vertical toggles or vague catch-all controls; otherwise ADR-007 explicitly narrows the product.
@@ -82,4 +85,4 @@ From M2 onward, every milestone must complete the pre-code review and every impl
 
 ## Exact next milestone
 
-Complete the unfinished empirical portion of **M0**—refresh remaining unverified official requirements, complete the dated competitor/review audit, conduct 8–12 merchant interviews (including adjacent-vertical evidence), and hold the founder go/no-go review. The nine dated requirement facts in `shopify-requirements.md` are now verified; implementation compliance is not. M0 is **not ready to close** until the remaining gates pass. Only after approval begin the exact M1 scope above; do not scaffold theme code yet.
+Complete the unfinished empirical portion of **M0**—refresh remaining unverified official requirements, complete the dated competitor/review audit, conduct 8–12 merchant interviews (including adjacent-vertical evidence), complete the required competitor workflow/task teardowns, and hold the founder go/no-go review. The nine dated requirement facts in `shopify-requirements.md` are now verified; implementation compliance is not. M0 is **not ready to close** until the remaining gates pass. The provisional M1A documents and ADR-001 do not alter that gate; do not begin visual prototyping, scaffold theme code, or proceed to M2.

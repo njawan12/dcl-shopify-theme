@@ -44,7 +44,7 @@ The shallow-structure rule also implements Shopify's verified warning against un
 
 ## No-developer test
 
-For every common scenario: give a marketing manager representative content, observe without coaching, and require ≥80% task completion, no code use, no critical accessibility defect, and median completion within the task target. Uncommon failures do not justify global complexity; document the workaround or app boundary.
+For every common scenario: give a marketing manager representative content, observe without coaching, and require each participant to complete ≥80% of their assigned tasks unassisted, with no code use, no critical accessibility defect, and median completion within the task target. Report workflow results separately so an aggregate cannot hide a weak workflow. Uncommon failures do not justify global complexity; document the workaround or app boundary.
 
 ## Structured content onboarding
 
@@ -53,3 +53,5 @@ Ship documentation recipes, not required definitions. Use namespaced definitions
 ## Intent-led workflow model
 
 Starting compositions are versioned JSON template defaults and section presets in Shopify's editor. They front-load the smallest coherent set of decisions for a commercial job, inherit global tokens, use ordinary sections/blocks, and remain reorderable. Job language may appear in preset names and documentation; storefront labels remain content-appropriate. Success is fewer decisions and faster task completion—not merely a different default JSON order.
+
+The blocking control-architecture evidence is maintained in [`m1-token-schema-specimen.md`](m1-token-schema-specimen.md). Its setting ceilings, progressive-disclosure inventory, global-token propagation, cross-vertical reuse, and no-routine-developer-dependence evidence are independent M1 gates.
