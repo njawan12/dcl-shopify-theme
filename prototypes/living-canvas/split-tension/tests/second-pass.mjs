@@ -1,0 +1,23 @@
+// Regression boundary: visual work must preserve the validated commerce implementation.
+import assert from 'node:assert/strict';
+import { execFileSync } from 'node:child_process';
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { fixtures } from '../fixtures.js';
+const base = fileURLToPath(new URL('../', import.meta.url));
+const commit = 'e4b7c4aec751a3198277116f0b527a92e62323dd';
+const original = file => execFileSync('git', ['show', `${commit}:prototypes/living-canvas/split-tension/${file}`], { encoding: 'utf8' });
+let count = 0;
+const check = (actual, expected, label) => { assert.deepEqual(actual, expected, label); count++; };
+const before = original('split-tension.js');
+const after = readFileSync(base + 'split-tension.js', 'utf8');
+check(after.split('const node =')[0], before.split('const node =')[0], 'pure engine byte-for-byte preserved');
+check(after.split('export function initInstance')[1], before.split('export function initInstance')[1], 'adapter, bootstrap, lifecycle byte-for-byte preserved');
+const oldFixtures = (await import(`data:text/javascript;base64,${Buffer.from(original('fixtures.js')).toString('base64')}`)).fixtures;
+const commerce = rows => rows.map(({ editorial, ...f }) => ({ ...f, steps: f.steps.map(({ product, ...step }) => ({ ...step, product: product && (({ image, ...data }) => data)(product) })) }));
+check(commerce(fixtures), commerce(oldFixtures), 'all 24 fixture semantics preserved except visual media');
+for (const file of ['state.mjs', 'static.mjs', 'serve.mjs']) check(readFileSync(base + 'tests/' + file, 'utf8'), original('tests/' + file), `${file} unchanged`);
+const fallback = readFileSync(base + 'tests/evidence/second-pass/server-fallback.html', 'utf8');
+check(/<script\b/.test(fallback), false, 'literal fallback evidence contains no executable script');
+check(fallback.replace(/\s*<base href="\/">/, ''), readFileSync(base + 'index.html', 'utf8').replace(/\s*<script\b[^>]*>.*?<\/script>/gs, ''), 'fallback differs only by script removal and URL base');
+console.log(`PASS: ${count} second-pass preservation assertions.`);

@@ -1,0 +1,15 @@
+2026-10-04 — second visual pass from exact e4b7c4aec751a3198277116f0b527a92e62323dd
+Node 26.10.0; fixtures.js, split-tension.js, serve.mjs, second-pass.mjs syntax: PASS
+Original state assertions: 335 PASS
+Original static assertions: 215 PASS
+Second-pass preservation assertions: 8 PASS
+Reflow matrix: 168/168 PASS, 24 fixtures x 320/375/430/768/1024/1280/1440
+Pending fixture switch / independent replacement request: PASS observed
+Two-instance isolation and 3px keyboard focus outline: PASS observed
+No-script literal server fallback: PASS observed; browser JS-disable setting NOT TESTED
+CSS 125 -> 130 lines; combined nonblank/non-comment JS 491 -> 499
+Commerce engine and complete init/bootstrap adapter: byte-for-byte preserved
+Original state/static/server files: unchanged
+git diff --check HEAD / allowed scope / exact parent: PASS
+Engineering verdict NARROW; visual PENDING HUMAN REVIEW
+See second-pass-report.md for limitations and exact commands.

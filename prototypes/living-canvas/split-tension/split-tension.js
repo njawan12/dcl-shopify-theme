@@ -127,10 +127,18 @@ export function renderBaseline(fixture, instanceId) {
   root.id = instanceId;
   root.setAttribute('aria-labelledby', `${instanceId}-heading`);
   const editorial = node('header', 'editorial');
-  editorial.append(node('p', 'eyebrow', fixture.editorial.eyebrow));
+  const media = fixture.editorial.media;
+  if (media && /^media\/[a-z0-9-]+\.(jpg|svg)$/.test(media.src)) {
+    const image = node('img', 'editorial-media');
+    Object.assign(image, { src: media.src, width: media.width, height: media.height, alt: '', loading: 'eager' });
+    editorial.append(image);
+  }
+  const copy = node('div', 'editorial-copy');
+  copy.append(node('p', 'eyebrow', fixture.editorial.eyebrow));
   const heading = node('h1', '', fixture.editorial.heading);
   heading.id = `${instanceId}-heading`;
-  editorial.append(heading, node('p', 'proposition', fixture.editorial.body), node('p', 'editorial-note', fixture.editorial.note));
+  copy.append(heading, node('p', 'proposition', fixture.editorial.body), node('p', 'editorial-note', fixture.editorial.note));
+  editorial.append(copy);
   const list = node('ol', 'steps');
   fixture.steps.forEach((s, i) => {
     if (!s.product && !s.copy) return;

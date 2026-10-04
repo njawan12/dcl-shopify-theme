@@ -4,8 +4,8 @@ const single = (id, title, price, media = image('bottle')) => ({
   id, handle: id, title, url: `/products/${id}`, image: media, options: [],
   variants: [{ id: `${id}-1`, options: [], price, available: true }]
 });
-const cleanse = single('daily-cleanser', 'Daily cleansing milk', 2400);
-const hydrate = single('barrier-cream', 'Everyday barrier cream', 3800, image('jar'));
+const cleanse = single('daily-cleanser', 'Daily cleansing milk', 2400, image('bottle-cutout'));
+const hydrate = single('barrier-cream', 'Everyday barrier cream', 3800, image('jar-cutout'));
 const serum = single('concentrate', 'Lightweight daily concentrate for a considered morning ritual', 4200, image('bottle-portrait', 200, 360));
 const finish = single('finishing-oil', 'Soft finish botanical oil', 3100, image('bottle'));
 const cloth = single('woven-cloth', 'Reusable woven cleansing cloth', 1200, image('box', 420, 220));
@@ -30,8 +30,8 @@ const withOptions = (product, options) => {
 const denseSerum = withOptions(serum, [{ name: 'Volume', values: ['10 ml', '20 ml', '30 ml', '40 ml', '50 ml', '60 ml'] }, { name: 'Texture', values: ['Light', 'Smooth', 'Rich', 'Fluid'] }]);
 const denseFinish = withOptions(finish, [{ name: 'Your preferred finishing texture for everyday use', values: ['Light', 'Silky', 'Soft', 'Rich', 'Fluid', 'Smooth'] }]);
 const denseCloth = withOptions(cloth, [{ name: 'Weave', values: ['Fine', 'Textured'] }]);
-const editorial = { eyebrow: 'A considered daily ritual', heading: 'Less, with\nintention.', body: 'Start with the essentials. Discover each step, then choose only the products you want to make your own.', note: 'Individual products. Your own rhythm.' };
-const neutralEditorial = { eyebrow: 'Objects for everyday use', heading: 'A place for\nthe essentials.', body: 'Explore a small collection of useful objects. Follow the sequence and choose the pieces that belong in your space.', note: 'A guided collection. Each object stands alone.' };
+const editorial = { media: { src: 'media/campaign-portrait-v2.jpg', width: 1024, height: 1536 }, eyebrow: 'A considered daily ritual', heading: 'Less, with\nintention.', body: 'Start with the essentials. Discover each step, then choose only the products you want to make your own.', note: 'Individual products. Your own rhythm.' };
+const neutralEditorial = { media: { src: 'media/objects-landscape.svg', width: 1200, height: 800 }, eyebrow: 'Objects for everyday use', heading: 'A place for\nthe essentials.', body: 'Explore a small collection of useful objects. Follow the sequence and choose the pieces that belong in your space.', note: 'A guided collection. Each object stands alone.' };
 const fixture = (id, label, steps = baseSteps, extra = {}) => ({ id, label, steps, editorial, money: { currency: 'CAD', digits: 2, locale: 'en-CA' }, response: 'success', diagnostic: 'Simulated fixture data. No Shopify requests. Quantity is always 1.', ...extra });
 const longSteps = [
   ...baseSteps,
@@ -43,11 +43,11 @@ const localizedSteps = longSteps.map((s, i) => ({ ...s, label: `${s.label} — i
 const neutralSteps = [step(single('storage-vessel', 'Everyday storage vessel', 2400, image('jar')), 'Make room', 'A useful object for the things you keep close.'), step(single('woven-case', 'Woven utility case', 3800, image('box')), 'Keep together', 'Choose a companion for the objects you carry.')];
 export const fixtures = deepFreeze([
   fixture('simple', '01 · 2-step simple'),
-  fixture('maximum', '02 · 5-step maximum', longSteps, { diagnostic: 'Five steps; 1, 2, 6 and 24 variants, bounded to two native option controls per item. Portrait, square and landscape media.' }),
+  fixture('maximum', '02 · 5-step maximum', longSteps, { editorial: { ...editorial, media: neutralEditorial.media }, diagnostic: 'Five steps; 1, 2, 6 and 24 variants, bounded to two native option controls per item. Portrait, square and landscape media.' }),
   fixture('multi-option', '03 · Multi-option unresolved', optionSteps, { diagnostic: 'Choose 30 ml + Light (available), 30 ml + Rich (sold out), or 60 ml + Rich (nonexistent). Unit prices stay on the item.' }),
   fixture('variant-sold-out', '04 · Variant sold out', optionSteps, { diagnostic: 'Explicitly choose 30 ml + Rich to exercise the sold-out variant; no defaults are chosen.' }),
   fixture('fully-sold-out', '05 · Product fully sold out', [step({ ...hydrate, variants: hydrate.variants.map(v => ({ ...v, available: false })) }, 'Build comfort', 'Explore this step on its product page.'), baseSteps[0]]),
-  fixture('missing', '06 · Missing product', [baseSteps[0], step(null, 'Leave a little space', 'Some days need fewer things. The sequence is yours.'), baseSteps[1]]),
+  fixture('missing', '06 · Missing product', [baseSteps[0], step(null, 'Leave a little space', 'Some days need fewer things. The sequence is yours.'), baseSteps[1]], { editorial: { ...editorial, media: null } }),
   fixture('mixed', '07 · Mixed eligibility', [...optionSteps, step(flagged('appOwned'), 'Explore the collection', 'Discover the full purchase choices on the product page.')]),
   fixture('selling-plan', '08 · Selling-plan-sensitive', [...baseSteps, step(flagged('sellingPlanSensitive'), 'Choose your cadence', 'Explore purchase terms on the product page.')]),
   fixture('price-mutation', '09 · Price / compare-at / unit-price mutation', optionSteps, { diagnostic: '30 ml + Light has compare-at and unit price; 60 ml + Light changes price and removes compare-at. Include first to observe an exact total update.' }),

@@ -1,0 +1,37 @@
+[
+  {
+    "case": "pending-fixture-switch",
+    "pending": {
+      "locked": true,
+      "text": "Adding selected items — simulation in progress."
+    },
+    "result": {
+      "checked": [
+        "Include Everyday storage vessel · quantity 1"
+      ],
+      "fixture": "neutral",
+      "heading": "A place for\nthe essentials.",
+      "status": "Simulated confirmation: 1 selected item added. No real cart was changed.",
+      "total": "CAD 24.00"
+    }
+  },
+  {
+    "case": "resolved-included",
+    "result": {
+      "checked": true,
+      "compare": "Previously CAD 34.00",
+      "price": "CAD 29.00",
+      "total": "CAD 29.00",
+      "unit": "CAD 96.67 / 100 ml"
+    }
+  },
+  {
+    "case": "sold-out-clears-inclusion",
+    "result": {
+      "checked": false,
+      "disabled": true,
+      "status": "This option is sold out.",
+      "total": "CAD 0.00"
+    }
+  }
+]

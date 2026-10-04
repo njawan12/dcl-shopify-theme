@@ -1,3 +1,5 @@
+> **Second pass (2026-10-04):** current completion evidence is in [second-pass-report.md](second-pass-report.md). Engineering verdict **NARROW**; all executed checks pass, manual/production gates remain open. Visual verdict **PENDING HUMAN REVIEW**. The report below is preserved as first-pass history; its card-layout description and metrics do not describe the second pass.
+
 # Split Tension M1 — implementation findings
 
 ## Decision and authority

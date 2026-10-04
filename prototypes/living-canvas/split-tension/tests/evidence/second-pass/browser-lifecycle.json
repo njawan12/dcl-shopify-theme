@@ -1,0 +1,20 @@
+{
+  "isolated": [
+    {
+      "checked": 1,
+      "id": "split-1",
+      "total": "CAD 24.00"
+    },
+    {
+      "checked": 0,
+      "id": "split-2",
+      "total": "CAD 0.00"
+    }
+  ],
+  "focusProof": {
+    "outline": "solid",
+    "tag": "A",
+    "text": "View product",
+    "width": "3px"
+  }
+}

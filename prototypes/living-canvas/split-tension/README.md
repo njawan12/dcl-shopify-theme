@@ -57,3 +57,9 @@ Browser evidence is checked in under `tests/evidence/`. `browser-matrix.json` re
 ## Evidence limits
 
 Read `findings.md` before assigning a verdict. Engineering logic and observed browser checks do not authorize production, validate Shopify atomicity, establish WCAG conformance or decide visual quality. Visual/product-owner decision is **PENDING HUMAN REVIEW**. VoiceOver, NVDA, actual JS-disabled browsing, manual text enlargement/200%/400% zoom, physical touch and measured performance remain untested. The broader M1 product/app/editor/cross-preset proof package is outside this isolated prototype and remains open.
+
+## Approved second visual pass
+
+The shared composition now uses a dominant editorial image field, large boundary-crossing product media, open commerce zones and one numbered rail ending in the aggregate action. Tablet/mobile relax the overlap while preserving the same ordered DOM and engine. Neutral changes only tokens/type/content/media. The `maximum` fixture supplies landscape editorial media; `missing` omits editorial media; ordinary and transparent product art coexist.
+
+Read [second-pass-report.md](second-pass-report.md) for the current verdict, exact audit and complexity delta. Original evidence remains historical; final second-pass frames and JSON are under `tests/evidence/second-pass/`. Run `node prototypes/living-canvas/split-tension/tests/second-pass.mjs` from repository root to verify the original commerce engine/adapter/fixture semantics/test files are unchanged. The script-free fallback evidence is served at `/tests/evidence/second-pass/server-fallback.html`; it removes the literal index's script and adds only a base URL to resolve nested assets. This is distinct from browser-wide JS disabling.

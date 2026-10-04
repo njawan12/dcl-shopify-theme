@@ -1,0 +1,32 @@
+{
+  "split-tension.js": {
+    "physical_before": 431,
+    "physical_after": 439,
+    "nonblank_noncomment_before": 416,
+    "nonblank_noncomment_after": 424,
+    "bytes_before": 24223,
+    "bytes_after": 24591,
+    "gzip_before": 6997,
+    "gzip_after": 7090
+  },
+  "fixtures.js": {
+    "physical_before": 77,
+    "physical_after": 77,
+    "nonblank_noncomment_before": 75,
+    "nonblank_noncomment_after": 75,
+    "bytes_before": 10293,
+    "bytes_after": 10580,
+    "gzip_before": 4010,
+    "gzip_after": 4095
+  },
+  "split-tension.css": {
+    "physical_before": 125,
+    "physical_after": 130,
+    "nonblank_noncomment_before": 125,
+    "nonblank_noncomment_after": 130,
+    "bytes_before": 8986,
+    "bytes_after": 10591,
+    "gzip_before": 2497,
+    "gzip_after": 2764
+  }
+}
