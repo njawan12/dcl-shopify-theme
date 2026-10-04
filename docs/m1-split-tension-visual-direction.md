@@ -234,3 +234,49 @@ The desired reaction is:
 > **I have not seen product education and product selection composed quite like this in a Shopify theme, and I can imagine my own brand using it.**
 
 If the visual proof cannot reach that bar without bespoke agency art direction, Split Tension remains NARROW or is removed from the signature set.
+
+
+## 12. Four-frame visual proof result — 2026-10-04
+
+The required four-frame proof was completed as one coherent responsive system:
+- desktop branded;
+- desktop neutral/non-beauty;
+- mobile branded;
+- mobile neutral/non-beauty.
+
+**Visual proof verdict: PASS TO SECOND IMPLEMENTATION PASS.**
+
+Why it passes:
+- the branded desktop reaches the required Theme Store screenshot impact;
+- the neutral desktop remains recognizably the same system outside Beauty + Wellness;
+- the numbered trajectory, editorial/commerce boundary and integrated action survive the vertical change;
+- mobile preserves the same journey without attempting to reproduce desktop overlap literally;
+- commerce remains immediately legible;
+- the composition can plausibly be generated from semantic merchant inputs rather than coordinates.
+
+Important caveat: the mockups prove visual direction, not production feasibility. They do not override the state-machine, accessibility, performance, responsive, app, or merchant-operability contracts.
+
+### Controlling visual architecture for implementation
+
+The second implementation pass should reproduce the **relationships**, not pixel-copy the mockup:
+
+1. dominant editorial/media field;
+2. numbered 2–5 step trajectory adjacent to and visually crossing the editorial boundary;
+3. product media bridging the trajectory and commerce surface where space permits;
+4. commerce details aligned as open/lightly surfaced zones rather than generic standalone cards;
+5. aggregate selection/action visually attached to the full composition;
+6. mobile transformation into editorial opening + ordered commerce sequence + connected aggregate action;
+7. neutral state achieved by tokens/content/media changes only—no separate component architecture.
+
+The implementation must continue to support ordinary merchant media. Campaign photography is an enhancement, not a prerequisite.
+
+### Explicit non-goals from the visual proof
+
+The mockups contain presentational details that are **not automatically product requirements**:
+- quantity steppers shown in the concept do not override the M1 quantity=1 state-machine contract;
+- decorative handwritten text is optional art direction, not required theme functionality;
+- navigation/header shown in the mockup is context only and not part of Split Tension;
+- badge/evidence language must remain truthful and data/merchant authored;
+- imagery shown is directional and not a requirement for bespoke photography.
+
+The existing proven commerce state engine should be preserved unless a visual requirement exposes a genuine contract conflict. Do not rewrite working commerce logic merely to restyle the surface.
