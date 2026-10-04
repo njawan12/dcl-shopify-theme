@@ -1,0 +1,125 @@
+[
+  {
+    "step": "native filter and sort",
+    "url": "http://localhost:3002/?fixture=branded&sort=price-low&availability=available",
+    "audit": {
+      "collections": [
+        {
+          "badTargets": [],
+          "cols": 2,
+          "editorialAfter": [],
+          "editorialCount": 0,
+          "featureIndices": [],
+          "holes": [],
+          "imageCount": 11,
+          "itemCollisions": [],
+          "mediaCollisions": [],
+          "missingMedia": 0,
+          "order": [
+            "0-beauty-1",
+            "1-beauty-2",
+            "2-beauty-3",
+            "3-beauty-4",
+            "4-beauty-5",
+            "6-beauty-7",
+            "7-beauty-8",
+            "8-beauty-9",
+            "9-beauty-10",
+            "10-beauty-11",
+            "11-beauty-12"
+          ],
+          "overflows": [],
+          "placementErrors": [],
+          "productCount": 11,
+          "rect": {
+            "bottom": 3360.7734375,
+            "height": 3092.9921875,
+            "right": 390,
+            "width": 390,
+            "x": 0,
+            "y": 267.78125
+          },
+          "resultCount": "11 products · showing 11 · page 1 of 1",
+          "rows": 6,
+          "textCollisions": [],
+          "uncontained": [],
+          "unloaded": []
+        }
+      ],
+      "duplicateIds": [],
+      "overflow": 0,
+      "scripts": 0,
+      "width": 390
+    }
+  },
+  {
+    "step": "keyboard product focus",
+    "focus": {
+      "href": "/products/beauty-1",
+      "tag": "A"
+    }
+  },
+  {
+    "step": "keyboard destination",
+    "url": "http://localhost:3002/products/beauty-1",
+    "heading": "Gentle hand wash"
+  },
+  {
+    "step": "native pagination",
+    "url": "http://localhost:3002/?fixture=page-after&sort=collection&availability=all&page=2",
+    "audit": {
+      "collections": [
+        {
+          "badTargets": [],
+          "cols": 2,
+          "editorialAfter": [],
+          "editorialCount": 0,
+          "featureIndices": [],
+          "holes": [],
+          "imageCount": 12,
+          "itemCollisions": [],
+          "mediaCollisions": [],
+          "missingMedia": 0,
+          "order": [
+            "12-neutral-1",
+            "13-neutral-2",
+            "14-neutral-3",
+            "15-neutral-4",
+            "16-neutral-5",
+            "17-neutral-6",
+            "18-neutral-7",
+            "19-neutral-8",
+            "20-neutral-9",
+            "21-neutral-10",
+            "22-neutral-11",
+            "23-neutral-12"
+          ],
+          "overflows": [],
+          "placementErrors": [],
+          "productCount": 12,
+          "rect": {
+            "bottom": 3463.5625,
+            "height": 3195.78125,
+            "right": 390,
+            "width": 390,
+            "x": 0,
+            "y": 267.78125
+          },
+          "resultCount": "24 products · showing 12 · page 2 of 2",
+          "rows": 6,
+          "textCollisions": [],
+          "uncontained": [],
+          "unloaded": []
+        }
+      ],
+      "duplicateIds": [],
+      "overflow": 0,
+      "scripts": 0,
+      "width": 390
+    }
+  },
+  {
+    "step": "skip link",
+    "focus": "collection-content"
+  }
+]

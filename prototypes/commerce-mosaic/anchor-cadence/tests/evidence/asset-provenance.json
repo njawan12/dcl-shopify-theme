@@ -1,0 +1,56 @@
+{
+  "generated": [
+    {
+      "file": "media/care-pump.jpg",
+      "prompt": "Use case: product-mockup. Generate one standalone ordinary skincare catalog photograph: a whole unbranded amber glass pump bottle with a black pump and small blank cream paper label. Centered on a plain white studio background, gentle flat daylight, honest realistic catalog quality, natural shadow, entire product visible with generous whitespace. Square image. No typography, logo, props, decoration, hands, interface, promotional layout or text.",
+      "method": "Native imagegen product-only asset, converted to JPEG with sips; no UI baked into image."
+    },
+    {
+      "file": "media/care-jar.jpg",
+      "prompt": "Use case: product-mockup. Generate one standalone ordinary skincare catalog photograph: a whole squat matte ivory cream jar with matching screw lid and a blank small pale gray paper label. Plain white studio background, centered, gentle flat daylight, modest realistic catalog quality, natural shadow, entire jar visible. Square image. No typography, logo, props, decoration, hands, interface, promotional layout or text.",
+      "method": "Native imagegen product-only asset, converted to JPEG with sips; no UI baked into image."
+    },
+    {
+      "file": "media/daily-mug.jpg",
+      "prompt": "Use case: product-mockup. Generate one standalone mundane catalog photograph of a whole ordinary white ceramic handled mug, viewed three quarter. Plain white background, flat soft studio light and natural shadow, centered, practical modest catalog quality, no campaign styling, entire mug visible. Square image. No text, logo, other objects, interface or decoration.",
+      "method": "Native imagegen product-only asset, converted to JPEG with sips; no UI baked into image."
+    }
+  ],
+  "copied_media": [
+    {
+      "file": "media/utility-case.jpg",
+      "source": "prototypes/living-canvas/monument/media/utility-case.jpg",
+      "scope": "Existing authored fixture asset copied read-only; no preserved source changed."
+    },
+    {
+      "file": "media/case-portrait.svg",
+      "source": "prototypes/living-canvas/monument/media/case-portrait.svg",
+      "scope": "Existing authored fixture asset copied read-only; no preserved source changed."
+    },
+    {
+      "file": "media/case-landscape.svg",
+      "source": "prototypes/living-canvas/monument/media/case-landscape.svg",
+      "scope": "Existing authored fixture asset copied read-only; no preserved source changed."
+    },
+    {
+      "file": "media/case-dark.svg",
+      "source": "prototypes/living-canvas/monument/media/case-dark.svg",
+      "scope": "Existing authored fixture asset copied read-only; no preserved source changed."
+    },
+    {
+      "file": "media/bag-transparent.svg",
+      "source": "prototypes/living-canvas/monument/media/bag-transparent.svg",
+      "scope": "Existing authored fixture asset copied read-only; no preserved source changed."
+    },
+    {
+      "file": "media/metal-ring.svg",
+      "source": "prototypes/living-canvas/monument/media/metal-ring.svg",
+      "scope": "Existing authored fixture asset copied read-only; no preserved source changed."
+    },
+    {
+      "file": "media/pantry-jar.svg",
+      "source": "prototypes/living-canvas/monument/media/pantry-jar.svg",
+      "scope": "Existing authored fixture asset copied read-only; no preserved source changed."
+    }
+  ]
+}

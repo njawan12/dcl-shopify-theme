@@ -1,0 +1,26 @@
+{
+  "captured_utc": "2026-10-04T20:23:35.001436+00:00",
+  "browser": "Codex in-app browser",
+  "viewport_height": 1000,
+  "method": "Native viewport overrides and read-only DOM geometry probe; native scroll loads lazy media before full-page JPEG. No runtime placement JS.",
+  "source_sha256": {
+    "fixture_catalog.py": "459c37f2b37c4f4adb5d0b6405a6de39e63448cbf039164da66061be445e9673",
+    "fixtures.json": "513becef4bc1091dad165677473a1cb667593e44c394706f370cccda4280c4a8",
+    "index.html": "0c22bcf75ac3c40b86f70841c6dc052d33487d2e119e73c0f4b70fde8edc2169",
+    "media/bag-transparent.svg": "596b1b6ab190b263d32e27614fa58e24a71da05e0a13d555faf323408041f9bc",
+    "media/care-jar.jpg": "7128af9042d09a4d28721e66410a9b626e3194192985dad5f38b574d818f071b",
+    "media/care-pump.jpg": "ec758e0c48d5021f32d7c26171f12ac577378f7417dd3fbeb00a97194b0ffb6b",
+    "media/case-dark.svg": "a98d0116792ce0d2e19254cdbce64e5a915f66e8cf756c83f249a982b8cddf86",
+    "media/case-landscape.svg": "d03905ca5c1d081f569f21e67fe5678cb1929b872e83898ffbba6b88d7169ec5",
+    "media/case-portrait.svg": "406dd47c56009ccb43c93bdc8bc64e50144977d683951f808134295cbb2e33a1",
+    "media/daily-mug.jpg": "2ab158c36cc40f553d0eccb781a981da5563ce4a20c496ca1a1779c02e587118",
+    "media/metal-ring.svg": "c52991d74112531024c9b897621a11a48ca2ebf5e8b67ea32bfd30f8af9a9176",
+    "media/pantry-jar.svg": "527030fa33fe6f3f3ed24e095295f0d2db70a79dead3dcd79e387d5b307a913a",
+    "media/utility-case.jpg": "27799afc0c570c8a79c2a0c47c2a67c93b17f7dd34c124e3f82b918bd009d8bc",
+    "mosaic.css": "2ef1f9b05637734da61e4b8bc1ed51b2f98c1f84d4b15b8d7ea2e7713ac9f9ff",
+    "planner.py": "329608dbfd71e88e417701aee49c04421edb4ad2a9c137d4aab286c057141b03",
+    "render.py": "a01cc65bd7183bb2f136bbcb513d8609a7597ac4dd4d89383e8fa705b7fe0cef",
+    "serve.py": "a957c4bbec4975891204e89571b9fb2a07f6e2098d7ae54931cd17e4d4c8fe18",
+    "tests/capture-probe.js": "87145f58440300782ae530f432ac5934156023c4e0fc5fca88ac6aec9ec572a7"
+  }
+}

@@ -1,0 +1,2888 @@
+{
+  "products": {
+    "beauty-1": {
+      "id": "beauty-1",
+      "title": "Gentle hand wash",
+      "url": "/products/beauty-1",
+      "vendor": "Everyday care",
+      "variants": [
+        {
+          "id": "beauty-1-single",
+          "price": 1800,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/care-pump.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Unbranded amber glass pump bottle on a white background."
+      }
+    },
+    "beauty-2": {
+      "id": "beauty-2",
+      "title": "Daily body wash",
+      "url": "/products/beauty-2",
+      "vendor": "Everyday care",
+      "variants": [
+        {
+          "id": "beauty-2-single",
+          "price": 2000,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/care-pump.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Unbranded amber glass pump bottle on a white background."
+      }
+    },
+    "beauty-3": {
+      "id": "beauty-3",
+      "title": "Everyday cream",
+      "url": "/products/beauty-3",
+      "vendor": "Everyday care",
+      "variants": [
+        {
+          "id": "beauty-3-single",
+          "price": 2200,
+          "available": true,
+          "unit_price": {
+            "amount": 4400,
+            "reference": "100 g"
+          }
+        }
+      ],
+      "image": {
+        "src": "media/care-jar.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Plain ivory cream jar on a white background."
+      }
+    },
+    "beauty-4": {
+      "id": "beauty-4",
+      "title": "Light daily lotion",
+      "url": "/products/beauty-4",
+      "vendor": "Everyday care",
+      "variants": [
+        {
+          "id": "beauty-4-single",
+          "price": 2400,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/care-pump.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Unbranded amber glass pump bottle on a white background."
+      }
+    },
+    "beauty-5": {
+      "id": "beauty-5",
+      "title": "Unscented hand wash",
+      "url": "/products/beauty-5",
+      "vendor": "Everyday care",
+      "variants": [
+        {
+          "id": "beauty-5-single",
+          "price": 2600,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/care-pump.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Unbranded amber glass pump bottle on a white background."
+      }
+    },
+    "beauty-6": {
+      "id": "beauty-6",
+      "title": "Body balm",
+      "url": "/products/beauty-6",
+      "vendor": "Everyday care",
+      "variants": [
+        {
+          "id": "beauty-6-single",
+          "price": 2800,
+          "available": false
+        }
+      ],
+      "image": {
+        "src": "media/care-jar.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Plain ivory cream jar on a white background."
+      }
+    },
+    "beauty-7": {
+      "id": "beauty-7",
+      "title": "Daily cleansing oil",
+      "url": "/products/beauty-7",
+      "vendor": "Everyday care",
+      "variants": [
+        {
+          "id": "beauty-7-single",
+          "price": 3000,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/care-pump.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Unbranded amber glass pump bottle on a white background."
+      }
+    },
+    "beauty-8": {
+      "id": "beauty-8",
+      "title": "Rich hand cream",
+      "url": "/products/beauty-8",
+      "vendor": "Everyday care",
+      "variants": [
+        {
+          "id": "beauty-8-single",
+          "price": 3200,
+          "available": true,
+          "compare_at": 3800
+        }
+      ],
+      "image": {
+        "src": "media/care-jar.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Plain ivory cream jar on a white background."
+      }
+    },
+    "beauty-9": {
+      "id": "beauty-9",
+      "title": "Evening face cream",
+      "url": "/products/beauty-9",
+      "vendor": "Everyday care",
+      "variants": [
+        {
+          "id": "beauty-9-single",
+          "price": 3400,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/care-jar.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Plain ivory cream jar on a white background."
+      }
+    },
+    "beauty-10": {
+      "id": "beauty-10",
+      "title": "Hand wash refill",
+      "url": "/products/beauty-10",
+      "vendor": "Everyday care",
+      "variants": [
+        {
+          "id": "beauty-10-single",
+          "price": 3600,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/care-pump.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Unbranded amber glass pump bottle on a white background."
+      },
+      "badge": "Refill format"
+    },
+    "beauty-11": {
+      "id": "beauty-11",
+      "title": "Body cream, unscented",
+      "url": "/products/beauty-11",
+      "vendor": "Everyday care",
+      "variants": [
+        {
+          "id": "beauty-11-single",
+          "price": 3800,
+          "available": true
+        },
+        {
+          "id": "beauty-11-large",
+          "price": 4300,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/care-jar.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Plain ivory cream jar on a white background."
+      },
+      "options": [
+        "Unscented",
+        "Citrus"
+      ]
+    },
+    "beauty-12": {
+      "id": "beauty-12",
+      "title": "Everyday hand balm",
+      "url": "/products/beauty-12",
+      "vendor": "Everyday care",
+      "variants": [
+        {
+          "id": "beauty-12-single",
+          "price": 4000,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/care-jar.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Plain ivory cream jar on a white background."
+      }
+    },
+    "neutral-1": {
+      "id": "neutral-1",
+      "title": "Utility case",
+      "url": "/products/neutral-1",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "neutral-1-single",
+          "price": 1200,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/utility-case.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Gray woven utility case on a white background."
+      }
+    },
+    "neutral-2": {
+      "id": "neutral-2",
+      "title": "White ceramic mug",
+      "url": "/products/neutral-2",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "neutral-2-single",
+          "price": 1350,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/daily-mug.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Ordinary white ceramic mug on a white background."
+      }
+    },
+    "neutral-3": {
+      "id": "neutral-3",
+      "title": "Large utility case",
+      "url": "/products/neutral-3",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "neutral-3-single",
+          "price": 1500,
+          "available": true,
+          "unit_price": {
+            "amount": 3000,
+            "reference": "1 item"
+          }
+        }
+      ],
+      "image": {
+        "src": "media/utility-case.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Gray woven utility case on a white background."
+      }
+    },
+    "neutral-4": {
+      "id": "neutral-4",
+      "title": "Everyday cup",
+      "url": "/products/neutral-4",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "neutral-4-single",
+          "price": 1650,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/daily-mug.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Ordinary white ceramic mug on a white background."
+      }
+    },
+    "neutral-5": {
+      "id": "neutral-5",
+      "title": "Portrait utility case",
+      "url": "/products/neutral-5",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "neutral-5-single",
+          "price": 1800,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/case-portrait.svg",
+        "width": 500,
+        "height": 625,
+        "alt": "Entire gray utility case on portrait media."
+      }
+    },
+    "neutral-6": {
+      "id": "neutral-6",
+      "title": "Landscape utility case",
+      "url": "/products/neutral-6",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "neutral-6-single",
+          "price": 1950,
+          "available": false
+        }
+      ],
+      "image": {
+        "src": "media/case-landscape.svg",
+        "width": 900,
+        "height": 600,
+        "alt": "Entire gray utility case on landscape media."
+      }
+    },
+    "neutral-7": {
+      "id": "neutral-7",
+      "title": "Everyday travel case",
+      "url": "/products/neutral-7",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "neutral-7-single",
+          "price": 2100,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/utility-case.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Gray woven utility case on a white background."
+      }
+    },
+    "neutral-8": {
+      "id": "neutral-8",
+      "title": "Wide handled mug",
+      "url": "/products/neutral-8",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "neutral-8-single",
+          "price": 2250,
+          "available": true,
+          "compare_at": 2850
+        }
+      ],
+      "image": {
+        "src": "media/daily-mug.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Ordinary white ceramic mug on a white background."
+      }
+    },
+    "neutral-9": {
+      "id": "neutral-9",
+      "title": "Small zipper case",
+      "url": "/products/neutral-9",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "neutral-9-single",
+          "price": 2400,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/utility-case.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Gray woven utility case on a white background."
+      }
+    },
+    "neutral-10": {
+      "id": "neutral-10",
+      "title": "Dark catalog case",
+      "url": "/products/neutral-10",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "neutral-10-single",
+          "price": 2550,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/case-dark.svg",
+        "width": 900,
+        "height": 600,
+        "alt": "Gray utility case on a plain dark background."
+      },
+      "badge": "Plain catalog finish"
+    },
+    "neutral-11": {
+      "id": "neutral-11",
+      "title": "Tall ceramic mug",
+      "url": "/products/neutral-11",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "neutral-11-single",
+          "price": 2700,
+          "available": true
+        },
+        {
+          "id": "neutral-11-large",
+          "price": 3200,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/daily-mug.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Ordinary white ceramic mug on a white background."
+      },
+      "options": [
+        "Small",
+        "Large"
+      ]
+    },
+    "neutral-12": {
+      "id": "neutral-12",
+      "title": "Everyday storage case",
+      "url": "/products/neutral-12",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "neutral-12-single",
+          "price": 2850,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/utility-case.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Gray woven utility case on a white background."
+      }
+    },
+    "jewelry-1": {
+      "id": "jewelry-1",
+      "title": "Simple silver band",
+      "url": "/products/jewelry-1",
+      "vendor": "Workshop",
+      "variants": [
+        {
+          "id": "jewelry-1-single",
+          "price": 4200,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/metal-ring.svg",
+        "width": 600,
+        "height": 600,
+        "alt": "Plain metal ring on white background."
+      }
+    },
+    "jewelry-2": {
+      "id": "jewelry-2",
+      "title": "Wide silver band",
+      "url": "/products/jewelry-2",
+      "vendor": "Workshop",
+      "variants": [
+        {
+          "id": "jewelry-2-single",
+          "price": 4700,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/metal-ring.svg",
+        "width": 600,
+        "height": 600,
+        "alt": "Plain metal ring on white background."
+      }
+    },
+    "jewelry-3": {
+      "id": "jewelry-3",
+      "title": "Everyday polished ring",
+      "url": "/products/jewelry-3",
+      "vendor": "Workshop",
+      "variants": [
+        {
+          "id": "jewelry-3-single",
+          "price": 5200,
+          "available": true,
+          "unit_price": {
+            "amount": 10400,
+            "reference": "1 item"
+          }
+        }
+      ],
+      "image": {
+        "src": "media/metal-ring.svg",
+        "width": 600,
+        "height": 600,
+        "alt": "Plain metal ring on white background."
+      }
+    },
+    "jewelry-4": {
+      "id": "jewelry-4",
+      "title": "Brushed metal ring",
+      "url": "/products/jewelry-4",
+      "vendor": "Workshop",
+      "variants": [
+        {
+          "id": "jewelry-4-single",
+          "price": 5700,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/metal-ring.svg",
+        "width": 600,
+        "height": 600,
+        "alt": "Plain metal ring on white background."
+      }
+    },
+    "jewelry-5": {
+      "id": "jewelry-5",
+      "title": "Slim silver ring",
+      "url": "/products/jewelry-5",
+      "vendor": "Workshop",
+      "variants": [
+        {
+          "id": "jewelry-5-single",
+          "price": 6200,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/metal-ring.svg",
+        "width": 600,
+        "height": 600,
+        "alt": "Plain metal ring on white background."
+      }
+    },
+    "jewelry-6": {
+      "id": "jewelry-6",
+      "title": "Rounded silver ring",
+      "url": "/products/jewelry-6",
+      "vendor": "Workshop",
+      "variants": [
+        {
+          "id": "jewelry-6-single",
+          "price": 6700,
+          "available": false
+        }
+      ],
+      "image": {
+        "src": "media/metal-ring.svg",
+        "width": 600,
+        "height": 600,
+        "alt": "Plain metal ring on white background."
+      }
+    },
+    "food-1": {
+      "id": "food-1",
+      "title": "Pantry grains",
+      "url": "/products/food-1",
+      "vendor": "Pantry",
+      "variants": [
+        {
+          "id": "food-1-single",
+          "price": 600,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/pantry-jar.svg",
+        "width": 600,
+        "height": 600,
+        "alt": "Plain pantry jar on white background."
+      }
+    },
+    "food-2": {
+      "id": "food-2",
+      "title": "Breakfast oats",
+      "url": "/products/food-2",
+      "vendor": "Pantry",
+      "variants": [
+        {
+          "id": "food-2-single",
+          "price": 700,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/pantry-jar.svg",
+        "width": 600,
+        "height": 600,
+        "alt": "Plain pantry jar on white background."
+      }
+    },
+    "food-3": {
+      "id": "food-3",
+      "title": "Everyday rice",
+      "url": "/products/food-3",
+      "vendor": "Pantry",
+      "variants": [
+        {
+          "id": "food-3-single",
+          "price": 800,
+          "available": true,
+          "unit_price": {
+            "amount": 1600,
+            "reference": "100 g"
+          }
+        }
+      ],
+      "image": {
+        "src": "media/pantry-jar.svg",
+        "width": 600,
+        "height": 600,
+        "alt": "Plain pantry jar on white background."
+      }
+    },
+    "food-4": {
+      "id": "food-4",
+      "title": "Dried beans",
+      "url": "/products/food-4",
+      "vendor": "Pantry",
+      "variants": [
+        {
+          "id": "food-4-single",
+          "price": 900,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/pantry-jar.svg",
+        "width": 600,
+        "height": 600,
+        "alt": "Plain pantry jar on white background."
+      }
+    },
+    "food-5": {
+      "id": "food-5",
+      "title": "Kitchen lentils",
+      "url": "/products/food-5",
+      "vendor": "Pantry",
+      "variants": [
+        {
+          "id": "food-5-single",
+          "price": 1000,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/pantry-jar.svg",
+        "width": 600,
+        "height": 600,
+        "alt": "Plain pantry jar on white background."
+      }
+    },
+    "food-6": {
+      "id": "food-6",
+      "title": "Plain barley",
+      "url": "/products/food-6",
+      "vendor": "Pantry",
+      "variants": [
+        {
+          "id": "food-6-single",
+          "price": 1100,
+          "available": false
+        }
+      ],
+      "image": {
+        "src": "media/pantry-jar.svg",
+        "width": 600,
+        "height": 600,
+        "alt": "Plain pantry jar on white background."
+      }
+    },
+    "no-media": {
+      "id": "no-media",
+      "title": "Utility case",
+      "url": "/products/no-media",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "neutral-1-single",
+          "price": 1200,
+          "available": true
+        }
+      ],
+      "image": null
+    },
+    "transparent": {
+      "id": "transparent",
+      "title": "Canvas drawstring bag",
+      "url": "/products/transparent",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "neutral-1-single",
+          "price": 1200,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/bag-transparent.svg",
+        "width": 600,
+        "height": 600,
+        "alt": "Whole canvas drawstring bag with transparent background."
+      }
+    },
+    "long-title": {
+      "id": "long-title",
+      "title": "Everyday utility case with a full-length zipper and room for small things you carry from one place to another",
+      "url": "/products/long-title",
+      "vendor": "An intentionally long fixture vendor name representing independent everyday object makers",
+      "variants": [
+        {
+          "id": "neutral-1-single",
+          "price": 1200,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/utility-case.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Gray woven utility case on a white background."
+      }
+    },
+    "long-money": {
+      "id": "long-money",
+      "title": "White ceramic mug",
+      "url": "/products/long-money",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "long-money-single",
+          "price": 123456789,
+          "available": true,
+          "unit_price": {
+            "amount": 98765432,
+            "reference": "one deliberately long reference measure for localized shopping contexts"
+          }
+        }
+      ],
+      "image": {
+        "src": "media/daily-mug.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Ordinary white ceramic mug on a white background."
+      }
+    },
+    "selling-plan": {
+      "id": "selling-plan",
+      "title": "Gentle hand wash",
+      "url": "/products/selling-plan",
+      "vendor": "Everyday care",
+      "variants": [
+        {
+          "id": "beauty-1-single",
+          "price": 1800,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/care-pump.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Unbranded amber glass pump bottle on a white background."
+      },
+      "commerce_context": "Selling-plan details on product page"
+    },
+    "app-owned": {
+      "id": "app-owned",
+      "title": "Everyday cream",
+      "url": "/products/app-owned",
+      "vendor": "Everyday care",
+      "variants": [
+        {
+          "id": "beauty-3-single",
+          "price": 2200,
+          "available": true,
+          "unit_price": {
+            "amount": 4400,
+            "reference": "100 g"
+          }
+        }
+      ],
+      "image": {
+        "src": "media/care-jar.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Plain ivory cream jar on a white background."
+      },
+      "commerce_context": "App-managed purchase details on product page",
+      "app_note": "Fixture app seam: product information from an app. No rating or review claim."
+    },
+    "complex": {
+      "id": "complex",
+      "title": "Large utility case",
+      "url": "/products/complex",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "complex-0",
+          "price": 2400,
+          "available": false
+        },
+        {
+          "id": "complex-1",
+          "price": 2600,
+          "available": true
+        },
+        {
+          "id": "complex-2",
+          "price": 2800,
+          "available": true
+        },
+        {
+          "id": "complex-3",
+          "price": 3000,
+          "available": true
+        },
+        {
+          "id": "complex-4",
+          "price": 3200,
+          "available": true
+        },
+        {
+          "id": "complex-5",
+          "price": 3400,
+          "available": true
+        },
+        {
+          "id": "complex-6",
+          "price": 3600,
+          "available": true
+        },
+        {
+          "id": "complex-7",
+          "price": 3800,
+          "available": true
+        },
+        {
+          "id": "complex-8",
+          "price": 4000,
+          "available": true
+        },
+        {
+          "id": "complex-9",
+          "price": 4200,
+          "available": true
+        },
+        {
+          "id": "complex-10",
+          "price": 4400,
+          "available": true
+        },
+        {
+          "id": "complex-11",
+          "price": 4600,
+          "available": true
+        },
+        {
+          "id": "complex-12",
+          "price": 4800,
+          "available": true
+        },
+        {
+          "id": "complex-13",
+          "price": 5000,
+          "available": true
+        },
+        {
+          "id": "complex-14",
+          "price": 5200,
+          "available": true
+        },
+        {
+          "id": "complex-15",
+          "price": 5400,
+          "available": true
+        },
+        {
+          "id": "complex-16",
+          "price": 5600,
+          "available": true
+        },
+        {
+          "id": "complex-17",
+          "price": 5800,
+          "available": true
+        },
+        {
+          "id": "complex-18",
+          "price": 6000,
+          "available": true
+        },
+        {
+          "id": "complex-19",
+          "price": 6200,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/utility-case.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Gray woven utility case on a white background."
+      },
+      "options": [
+        "Small",
+        "Medium",
+        "Large",
+        "Cotton",
+        "Canvas"
+      ],
+      "commerce_context": "Complex options on product page"
+    },
+    "represented": {
+      "id": "represented",
+      "title": "Large utility case",
+      "url": "/products/represented",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "represented-a",
+          "price": 2400,
+          "available": true
+        },
+        {
+          "id": "represented-b",
+          "price": 3600,
+          "available": false
+        }
+      ],
+      "image": {
+        "src": "media/utility-case.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Gray woven utility case on a white background."
+      },
+      "options": [
+        "Small",
+        "Large"
+      ],
+      "represented_variant": "represented-b"
+    },
+    "unpublished": {
+      "id": "unpublished",
+      "title": "Utility case",
+      "url": "/products/unpublished",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "neutral-1-single",
+          "price": 1200,
+          "available": true
+        }
+      ],
+      "image": {
+        "src": "media/utility-case.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Gray woven utility case on a white background."
+      },
+      "published": false
+    },
+    "all-sold": {
+      "id": "all-sold",
+      "title": "Utility case",
+      "url": "/products/all-sold",
+      "vendor": "Everyday objects",
+      "variants": [
+        {
+          "id": "all-sold-one",
+          "price": 1800,
+          "available": false
+        }
+      ],
+      "image": {
+        "src": "media/utility-case.jpg",
+        "width": 1254,
+        "height": 1254,
+        "alt": "Gray woven utility case on a white background."
+      }
+    }
+  },
+  "fixtures": [
+    {
+      "id": "branded",
+      "label": "Branded Beauty / Wellness",
+      "products": [
+        "beauty-1",
+        "beauty-2",
+        "beauty-3",
+        "beauty-4",
+        "beauty-5",
+        "beauty-6",
+        "beauty-7",
+        "beauty-8",
+        "beauty-9",
+        "beauty-10",
+        "beauty-11",
+        "beauty-12"
+      ],
+      "title": "Everyday essentials",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "beauty",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "Start with a simpler daily ritual.",
+        "body": "A few everyday essentials, with room to choose what works for you.",
+        "image": {
+          "src": "media/care-jar.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Plain ivory cream jar on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "neutral",
+      "label": "Neutral originality torture",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection for everyday use.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "count-0",
+      "label": "Result count 0",
+      "products": [],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "count-1",
+      "label": "Result count 1",
+      "products": [
+        "neutral-1"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "count-2",
+      "label": "Result count 2",
+      "products": [
+        "neutral-1",
+        "neutral-2"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "count-3",
+      "label": "Result count 3",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "count-5",
+      "label": "Result count 5",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "count-24",
+      "label": "Result count 24",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "count-30",
+      "label": "Result count 30",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "count-100",
+      "label": "Result count 100",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "count-104",
+      "label": "Result count 104",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "standard",
+      "label": "Standard Grid fallback",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "standard",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "branded-standard",
+      "label": "Branded Standard Grid",
+      "products": [
+        "beauty-1",
+        "beauty-2",
+        "beauty-3",
+        "beauty-4",
+        "beauty-5",
+        "beauty-6",
+        "beauty-7",
+        "beauty-8",
+        "beauty-9",
+        "beauty-10",
+        "beauty-11",
+        "beauty-12"
+      ],
+      "title": "Everyday essentials",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "beauty",
+      "rhythm": "standard",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "Start with a simpler daily ritual.",
+        "body": "A few everyday essentials, with room to choose what works for you.",
+        "image": {
+          "src": "media/care-jar.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Plain ivory cream jar on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "editorial-absent",
+      "label": "Editorial absent",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": null
+    },
+    {
+      "id": "editorial-no-image",
+      "label": "Editorial without image",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": null,
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "editorial-no-link",
+      "label": "Editorial without link",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": null
+      }
+    },
+    {
+      "id": "editorial-long",
+      "label": "Very long editorial heading",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "The everyday objects that accompany you through changing places and routines deserve a thoughtful place in the way you shop and choose.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "feature-missing",
+      "label": "Missing selected feature reference",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "missing",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "no-eligible-feature",
+      "label": "No eligible feature treatment",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "none",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "feature-no-media",
+      "label": "Feature No Media",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "no-media",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "feature-sold-out",
+      "label": "Feature Sold Out",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "all-sold",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "feature-complex",
+      "label": "Feature Complex",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "complex",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "feature-app",
+      "label": "Feature App",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "app-owned",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "feature-represented",
+      "label": "Feature Represented",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "represented",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "mixed-media",
+      "label": "Mixed-ratio media and missing image",
+      "products": [
+        "transparent",
+        "no-media",
+        "neutral-5",
+        "neutral-6",
+        "neutral-2",
+        "neutral-10",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "truth-stress",
+      "label": "Long title, sale, sold out, unit price, app/options",
+      "products": [
+        "long-title",
+        "beauty-8",
+        "all-sold",
+        "long-money",
+        "selling-plan",
+        "complex",
+        "represented",
+        "app-owned",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "long-titles",
+      "label": "All product titles two or three lines",
+      "products": [
+        "long-title",
+        "long-title",
+        "long-title",
+        "long-title",
+        "long-title",
+        "long-title",
+        "long-title",
+        "long-title",
+        "long-title",
+        "long-title",
+        "long-title",
+        "long-title"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "all-white",
+      "label": "All white-background catalog media",
+      "products": [
+        "neutral-2",
+        "neutral-4",
+        "neutral-2",
+        "neutral-4",
+        "neutral-2",
+        "neutral-4",
+        "neutral-2",
+        "neutral-4",
+        "neutral-2",
+        "neutral-4",
+        "neutral-2",
+        "neutral-4"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "deleted",
+      "label": "Deleted and unpublished references omitted",
+      "products": [
+        "deleted-ref",
+        "unpublished",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "empty-filter",
+      "label": "No results after filtering",
+      "products": [
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      },
+      "filter": "available"
+    },
+    {
+      "id": "filtered-one",
+      "label": "Only one result after filtering",
+      "products": [
+        "neutral-1",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      },
+      "filter": "available"
+    },
+    {
+      "id": "filtered-five",
+      "label": "Filtering below interruption",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold",
+        "all-sold"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      },
+      "filter": "available"
+    },
+    {
+      "id": "sorted",
+      "label": "Price-sorted collection",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      },
+      "sort": "price-low"
+    },
+    {
+      "id": "page-before",
+      "label": "Pagination boundary before editorial",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      },
+      "page_size": 6,
+      "page": 1
+    },
+    {
+      "id": "page-after",
+      "label": "Pagination boundary after editorial",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      },
+      "page_size": 12,
+      "page": 1
+    },
+    {
+      "id": "page-two",
+      "label": "Second page: no repeated interruptions",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12",
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      },
+      "page_size": 12,
+      "page": 2
+    },
+    {
+      "id": "adjacent",
+      "label": "Two adjacent collection instances",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      },
+      "instances": 2
+    },
+    {
+      "id": "all-disabled",
+      "label": "All optional treatments disabled",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "none",
+      "density": "balanced",
+      "editorial": null
+    },
+    {
+      "id": "compact",
+      "label": "Compact density",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "compact",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "spacious",
+      "label": "Spacious density",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Objects for daily use",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "spacious",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "jewelry",
+      "label": "Jewelry / Accessories",
+      "products": [
+        "jewelry-1",
+        "jewelry-2",
+        "jewelry-3",
+        "jewelry-4",
+        "jewelry-5",
+        "jewelry-6",
+        "jewelry-1",
+        "jewelry-2",
+        "jewelry-3",
+        "jewelry-4",
+        "jewelry-5",
+        "jewelry-6"
+      ],
+      "title": "Everyday metal",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "jewelry",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "food",
+      "label": "Food / Drink",
+      "products": [
+        "food-1",
+        "food-2",
+        "food-3",
+        "food-4",
+        "food-5",
+        "food-6",
+        "food-1",
+        "food-2",
+        "food-3",
+        "food-4",
+        "food-5",
+        "food-6"
+      ],
+      "title": "The pantry shelf",
+      "description": "A collection of simple products for ordinary days.",
+      "preset": "food",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    },
+    {
+      "id": "localized",
+      "label": "Long collection heading and +50% copy",
+      "products": [
+        "neutral-1",
+        "neutral-2",
+        "neutral-3",
+        "neutral-4",
+        "neutral-5",
+        "neutral-6",
+        "neutral-7",
+        "neutral-8",
+        "neutral-9",
+        "neutral-10",
+        "neutral-11",
+        "neutral-12"
+      ],
+      "title": "Alltägliche Gegenstände, die Sie auf Ihren Wegen begleiten und Raum für bewusste Entscheidungen lassen",
+      "description": "A collection for everyday use. On your terms.",
+      "preset": "neutral",
+      "rhythm": "anchor",
+      "feature_source": "automatic",
+      "density": "balanced",
+      "editorial": {
+        "enabled": true,
+        "title": "A little more room for the everyday.",
+        "body": "Simple objects, familiar uses. Read the notes behind this collection.",
+        "image": {
+          "src": "media/daily-mug.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Ordinary white ceramic mug on a white background."
+        },
+        "link": {
+          "label": "Read the collection notes",
+          "url": "/pages/field-notes"
+        }
+      }
+    }
+  ]
+}

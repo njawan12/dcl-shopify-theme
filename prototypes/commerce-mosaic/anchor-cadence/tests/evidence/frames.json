@@ -1,0 +1,254 @@
+[
+  {
+    "fixture": "branded",
+    "width": 1440,
+    "height": 1000,
+    "file": "branded-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral",
+    "width": 1440,
+    "height": 1000,
+    "file": "neutral-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "branded",
+    "width": 390,
+    "height": 1000,
+    "file": "branded-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral",
+    "width": 390,
+    "height": 1000,
+    "file": "neutral-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "mixed-media",
+    "width": 1024,
+    "height": 1000,
+    "file": "mixed-media-1024.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "mixed-media",
+    "width": 390,
+    "height": 1000,
+    "file": "mixed-media-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "truth-stress",
+    "width": 1440,
+    "height": 1000,
+    "file": "truth-stress-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "truth-stress",
+    "width": 320,
+    "height": 1000,
+    "file": "truth-stress-320.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "editorial-absent",
+    "width": 1440,
+    "height": 1000,
+    "file": "editorial-absent-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "count-5",
+    "width": 390,
+    "height": 1000,
+    "file": "small-result-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "count-1",
+    "width": 320,
+    "height": 1000,
+    "file": "one-result-320.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral",
+    "width": 375,
+    "height": 1000,
+    "file": "neutral-375.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral",
+    "width": 430,
+    "height": 1000,
+    "file": "neutral-430.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral",
+    "width": 768,
+    "height": 1000,
+    "file": "neutral-768.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral",
+    "width": 1280,
+    "height": 1000,
+    "file": "neutral-1280.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "standard",
+    "width": 1440,
+    "height": 1000,
+    "file": "standard-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "standard",
+    "width": 390,
+    "height": 1000,
+    "file": "standard-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "editorial-long",
+    "width": 390,
+    "height": 1000,
+    "file": "editorial-long-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "editorial-no-image",
+    "width": 1440,
+    "height": 1000,
+    "file": "editorial-no-image-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "editorial-no-link",
+    "width": 390,
+    "height": 1000,
+    "file": "editorial-no-link-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "feature-no-media",
+    "width": 1440,
+    "height": 1000,
+    "file": "feature-no-media-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "feature-sold-out",
+    "width": 390,
+    "height": 1000,
+    "file": "feature-sold-out-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "feature-app",
+    "width": 768,
+    "height": 1000,
+    "file": "feature-app-768.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "deleted",
+    "width": 1440,
+    "height": 1000,
+    "file": "deleted-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "empty-filter",
+    "width": 390,
+    "height": 1000,
+    "file": "empty-filter-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "filtered-one",
+    "width": 390,
+    "height": 1000,
+    "file": "filtered-one-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "page-before",
+    "width": 1440,
+    "height": 1000,
+    "file": "page-before-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "page-after",
+    "width": 1440,
+    "height": 1000,
+    "file": "page-after-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "page-two",
+    "width": 1440,
+    "height": 1000,
+    "file": "page-two-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "adjacent",
+    "width": 1024,
+    "height": 1000,
+    "file": "adjacent-1024.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "count-30",
+    "width": 1440,
+    "height": 1000,
+    "file": "catalog-30-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "count-100",
+    "width": 1440,
+    "height": 1000,
+    "file": "catalog-100-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "localized",
+    "width": 320,
+    "height": 1000,
+    "file": "localized-320.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "jewelry",
+    "width": 1440,
+    "height": 1000,
+    "file": "jewelry-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "food",
+    "width": 1440,
+    "height": 1000,
+    "file": "food-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "all-white",
+    "width": 390,
+    "height": 1000,
+    "file": "all-white-390.jpg",
+    "fullPage": true
+  }
+]
