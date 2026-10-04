@@ -15,15 +15,15 @@ a, button, select { touch-action: manipulation; }
 .fixture-controls select { flex: 1; min-inline-size: 0; max-inline-size: 100%; padding: 10px; border: 1px solid #aaa; background: #fff; color: #222; }
 .fixture-controls button { padding: 10px 14px; background: #222; color: #fff; border: 1px solid #222; }
 .harness-footer { font-size: 12px; padding: 24px; color: #555; line-height: 1.6; }
-/* The datum owns registration; media crosses it once. Text stays in normal flow. */
-.monument { --ink: #292a24; --paper: #f6f5ef; --muted: #55564d; --axis: #77786d; --display: Georgia, 'Times New Roman', serif; display: grid; grid-template-columns: 1px minmax(0, 1fr); column-gap: 20px; padding: 40px 24px 48px; background: var(--paper); color: var(--ink); }
-.statement { grid-column: 1 / -1; grid-row: 1; min-inline-size: 0; margin-block-end: 28px; }
+/* The L-shaped editorial datum is notched by one object; text stays in flow. */
+.monument { --ink: #183d32; --paper: #f1f5ef; --muted: #466055; --axis: #647d70; --display: Georgia, 'Times New Roman', serif; display: grid; grid-template-columns: 1px minmax(0, 1fr); column-gap: 20px; padding: 40px 24px 48px; background: var(--paper); color: var(--ink); }
+.statement { grid-column: 2; grid-row: 1; min-inline-size: 0; margin-block-end: 28px; }
 .eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .14em; line-height: 1.6; text-transform: uppercase; margin: 0 0 24px; }
 .statement h1 { font-family: var(--display); font-size: clamp(48px, 13vw, 72px); font-weight: 400; line-height: .98; letter-spacing: -.045em; overflow-wrap: anywhere; margin: 0; }
 .support { max-inline-size: 38ch; font-size: 16px; line-height: 1.65; margin: 24px 0 0; }
 .editorial-link, .product-link { display: inline-flex; align-items: center; min-block-size: 44px; font-size: 14px; line-height: 1.5; padding-block: 10px; }
 .editorial-link { margin-block-start: 12px; }
-.datum { grid-column: 1; grid-row: 2 / 4; border-inline-start: 1px solid var(--axis); min-block-size: 56px; }
+.datum { grid-column: 1; grid-row: 1 / 4; border-inline-start: 1px solid var(--axis); min-block-size: 56px; }
 .object { grid-column: 2; grid-row: 2; margin: 28px 0 24px -32px; min-inline-size: 0; background: var(--paper); inline-size: 100%; max-inline-size: 520px; justify-self: start; }
 .object img { display: block; inline-size: 100%; block-size: auto; max-block-size: 380px; object-fit: contain; }
 .commerce { grid-column: 2; grid-row: 3; min-inline-size: 0; padding-block: 12px 24px; }
@@ -45,23 +45,24 @@ a, button, select { touch-action: manipulation; }
   .harness { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 12px 32px; padding-inline: 40px; }
   .harness label { margin-block-start: 0; }
   .diagnostic { grid-column: 1 / -1; }
-  .monument { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); column-gap: 32px; padding: 48px 40px 100px; }
-  .statement { margin-block-end: 0; }
+  .monument { --seam: 32px; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); column-gap: var(--seam); padding: 48px 40px 100px; }
+  .statement { grid-column: 1; grid-row: 1; inline-size: calc(100% - 48px); margin-block-end: 0; }
   .statement h1 { font-size: clamp(80px, 10.6vw, 120px); max-inline-size: 13ch; }
   .support { font-size: 18px; }
-  .datum { grid-column: 1 / -1; grid-row: 2; border-inline-start: 0; border-block-end: 1px solid var(--axis); }
-  .object { grid-column: 2; grid-row: 2; margin: 24px 0 0; transform: translateY(48px); justify-self: center; }
-  .object img { max-block-size: 390px; }
-  .commerce { grid-column: 1; grid-row: 2; align-self: end; padding-block: 40px 24px; }
+  .datum { grid-column: 1; grid-row: 1 / 3; border-inline-start: 0; border-inline-end: 1px solid var(--axis); border-block-end: 1px solid var(--axis); }
+  .object { grid-column: 2; grid-row: 1 / 3; align-self: end; margin: 0 0 0 calc(-1 * var(--seam) - 32px); transform: translateY(48px); }
+  .object img { max-block-size: none; }
+  .commerce { grid-column: 1; grid-row: 2; inline-size: calc(100% - 48px); align-self: end; padding-block: 40px 24px; }
   .monument:not(:has(.object)) .commerce { grid-column: 1 / -1; padding-block-start: 40px; }
   .product-title { font-size: 23px; }
 }
 @media (min-width: 1280px) {
-  .monument { max-inline-size: 1600px; margin-inline: auto; padding: 64px 64px 120px; column-gap: 64px; }
-  .statement h1 { font-size: clamp(120px, 10.6vw, 168px); max-inline-size: 14ch; }
-  .object { margin-block-start: -36px; transform: translateY(64px); }
-  .object img { max-block-size: 520px; }
-  .commerce { padding-block-end: 24px; max-inline-size: 48ch; }
+  .monument { max-inline-size: 1600px; margin-inline: auto; padding: 64px 64px 120px; --seam: 64px; }
+  .statement { inline-size: calc(100% - 128px); }
+  .statement h1 { font-size: clamp(104px, 9vw, 144px); max-inline-size: 14ch; }
+  .object { margin-inline-start: calc(-1 * var(--seam) - 96px); transform: translateY(64px); }
+  .object img { max-block-size: none; }
+  .commerce { inline-size: calc(100% - 128px); padding-block-end: 24px; max-inline-size: 48ch; }
   .product-title { font-size: 26px; }
 }
 @media (prefers-reduced-motion: reduce) {

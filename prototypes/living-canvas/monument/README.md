@@ -10,7 +10,7 @@ PYTHONDONTWRITEBYTECODE=1 python3 prototypes/living-canvas/monument/serve.py
 
 Open `http://localhost:3001/` in the Codex in-app browser. The native fixture form submits a GET request; no browser JavaScript is present. Port 3001 keeps the accepted Split Tension preview separate. `PORT` can select a different local port. Product/editorial destinations are truthful read-only navigation stubs, not Shopify commerce.
 
-`render.py` owns one semantic component and one surrounding test harness. `fixtures.json` supplies 41 data/copy/media states. `monument.css` owns horizontal desktop/tablet registration and the vertical mobile poster. One bounded media object interrupts the axis. Text remains in normal flow. Presets change tokens, never the component structure.
+`render.py` owns one semantic component and one surrounding test harness. `fixtures.json` supplies 41 data/copy/media states. `monument.css` owns an L-shaped desktop/tablet editorial field and a continuous vertical mobile rail beginning alongside the statement. One bounded media object crosses into the editorial field and interrupts the axis; commerce stays attached to its baseline. The default branded proof uses the existing Beauty/Wellness care bottle. Text remains in normal flow. Presets change tokens, never the component structure.
 
 `index.html` is the literal default output of the same renderer; regenerate only when changing the renderer/default fixture:
 

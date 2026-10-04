@@ -843,10 +843,10 @@
   },
   "fixtures": [
     {
-      "product": "bag",
-      "headline": "Carry what matters.",
-      "eyebrow": "One object. Your everyday.",
-      "copy": "Room for your everyday things.",
+      "product": "beauty",
+      "headline": "A quieter daily ritual.",
+      "eyebrow": "An everyday ritual",
+      "copy": "Care for your everyday things.",
       "preset": "branded",
       "id": "default",
       "label": "01 · Branded / default"

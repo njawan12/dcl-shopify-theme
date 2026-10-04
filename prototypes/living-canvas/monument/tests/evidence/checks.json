@@ -26,9 +26,9 @@
   "complexity": {
     "source": {
       "monument.css": {
-        "physical_lines": 69,
-        "nonblank_lines": 69,
-        "bytes": 5595
+        "physical_lines": 70,
+        "nonblank_lines": 70,
+        "bytes": 5863
       },
       "render.py": {
         "physical_lines": 118,
@@ -71,5 +71,15 @@
   },
   "engineering_verdict": "PASS \u2014 isolated static proof scope only",
   "visual_verdict": "PENDING HUMAN REVIEW",
-  "earlier_diagnostics": "Shared mobile alignment defect found and corrected; all four mobile widths re-audited. Neutral system-font and rectangular aspect changes re-audited at all eight widths. An initial HTTP test filename shadowed Python http; renamed before final successful run. No unresolved failure."
+  "earlier_diagnostics": "One CSS visual recomposition after human NARROW; full unchanged suite and complete 328-view matrix pass. No renderer, server, tests, evidence harness, product data, media or non-default fixture behavior changed.",
+  "visual_recomposition": {
+    "parent_sha": "fff65bff8dde2746d02933f6e1713c23516c69c5",
+    "css_line_delta": 1,
+    "css_byte_delta": 268,
+    "js_line_delta": 0,
+    "component_path_delta": 0,
+    "breakpoint_delta": 0,
+    "merchant_control_delta": 0,
+    "default_fixture": "Existing Beauty/Wellness product/media and headline; branded tokens use the existing Beauty palette."
+  }
 }

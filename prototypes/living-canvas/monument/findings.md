@@ -1,3 +1,51 @@
+# M1 Monument — one visual recomposition after human NARROW
+
+**Engineering accepted; unchanged suite remains PASS. Visual verdict: PENDING HUMAN REVIEW.**
+
+Human review narrowed the first pass because the image met only the bottom horizontal line and the neutral composition read too close to oversized headline + rectangular image + commerce. This one pass changes only shared CSS composition and the explicitly requested branded fixture content, plus generated default HTML, evidence and reports.
+
+Parent local commit: `fff65bff8dde2746d02933f6e1713c23516c69c5`. The new immutable commit SHA is returned in the completion message. No push, PR, merge or M2.
+
+## Recomposition
+
+The desktop datum now defines the statement's outer editorial edge and turns beneath its commerce information. The media spans the editorial/commerce grid rows and crosses 96px into that field at large desktop sizes, masking the rail while retaining whole product media. The statement and commerce reserve a 128px boundary zone, keeping type safe without clipping or literal glyph collision. At tablet the boundary transgression relaxes to 32px with a 48px type reserve. Image height follows its natural aspect ratio at these widths; media is not cropped. Commerce remains on the editorial side of the same datum. Mobile's rail now begins beside the statement and continues through the object into commerce, preserving one semantic reading order.
+
+These are shared CSS-owned rules, not merchant coordinates or fixture exceptions. No renderer, server, product truth, state behavior, image asset, test, harness or non-default fixture data was modified. The default fixture now uses the existing Beauty/Wellness care bottle, its headline, Beauty palette, and appropriate semantic copy. Neutral is unchanged: ordinary utility case/catalog media, system sans, monochrome, generic copy.
+
+## Verification
+
+The complete unchanged suite was rerun:
+
+| Command from repository root | Pass | Fail |
+|---|---:|---:|
+| `PYTHONDONTWRITEBYTECODE=1 python3 prototypes/living-canvas/monument/tests/static.py` | 817 | 0 |
+| `PYTHONDONTWRITEBYTECODE=1 python3 prototypes/living-canvas/monument/tests/browser_evidence.py` | 12,036 | 0 |
+| `PYTHONDONTWRITEBYTECODE=1 python3 prototypes/living-canvas/monument/tests/server_responses.py` | 145 | 0 |
+| Total | 12,998 | 0 |
+
+All 41 fixtures at 320/375/390/430/768/1024/1280/1440 were freshly audited: 328 views, zero horizontal overflow, duplicate IDs or media/text collisions. All existing 31 full-page frames and the keyboard focus frame were regenerated. The native fixture-selection/product-link/return/focus/skip-link journey was repeated. Source/media fingerprints were updated after capture; test implementations and assertions remain unchanged.
+
+## Complexity delta
+
+CSS: **69→70 physical/nonblank lines (+1/+1)**; **5,595→5,863 bytes (+268)**. JS stays **0 physical/nonblank lines / 0 bytes**. Component paths stay **1**; responsive breakpoints stay **2**; merchant semantic groups stay **6**; component absolute positioning stays **0**. The renderer, server and test code are byte-identical to the parent. The only absolute positioning remains the existing page-anchored skip link. `--seam` is a private CSS grid constant, not a fixture field or merchant control. No new dependency or asset.
+
+## Four controlling frames
+
+All paths are under the repository's `prototypes/living-canvas/monument/`:
+
+- `tests/evidence/branded-1440.jpg`
+- `tests/evidence/neutral-1440.jpg`
+- `tests/evidence/branded-390.jpg`
+- `tests/evidence/neutral-390.jpg`
+
+Exact changed-file list: `tests/evidence/changed-files.json`. Counts/delta: `tests/evidence/checks.json`. Audit provenance: `tests/evidence/capture.json`. The preserved earlier report below records the first pass and is historical, not the current visual verdict or geometry description. All its manual/production limitations remain open.
+
+Stop for human review. **Visual verdict: PENDING HUMAN REVIEW.** No visual PASS is declared.
+
+---
+
+## Historical first-pass completion report (superseded geometry; human verdict NARROW)
+
 # M1 Monument — isolated implementation findings / Section 14 completion report
 
 **Engineering verdict: PASS for the authorized isolated static prototype only.**

@@ -1,5 +1,5 @@
 {
-  "captured_utc": "2026-10-04T19:09:06.274523+00:00",
+  "captured_utc": "2026-10-04T19:33:20.112843+00:00",
   "browser": "Codex in-app browser (IAB), desktop engine",
   "method": "Native navigation and full-page JPEG screenshots; read-only DOM geometry via cua_repl. No browser test code is shipped.",
   "widths": [
@@ -16,11 +16,11 @@
   "view_count": 328,
   "viewport_height": 1000,
   "source_sha256": {
-    "monument.css": "033014fcf5d6f1adb559db89b49b4553fd840d58bc247d9523e33cbee5de8cd3",
+    "monument.css": "b12f95e7bf05e535c48cc200eb7543bea7957f5e0767326df5074fef07fb6999",
     "render.py": "2af5a354ae1be7d56f9f156dc8f53709b2b5e2870c8395c7b0802342282fcfb5",
     "serve.py": "2c396836571c922438b12275d9f87a8a8195e8179075cbf323b58efa8fa5a4a7",
-    "fixtures.json": "96b5bd007443986ced390cc10aea7f067e33cd0c23ab9d16ec9f922a2b868e27",
-    "index.html": "43cb8c15b7039f1c8470eb33dcb042dd0e78769ba12b301e7d23cbcd8100f84b",
+    "fixtures.json": "420f3eb68619a63a4eba3691f527d5f95e6ae6c465a5220f095204b364710a35",
+    "index.html": "de4613bd659f03f97649a8cfc2db19a4cbd5e049d0ef176cb2b6ba9726e9017f",
     "media/bag-transparent.svg": "596b1b6ab190b263d32e27614fa58e24a71da05e0a13d555faf323408041f9bc",
     "media/canvas-bag.jpg": "99bbf6c3dc286fcca55d387e33f29d18dccf16229df18aeee9c24f249d0bce72",
     "media/care-bottle.svg": "30f73e5e448a4be2e02913a2ab9bb26c77849654947610c41a278da8100220b1",
@@ -37,5 +37,5 @@
     "media/pantry-jar.svg": "527030fa33fe6f3f3ed24e095295f0d2db70a79dead3dcd79e387d5b307a913a",
     "media/utility-case.jpg": "27799afc0c570c8a79c2a0c47c2a67c93b17f7dd34c124e3f82b918bd009d8bc"
   },
-  "note": "Sources unchanged after final capture. Neutral token/font and white rectangular media changes were re-audited for all affected fixtures at all eight widths; other views remain valid. Offscreen lazy images need not be loaded during geometry measurements; full-page screenshots validate their appearance."
+  "note": "Visual recomposition pass: all 41 fixtures at all eight widths freshly audited; all 31 full-page evidence frames and keyboard journey recaptured using the unchanged harness. Source unchanged after capture."
 }
