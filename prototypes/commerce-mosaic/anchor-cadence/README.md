@@ -1,6 +1,8 @@
 # M1 Commerce Mosaic / Anchor Cadence
 
-Engineering verdict: PASS for isolated prototype checks. Visual verdict: PENDING HUMAN REVIEW.
+Engineering verdict: PASS for isolated prototype checks. Final M1 human visual verdict: **PASS TO PRESERVE**.
+
+Human review accepts the signature merchandising rhythm: it remains distinctive under the neutral originality torture test, preserves product scanning and commerce hierarchy, and adapts successfully to mobile. Preserve this accepted direction; no further M1 visual iteration is authorized. Visual polish, production Shopify integration, real filtering/app integration, accessibility certification, cross-browser testing and performance certification remain production-stage gates.
 
 Controlling documents are `docs/m1-commerce-mosaic-prebuild-contract.md` (blob `9df10a77e00908b8dfdf52c0cae0bb4542602e39`) and `docs/m1-commerce-mosaic-implementation-brief.md` (blob `41493e5a3e671e865b92aa2a1a17220df46b13a9`) from `m0-live-market-evidence-2026-10-03`. No conflict was found. This is fixture-driven M1 evidence, not a production Shopify section.
 
