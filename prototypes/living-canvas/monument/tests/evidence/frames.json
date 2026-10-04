@@ -1,0 +1,219 @@
+[
+  {
+    "fixture": "default",
+    "width": 1440,
+    "height": 1000,
+    "file": "branded-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral",
+    "width": 1440,
+    "height": 1000,
+    "file": "neutral-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "default",
+    "width": 390,
+    "height": 1000,
+    "file": "branded-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral",
+    "width": 390,
+    "height": 1000,
+    "file": "neutral-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "white-rect",
+    "width": 1440,
+    "height": 1000,
+    "file": "rectangular-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "white-rect",
+    "width": 390,
+    "height": 1000,
+    "file": "rectangular-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "long",
+    "width": 1440,
+    "height": 1000,
+    "file": "localized-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "long",
+    "width": 390,
+    "height": 1000,
+    "file": "localized-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "missing-media",
+    "width": 1440,
+    "height": 1000,
+    "file": "missing-media-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "missing-product",
+    "width": 1440,
+    "height": 1000,
+    "file": "missing-product-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "sold-out",
+    "width": 1440,
+    "height": 1000,
+    "file": "sold-out-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "adjacent",
+    "width": 1440,
+    "height": 1000,
+    "file": "adjacent-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "adjacent",
+    "width": 390,
+    "height": 1000,
+    "file": "adjacent-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "long",
+    "width": 320,
+    "height": 1000,
+    "file": "localized-320.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "landscape",
+    "width": 768,
+    "height": 1000,
+    "file": "landscape-768.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "transparent",
+    "width": 1440,
+    "height": 1000,
+    "file": "transparent-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "dark-rect",
+    "width": 390,
+    "height": 1000,
+    "file": "dark-rect-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "portrait",
+    "width": 768,
+    "height": 1000,
+    "file": "portrait-768.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "focal-left",
+    "width": 390,
+    "height": 1000,
+    "file": "focal-left-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "focal-right",
+    "width": 390,
+    "height": 1000,
+    "file": "focal-right-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "focal-top",
+    "width": 390,
+    "height": 1000,
+    "file": "focal-top-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "focal-bottom",
+    "width": 390,
+    "height": 1000,
+    "file": "focal-bottom-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "wide",
+    "width": 1024,
+    "height": 1000,
+    "file": "wide-1024.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "long-money",
+    "width": 320,
+    "height": 1000,
+    "file": "long-money-320.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "long-title",
+    "width": 375,
+    "height": 1000,
+    "file": "long-title-375.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "long-cta",
+    "width": 320,
+    "height": 1000,
+    "file": "long-cta-320.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "below-fold",
+    "width": 390,
+    "height": 1000,
+    "file": "below-fold-390.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "beauty",
+    "width": 1440,
+    "height": 1000,
+    "file": "beauty-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "jewelry",
+    "width": 1440,
+    "height": 1000,
+    "file": "jewelry-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "food",
+    "width": 1440,
+    "height": 1000,
+    "file": "food-1440.jpg",
+    "fullPage": true
+  },
+  {
+    "fixture": "two-line",
+    "width": 1440,
+    "height": 1000,
+    "file": "two-line-1440.jpg",
+    "fullPage": true
+  }
+]

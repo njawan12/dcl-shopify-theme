@@ -1,0 +1,29 @@
+{
+  "fixtureURL": "http://localhost:3001/?fixture=multi-option",
+  "visible": true,
+  "focus": {
+    "className": "product-link",
+    "outline": "solid",
+    "outlineWidth": "3px",
+    "tag": "A",
+    "text": "View product ↗"
+  },
+  "productURL": "http://localhost:3001/products/canvas-bag",
+  "destination": [],
+  "destinationTruth": true,
+  "returnURL": "http://localhost:3001/",
+  "selectFocus": {
+    "outline": "solid",
+    "outlineWidth": "3px",
+    "tag": "SELECT"
+  },
+  "buttonFocus": {
+    "outline": "solid",
+    "outlineWidth": "3px",
+    "tag": "BUTTON"
+  },
+  "skipFocus": {
+    "id": "monument-content",
+    "tag": "MAIN"
+  }
+}

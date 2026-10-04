@@ -1,0 +1,75 @@
+{
+  "commands": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 prototypes/living-canvas/monument/tests/static.py",
+      "pass": 817,
+      "fail": 0
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 prototypes/living-canvas/monument/tests/browser_evidence.py",
+      "pass": 12036,
+      "fail": 0
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 prototypes/living-canvas/monument/tests/server_responses.py",
+      "pass": 145,
+      "fail": 0
+    }
+  ],
+  "total_pass": 12998,
+  "total_fail": 0,
+  "fixture_count": 41,
+  "width_count": 8,
+  "view_count": 328,
+  "full_page_frames": 31,
+  "keyboard_focus_frame": 1,
+  "complexity": {
+    "source": {
+      "monument.css": {
+        "physical_lines": 69,
+        "nonblank_lines": 69,
+        "bytes": 5595
+      },
+      "render.py": {
+        "physical_lines": 118,
+        "nonblank_lines": 103,
+        "bytes": 6588
+      },
+      "serve.py": {
+        "physical_lines": 51,
+        "nonblank_lines": 45,
+        "bytes": 2700
+      },
+      "tests/static.py": {
+        "physical_lines": 134,
+        "nonblank_lines": 120,
+        "bytes": 9101
+      },
+      "tests/browser_evidence.py": {
+        "physical_lines": 103,
+        "nonblank_lines": 92,
+        "bytes": 6600
+      },
+      "tests/server_responses.py": {
+        "physical_lines": 42,
+        "nonblank_lines": 35,
+        "bytes": 2006
+      }
+    },
+    "javascript_physical_lines": 0,
+    "javascript_nonblank_lines": 0,
+    "component_paths": 1,
+    "responsive_breakpoints": [
+      768,
+      1280
+    ],
+    "merchant_semantic_input_groups": 6,
+    "component_absolute_positioning": 0,
+    "absolute_positioning_exception": "Skip link only: page-origin anchored, hidden above viewport until focused, restored at 12px. It does not participate in Monument geometry.",
+    "runtime_dependencies": "Python standard library only; no browser JavaScript or third-party CSS/fonts",
+    "media_bytes": 738210
+  },
+  "engineering_verdict": "PASS \u2014 isolated static proof scope only",
+  "visual_verdict": "PENDING HUMAN REVIEW",
+  "earlier_diagnostics": "Shared mobile alignment defect found and corrected; all four mobile widths re-audited. Neutral system-font and rectangular aspect changes re-audited at all eight widths. An initial HTTP test filename shadowed Python http; renamed before final successful run. No unresolved failure."
+}

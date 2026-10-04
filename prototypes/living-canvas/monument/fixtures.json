@@ -1,0 +1,1221 @@
+{
+  "products": {
+    "bag": {
+      "id": "canvas-bag",
+      "title": "Everyday canvas bag",
+      "url": "/products/canvas-bag",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "canvas-bag-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/canvas-bag.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Natural cotton canvas drawcord bag with loop handle, shown in full."
+        }
+      ]
+    },
+    "case": {
+      "id": "utility-case",
+      "title": "Utility case",
+      "url": "/products/utility-case",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "utility-case-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/utility-case.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Gray woven utility case with zipper on a white catalog background."
+        }
+      ]
+    },
+    "white": {
+      "id": "utility-case",
+      "title": "Utility case",
+      "url": "/products/utility-case",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "utility-case-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/case-white.svg",
+          "width": 900,
+          "height": 600,
+          "alt": "Gray woven utility case, shown in full."
+        }
+      ]
+    },
+    "dark": {
+      "id": "utility-case",
+      "title": "Utility case",
+      "url": "/products/utility-case",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "utility-case-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/case-dark.svg",
+          "width": 900,
+          "height": 600,
+          "alt": "Gray woven utility case, shown in full."
+        }
+      ]
+    },
+    "portrait": {
+      "id": "utility-case",
+      "title": "Utility case",
+      "url": "/products/utility-case",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "utility-case-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/case-portrait.svg",
+          "width": 500,
+          "height": 625,
+          "alt": "Gray woven utility case, shown in full."
+        }
+      ]
+    },
+    "square": {
+      "id": "utility-case",
+      "title": "Utility case",
+      "url": "/products/utility-case",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "utility-case-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/case-white.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Gray woven utility case, shown in full."
+        }
+      ]
+    },
+    "landscape": {
+      "id": "utility-case",
+      "title": "Utility case",
+      "url": "/products/utility-case",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "utility-case-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/case-landscape.svg",
+          "width": 900,
+          "height": 600,
+          "alt": "Gray woven utility case, shown in full."
+        }
+      ]
+    },
+    "wide": {
+      "id": "utility-case",
+      "title": "Utility case",
+      "url": "/products/utility-case",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "utility-case-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/case-wide.svg",
+          "width": 1000,
+          "height": 400,
+          "alt": "Gray woven utility case, shown in full."
+        }
+      ]
+    },
+    "transparent": {
+      "id": "canvas-bag",
+      "title": "Everyday canvas bag",
+      "url": "/products/canvas-bag",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "canvas-bag-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/bag-transparent.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Natural canvas drawcord bag, shown in full."
+        }
+      ]
+    },
+    "edge-left": {
+      "id": "utility-case",
+      "title": "Utility case",
+      "url": "/products/utility-case",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "utility-case-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/case-edge-left.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Gray woven utility case, shown in full."
+        }
+      ]
+    },
+    "edge-right": {
+      "id": "utility-case",
+      "title": "Utility case",
+      "url": "/products/utility-case",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "utility-case-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/case-edge-right.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Gray woven utility case, shown in full."
+        }
+      ]
+    },
+    "edge-top": {
+      "id": "utility-case",
+      "title": "Utility case",
+      "url": "/products/utility-case",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "utility-case-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/case-edge-top.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Gray woven utility case, shown in full."
+        }
+      ]
+    },
+    "edge-bottom": {
+      "id": "utility-case",
+      "title": "Utility case",
+      "url": "/products/utility-case",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "utility-case-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/case-edge-bottom.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Gray woven utility case, shown in full."
+        }
+      ]
+    },
+    "no-media": {
+      "id": "canvas-bag",
+      "title": "Everyday canvas bag",
+      "url": "/products/canvas-bag",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "canvas-bag-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": []
+    },
+    "deleted": {
+      "id": "canvas-bag",
+      "title": "Everyday canvas bag",
+      "url": "/products/canvas-bag",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "canvas-bag-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/canvas-bag.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Natural cotton canvas drawcord bag with loop handle, shown in full."
+        }
+      ],
+      "published": false
+    },
+    "unpublished": {
+      "id": "canvas-bag",
+      "title": "Everyday canvas bag",
+      "url": "/products/canvas-bag",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "canvas-bag-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/canvas-bag.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Natural cotton canvas drawcord bag with loop handle, shown in full."
+        }
+      ],
+      "published": false
+    },
+    "sold-out": {
+      "id": "canvas-bag",
+      "title": "Everyday canvas bag",
+      "url": "/products/canvas-bag",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "canvas-bag-1",
+          "price": 4800,
+          "available": false
+        }
+      ],
+      "images": [
+        {
+          "src": "media/canvas-bag.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Natural cotton canvas drawcord bag with loop handle, shown in full."
+        }
+      ]
+    },
+    "sale": {
+      "id": "canvas-bag",
+      "title": "Everyday canvas bag",
+      "url": "/products/canvas-bag",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "canvas-bag-1",
+          "price": 3900,
+          "compare_at": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/canvas-bag.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Natural cotton canvas drawcord bag with loop handle, shown in full."
+        }
+      ]
+    },
+    "unit": {
+      "id": "canvas-bag",
+      "title": "Everyday canvas bag",
+      "url": "/products/canvas-bag",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "canvas-bag-1",
+          "price": 4800,
+          "unit_price": {
+            "amount": 2400,
+            "reference": "1 metre of woven material"
+          },
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/canvas-bag.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Natural cotton canvas drawcord bag with loop handle, shown in full."
+        }
+      ]
+    },
+    "multi": {
+      "id": "canvas-bag",
+      "title": "Everyday canvas bag",
+      "url": "/products/canvas-bag",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "Small",
+            "Large"
+          ]
+        },
+        {
+          "name": "Fabric",
+          "values": [
+            "Light",
+            "Heavy"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "bag-small-light",
+          "price": 4800,
+          "available": true
+        },
+        {
+          "id": "bag-large-heavy",
+          "price": 6200,
+          "available": false
+        }
+      ],
+      "images": [
+        {
+          "src": "media/canvas-bag.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Natural cotton canvas drawcord bag with loop handle, shown in full."
+        }
+      ]
+    },
+    "represented": {
+      "id": "canvas-bag",
+      "title": "Everyday canvas bag",
+      "url": "/products/canvas-bag",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "Small",
+            "Large"
+          ]
+        },
+        {
+          "name": "Fabric",
+          "values": [
+            "Light",
+            "Heavy"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "bag-small-light",
+          "price": 4800,
+          "available": true
+        },
+        {
+          "id": "bag-large-heavy",
+          "price": 6200,
+          "available": false
+        }
+      ],
+      "images": [
+        {
+          "src": "media/canvas-bag.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Natural cotton canvas drawcord bag with loop handle, shown in full."
+        }
+      ],
+      "represented_variant": "bag-large-heavy"
+    },
+    "subscription": {
+      "id": "canvas-bag",
+      "title": "Everyday canvas bag",
+      "url": "/products/canvas-bag",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "canvas-bag-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/canvas-bag.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Natural cotton canvas drawcord bag with loop handle, shown in full."
+        }
+      ],
+      "purchase_context": "Purchase terms are available on the product page."
+    },
+    "app-owned": {
+      "id": "canvas-bag",
+      "title": "Everyday canvas bag",
+      "url": "/products/canvas-bag",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "canvas-bag-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/canvas-bag.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Natural cotton canvas drawcord bag with loop handle, shown in full."
+        }
+      ],
+      "purchase_context": "Full purchase choices are available on the product page."
+    },
+    "gift-card": {
+      "id": "utility-case",
+      "title": "Gift card",
+      "url": "/products/utility-case",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "utility-case-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/utility-case.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Gray woven utility case with zipper on a white catalog background."
+        }
+      ],
+      "purchase_context": "Recipient details belong on the product page."
+    },
+    "long-title": {
+      "id": "canvas-bag",
+      "title": "A generously sized everyday cotton canvas carrying bag for the useful objects you keep close, from early mornings to unhurried evenings",
+      "url": "/products/canvas-bag",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "canvas-bag-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/canvas-bag.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Natural cotton canvas drawcord bag with loop handle, shown in full."
+        }
+      ]
+    },
+    "many-images": {
+      "id": "canvas-bag",
+      "title": "Everyday canvas bag",
+      "url": "/products/canvas-bag",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "canvas-bag-1",
+          "price": 4800,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/canvas-bag.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Natural cotton canvas drawcord bag with loop handle, shown in full."
+        },
+        {
+          "src": "media/case-white.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Gray woven utility case, shown in full."
+        },
+        {
+          "src": "media/case-portrait.svg",
+          "width": 500,
+          "height": 625,
+          "alt": "Gray woven utility case, shown in full."
+        }
+      ]
+    },
+    "long-money": {
+      "id": "utility-case",
+      "title": "Utility case",
+      "url": "/products/utility-case",
+      "money": {
+        "currency": "KWD",
+        "digits": 3,
+        "locale": "de"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "utility-case-1",
+          "price": 123456789,
+          "unit_price": {
+            "amount": 987654321,
+            "reference": "1000 Einheiten des ausgewählten wiederverwendbaren Materials"
+          },
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/utility-case.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Gray woven utility case with zipper on a white catalog background."
+        }
+      ]
+    },
+    "beauty": {
+      "id": "daily-care",
+      "title": "Daily care bottle",
+      "url": "/products/daily-care",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "daily-care-1",
+          "price": 2400,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/care-bottle.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Plain daily care bottle on a white background."
+        }
+      ]
+    },
+    "jewelry": {
+      "id": "metal-ring",
+      "title": "Polished metal ring",
+      "url": "/products/metal-ring",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "metal-ring-1",
+          "price": 6500,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/metal-ring.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Polished metal ring on a white background."
+        }
+      ]
+    },
+    "food": {
+      "id": "pantry-jar",
+      "title": "Pantry spread",
+      "url": "/products/pantry-jar",
+      "money": {
+        "currency": "CAD",
+        "digits": 2,
+        "locale": "en"
+      },
+      "options": [],
+      "variants": [
+        {
+          "id": "pantry-jar-1",
+          "price": 1400,
+          "available": true
+        }
+      ],
+      "images": [
+        {
+          "src": "media/pantry-jar.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Single pantry jar on a white background."
+        }
+      ]
+    }
+  },
+  "fixtures": [
+    {
+      "product": "bag",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "default",
+      "label": "01 · Branded / default"
+    },
+    {
+      "product": "case",
+      "headline": "Objects for daily use.",
+      "eyebrow": "An everyday object",
+      "copy": "Explore one useful object.",
+      "preset": "neutral",
+      "id": "neutral",
+      "label": "02 · Neutral originality torture"
+    },
+    {
+      "product": "bag",
+      "headline": "Carry.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "short",
+      "label": "03 · Very short headline"
+    },
+    {
+      "product": "bag",
+      "headline": "Die Dinge, die Sie jeden Tag begleiten, verdienen einen bewusst gewählten Platz in Ihrem eigenen Rhythmus.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things. On your terms.",
+      "preset": "branded",
+      "id": "long",
+      "label": "04 · Long / localized +50% copy"
+    },
+    {
+      "product": "bag",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "single",
+      "label": "05 · Single available product"
+    },
+    {
+      "product": "multi",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "multi-option",
+      "label": "06 · Unresolved multi-option product"
+    },
+    {
+      "product": "sold-out",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "sold-out",
+      "label": "07 · Sold out"
+    },
+    {
+      "product": "sale",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "sale",
+      "label": "08 · Valid compare-at"
+    },
+    {
+      "product": "unit",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "unit-price",
+      "label": "09 · Unit-price context"
+    },
+    {
+      "product": null,
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "missing-product",
+      "label": "10 · Missing product"
+    },
+    {
+      "product": "no-media",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "missing-media",
+      "label": "11 · Missing product media"
+    },
+    {
+      "product": "transparent",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "transparent",
+      "label": "12 · Transparent packshot"
+    },
+    {
+      "product": "white",
+      "headline": "Objects for daily use.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "neutral",
+      "id": "white-rect",
+      "label": "13 · Ordinary white rectangular media"
+    },
+    {
+      "product": "dark",
+      "headline": "Objects for daily use.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "neutral",
+      "id": "dark-rect",
+      "label": "14 · Dark rectangular media"
+    },
+    {
+      "product": "portrait",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "portrait",
+      "label": "15 · Portrait 4:5 media"
+    },
+    {
+      "product": "square",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "square",
+      "label": "16 · Square 1:1 media"
+    },
+    {
+      "product": "landscape",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "landscape",
+      "label": "17 · Landscape 3:2 media"
+    },
+    {
+      "product": "edge-left",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "focal-left",
+      "label": "18 · Focal subject near left edge"
+    },
+    {
+      "product": "edge-right",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "focal-right",
+      "label": "19 · Focal subject near right edge"
+    },
+    {
+      "product": "edge-top",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "focal-top",
+      "label": "20 · Focal subject near top edge"
+    },
+    {
+      "product": "edge-bottom",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "focal-bottom",
+      "label": "21 · Focal subject near bottom edge"
+    },
+    {
+      "product": "long-title",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "long-title",
+      "label": "22 · Long product title"
+    },
+    {
+      "product": "bag",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "long-cta",
+      "label": "23 · Long editorial and product CTA",
+      "editorial_link": {
+        "url": "/pages/materials",
+        "label": "Discover the materials and the everyday uses that make this object useful"
+      }
+    },
+    {
+      "product": "bag",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "adjacent",
+      "label": "24 · Two adjacent instances",
+      "instances": 2
+    },
+    {
+      "product": "deleted",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "deleted",
+      "label": "25 · Deleted reference"
+    },
+    {
+      "product": "unpublished",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "unpublished",
+      "label": "26 · Unpublished reference"
+    },
+    {
+      "product": "represented",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "represented",
+      "label": "27 · Explicit represented sold-out variant"
+    },
+    {
+      "product": "subscription",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "selling-plan",
+      "label": "28 · Selling-plan product-link fallback"
+    },
+    {
+      "product": "app-owned",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "app-owned",
+      "label": "29 · App-owned product-link fallback"
+    },
+    {
+      "product": "gift-card",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "gift-card",
+      "label": "30 · Unusual product-link fallback"
+    },
+    {
+      "product": "many-images",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "multiple-images",
+      "label": "31 · Multiple images / one dominant object"
+    },
+    {
+      "product": "bag",
+      "headline": "",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "no-headline",
+      "label": "32 · Headline omitted / semantic fallback"
+    },
+    {
+      "product": "bag",
+      "headline": "Carry what matters.",
+      "eyebrow": "",
+      "copy": "",
+      "preset": "branded",
+      "id": "no-optionals",
+      "label": "33 · All optional content omitted"
+    },
+    {
+      "product": "case",
+      "headline": "A useful object.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "neutral",
+      "id": "catalog",
+      "label": "34 · Ordinary low-art-direction catalog photo"
+    },
+    {
+      "product": "long-money",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "long-money",
+      "label": "35 · Long money and localized unit price"
+    },
+    {
+      "product": "bag",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "below-fold",
+      "label": "36 · Below-fold section context",
+      "below_fold": true
+    },
+    {
+      "product": "beauty",
+      "headline": "A quieter daily ritual.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "One simple place to begin.",
+      "preset": "beauty",
+      "id": "beauty",
+      "label": "37 · Beauty / Wellness content"
+    },
+    {
+      "product": "jewelry",
+      "headline": "Keep something close.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "An object for everyday wear.",
+      "preset": "jewelry",
+      "id": "jewelry",
+      "label": "38 · Jewelry / Accessories content"
+    },
+    {
+      "product": "food",
+      "headline": "Good things, simply.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "One useful addition to the pantry.",
+      "preset": "food",
+      "id": "food",
+      "label": "39 · Food / Drink content"
+    },
+    {
+      "product": "wide",
+      "headline": "Carry what matters.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "wide",
+      "label": "40 · Wide landscape catalog media"
+    },
+    {
+      "product": "bag",
+      "headline": "Carry what matters, every day.",
+      "eyebrow": "One object. Your everyday.",
+      "copy": "Room for your everyday things.",
+      "preset": "branded",
+      "id": "two-line",
+      "label": "41 · Intended two-line headline"
+    }
+  ]
+}
