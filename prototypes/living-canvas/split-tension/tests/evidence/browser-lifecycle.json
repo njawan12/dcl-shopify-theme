@@ -1,0 +1,37 @@
+{
+  "initRow": {
+    "firstControls": 0,
+    "firstLinks": 2,
+    "firstTitles": [
+      "Daily cleansing milk",
+      "Everyday barrier cream"
+    ],
+    "secondEnhanced": "true"
+  },
+  "baselineRow": {
+    "commerceControls": 0,
+    "heading": "Less, with\nintention.",
+    "links": 2
+  },
+  "keyboardRow": {
+    "checked": true,
+    "focused": "View product: Daily cleansing milk",
+    "total": "CAD 24.00"
+  },
+  "successRow": {
+    "focus": "add",
+    "message": "Simulated confirmation: 1 selected item added. No real cart was changed."
+  },
+  "destinationRow": {
+    "url": "http://localhost:3000/products/daily-cleanser",
+    "title": "Daily cleansing milk"
+  },
+  "historyRow": {
+    "checked": 0,
+    "total": "CAD 0.00"
+  },
+  "unknownRow": {
+    "fixture": "simple",
+    "total": "CAD 0.00"
+  }
+}

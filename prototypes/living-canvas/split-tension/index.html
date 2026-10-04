@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Split Tension · M1 validation</title>
+  <link rel="stylesheet" href="split-tension.css">
+  <script type="module" src="split-tension.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#instances">Skip to the guided collection</a>
+  <header class="harness" aria-label="Prototype test controls">
+    <div><strong>M1 / Split Tension</strong><p>Validation harness · fixture commerce · no real cart</p></div>
+    <div id="fixture-control" hidden><label for="fixture">Test fixture</label><select id="fixture" disabled></select></div>
+    <p id="fixture-label">01 · 2-step simple</p>
+    <p id="diagnostics">Simulated fixture data. No Shopify requests. Quantity is always 1.</p>
+    <noscript><p>JavaScript is disabled. Discover each product through its link; no selection or aggregate purchase is offered.</p></noscript>
+  </header>
+  <main id="instances" tabindex="-1">
+    <section class="split-tension" id="split-1" aria-labelledby="split-1-heading">
+      <header class="editorial">
+        <p class="eyebrow">A considered daily ritual</p>
+        <h1 id="split-1-heading">Less, with<br>intention.</h1>
+        <p class="proposition">Start with the essentials. Discover each step, then choose only the products you want to make your own.</p>
+        <p class="editorial-note">Individual products. Your own rhythm.</p>
+      </header>
+      <ol class="steps">
+        <li class="step" data-step="0">
+          <div class="step-lead"><span class="step-number">01</span><h2 class="step-label">Begin gently</h2></div>
+          <p class="step-copy">A simple first step. Choose what belongs in your day.</p>
+          <div class="product">
+            <div class="product-media"><img src="media/bottle.svg" width="300" height="300" alt=""></div>
+            <div class="product-info">
+              <h3 class="product-title">Daily cleansing milk</h3>
+              <p class="price">CAD 24.00</p>
+              <p class="availability">Available on the product page.</p>
+              <a class="product-link" href="/products/daily-cleanser" aria-label="View product: Daily cleansing milk">View product</a>
+            </div>
+          </div>
+        </li>
+        <li class="step" data-step="1">
+          <div class="step-lead"><span class="step-number">02</span><h2 class="step-label">Build comfort</h2></div>
+          <p class="step-copy">Finish with a texture that feels right for you.</p>
+          <div class="product">
+            <div class="product-media"><img src="media/jar.svg" width="300" height="300" alt="" loading="lazy"></div>
+            <div class="product-info">
+              <h3 class="product-title">Everyday barrier cream</h3>
+              <p class="price">CAD 38.00</p>
+              <p class="availability">Available on the product page.</p>
+              <a class="product-link" href="/products/barrier-cream" aria-label="View product: Everyday barrier cream">View product</a>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </section>
+  </main>
+  <footer class="harness-footer">Isolated M1 experiment. Visual/product decision pending human review.</footer>
+</body>
+</html>

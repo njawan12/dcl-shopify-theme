@@ -1,0 +1,61 @@
+{
+  "resolvedRow": {
+    "checked": true,
+    "compare": "Previously CAD 34.00",
+    "price": "CAD 29.00",
+    "total": "CAD 29.00",
+    "unit": "CAD 96.67 / 100 ml"
+  },
+  "priceRow": {
+    "checked": true,
+    "compareHidden": true,
+    "total": "CAD 47.00",
+    "unit": "CAD 78.33 / 100 ml"
+  },
+  "invalidRow": {
+    "checked": false,
+    "disabled": true,
+    "price": "Choose options for price",
+    "state": "This combination is unavailable. Choose different options.",
+    "total": "CAD 0.00"
+  },
+  "isolatedRow": {
+    "firstDisabled": true,
+    "firstStatus": "Adding selected items — simulation in progress.",
+    "secondDisabled": false,
+    "secondStatus": "",
+    "secondTotal": "CAD 24.00"
+  },
+  "switchRow": {
+    "checked": 0,
+    "status": "",
+    "total": "CAD 0.00"
+  },
+  "failureRow": {
+    "checked": true,
+    "focus": "add",
+    "message": "The simulated request failed. Your available selections are retained. Try again or view each product.",
+    "retryDisabled": false
+  },
+  "ambiguousRow": {
+    "addDisabled": true,
+    "message": "The simulated cart result could not be fully confirmed. Review the result before retrying; some items may have been added.",
+    "retryDisabled": true
+  },
+  "reviewedRow": {
+    "retryDisabled": false,
+    "reviewVisible": true
+  },
+  "inventoryRow": {
+    "firstChecked": false,
+    "message": "Simulated inventory failure (422). Daily cleansing milk is now sold out. Review available products and try again.",
+    "secondChecked": true,
+    "state": "Sold out.",
+    "summaryHidden": true,
+    "total": "CAD 38.00"
+  },
+  "finalPending": {
+    "disabled": true,
+    "status": "Adding selected items — simulation in progress."
+  }
+}

@@ -1,0 +1,1346 @@
+[
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "simple",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "maximum",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "multi-option",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "variant-sold-out",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "fully-sold-out",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "missing",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "mixed",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "selling-plan",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "price-mutation",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "localized",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "neutral",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "no-js",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "failure",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "ambiguous",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "inclusion",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "quantity-rule",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "duplicate",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "two-instances",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "init-failure",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "inventory-race",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "ineligible",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "one-surviving",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "money",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "properties",
+    "scrollWidth": 320,
+    "smallTargets": [],
+    "width": 320
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "simple",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "maximum",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "multi-option",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "variant-sold-out",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "fully-sold-out",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "missing",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "mixed",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "selling-plan",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "price-mutation",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "localized",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "neutral",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "no-js",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "failure",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "ambiguous",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "inclusion",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "quantity-rule",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "duplicate",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "two-instances",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "init-failure",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "inventory-race",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "ineligible",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "one-surviving",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "money",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "properties",
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "width": 375
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "simple",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "maximum",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "multi-option",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "variant-sold-out",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "fully-sold-out",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "missing",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "mixed",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "selling-plan",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "price-mutation",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "localized",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "neutral",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "no-js",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "failure",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "ambiguous",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "inclusion",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "quantity-rule",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "duplicate",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "two-instances",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "init-failure",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "inventory-race",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "ineligible",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "one-surviving",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "money",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "properties",
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "width": 430
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "simple",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "maximum",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "multi-option",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "variant-sold-out",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "fully-sold-out",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "missing",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "mixed",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "selling-plan",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "price-mutation",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "localized",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "neutral",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "no-js",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "failure",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "ambiguous",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "inclusion",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "quantity-rule",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "duplicate",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "two-instances",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "init-failure",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "inventory-race",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "ineligible",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "one-surviving",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "money",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "properties",
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "width": 768
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "simple",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "maximum",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "multi-option",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "variant-sold-out",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "fully-sold-out",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "missing",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "mixed",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "selling-plan",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "price-mutation",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "localized",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "neutral",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "no-js",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "failure",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "ambiguous",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "inclusion",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "quantity-rule",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "duplicate",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "two-instances",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "init-failure",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "inventory-race",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "ineligible",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "one-surviving",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "money",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "properties",
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "width": 1024
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "simple",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "maximum",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "multi-option",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "variant-sold-out",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "fully-sold-out",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "missing",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "mixed",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "selling-plan",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "price-mutation",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "localized",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "neutral",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "no-js",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "failure",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "ambiguous",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "inclusion",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "quantity-rule",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "duplicate",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "two-instances",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "init-failure",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "inventory-race",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "ineligible",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "one-surviving",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "money",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "properties",
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "width": 1280
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "simple",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "maximum",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "multi-option",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "variant-sold-out",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "fully-sold-out",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "missing",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "mixed",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "selling-plan",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "price-mutation",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "localized",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "neutral",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "no-js",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "failure",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "ambiguous",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "inclusion",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "quantity-rule",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "duplicate",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "two-instances",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "init-failure",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "inventory-race",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "ineligible",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "one-surviving",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "money",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  },
+  {
+    "checked": 0,
+    "duplicateIds": [],
+    "fixture": "properties",
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "width": 1440
+  }
+]
