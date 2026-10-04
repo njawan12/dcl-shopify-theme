@@ -1,6 +1,8 @@
 # M1 Monument — One Line, One Object
 
-Isolated server-rendered visual proof. Engineering checks pass within this prototype's scope. **Visual verdict: PENDING HUMAN REVIEW.**
+Isolated server-rendered visual proof. **Final M1 human verdict: NARROW AND HOLD.**
+
+Engineering, structural originality, responsive behavior and neutral-torture survival are accepted. Signature-level visual differentiation is not strong enough for Monument to be treated as a primary hero system at this stage. Preserve the current prototype and evidence on hold; do not perform another visual iteration. This verdict does not authorize M2 or production implementation.
 
 Run from the repository root (Python standard library only):
 
@@ -30,4 +32,4 @@ Browser evidence was captured using native browser navigation, read-only DOM mea
 
 See `findings.md` for the Section 14 completion report, `tests/evidence/changed-files.json` for the exact manifest, and `tests/evidence/checks.json` for counts/complexity. The four controlling frames are `branded-1440.jpg`, `neutral-1440.jpg`, `branded-390.jpg`, and `neutral-390.jpg` in `tests/evidence/`.
 
-This is one M1 prototype. Production Shopify, full accessibility/performance certification, M2 and visual acceptance are outside its completed scope.
+This is one M1 prototype with completed human visual review and a final verdict of NARROW AND HOLD. Production Shopify, full accessibility/performance certification and M2 remain outside its completed scope.

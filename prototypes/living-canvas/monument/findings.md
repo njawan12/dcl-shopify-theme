@@ -1,10 +1,14 @@
-# M1 Monument — one visual recomposition after human NARROW
+# M1 Monument — final M1 verdict: NARROW AND HOLD
 
-**Engineering accepted; unchanged suite remains PASS. Visual verdict: PENDING HUMAN REVIEW.**
+**Final M1 human verdict: NARROW AND HOLD.**
+
+Human review is complete. Engineering, structural originality, responsive behavior and neutral-torture survival are accepted. Signature-level visual differentiation is not strong enough for Monument to be treated as a primary hero system at this stage. Preserve the current prototype and evidence on hold; do not perform another visual iteration. This verdict does not authorize M2 or production implementation.
+
+The record below describes the completed single recomposition pass. Its engineering evidence is accepted; the historical first-pass report remains an archive.
 
 Human review narrowed the first pass because the image met only the bottom horizontal line and the neutral composition read too close to oversized headline + rectangular image + commerce. This one pass changes only shared CSS composition and the explicitly requested branded fixture content, plus generated default HTML, evidence and reports.
 
-Parent local commit: `fff65bff8dde2746d02933f6e1713c23516c69c5`. The new immutable commit SHA is returned in the completion message. No push, PR, merge or M2.
+Reviewed recomposition commit: `a513cbe20dae716b07c3252ea1deefb2db384be8`, on parent `fff65bff8dde2746d02933f6e1713c23516c69c5`. The final verdict is recorded in a documentation-only child commit, authorized for publication to `m1-monument-prototype`. No PR, merge or M2.
 
 ## Recomposition
 
@@ -40,7 +44,7 @@ All paths are under the repository's `prototypes/living-canvas/monument/`:
 
 Exact changed-file list: `tests/evidence/changed-files.json`. Counts/delta: `tests/evidence/checks.json`. Audit provenance: `tests/evidence/capture.json`. The preserved earlier report below records the first pass and is historical, not the current visual verdict or geometry description. All its manual/production limitations remain open.
 
-Stop for human review. **Visual verdict: PENDING HUMAN REVIEW.** No visual PASS is declared.
+**Final M1 verdict: NARROW AND HOLD.** Human review is complete. Do not perform another visual iteration or promote Monument to a primary hero system at this stage.
 
 ---
 
