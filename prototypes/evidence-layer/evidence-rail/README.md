@@ -1,6 +1,19 @@
 # M1 Evidence Layer / Evidence Rail
 
-**Engineering verdict: NARROW** — executed isolated content, semantic, server and browser checks pass; live Shopify/app compatibility and accessibility certification remain untested. **Visual verdict: PENDING HUMAN REVIEW.**
+**Engineering verdict: NARROW** — executed isolated content, semantic, server and browser checks pass; live Shopify/app compatibility and accessibility certification remain untested. **Human M1 visual verdict: PASS TO PRESERVE.**
+
+Human review accepts:
+
+- the Evidence Rail as a recognizable proof language;
+- survival of the neutral/originality torture test;
+- successful desktop-to-mobile structural adaptation;
+- successful use across PDP and editorial contexts;
+- comparison as acceptable differentiated evidence hierarchy;
+- no further M1 visual iteration required.
+
+Desktop opening-space balance, typography refinement and comparison presentation are deferred to production art direction and are **not M1 blockers**. This does not authorize further M1 visual iteration or M2.
+
+The engineering verdict remains **NARROW**. All unresolved production/integration gates remain open, including live Shopify Theme Editor execution, real `@app` integration, merchant usability, accessibility/AT/zoom, localization/RTL, cross-browser/touch, production performance and full-theme integration. Human visual acceptance does not certify these gates.
 
 This is a separately authorized isolated experiment, not an edit to the preserved attached-proof Evidence Layer. Controlling documents: `docs/m1-evidence-layer-prebuild-red-team-contract.md` and `docs/m1-evidence-layer-implementation-brief.md`, committed before implementation. Local branch `m1-evidence-layer-evidence-rail`. No production or M2 authorization.
 
@@ -35,4 +48,4 @@ git diff --check
 
 Server suite requires port3004 running. Browser suite consumes captured observations, checks every38×8 pair and fingerprints; it never manufactures geometry. Recapture protocol is `tests/recapture.md`. Test-only capture probe and the in-app browser are not storefront dependencies. Browser evidence is304 views,43 full-page review JPEGs and4 supplements. Main controlling frames: branded-pdp/neutral-pdp/branded-editorial/neutral-editorial at1440 and390, all under tests/evidence. Full list frames.json. Known limits and exact counts/complexity are in findings.md.
 
-Human review must judge whether the neutral rail is recognizable signature IP rather than conventional product education with numbers. No automated visual PASS is awarded. Stop for review; no push, PR, merge or M2.
+Human review has accepted **PASS TO PRESERVE** for this Evidence Rail proof. No automated visual verdict is awarded. Preserve the implementation; no further M1 visual iteration, experiment, push, PR, merge or M2 is authorized.

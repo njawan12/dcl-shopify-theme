@@ -2,7 +2,22 @@
 
 **Engineering verdict: NARROW.** All executed isolated content/schema/preservation, server and browser assertions pass. The app seam is a genuine Shopify-compatible schema/dispatch specimen, but live Shopify execution, merchant operation and accessibility certification are NOT TESTED. No overall platform, accessibility, performance or M1 PASS is inferred.
 
-**Visual verdict: PENDING HUMAN REVIEW.** No human visual verdict is awarded or carried over from the separately preserved attached-proof experiment.
+**Human M1 visual verdict: PASS TO PRESERVE.** This verdict was supplied by human review of this Evidence Rail experiment; it is not inferred from automated checks or carried over from the separately preserved attached-proof experiment.
+
+Human review accepts:
+
+- the Evidence Rail as a recognizable proof language;
+- survival of the neutral/originality torture test;
+- successful desktop-to-mobile structural adaptation;
+- successful use across PDP and editorial contexts;
+- comparison as acceptable differentiated evidence hierarchy;
+- no further M1 visual iteration required.
+
+Desktop opening-space balance, typography refinement and comparison presentation are deferred to production art direction and are **not M1 blockers**. This does not authorize further M1 visual iteration or M2.
+
+The engineering verdict remains **NARROW**. All unresolved production/integration gates remain open, including live Shopify Theme Editor execution, real `@app` integration, merchant usability, accessibility/AT/zoom, localization/RTL, cross-browser/touch, production performance and full-theme integration. Human visual acceptance does not certify these gates.
+
+The implementation completion record below describes preserved commit `06c34717b56a53a40bc8fc71e9ec4b26f4218439`. This subsequent reconciliation changes README/findings only and is committed locally; its exact SHA is reported externally.
 
 ## 1. Branch, ancestry, scope and changed files
 
@@ -94,15 +109,15 @@ Complete approved budgets: Note2(density/existing system scheme), Pair3(mode/den
 |---|---|---|
 | Isolated scope/preservation |PASS hashes, refs and manifest|No other prototype/production writes|
 | Manual/source schema and truth |PASS completeness, escaping, binding/omission assertions|Genuine evidence, source credibility and claim truth not assessed|
-| Three primitives/semantic roles |PASS native structure and observed counts/order|Human distinctiveness pending|
-| Rail/neutral/cross-vertical |304 views and47 JPEGs captured|Visual verdict PENDING HUMAN REVIEW|
+| Three primitives/semantic roles |PASS native structure and observed counts/order|Human review accepts the Evidence Rail proof language; engineering/certification limits remain|
+| Rail/neutral/cross-vertical |304 views and47 JPEGs captured|Human visual verdict PASS TO PRESERVE|
 | Long/missing/dense/ratios/RTL |PASS measured geometry and content semantics|Full localization/RTL and manual zoom not certified|
 | App seam |PASS static@ app architecture and independent guest layout|NARROW/NOT TESTED live Shopify/editor/vendor integration|
 | No JS/motion/dependencies |PASS0 scripts/animations/runtime dependencies|Browser/OS setting toggles not performed|
 | Keyboard/focus/reflow |PASS observed native paths and150% test enlargement|NARROW for comprehensive accessibility/AT/touch certification|
 | Merchant/control budget |PASS schema/caps and absence of rescue controls|Real merchant-task/editor usability NOT TESTED|
 | Performance |PASS structural cost report only|Measured production performance NOT TESTED|
-| Stop |Local commit only, no visual verdict|No push/PR/merge/M2|
+| Stop |Local documentation-only verdict commit; implementation preserved|No push/PR/merge/new experiment/M2|
 
 ## 8. Red-team fixes, exceptions and evidence integrity
 
@@ -114,7 +129,7 @@ Capture tooling adaptation: shell Playwright could not launch installed Chromium
 
 ## 9. Every known untested category
 
-- Human premium/originality/signature identity, factual-versus-promotional visual clarity, scan quality and long/dense reading fatigue; no human PASS/NARROW/FAIL yet.
+- Human M1 visual review is complete: **PASS TO PRESERVE**, with the accepted scope recorded above. Broader production scan-quality and long/dense reading-fatigue usability studies remain untested; acceptance does not certify those studies.
 - Genuine merchant evidence/provenance, permissions/quote authenticity, actual certification issuer/scope, real measurements/methods and true related before-after media; no scientific or credibility validation service.
 - Live Shopify Liquid/schema/JSON-template rendering, installed generic@app execution, dynamic-source/metafield/metaobject compatibility, disconnected-source editor behaviour, section/block add/remove/reorder/duplicate/re-render, merchant tasks and developer-extension exercise on a real store.
 - Real app vendor payloads/network/failure/lifecycle, review service content and interoperability; independent plain/tall/wide guest tests are not installed-app proof. Malformed third-party widgets may need their own accessibility fixes.
@@ -125,4 +140,4 @@ Capture tooling adaptation: shell Playwright could not launch installed Chromium
 - Measured production LCP/CLS/INP/Lighthouse/CWV, low-end CPU/network/runtime memory/loading priority/CDN/srcset responsive pipeline and real app-owned payload attribution. Byte/gzip counts are complexity, not measured performance.
 - Production visual polish, Shopify Theme Store overall originality/submission requirements, full theme/core template integration, ADR foundation decisions, overall M1 closure and M2 entry. No next milestone is authorized.
 
-Stop after local commit for human review. **Visual verdict: PENDING HUMAN REVIEW.**
+Stop after the local documentation-only commit. **Human M1 visual verdict: PASS TO PRESERVE. Engineering verdict: NARROW.** No further M1 visual iteration, experiment or M2.
