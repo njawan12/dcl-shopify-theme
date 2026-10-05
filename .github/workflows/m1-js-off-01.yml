@@ -16,7 +16,6 @@ jobs:
     timeout-minutes: 10
     env:
       PYTHONDONTWRITEBYTECODE: '1'
-      JS_OFF_EVIDENCE_DIR: ${{ runner.temp }}/js-off-01
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
@@ -31,6 +30,8 @@ jobs:
         working-directory: prototypes/m1-final-closure/batch-b/tests
         run: npx playwright install --with-deps --only-shell chromium
       - name: Execute JS-OFF-01
+        env:
+          JS_OFF_EVIDENCE_DIR: ${{ runner.temp }}/js-off-01
         shell: bash
         run: |
           set -euo pipefail
