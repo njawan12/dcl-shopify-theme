@@ -1,12 +1,30 @@
-> **Second pass (2026-10-04):** current completion evidence is in [second-pass-report.md](second-pass-report.md). Engineering verdict **NARROW**; all executed checks pass, manual/production gates remain open. Visual verdict **PENDING HUMAN REVIEW**. The report below is preserved as first-pass history; its card-layout description and metrics do not describe the second pass.
+> **Second pass (2026-10-04):** current completion evidence is in [second-pass-report.md](second-pass-report.md). Engineering verdict **NARROW**; all executed checks pass, manual/production gates remain open. Final human M1 verdict **PASS TO PRESERVE** for preserved second-pass commit `873cfbb4a73c366bca0f9c259349a187c81da968`. The report below is preserved as first-pass history; its card-layout description and metrics do not describe the second pass.
 
 # Split Tension M1 — implementation findings
 
-## Decision and authority
+## Final human M1 verdict
+
+**PASS TO PRESERVE.** Human review accepts the second-pass implementation at `873cfbb4a73c366bca0f9c259349a187c81da968`. This reconciliation changes documentation only; the implementation and existing evidence are preserved.
+
+The accepted proof covers:
+
+- Guided Set's 2–5 step merchandising model;
+- explicit shopper inclusion;
+- truthful native-product/variant pricing semantics;
+- unresolved, sold-out, missing, duplicate, failure and race states;
+- aggregate selected-item action without bundle or discount invention;
+- no-JS/server-rendered fallback;
+- multi-instance isolation;
+- responsive visual identity;
+- neutral originality torture survival.
+
+Commerce proof remains within the simulated fixture scope. The fallback proof is literal/script-free server-rendered HTML and enhancement-withheld/failure evidence; actual browser-wide JavaScript disabling remains untested. Real Shopify cart atomicity/integration, selling plans, app interoperability, accessibility certification, cross-browser/touch testing and measured production performance remain later gates. Human M1 acceptance does not certify these gates or authorize production work, redesign or M2.
+
+## Decision and authority (first-pass history)
 
 **Engineering/state-machine result: PASS within the simulated fixture scope and the explicitly observed browser journeys.**
 
-**Experimental engineering recommendation: NARROW AND HOLD.** Do not advance to M2 or infer an overall M1 PASS. Visual/product-owner decision: **PENDING HUMAN REVIEW**. Manual accessibility, real commerce and measured performance are separate open gates.
+**Experimental engineering recommendation: NARROW AND HOLD.** Do not advance to M2 or infer an overall M1 PASS. The first-pass visual decision was deferred; the final second-pass human verdict is **PASS TO PRESERVE**. Manual accessibility, real commerce and measured performance are separate open gates.
 
 Controlling baseline: branch `m0-live-market-evidence-2026-10-03`, starting commit `24e95425dce956127a1ea6d4fa1bc2711578df5c`. All six controlling documents were read before implementation. The commerce state machine wins over the brief; brief sections 1–24 are binding. The implementation uses one data-driven component and one pure engine. No stopped experiment was redesigned or acceptance criterion waived.
 
@@ -22,7 +40,7 @@ The whole implementation was audited against the full state-machine contract, im
 |---|---|---|
 | 1 Named experiment only | PASS | Isolated guided-merchandising question; no bundle, theme or milestone infrastructure |
 | 2 Allowed files/scope/no dependencies | PASS | Manifest below; original native HTML/CSS/modules/local SVG; no package/install/build |
-| 3 Structural visual composition | NARROW | CSS 5:8 desktop tracks, one boundary/overlap, staggered commerce edge; tablet relaxes; mobile sequential cards. Screenshots captured; premium/distinctive judgment pending |
+| 3 Structural visual composition | NARROW | CSS 5:8 desktop tracks, one boundary/overlap, staggered commerce edge; tablet relaxes; mobile sequential cards. First-pass screenshots captured; this historical visual assessment is superseded by the accepted second-pass human verdict |
 | 4 Literal usable baseline | PASS / NARROW | Two authored steps/products/prices/links in literal index; default init attaches controls without replacing baseline. Real browser JS-disabled journey NOT TESTED |
 | 5 Instance architecture | PASS | Root-scoped mutations/handlers; two-instance DOM and pending isolation recorded; idempotent init/bootstrap seam |
 | 6 Shopify-shaped fixture data | PASS (simulated) | Product/variant/options/availability/int money isolated from authored label/copy; immutable fixtures |
@@ -40,7 +58,7 @@ The whole implementation was audited against the full state-machine contract, im
 | 18 Safe output/lifecycle | PASS | Text APIs, validated local media/root-relative URLs, immutable data, idempotent seam, cleanup/reset; no executable fixture HTML |
 | 19 Full self-audit | PASS | This full requirement audit, explicit open gates, no overall M1 PASS |
 | 20 Minimum checks | PASS | Syntax, transition/static checks, diff/scope checks; actual browser capture available |
-| 21 Stop conditions | PASS within tested scope | No evidence requiring bundle/full PDP/freeform widget/framework/rescue settings; visual viability undecided, not asserted |
+| 21 Stop conditions | PASS within tested scope | No evidence requiring bundle/full PDP/freeform widget/framework/rescue settings; first-pass visual viability was undecided; final second-pass human acceptance is recorded above |
 | 22.1 One engine | PASS | No fixture-specific component implementations |
 | 22.2 Hydration identity | PASS | Literal default matches fixture IDs/order/title/price/availability; only enhancement inserted; pageshow reset retains nodes |
 | 22.3 Nonexistent combination | PASS | 60 ml + Rich has no variant; stale identity/price/consent cleared; recovery without reload |
@@ -49,8 +67,8 @@ The whole implementation was audited against the full state-machine contract, im
 | 22.6 Query/history | PASS for observed journey | Unknown value falls back; actual back navigation restores zero choices/total, including native browser form restoration |
 | 22.7 Announcement discipline | PASS for code / NARROW for AT | Routine price/options not live; request status scoped/atomic, error alert only changes for validation; identical text not repeated |
 | 22.8 Failure resistance | NARROW | Long heading/title, missing image, square/portrait/landscape, five steps rendered; no fixed text height. Browser text enlargement still NOT TESTED |
-| 22.9 Visual ownership | NARROW | PENDING HUMAN REVIEW; no inferred visual acceptance |
-| 22.10 Visual floor | NARROW | Authored spacing/type hierarchy, edges and card states captured. Human premium/distinctive decision pending |
+| 22.9 Visual ownership | NARROW | Historical first-pass deferral; final second-pass human verdict PASS TO PRESERVE |
+| 22.10 Visual floor | NARROW | Authored spacing/type hierarchy, edges and card states captured. Historical first-pass deferral superseded by accepted second-pass human review |
 | 22.11 Browser evidence | PASS for capture | Every mandatory capture listed in section 2 |
 | 22.12 Transition assertions | PASS | 335 assertions; every listed minimum plus dense variants, pending freeze and review gating |
 | 22.13 Complexity | PASS for reporting / NARROW for assessment | Metrics below; no invented numeric PASS threshold |
@@ -172,9 +190,7 @@ No captured screenshot itself decides premium quality, structural originality, m
 
 ## 3. Visual/product-owner decision
 
-**PENDING HUMAN REVIEW.** Review the desktop asymmetry, neutral structural identity, two-/five-step intentionality and mobile guided sequence, including how much vertical space the long/complex fixtures consume. Ordinary SVG packshots intentionally contribute no signature artwork. No merchant layout rescue control exists.
-
-Do not approve the composition solely from the logic verdict or DOM geometry checks. Kill/narrow the composition if these captures do not meet the intended visual identity or mobile quality.
+**PASS TO PRESERVE**, awarded by human review of the preserved second pass. The accepted scope is recorded above. The first-pass composition descriptions and engineering ratings in this historical report do not replace the accepted second-pass proof or certify production readiness. No further visual iteration or M2 work is authorized by this reconciliation.
 
 ## 4. Simulated behavior versus real Shopify behavior
 
@@ -186,7 +202,6 @@ Real Shopify multi-line atomicity, partial-result reconciliation, cart state, in
 
 ## 5. Every untested/manual category
 
-- **Visual/product-owner acceptance:** premium quality, structural originality under neutral mode, thumbnail identity, two-/five-step intent, comprehensibility of long/complex mobile sequence.
 - **Actual browser JavaScript disabled/delayed:** literal HTML inspected and enhancement withheld/failed tested; disabling browser JS and delaying module delivery were not performed.
 - **Accessibility:** VoiceOver, NVDA, complete independent keyboard journey, real announcement/focus/error perception, contrast/conformance audit, axe, Lighthouse Accessibility, browser text enlargement, manual 200%/400% zoom/reflow, OS/browser reduced-motion preference, representative physical touch/mobile devices.
 - **Performance:** Lighthouse Performance, LCP/CLS/INP/CWV, real responsive CDN/srcset strategy, network attribution and budgets, low-end/mobile/network profiling, image-loading priority measurements. No fast/performance PASS claim.

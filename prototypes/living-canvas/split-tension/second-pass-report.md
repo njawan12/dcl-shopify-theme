@@ -1,11 +1,27 @@
 # Split Tension — second-pass completion report
 
 Date: 2026-10-04. Local branch: `m1-split-tension-prototype`.
-Starting commit: `e4b7c4aec751a3198277116f0b527a92e62323dd` exactly. The resulting commit SHA is supplied in the exported completion report and final response; this tracked report cannot contain its own Git commit hash.
+Starting commit: `e4b7c4aec751a3198277116f0b527a92e62323dd` exactly. Preserved second-pass implementation commit: `873cfbb4a73c366bca0f9c259349a187c81da968`. The tests, metrics and implementation manifest below record that original completion; this later reconciliation changes verdict documentation only.
 
 **Engineering verdict: NARROW.** Every executed state, static, preservation and browser reflow check passes. Manual accessibility, zoom, actual browser-disabled JavaScript, real Shopify and measured performance remain open; no overall production or M1 PASS is inferred.
 
-**Visual verdict: PENDING HUMAN REVIEW.** Human review must decide the ten visual questions in delta section 12. Stop here; no M2 authorization is implied.
+## Final human M1 verdict
+
+**PASS TO PRESERVE.** Human review accepts the second-pass implementation at `873cfbb4a73c366bca0f9c259349a187c81da968`. This reconciliation changes documentation only; the implementation and existing evidence are preserved.
+
+The accepted proof covers:
+
+- Guided Set's 2–5 step merchandising model;
+- explicit shopper inclusion;
+- truthful native-product/variant pricing semantics;
+- unresolved, sold-out, missing, duplicate, failure and race states;
+- aggregate selected-item action without bundle or discount invention;
+- no-JS/server-rendered fallback;
+- multi-instance isolation;
+- responsive visual identity;
+- neutral originality torture survival.
+
+Commerce proof remains within the simulated fixture scope. The fallback proof is literal/script-free server-rendered HTML and enhancement-withheld/failure evidence; actual browser-wide JavaScript disabling remains untested. Real Shopify cart atomicity/integration, selling plans, app interoperability, accessibility certification, cross-browser/touch testing and measured production performance remain later gates. Human M1 acceptance does not certify these gates or authorize production work, redesign or M2.
 
 ## Authority read before implementation
 
@@ -39,7 +55,7 @@ The shared component now uses a dominant editorial/media field, a continuous num
 | 9 accessibility/progressive baseline | Logical DOM, native names/controls/status/focus, >=44px primary targets; instance isolation and script-free literal baseline evidenced; AT/manual gates remain open |
 | 10 CSS-owned structure | Grid/Flex/pseudo rail/object-fit/tokens; one editorial-copy wrapper; no positional JS, nth-child coordinates, fixture-specific layout CSS or duplicated responsive commerce DOM |
 | 11 evidence | Controlling/stress frames, unchanged original assertions, preservation regression, all seven widths and pending switch evidence below |
-| 12 visual acceptance | PENDING HUMAN REVIEW; no Codex visual PASS |
+| 12 visual acceptance | PASS TO PRESERVE, awarded by human review of the preserved second-pass proof; no Codex-awarded visual verdict |
 | 13 stop conditions | No observed requirement for bespoke-only art, coordinates, another component, carousel, a11y compromise or commerce rewrite; premium/originality assessment is human-owned |
 | 14 completion/scope | Exact manifest below; local commit only; no PR, push, merge, production, M2 or other Living Canvas variant |
 
@@ -126,11 +142,11 @@ No unresolved contract conflict or implementation scope deviation. Only visual m
 
 The script-free HTML evidence document is a test artifact derived from the literal index. It proves the server-rendered fallback without executing the prototype, but is not a claim that the browser's JavaScript-disable setting was tested.
 
-Untested: human visual/product-owner approval and premium/originality comparison; VoiceOver/NVDA and live announcement quality; physical touch; manual text enlargement, 200%/400% zoom and OS/high-contrast variants; cross-browser Safari/Firefox/device coverage; actual browser-disabled-JS settings; real Shopify Ajax/422/atomicity, Liquid objects, Markets, cart reconciliation, app blocks and selling plans; Theme Editor section load/unload/block lifecycle; real merchant images/content beyond the fixture envelope; measured LCP/INP/CLS, Lighthouse, throttled-network/runtime memory budgets; broader M1 proof packages. These remain review/integration gates, not implicit PASS or reasons to implement M2 here.
+Untested: VoiceOver/NVDA and live announcement quality; physical touch; manual text enlargement, 200%/400% zoom and OS/high-contrast variants; cross-browser Safari/Firefox/device coverage; actual browser-disabled-JS settings; real Shopify Ajax/422/atomicity, Liquid objects, Markets, cart reconciliation, app blocks and selling plans; Theme Editor section load/unload/block lifecycle; real merchant images/content beyond the fixture envelope; measured LCP/INP/CLS, Lighthouse, throttled-network/runtime memory budgets; broader M1 proof packages. These remain review/integration gates, not implicit PASS or reasons to implement M2 here.
 
-## Exact files changed
+## Original second-pass implementation files changed
 
-Every path below is relative to `prototypes/living-canvas/split-tension/`. No production directories, other Living Canvas variants, M0/M1 branch content or controlling docs were changed. No PR, merge, remote push, M2 or real cart action occurred. Stop for review.
+Every path below is relative to `prototypes/living-canvas/split-tension/`. No production directories, other Living Canvas variants, M0/M1 branch content or controlling docs were changed. At original implementation completion, no PR, merge, remote push, M2 or real cart action occurred and the prototype stopped for review. Human review has since accepted PASS TO PRESERVE; the documentation reconciliation is committed and published separately without altering this implementation manifest.
 
 - `README.md`
 - `findings.md`

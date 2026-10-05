@@ -2,6 +2,24 @@
 
 One native browser implementation, one pure state engine, 24 deterministic fixtures. This is guided merchandising, not a bundle builder. All cart outcomes and commerce data are simulated. Nothing calls Shopify or changes a real cart.
 
+## Final human M1 verdict
+
+**PASS TO PRESERVE.** Human review accepts the second-pass implementation at `873cfbb4a73c366bca0f9c259349a187c81da968`. This reconciliation changes documentation only; the implementation and existing evidence are preserved.
+
+The accepted proof covers:
+
+- Guided Set's 2–5 step merchandising model;
+- explicit shopper inclusion;
+- truthful native-product/variant pricing semantics;
+- unresolved, sold-out, missing, duplicate, failure and race states;
+- aggregate selected-item action without bundle or discount invention;
+- no-JS/server-rendered fallback;
+- multi-instance isolation;
+- responsive visual identity;
+- neutral originality torture survival.
+
+Commerce proof remains within the simulated fixture scope. The fallback proof is literal/script-free server-rendered HTML and enhancement-withheld/failure evidence; actual browser-wide JavaScript disabling remains untested. Real Shopify cart atomicity/integration, selling plans, app interoperability, accessibility certification, cross-browser/touch testing and measured production performance remain later gates. Human M1 acceptance does not certify these gates or authorize production work, redesign or M2.
+
 ## Run
 
 From the repository root, with Node.js 22+ (verified with Node 26.10.0):
@@ -56,7 +74,7 @@ Browser evidence is checked in under `tests/evidence/`. `browser-matrix.json` re
 
 ## Evidence limits
 
-Read `findings.md` before assigning a verdict. Engineering logic and observed browser checks do not authorize production, validate Shopify atomicity, establish WCAG conformance or decide visual quality. Visual/product-owner decision is **PENDING HUMAN REVIEW**. VoiceOver, NVDA, actual JS-disabled browsing, manual text enlargement/200%/400% zoom, physical touch and measured performance remain untested. The broader M1 product/app/editor/cross-preset proof package is outside this isolated prototype and remains open.
+Read `findings.md` for the accepted human verdict and its scope. Engineering logic and observed browser checks do not authorize production, validate Shopify atomicity, establish WCAG conformance or decide visual quality. Visual/product-owner decision is **PASS TO PRESERVE**, recorded from human review. VoiceOver, NVDA, actual JS-disabled browsing, manual text enlargement/200%/400% zoom, physical touch and measured performance remain untested. The broader M1 product/app/editor/cross-preset proof package is outside this isolated prototype and remains open.
 
 ## Approved second visual pass
 
