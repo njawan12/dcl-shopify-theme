@@ -1,0 +1,23 @@
+{
+  "captured_utc": "2026-10-05T00:36:26.391648+00:00",
+  "browser": "Codex in-app browser",
+  "viewport_height": 1000,
+  "method": "Native viewport/navigation/read-only DOM geometry; native scroll loads media before full-page JPEG. No layout mutation.",
+  "source_sha256": {
+    "content.py": "9b32e174169ef2e2a120d899bce898563b45ee026dd59f91d41b736857e0db5d",
+    "evidence.css": "1c693afe66a02de0fc7051a6befb435b23750a5a39823eb4743746932b531850",
+    "fixture_catalog.py": "290a137ce4179da7297e903925729e21e53233a30233b4efb200e3f58c000fa5",
+    "fixtures.json": "d954642d3d0b6c4205ed71c2990f88562ddb2beadb559252cd10bf72fea4b18a",
+    "index.html": "fd7c91bf67b167464043a30602818d0e269fdeb7fd3632d8408ae0d69b9778ff",
+    "media/care-pump.jpg": "ec758e0c48d5021f32d7c26171f12ac577378f7417dd3fbeb00a97194b0ffb6b",
+    "media/metal-ring.svg": "c52991d74112531024c9b897621a11a48ca2ebf5e8b67ea32bfd30f8af9a9176",
+    "media/pantry-jar.svg": "527030fa33fe6f3f3ed24e095295f0d2db70a79dead3dcd79e387d5b307a913a",
+    "media/storage-after.svg": "4f40b45cc4c49da00c800cf88534f2aa1ae6c54ce0e704f2c3b54a6cc62c82e3",
+    "media/storage-before.svg": "4a5ca82342e79db82fa2eb21d5a685465bb1a517a0dd6efcd81c78351abcc281",
+    "media/utility-case.jpg": "27799afc0c570c8a79c2a0c47c2a67c93b17f7dd34c124e3f82b918bd009d8bc",
+    "render.py": "7457af43442c7f4cc7535b1e69cfd857b2fc219474abd5fb7175f97ca61c7993",
+    "serve.py": "70537db96092e8f84b85dee3c5227d06b95a79306e3fc2de37b3cffc03dbad09",
+    "tests/capture-probe.js": "ec64a69eddb01dbc48ba02cd4c7ed7def774f866561ab8a5726a2b2eba8e8904"
+  },
+  "refresh_note": "40 affected fixture/width observations and 14 frames refreshed after correcting non-beauty product context. Structural URL checker additionally accepts valid percent-encoded spaces; rendered fixture URLs unchanged. Short/maximum fixtures exercise existing compact/spacious/strong choices; their16 views and2 frames refreshed. All other rendered fixture output and geometry unchanged."
+}

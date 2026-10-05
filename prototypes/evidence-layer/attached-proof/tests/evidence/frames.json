@@ -1,0 +1,247 @@
+[
+  {
+    "fixture": "branded-pdp",
+    "width": 1440,
+    "file": "branded-pdp-1440.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "branded-pdp",
+    "width": 390,
+    "file": "branded-pdp-390.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral-pdp",
+    "width": 1440,
+    "file": "neutral-pdp-1440.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral-pdp",
+    "width": 390,
+    "file": "neutral-pdp-390.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "branded-editorial",
+    "width": 1440,
+    "file": "branded-editorial-1440.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "branded-editorial",
+    "width": 390,
+    "file": "branded-editorial-390.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral-editorial",
+    "width": 1440,
+    "file": "neutral-editorial-1440.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral-editorial",
+    "width": 390,
+    "file": "neutral-editorial-390.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "jewelry-pdp",
+    "width": 1440,
+    "file": "jewelry-pdp-1440.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "jewelry-pdp",
+    "width": 390,
+    "file": "jewelry-pdp-390.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "food-pdp",
+    "width": 1440,
+    "file": "food-pdp-1440.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "food-pdp",
+    "width": 390,
+    "file": "food-pdp-390.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "editorial-process",
+    "width": 1440,
+    "file": "editorial-process-1440.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "editorial-process",
+    "width": 390,
+    "file": "editorial-process-390.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "before-after",
+    "width": 1440,
+    "file": "before-after-1440.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "before-after",
+    "width": 390,
+    "file": "before-after-390.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "short",
+    "width": 390,
+    "file": "short-390.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "long",
+    "width": 1440,
+    "file": "long-1440.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "long",
+    "width": 320,
+    "file": "long-320.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "maximum",
+    "width": 1440,
+    "file": "maximum-1440.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "zero-evidence",
+    "width": 390,
+    "file": "zero-evidence-390.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "missing-media",
+    "width": 390,
+    "file": "missing-media-390.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "incomplete-before-after",
+    "width": 390,
+    "file": "incomplete-before-after-390.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "disconnected-fallback",
+    "width": 390,
+    "file": "disconnected-fallback-390.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "disconnected-omit",
+    "width": 390,
+    "file": "disconnected-omit-390.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "app-present",
+    "width": 1440,
+    "file": "app-present-1440.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "app-tall",
+    "width": 320,
+    "file": "app-tall-320.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "app-removed",
+    "width": 1440,
+    "file": "app-removed-1440.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "two-instances",
+    "width": 1024,
+    "file": "two-instances-1024.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "localization",
+    "width": 320,
+    "file": "localization-320.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral-pdp",
+    "width": 375,
+    "file": "neutral-pdp-375.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral-pdp",
+    "width": 430,
+    "file": "neutral-pdp-430.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral-pdp",
+    "width": 768,
+    "file": "neutral-pdp-768.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "neutral-pdp",
+    "width": 1280,
+    "file": "neutral-pdp-1280.jpg",
+    "height": 1000,
+    "fullPage": true
+  },
+  {
+    "fixture": "one-valid-step",
+    "width": 390,
+    "file": "one-valid-step-390.jpg",
+    "height": 1000,
+    "fullPage": true
+  }
+]

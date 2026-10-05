@@ -1,0 +1,129 @@
+Browser tab: 5, Title: "M1 Evidence Layer — PENDING HUMAN REVIEW", URL: "http://localhost:3003/?fixture=one-valid-step#main".
+1 AXWebArea M1 Evidence Layer — PENDING HUMAN REVIEW, URL: localhost:3003/?fixture=one-valid-step#main
+	2 link Description: Skip to evidence, Value: localhost:3003/?fixture=one-valid-step#main
+	3 container
+		4 heading M1 / Evidence Layer, Value: 1
+			5 text M1 / Evidence Layer
+		6 text Synthetic test content. No clinical result, real certification, customer review or efficacy claim is represented.
+		7 text Test fixture
+		8 pop up button (collapsed, settable) Test fixture, Value: One Valid Step, ID: fixture, Secondary Actions: Expand
+			9 menu
+				10 Branded Pdp
+				11 Neutral Pdp
+				12 Branded Editorial
+				13 Neutral Editorial
+				14 Jewelry Pdp
+				15 Food Pdp
+				16 Editorial Process
+				17 Before After
+				18 Short
+				19 Long
+				20 Maximum
+				21 Zero Evidence
+				22 Invalid Notes
+				23 Optional Empty
+				24 Missing Media
+				25 Incomplete Before After
+				26 Invalid Comparison
+				27 Partial Comparison
+				28 No Comparison Rows
+				29 Partial Process
+				30 (selected) One Valid Step
+				31 Invalid Process
+				32 Disconnected Fallback
+				33 Disconnected Omit
+				34 Connected Source
+				35 Url Valid
+				36 Url Invalid
+				37 App Present
+				38 App Tall
+				39 App Removed
+				40 Two Instances
+				41 Localization
+		42 button Apply
+	126 container main
+		127 container Everyday care, clearly explained.
+			128 container
+				129 text PRODUCT / ATTACHED INFORMATION
+				130 heading Everyday care, clearly explained., Value: 2, ID: evidence-1-heading
+					131 text Everyday care, clearly explained.
+				132 text An ordinary product, with facts attached to what they explain.
+			133 container evidence-1-subject
+				134 image Unbranded amber bottle with a pump on a white background
+				135 text Everyday care bottle
+			136 container ATTACHED INFORMATION
+				137 heading ATTACHED INFORMATION, Value: 3, ID: evidence-1-notes
+					138 text ATTACHED INFORMATION
+				139 content list
+					140 container
+						141 heading Container volume, Value: 4
+							142 text Container volume
+						143 text 250 ml A fixture specification, not a study outcome. Nominal fixture volume; test content only.
+						144 link Description: Fixture specification, Value: localhost:3003/?fixture=one-valid-step#evidence-1-subject
+					145 container
+						146 heading Container material, Value: 4
+							147 text Container material
+						148 text Amber glass A reusable fixture bottle and separate pump.
+					149 container
+						150 text Designed to be stored upright. Fixture storage instruction only; no product benefit or performance claim.
+			151 container Everyday care bottle
+				152 text READ-ONLY PRODUCT CONTEXT
+				153 heading Everyday care bottle, Value: 3, ID: evidence-1-product
+					154 text Everyday care bottle
+				155 text CAD 24.00
+				156 text Available · fixture only
+				157 link Description: View fixture product, Value: localhost:3003/products/fixture-product
+				158 text No add-to-cart or real Shopify commerce is represented.
+			159 container Two formats, one clear comparison
+				160 container
+					161 text COMPARE / CONTEXT
+					162 heading Two formats, one clear comparison, Value: 3, ID: evidence-1-pair
+						163 text Two formats, one clear comparison
+					164 text Compare supplied specifications rather than inferred superiority.
+				165 text Pump bottle / Refill container
+				166 definition list
+					167 container Volume
+						168 text Volume
+					169 container
+						170 text Pump bottle 250 ml
+					171 container
+						172 text Refill container 500 ml
+					173 text Nominal fixture sizes
+					174 container Container
+						175 text Container
+					176 container
+						177 text Pump bottle Glass
+					178 container
+						179 text Refill container Pouch
+					180 text Fixture materials
+					181 container Dispensing
+						182 text Dispensing
+					183 container
+						184 text Pump bottle Pump
+					185 container
+						186 text Refill container Pour
+					187 text Not a performance ranking
+					188 container Storage
+						189 text Storage
+					190 container
+						191 text Pump bottle Upright
+					192 container
+						193 text Refill container Upright
+					194 text Follow supplied instructions
+				195 text All values are synthetic fixture specifications. Neither format is declared a winner.
+				196 link Description: Comparison context, Value: localhost:3003/pages/fixture-source
+			197 container A practical sequence
+				198 container
+					199 text PROCESS / IN ORDER
+					200 heading A practical sequence, Value: 3, ID: evidence-1-process
+						201 text A practical sequence
+					202 text Simple supplied instructions, kept in their intended order.
+				203 content list
+					204 container
+						205 heading Store, Value: 4
+							206 text Store
+						207 text Close the container.
+				208 link Description: Fixture instructions, Value: localhost:3003/pages/fixture-source
+	125 text Isolated prototype. Visual verdict: PENDING HUMAN REVIEW.
+
+The focused UI element is 126 container main

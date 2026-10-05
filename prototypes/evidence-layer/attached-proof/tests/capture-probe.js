@@ -1,0 +1,13 @@
+// Read-only observed DOM evidence; not loaded or served by prototype pages.
+(()=>{
+ const r=e=>{const q=e.getBoundingClientRect();return {x:q.x,y:q.y,right:q.right,bottom:q.bottom,width:q.width,height:q.height}};
+ const overlap=(a,b)=>Math.min(a.right,b.right)-Math.max(a.x,b.x)>1&&Math.min(a.bottom,b.bottom)-Math.max(a.y,b.y)>1;
+ const collisions=[];
+ for(const group of document.querySelectorAll('.host,.pdp-opening,.media-attachment,.editorial-attachment,.notes,.evidence-note,.education,.paired-media,.steps,.step-content,.comparison-row,.commerce,.intro')){
+  const children=[...group.children].filter(e=>r(e).width&&r(e).height);
+  for(let i=0;i<children.length;i++)for(let j=i+1;j<children.length;j++)if(overlap(r(children[i]),r(children[j])))collisions.push({group:group.className,a:children[i].tagName+'.'+children[i].className,b:children[j].tagName+'.'+children[j].className});
+ }
+ const ids=[...document.querySelectorAll('[id]')].map(e=>e.id);
+ const hosts=[...document.querySelectorAll('[data-host]')].map(h=>({host:h.dataset.host,primitives:[...h.querySelectorAll('[data-primitive]')].map(e=>e.dataset.primitive),notes:[...h.querySelectorAll('.evidence-note')].map(e=>({kind:e.dataset.kind,text:e.textContent.trim()})),pairModes:[...h.querySelectorAll('.pair')].map(e=>e.dataset.mode),rows:h.querySelectorAll('.comparison-row').length,pairedItems:h.querySelectorAll('.paired-media figure').length,processLists:[...h.querySelectorAll('.steps')].map(e=>({tag:e.tagName,count:e.children.length,headings:[...e.querySelectorAll('h4')].map(n=>n.textContent),indices:[...e.querySelectorAll('.step-index')].map(n=>n.textContent)})),apps:h.querySelectorAll('[data-app]').length,sequence:[...h.querySelectorAll('.subject,[data-primitive],.commerce,[data-app],.editorial-action')].map(e=>e.className),rect:r(h)}));
+ return {width:innerWidth,overflow:Math.max(document.documentElement.scrollWidth,document.body.scrollWidth)-innerWidth,scripts:document.scripts.length,duplicateIds:ids.filter((v,i)=>ids.indexOf(v)!==i),collisions,overflows:[...document.querySelectorAll('h1,h2,h3,h4,p,dt,dd,figcaption,.evidence-note,.step-content,.app-slot')].filter(e=>e.scrollWidth>e.clientWidth+1).map(e=>e.tagName+'.'+e.className),badTargets:[...document.querySelectorAll('a,button,select')].filter(e=>r(e).height<44&&getComputedStyle(e).display!=='none').map(e=>e.textContent.trim()),badImages:[...document.images].filter(i=>getComputedStyle(i).objectFit!=='contain').map(i=>i.getAttribute('src')),unloadedEager:[...document.images].filter(i=>i.loading==='eager'&&(!i.complete||!i.naturalWidth)).map(i=>i.getAttribute('src')),hosts};
+})

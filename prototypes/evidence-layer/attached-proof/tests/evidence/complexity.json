@@ -1,0 +1,85 @@
+{
+  "files": {
+    "evidence.css": {
+      "physical_lines": 11,
+      "nonblank_lines": 11,
+      "bytes": 6425
+    },
+    "render.py": {
+      "physical_lines": 91,
+      "nonblank_lines": 80,
+      "bytes": 8148
+    },
+    "content.py": {
+      "physical_lines": 90,
+      "nonblank_lines": 77,
+      "bytes": 4594
+    },
+    "fixture_catalog.py": {
+      "physical_lines": 72,
+      "nonblank_lines": 67,
+      "bytes": 12446
+    },
+    "serve.py": {
+      "physical_lines": 22,
+      "nonblank_lines": 22,
+      "bytes": 1800
+    },
+    "tests/browser_evidence.py": {
+      "physical_lines": 67,
+      "nonblank_lines": 62,
+      "bytes": 4921
+    },
+    "tests/server_responses.py": {
+      "physical_lines": 24,
+      "nonblank_lines": 23,
+      "bytes": 1503
+    },
+    "tests/static.py": {
+      "physical_lines": 117,
+      "nonblank_lines": 113,
+      "bytes": 9649
+    },
+    "tests/capture-probe.js": {
+      "physical_lines": 13,
+      "nonblank_lines": 13,
+      "bytes": 2628
+    }
+  },
+  "runtime_browser_js": {
+    "physical_lines": 0,
+    "nonblank_lines": 0,
+    "bytes": 0
+  },
+  "responsive_breakpoints": [
+    768,
+    1024
+  ],
+  "merchant_decisions": {
+    "notes": 2,
+    "pair": 3,
+    "process": 2,
+    "app_seam": 0,
+    "conditional_each": 0
+  },
+  "caps": {
+    "notes": 3,
+    "pair": 1,
+    "comparison_rows": 4,
+    "process_steps": 4,
+    "guest_per_seam": 1
+  },
+  "note_content_fields": 8,
+  "maximum_child_fields": 5,
+  "dependencies_added": 0,
+  "responsive_dom_duplication": 0,
+  "primitive_renderers": 3,
+  "primitive_normalizers": 3,
+  "host_contexts": [
+    "pdp",
+    "editorial"
+  ],
+  "source_adapter": 1,
+  "url_checker": 1,
+  "factual_or_credibility_checkers": 0
+}

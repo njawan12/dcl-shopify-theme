@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 prototypes/evidence-layer/attached-proof/tests/static.py",
+      "exit_code": 0,
+      "output": "1816 PASS / 0 FAIL; 32 fixtures, 3 primitive renderers",
+      "pass": 1816,
+      "fail": 0
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 prototypes/evidence-layer/attached-proof/tests/server_responses.py",
+      "exit_code": 0,
+      "output": "112 PASS / 0 FAIL; read-only HTTP integrity",
+      "pass": 112,
+      "fail": 0
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 prototypes/evidence-layer/attached-proof/tests/browser_evidence.py",
+      "exit_code": 0,
+      "output": "9676 PASS / 0 FAIL; 256 observed views, 35 review frames +1 focus",
+      "pass": 9676,
+      "fail": 0
+    }
+  ],
+  "verdict": "PENDING HUMAN REVIEW",
+  "scope": "Executed tests only; no human verdict or certification."
+}

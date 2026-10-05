@@ -1,0 +1,332 @@
+[
+  {
+    "step": "keyboard source focus",
+    "focus": {
+      "href": "#evidence-1-subject",
+      "outline": "3px",
+      "tag": "A"
+    }
+  },
+  {
+    "step": "native fragment target",
+    "url": "http://localhost:3003/?fixture=branded-pdp#evidence-1-subject",
+    "focus": "evidence-1-subject"
+  },
+  {
+    "step": "native product destination",
+    "url": "http://localhost:3003/products/fixture-product",
+    "heading": "Read-only fixture context"
+  },
+  {
+    "step": "native fixture app-present",
+    "url": "http://localhost:3003/?fixture=app-present",
+    "audit": {
+      "badImages": [],
+      "badTargets": [],
+      "collisions": [],
+      "duplicateIds": [],
+      "hosts": [
+        {
+          "apps": 1,
+          "host": "pdp",
+          "notes": [
+            {
+              "kind": "metric",
+              "text": "Container volume\n250 ml\nA fixture specification, not a study outcome.\n\nNominal fixture volume; test content only.\nFixture specification"
+            },
+            {
+              "kind": "fact",
+              "text": "Container material\nAmber glass\nA reusable fixture bottle and separate pump."
+            },
+            {
+              "kind": "claim",
+              "text": "Designed to be stored upright.\n\nFixture storage instruction only; no product benefit or performance claim."
+            }
+          ],
+          "pairModes": [
+            "comparison"
+          ],
+          "pairedItems": 0,
+          "primitives": [
+            "notes",
+            "pair",
+            "process"
+          ],
+          "processLists": [
+            {
+              "count": 4,
+              "headings": [
+                "Prepare",
+                "Open",
+                "Use",
+                "Store"
+              ],
+              "indices": [
+                "01",
+                "02",
+                "03",
+                "04"
+              ],
+              "tag": "OL"
+            }
+          ],
+          "rect": {
+            "bottom": 3923.3828125,
+            "height": 3751.2265625,
+            "right": 390,
+            "width": 390,
+            "x": 0,
+            "y": 172.15625
+          },
+          "rows": 4,
+          "sequence": [
+            "subject",
+            "note-group",
+            "commerce",
+            "education pair",
+            "education process",
+            "app-slot"
+          ]
+        }
+      ],
+      "overflow": 0,
+      "overflows": [],
+      "scripts": 0,
+      "unloadedEager": [],
+      "width": 390
+    }
+  },
+  {
+    "step": "native fixture app-tall",
+    "url": "http://localhost:3003/?fixture=app-tall",
+    "audit": {
+      "badImages": [],
+      "badTargets": [],
+      "collisions": [],
+      "duplicateIds": [],
+      "hosts": [
+        {
+          "apps": 1,
+          "host": "pdp",
+          "notes": [
+            {
+              "kind": "metric",
+              "text": "Container volume\n250 ml\nA fixture specification, not a study outcome.\n\nNominal fixture volume; test content only.\nFixture specification"
+            },
+            {
+              "kind": "fact",
+              "text": "Container material\nAmber glass\nA reusable fixture bottle and separate pump."
+            },
+            {
+              "kind": "claim",
+              "text": "Designed to be stored upright.\n\nFixture storage instruction only; no product benefit or performance claim."
+            }
+          ],
+          "pairModes": [
+            "comparison"
+          ],
+          "pairedItems": 0,
+          "primitives": [
+            "notes",
+            "pair",
+            "process"
+          ],
+          "processLists": [
+            {
+              "count": 4,
+              "headings": [
+                "Prepare",
+                "Open",
+                "Use",
+                "Store"
+              ],
+              "indices": [
+                "01",
+                "02",
+                "03",
+                "04"
+              ],
+              "tag": "OL"
+            }
+          ],
+          "rect": {
+            "bottom": 6371.3828125,
+            "height": 6199.2265625,
+            "right": 390,
+            "width": 390,
+            "x": 0,
+            "y": 172.15625
+          },
+          "rows": 4,
+          "sequence": [
+            "subject",
+            "note-group",
+            "commerce",
+            "education pair",
+            "education process",
+            "app-slot"
+          ]
+        }
+      ],
+      "overflow": 0,
+      "overflows": [],
+      "scripts": 0,
+      "unloadedEager": [],
+      "width": 390
+    }
+  },
+  {
+    "step": "native fixture app-removed",
+    "url": "http://localhost:3003/?fixture=app-removed",
+    "audit": {
+      "badImages": [],
+      "badTargets": [],
+      "collisions": [],
+      "duplicateIds": [],
+      "hosts": [
+        {
+          "apps": 0,
+          "host": "pdp",
+          "notes": [
+            {
+              "kind": "metric",
+              "text": "Container volume\n250 ml\nA fixture specification, not a study outcome.\n\nNominal fixture volume; test content only.\nFixture specification"
+            },
+            {
+              "kind": "fact",
+              "text": "Container material\nAmber glass\nA reusable fixture bottle and separate pump."
+            },
+            {
+              "kind": "claim",
+              "text": "Designed to be stored upright.\n\nFixture storage instruction only; no product benefit or performance claim."
+            }
+          ],
+          "pairModes": [
+            "comparison"
+          ],
+          "pairedItems": 0,
+          "primitives": [
+            "notes",
+            "pair",
+            "process"
+          ],
+          "processLists": [
+            {
+              "count": 4,
+              "headings": [
+                "Prepare",
+                "Open",
+                "Use",
+                "Store"
+              ],
+              "indices": [
+                "01",
+                "02",
+                "03",
+                "04"
+              ],
+              "tag": "OL"
+            }
+          ],
+          "rect": {
+            "bottom": 3692.4609375,
+            "height": 3520.3046875,
+            "right": 390,
+            "width": 390,
+            "x": 0,
+            "y": 172.15625
+          },
+          "rows": 4,
+          "sequence": [
+            "subject",
+            "note-group",
+            "commerce",
+            "education pair",
+            "education process"
+          ]
+        }
+      ],
+      "overflow": 0,
+      "overflows": [],
+      "scripts": 0,
+      "unloadedEager": [],
+      "width": 390
+    }
+  },
+  {
+    "step": "native fixture one-valid-step",
+    "url": "http://localhost:3003/?fixture=one-valid-step",
+    "audit": {
+      "badImages": [],
+      "badTargets": [],
+      "collisions": [],
+      "duplicateIds": [],
+      "hosts": [
+        {
+          "apps": 0,
+          "host": "pdp",
+          "notes": [
+            {
+              "kind": "metric",
+              "text": "Container volume\n250 ml\nA fixture specification, not a study outcome.\n\nNominal fixture volume; test content only.\nFixture specification"
+            },
+            {
+              "kind": "fact",
+              "text": "Container material\nAmber glass\nA reusable fixture bottle and separate pump."
+            },
+            {
+              "kind": "claim",
+              "text": "Designed to be stored upright.\n\nFixture storage instruction only; no product benefit or performance claim."
+            }
+          ],
+          "pairModes": [
+            "comparison"
+          ],
+          "pairedItems": 0,
+          "primitives": [
+            "notes",
+            "pair",
+            "process"
+          ],
+          "processLists": [
+            {
+              "count": 1,
+              "headings": [
+                "Store"
+              ],
+              "indices": [
+                "01"
+              ],
+              "tag": "OL"
+            }
+          ],
+          "rect": {
+            "bottom": 3139.375,
+            "height": 2967.21875,
+            "right": 390,
+            "width": 390,
+            "x": 0,
+            "y": 172.15625
+          },
+          "rows": 4,
+          "sequence": [
+            "subject",
+            "note-group",
+            "commerce",
+            "education pair",
+            "education process"
+          ]
+        }
+      ],
+      "overflow": 0,
+      "overflows": [],
+      "scripts": 0,
+      "unloadedEager": [],
+      "width": 390
+    }
+  },
+  {
+    "step": "skip target",
+    "focus": "main"
+  }
+]

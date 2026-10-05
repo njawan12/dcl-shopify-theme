@@ -1,0 +1,3465 @@
+{
+  "disclaimer": "Synthetic test content. No clinical result, real certification, customer review or efficacy claim is represented.",
+  "fixtures": [
+    {
+      "id": "branded-pdp",
+      "label": "Branded Pdp",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "Container volume",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "Nominal fixture volume; test content only."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "neutral-pdp",
+      "label": "Neutral Pdp",
+      "host": "pdp",
+      "preset": "neutral",
+      "title": "Useful objects. Clear information.",
+      "introduction": "A collection for everyday use.",
+      "product": {
+        "title": "Utility storage case",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary gray rectangular storage case on white"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "24 cm",
+          "label": "External width",
+          "body": "",
+          "attribution": "",
+          "source_title": "Fixture dimensions",
+          "source_url": "#subject",
+          "qualification": "Synthetic nominal dimension."
+        },
+        {
+          "kind": "fact",
+          "value": "Zipped case",
+          "label": "Construction",
+          "body": "An ordinary rectangular case with a zip closure.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Store on a stable surface.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Supplied fixture instruction only."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Small case",
+          "Large case"
+        ],
+        "rows": [
+          {
+            "criterion": "Width",
+            "left": "24 cm",
+            "right": "32 cm",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Zipped case",
+            "right": "Zipped case",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Closure",
+            "left": "Zip",
+            "right": "Zip",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "branded-editorial",
+      "label": "Branded Editorial",
+      "host": "editorial",
+      "preset": "beauty",
+      "title": "Look closer at the ordinary.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "Container volume",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "Nominal fixture volume; test content only."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": null,
+      "process": null,
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "neutral-editorial",
+      "label": "Neutral Editorial",
+      "host": "editorial",
+      "preset": "neutral",
+      "title": "Look closer at the ordinary.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Utility storage case",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary gray rectangular storage case on white"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "24 cm",
+          "label": "External width",
+          "body": "",
+          "attribution": "",
+          "source_title": "Fixture dimensions",
+          "source_url": "#subject",
+          "qualification": "Synthetic nominal dimension."
+        },
+        {
+          "kind": "fact",
+          "value": "Zipped case",
+          "label": "Construction",
+          "body": "An ordinary rectangular case with a zip closure.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Store on a stable surface.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Supplied fixture instruction only."
+        }
+      ],
+      "pair": null,
+      "process": null,
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "jewelry-pdp",
+      "label": "Jewelry Pdp",
+      "host": "pdp",
+      "preset": "jewelry",
+      "title": "Material, measure, care.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Plain metal ring",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "metal-ring.svg",
+        "alt": "Schematic plain metal ring on white"
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Metal",
+          "label": "Fixture material",
+          "body": "",
+          "attribution": "",
+          "source_title": "Material record",
+          "source_url": "#subject",
+          "qualification": ""
+        },
+        {
+          "kind": "metric",
+          "value": "18 mm",
+          "label": "Internal diameter",
+          "body": "",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic nominal measurement."
+        },
+        {
+          "kind": "fact",
+          "value": "",
+          "label": "Provenance",
+          "body": "An authored demonstration asset; not a precious-metal certification.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Small ring",
+          "Large ring"
+        ],
+        "rows": [
+          {
+            "criterion": "Diameter",
+            "left": "18 mm",
+            "right": "20 mm",
+            "qualification": "Synthetic fixture specifications; no superiority claim."
+          },
+          {
+            "criterion": "Material",
+            "left": "Metal",
+            "right": "Metal",
+            "qualification": "Synthetic fixture specifications; no superiority claim."
+          },
+          {
+            "criterion": "Profile",
+            "left": "Round",
+            "right": "Round",
+            "qualification": "Synthetic fixture specifications; no superiority claim."
+          },
+          {
+            "criterion": "Care",
+            "left": "Soft cloth",
+            "right": "Soft cloth",
+            "qualification": "Synthetic fixture specifications; no superiority claim."
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Handle",
+            "instruction": "Place the ring on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture care instruction only."
+          },
+          {
+            "heading": "Inspect",
+            "instruction": "Check the supplied care information.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture care instruction only."
+          },
+          {
+            "heading": "Wipe",
+            "instruction": "Use a soft cloth as instructed.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture care instruction only."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Store safely away from abrasive objects.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture care instruction only."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "food-pdp",
+      "label": "Food Pdp",
+      "host": "pdp",
+      "preset": "food",
+      "title": "Know what you are serving.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Pantry jar",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "pantry-jar.svg",
+        "alt": "Schematic pantry jar on white"
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "",
+          "label": "Ingredients",
+          "body": "Illustrative fixture content: oats and water; not a real product label.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "metric",
+          "value": "40 g",
+          "label": "Serving amount",
+          "body": "",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic serving example, not nutritional or health advice."
+        },
+        {
+          "kind": "fact",
+          "value": "",
+          "label": "Provenance",
+          "body": "An authored demonstration jar.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Small jar",
+          "Large jar"
+        ],
+        "rows": [
+          {
+            "criterion": "Capacity",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Synthetic fixture specifications; not a real nutritional label."
+          },
+          {
+            "criterion": "Container",
+            "left": "Jar",
+            "right": "Jar",
+            "qualification": "Synthetic fixture specifications; not a real nutritional label."
+          },
+          {
+            "criterion": "Closure",
+            "left": "Lid",
+            "right": "Lid",
+            "qualification": "Synthetic fixture specifications; not a real nutritional label."
+          },
+          {
+            "criterion": "Serving example",
+            "left": "40 g",
+            "right": "40 g",
+            "qualification": "Synthetic fixture specifications; not a real nutritional label."
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Use the supplied serving instructions; check the real label.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "editorial-process",
+      "label": "Editorial Process",
+      "host": "editorial",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [],
+      "pair": null,
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "before-after",
+      "label": "Before After",
+      "host": "pdp",
+      "preset": "neutral",
+      "title": "One container, two labelled states.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Schematic storage container",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "storage-before.svg",
+        "alt": "Authored schematic container in the before-opening state"
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "",
+          "label": "Diagram context",
+          "body": "Two authored storage states of the same schematic object; not photographic or observed result evidence.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        }
+      ],
+      "pair": {
+        "mode": "before-after",
+        "heading": "Two labelled storage states",
+        "introduction": "Schematic illustrations of the same container in two positions. Not photographic result evidence.",
+        "qualification": "Synthetic diagrams; no product performance, efficacy or observed outcome is claimed.",
+        "source_title": "Diagram context",
+        "source_url": "/pages/fixture-source",
+        "items": [
+          {
+            "label": "Before opening",
+            "media": "storage-before.svg",
+            "alt": "Schematic container with its lid near the container",
+            "caption": "Authored storage-state illustration."
+          },
+          {
+            "label": "After opening",
+            "media": "storage-after.svg",
+            "alt": "Same schematic container with lid raised away from the container",
+            "caption": "Illustration only, not evidence of a product transformation."
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "short",
+      "label": "Short",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Glass",
+          "label": "Material",
+          "body": "",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Formats",
+        "introduction": "",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "compact",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "long",
+      "label": "Long",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. ",
+      "introduction": "Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. ",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 millilitres nominal capacity",
+          "label": "Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. ",
+          "body": "Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. ",
+          "attribution": "",
+          "source_title": "Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. ",
+          "source_url": "#subject",
+          "qualification": "Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. "
+        },
+        {
+          "kind": "quote",
+          "value": "",
+          "label": "",
+          "body": "Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. ",
+          "attribution": "DCL fixture editorial author — synthetic quotation",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. "
+        },
+        {
+          "kind": "certification",
+          "value": "",
+          "label": "EXAMPLE ONLY — certification record",
+          "body": "Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. ",
+          "attribution": "Synthetic test issuer — not a real certification",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "No certification is asserted for a real product."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. ",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. ",
+            "right": "Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. ",
+            "qualification": "Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. "
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. ",
+            "instruction": "Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. Long synthetic fixture copy explains scope and context without making a claim about outcomes or customer experience. ",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "maximum",
+      "label": "Maximum",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "Container volume",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "Nominal fixture volume; test content only."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "spacious",
+      "emphasis": "strong"
+    },
+    {
+      "id": "zero-evidence",
+      "label": "Zero Evidence",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [],
+      "pair": null,
+      "process": null,
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "invalid-notes",
+      "label": "Invalid Notes",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "12",
+          "label": "",
+          "body": "",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "fact",
+          "value": "",
+          "label": "",
+          "body": "",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "certification",
+          "value": "",
+          "label": "Missing issuer",
+          "body": "",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "quote",
+          "value": "",
+          "label": "",
+          "body": "Missing attribution",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "fact",
+          "value": "Glass",
+          "label": "Valid note",
+          "body": "",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "optional-empty",
+      "label": "Optional Empty",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Glass",
+          "label": "Material",
+          "body": "",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        }
+      ],
+      "pair": null,
+      "process": null,
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "missing-media",
+      "label": "Missing Media",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "missing.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "Container volume",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "Nominal fixture volume; test content only."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": "missing.jpg",
+            "alt": "Missing optional media",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "incomplete-before-after",
+      "label": "Incomplete Before After",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "Container volume",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "Nominal fixture volume; test content only."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": {
+        "mode": "before-after",
+        "heading": "Two labelled storage states",
+        "introduction": "Schematic illustrations of the same container in two positions. Not photographic result evidence.",
+        "qualification": "Synthetic diagrams; no product performance, efficacy or observed outcome is claimed.",
+        "source_title": "Diagram context",
+        "source_url": "/pages/fixture-source",
+        "items": [
+          {
+            "label": "Before opening",
+            "media": "storage-before.svg",
+            "alt": "Schematic container with its lid near the container",
+            "caption": "Authored storage-state illustration."
+          },
+          {
+            "label": "After opening",
+            "media": null,
+            "alt": "Same schematic container with lid raised away from the container",
+            "caption": "Illustration only, not evidence of a product transformation."
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "invalid-comparison",
+      "label": "Invalid Comparison",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "Container volume",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "Nominal fixture volume; test content only."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          ""
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "partial-comparison",
+      "label": "Partial Comparison",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "Container volume",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "Nominal fixture volume; test content only."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "no-comparison-rows",
+      "label": "No Comparison Rows",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "Container volume",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "Nominal fixture volume; test content only."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "",
+            "left": "",
+            "right": "",
+            "qualification": ""
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "partial-process",
+      "label": "Partial Process",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "Container volume",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "Nominal fixture volume; test content only."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "one-valid-step",
+      "label": "One Valid Step",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "Container volume",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "Nominal fixture volume; test content only."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "",
+            "instruction": "Invalid"
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close the container."
+          },
+          {
+            "heading": "Missing instruction",
+            "instruction": ""
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "invalid-process",
+      "label": "Invalid Process",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "Container volume",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "Nominal fixture volume; test content only."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "",
+            "instruction": ""
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "disconnected-fallback",
+      "label": "Disconnected Fallback",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": {
+        "connected": false,
+        "source": [
+          {
+            "kind": "fact",
+            "value": "Must not render",
+            "label": "STALE CONNECTED CONTENT",
+            "body": "",
+            "attribution": "",
+            "source_title": "",
+            "source_url": "",
+            "qualification": ""
+          }
+        ],
+        "manual": [
+          {
+            "kind": "fact",
+            "value": "Explicit supplied value",
+            "label": "Manual fallback",
+            "body": "",
+            "attribution": "",
+            "source_title": "",
+            "source_url": "",
+            "qualification": ""
+          }
+        ]
+      },
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "disconnected-omit",
+      "label": "Disconnected Omit",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": {
+        "connected": false,
+        "source": [
+          {
+            "kind": "fact",
+            "value": "Must not render",
+            "label": "STALE CONNECTED CONTENT",
+            "body": "",
+            "attribution": "",
+            "source_title": "",
+            "source_url": "",
+            "qualification": ""
+          }
+        ]
+      },
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "connected-source",
+      "label": "Connected Source",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": {
+        "connected": true,
+        "source": [
+          {
+            "kind": "metric",
+            "value": "250 ml",
+            "label": "Container volume",
+            "body": "A fixture specification, not a study outcome.",
+            "attribution": "",
+            "source_title": "Fixture specification",
+            "source_url": "#subject",
+            "qualification": "Nominal fixture volume; test content only."
+          },
+          {
+            "kind": "fact",
+            "value": "Amber glass",
+            "label": "Container material",
+            "body": "A reusable fixture bottle and separate pump.",
+            "attribution": "",
+            "source_title": "",
+            "source_url": "",
+            "qualification": ""
+          },
+          {
+            "kind": "claim",
+            "value": "",
+            "label": "",
+            "body": "Designed to be stored upright.",
+            "attribution": "",
+            "source_title": "",
+            "source_url": "",
+            "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+          }
+        ],
+        "manual": [
+          {
+            "kind": "fact",
+            "value": "Explicit supplied value",
+            "label": "Manual fallback",
+            "body": "",
+            "attribution": "",
+            "source_title": "",
+            "source_url": "",
+            "qualification": ""
+          }
+        ]
+      },
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "url-valid",
+      "label": "Url Valid",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Fixture",
+          "label": "External source",
+          "body": "",
+          "attribution": "",
+          "source_title": "HTTP source",
+          "source_url": "https://example.org/specification?x=1&y=2",
+          "qualification": ""
+        },
+        {
+          "kind": "fact",
+          "value": "Fixture",
+          "label": "Local source",
+          "body": "",
+          "attribution": "",
+          "source_title": "Local context",
+          "source_url": "/pages/fixture-source",
+          "qualification": ""
+        },
+        {
+          "kind": "fact",
+          "value": "Fixture",
+          "label": "Same subject",
+          "body": "",
+          "attribution": "",
+          "source_title": "Subject",
+          "source_url": "#subject",
+          "qualification": ""
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "url-invalid",
+      "label": "Url Invalid",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Text remains",
+          "label": "Invalid scheme",
+          "body": "",
+          "attribution": "",
+          "source_title": "Source text remains",
+          "source_url": "javascript:alert(1)",
+          "qualification": ""
+        },
+        {
+          "kind": "fact",
+          "value": "Text remains",
+          "label": "Missing target",
+          "body": "",
+          "attribution": "",
+          "source_title": "Missing target source text",
+          "source_url": "#not-rendered",
+          "qualification": ""
+        },
+        {
+          "kind": "fact",
+          "value": "Text remains",
+          "label": "Malformed URL",
+          "body": "",
+          "attribution": "",
+          "source_title": "Malformed source text",
+          "source_url": "https://",
+          "qualification": ""
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "app-present",
+      "label": "App Present",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "Container volume",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "Nominal fixture volume; test content only."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": {
+        "heading": "Generic app guest — synthetic test content",
+        "body": "This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented.",
+        "link": "/pages/fixture-source"
+      },
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "app-tall",
+      "label": "App Tall",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "Container volume",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "Nominal fixture volume; test content only."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": {
+        "heading": "Generic app guest — synthetic test content",
+        "body": "This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented. ",
+        "link": "/pages/fixture-source"
+      },
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "app-removed",
+      "label": "App Removed",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "Container volume",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "Nominal fixture volume; test content only."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    },
+    {
+      "id": "two-instances",
+      "label": "Two Instances",
+      "host": "pdp",
+      "preset": "beauty",
+      "title": "Everyday care, clearly explained.",
+      "introduction": "An ordinary product, with facts attached to what they explain.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "Container volume",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "Nominal fixture volume; test content only."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": {
+        "heading": "Generic app guest — synthetic test content",
+        "body": "This plain app-block stand-in demonstrates an insertion seam only. No reviews, ratings or real app integration are represented.",
+        "link": "/pages/fixture-source"
+      },
+      "density": "balanced",
+      "emphasis": "quiet",
+      "instances": 2
+    },
+    {
+      "id": "localization",
+      "label": "Localization",
+      "host": "pdp",
+      "preset": "neutral",
+      "title": "情報と文脈 — معلومات واضحة — Ordinary information",
+      "introduction": "A collection for everyday use. On your terms.",
+      "product": {
+        "title": "Everyday care bottle",
+        "price": "CAD 24.00",
+        "status": "Available · fixture only",
+        "url": "/products/fixture-product",
+        "media": "care-pump.jpg",
+        "alt": "Unbranded amber bottle with a pump on a white background"
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "250 ml",
+          "label": "仕様 / مواصفات / LONGUNBROKENLABELLONGUNBROKENLABELLONGUNBROKENLABELLONGUNBROKENLABELLONGUNBROKENLABELLONGUNBROKENLABELLONGUNBROKENLABELLONGUNBROKENLABELLONGUNBROKENLABELLONGUNBROKENLABEL",
+          "body": "A fixture specification, not a study outcome.",
+          "attribution": "",
+          "source_title": "Fixture specification",
+          "source_url": "#subject",
+          "qualification": "例示用データ。 هذه بيانات تجريبية وليست ادعاءً سريرياً."
+        },
+        {
+          "kind": "fact",
+          "value": "Amber glass",
+          "label": "Container material",
+          "body": "A reusable fixture bottle and separate pump.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        },
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "Designed to be stored upright.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Fixture storage instruction only; no product benefit or performance claim."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Two formats, one clear comparison",
+        "introduction": "Compare supplied specifications rather than inferred superiority.",
+        "qualification": "All values are synthetic fixture specifications. Neither format is declared a winner.",
+        "source_title": "Comparison context",
+        "source_url": "/pages/fixture-source",
+        "subjects": [
+          "Pump bottle",
+          "Refill container"
+        ],
+        "rows": [
+          {
+            "criterion": "Volume",
+            "left": "250 ml",
+            "right": "500 ml",
+            "qualification": "Nominal fixture sizes"
+          },
+          {
+            "criterion": "Container",
+            "left": "Glass",
+            "right": "Pouch",
+            "qualification": "Fixture materials"
+          },
+          {
+            "criterion": "Dispensing",
+            "left": "Pump",
+            "right": "Pour",
+            "qualification": "Not a performance ranking"
+          },
+          {
+            "criterion": "Storage",
+            "left": "Upright",
+            "right": "Upright",
+            "qualification": "Follow supplied instructions"
+          }
+        ]
+      },
+      "process": {
+        "heading": "A practical sequence",
+        "introduction": "Simple supplied instructions, kept in their intended order.",
+        "source_title": "Fixture instructions",
+        "source_url": "/pages/fixture-source",
+        "steps": [
+          {
+            "heading": "Prepare",
+            "instruction": "Place the container on a stable surface.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Open",
+            "instruction": "Open only when ready to use.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Follow the supplied product instructions.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          },
+          {
+            "heading": "Store",
+            "instruction": "Close and store upright away from heat.",
+            "media": null,
+            "alt": "",
+            "qualification": "Fixture instruction; not an efficacy promise."
+          }
+        ]
+      },
+      "app": null,
+      "density": "balanced",
+      "emphasis": "quiet"
+    }
+  ]
+}

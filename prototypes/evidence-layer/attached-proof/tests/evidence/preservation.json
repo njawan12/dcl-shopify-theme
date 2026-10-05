@@ -1,0 +1,10 @@
+{
+  "parent": "c92fc598a9016d75479b811b59c8fcd9275a1ea3",
+  "refs": {
+    "m0-live-market-evidence-2026-10-03": "c92fc598a9016d75479b811b59c8fcd9275a1ea3",
+    "m1-split-tension-prototype": "873cfbb4a73c366bca0f9c259349a187c81da968",
+    "m1-monument-prototype": "98a30d157f1cf152e609c74a60f6eb0246db736c",
+    "m1-commerce-mosaic-anchor-cadence": "39bd22bfa717951e746dc2be0035a687348d53e8"
+  },
+  "boundary": "All additions under prototypes/evidence-layer/attached-proof; no preserved files changed."
+}

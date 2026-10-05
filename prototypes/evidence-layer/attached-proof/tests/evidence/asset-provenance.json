@@ -1,0 +1,29 @@
+{
+  "copied": [
+    {
+      "file": "media/care-pump.jpg",
+      "source": "39bd22bfa717951e746dc2be0035a687348d53e8:prototypes/commerce-mosaic/anchor-cadence/media/care-pump.jpg",
+      "method": "Read-only git object copy; source unchanged."
+    },
+    {
+      "file": "media/utility-case.jpg",
+      "source": "39bd22bfa717951e746dc2be0035a687348d53e8:prototypes/commerce-mosaic/anchor-cadence/media/utility-case.jpg",
+      "method": "Read-only git object copy; source unchanged."
+    },
+    {
+      "file": "media/metal-ring.svg",
+      "source": "39bd22bfa717951e746dc2be0035a687348d53e8:prototypes/commerce-mosaic/anchor-cadence/media/metal-ring.svg",
+      "method": "Read-only git object copy; source unchanged."
+    },
+    {
+      "file": "media/pantry-jar.svg",
+      "source": "39bd22bfa717951e746dc2be0035a687348d53e8:prototypes/commerce-mosaic/anchor-cadence/media/pantry-jar.svg",
+      "method": "Read-only git object copy; source unchanged."
+    }
+  ],
+  "authored": [
+    "media/storage-before.svg",
+    "media/storage-after.svg"
+  ],
+  "authored_scope": "Synthetic schematic states of one storage container, explicitly labelled not observed results. No photographic/clinical transformation or claim."
+}
