@@ -1,6 +1,19 @@
 # M1 Evidence Layer / Attached proof
 
-**Visual verdict: PENDING HUMAN REVIEW.** No PASS/NARROW/FAIL verdict is assigned by this implementation.
+**Final M1 human visual verdict: PASS TO PRESERVE.**
+
+Human review accepts:
+
+- the subject → attached evidence → qualification/source relationship as recognizable signature language;
+- survival of the neutral originality torture test;
+- coherent desktop-to-mobile transformation;
+- distinct semantic roles for Evidence Note, Evidence Pair and Process Sequence;
+- preservation of commerce/content hierarchy;
+- the bounded merchant-control model.
+
+Wide-screen attachment spacing may receive production visual polish, but this does not authorize further M1 visual iteration.
+
+Untested production gates remain unchanged: real Shopify/dynamic-source/app/editor integration, genuine merchant evidence/provenance, accessibility certification including zoom/RTL, cross-browser/touch validation and measured performance.
 
 Authority: exact commit `c92fc598a9016d75479b811b59c8fcd9275a1ea3`, `docs/m1-evidence-layer-prebuild-contract.md` and its four inherited M1 contracts. `implementation-brief.md` was written before prototype code and closes scope, inventory, coverage, evidence, tests, budgets, preservation and stopping conditions.
 
@@ -34,4 +47,4 @@ PYTHONDONTWRITEBYTECODE=1 python3 prototypes/evidence-layer/attached-proof/tests
 
 The second command requires the local server. Browser evidence assertions consume actual saved geometry/order observations and current-source fingerprints; they do not invent or silently regenerate observations. Component/content changes require affected native-browser recapture. `interactions.json` records source-link keyboard focus/scoped target, product stub navigation, native fixture form app states/one-step process and skip target. `one-step-accessibility.txt` is an observed accessibility tree, not a screen-reader certification.
 
-See `findings.md`, `tests/evidence/complexity.json`, `tests/evidence/checks.json` and `tests/evidence/changed-files.json` for completion detail. No human verdict, source factual assessment, real Shopify/app/editor integration, accessibility/cross-browser certification or measured performance is inferred. No push, PR, merge or M2. Stop for human review.
+See `findings.md`, `tests/evidence/complexity.json`, `tests/evidence/checks.json` and `tests/evidence/changed-files.json` for completion detail. The final human verdict above does not establish source factual assessment, real Shopify/app/editor integration, accessibility/cross-browser certification or measured performance. Only the documentation verdict commit is authorized for publication. No further M1 visual iteration, PR, merge or M2. Stop after remote SHA verification.

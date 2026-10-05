@@ -1,6 +1,21 @@
 # M1 Evidence Layer completion report
 
-**Visual verdict: PENDING HUMAN REVIEW.** The human owns PASS/NARROW/FAIL. Automated checks below are engineering observations, not a visual/product verdict.
+**Final M1 human visual verdict: PASS TO PRESERVE.**
+
+Human review accepts:
+
+- the subject → attached evidence → qualification/source relationship as recognizable signature language;
+- survival of the neutral originality torture test;
+- coherent desktop-to-mobile transformation;
+- distinct semantic roles for Evidence Note, Evidence Pair and Process Sequence;
+- preservation of commerce/content hierarchy;
+- the bounded merchant-control model.
+
+Wide-screen attachment spacing may receive production visual polish, but this does not authorize further M1 visual iteration.
+
+Untested production gates remain unchanged: real Shopify/dynamic-source/app/editor integration, genuine merchant evidence/provenance, accessibility certification including zoom/RTL, cross-browser/touch validation and measured performance.
+
+Automated checks below remain engineering observations; the final verdict above was supplied by human review. The implementation record describes commit `d2e7ac6375840034fff40119002b2a43ee581b76`. The subsequent documentation-only verdict commit has that exact parent, changes README/findings only and is published to `m1-evidence-layer-prototype`; its exact SHA is reported in delivery.
 
 ## Branch, ancestry and preservation
 
@@ -64,6 +79,6 @@ Contract decisions: notes2(density/emphasis); pair3(mode/density/emphasis); proc
 
 No approved contract scope exception. Root-relative URL support is confined to the two local fixture destinations; production URL contexts remain an integration task. Before/after proof is synthetic schematic content clearly identified as such, not a genuine customer/product outcome; real merchant media/provenance remains untested. The fixture adapter demonstrates content contract resolution, not live Shopify dynamic-source connections. Static editorial quotes/certification records are explicitly synthetic examples, never real reviews or endorsed claims.
 
-Untested production gates: human signature/originality/visual-polish decision; real Shopify sections/blocks/schema, PDP commerce/Markets, dynamic-source compatibility and editor lifecycle; real app insertion/removal/vendor interoperability and source media/provenance; VoiceOver/NVDA, manual200%/400% zoom/text enlargement/high contrast, complete localization/RTL, physical touch and cross-browser/device coverage; measured LCP/CLS/INP/Lighthouse/network budgets and production responsive image pipeline. The M1 before/after proof does not verify real result evidence or truth. Source links do not establish or certify credibility. No accessibility/performance certification is claimed.
+Untested production gates: production visual polish; real Shopify sections/blocks/schema, PDP commerce/Markets, dynamic-source compatibility and editor lifecycle; real app insertion/removal/vendor interoperability and source media/provenance; VoiceOver/NVDA, manual200%/400% zoom/text enlargement/high contrast, complete localization/RTL, physical touch and cross-browser/device coverage; measured LCP/CLS/INP/Lighthouse/network budgets and production responsive image pipeline. The M1 before/after proof does not verify real result evidence or truth. Source links do not establish or certify credibility. No accessibility/performance certification is claimed.
 
-Stop at **PENDING HUMAN REVIEW**. Preserve the original M1 systems. No push/PR/merge/M2.
+Final M1 human verdict: **PASS TO PRESERVE**. Preserve the accepted prototype and original M1 systems. The documentation-only verdict commit is authorized for publication to `m1-evidence-layer-prototype`. No further M1 visual iteration, PR, merge or M2. Stop after remote SHA verification.
