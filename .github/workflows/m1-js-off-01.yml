@@ -1,0 +1,55 @@
+name: M1 JS-OFF-01
+on:
+  push:
+    branches: [m1-final-closure-batch-b]
+    paths:
+      - '.github/workflows/m1-js-off-01.yml'
+      - 'prototypes/m1-final-closure/batch-b/tests/js-off.cjs'
+      - 'prototypes/m1-final-closure/batch-b/tests/package*.json'
+      - 'prototypes/m1-final-closure/batch-a/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  js-off-01:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      JS_OFF_EVIDENCE_DIR: ${{ runner.temp }}/js-off-01
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: prototypes/m1-final-closure/batch-b/tests/package-lock.json
+      - name: Install pinned test dependency
+        working-directory: prototypes/m1-final-closure/batch-b/tests
+        run: npm ci
+      - name: Install Chromium headless shell and Linux dependencies
+        working-directory: prototypes/m1-final-closure/batch-b/tests
+        run: npx playwright install --with-deps --only-shell chromium
+      - name: Execute JS-OFF-01
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$JS_OFF_EVIDENCE_DIR"
+          python3 prototypes/m1-final-closure/batch-a/serve.py > "$JS_OFF_EVIDENCE_DIR/server.log" 2>&1 &
+          proof_pid=$!
+          trap 'kill "$proof_pid" 2>/dev/null || true' EXIT
+          for attempt in {1..30}; do
+            if curl --silent --fail 'http://127.0.0.1:3005/guided?fixture=beauty' > /dev/null; then break; fi
+            kill -0 "$proof_pid"
+            sleep 1
+          done
+          curl --silent --fail 'http://127.0.0.1:3005/guided?fixture=beauty' > /dev/null
+          timeout 180s node prototypes/m1-final-closure/batch-b/tests/js-off.cjs 2>&1 | tee "$JS_OFF_EVIDENCE_DIR/test-output.log"
+      - name: Upload JS-OFF-01 evidence
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: m1-js-off-01-${{ github.sha }}
+          path: ${{ runner.temp }}/js-off-01/
+          if-no-files-found: warn
+          retention-days: 30

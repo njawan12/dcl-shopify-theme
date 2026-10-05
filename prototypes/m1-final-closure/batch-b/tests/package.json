@@ -1,0 +1,6 @@
+{
+  "name": "m1-js-off-01",
+  "private": true,
+  "scripts": { "test": "node js-off.cjs" },
+  "devDependencies": { "playwright": "1.62.1" }
+}
