@@ -1,0 +1,13 @@
+# Recapture protocol (test tooling, not storefront JS)
+
+Start the local server documented in README. The bundled shell Playwright executable revision differed from installed Chromium; using the available executable still hit macOS MachPort sandbox denial. No software was installed and no security setting was changed. Actual evidence was collected using the Codex in-app browser's documented cua_repl APIs.
+
+Bind a new local test tab to http://127.0.0.1:3004/. Use the browser viewport capability and read-only Playwright evaluate. Read `fixture-inventory.json` and `capture-probe.js`; navigate each named fixture, verify the selected native fixture control after any navigation timeout, set each of the eight widths at height1000, evaluate the probe and save the actual returned JSON as browser-matrix.json. Never synthesize geometry from fixture expectations. All304 pairs must be present exactly once. Source hashes must be regenerated only after observations genuinely match the current source.
+
+For each entry in frames.json: set specified viewport, navigate actual fixture, scroll normally until every image reports naturalWidth>0, capture fullPage JPEG through tab.screenshot, write bytes to the named evidence file. Save per-frame unloaded count. Repeated and app guests use independently authored tests/guests documents; no app reviews are simulated.
+
+Native keyboard journey: Tab from product link to metric source (3px outline), Enter to scoped subject, Enter on skip link to main, Enter product link to read-only destination. In app-wide320, focus the labelled guest region and press native Right; record positive scrollLeft and zero page overflow, then follow its native guest destination. Record one-process DOM/accessibility snapshot retaining one ordered process.
+
+Supplemental JPEGs: keyboard-focus390 viewport; neutral390 script-free literal baseline; neutral390 zero-animation invariant; neutral320 with `&test=reflow` (test-only24px root font). The latter is150% text enlargement, not browser zoom. Browser JS-disable and OS reduced-motion preference toggles were not performed; there is zero runtime JS and zero animation at all widths. Record these limitations, never mislabel the supplements as OS/browser setting tests.
+
+Hash runtime sources, media, guests, Liquid specimen, reflow stylesheet and probe into capture.json; hash all47 JPEGs. Then run tests/browser.py, which validates actual observations, image dimensions, source parity and semantic/count invariants. Review branded/neutral controlling and representative app/long/mobile frames; human originality verdict remains pending.

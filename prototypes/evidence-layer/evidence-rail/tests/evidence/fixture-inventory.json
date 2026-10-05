@@ -1,0 +1,3798 @@
+{
+  "fixtures": {
+    "branded-pdp": {
+      "preset": "beauty",
+      "host": "pdp",
+      "subject": {
+        "title": "Every ingredient. In context.",
+        "product": "Daily care pump",
+        "media": "care-pump.jpg",
+        "alt": "Ordinary white-background pump-bottle test packshot",
+        "price": "CAD 24.00",
+        "material": "Container material",
+        "value": "Glass",
+        "body": "The fixture container uses glass; the pump is a separate material.",
+        "quote": "I prefer having the container and care details beside the product.",
+        "intro": "A closer look at what is supplied, how it is described, and how to care for it."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Glass",
+          "label": "Container material",
+          "body": "The fixture container uses glass; the pump is a separate material.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Glass",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "neutral-pdp": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "branded-editorial": {
+      "preset": "beauty",
+      "host": "editorial",
+      "subject": {
+        "title": "Every ingredient. In context.",
+        "product": "Daily care pump",
+        "media": "care-pump.jpg",
+        "alt": "Ordinary white-background pump-bottle test packshot",
+        "price": "CAD 24.00",
+        "material": "Container material",
+        "value": "Glass",
+        "body": "The fixture container uses glass; the pump is a separate material.",
+        "quote": "I prefer having the container and care details beside the product.",
+        "intro": "A closer look at what is supplied, how it is described, and how to care for it."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Glass",
+          "label": "Container material",
+          "body": "The fixture container uses glass; the pump is a separate material.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Glass",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "neutral-editorial": {
+      "preset": "neutral",
+      "host": "editorial",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "jewelry": {
+      "preset": "jewelry",
+      "host": "pdp",
+      "subject": {
+        "title": "The material. The making.",
+        "product": "Plain metal ring",
+        "media": "metal-ring.svg",
+        "alt": "Ordinary ring schematic on a white background",
+        "price": "CAD 38.00",
+        "material": "Ring material",
+        "value": "Steel",
+        "body": "Schematic fixture material, not a real product specification or hallmark.",
+        "quote": "I want the material and care notes to remain easy to find.",
+        "intro": "Material, dimensions and care are part of the same product story."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Steel",
+          "label": "Ring material",
+          "body": "Schematic fixture material, not a real product specification or hallmark.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Steel",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "food": {
+      "preset": "food",
+      "host": "pdp",
+      "subject": {
+        "title": "What is inside. How it is served.",
+        "product": "Pantry jar",
+        "media": "pantry-jar.svg",
+        "alt": "Ordinary pantry jar schematic on white",
+        "price": "CAD 12.00",
+        "material": "Ingredient record",
+        "value": "Oats",
+        "body": "Synthetic one-ingredient fixture, not a real nutrition or allergen declaration.",
+        "quote": "Serving and storage information belong next to the ingredient record.",
+        "intro": "Ingredient context, portion detail and storage instructions in one reading journey."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Oats",
+          "label": "Ingredient record",
+          "body": "Synthetic one-ingredient fixture, not a real nutrition or allergen declaration.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Oats",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "zero": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [],
+      "pair": null,
+      "process": null,
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "one": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        }
+      ],
+      "pair": null,
+      "process": null,
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "dense": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        },
+        {
+          "kind": "certification",
+          "value": "",
+          "label": "Example certificate record",
+          "body": "Schema test only; no real certification or endorsement.",
+          "attribution": "Synthetic issuer",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Illustrative record scoped to this fixture only."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          },
+          {
+            "criterion": "Size record",
+            "left": "240 mm",
+            "right": "Not supplied",
+            "qualification": "Synthetic dimensions."
+          },
+          {
+            "criterion": "Finish record",
+            "left": "Plain",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Store",
+            "instruction": "Store in the specified context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "spacious",
+      "emphasis": "normal"
+    },
+    "missing-optional": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Canvas",
+          "label": "Outer material",
+          "body": "",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": ""
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "",
+        "source_url": ""
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "no-media": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "portrait": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "care-pump.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "landscape": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "storage-before.svg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "metric-no-source": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Authored fixture mass",
+          "body": "",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "No source supplied; not an independently verified result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "long-claim": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "claim",
+          "value": "",
+          "label": "",
+          "body": "This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. ",
+          "attribution": "Example author",
+          "source_title": "Fixture context",
+          "source_url": "#subject",
+          "qualification": "Synthetic example; no claim or result is verified."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "long-source": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture mass",
+          "body": "Test claim only.",
+          "attribution": "Example author",
+          "source_title": "This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. ",
+          "source_url": "#subject",
+          "qualification": "Synthetic example; no claim or result is verified."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "long-quote": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "quote",
+          "value": "",
+          "label": "",
+          "body": "This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. ",
+          "attribution": "Example author",
+          "source_title": "Fixture context",
+          "source_url": "#subject",
+          "qualification": "Synthetic example; no claim or result is verified."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "translation": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "\u60c5\u5831\u3092\u8aad\u3080 \u00b7 Produktinformation MaterialbeschreibungMaterialbeschreibungMaterialbeschreibungMaterialbeschreibungMaterialbeschreibung",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise.Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "This is deliberately lengthy synthetic authored context with material limitations kept visible in the reading journey. This is deliberately lengthy synthetic authored context wit",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "rtl": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "\u062a\u0641\u0627\u0635\u064a\u0644 \u0648\u0627\u0636\u062d\u0629 \u0639\u0646 \u0627\u0644\u0645\u0646\u062a\u062c",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a \u0627\u0644\u0645\u0639\u0631\u0648\u0636\u0629 \u0628\u064a\u0627\u0646\u0627\u062a \u0627\u062e\u062a\u0628\u0627\u0631 \u0648\u0644\u064a\u0633\u062a \u0627\u062f\u0639\u0627\u0621\u0627\u062a \u0645\u0648\u062b\u0642\u0629."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "rtl",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "before-after": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "before-after",
+        "heading": "Before / after arrangement",
+        "introduction": "Synthetic storage diagram, not a product-result transformation.",
+        "sides": [
+          {
+            "label": "Before",
+            "media": "storage-before.svg",
+            "alt": "Schematic storage items before arrangement",
+            "caption": "Unarranged example."
+          },
+          {
+            "label": "After",
+            "media": "storage-after.svg",
+            "alt": "Same schematic storage items after arrangement",
+            "caption": "Arranged example."
+          }
+        ],
+        "qualification": "Illustrative schematic only; no customer outcome or efficacy claim.",
+        "source_title": "Fixture diagram context",
+        "source_url": "#subject"
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "before-after-incomplete": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "before-after",
+        "heading": "Before / after arrangement",
+        "introduction": "Synthetic storage diagram, not a product-result transformation.",
+        "sides": [
+          {
+            "label": "Before",
+            "media": "storage-before.svg",
+            "alt": "Schematic storage items before arrangement",
+            "caption": "Unarranged example."
+          },
+          {
+            "label": "After",
+            "media": "",
+            "alt": "Same schematic storage items after arrangement",
+            "caption": "Arranged example."
+          }
+        ],
+        "qualification": "Illustrative schematic only; no customer outcome or efficacy claim.",
+        "source_title": "Fixture diagram context",
+        "source_url": "#subject"
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "comparison": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "comparison-incomplete": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "reorder": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        },
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "process",
+        "pair"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "repeated": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "plain",
+      "guest_position": "after",
+      "instances": 2,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "manual": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "dynamic": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "binding": {
+            "state": "connected",
+            "value": {
+              "kind": "fact",
+              "value": "Woven canvas",
+              "label": "Outer material",
+              "body": "The fixture describes the outer shell; hardware is listed separately.",
+              "attribution": "",
+              "source_title": "",
+              "source_url": "",
+              "qualification": "Synthetic fixture content; no real product specification is certified."
+            }
+          }
+        },
+        {
+          "binding": {
+            "state": "connected",
+            "value": {
+              "kind": "metric",
+              "value": "240 g",
+              "label": "Fixture object mass",
+              "body": "Mass includes its outer container in this authored test record.",
+              "attribution": "",
+              "source_title": "Fixture measurement context",
+              "source_url": "#subject",
+              "qualification": "Example only; not a measured merchant result."
+            }
+          }
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "disconnected-fallback": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "binding": {
+            "state": "disconnected",
+            "value": {
+              "kind": "metric",
+              "value": "999",
+              "label": "Stale",
+              "body": "",
+              "attribution": "",
+              "source_title": "",
+              "source_url": "",
+              "qualification": ""
+            },
+            "fallback": {
+              "kind": "fact",
+              "value": "Woven canvas",
+              "label": "Outer material",
+              "body": "The fixture describes the outer shell; hardware is listed separately.",
+              "attribution": "",
+              "source_title": "",
+              "source_url": "",
+              "qualification": "Synthetic fixture content; no real product specification is certified."
+            }
+          }
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "disconnected-omit": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "binding": {
+            "state": "disconnected",
+            "value": {
+              "kind": "metric",
+              "value": "999",
+              "label": "Stale",
+              "body": "",
+              "attribution": "",
+              "source_title": "",
+              "source_url": "",
+              "qualification": ""
+            }
+          }
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "app-absent": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "app-expected": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "plain",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "app-awkward": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "plain",
+      "guest_position": "between",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "app-tall": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "tall",
+      "guest_position": "between",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "app-wide": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "wide",
+      "guest_position": "between",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "app-removed": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "app-reordered": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "plain",
+      "guest_position": "before",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "one-process": {
+      "preset": "neutral",
+      "host": "pdp",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "",
+            "instruction": "Invalid"
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "notes",
+        "pair",
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    },
+    "editorial-process": {
+      "preset": "neutral",
+      "host": "editorial",
+      "subject": {
+        "title": "Know the object. Follow the detail.",
+        "product": "Utility storage case",
+        "media": "utility-case.jpg",
+        "alt": "Ordinary rectangular utility case test packshot",
+        "price": "CAD 24.00",
+        "material": "Outer material",
+        "value": "Woven canvas",
+        "body": "The fixture describes the outer shell; hardware is listed separately.",
+        "quote": "The dimensions and care instructions helped me understand the case.",
+        "intro": "Plain product information, connected to its context rather than dressed up as a promise."
+      },
+      "notes": [
+        {
+          "kind": "fact",
+          "value": "Woven canvas",
+          "label": "Outer material",
+          "body": "The fixture describes the outer shell; hardware is listed separately.",
+          "attribution": "",
+          "source_title": "",
+          "source_url": "",
+          "qualification": "Synthetic fixture content; no real product specification is certified."
+        },
+        {
+          "kind": "metric",
+          "value": "240 g",
+          "label": "Fixture object mass",
+          "body": "Mass includes its outer container in this authored test record.",
+          "attribution": "",
+          "source_title": "Fixture measurement context",
+          "source_url": "#subject",
+          "qualification": "Example only; not a measured merchant result."
+        }
+      ],
+      "pair": {
+        "mode": "comparison",
+        "heading": "Compare the supplied details",
+        "introduction": "Two explicit fixture subjects; no automatic recommendation.",
+        "subjects": [
+          "This object",
+          "Reference object"
+        ],
+        "rows": [
+          {
+            "criterion": "Material record",
+            "left": "Woven canvas",
+            "right": "Not supplied",
+            "qualification": "Missing reference information is explicit."
+          },
+          {
+            "criterion": "Care record",
+            "left": "Supplied",
+            "right": "Not supplied",
+            "qualification": ""
+          }
+        ],
+        "qualification": "Illustrative authored comparison, not competitor claims.",
+        "source_title": "",
+        "source_url": ""
+      },
+      "process": {
+        "heading": "A clear care sequence",
+        "introduction": "Instructions are distinct from factual claims.",
+        "steps": [
+          {
+            "heading": "Inspect",
+            "instruction": "Read the supplied material record before use.",
+            "media": "",
+            "alt": "",
+            "qualification": "Test instruction, not product efficacy evidence."
+          },
+          {
+            "heading": "Use",
+            "instruction": "Keep the object within the described use context.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          },
+          {
+            "heading": "Care",
+            "instruction": "Follow the specific care information supplied with a real product.",
+            "media": "",
+            "alt": "",
+            "qualification": ""
+          }
+        ],
+        "source_title": "Fixture instructions",
+        "source_url": "#subject"
+      },
+      "order": [
+        "process"
+      ],
+      "guest": "",
+      "guest_position": "after",
+      "instances": 1,
+      "dir": "ltr",
+      "density": "balanced",
+      "emphasis": "normal"
+    }
+  },
+  "widths": [
+    320,
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1280,
+    1440
+  ]
+}

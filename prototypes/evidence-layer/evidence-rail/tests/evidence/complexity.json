@@ -1,0 +1,99 @@
+{
+  "files": {
+    "evidence.css": {
+      "physical_lines": 11,
+      "nonblank_lines": 11,
+      "bytes": 7124,
+      "gzip_bytes": 2200
+    },
+    "content.py": {
+      "physical_lines": 58,
+      "nonblank_lines": 55,
+      "bytes": 3358,
+      "gzip_bytes": 1173
+    },
+    "fixtures.py": {
+      "physical_lines": 56,
+      "nonblank_lines": 52,
+      "bytes": 8904,
+      "gzip_bytes": 3228
+    },
+    "render.py": {
+      "physical_lines": 67,
+      "nonblank_lines": 67,
+      "bytes": 7452,
+      "gzip_bytes": 2826
+    },
+    "serve.py": {
+      "physical_lines": 20,
+      "nonblank_lines": 20,
+      "bytes": 1579,
+      "gzip_bytes": 824
+    },
+    "tests/static.py": {
+      "physical_lines": 80,
+      "nonblank_lines": 80,
+      "bytes": 6314,
+      "gzip_bytes": 2650
+    },
+    "tests/server.py": {
+      "physical_lines": 23,
+      "nonblank_lines": 23,
+      "bytes": 1290,
+      "gzip_bytes": 668
+    },
+    "tests/browser.py": {
+      "physical_lines": 87,
+      "nonblank_lines": 87,
+      "bytes": 6013,
+      "gzip_bytes": 2332
+    },
+    "tests/capture-probe.js": {
+      "physical_lines": 21,
+      "nonblank_lines": 21,
+      "bytes": 2724,
+      "gzip_bytes": 1076
+    },
+    "tests/reflow.css": {
+      "physical_lines": 2,
+      "nonblank_lines": 2,
+      "bytes": 106,
+      "gzip_bytes": 118
+    },
+    "app-host.liquid": {
+      "physical_lines": 19,
+      "nonblank_lines": 19,
+      "bytes": 563,
+      "gzip_bytes": 318
+    }
+  },
+  "runtime_browser_js": {
+    "lines": 0,
+    "bytes": 0
+  },
+  "responsive_breakpoints": [
+    768,
+    1280
+  ],
+  "primitive_renderers": 3,
+  "normalizers": 3,
+  "source_binding_adapter": 1,
+  "structural_url_checker": 1,
+  "credibility_or_fact_checkers": 0,
+  "responsive_dom_duplication": 0,
+  "runtime_dependencies": [],
+  "test_tooling": "Python standard library + Codex in-app browser, test-only probe",
+  "controls": {
+    "note": 2,
+    "pair": 3,
+    "process": 2,
+    "app": 0,
+    "conditional": 0
+  },
+  "caps": {
+    "notes": 3,
+    "pair": 1,
+    "comparison_rows": 4,
+    "process_steps": 4
+  }
+}

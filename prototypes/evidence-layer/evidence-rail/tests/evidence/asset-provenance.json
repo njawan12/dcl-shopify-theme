@@ -1,0 +1,44 @@
+[
+  {
+    "file": "care-pump.jpg",
+    "sha256": "ec758e0c48d5021f32d7c26171f12ac577378f7417dd3fbeb00a97194b0ffb6b",
+    "source_commit": "c48cd4ff9ba784bea1a1e91afbadfa8004f2bc1a",
+    "source_path": "prototypes/evidence-layer/attached-proof/media/care-pump.jpg",
+    "role": "Read-only reuse of existing ordinary synthetic prototype media, not genuine merchant results or claims"
+  },
+  {
+    "file": "utility-case.jpg",
+    "sha256": "27799afc0c570c8a79c2a0c47c2a67c93b17f7dd34c124e3f82b918bd009d8bc",
+    "source_commit": "c48cd4ff9ba784bea1a1e91afbadfa8004f2bc1a",
+    "source_path": "prototypes/evidence-layer/attached-proof/media/utility-case.jpg",
+    "role": "Read-only reuse of existing ordinary synthetic prototype media, not genuine merchant results or claims"
+  },
+  {
+    "file": "metal-ring.svg",
+    "sha256": "c52991d74112531024c9b897621a11a48ca2ebf5e8b67ea32bfd30f8af9a9176",
+    "source_commit": "c48cd4ff9ba784bea1a1e91afbadfa8004f2bc1a",
+    "source_path": "prototypes/evidence-layer/attached-proof/media/metal-ring.svg",
+    "role": "Read-only reuse of existing ordinary synthetic prototype media, not genuine merchant results or claims"
+  },
+  {
+    "file": "pantry-jar.svg",
+    "sha256": "527030fa33fe6f3f3ed24e095295f0d2db70a79dead3dcd79e387d5b307a913a",
+    "source_commit": "c48cd4ff9ba784bea1a1e91afbadfa8004f2bc1a",
+    "source_path": "prototypes/evidence-layer/attached-proof/media/pantry-jar.svg",
+    "role": "Read-only reuse of existing ordinary synthetic prototype media, not genuine merchant results or claims"
+  },
+  {
+    "file": "storage-before.svg",
+    "sha256": "4a5ca82342e79db82fa2eb21d5a685465bb1a517a0dd6efcd81c78351abcc281",
+    "source_commit": "c48cd4ff9ba784bea1a1e91afbadfa8004f2bc1a",
+    "source_path": "prototypes/evidence-layer/attached-proof/media/storage-before.svg",
+    "role": "Read-only reuse of existing ordinary synthetic prototype media, not genuine merchant results or claims"
+  },
+  {
+    "file": "storage-after.svg",
+    "sha256": "4f40b45cc4c49da00c800cf88534f2aa1ae6c54ce0e704f2c3b54a6cc62c82e3",
+    "source_commit": "c48cd4ff9ba784bea1a1e91afbadfa8004f2bc1a",
+    "source_path": "prototypes/evidence-layer/attached-proof/media/storage-after.svg",
+    "role": "Read-only reuse of existing ordinary synthetic prototype media, not genuine merchant results or claims"
+  }
+]

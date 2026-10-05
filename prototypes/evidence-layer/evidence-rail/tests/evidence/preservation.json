@@ -1,0 +1,10 @@
+{
+  "base": "9891b5ab66ad1199d22854e020ebdb124ecb15d4",
+  "refs": {
+    "m0-live-market-evidence-2026-10-03": "c92fc598a9016d75479b811b59c8fcd9275a1ea3",
+    "m1-split-tension-prototype": "3e1b34040899ec432c6d3e6733d6a85b68745b41",
+    "m1-commerce-mosaic-anchor-cadence": "39bd22bfa717951e746dc2be0035a687348d53e8",
+    "m1-monument-prototype": "98a30d157f1cf152e609c74a60f6eb0246db736c",
+    "m1-evidence-layer-prototype": "c48cd4ff9ba784bea1a1e91afbadfa8004f2bc1a"
+  }
+}

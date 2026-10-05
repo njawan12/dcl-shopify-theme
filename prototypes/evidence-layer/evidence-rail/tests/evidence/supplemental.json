@@ -1,0 +1,111 @@
+[
+  {
+    "file": "no-js-baseline-390.jpg",
+    "width": 390,
+    "observed": {
+      "collisions": [],
+      "duplicateIds": [],
+      "height": 1000,
+      "hosts": [
+        {
+          "apps": 0,
+          "dir": "ltr",
+          "guests": [],
+          "host": "pdp",
+          "instance": "rail-1",
+          "kinds": [
+            "fact",
+            "metric"
+          ],
+          "links": [
+            "/products/fixture-object",
+            "#rail-1-subject",
+            "#rail-1-subject"
+          ],
+          "notes": 2,
+          "order": [
+            "subject",
+            "notes",
+            "pair",
+            "process"
+          ],
+          "ordered": "OL",
+          "pairs": 1,
+          "rows": 2,
+          "sides": 0,
+          "steps": 3,
+          "text": "PRODUCT / EVIDENCE\n\nKnow the object. Follow the detail.\n\nPlain product information, connected to its context rather than dressed up as a promise.\n\nUtility storage case\nUtility storage case\n\nCAD 24.00\n\nRead-only fixture product context; no purchase or inventory promise.\n\nView product details\n\nEVIDENCE / 01\n\nDetails with a place in the story.\n01\n\nFACT / SPECIFICATION\n\nWoven canvas\n\nOuter material\n\nThe fixture describes the outer shell; hardware is listed separately.\n\nSynthetic fixture content; no real product specification is certified.\n\n02\n\nAUTHORED METRIC\n\n240 g\n\nFixture object mass\n\nMass includes its outer container in this authored test record.\n\nExample only; not a measured merchant result.\n\nFixture measurement context\n\nEVIDENCE / 02\n\nCompare the supplied details\n\nTwo explicit fixture subjects; no automatic recommendation.\n\nCompare the supplied details\nCriterion\nThis object\nReference object\nMaterial record\n\nMissing reference information is explicit.\n\nWoven canvas\nNot supplied\nCare record\nSupplied\nNot supplied\n\nIllustrative authored comparison, not competitor claims.\n\nPROCESS / SEQUENCE\n\nA clear care sequence\n\nInstructions are distinct from factual claims.\n\n01\nInspect\n\nRead the supplied material record before use.\n\nTest instruction, not product efficacy evidence.\n\n02\nUse\n\nKeep the object within the described use context.\n\n03\nCare\n\nFollow the specific care information supplied with a real product.\n\nFixture instructions"
+        }
+      ],
+      "overflow": 0,
+      "scripts": 0,
+      "scrollHeight": 3238,
+      "scrollY": 0,
+      "targets": [],
+      "textOverflow": [],
+      "unloaded": [],
+      "width": 320
+    },
+    "scope": "Script-free literal/server baseline; browser JavaScript setting was not disabled. No JS-dependent behavior exists."
+  },
+  {
+    "file": "reduced-motion-invariant-390.jpg",
+    "width": 390,
+    "observed": {
+      "animations": 0,
+      "preference": false,
+      "width": 390
+    },
+    "scope": "Zero-motion invariant; no OS preference toggle is claimed."
+  },
+  {
+    "file": "reflow-320.jpg",
+    "width": 320,
+    "observed": {
+      "collisions": [],
+      "duplicateIds": [],
+      "height": 1000,
+      "hosts": [
+        {
+          "apps": 0,
+          "dir": "ltr",
+          "guests": [],
+          "host": "pdp",
+          "instance": "rail-1",
+          "kinds": [
+            "fact",
+            "metric"
+          ],
+          "links": [
+            "/products/fixture-object",
+            "#rail-1-subject",
+            "#rail-1-subject"
+          ],
+          "notes": 2,
+          "order": [
+            "subject",
+            "notes",
+            "pair",
+            "process"
+          ],
+          "ordered": "OL",
+          "pairs": 1,
+          "rows": 2,
+          "sides": 0,
+          "steps": 3,
+          "text": "PRODUCT / EVIDENCE\n\nKnow the object. Follow the detail.\n\nPlain product information, connected to its context rather than dressed up as a promise.\n\nUtility storage case\nUtility storage case\n\nCAD 24.00\n\nRead-only fixture product context; no purchase or inventory promise.\n\nView product details\n\nEVIDENCE / 01\n\nDetails with a place in the story.\n01\n\nFACT / SPECIFICATION\n\nWoven canvas\n\nOuter material\n\nThe fixture describes the outer shell; hardware is listed separately.\n\nSynthetic fixture content; no real product specification is certified.\n\n02\n\nAUTHORED METRIC\n\n240 g\n\nFixture object mass\n\nMass includes its outer container in this authored test record.\n\nExample only; not a measured merchant result.\n\nFixture measurement context\n\nEVIDENCE / 02\n\nCompare the supplied details\n\nTwo explicit fixture subjects; no automatic recommendation.\n\nCompare the supplied details\nCriterion\nThis object\nReference object\nMaterial record\n\nMissing reference information is explicit.\n\nWoven canvas\nNot supplied\nCare record\nSupplied\nNot supplied\n\nIllustrative authored comparison, not competitor claims.\n\nPROCESS / SEQUENCE\n\nA clear care sequence\n\nInstructions are distinct from factual claims.\n\n01\nInspect\n\nRead the supplied material record before use.\n\nTest instruction, not product efficacy evidence.\n\n02\nUse\n\nKeep the object within the described use context.\n\n03\nCare\n\nFollow the specific care information supplied with a real product.\n\nFixture instructions"
+        }
+      ],
+      "overflow": 0,
+      "scripts": 0,
+      "scrollHeight": 6104,
+      "scrollY": 0,
+      "targets": [],
+      "textOverflow": [],
+      "unloaded": [],
+      "width": 320
+    },
+    "rootFont": "24px",
+    "scope": "Test-only150% root-text enlargement at320; not manual200%/400% browser zoom certification."
+  }
+]

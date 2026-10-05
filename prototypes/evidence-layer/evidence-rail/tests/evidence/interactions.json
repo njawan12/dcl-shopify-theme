@@ -1,0 +1,46 @@
+[
+  {
+    "case": "keyboard-source-focus",
+    "observed": {
+      "href": "#rail-1-subject",
+      "outline": "rgb(23, 23, 23) solid 3px",
+      "tag": "A"
+    }
+  },
+  {
+    "case": "source-target",
+    "observed": {
+      "focus": "rail-1-subject",
+      "hash": "#rail-1-subject"
+    }
+  },
+  {
+    "case": "skip-target",
+    "observed": {
+      "focus": "content",
+      "hash": "#content"
+    }
+  },
+  {
+    "case": "product-destination",
+    "url": "http://127.0.0.1:3004/products/fixture-object",
+    "heading": "Read-only fixture destination"
+  },
+  {
+    "case": "wide-guest-keyboard",
+    "observed": {
+      "focus": "guest-viewport",
+      "outline": "rgb(23, 23, 23) solid 3px",
+      "overflow": 0,
+      "scrollLeft": 80
+    }
+  },
+  {
+    "case": "guest-destination",
+    "url": "http://127.0.0.1:3004/guest-destination"
+  },
+  {
+    "case": "one-step-semantics",
+    "snapshot": "- link \"Skip to evidence\":\n  - /url: \"#content\"\n- paragraph: M1 Evidence Rail · synthetic test content · not merchant proof\n- generic: Fixture\n- combobox \"Fixture\":\n  - option \"branded-pdp\"\n  - option \"neutral-pdp\"\n  - option \"branded-editorial\"\n  - option \"neutral-editorial\"\n  - option \"jewelry\"\n  - option \"food\"\n  - option \"zero\"\n  - option \"one\"\n  - option \"dense\"\n  - option \"missing-optional\"\n  - option \"no-media\"\n  - option \"portrait\"\n  - option \"landscape\"\n  - option \"metric-no-source\"\n  - option \"long-claim\"\n  - option \"long-source\"\n  - option \"long-quote\"\n  - option \"translation\"\n  - option \"rtl\"\n  - option \"before-after\"\n  - option \"before-after-incomplete\"\n  - option \"comparison\"\n  - option \"comparison-incomplete\"\n  - option \"reorder\"\n  - option \"repeated\"\n  - option \"manual\"\n  - option \"dynamic\"\n  - option \"disconnected-fallback\"\n  - option \"disconnected-omit\"\n  - option \"app-absent\"\n  - option \"app-expected\"\n  - option \"app-awkward\"\n  - option \"app-tall\"\n  - option \"app-wide\"\n  - option \"app-removed\"\n  - option \"app-reordered\"\n  - option \"one-process\" [selected]\n  - option \"editorial-process\"\n- button \"Load fixture\"\n- main:\n  - article:\n    - paragraph: Product / evidence\n    - heading \"Know the object. Follow the detail.\" [level=1]\n    - paragraph: Plain product information, connected to its context rather than dressed up as a promise.\n    - figure \"Utility storage case\":\n      - img \"Ordinary rectangular utility case test packshot\"\n      - generic: Utility storage case\n    - heading \"Utility storage case\" [level=2]\n    - paragraph: CAD 24.00\n    - paragraph: Read-only fixture product context; no purchase or inventory promise.\n    - link \"View product details\":\n      - /url: /products/fixture-object\n    - region \"Details with a place in the story.\":\n      - paragraph: Evidence / 01\n      - heading \"Details with a place in the story.\" [level=2]\n      - list:\n        - generic: \"01\"\n        - paragraph: Fact / specification\n        - paragraph: Woven canvas\n        - paragraph: Outer material\n        - paragraph: The fixture describes the outer shell; hardware is listed separately.\n        - paragraph: Synthetic fixture content; no real product specification is certified.\n        - generic: \"02\"\n        - paragraph: Authored metric\n        - paragraph: 240 g\n        - paragraph: Fixture object mass\n        - paragraph: Mass includes its outer container in this authored test record.\n        - paragraph: Example only; not a measured merchant result.\n        - link \"Fixture measurement context\":\n          - /url: \"#rail-1-subject\"\n    - region \"Compare the supplied details\":\n      - paragraph: Evidence / 02\n      - heading \"Compare the supplied details\" [level=2]\n      - paragraph: Two explicit fixture subjects; no automatic recommendation.\n      - table \"Compare the supplied details\":\n        - caption: Compare the supplied details\n        - rowgroup:\n          - row \"Criterion This object Reference object\":\n            - columnheader \"Criterion\"\n            - columnheader \"This object\"\n            - columnheader \"Reference object\"\n        - rowgroup:\n          - row \"Material record Missing reference information is explicit. Woven canvas Not supplied\":\n            - rowheader \"Material record Missing reference information is explicit.\":\n              - text: Material record\n              - paragraph: Missing reference information is explicit.\n            - cell \"Woven canvas\"\n            - cell \"Not supplied\"\n          - row \"Care record Supplied Not supplied\":\n            - rowheader \"Care record\"\n            - cell \"Supplied\"\n            - cell \"Not supplied\"\n      - paragraph: Illustrative authored comparison, not competitor claims.\n    - region \"A clear care sequence\":\n      - paragraph: Process / sequence\n      - heading \"A clear care sequence\" [level=2]\n      - paragraph: Instructions are distinct from factual claims.\n      - list:\n        - generic: \"01\"\n        - heading \"Care\" [level=3]\n        - paragraph: Follow the specific care information supplied with a real product.\n      - link \"Fixture instructions\":\n        - /url: \"#rail-1-subject\"\n- contentinfo: \"Isolated M1 proof. Visual verdict: PENDING HUMAN REVIEW.\""
+  }
+]

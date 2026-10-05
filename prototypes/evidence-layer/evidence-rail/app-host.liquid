@@ -1,0 +1,19 @@
+{% comment %}Isolated architecture specimen only. Never deployed; not a Shopify-certified section.{% endcomment %}
+<section class="evidence-app-host">
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when '@app' %}
+        <div class="app-guest" {{ block.shopify_attributes }}>
+          {% render block %}
+        </div>
+    {% endcase %}
+  {% endfor %}
+</section>
+{% schema %}
+{
+  "name": "Evidence app host proof",
+  "settings": [],
+  "blocks": [{ "type": "@app" }],
+  "presets": [{ "name": "Evidence app host proof" }]
+}
+{% endschema %}
