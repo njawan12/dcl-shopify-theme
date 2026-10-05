@@ -1,0 +1,5 @@
+{
+  "pass": 57,
+  "fail": 0,
+  "scope": "Canonical adapter against exact preserved engine; no DOM/browser fallback claim."
+}

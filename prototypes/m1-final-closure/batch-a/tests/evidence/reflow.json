@@ -1,0 +1,2357 @@
+[
+  {
+    "cardCount": 0,
+    "cartLines": [],
+    "controls": [
+      {
+        "h": 86.796875,
+        "name": "option-0",
+        "w": 258.296875,
+        "x": 32,
+        "y": 2933.5078125
+      },
+      {
+        "h": 86.796875,
+        "name": "option-1",
+        "w": 258.296875,
+        "x": 32,
+        "y": 3096.6953125
+      },
+      {
+        "h": 122.796875,
+        "name": "Resolve options",
+        "w": 258.296875,
+        "x": 32,
+        "y": 3202.6875
+      },
+      {
+        "h": 84.796875,
+        "name": "quantity",
+        "w": 192,
+        "x": 32,
+        "y": 3430.6796875
+      },
+      {
+        "h": 180,
+        "name": "Add to simulated cart",
+        "w": 258.296875,
+        "x": 32,
+        "y": 3550.671875
+      }
+    ],
+    "duplicates": [],
+    "fixture": "balanced",
+    "groups": [
+      {
+        "cls": "pdp-two-zone",
+        "collision": false
+      }
+    ],
+    "heading": [
+      "Balancing formula"
+    ],
+    "height": 900,
+    "images": [
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/case-landscape.svg"
+      }
+    ],
+    "main": {
+      "h": 23755.7890625,
+      "w": 320,
+      "x": 0,
+      "y": 596.390625
+    },
+    "mainOrder": [
+      "Balancing formula",
+      "Care, with its details in view.",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Prepare",
+      "Apply",
+      "Questions & details",
+      "Related product context"
+    ],
+    "media": [
+      "balancing-formula-media-1",
+      "balancing-formula-media-2",
+      "balancing-formula-media-3",
+      "balancing-formula-media-4"
+    ],
+    "purchase": {
+      "addDisabled": false,
+      "id": "balancing-formula",
+      "price": "CAD 29.00",
+      "status": "Available",
+      "variant": "balancing-formula-30-light"
+    },
+    "rootFont": "32px",
+    "scrollWidth": 320,
+    "spillCount": 0,
+    "spills": [],
+    "stickyOwners": [],
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ],
+    "url": "http://127.0.0.1:3005/?fixture=balanced&scale=2",
+    "width": 320,
+    "requestedFixture": "balanced",
+    "scale": 2
+  },
+  {
+    "cardCount": 0,
+    "cartLines": [],
+    "controls": [
+      {
+        "h": 169.09375,
+        "name": "option-0",
+        "w": 491.09375,
+        "x": 64,
+        "y": 6400.25
+      },
+      {
+        "h": 169.09375,
+        "name": "option-1",
+        "w": 491.09375,
+        "x": 64,
+        "y": 6721.640625
+      },
+      {
+        "h": 242.59375,
+        "name": "Resolve options",
+        "w": 491.09375,
+        "x": 64,
+        "y": 6929.1328125
+      },
+      {
+        "h": 167.09375,
+        "name": "quantity",
+        "w": 384,
+        "x": 64,
+        "y": 7381.625
+      },
+      {
+        "h": 356.5,
+        "name": "Add to simulated cart",
+        "w": 491.09375,
+        "x": 64,
+        "y": 7619.1171875
+      }
+    ],
+    "duplicates": [],
+    "fixture": "balanced",
+    "groups": [
+      {
+        "cls": "pdp-two-zone",
+        "collision": false
+      }
+    ],
+    "heading": [
+      "Balancing formula"
+    ],
+    "height": 900,
+    "images": [
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/case-landscape.svg"
+      }
+    ],
+    "main": {
+      "h": 84840.046875,
+      "w": 320,
+      "x": 0,
+      "y": 1896.296875
+    },
+    "mainOrder": [
+      "Balancing formula",
+      "Care, with its details in view.",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Prepare",
+      "Apply",
+      "Questions & details",
+      "Related product context"
+    ],
+    "media": [
+      "balancing-formula-media-1",
+      "balancing-formula-media-2",
+      "balancing-formula-media-3",
+      "balancing-formula-media-4"
+    ],
+    "purchase": {
+      "addDisabled": false,
+      "id": "balancing-formula",
+      "price": "CAD 29.00",
+      "status": "Available",
+      "variant": "balancing-formula-30-light"
+    },
+    "rootFont": "64px",
+    "scrollWidth": 555,
+    "spillCount": 57,
+    "spills": [
+      {
+        "cls": "pdp-media media-gallery",
+        "h": 2172.4140625,
+        "tag": "SECTION",
+        "text": "View 1 · imageView 2 · imageView 3 · imageView 4 · imageProd",
+        "w": 491.09375,
+        "x": 64,
+        "y": 2024.296875
+      },
+      {
+        "cls": "media-nav",
+        "h": 357.1953125,
+        "tag": "NAV",
+        "text": "View 1 · imageView 2 · imageView 3 · imageView 4 · image",
+        "w": 491.09375,
+        "x": 64,
+        "y": 2024.296875
+      },
+      {
+        "cls": "",
+        "h": 60.5,
+        "tag": "A",
+        "text": "View 1 · image",
+        "w": 306.546875,
+        "x": 64,
+        "y": 2024.296875
+      },
+      {
+        "cls": "",
+        "h": 60.5,
+        "tag": "A",
+        "text": "View 2 · image",
+        "w": 312.8203125,
+        "x": 64,
+        "y": 2123.1953125
+      },
+      {
+        "cls": "",
+        "h": 60.5,
+        "tag": "A",
+        "text": "View 3 · image",
+        "w": 314.140625,
+        "x": 64,
+        "y": 2222.09375
+      },
+      {
+        "cls": "",
+        "h": 60.5,
+        "tag": "A",
+        "text": "View 4 · image",
+        "w": 314.796875,
+        "x": 64,
+        "y": 2320.9921875
+      },
+      {
+        "cls": "media-encounters",
+        "h": 1751.21875,
+        "tag": "DIV",
+        "text": "Product view 1Product view 2Product view 3Product view 4",
+        "w": 491.09375,
+        "x": 64,
+        "y": 2445.4921875
+      },
+      {
+        "cls": "media-item type-image",
+        "h": 643.2890625,
+        "tag": "FIGURE",
+        "text": "Product view 1",
+        "w": 491.09375,
+        "x": 64,
+        "y": 2445.4921875
+      },
+      {
+        "cls": "",
+        "h": 491.09375,
+        "tag": "IMG",
+        "text": "",
+        "w": 491.09375,
+        "x": 64,
+        "y": 2445.4921875
+      },
+      {
+        "cls": "",
+        "h": 151.1953125,
+        "tag": "FIGCAPTION",
+        "text": "Product view 1",
+        "w": 491.09375,
+        "x": 64,
+        "y": 2936.5859375
+      },
+      {
+        "cls": "media-item type-image",
+        "h": 610.9765625,
+        "tag": "FIGURE",
+        "text": "Product view 3",
+        "w": 213.546875,
+        "x": 341.546875,
+        "y": 3152.78125
+      },
+      {
+        "cls": "",
+        "h": 384.3828125,
+        "tag": "IMG",
+        "text": "",
+        "w": 213.546875,
+        "x": 341.546875,
+        "y": 3152.78125
+      },
+      {
+        "cls": "",
+        "h": 225.59375,
+        "tag": "FIGCAPTION",
+        "text": "Product view 3",
+        "w": 213.546875,
+        "x": 341.546875,
+        "y": 3537.1640625
+      },
+      {
+        "cls": "purchase",
+        "h": 4717.5078125,
+        "tag": "SECTION",
+        "text": "Fieldwork Care · fictional brandBalancing formulaCAD 29.00Pr",
+        "w": 491.09375,
+        "x": 64,
+        "y": 4324.7109375
+      },
+      {
+        "cls": "product-facts",
+        "h": 1865.640625,
+        "tag": "HEADER",
+        "text": "Fieldwork Care · fictional brandBalancing formulaCAD 29.00Pr",
+        "w": 491.09375,
+        "x": 64,
+        "y": 4324.7109375
+      },
+      {
+        "cls": "eyebrow",
+        "h": 230.390625,
+        "tag": "P",
+        "text": "Fieldwork Care · fictional brand",
+        "w": 491.09375,
+        "x": 64,
+        "y": 4324.7109375
+      },
+      {
+        "cls": "",
+        "h": 519.140625,
+        "tag": "H1",
+        "text": "Balancing formula",
+        "w": 491.09375,
+        "x": 64,
+        "y": 4606.296875
+      },
+      {
+        "cls": "price",
+        "h": 348.140625,
+        "tag": "P",
+        "text": "CAD 29.00",
+        "w": 491.09375,
+        "x": 64,
+        "y": 5176.6328125
+      },
+      {
+        "cls": "",
+        "h": 204.796875,
+        "tag": "P",
+        "text": "Previously CAD 34.00",
+        "w": 491.09375,
+        "x": 64,
+        "y": 5575.96875
+      },
+      {
+        "cls": "",
+        "h": 177.8984375,
+        "tag": "S",
+        "text": "CAD 34.00",
+        "w": 416.59375,
+        "x": 64,
+        "y": 5588.96875
+      }
+    ],
+    "stickyOwners": [],
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ],
+    "url": "http://127.0.0.1:3005/?fixture=balanced&scale=4",
+    "width": 320,
+    "requestedFixture": "balanced",
+    "scale": 4
+  },
+  {
+    "cardCount": 0,
+    "cartLines": [],
+    "controls": [
+      {
+        "h": 86.796875,
+        "name": "option-0",
+        "w": 256,
+        "x": 32,
+        "y": 2667.125
+      },
+      {
+        "h": 86.796875,
+        "name": "option-1",
+        "w": 256,
+        "x": 32,
+        "y": 2830.3125
+      },
+      {
+        "h": 122.796875,
+        "name": "Resolve options",
+        "w": 256,
+        "x": 32,
+        "y": 2936.3046875
+      },
+      {
+        "h": 84.796875,
+        "name": "quantity",
+        "w": 192,
+        "x": 32,
+        "y": 3164.296875
+      },
+      {
+        "h": 180,
+        "name": "Add to simulated cart",
+        "w": 256,
+        "x": 32,
+        "y": 3284.2890625
+      }
+    ],
+    "duplicates": [],
+    "fixture": "compact",
+    "groups": [
+      {
+        "cls": "purchase",
+        "collision": false
+      }
+    ],
+    "heading": [
+      "Balancing formula"
+    ],
+    "height": 900,
+    "images": [
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 900,
+        "src": "/media/case-landscape.svg"
+      }
+    ],
+    "main": {
+      "h": 23604.6015625,
+      "w": 320,
+      "x": 0,
+      "y": 596.390625
+    },
+    "mainOrder": [
+      "Balancing formula",
+      "Care, with its details in view.",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Prepare",
+      "Apply",
+      "Questions & details",
+      "Related product context"
+    ],
+    "media": [
+      "balancing-formula-media-1",
+      "balancing-formula-media-2",
+      "balancing-formula-media-3",
+      "balancing-formula-media-4"
+    ],
+    "purchase": {
+      "addDisabled": false,
+      "id": "balancing-formula",
+      "price": "CAD 29.00",
+      "status": "Available",
+      "variant": "balancing-formula-30-light"
+    },
+    "rootFont": "32px",
+    "scrollWidth": 320,
+    "spillCount": 0,
+    "spills": [],
+    "stickyOwners": [],
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ],
+    "url": "http://127.0.0.1:3005/?fixture=compact&scale=2",
+    "width": 320,
+    "requestedFixture": "compact",
+    "scale": 2
+  },
+  {
+    "cardCount": 0,
+    "cartLines": [],
+    "controls": [
+      {
+        "h": 169.09375,
+        "name": "option-0",
+        "w": 192,
+        "x": 64,
+        "y": 8320.90625
+      },
+      {
+        "h": 169.09375,
+        "name": "option-1",
+        "w": 192,
+        "x": 64,
+        "y": 8642.296875
+      },
+      {
+        "h": 242.59375,
+        "name": "Resolve options",
+        "w": 192,
+        "x": 64,
+        "y": 8849.7890625
+      },
+      {
+        "h": 167.09375,
+        "name": "quantity",
+        "w": 192,
+        "x": 64,
+        "y": 9377.78125
+      },
+      {
+        "h": 356.5,
+        "name": "Add to simulated cart",
+        "w": 192,
+        "x": 64,
+        "y": 9615.2734375
+      }
+    ],
+    "duplicates": [],
+    "fixture": "compact",
+    "groups": [
+      {
+        "cls": "purchase",
+        "collision": false
+      }
+    ],
+    "heading": [
+      "Balancing formula"
+    ],
+    "height": 900,
+    "images": [
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/case-landscape.svg"
+      }
+    ],
+    "main": {
+      "h": 88213.4921875,
+      "w": 320,
+      "x": 0,
+      "y": 1896.296875
+    },
+    "mainOrder": [
+      "Balancing formula",
+      "Care, with its details in view.",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Prepare",
+      "Apply",
+      "Questions & details",
+      "Related product context"
+    ],
+    "media": [
+      "balancing-formula-media-1",
+      "balancing-formula-media-2",
+      "balancing-formula-media-3",
+      "balancing-formula-media-4"
+    ],
+    "purchase": {
+      "addDisabled": false,
+      "id": "balancing-formula",
+      "price": "CAD 29.00",
+      "status": "Available",
+      "variant": "balancing-formula-30-light"
+    },
+    "rootFont": "64px",
+    "scrollWidth": 450,
+    "spillCount": 22,
+    "spills": [
+      {
+        "cls": "encounter",
+        "h": 1312.953125,
+        "tag": "DIV",
+        "text": "01Fact / specification",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 22128.8046875
+      },
+      {
+        "cls": "",
+        "h": 1285.453125,
+        "tag": "P",
+        "text": "Fact / specification",
+        "w": 37.75,
+        "x": 330.6875,
+        "y": 22156.3046875
+      },
+      {
+        "cls": "note-statement",
+        "h": 5271.4765625,
+        "tag": "DIV",
+        "text": "30 / 60 ml by selected optionNominal format / volumeAuthored",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 23505.7578125
+      },
+      {
+        "cls": "value",
+        "h": 1984.2265625,
+        "tag": "P",
+        "text": "30 / 60 ml by selected option",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 23505.7578125
+      },
+      {
+        "cls": "label",
+        "h": 624.984375,
+        "tag": "P",
+        "text": "Nominal format / volume",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 25531.578125
+      },
+      {
+        "cls": "",
+        "h": 2579.078125,
+        "tag": "P",
+        "text": "Authored product context for this fictional cream or balm. T",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 26198.15625
+      },
+      {
+        "cls": "qualification",
+        "h": 1226.359375,
+        "tag": "FOOTER",
+        "text": "All content is authored synthetic test data.Synthetic catalo",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 28841.234375
+      },
+      {
+        "cls": "",
+        "h": 781.171875,
+        "tag": "P",
+        "text": "All content is authored synthetic test data.",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 28841.234375
+      },
+      {
+        "cls": "source",
+        "h": 400.390625,
+        "tag": "A",
+        "text": "Synthetic catalog record",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 29667.203125
+      },
+      {
+        "cls": "comparison",
+        "h": 4022.25,
+        "tag": "TABLE",
+        "text": "Read the supplied product contextCriterionBalancing formulaU",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 48360.7578125
+      },
+      {
+        "cls": "",
+        "h": 320,
+        "tag": "CAPTION",
+        "text": "Read the supplied product context",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 48360.7578125
+      },
+      {
+        "cls": "",
+        "h": 1966.8125,
+        "tag": "THEAD",
+        "text": "CriterionBalancing formulaUnspecified reference",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 48744.7578125
+      },
+      {
+        "cls": "",
+        "h": 1966.8125,
+        "tag": "TR",
+        "text": "CriterionBalancing formulaUnspecified reference",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 48744.7578125
+      },
+      {
+        "cls": "",
+        "h": 269.15625,
+        "tag": "TH",
+        "text": "Criterion",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 48744.7578125
+      },
+      {
+        "cls": "",
+        "h": 1697.65625,
+        "tag": "TH",
+        "text": "Unspecified reference",
+        "w": 98.2734375,
+        "x": 314.6640625,
+        "y": 49013.9140625
+      },
+      {
+        "cls": "",
+        "h": 1671.4375,
+        "tag": "TBODY",
+        "text": "InformationNo competitor claim.Supplied belowNot supplied",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 50711.5703125
+      },
+      {
+        "cls": "",
+        "h": 1671.4375,
+        "tag": "TR",
+        "text": "InformationNo competitor claim.Supplied belowNot supplied",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 50711.5703125
+      },
+      {
+        "cls": "",
+        "h": 688.03125,
+        "tag": "TH",
+        "text": "InformationNo competitor claim.",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 50711.5703125
+      },
+      {
+        "cls": "row-qualification",
+        "h": 297.59375,
+        "tag": "P",
+        "text": "No competitor claim.",
+        "w": 145.359375,
+        "x": 241.984375,
+        "y": 51056.2109375
+      },
+      {
+        "cls": "",
+        "h": 983.40625,
+        "tag": "TD",
+        "text": "Not supplied",
+        "w": 98.2734375,
+        "x": 314.6640625,
+        "y": 51399.6015625
+      }
+    ],
+    "stickyOwners": [],
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ],
+    "url": "http://127.0.0.1:3005/?fixture=compact&scale=4",
+    "width": 320,
+    "requestedFixture": "compact",
+    "scale": 4
+  },
+  {
+    "cardCount": 0,
+    "cartLines": [],
+    "controls": [
+      {
+        "h": 86.796875,
+        "name": "option-0",
+        "w": 258.296875,
+        "x": 32,
+        "y": 5929.6484375
+      },
+      {
+        "h": 86.796875,
+        "name": "option-1",
+        "w": 258.296875,
+        "x": 32,
+        "y": 6092.8359375
+      },
+      {
+        "h": 122.796875,
+        "name": "Resolve options",
+        "w": 258.296875,
+        "x": 32,
+        "y": 6198.828125
+      },
+      {
+        "h": 84.796875,
+        "name": "quantity",
+        "w": 192,
+        "x": 32,
+        "y": 6426.8203125
+      },
+      {
+        "h": 180,
+        "name": "Add to simulated cart",
+        "w": 258.296875,
+        "x": 32,
+        "y": 6546.8125
+      }
+    ],
+    "duplicates": [],
+    "fixture": "editorial",
+    "groups": [
+      {
+        "cls": "editorial-purchase",
+        "collision": false
+      }
+    ],
+    "heading": [
+      "Balancing formula"
+    ],
+    "height": 900,
+    "images": [
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 900,
+        "src": "/media/case-landscape.svg"
+      }
+    ],
+    "main": {
+      "h": 22101.6015625,
+      "w": 320,
+      "x": 0,
+      "y": 596.390625
+    },
+    "mainOrder": [
+      "Care, with its details in view.",
+      "Details with a place in the story.",
+      "Balancing formula",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Prepare",
+      "Apply",
+      "Questions & details",
+      "Related product context"
+    ],
+    "media": [
+      "balancing-formula-media-1",
+      "balancing-formula-media-2",
+      "balancing-formula-media-3",
+      "balancing-formula-media-4"
+    ],
+    "purchase": {
+      "addDisabled": false,
+      "id": "balancing-formula",
+      "price": "CAD 29.00",
+      "status": "Available",
+      "variant": "balancing-formula-30-light"
+    },
+    "rootFont": "32px",
+    "scrollWidth": 320,
+    "spillCount": 0,
+    "spills": [],
+    "stickyOwners": [],
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ],
+    "url": "http://127.0.0.1:3005/?fixture=editorial&scale=2",
+    "width": 320,
+    "requestedFixture": "editorial",
+    "scale": 2
+  },
+  {
+    "cardCount": 0,
+    "cartLines": [],
+    "controls": [
+      {
+        "h": 169.09375,
+        "name": "option-0",
+        "w": 491.09375,
+        "x": 64,
+        "y": 13205.421875
+      },
+      {
+        "h": 169.09375,
+        "name": "option-1",
+        "w": 491.09375,
+        "x": 64,
+        "y": 13526.8125
+      },
+      {
+        "h": 242.59375,
+        "name": "Resolve options",
+        "w": 491.09375,
+        "x": 64,
+        "y": 13734.3046875
+      },
+      {
+        "h": 167.09375,
+        "name": "quantity",
+        "w": 384,
+        "x": 64,
+        "y": 14186.796875
+      },
+      {
+        "h": 356.5,
+        "name": "Add to simulated cart",
+        "w": 491.09375,
+        "x": 64,
+        "y": 14424.2890625
+      }
+    ],
+    "duplicates": [],
+    "fixture": "editorial",
+    "groups": [
+      {
+        "cls": "editorial-purchase",
+        "collision": false
+      }
+    ],
+    "heading": [
+      "Balancing formula"
+    ],
+    "height": 900,
+    "images": [
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/case-landscape.svg"
+      }
+    ],
+    "main": {
+      "h": 74124.4921875,
+      "w": 320,
+      "x": 0,
+      "y": 1896.296875
+    },
+    "mainOrder": [
+      "Care, with its details in view.",
+      "Details with a place in the story.",
+      "Balancing formula",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Prepare",
+      "Apply",
+      "Questions & details",
+      "Related product context"
+    ],
+    "media": [
+      "balancing-formula-media-1",
+      "balancing-formula-media-2",
+      "balancing-formula-media-3",
+      "balancing-formula-media-4"
+    ],
+    "purchase": {
+      "addDisabled": false,
+      "id": "balancing-formula",
+      "price": "CAD 29.00",
+      "status": "Available",
+      "variant": "balancing-formula-30-light"
+    },
+    "rootFont": "64px",
+    "scrollWidth": 555,
+    "spillCount": 55,
+    "spills": [
+      {
+        "cls": "narrative-zone",
+        "h": 6822.8203125,
+        "tag": "DIV",
+        "text": "Product contextCare, with its details in view.Balancing form",
+        "w": 491.09375,
+        "x": 64,
+        "y": 4179.0625
+      },
+      {
+        "cls": "product-story",
+        "h": 2373.0859375,
+        "tag": "SECTION",
+        "text": "Product contextCare, with its details in view.Balancing form",
+        "w": 394.09375,
+        "x": 161,
+        "y": 4307.0625
+      },
+      {
+        "cls": "eyebrow",
+        "h": 153.59375,
+        "tag": "P",
+        "text": "Product context",
+        "w": 394.09375,
+        "x": 161,
+        "y": 4307.0625
+      },
+      {
+        "cls": "",
+        "h": 414.71875,
+        "tag": "H2",
+        "text": "Care, with its details in view.",
+        "w": 394.09375,
+        "x": 161,
+        "y": 4460.65625
+      },
+      {
+        "cls": "",
+        "h": 1740.7734375,
+        "tag": "P",
+        "text": "Balancing formula is a fictional cream or balm record with p",
+        "w": 394.09375,
+        "x": 161,
+        "y": 4939.375
+      },
+      {
+        "cls": "attachment notes",
+        "h": 4161.734375,
+        "tag": "SECTION",
+        "text": "Evidence / 01Details with a place in the story.01Fact / spec",
+        "w": 394.09375,
+        "x": 161,
+        "y": 6840.1484375
+      },
+      {
+        "cls": "attachment-title",
+        "h": 694.796875,
+        "tag": "HEADER",
+        "text": "Evidence / 01Details with a place in the story.",
+        "w": 394.09375,
+        "x": 161,
+        "y": 6840.1484375
+      },
+      {
+        "cls": "",
+        "h": 74.3984375,
+        "tag": "P",
+        "text": "Evidence / 01",
+        "w": 394.09375,
+        "x": 161,
+        "y": 6840.1484375
+      },
+      {
+        "cls": "",
+        "h": 470,
+        "tag": "H2",
+        "text": "Details with a place in the story.",
+        "w": 394.09375,
+        "x": 161,
+        "y": 6962.546875
+      },
+      {
+        "cls": "rail note-rail",
+        "h": 3466.9375,
+        "tag": "OL",
+        "text": "01Fact / specification30 / 60 ml by selected optionNominal f",
+        "w": 394.09375,
+        "x": 161,
+        "y": 7534.9453125
+      },
+      {
+        "cls": "note",
+        "h": 3466.9375,
+        "tag": "LI",
+        "text": "01Fact / specification30 / 60 ml by selected optionNominal f",
+        "w": 392.09375,
+        "x": 163,
+        "y": 7534.9453125
+      },
+      {
+        "cls": "encounter",
+        "h": 241.7421875,
+        "tag": "DIV",
+        "text": "01Fact / specification",
+        "w": 392.09375,
+        "x": 163,
+        "y": 7535.9453125
+      },
+      {
+        "cls": "",
+        "h": 214.2421875,
+        "tag": "P",
+        "text": "Fact / specification",
+        "w": 276.203125,
+        "x": 278.890625,
+        "y": 7563.4453125
+      },
+      {
+        "cls": "note-statement",
+        "h": 2501.8203125,
+        "tag": "DIV",
+        "text": "30 / 60 ml by selected optionNominal format / volumeAuthored",
+        "w": 392.09375,
+        "x": 163,
+        "y": 7841.6875
+      },
+      {
+        "cls": "value",
+        "h": 915.796875,
+        "tag": "P",
+        "text": "30 / 60 ml by selected option",
+        "w": 392.09375,
+        "x": 163,
+        "y": 7841.6875
+      },
+      {
+        "cls": "label",
+        "h": 312.4921875,
+        "tag": "P",
+        "text": "Nominal format / volume",
+        "w": 392.09375,
+        "x": 163,
+        "y": 8799.078125
+      },
+      {
+        "cls": "",
+        "h": 1190.34375,
+        "tag": "P",
+        "text": "Authored product context for this fictional cream or balm. T",
+        "w": 392.09375,
+        "x": 163,
+        "y": 9153.1640625
+      },
+      {
+        "cls": "qualification",
+        "h": 594.375,
+        "tag": "FOOTER",
+        "text": "All content is authored synthetic test data.Synthetic catalo",
+        "w": 392.09375,
+        "x": 163,
+        "y": 10407.5078125
+      },
+      {
+        "cls": "",
+        "h": 347.1875,
+        "tag": "P",
+        "text": "All content is authored synthetic test data.",
+        "w": 392.09375,
+        "x": 163,
+        "y": 10407.5078125
+      },
+      {
+        "cls": "source",
+        "h": 202.390625,
+        "tag": "A",
+        "text": "Synthetic catalog record",
+        "w": 392.09375,
+        "x": 163,
+        "y": 10799.4921875
+      }
+    ],
+    "stickyOwners": [],
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ],
+    "url": "http://127.0.0.1:3005/?fixture=editorial&scale=4",
+    "width": 320,
+    "requestedFixture": "editorial",
+    "scale": 4
+  },
+  {
+    "cardCount": 0,
+    "cartLines": [
+      "38ab410ae9986a2f",
+      "fbe86949686c6fec",
+      "150296de0d5e14e6"
+    ],
+    "controls": [
+      {
+        "h": 84.796875,
+        "name": "q-38ab410ae9986a2f",
+        "w": 64,
+        "x": 224,
+        "y": 2891.9765625
+      },
+      {
+        "h": 540.796875,
+        "name": "Update quantity",
+        "w": 64,
+        "x": 224,
+        "y": 2992.7734375
+      },
+      {
+        "h": 768.796875,
+        "name": "Simulate failed update",
+        "w": 64,
+        "x": 224,
+        "y": 3549.5703125
+      },
+      {
+        "h": 882.796875,
+        "name": "Remove Balancing formula",
+        "w": 64,
+        "x": 224,
+        "y": 4340.765625
+      },
+      {
+        "h": 84.796875,
+        "name": "q-fbe86949686c6fec",
+        "w": 64,
+        "x": 224,
+        "y": 6970.40625
+      },
+      {
+        "h": 540.796875,
+        "name": "Update quantity",
+        "w": 64,
+        "x": 224,
+        "y": 7071.203125
+      },
+      {
+        "h": 768.796875,
+        "name": "Simulate failed update",
+        "w": 64,
+        "x": 224,
+        "y": 7628
+      },
+      {
+        "h": 920.796875,
+        "name": "Remove Everyday body lotion",
+        "w": 64,
+        "x": 224,
+        "y": 8419.1953125
+      },
+      {
+        "h": 84.796875,
+        "name": "q-150296de0d5e14e6",
+        "w": 64,
+        "x": 224,
+        "y": 11201.8359375
+      },
+      {
+        "h": 540.796875,
+        "name": "Update quantity",
+        "w": 64,
+        "x": 224,
+        "y": 11302.6328125
+      },
+      {
+        "h": 768.796875,
+        "name": "Simulate failed update",
+        "w": 64,
+        "x": 224,
+        "y": 11859.4296875
+      },
+      {
+        "h": 768.796875,
+        "name": "Remove Cleansing balm",
+        "w": 64,
+        "x": 224,
+        "y": 12650.625
+      },
+      {
+        "h": 122.796875,
+        "name": "Save note",
+        "w": 158,
+        "x": 81,
+        "y": 17883.2734375
+      }
+    ],
+    "duplicates": [],
+    "fixture": "cart-populated",
+    "groups": [
+      {
+        "cls": "cart-layout",
+        "collision": false
+      }
+    ],
+    "heading": [
+      "Your cart"
+    ],
+    "height": 900,
+    "images": [
+      {
+        "complete": true,
+        "loading": "auto",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "auto",
+        "naturalWidth": 1254,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "auto",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      }
+    ],
+    "main": {
+      "h": 17522.6796875,
+      "w": 320,
+      "x": 0,
+      "y": 596.390625
+    },
+    "mainOrder": [
+      "Your cart",
+      "Balancing formula",
+      "Everyday body lotion",
+      "Cleansing balm",
+      "Selection summary"
+    ],
+    "media": [],
+    "purchase": null,
+    "rootFont": "32px",
+    "scrollWidth": 320,
+    "spillCount": 0,
+    "spills": [],
+    "stickyOwners": [],
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ],
+    "url": "http://127.0.0.1:3005/?fixture=cart-populated&scale=2",
+    "width": 320,
+    "requestedFixture": "cart-populated",
+    "scale": 2
+  },
+  {
+    "cardCount": 0,
+    "cartLines": [
+      "38ab410ae9986a2f",
+      "fbe86949686c6fec",
+      "150296de0d5e14e6"
+    ],
+    "controls": [
+      {
+        "h": 167.09375,
+        "name": "q-38ab410ae9986a2f",
+        "w": 91.59375,
+        "x": 448,
+        "y": 15077.96875
+      },
+      {
+        "h": 1148.59375,
+        "name": "Update quantity",
+        "w": 91.59375,
+        "x": 448,
+        "y": 15277.0625
+      },
+      {
+        "h": 1601.59375,
+        "name": "Simulate failed update",
+        "w": 91.59375,
+        "x": 448,
+        "y": 16457.65625
+      },
+      {
+        "h": 1752.59375,
+        "name": "Remove Balancing formula",
+        "w": 91.59375,
+        "x": 448,
+        "y": 18104.046875
+      },
+      {
+        "h": 167.09375,
+        "name": "q-fbe86949686c6fec",
+        "w": 91.59375,
+        "x": 448,
+        "y": 29408.171875
+      },
+      {
+        "h": 1148.59375,
+        "name": "Update quantity",
+        "w": 91.59375,
+        "x": 448,
+        "y": 29607.265625
+      },
+      {
+        "h": 1601.59375,
+        "name": "Simulate failed update",
+        "w": 91.59375,
+        "x": 448,
+        "y": 30787.859375
+      },
+      {
+        "h": 1903.59375,
+        "name": "Remove Everyday body lotion",
+        "w": 91.59375,
+        "x": 448,
+        "y": 32434.25
+      },
+      {
+        "h": 167.09375,
+        "name": "q-150296de0d5e14e6",
+        "w": 91.59375,
+        "x": 448,
+        "y": 45374.0625
+      },
+      {
+        "h": 1148.59375,
+        "name": "Update quantity",
+        "w": 91.59375,
+        "x": 448,
+        "y": 45573.15625
+      },
+      {
+        "h": 1601.59375,
+        "name": "Simulate failed update",
+        "w": 91.59375,
+        "x": 448,
+        "y": 46753.75
+      },
+      {
+        "h": 1526.09375,
+        "name": "Remove Cleansing balm",
+        "w": 91.59375,
+        "x": 448,
+        "y": 48400.140625
+      },
+      {
+        "h": 242.59375,
+        "name": "Save note",
+        "w": 225,
+        "x": 161,
+        "y": 60348.28125
+      }
+    ],
+    "duplicates": [],
+    "fixture": "cart-populated",
+    "groups": [
+      {
+        "cls": "cart-layout",
+        "collision": false
+      }
+    ],
+    "heading": [
+      "Your cart"
+    ],
+    "height": 900,
+    "images": [
+      {
+        "complete": true,
+        "loading": "auto",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "auto",
+        "naturalWidth": 1254,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "auto",
+        "naturalWidth": 1254,
+        "src": "/media/care-jar.jpg"
+      }
+    ],
+    "main": {
+      "h": 58919.578125,
+      "w": 320,
+      "x": 0,
+      "y": 1896.296875
+    },
+    "mainOrder": [
+      "Your cart",
+      "Balancing formula",
+      "Everyday body lotion",
+      "Cleansing balm",
+      "Selection summary"
+    ],
+    "media": [],
+    "purchase": null,
+    "rootFont": "64px",
+    "scrollWidth": 545,
+    "spillCount": 66,
+    "spills": [
+      {
+        "cls": "cart-lines",
+        "h": 47429.765625,
+        "tag": "OL",
+        "text": "Balancing formulaVariant: 30 ml / LightCAD 29.00 per itemCAD",
+        "w": 419,
+        "x": 64,
+        "y": 3305.265625
+      },
+      {
+        "cls": "cart-line",
+        "h": 17360.171875,
+        "tag": "LI",
+        "text": "Balancing formulaVariant: 30 ml / LightCAD 29.00 per itemCAD",
+        "w": 419,
+        "x": 64,
+        "y": 3305.265625
+      },
+      {
+        "cls": "",
+        "h": 320,
+        "tag": "IMG",
+        "text": "",
+        "w": 320,
+        "x": 64,
+        "y": 3402.265625
+      },
+      {
+        "cls": "",
+        "h": 16499.171875,
+        "tag": "DIV",
+        "text": "Balancing formulaVariant: 30 ml / LightCAD 29.00 per itemCAD",
+        "w": 35,
+        "x": 448,
+        "y": 3402.265625
+      },
+      {
+        "cls": "",
+        "h": 1327,
+        "tag": "H2",
+        "text": "Balancing formula",
+        "w": 35,
+        "x": 448,
+        "y": 3402.265625
+      },
+      {
+        "cls": "",
+        "h": 1334.5625,
+        "tag": "A",
+        "text": "Balancing formula",
+        "w": 63.28125,
+        "x": 448,
+        "y": 3398.265625
+      },
+      {
+        "cls": "",
+        "h": 1392.5,
+        "tag": "P",
+        "text": "Variant: 30 ml / Light",
+        "w": 35,
+        "x": 448,
+        "y": 4754.859375
+      },
+      {
+        "cls": "",
+        "h": 1218.4375,
+        "tag": "P",
+        "text": "CAD 29.00 per item",
+        "w": 35,
+        "x": 448,
+        "y": 6172.953125
+      },
+      {
+        "cls": "",
+        "h": 1218.4375,
+        "tag": "P",
+        "text": "CAD 96.67 / 100 ml",
+        "w": 35,
+        "x": 448,
+        "y": 7416.984375
+      },
+      {
+        "cls": "",
+        "h": 1740.625,
+        "tag": "P",
+        "text": "Purchase plan: One-time",
+        "w": 35,
+        "x": 448,
+        "y": 8661.015625
+      },
+      {
+        "cls": "",
+        "h": 2610.9375,
+        "tag": "P",
+        "text": "Explicit fixture line discount: CAD 3.00",
+        "w": 35,
+        "x": 448,
+        "y": 10427.234375
+      },
+      {
+        "cls": "",
+        "h": 4976.28125,
+        "tag": "FORM",
+        "text": "Quantity for Balancing formulaUpdate quantitySimulate failed",
+        "w": 35,
+        "x": 448,
+        "y": 13082.96875
+      },
+      {
+        "cls": "",
+        "h": 1963,
+        "tag": "LABEL",
+        "text": "Quantity for Balancing formula",
+        "w": 35,
+        "x": 448,
+        "y": 13082.96875
+      },
+      {
+        "cls": "",
+        "h": 167.09375,
+        "tag": "INPUT",
+        "text": "",
+        "w": 91.59375,
+        "x": 448,
+        "y": 15077.96875
+      },
+      {
+        "cls": "",
+        "h": 1148.59375,
+        "tag": "BUTTON",
+        "text": "Update quantity",
+        "w": 91.59375,
+        "x": 448,
+        "y": 15277.0625
+      },
+      {
+        "cls": "",
+        "h": 1601.59375,
+        "tag": "BUTTON",
+        "text": "Simulate failed update",
+        "w": 91.59375,
+        "x": 448,
+        "y": 16457.65625
+      },
+      {
+        "cls": "",
+        "h": 1752.59375,
+        "tag": "FORM",
+        "text": "Remove Balancing formula",
+        "w": 35,
+        "x": 448,
+        "y": 18104.046875
+      },
+      {
+        "cls": "",
+        "h": 1752.59375,
+        "tag": "BUTTON",
+        "text": "Remove Balancing formula",
+        "w": 91.59375,
+        "x": 448,
+        "y": 18104.046875
+      },
+      {
+        "cls": "",
+        "h": 604,
+        "tag": "STRONG",
+        "text": "CAD 55.00",
+        "w": 35,
+        "x": 448,
+        "y": 19965.4375
+      },
+      {
+        "cls": "cart-line",
+        "h": 14481.203125,
+        "tag": "LI",
+        "text": "Everyday body lotionVariant: Single variantCAD 26.50 per ite",
+        "w": 419,
+        "x": 64,
+        "y": 20665.4375
+      }
+    ],
+    "stickyOwners": [],
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ],
+    "url": "http://127.0.0.1:3005/?fixture=cart-populated&scale=4",
+    "width": 320,
+    "requestedFixture": "cart-populated",
+    "scale": 4
+  },
+  {
+    "cardCount": 12,
+    "cartLines": [],
+    "controls": [],
+    "duplicates": [],
+    "fixture": "story",
+    "groups": [],
+    "heading": [
+      "Less guessing.More context."
+    ],
+    "height": 900,
+    "images": [
+      {
+        "complete": true,
+        "loading": "auto",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 300,
+        "src": "/media/jar.svg"
+      },
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/cloth-square.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 300,
+        "src": "/media/jar.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/box.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      }
+    ],
+    "main": {
+      "h": 25175.1875,
+      "w": 320,
+      "x": 0,
+      "y": 596.390625
+    },
+    "mainOrder": [
+      "Less guessing.More context.",
+      "Information follows the object.",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Wash",
+      "Finish",
+      "Questions & details",
+      "Everyday care. Considered choices.",
+      "Daily cleansing milk",
+      "Everyday barrier cream",
+      "Daily concentrate",
+      "Soft finishing oil",
+      "Reusable cleansing cloth",
+      "Balancing formula",
+      "Unscented hand wash",
+      "Everyday body lotion",
+      "Cleansing balm",
+      "Know what belongs in your day.",
+      "Hand cream refill",
+      "Daily body wash",
+      "Body butter",
+      "Build your own daily rhythm."
+    ],
+    "media": [],
+    "purchase": null,
+    "rootFont": "32px",
+    "scrollWidth": 320,
+    "spillCount": 0,
+    "spills": [],
+    "stickyOwners": [],
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "collection beauty balanced",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ],
+    "url": "http://127.0.0.1:3005/?fixture=story&scale=2",
+    "width": 320,
+    "requestedFixture": "story",
+    "scale": 2
+  },
+  {
+    "cardCount": 12,
+    "cartLines": [],
+    "controls": [],
+    "duplicates": [],
+    "fixture": "story",
+    "groups": [],
+    "heading": [
+      "Less guessing.More context."
+    ],
+    "height": 900,
+    "images": [
+      {
+        "complete": true,
+        "loading": "auto",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 300,
+        "src": "/media/jar.svg"
+      },
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/cloth-square.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 300,
+        "src": "/media/jar.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/box.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      }
+    ],
+    "main": {
+      "h": 84585.078125,
+      "w": 320,
+      "x": 0,
+      "y": 1896.296875
+    },
+    "mainOrder": [
+      "Less guessing.More context.",
+      "Information follows the object.",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Wash",
+      "Finish",
+      "Questions & details",
+      "Everyday care. Considered choices.",
+      "Daily cleansing milk",
+      "Everyday barrier cream",
+      "Daily concentrate",
+      "Soft finishing oil",
+      "Reusable cleansing cloth",
+      "Balancing formula",
+      "Unscented hand wash",
+      "Everyday body lotion",
+      "Cleansing balm",
+      "Know what belongs in your day.",
+      "Hand cream refill",
+      "Daily body wash",
+      "Body butter",
+      "Build your own daily rhythm."
+    ],
+    "media": [],
+    "purchase": null,
+    "rootFont": "64px",
+    "scrollWidth": 473,
+    "spillCount": 22,
+    "spills": [
+      {
+        "cls": "encounter",
+        "h": 1312.953125,
+        "tag": "DIV",
+        "text": "01Fact / specification",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 14047.109375
+      },
+      {
+        "cls": "",
+        "h": 1285.453125,
+        "tag": "P",
+        "text": "Fact / specification",
+        "w": 37.75,
+        "x": 330.6875,
+        "y": 14074.609375
+      },
+      {
+        "cls": "note-statement",
+        "h": 3943.5390625,
+        "tag": "DIV",
+        "text": "50 mlNominal format / volumeAuthored product context for thi",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 15424.0625
+      },
+      {
+        "cls": "value",
+        "h": 457.8984375,
+        "tag": "P",
+        "text": "50 ml",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 15424.0625
+      },
+      {
+        "cls": "label",
+        "h": 624.984375,
+        "tag": "P",
+        "text": "Nominal format / volume",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 15923.5546875
+      },
+      {
+        "cls": "",
+        "h": 2777.46875,
+        "tag": "P",
+        "text": "Authored product context for this fictional wash or cleansin",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 16590.1328125
+      },
+      {
+        "cls": "qualification",
+        "h": 1226.359375,
+        "tag": "FOOTER",
+        "text": "All content is authored synthetic test data.Synthetic catalo",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 19431.6015625
+      },
+      {
+        "cls": "",
+        "h": 781.171875,
+        "tag": "P",
+        "text": "All content is authored synthetic test data.",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 19431.6015625
+      },
+      {
+        "cls": "source",
+        "h": 400.390625,
+        "tag": "A",
+        "text": "Synthetic catalog record",
+        "w": 152.046875,
+        "x": 216.390625,
+        "y": 20257.5703125
+      },
+      {
+        "cls": "comparison",
+        "h": 4022.25,
+        "tag": "TABLE",
+        "text": "Read the supplied product contextCriterionDaily cleansing mi",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 38422.625
+      },
+      {
+        "cls": "",
+        "h": 320,
+        "tag": "CAPTION",
+        "text": "Read the supplied product context",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 38422.625
+      },
+      {
+        "cls": "",
+        "h": 1966.8125,
+        "tag": "THEAD",
+        "text": "CriterionDaily cleansing milkUnspecified reference",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 38806.625
+      },
+      {
+        "cls": "",
+        "h": 1966.8125,
+        "tag": "TR",
+        "text": "CriterionDaily cleansing milkUnspecified reference",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 38806.625
+      },
+      {
+        "cls": "",
+        "h": 269.15625,
+        "tag": "TH",
+        "text": "Criterion",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 38806.625
+      },
+      {
+        "cls": "",
+        "h": 1697.65625,
+        "tag": "TH",
+        "text": "Unspecified reference",
+        "w": 98.2734375,
+        "x": 314.6640625,
+        "y": 39075.78125
+      },
+      {
+        "cls": "",
+        "h": 1671.4375,
+        "tag": "TBODY",
+        "text": "InformationNo competitor claim.Supplied belowNot supplied",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 40773.4375
+      },
+      {
+        "cls": "",
+        "h": 1671.4375,
+        "tag": "TR",
+        "text": "InformationNo competitor claim.Supplied belowNot supplied",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 40773.4375
+      },
+      {
+        "cls": "",
+        "h": 688.03125,
+        "tag": "TH",
+        "text": "InformationNo competitor claim.",
+        "w": 196.546875,
+        "x": 216.390625,
+        "y": 40773.4375
+      },
+      {
+        "cls": "row-qualification",
+        "h": 297.59375,
+        "tag": "P",
+        "text": "No competitor claim.",
+        "w": 145.359375,
+        "x": 241.984375,
+        "y": 41118.078125
+      },
+      {
+        "cls": "",
+        "h": 983.40625,
+        "tag": "TD",
+        "text": "Not supplied",
+        "w": 98.2734375,
+        "x": 314.6640625,
+        "y": 41461.46875
+      }
+    ],
+    "stickyOwners": [],
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "collection beauty balanced",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ],
+    "url": "http://127.0.0.1:3005/?fixture=story&scale=4",
+    "width": 320,
+    "requestedFixture": "story",
+    "scale": 4
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "surface": "balanced",
+    "preset": "beauty",
+    "width": 390,
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ]
+  },
+  {
+    "surface": "balanced",
+    "preset": "neutral",
+    "width": 390,
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 32, 32)",
+        "ink": "#202020",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 32, 32)",
+        "ink": "#202020",
+        "type": "system-ui, sans-serif"
+      }
+    ]
+  },
+  {
+    "surface": "collection24",
+    "preset": "beauty",
+    "width": 390,
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "collection beauty balanced",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ]
+  },
+  {
+    "surface": "collection24",
+    "preset": "neutral",
+    "width": 390,
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 32, 32)",
+        "ink": "#202020",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "collection neutral balanced",
+        "color": "rgb(32, 32, 32)",
+        "ink": "#202020",
+        "type": "system-ui, sans-serif"
+      }
+    ]
+  },
+  {
+    "surface": "cart-populated",
+    "preset": "beauty",
+    "width": 390,
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ]
+  },
+  {
+    "surface": "cart-populated",
+    "preset": "neutral",
+    "width": 390,
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 32, 32)",
+        "ink": "#202020",
+        "type": "system-ui, sans-serif"
+      }
+    ]
+  },
+  {
+    "surface": "story",
+    "preset": "beauty",
+    "width": 390,
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "collection beauty balanced",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ]
+  },
+  {
+    "surface": "story",
+    "preset": "neutral",
+    "width": 390,
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 32, 32)",
+        "ink": "#202020",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 32, 32)",
+        "ink": "#202020",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "collection neutral balanced",
+        "color": "rgb(32, 32, 32)",
+        "ink": "#202020",
+        "type": "system-ui, sans-serif"
+      }
+    ]
+  },
+  {
+    "surface": "guided",
+    "preset": "beauty",
+    "width": 390,
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "split-tension",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ]
+  },
+  {
+    "surface": "guided",
+    "preset": "neutral",
+    "width": 390,
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 32, 32)",
+        "ink": "#202020",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "split-tension neutral",
+        "color": "rgb(32, 32, 32)",
+        "ink": "#202020",
+        "type": "system-ui, sans-serif"
+      }
+    ]
+  }
+]

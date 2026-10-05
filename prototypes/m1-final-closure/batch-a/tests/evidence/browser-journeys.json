@@ -1,0 +1,141 @@
+[
+  {
+    "label": "Native skip targets main",
+    "pass": true,
+    "detail": {
+      "id": "main",
+      "outline": "rgb(37, 76, 60) solid 3px",
+      "tag": "MAIN"
+    }
+  },
+  {
+    "label": "Tab enters cart product context",
+    "pass": true,
+    "detail": {
+      "id": "",
+      "tag": "A",
+      "text": "Balancing formula"
+    }
+  },
+  {
+    "label": "Cart quantity keyboard order and visible focus",
+    "pass": true,
+    "detail": {
+      "label": "Quantity for Balancing formula",
+      "outline": "rgb(37, 76, 60) solid 3px",
+      "rect": {
+        "bottom": 656.359375,
+        "height": 44,
+        "left": 112,
+        "right": 208,
+        "top": 612.359375,
+        "width": 96,
+        "x": 112,
+        "y": 612.359375
+      },
+      "tag": "INPUT"
+    }
+  },
+  {
+    "label": "Keyboard failed update preserves line quantity",
+    "pass": true,
+    "detail": {
+      "error": "Simulated update failure. Previous cart is unchanged; retry is available.",
+      "lines": 3,
+      "q": "2"
+    }
+  },
+  {
+    "label": "Keyboard retry recovers quantity",
+    "pass": true,
+    "detail": {
+      "q": "3",
+      "status": "Simulated cart updated."
+    }
+  },
+  {
+    "label": "Keyboard order note persisted",
+    "pass": true,
+    "detail": "Keyboard path — synthetic note"
+  },
+  {
+    "label": "Keyboard remove leaves independent lines",
+    "pass": true,
+    "detail": {
+      "lines": 2
+    }
+  },
+  {
+    "label": "Checkout link reaches explicit non-payment boundary",
+    "pass": true,
+    "detail": "http://127.0.0.1:3005/checkout-preview"
+  },
+  {
+    "label": "Direct multi-option product has no silent default",
+    "pass": true,
+    "detail": "unresolved"
+  },
+  {
+    "label": "Native nonexistent tuple remains ineligible",
+    "pass": true,
+    "detail": "Choose every option; this combination is not purchasable yet."
+  },
+  {
+    "label": "Native sold-out tuple remains ineligible",
+    "pass": true,
+    "detail": "Sold out"
+  },
+  {
+    "label": "Native valid tuple changes price/unit/compare together",
+    "pass": true,
+    "detail": {
+      "previous": 0,
+      "price": "CAD 47.00",
+      "unit": "CAD 78.33 / 100 ml",
+      "variant": "balancing-formula-60-light"
+    }
+  },
+  {
+    "label": "Native PDP-to-cart retains tuple/quantity/price",
+    "pass": true,
+    "detail": {
+      "lines": 1,
+      "q": "2",
+      "text": "Balancing formulaVariant: 60 ml / LightCAD 47.00 per itemCAD 78.33 / 100 mlPurchase plan: One-timeQuantity for Balancing formulaUpdate quantitySimulate failed updateRemove Balancing formulaCAD 94.00"
+    }
+  },
+  {
+    "label": "Non-Beauty inclusion and aggregate use canonical prices",
+    "pass": true,
+    "detail": {
+      "checked": 2,
+      "text": "Your selection2 selected itemsCAD 80.00Selected-items total only. Taxes, shipping, duties and discounts are determined at checkout.Add selected · simulation"
+    }
+  },
+  {
+    "label": "Preserved Guided Set simulation completes",
+    "pass": true,
+    "detail": "Simulated confirmation: 2 selected items added. No real cart was changed."
+  },
+  {
+    "label": "Actual initialization failure retains canonical discovery",
+    "pass": true,
+    "detail": {
+      "buttons": 0,
+      "checkboxes": 0,
+      "diagnostic": "Canonical synthetic products. No Shopify requests; quantity1. Initialization failure contained; product links remain available.",
+      "links": [
+        "/products/jewelry-1",
+        "/products/jewelry-2",
+        "/products/jewelry-3"
+      ],
+      "scrollWidth": 390,
+      "width": 390
+    }
+  },
+  {
+    "label": "Failed enhancement native link reaches canonical purchase",
+    "pass": true,
+    "detail": "http://127.0.0.1:3005/products/jewelry-1"
+  }
+]

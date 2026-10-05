@@ -1,0 +1,371 @@
+{
+  "products": 30,
+  "beauty_distinct": 24,
+  "jewelry_distinct": 6,
+  "variants": 61,
+  "media_records": 40,
+  "variant_counts": [
+    1,
+    2,
+    3,
+    6,
+    24
+  ],
+  "fixture_names": [
+    "balanced",
+    "compact",
+    "editorial",
+    "balanced-neutral",
+    "compact-neutral",
+    "editorial-neutral",
+    "simple",
+    "sold-out",
+    "nonexistent",
+    "long",
+    "short",
+    "missing",
+    "many-media",
+    "rich-media",
+    "manual",
+    "structured",
+    "disconnected",
+    "rtl",
+    "plan",
+    "properties",
+    "pickup",
+    "app",
+    "collection12",
+    "collection24",
+    "collection100",
+    "cart-empty",
+    "cart-populated",
+    "cart-error",
+    "story",
+    "story-neutral"
+  ],
+  "widths": [
+    320,
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1280,
+    1440
+  ],
+  "density100_unique": 24,
+  "density100_encounters": 100,
+  "canonical_sha256": "a602b2ef58cd5380271a7bb6d7fca32fe78387a94c447b9cebc67f6f4c7bd5d3",
+  "normalized_same_data": {
+    "balanced": {
+      "truth": {
+        "product": "balancing-formula",
+        "variant": "balancing-formula-30-light",
+        "tuple": [
+          "30 ml",
+          "Light"
+        ],
+        "price": 2900,
+        "display_price": "CAD 29.00",
+        "compare": 3400,
+        "unit": {
+          "amount": 9667,
+          "reference": "100 ml"
+        },
+        "available": true,
+        "status": "Available",
+        "url": "/products/balancing-formula"
+      },
+      "media": [
+        {
+          "id": "balancing-formula-media-1",
+          "type": "image",
+          "src": "media/care-jar.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Balancing formula \u2014 synthetic ordinary product media"
+        },
+        {
+          "id": "balancing-formula-media-2",
+          "type": "image",
+          "src": "media/care-jar.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Balancing formula \u2014 supplementary synthetic packshot"
+        },
+        {
+          "id": "balancing-formula-media-3",
+          "type": "image",
+          "src": "media/bottle-portrait.svg",
+          "width": 200,
+          "height": 360,
+          "alt": "Balancing formula \u2014 supplementary synthetic packshot"
+        },
+        {
+          "id": "balancing-formula-media-4",
+          "type": "image",
+          "src": "media/case-landscape.svg",
+          "width": 900,
+          "height": 600,
+          "alt": "Balancing formula \u2014 supplementary synthetic packshot"
+        }
+      ],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "plans": [],
+      "properties": [],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "30 / 60 ml by selected option",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional cream or balm. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "usage": [
+        {
+          "heading": "Prepare",
+          "instruction": "Use clean hands and check the supplied ingredient list.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Apply",
+          "instruction": "Dispense a small amount and follow the merchant-authored product directions; no outcome is promised.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Squalane",
+        "Cetearyl alcohol"
+      ],
+      "specifications": {
+        "Material / packaging": "Jar or refill container fixture",
+        "Nominal size / format": "30 / 60 ml by selected option"
+      },
+      "recommendations": [
+        "care-07",
+        "care-08"
+      ],
+      "complementary": []
+    },
+    "compact": {
+      "truth": {
+        "product": "balancing-formula",
+        "variant": "balancing-formula-30-light",
+        "tuple": [
+          "30 ml",
+          "Light"
+        ],
+        "price": 2900,
+        "display_price": "CAD 29.00",
+        "compare": 3400,
+        "unit": {
+          "amount": 9667,
+          "reference": "100 ml"
+        },
+        "available": true,
+        "status": "Available",
+        "url": "/products/balancing-formula"
+      },
+      "media": [
+        {
+          "id": "balancing-formula-media-1",
+          "type": "image",
+          "src": "media/care-jar.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Balancing formula \u2014 synthetic ordinary product media"
+        },
+        {
+          "id": "balancing-formula-media-2",
+          "type": "image",
+          "src": "media/care-jar.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Balancing formula \u2014 supplementary synthetic packshot"
+        },
+        {
+          "id": "balancing-formula-media-3",
+          "type": "image",
+          "src": "media/bottle-portrait.svg",
+          "width": 200,
+          "height": 360,
+          "alt": "Balancing formula \u2014 supplementary synthetic packshot"
+        },
+        {
+          "id": "balancing-formula-media-4",
+          "type": "image",
+          "src": "media/case-landscape.svg",
+          "width": 900,
+          "height": 600,
+          "alt": "Balancing formula \u2014 supplementary synthetic packshot"
+        }
+      ],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "plans": [],
+      "properties": [],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "30 / 60 ml by selected option",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional cream or balm. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "usage": [
+        {
+          "heading": "Prepare",
+          "instruction": "Use clean hands and check the supplied ingredient list.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Apply",
+          "instruction": "Dispense a small amount and follow the merchant-authored product directions; no outcome is promised.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Squalane",
+        "Cetearyl alcohol"
+      ],
+      "specifications": {
+        "Material / packaging": "Jar or refill container fixture",
+        "Nominal size / format": "30 / 60 ml by selected option"
+      },
+      "recommendations": [
+        "care-07",
+        "care-08"
+      ],
+      "complementary": []
+    },
+    "editorial": {
+      "truth": {
+        "product": "balancing-formula",
+        "variant": "balancing-formula-30-light",
+        "tuple": [
+          "30 ml",
+          "Light"
+        ],
+        "price": 2900,
+        "display_price": "CAD 29.00",
+        "compare": 3400,
+        "unit": {
+          "amount": 9667,
+          "reference": "100 ml"
+        },
+        "available": true,
+        "status": "Available",
+        "url": "/products/balancing-formula"
+      },
+      "media": [
+        {
+          "id": "balancing-formula-media-1",
+          "type": "image",
+          "src": "media/care-jar.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Balancing formula \u2014 synthetic ordinary product media"
+        },
+        {
+          "id": "balancing-formula-media-2",
+          "type": "image",
+          "src": "media/care-jar.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Balancing formula \u2014 supplementary synthetic packshot"
+        },
+        {
+          "id": "balancing-formula-media-3",
+          "type": "image",
+          "src": "media/bottle-portrait.svg",
+          "width": 200,
+          "height": 360,
+          "alt": "Balancing formula \u2014 supplementary synthetic packshot"
+        },
+        {
+          "id": "balancing-formula-media-4",
+          "type": "image",
+          "src": "media/case-landscape.svg",
+          "width": 900,
+          "height": 600,
+          "alt": "Balancing formula \u2014 supplementary synthetic packshot"
+        }
+      ],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "plans": [],
+      "properties": [],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "30 / 60 ml by selected option",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional cream or balm. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "usage": [
+        {
+          "heading": "Prepare",
+          "instruction": "Use clean hands and check the supplied ingredient list.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Apply",
+          "instruction": "Dispense a small amount and follow the merchant-authored product directions; no outcome is promised.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Squalane",
+        "Cetearyl alcohol"
+      ],
+      "specifications": {
+        "Material / packaging": "Jar or refill container fixture",
+        "Nominal size / format": "30 / 60 ml by selected option"
+      },
+      "recommendations": [
+        "care-07",
+        "care-08"
+      ],
+      "complementary": []
+    }
+  },
+  "genuine_provenance": false
+}

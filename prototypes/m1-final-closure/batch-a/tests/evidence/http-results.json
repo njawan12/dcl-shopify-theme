@@ -1,0 +1,32 @@
+{
+  "pass": 445,
+  "fail": 0,
+  "events": [
+    {
+      "state": "added",
+      "lines": [
+        "38ab410ae9986a2f"
+      ]
+    },
+    {
+      "state": "failed unchanged",
+      "lines": [
+        "38ab410ae9986a2f"
+      ]
+    },
+    {
+      "state": "recovered",
+      "lines": [
+        "38ab410ae9986a2f"
+      ]
+    },
+    {
+      "state": "removed",
+      "lines": [
+        "fbe86949686c6fec",
+        "fdff3ecfe5ac49e3"
+      ]
+    }
+  ],
+  "scope": "Real local HTTP requests; no Shopify network or checkout."
+}

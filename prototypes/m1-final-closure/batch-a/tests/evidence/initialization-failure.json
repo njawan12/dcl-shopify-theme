@@ -1,0 +1,16 @@
+{
+  "state": {
+    "buttons": 0,
+    "checkboxes": 0,
+    "diagnostic": "Canonical synthetic products. No Shopify requests; quantity1. Initialization failure contained; product links remain available.",
+    "links": [
+      "/products/jewelry-1",
+      "/products/jewelry-2",
+      "/products/jewelry-3"
+    ],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  "snapshot": "- link \"Skip to guided products\":\n  - /url: \"#instances\"\n- banner:\n  - paragraph: Batch A / unchanged accepted Guided Set engine / canonical initialization-failure\n  - generic: Fixture\n  - combobox \"Fixture\":\n    - option \"Canonical beauty Guided Set\"\n    - option \"Canonical jewelry Guided Set\"\n    - option \"Canonical neutral Guided Set\"\n    - option \"Canonical initialization-failure Guided Set\" [selected]\n  - paragraph: Canonical initialization-failure Guided Set\n  - paragraph: Canonical synthetic products. No Shopify requests; quantity1. Initialization failure contained; product links remain available.\n  - link \"Return to complete story\":\n    - /url: /pages/story\n- main:\n  - region \"Make room for the essentials.\":\n    - paragraph: Independent products, one considered sequence\n    - heading \"Make room for the essentials.\" [level=1]\n    - paragraph: Follow the numbered journey. Each product remains independent; inclusion is explicit.\n    - paragraph: Synthetic canonical catalog. No bundle or discount.\n    - list:\n      - generic: \"01\"\n      - heading \"Begin\" [level=2]\n      - paragraph: Choose only the individual product that belongs in your day.\n      - heading \"Plain steel band\" [level=3]\n      - paragraph: CAD 38.00\n      - paragraph: Available on the product page.\n      - 'link \"View product: Plain steel band\"':\n        - /url: /products/jewelry-1\n        - text: View product\n      - generic: \"02\"\n      - heading \"Continue\" [level=2]\n      - paragraph: Choose only the individual product that belongs in your day.\n      - heading \"Wide steel ring\" [level=3]\n      - paragraph: CAD 42.00\n      - paragraph: Available on the product page.\n      - 'link \"View product: Wide steel ring\"':\n        - /url: /products/jewelry-2\n        - text: View product\n      - generic: \"03\"\n      - heading \"Finish\" [level=2]\n      - paragraph: Choose only the individual product that belongs in your day.\n      - heading \"Rounded everyday ring\" [level=3]\n      - paragraph: CAD 46.00\n      - paragraph: Available on the product page.\n      - 'link \"View product: Rounded everyday ring\"':\n        - /url: /products/jewelry-3\n        - text: View product\n- contentinfo: Visual verdict PENDING HUMAN REVIEW. Not Shopify integration.",
+  "source": "Original preserved engine failFirst stress hook; not JS-disabled proof."
+}

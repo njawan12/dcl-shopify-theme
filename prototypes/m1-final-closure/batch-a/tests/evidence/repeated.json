@@ -1,0 +1,528 @@
+[
+  {
+    "cardCount": 24,
+    "cartLines": [],
+    "controls": [],
+    "duplicates": [],
+    "fixture": "story",
+    "groups": [],
+    "heading": [
+      "Repeated integrated hosts / isolation supplement"
+    ],
+    "height": 900,
+    "images": [
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 300,
+        "src": "/media/jar.svg"
+      },
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/cloth-square.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 300,
+        "src": "/media/jar.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/box.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 300,
+        "src": "/media/jar.svg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/cloth-square.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 300,
+        "src": "/media/jar.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/box.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      }
+    ],
+    "main": {
+      "h": 13254.21875,
+      "w": 390,
+      "x": 0,
+      "y": 261.1875
+    },
+    "mainOrder": [
+      "Repeated integrated hosts / isolation supplement",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Wash",
+      "Finish",
+      "Questions & details",
+      "Everyday care. Considered choices.",
+      "Daily cleansing milk",
+      "Everyday barrier cream",
+      "Daily concentrate",
+      "Soft finishing oil",
+      "Reusable cleansing cloth",
+      "Balancing formula",
+      "Unscented hand wash",
+      "Everyday body lotion",
+      "Cleansing balm",
+      "Know what belongs in your day.",
+      "Hand cream refill",
+      "Daily body wash",
+      "Body butter",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Wash",
+      "Finish",
+      "Questions & details",
+      "Everyday care. Considered choices.",
+      "Daily cleansing milk",
+      "Everyday barrier cream",
+      "Daily concentrate",
+      "Soft finishing oil",
+      "Reusable cleansing cloth",
+      "Balancing formula",
+      "Unscented hand wash",
+      "Everyday body lotion",
+      "Cleansing balm",
+      "Know what belongs in your day.",
+      "Hand cream refill",
+      "Daily body wash",
+      "Body butter"
+    ],
+    "media": [],
+    "purchase": null,
+    "rootFont": "16px",
+    "scrollWidth": 390,
+    "spillCount": 0,
+    "spills": [],
+    "stickyOwners": [],
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "collection beauty balanced",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "collection beauty balanced",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ],
+    "url": "http://127.0.0.1:3005/repeated",
+    "width": 390,
+    "requestedFixture": "repeated"
+  },
+  {
+    "cardCount": 24,
+    "cartLines": [],
+    "controls": [],
+    "duplicates": [],
+    "fixture": "story",
+    "groups": [],
+    "heading": [
+      "Repeated integrated hosts / isolation supplement"
+    ],
+    "height": 900,
+    "images": [
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 300,
+        "src": "/media/jar.svg"
+      },
+      {
+        "complete": true,
+        "loading": "eager",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/cloth-square.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 300,
+        "src": "/media/jar.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/box.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 300,
+        "src": "/media/jar.svg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 200,
+        "src": "/media/bottle-portrait.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/cloth-square.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      },
+      {
+        "complete": true,
+        "loading": "lazy",
+        "naturalWidth": 300,
+        "src": "/media/jar.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/box.svg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-pump.jpg"
+      },
+      {
+        "complete": false,
+        "loading": "lazy",
+        "naturalWidth": 0,
+        "src": "/media/care-jar.jpg"
+      }
+    ],
+    "main": {
+      "h": 10595.859375,
+      "w": 1440,
+      "x": 0,
+      "y": 141.1875
+    },
+    "mainOrder": [
+      "Repeated integrated hosts / isolation supplement",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Wash",
+      "Finish",
+      "Questions & details",
+      "Everyday care. Considered choices.",
+      "Daily cleansing milk",
+      "Everyday barrier cream",
+      "Daily concentrate",
+      "Soft finishing oil",
+      "Reusable cleansing cloth",
+      "Balancing formula",
+      "Unscented hand wash",
+      "Everyday body lotion",
+      "Cleansing balm",
+      "Know what belongs in your day.",
+      "Hand cream refill",
+      "Daily body wash",
+      "Body butter",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Wash",
+      "Finish",
+      "Questions & details",
+      "Everyday care. Considered choices.",
+      "Daily cleansing milk",
+      "Everyday barrier cream",
+      "Daily concentrate",
+      "Soft finishing oil",
+      "Reusable cleansing cloth",
+      "Balancing formula",
+      "Unscented hand wash",
+      "Everyday body lotion",
+      "Cleansing balm",
+      "Know what belongs in your day.",
+      "Hand cream refill",
+      "Daily body wash",
+      "Body butter"
+    ],
+    "media": [],
+    "purchase": null,
+    "rootFont": "16px",
+    "scrollWidth": 1440,
+    "spillCount": 0,
+    "spills": [],
+    "stickyOwners": [],
+    "tokens": [
+      {
+        "cls": "root",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "collection beauty balanced",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "evidence-host preset-beauty education",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      },
+      {
+        "cls": "collection beauty balanced",
+        "color": "rgb(32, 61, 50)",
+        "ink": "#203d32",
+        "type": "system-ui, sans-serif"
+      }
+    ],
+    "url": "http://127.0.0.1:3005/repeated",
+    "width": 1440,
+    "requestedFixture": "repeated"
+  }
+]

@@ -1,0 +1,278 @@
+{
+  "new_runtime": {
+    "model.py": {
+      "physical_lines": 68,
+      "nonblank_lines": 62,
+      "bytes": 6449,
+      "gzip_bytes": 2644,
+      "sha256": "a3f712203d0cd52015874faec3bee9a6609f0c82302b679f3f989c142488fd32"
+    },
+    "render.py": {
+      "physical_lines": 100,
+      "nonblank_lines": 87,
+      "bytes": 16739,
+      "gzip_bytes": 6189,
+      "sha256": "b1fb25c8099fdc022b2b22d7516769f827f526ee8f403e9e1fa15bbb4488fdf8"
+    },
+    "guided.py": {
+      "physical_lines": 23,
+      "nonblank_lines": 21,
+      "bytes": 4648,
+      "gzip_bytes": 2195,
+      "sha256": "9fcd3f09bde98a181142170e0335e94a98957bd463f7988c46f6e8d4503edfb7"
+    },
+    "serve.py": {
+      "physical_lines": 56,
+      "nonblank_lines": 56,
+      "bytes": 4327,
+      "gzip_bytes": 1884,
+      "sha256": "111a48061fa8aab08f416670941c4798215d676350eaca916adbcbb24db259f1"
+    },
+    "system.css": {
+      "physical_lines": 5,
+      "nonblank_lines": 5,
+      "bytes": 7236,
+      "gzip_bytes": 1897,
+      "sha256": "31d1a87d8d939dc7a10d13d03417fb0fb215b22595f96b3cc4055ee5672f274a"
+    },
+    "tokens.css": {
+      "physical_lines": 4,
+      "nonblank_lines": 4,
+      "bytes": 1189,
+      "gzip_bytes": 457,
+      "sha256": "80830f1907bad83333bd61ca4bd5739716e695e5ad6154b07e9c0ffbe1892fc7"
+    },
+    "dataset.json": {
+      "physical_lines": 3170,
+      "nonblank_lines": 3170,
+      "bytes": 96710,
+      "gzip_bytes": 5896,
+      "sha256": "a602b2ef58cd5380271a7bb6d7fca32fe78387a94c447b9cebc67f6f4c7bd5d3"
+    },
+    "controls.json": {
+      "physical_lines": 232,
+      "nonblank_lines": 232,
+      "bytes": 4581,
+      "gzip_bytes": 1281,
+      "sha256": "e9fe847139d99cb8156b008a8f21aca9f1501ea93a99477541d0c32257c28fc6"
+    },
+    "reuse/guided/fixtures.js": {
+      "physical_lines": 2,
+      "nonblank_lines": 2,
+      "bytes": 27523,
+      "gzip_bytes": 2398,
+      "sha256": "69362a6124893cc417f0b5984ce9f0fac97d2e1824b01350122f9383fbbc621a"
+    }
+  },
+  "authoring_and_tests": {
+    "build_dataset.py": {
+      "physical_lines": 81,
+      "nonblank_lines": 81,
+      "bytes": 15057,
+      "gzip_bytes": 5572,
+      "sha256": "9b16c7c1e9e8bfca56e3dbbb8fe5682869e08e43ec7997539e8766ba67ac7e6c"
+    },
+    "tests/server_journeys.py": {
+      "physical_lines": 52,
+      "nonblank_lines": 52,
+      "bytes": 5401,
+      "gzip_bytes": 1997,
+      "sha256": "3b9ac23b59e17c383d4ae535c347acf70d233544f69ec89069bff350a64309d6"
+    },
+    "tests/static.py": {
+      "physical_lines": 66,
+      "nonblank_lines": 66,
+      "bytes": 7062,
+      "gzip_bytes": 2872,
+      "sha256": "e2ae794b155c7363c35423e8db4a7fa886f112085589a800f156a59ff05acb2b"
+    },
+    "tests/summarize.py": {
+      "physical_lines": 32,
+      "nonblank_lines": 32,
+      "bytes": 4079,
+      "gzip_bytes": 1905,
+      "sha256": "961081df11386558dc46882c9326a8bbb8d87981781285f047cdba191830e320"
+    },
+    "tests/validate_observations.py": {
+      "physical_lines": 34,
+      "nonblank_lines": 34,
+      "bytes": 3711,
+      "gzip_bytes": 1676,
+      "sha256": "edbb70dabeec18ff5118c2ec9f8e3b6e73f9598870efd9b28ab601cee1e47ab2"
+    },
+    "tests/adapter-engine.mjs": {
+      "physical_lines": 13,
+      "nonblank_lines": 13,
+      "bytes": 1583,
+      "gzip_bytes": 758,
+      "sha256": "d4fde8ff18c0c8d3e34250186ae3de85d44ba6c1ad11e242e3e28ed028c6ded0"
+    },
+    "tests/browser-capture.js": {
+      "physical_lines": 8,
+      "nonblank_lines": 8,
+      "bytes": 6772,
+      "gzip_bytes": 2419,
+      "sha256": "d84197ef5fdd44554c6cf59f00968e2f38637a3b3e08a0043494cea1fdddd37b"
+    }
+  },
+  "copied_implementation": {
+    "reuse/mosaic/planner.py": {
+      "physical_lines": 7,
+      "nonblank_lines": 7,
+      "bytes": 502,
+      "gzip_bytes": 305,
+      "sha256": "329608dbfd71e88e417701aee49c04421edb4ad2a9c137d4aab286c057141b03"
+    },
+    "reuse/mosaic/render.py": {
+      "physical_lines": 165,
+      "nonblank_lines": 145,
+      "bytes": 10891,
+      "gzip_bytes": 3839,
+      "sha256": "a01cc65bd7183bb2f136bbcb513d8609a7597ac4dd4d89383e8fa705b7fe0cef"
+    },
+    "reuse/mosaic/mosaic.css": {
+      "physical_lines": 88,
+      "nonblank_lines": 88,
+      "bytes": 6806,
+      "gzip_bytes": 1979,
+      "sha256": "2ef1f9b05637734da61e4b8bc1ed51b2f98c1f84d4b15b8d7ea2e7713ac9f9ff"
+    },
+    "reuse/mosaic/fixtures.json": {
+      "physical_lines": 2888,
+      "nonblank_lines": 2888,
+      "bytes": 75942,
+      "gzip_bytes": 4464,
+      "sha256": "513becef4bc1091dad165677473a1cb667593e44c394706f370cccda4280c4a8"
+    },
+    "reuse/guided/split-tension.css": {
+      "physical_lines": 130,
+      "nonblank_lines": 130,
+      "bytes": 10591,
+      "gzip_bytes": 2764,
+      "sha256": "d57e708a10ce28be6487036e4a64d65cdfe686b598ddcd608ad34c5403795da1"
+    },
+    "reuse/guided/split-tension.js": {
+      "physical_lines": 439,
+      "nonblank_lines": 434,
+      "bytes": 24591,
+      "gzip_bytes": 7090,
+      "sha256": "041802434644e512e35f04553f998fdaa56e3ca39d65876cffc27244ff172b3b"
+    },
+    "reuse/rail/render.py": {
+      "physical_lines": 67,
+      "nonblank_lines": 67,
+      "bytes": 7452,
+      "gzip_bytes": 2826,
+      "sha256": "20d5ac978e7cdc6e4d92e8e9abcabbd7d726897619e00b74f5708ad42d3d0947"
+    },
+    "reuse/rail/evidence.css": {
+      "physical_lines": 11,
+      "nonblank_lines": 11,
+      "bytes": 7124,
+      "gzip_bytes": 2200,
+      "sha256": "27613f7e02c53c46becda5804d9413eb1c7512be50998ece553d4586f815a646"
+    },
+    "reuse/rail/content.py": {
+      "physical_lines": 58,
+      "nonblank_lines": 55,
+      "bytes": 3358,
+      "gzip_bytes": 1173,
+      "sha256": "d3ace8a94ae037ad15934df22671225cdab118fa2659f5b2ce98f5b8f278409d"
+    },
+    "reuse/rail/fixtures.py": {
+      "physical_lines": 56,
+      "nonblank_lines": 52,
+      "bytes": 8904,
+      "gzip_bytes": 3228,
+      "sha256": "d21e0b21608019ab7205b7fb65b601b74dcf9bed031f170e3155f4a5297d1802"
+    }
+  },
+  "dependencies_added": 0,
+  "runtime_browser_layout_js": 0,
+  "new_browser_interaction_logic": "0; generated fixture module exports data and one stateless ID lookup. Original Guided Set interaction engine reused byte-identically.",
+  "duplicate_responsive_dom": 0,
+  "sticky_owners": 0,
+  "new_cart_state_fields": [
+    "lines",
+    "note",
+    "order_discount",
+    "message"
+  ],
+  "line_identity_fields": [
+    "key",
+    "product",
+    "variant",
+    "quantity",
+    "plan",
+    "properties",
+    "discount"
+  ],
+  "platform_requests": 0,
+  "app_vendors": 0,
+  "merchant_position_controls": 0,
+  "new_python_functions": {
+    "model.py": [
+      "money",
+      "resolve",
+      "truth",
+      "line",
+      "new_cart",
+      "mutate",
+      "totals",
+      "seeded_cart",
+      "fixture"
+    ],
+    "render.py": [
+      "load",
+      "e",
+      "adapted",
+      "card_truth",
+      "media",
+      "facts",
+      "purchase",
+      "education",
+      "related",
+      "pdp",
+      "collection",
+      "story",
+      "cart_html",
+      "normalized",
+      "page",
+      "repeated_page"
+    ],
+    "guided.py": [
+      "data",
+      "write_adapter",
+      "page"
+    ],
+    "serve.py": [
+      "log_message",
+      "respond",
+      "session",
+      "do_GET",
+      "do_POST"
+    ]
+  },
+  "breakpoints_px": [
+    768,
+    1024,
+    1280
+  ],
+  "scope": "Includes source bytes separately from copied legacy implementations and captured evidence. Compact source lines are not claimed as simplicity or speed.",
+  "served_media": {
+    "files": 23,
+    "bytes": 992549,
+    "unique_packshot_assets": 11,
+    "note": "24 unique Beauty records do not imply 24 distinct photographs. Shared inherited schematic/packshot assets are explicitly synthetic."
+  },
+  "rendered_html_bytes": {
+    "balanced": 9814,
+    "compact": 9808,
+    "editorial": 9863,
+    "cart-populated": 6505,
+    "story": 16208,
+    "collection24": 19688,
+    "collection100": 70785
+  },
+  "integrated_css_bytes": 22355
+}

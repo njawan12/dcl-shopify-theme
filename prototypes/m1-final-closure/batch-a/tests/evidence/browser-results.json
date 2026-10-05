@@ -1,0 +1,48 @@
+{
+  "pass": 2896,
+  "fail": 0,
+  "matrix_views": 264,
+  "native_journey_assertions": 17,
+  "repeated_supplement_views": 2,
+  "token_supplement_views": 10,
+  "reflow_supplement_views": 10,
+  "reflow_fitting": 5,
+  "reflow_overflow": [
+    {
+      "fixture": "balanced",
+      "root_font": "64px",
+      "width": 320,
+      "scroll_width": 555,
+      "spill_count": 57
+    },
+    {
+      "fixture": "compact",
+      "root_font": "64px",
+      "width": 320,
+      "scroll_width": 450,
+      "spill_count": 22
+    },
+    {
+      "fixture": "editorial",
+      "root_font": "64px",
+      "width": 320,
+      "scroll_width": 555,
+      "spill_count": 55
+    },
+    {
+      "fixture": "cart-populated",
+      "root_font": "64px",
+      "width": 320,
+      "scroll_width": 545,
+      "spill_count": 66
+    },
+    {
+      "fixture": "story",
+      "root_font": "64px",
+      "width": 320,
+      "scroll_width": 473,
+      "spill_count": 22
+    }
+  ],
+  "scope": "Passing assertions concern normal matrix/native actions. 400% text-overflow observations are explicitly separate unsuccessful feasibility results. Actual browser-JS-disabled journey NOT EXECUTED (locked Mac)."
+}

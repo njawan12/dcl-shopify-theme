@@ -1,0 +1,274 @@
+[
+  {
+    "fixture": "balanced",
+    "width": 390,
+    "path": "tests/evidence/frames/balanced-390.jpg",
+    "bytes": 195002,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "balanced",
+    "width": 1440,
+    "path": "tests/evidence/frames/balanced-1440.jpg",
+    "bytes": 284764,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "compact",
+    "width": 390,
+    "path": "tests/evidence/frames/compact-390.jpg",
+    "bytes": 192931,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "compact",
+    "width": 1440,
+    "path": "tests/evidence/frames/compact-1440.jpg",
+    "bytes": 277666,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "editorial",
+    "width": 390,
+    "path": "tests/evidence/frames/editorial-390.jpg",
+    "bytes": 190160,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "editorial",
+    "width": 1440,
+    "path": "tests/evidence/frames/editorial-1440.jpg",
+    "bytes": 297730,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "balanced-neutral",
+    "width": 390,
+    "path": "tests/evidence/frames/balanced-neutral-390.jpg",
+    "bytes": 200209,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "balanced-neutral",
+    "width": 1440,
+    "path": "tests/evidence/frames/balanced-neutral-1440.jpg",
+    "bytes": 290397,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "compact-neutral",
+    "width": 390,
+    "path": "tests/evidence/frames/compact-neutral-390.jpg",
+    "bytes": 197761,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "compact-neutral",
+    "width": 1440,
+    "path": "tests/evidence/frames/compact-neutral-1440.jpg",
+    "bytes": 281855,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "editorial-neutral",
+    "width": 390,
+    "path": "tests/evidence/frames/editorial-neutral-390.jpg",
+    "bytes": 195830,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "editorial-neutral",
+    "width": 1440,
+    "path": "tests/evidence/frames/editorial-neutral-1440.jpg",
+    "bytes": 304216,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "long",
+    "width": 320,
+    "path": "tests/evidence/frames/long-320.jpg",
+    "bytes": 333141,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "missing",
+    "width": 390,
+    "path": "tests/evidence/frames/missing-390.jpg",
+    "bytes": 161097,
+    "imagesLoaded": 0,
+    "imagesTotal": 0
+  },
+  {
+    "fixture": "many-media",
+    "width": 768,
+    "path": "tests/evidence/frames/many-media-768.jpg",
+    "bytes": 250587,
+    "imagesLoaded": 12,
+    "imagesTotal": 12
+  },
+  {
+    "fixture": "rich-media",
+    "width": 390,
+    "path": "tests/evidence/frames/rich-media-390.jpg",
+    "bytes": 231257,
+    "imagesLoaded": 12,
+    "imagesTotal": 12
+  },
+  {
+    "fixture": "disconnected",
+    "width": 390,
+    "path": "tests/evidence/frames/disconnected-390.jpg",
+    "bytes": 166367,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "rtl",
+    "width": 390,
+    "path": "tests/evidence/frames/rtl-390.jpg",
+    "bytes": 151963,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "plan",
+    "width": 390,
+    "path": "tests/evidence/frames/plan-390.jpg",
+    "bytes": 172457,
+    "imagesLoaded": 1,
+    "imagesTotal": 1
+  },
+  {
+    "fixture": "properties",
+    "width": 390,
+    "path": "tests/evidence/frames/properties-390.jpg",
+    "bytes": 164261,
+    "imagesLoaded": 1,
+    "imagesTotal": 1
+  },
+  {
+    "fixture": "app",
+    "width": 320,
+    "path": "tests/evidence/frames/app-320.jpg",
+    "bytes": 168084,
+    "imagesLoaded": 1,
+    "imagesTotal": 1
+  },
+  {
+    "fixture": "collection24",
+    "width": 390,
+    "path": "tests/evidence/frames/collection24-390.jpg",
+    "bytes": 258912,
+    "imagesLoaded": 24,
+    "imagesTotal": 24
+  },
+  {
+    "fixture": "collection24",
+    "width": 1440,
+    "path": "tests/evidence/frames/collection24-1440.jpg",
+    "bytes": 392374,
+    "imagesLoaded": 24,
+    "imagesTotal": 24
+  },
+  {
+    "fixture": "collection100",
+    "width": 1440,
+    "path": "tests/evidence/frames/collection100-1440.jpg",
+    "bytes": 1284263,
+    "imagesLoaded": 97,
+    "imagesTotal": 97
+  },
+  {
+    "fixture": "cart-empty",
+    "width": 390,
+    "path": "tests/evidence/frames/cart-empty-390.jpg",
+    "bytes": 28772,
+    "imagesLoaded": 0,
+    "imagesTotal": 0
+  },
+  {
+    "fixture": "cart-populated",
+    "width": 390,
+    "path": "tests/evidence/frames/cart-populated-390.jpg",
+    "bytes": 114137,
+    "imagesLoaded": 3,
+    "imagesTotal": 3
+  },
+  {
+    "fixture": "cart-populated",
+    "width": 1440,
+    "path": "tests/evidence/frames/cart-populated-1440.jpg",
+    "bytes": 138099,
+    "imagesLoaded": 3,
+    "imagesTotal": 3
+  },
+  {
+    "fixture": "cart-error",
+    "width": 390,
+    "path": "tests/evidence/frames/cart-error-390.jpg",
+    "bytes": 120301,
+    "imagesLoaded": 3,
+    "imagesTotal": 3
+  },
+  {
+    "fixture": "story",
+    "width": 390,
+    "path": "tests/evidence/frames/story-390.jpg",
+    "bytes": 305569,
+    "imagesLoaded": 14,
+    "imagesTotal": 14
+  },
+  {
+    "fixture": "story",
+    "width": 1440,
+    "path": "tests/evidence/frames/story-1440.jpg",
+    "bytes": 466062,
+    "imagesLoaded": 14,
+    "imagesTotal": 14
+  },
+  {
+    "fixture": "story-neutral",
+    "width": 390,
+    "path": "tests/evidence/frames/story-neutral-390.jpg",
+    "bytes": 309163,
+    "imagesLoaded": 14,
+    "imagesTotal": 14
+  },
+  {
+    "fixture": "story-neutral",
+    "width": 1440,
+    "path": "tests/evidence/frames/story-neutral-1440.jpg",
+    "bytes": 463275,
+    "imagesLoaded": 14,
+    "imagesTotal": 14
+  },
+  {
+    "fixture": "guided-jewelry",
+    "width": 390,
+    "path": "tests/evidence/frames/guided-jewelry-390.jpg",
+    "bytes": 99593,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  },
+  {
+    "fixture": "guided-jewelry",
+    "width": 1440,
+    "path": "tests/evidence/frames/guided-jewelry-1440.jpg",
+    "bytes": 131910,
+    "imagesLoaded": 4,
+    "imagesTotal": 4
+  }
+]

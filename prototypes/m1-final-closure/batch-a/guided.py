@@ -1,0 +1,23 @@
+"""Canonical content adapter for exact preserved ST engine/CSS; no geometry fork."""
+import json,copy
+from html import escape
+from model import BASE,PRODUCTS,truth,money
+
+def data(kind):
+ ids=['daily-cleanser','barrier-cream'] if kind=='beauty' else ['jewelry-1','jewelry-2','jewelry-3']
+ steps=[]
+ for i,pid in enumerate(ids):
+  p=copy.deepcopy(PRODUCTS[pid]);m=next((m for m in p['media'] if m['type']=='image'),None)
+  p['image']=m;p['quantityRule']=p['quantity']['min']!=1 or p['quantity']['increment']!=1;p['requiredProperties']=bool(p['required_properties']);p['sellingPlanSensitive']=bool(p['plans']);p['appOwned']=bool(p['app']);p['linkOnly']=bool(p['gift_card']);p['variants']=[{**v,**({'compareAt':v['compare_at']} if v['compare_at'] is not None else {}),'unitPrice':{'price':v['unit_price']['amount'],'reference':v['unit_price']['reference']} if v['unit_price'] else None} for v in p['variants']]
+  steps.append({'product':p,'label':['Begin','Continue','Finish'][i],'copy':'Choose only the individual product that belongs in your day.'})
+ return {'id':kind,'label':'Canonical '+kind+' Guided Set','steps':steps,'editorial':{'media':{'src':'media/objects-landscape.svg','width':1200,'height':800},'eyebrow':'Independent products, one considered sequence','heading':'Make room for\nthe essentials.','body':'Follow the numbered journey. Each product remains independent; inclusion is explicit.','note':'Synthetic canonical catalog. No bundle or discount.'},'money':{'currency':'CAD','digits':2,'locale':'en-CA'},'response':'success','diagnostic':'Canonical synthetic products. No Shopify requests; quantity1.','neutral':kind!='beauty', 'failFirst':kind=='initialization-failure'}
+def write_adapter():
+ values=[data(k) for k in ['beauty','jewelry','neutral','initialization-failure']]
+ (BASE/'reuse/guided/fixtures.js').write_text('export const fixtures = '+json.dumps(values,ensure_ascii=False)+';\nexport function getFixture(id){return fixtures.find(f=>f.id===id)||fixtures[0];}\n')
+
+def page(kind='beauty'):
+ kind=kind if kind in ('beauty','jewelry','neutral','initialization-failure') else 'beauty';f=data(kind);e=lambda v:escape(str(v),quote=True);s=f['editorial'];cards=[]
+ for i,step in enumerate(f['steps']):
+  p=step['product'];img=p['image'];t=truth(p)
+  cards.append(f'<li class="step" data-step="{i}"><div class="step-lead"><span class="step-number">{i+1:02}</span><h2 class="step-label">{e(step["label"])}</h2></div><p class="step-copy">{e(step["copy"])}</p><div class="product"><div class="product-media"><img src="/{img["src"]}" width="{img["width"]}" height="{img["height"]}" alt="{e(img["alt"])}" loading="{"eager" if i==0 else "lazy"}"></div><div class="product-info"><h3 class="product-title">{e(p["title"])}</h3><p class="price">{e(t["display_price"])}</p><p class="availability">Available on the product page.</p><a class="product-link" href="{p["url"]}" aria-label="View product: {e(p["title"])}">View product</a></div></div></li>')
+ return '<!doctype html><html lang="en" data-preset="'+('beauty' if kind=='beauty' else 'neutral')+'"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Canonical Guided Set '+kind+'</title><link rel="stylesheet" href="/reuse/guided/split-tension.css"><link rel="stylesheet" href="/tokens.css"><script type="module" src="/reuse/guided/split-tension.js"></script></head><body class="guided-proof"><a class="skip-link" href="#instances">Skip to guided products</a><header class="harness"><p>Batch A / unchanged accepted Guided Set engine / canonical '+kind+'</p><div id="fixture-control" hidden><label for="fixture">Fixture</label><select id="fixture" disabled></select></div><p id="fixture-label">'+e(f['label'])+'</p><p id="diagnostics">'+e(f['diagnostic'])+'</p><noscript><p>Browser JavaScript is disabled. Discover products using the native links; no aggregate action is offered.</p></noscript><a href="/pages/story">Return to complete story</a></header><main id="instances"><section class="split-tension'+(' neutral' if f['neutral'] else '')+'" id="split-1" aria-labelledby="split-1-heading"><header class="editorial"><img class="editorial-media" src="/media/objects-landscape.svg" width="1200" height="800" alt=""><div class="editorial-copy"><p class="eyebrow">'+e(s['eyebrow'])+'</p><h1 id="split-1-heading">'+e(s['heading'])+'</h1><p class="proposition">'+e(s['body'])+'</p><p class="editorial-note">'+e(s['note'])+'</p></div></header><ol class="steps">'+''.join(cards)+'</ol></section></main><footer class="harness-footer">Visual verdict PENDING HUMAN REVIEW. Not Shopify integration.</footer></body></html>'

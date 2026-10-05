@@ -1,0 +1,3170 @@
+{
+  "disclaimer": "Synthetic non-production catalog. No genuine merchant provenance, inventory, efficacy, review or certification claim.",
+  "currency": "CAD",
+  "products": {
+    "daily-cleanser": {
+      "id": "daily-cleanser",
+      "handle": "daily-cleanser",
+      "title": "Daily cleansing milk",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/daily-cleanser",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "daily-cleanser-v1",
+          "options": [],
+          "price": 2400,
+          "available": true,
+          "compare_at": null,
+          "unit_price": {
+            "amount": 4800,
+            "reference": "100 ml"
+          },
+          "media_id": "daily-cleanser-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "daily-cleanser-media-1",
+          "type": "image",
+          "src": "media/bottle-portrait.svg",
+          "width": 200,
+          "height": 360,
+          "alt": "Daily cleansing milk — synthetic ordinary product media"
+        }
+      ],
+      "description": "Daily cleansing milk is a fictional wash or cleansing milk record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Decyl glucoside"
+      ],
+      "specifications": {
+        "Material / packaging": "Pump bottle or refill container fixture",
+        "Nominal size / format": "50 ml"
+      },
+      "usage": [
+        {
+          "heading": "Wash",
+          "instruction": "Dispense a small amount onto wet hands or a damp cloth.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Finish",
+          "instruction": "Rinse with water, close the container and follow the product-specific merchant directions.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "50 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional wash or cleansing milk. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [],
+      "complementary": [],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "barrier-cream": {
+      "id": "barrier-cream",
+      "handle": "barrier-cream",
+      "title": "Everyday barrier cream",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/barrier-cream",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "barrier-cream-v1",
+          "options": [],
+          "price": 3800,
+          "available": true,
+          "compare_at": 4400,
+          "unit_price": {
+            "amount": 7600,
+            "reference": "100 ml"
+          },
+          "media_id": "barrier-cream-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "barrier-cream-media-1",
+          "type": "image",
+          "src": "media/jar.svg",
+          "width": 300,
+          "height": 300,
+          "alt": "Everyday barrier cream — synthetic ordinary product media"
+        }
+      ],
+      "description": "Everyday barrier cream is a fictional cream or balm record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Squalane",
+        "Cetearyl alcohol"
+      ],
+      "specifications": {
+        "Material / packaging": "Jar or refill container fixture",
+        "Nominal size / format": "50 ml"
+      },
+      "usage": [
+        {
+          "heading": "Prepare",
+          "instruction": "Use clean hands and check the supplied ingredient list.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Apply",
+          "instruction": "Dispense a small amount and follow the merchant-authored product directions; no outcome is promised.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "50 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional cream or balm. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "concentrate",
+        "finishing-oil"
+      ],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "concentrate": {
+      "id": "concentrate",
+      "handle": "concentrate",
+      "title": "Daily concentrate",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/concentrate",
+      "published": true,
+      "options": [
+        {
+          "name": "Volume",
+          "values": [
+            "10 ml",
+            "20 ml",
+            "30 ml",
+            "40 ml",
+            "50 ml",
+            "60 ml"
+          ]
+        },
+        {
+          "name": "Texture",
+          "values": [
+            "Light",
+            "Smooth",
+            "Rich",
+            "Fluid"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "concentrate-v1",
+          "options": [
+            "10 ml",
+            "Light"
+          ],
+          "price": 4200,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v2",
+          "options": [
+            "10 ml",
+            "Smooth"
+          ],
+          "price": 4300,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v3",
+          "options": [
+            "10 ml",
+            "Rich"
+          ],
+          "price": 4400,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v4",
+          "options": [
+            "10 ml",
+            "Fluid"
+          ],
+          "price": 4500,
+          "available": false,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v5",
+          "options": [
+            "20 ml",
+            "Light"
+          ],
+          "price": 4600,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v6",
+          "options": [
+            "20 ml",
+            "Smooth"
+          ],
+          "price": 4700,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v7",
+          "options": [
+            "20 ml",
+            "Rich"
+          ],
+          "price": 4800,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v8",
+          "options": [
+            "20 ml",
+            "Fluid"
+          ],
+          "price": 4900,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v9",
+          "options": [
+            "30 ml",
+            "Light"
+          ],
+          "price": 5000,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v10",
+          "options": [
+            "30 ml",
+            "Smooth"
+          ],
+          "price": 5100,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v11",
+          "options": [
+            "30 ml",
+            "Rich"
+          ],
+          "price": 5200,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v12",
+          "options": [
+            "30 ml",
+            "Fluid"
+          ],
+          "price": 5300,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v13",
+          "options": [
+            "40 ml",
+            "Light"
+          ],
+          "price": 5400,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v14",
+          "options": [
+            "40 ml",
+            "Smooth"
+          ],
+          "price": 5500,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v15",
+          "options": [
+            "40 ml",
+            "Rich"
+          ],
+          "price": 5600,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v16",
+          "options": [
+            "40 ml",
+            "Fluid"
+          ],
+          "price": 5700,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v17",
+          "options": [
+            "50 ml",
+            "Light"
+          ],
+          "price": 5800,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v18",
+          "options": [
+            "50 ml",
+            "Smooth"
+          ],
+          "price": 5900,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v19",
+          "options": [
+            "50 ml",
+            "Rich"
+          ],
+          "price": 6000,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v20",
+          "options": [
+            "50 ml",
+            "Fluid"
+          ],
+          "price": 6100,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v21",
+          "options": [
+            "60 ml",
+            "Light"
+          ],
+          "price": 6200,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v22",
+          "options": [
+            "60 ml",
+            "Smooth"
+          ],
+          "price": 6300,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v23",
+          "options": [
+            "60 ml",
+            "Rich"
+          ],
+          "price": 6400,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        },
+        {
+          "id": "concentrate-v24",
+          "options": [
+            "60 ml",
+            "Fluid"
+          ],
+          "price": 6500,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "concentrate-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "concentrate-media-1",
+          "type": "image",
+          "src": "media/bottle-portrait.svg",
+          "width": 200,
+          "height": 360,
+          "alt": "Daily concentrate — synthetic ordinary product media"
+        }
+      ],
+      "description": "Daily concentrate is a fictional concentrate record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Panthenol"
+      ],
+      "specifications": {
+        "Material / packaging": "Glass bottle fixture",
+        "Nominal size / format": "10–60 ml by selected option"
+      },
+      "usage": [
+        {
+          "heading": "Dispense",
+          "instruction": "Use the supplied dispenser for the selected bottle size.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Use",
+          "instruction": "Follow the concentration-specific instructions provided with real merchandise; this fictional formula makes no result claim.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "10–60 ml by selected option",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional concentrate. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "finishing-oil",
+        "woven-cloth"
+      ],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "finishing-oil": {
+      "id": "finishing-oil",
+      "handle": "finishing-oil",
+      "title": "Soft finishing oil",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/finishing-oil",
+      "published": true,
+      "options": [
+        {
+          "name": "Format",
+          "values": [
+            "Light",
+            "Silky",
+            "Soft",
+            "Rich",
+            "Fluid",
+            "Smooth"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "finishing-oil-v1",
+          "options": [
+            "Light"
+          ],
+          "price": 3100,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "finishing-oil-media-1"
+        },
+        {
+          "id": "finishing-oil-v2",
+          "options": [
+            "Silky"
+          ],
+          "price": 3200,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "finishing-oil-media-1"
+        },
+        {
+          "id": "finishing-oil-v3",
+          "options": [
+            "Soft"
+          ],
+          "price": 3300,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "finishing-oil-media-1"
+        },
+        {
+          "id": "finishing-oil-v4",
+          "options": [
+            "Rich"
+          ],
+          "price": 3400,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "finishing-oil-media-1"
+        },
+        {
+          "id": "finishing-oil-v5",
+          "options": [
+            "Fluid"
+          ],
+          "price": 3500,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "finishing-oil-media-1"
+        },
+        {
+          "id": "finishing-oil-v6",
+          "options": [
+            "Smooth"
+          ],
+          "price": 3600,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "finishing-oil-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "finishing-oil-media-1",
+          "type": "image",
+          "src": "media/bottle-portrait.svg",
+          "width": 200,
+          "height": 360,
+          "alt": "Soft finishing oil — synthetic ordinary product media"
+        }
+      ],
+      "description": "Soft finishing oil is a fictional finishing oil record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Sunflower seed oil",
+        "Squalane"
+      ],
+      "specifications": {
+        "Material / packaging": "Glass bottle fixture",
+        "Nominal size / format": "30 ml"
+      },
+      "usage": [
+        {
+          "heading": "Dispense",
+          "instruction": "Place a small amount of the fictional oil in your palm.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Use",
+          "instruction": "Apply according to the final merchant-authored directions; efficacy is not represented by this fixture.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "30 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional finishing oil. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "woven-cloth",
+        "balancing-formula"
+      ],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "woven-cloth": {
+      "id": "woven-cloth",
+      "handle": "woven-cloth",
+      "title": "Reusable cleansing cloth",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/woven-cloth",
+      "published": true,
+      "options": [
+        {
+          "name": "Format",
+          "values": [
+            "Small",
+            "Large"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "woven-cloth-v1",
+          "options": [
+            "Small"
+          ],
+          "price": 1200,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "woven-cloth-media-1"
+        },
+        {
+          "id": "woven-cloth-v2",
+          "options": [
+            "Large"
+          ],
+          "price": 1300,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "woven-cloth-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "woven-cloth-media-1",
+          "type": "image",
+          "src": "media/cloth-square.svg",
+          "width": 800,
+          "height": 800,
+          "alt": "Reusable cleansing cloth — synthetic ordinary product media"
+        }
+      ],
+      "description": "Reusable cleansing cloth is a fictional cloth record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [],
+      "specifications": {
+        "Material / packaging": "Cotton",
+        "Nominal size / format": "15 × 15 / 25 × 25 cm"
+      },
+      "usage": [
+        {
+          "heading": "Dampen",
+          "instruction": "Wet the cloth with water before use.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Care",
+          "instruction": "Rinse after use and allow the cloth to dry fully.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "Cotton",
+          "label": "Fixture material",
+          "body": "Authored product context for this fictional cloth. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "balancing-formula": {
+      "id": "balancing-formula",
+      "handle": "balancing-formula",
+      "title": "Balancing formula",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/balancing-formula",
+      "published": true,
+      "options": [
+        {
+          "name": "Size",
+          "values": [
+            "30 ml",
+            "60 ml"
+          ]
+        },
+        {
+          "name": "Finish",
+          "values": [
+            "Light",
+            "Rich"
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "balancing-formula-30-light",
+          "options": [
+            "30 ml",
+            "Light"
+          ],
+          "price": 2900,
+          "available": true,
+          "compare_at": 3400,
+          "unit_price": {
+            "amount": 9667,
+            "reference": "100 ml"
+          },
+          "media_id": "balancing-formula-media-1"
+        },
+        {
+          "id": "balancing-formula-30-rich",
+          "options": [
+            "30 ml",
+            "Rich"
+          ],
+          "price": 3100,
+          "available": false,
+          "compare_at": null,
+          "unit_price": {
+            "amount": 10333,
+            "reference": "100 ml"
+          },
+          "media_id": "balancing-formula-media-1"
+        },
+        {
+          "id": "balancing-formula-60-light",
+          "options": [
+            "60 ml",
+            "Light"
+          ],
+          "price": 4700,
+          "available": true,
+          "compare_at": null,
+          "unit_price": {
+            "amount": 7833,
+            "reference": "100 ml"
+          },
+          "media_id": "balancing-formula-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "balancing-formula-media-1",
+          "type": "image",
+          "src": "media/care-jar.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Balancing formula — synthetic ordinary product media"
+        },
+        {
+          "id": "balancing-formula-media-2",
+          "type": "image",
+          "src": "media/care-jar.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Balancing formula — supplementary synthetic packshot"
+        },
+        {
+          "id": "balancing-formula-media-3",
+          "type": "image",
+          "src": "media/bottle-portrait.svg",
+          "width": 200,
+          "height": 360,
+          "alt": "Balancing formula — supplementary synthetic packshot"
+        },
+        {
+          "id": "balancing-formula-media-4",
+          "type": "image",
+          "src": "media/case-landscape.svg",
+          "width": 900,
+          "height": 600,
+          "alt": "Balancing formula — supplementary synthetic packshot"
+        },
+        {
+          "id": "balancing-formula-media-5",
+          "type": "image",
+          "src": "media/care-pump.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Balancing formula — supplementary synthetic packshot"
+        },
+        {
+          "id": "balancing-formula-media-6",
+          "type": "image",
+          "src": "media/jar.svg",
+          "width": 300,
+          "height": 300,
+          "alt": "Balancing formula — supplementary synthetic packshot"
+        },
+        {
+          "id": "balancing-formula-media-7",
+          "type": "image",
+          "src": "media/box.svg",
+          "width": 420,
+          "height": 220,
+          "alt": "Balancing formula — supplementary synthetic packshot"
+        },
+        {
+          "id": "balancing-formula-media-8",
+          "type": "image",
+          "src": "media/bottle.svg",
+          "width": 300,
+          "height": 300,
+          "alt": "Balancing formula — supplementary synthetic packshot"
+        },
+        {
+          "id": "balancing-formula-media-9",
+          "type": "image",
+          "src": "media/care-jar.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Balancing formula — supplementary synthetic packshot"
+        },
+        {
+          "id": "balancing-formula-media-10",
+          "type": "image",
+          "src": "media/bottle-portrait.svg",
+          "width": 200,
+          "height": 360,
+          "alt": "Balancing formula — supplementary synthetic packshot"
+        },
+        {
+          "id": "balancing-formula-video",
+          "type": "video",
+          "poster": "media/care-pump.jpg",
+          "alt": "Video-shaped fixture: handling demonstration text alternative. No playable video source supplied.",
+          "source": null,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "id": "balancing-formula-model",
+          "type": "model",
+          "poster": "media/care-jar.jpg",
+          "alt": "3D-shaped fixture: cylindrical container with separate pump. No interactive model supplied.",
+          "source": null,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "description": "Balancing formula is a fictional cream or balm record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Squalane",
+        "Cetearyl alcohol"
+      ],
+      "specifications": {
+        "Material / packaging": "Jar or refill container fixture",
+        "Nominal size / format": "30 / 60 ml by selected option"
+      },
+      "usage": [
+        {
+          "heading": "Prepare",
+          "instruction": "Use clean hands and check the supplied ingredient list.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Apply",
+          "instruction": "Dispense a small amount and follow the merchant-authored product directions; no outcome is promised.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "30 / 60 ml by selected option",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional cream or balm. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "care-07",
+        "care-08"
+      ],
+      "complementary": [],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "care-07": {
+      "id": "care-07",
+      "handle": "care-07",
+      "title": "Unscented hand wash",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-07",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-07-v1",
+          "options": [],
+          "price": 2500,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-07-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-07-media-1",
+          "type": "image",
+          "src": "media/care-pump.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Unscented hand wash — synthetic ordinary product media"
+        }
+      ],
+      "description": "Unscented hand wash is a fictional wash or cleansing milk record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Decyl glucoside"
+      ],
+      "specifications": {
+        "Material / packaging": "Pump bottle or refill container fixture",
+        "Nominal size / format": "250 ml"
+      },
+      "usage": [
+        {
+          "heading": "Wash",
+          "instruction": "Dispense a small amount onto wet hands or a damp cloth.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Finish",
+          "instruction": "Rinse with water, close the container and follow the product-specific merchant directions.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "250 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional wash or cleansing milk. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "care-08",
+        "care-09"
+      ],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "care-08": {
+      "id": "care-08",
+      "handle": "care-08",
+      "title": "Everyday body lotion",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-08",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-08-v1",
+          "options": [],
+          "price": 2650,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-08-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-08-media-1",
+          "type": "image",
+          "src": "media/care-pump.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Everyday body lotion — synthetic ordinary product media"
+        }
+      ],
+      "description": "Everyday body lotion is a fictional cream or balm record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Squalane",
+        "Cetearyl alcohol"
+      ],
+      "specifications": {
+        "Material / packaging": "Jar or refill container fixture",
+        "Nominal size / format": "100 ml"
+      },
+      "usage": [
+        {
+          "heading": "Prepare",
+          "instruction": "Use clean hands and check the supplied ingredient list.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Apply",
+          "instruction": "Dispense a small amount and follow the merchant-authored product directions; no outcome is promised.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "100 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional cream or balm. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "care-09",
+        "care-10"
+      ],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [
+        {
+          "id": "monthly-care",
+          "label": "Monthly delivery · fixture",
+          "price_adjustment": 0,
+          "terms": "Recurring purchase-shaped data; no subscription service."
+        }
+      ],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "care-09": {
+      "id": "care-09",
+      "handle": "care-09",
+      "title": "Cleansing balm",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-09",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-09-v1",
+          "options": [],
+          "price": 2800,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-09-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-09-media-1",
+          "type": "image",
+          "src": "media/care-jar.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Cleansing balm — synthetic ordinary product media"
+        }
+      ],
+      "description": "Cleansing balm is a fictional cream or balm record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Squalane",
+        "Cetearyl alcohol"
+      ],
+      "specifications": {
+        "Material / packaging": "Jar or refill container fixture",
+        "Nominal size / format": "100 ml"
+      },
+      "usage": [
+        {
+          "heading": "Prepare",
+          "instruction": "Use clean hands and check the supplied ingredient list.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Apply",
+          "instruction": "Dispense a small amount and follow the merchant-authored product directions; no outcome is promised.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "100 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional cream or balm. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [
+        "Recipient note"
+      ],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "care-10": {
+      "id": "care-10",
+      "handle": "care-10",
+      "title": "Hand cream refill",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-10",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-10-v1",
+          "options": [],
+          "price": 2950,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-10-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-10-media-1",
+          "type": "image",
+          "src": "media/box.svg",
+          "width": 420,
+          "height": 220,
+          "alt": "Hand cream refill — synthetic ordinary product media"
+        }
+      ],
+      "description": "Hand cream refill is a fictional cream or balm record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Squalane",
+        "Cetearyl alcohol"
+      ],
+      "specifications": {
+        "Material / packaging": "Jar or refill container fixture",
+        "Nominal size / format": "100 ml"
+      },
+      "usage": [
+        {
+          "heading": "Prepare",
+          "instruction": "Use clean hands and check the supplied ingredient list.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Apply",
+          "instruction": "Dispense a small amount and follow the merchant-authored product directions; no outcome is promised.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "100 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional cream or balm. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "care-11",
+        "care-12"
+      ],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 2,
+        "max": 10,
+        "increment": 2
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "care-11": {
+      "id": "care-11",
+      "handle": "care-11",
+      "title": "Daily body wash",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-11",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-11-v1",
+          "options": [],
+          "price": 3100,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-11-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-11-media-1",
+          "type": "image",
+          "src": "media/care-pump.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Daily body wash — synthetic ordinary product media"
+        }
+      ],
+      "description": "Daily body wash is a fictional wash or cleansing milk record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Decyl glucoside"
+      ],
+      "specifications": {
+        "Material / packaging": "Pump bottle or refill container fixture",
+        "Nominal size / format": "250 ml"
+      },
+      "usage": [
+        {
+          "heading": "Wash",
+          "instruction": "Dispense a small amount onto wet hands or a damp cloth.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Finish",
+          "instruction": "Rinse with water, close the container and follow the product-specific merchant directions.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "250 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional wash or cleansing milk. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "care-12",
+        "care-13"
+      ],
+      "complementary": [],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": {
+        "location": "Example studio",
+        "message": "Fixture pickup context; no live availability."
+      },
+      "app": null,
+      "gift_card": false
+    },
+    "care-12": {
+      "id": "care-12",
+      "handle": "care-12",
+      "title": "Body butter",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-12",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-12-v1",
+          "options": [],
+          "price": 3250,
+          "available": false,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-12-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-12-media-1",
+          "type": "image",
+          "src": "media/care-jar.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Body butter — synthetic ordinary product media"
+        }
+      ],
+      "description": "Body butter is a fictional cream or balm record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Squalane",
+        "Cetearyl alcohol"
+      ],
+      "specifications": {
+        "Material / packaging": "Jar or refill container fixture",
+        "Nominal size / format": "100 ml"
+      },
+      "usage": [
+        {
+          "heading": "Prepare",
+          "instruction": "Use clean hands and check the supplied ingredient list.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Apply",
+          "instruction": "Dispense a small amount and follow the merchant-authored product directions; no outcome is promised.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "100 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional cream or balm. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "care-13",
+        "care-14"
+      ],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "care-13": {
+      "id": "care-13",
+      "handle": "care-13",
+      "title": "Gentle face wash",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-13",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-13-v1",
+          "options": [],
+          "price": 3400,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-13-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-13-media-1",
+          "type": "image",
+          "src": "media/bottle-portrait.svg",
+          "width": 200,
+          "height": 360,
+          "alt": "Gentle face wash — synthetic ordinary product media"
+        }
+      ],
+      "description": "Gentle face wash is a fictional wash or cleansing milk record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Decyl glucoside"
+      ],
+      "specifications": {
+        "Material / packaging": "Pump bottle or refill container fixture",
+        "Nominal size / format": "250 ml"
+      },
+      "usage": [
+        {
+          "heading": "Wash",
+          "instruction": "Dispense a small amount onto wet hands or a damp cloth.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Finish",
+          "instruction": "Rinse with water, close the container and follow the product-specific merchant directions.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "250 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional wash or cleansing milk. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": {
+        "heading": "External product information seam",
+        "body": "Independent synthetic guest. No review, rating or vendor integration."
+      },
+      "gift_card": false
+    },
+    "care-14": {
+      "id": "care-14",
+      "handle": "care-14",
+      "title": "Hand cleansing gel",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-14",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-14-v1",
+          "options": [],
+          "price": 3550,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-14-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-14-media-1",
+          "type": "image",
+          "src": "media/care-pump.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Hand cleansing gel — synthetic ordinary product media"
+        }
+      ],
+      "description": "",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Decyl glucoside"
+      ],
+      "specifications": {
+        "Material / packaging": "Pump bottle or refill container fixture",
+        "Nominal size / format": "250 ml"
+      },
+      "usage": [
+        {
+          "heading": "Wash",
+          "instruction": "Dispense a small amount onto wet hands or a damp cloth.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Finish",
+          "instruction": "Rinse with water, close the container and follow the product-specific merchant directions.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [],
+      "faq": [],
+      "recommendations": [
+        "care-15",
+        "care-16"
+      ],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "care-15": {
+      "id": "care-15",
+      "handle": "care-15",
+      "title": "Everyday face lotion with detailed packaging and care information for a considered daily routine and unfamiliar long product names",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-15",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-15-v1",
+          "options": [],
+          "price": 3700,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-15-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-15-media-1",
+          "type": "image",
+          "src": "media/care-jar.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Everyday face lotion — synthetic ordinary product media"
+        }
+      ],
+      "description": "Everyday face lotion with detailed packaging and care information for a considered daily routine and unfamiliar long product names is a fictional cream or balm record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Squalane",
+        "Cetearyl alcohol"
+      ],
+      "specifications": {
+        "Material / packaging": "Jar or refill container fixture",
+        "Nominal size / format": "100 ml"
+      },
+      "usage": [
+        {
+          "heading": "Prepare",
+          "instruction": "Use clean hands and check the supplied ingredient list.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Apply",
+          "instruction": "Dispense a small amount and follow the merchant-authored product directions; no outcome is promised.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "100 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional cream or balm. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "care-16",
+        "care-17"
+      ],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "care-16": {
+      "id": "care-16",
+      "handle": "care-16",
+      "title": "Cream refill",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-16",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-16-v1",
+          "options": [],
+          "price": 3850,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-16-media-1"
+        }
+      ],
+      "media": [],
+      "description": "Cream refill is a fictional cream or balm record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Squalane",
+        "Cetearyl alcohol"
+      ],
+      "specifications": {
+        "Material / packaging": "Jar or refill container fixture",
+        "Nominal size / format": "100 ml"
+      },
+      "usage": [
+        {
+          "heading": "Prepare",
+          "instruction": "Use clean hands and check the supplied ingredient list.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Apply",
+          "instruction": "Dispense a small amount and follow the merchant-authored product directions; no outcome is promised.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "100 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional cream or balm. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "care-17",
+        "care-18"
+      ],
+      "complementary": [],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "care-17": {
+      "id": "care-17",
+      "handle": "care-17",
+      "title": "Body oil",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-17",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-17-v1",
+          "options": [],
+          "price": 4000,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-17-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-17-media-1",
+          "type": "image",
+          "src": "media/bottle-portrait.svg",
+          "width": 200,
+          "height": 360,
+          "alt": "Body oil — synthetic ordinary product media"
+        }
+      ],
+      "description": "Body oil is a fictional finishing oil record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Sunflower seed oil",
+        "Squalane"
+      ],
+      "specifications": {
+        "Material / packaging": "Glass bottle fixture",
+        "Nominal size / format": "30 ml"
+      },
+      "usage": [
+        {
+          "heading": "Dispense",
+          "instruction": "Place a small amount of the fictional oil in your palm.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Use",
+          "instruction": "Apply according to the final merchant-authored directions; efficacy is not represented by this fixture.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "30 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional finishing oil. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "care-18": {
+      "id": "care-18",
+      "handle": "care-18",
+      "title": "Care pouch",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-18",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-18-v1",
+          "options": [],
+          "price": 4150,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-18-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-18-media-1",
+          "type": "image",
+          "src": "media/care-pouch.svg",
+          "width": 800,
+          "height": 800,
+          "alt": "Care pouch — synthetic ordinary product media"
+        }
+      ],
+      "description": "Care pouch is a fictional storage pouch record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [],
+      "specifications": {
+        "Material / packaging": "Woven textile",
+        "Nominal size / format": "22 × 14 cm"
+      },
+      "usage": [
+        {
+          "heading": "Arrange",
+          "instruction": "Place closed care containers inside the pouch.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Care",
+          "instruction": "Empty the pouch before spot cleaning and leave it open to dry.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "Woven textile",
+          "label": "Fixture material",
+          "body": "Authored product context for this fictional storage pouch. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "care-19",
+        "care-20"
+      ],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "care-19": {
+      "id": "care-19",
+      "handle": "care-19",
+      "title": "Soft cotton cloth",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-19",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-19-v1",
+          "options": [],
+          "price": 4300,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-19-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-19-media-1",
+          "type": "image",
+          "src": "media/cloth-square.svg",
+          "width": 800,
+          "height": 800,
+          "alt": "Soft cotton cloth — synthetic ordinary product media"
+        }
+      ],
+      "description": "Soft cotton cloth is a fictional cloth record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [],
+      "specifications": {
+        "Material / packaging": "Cotton",
+        "Nominal size / format": "25 × 25 cm"
+      },
+      "usage": [
+        {
+          "heading": "Dampen",
+          "instruction": "Wet the cloth with water before use.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Care",
+          "instruction": "Rinse after use and allow the cloth to dry fully.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "Cotton",
+          "label": "Fixture material",
+          "body": "Authored product context for this fictional cloth. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "care-20",
+        "care-21"
+      ],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "care-20": {
+      "id": "care-20",
+      "handle": "care-20",
+      "title": "Travel cleansing milk",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-20",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-20-v1",
+          "options": [],
+          "price": 4450,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-20-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-20-media-1",
+          "type": "image",
+          "src": "media/bottle-portrait.svg",
+          "width": 200,
+          "height": 360,
+          "alt": "Travel cleansing milk — synthetic ordinary product media"
+        }
+      ],
+      "description": "Travel cleansing milk is a fictional wash or cleansing milk record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Decyl glucoside"
+      ],
+      "specifications": {
+        "Material / packaging": "Pump bottle or refill container fixture",
+        "Nominal size / format": "100 ml"
+      },
+      "usage": [
+        {
+          "heading": "Wash",
+          "instruction": "Dispense a small amount onto wet hands or a damp cloth.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Finish",
+          "instruction": "Rinse with water, close the container and follow the product-specific merchant directions.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "100 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional wash or cleansing milk. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "care-21",
+        "care-22"
+      ],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "care-21": {
+      "id": "care-21",
+      "handle": "care-21",
+      "title": "Daily care pump",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-21",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-21-v1",
+          "options": [],
+          "price": 4600,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-21-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-21-media-1",
+          "type": "image",
+          "src": "media/care-pump.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Daily care pump — synthetic ordinary product media"
+        }
+      ],
+      "description": "Daily care pump is a fictional wash or cleansing milk record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Decyl glucoside"
+      ],
+      "specifications": {
+        "Material / packaging": "Pump bottle or refill container fixture",
+        "Nominal size / format": "250 ml"
+      },
+      "usage": [
+        {
+          "heading": "Wash",
+          "instruction": "Dispense a small amount onto wet hands or a damp cloth.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Finish",
+          "instruction": "Rinse with water, close the container and follow the product-specific merchant directions.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "250 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional wash or cleansing milk. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [],
+      "complementary": [],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "care-22": {
+      "id": "care-22",
+      "handle": "care-22",
+      "title": "Everyday cream jar",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-22",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-22-v1",
+          "options": [],
+          "price": 4750,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-22-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-22-media-1",
+          "type": "image",
+          "src": "media/care-jar.jpg",
+          "width": 1254,
+          "height": 1254,
+          "alt": "Everyday cream jar — synthetic ordinary product media"
+        }
+      ],
+      "description": "Everyday cream jar is a fictional cream or balm record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Squalane",
+        "Cetearyl alcohol"
+      ],
+      "specifications": {
+        "Material / packaging": "Jar or refill container fixture",
+        "Nominal size / format": "100 ml"
+      },
+      "usage": [
+        {
+          "heading": "Prepare",
+          "instruction": "Use clean hands and check the supplied ingredient list.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Apply",
+          "instruction": "Dispense a small amount and follow the merchant-authored product directions; no outcome is promised.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "100 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional cream or balm. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "care-23",
+        "care-24"
+      ],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "care-23": {
+      "id": "care-23",
+      "handle": "care-23",
+      "title": "Care gift card",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-23",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-23-v1",
+          "options": [],
+          "price": 4900,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-23-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-23-media-1",
+          "type": "image",
+          "src": "media/gift-card.svg",
+          "width": 800,
+          "height": 800,
+          "alt": "Care gift card — synthetic ordinary product media"
+        }
+      ],
+      "description": "Care gift card is a fictional gift card record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [],
+      "specifications": {
+        "Material / packaging": "Digital product-shaped record",
+        "Nominal size / format": "Value shown in the purchase information"
+      },
+      "usage": [
+        {
+          "heading": "Review",
+          "instruction": "Gift-card issuance, recipient handling and redemption require production integration; this proof only represents the product identity and value.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "Gift card",
+          "label": "Product type",
+          "body": "Authored product context for this fictional gift card. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "care-24",
+        "daily-cleanser"
+      ],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": true
+    },
+    "care-24": {
+      "id": "care-24",
+      "handle": "care-24",
+      "title": "Hand wash refill pouch",
+      "vendor": "Fieldwork Care · fictional brand",
+      "url": "/products/care-24",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "care-24-v1",
+          "options": [],
+          "price": 5050,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "care-24-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "care-24-media-1",
+          "type": "image",
+          "src": "media/box.svg",
+          "width": 420,
+          "height": 220,
+          "alt": "Hand wash refill pouch — synthetic ordinary product media"
+        }
+      ],
+      "description": "Hand wash refill pouch is a fictional wash or cleansing milk record with packaging, ingredient or material information and practical usage context. No clinical outcome, genuine inventory or certification is asserted.",
+      "ingredients": [
+        "Water",
+        "Glycerin",
+        "Decyl glucoside"
+      ],
+      "specifications": {
+        "Material / packaging": "Pump bottle or refill container fixture",
+        "Nominal size / format": "250 ml"
+      },
+      "usage": [
+        {
+          "heading": "Wash",
+          "instruction": "Dispense a small amount onto wet hands or a damp cloth.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic instructions; final directions require merchant content."
+        },
+        {
+          "heading": "Finish",
+          "instruction": "Rinse with water, close the container and follow the product-specific merchant directions.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "250 ml",
+          "label": "Nominal format / volume",
+          "body": "Authored product context for this fictional wash or cleansing milk. The source is a synthetic catalog record, not a measured result.",
+          "source_title": "Synthetic catalog record",
+          "source_url": "/sources/catalog",
+          "qualification": "All content is authored synthetic test data."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [
+        "daily-cleanser",
+        "barrier-cream"
+      ],
+      "complementary": [
+        "woven-cloth"
+      ],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "jewelry-1": {
+      "id": "jewelry-1",
+      "handle": "jewelry-1",
+      "title": "Plain steel band",
+      "vendor": "Fieldwork Objects · fictional brand",
+      "url": "/products/jewelry-1",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "jewelry-1-v1",
+          "options": [],
+          "price": 3800,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "jewelry-1-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "jewelry-1-media-1",
+          "type": "image",
+          "src": "media/metal-ring.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Plain steel band synthetic schematic"
+        }
+      ],
+      "description": "Ordinary metal object with material and care context. No hallmark or real provenance claim.",
+      "ingredients": [],
+      "specifications": {
+        "Material": "Steel fixture",
+        "Dimensions": "18 mm nominal fixture"
+      },
+      "usage": [
+        {
+          "heading": "Wipe",
+          "instruction": "Use a soft dry cloth on the ordinary metal surface.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic care content; real merchandise requires merchant instructions."
+        },
+        {
+          "heading": "Store",
+          "instruction": "Keep the ring separated from other objects when storing it.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "Steel",
+          "label": "Fixture material",
+          "body": "Synthetic specification, not a verified hallmark.",
+          "source_title": "Synthetic catalog",
+          "source_url": "/sources/catalog",
+          "qualification": "Fictional jewelry test content."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [],
+      "complementary": [],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "jewelry-2": {
+      "id": "jewelry-2",
+      "handle": "jewelry-2",
+      "title": "Wide steel ring",
+      "vendor": "Fieldwork Objects · fictional brand",
+      "url": "/products/jewelry-2",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "jewelry-2-v1",
+          "options": [],
+          "price": 4200,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "jewelry-2-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "jewelry-2-media-1",
+          "type": "image",
+          "src": "media/metal-ring.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Wide steel ring synthetic schematic"
+        }
+      ],
+      "description": "Ordinary metal object with material and care context. No hallmark or real provenance claim.",
+      "ingredients": [],
+      "specifications": {
+        "Material": "Steel fixture",
+        "Dimensions": "18 mm nominal fixture"
+      },
+      "usage": [
+        {
+          "heading": "Wipe",
+          "instruction": "Use a soft dry cloth on the ordinary metal surface.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic care content; real merchandise requires merchant instructions."
+        },
+        {
+          "heading": "Store",
+          "instruction": "Keep the ring separated from other objects when storing it.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "Steel",
+          "label": "Fixture material",
+          "body": "Synthetic specification, not a verified hallmark.",
+          "source_title": "Synthetic catalog",
+          "source_url": "/sources/catalog",
+          "qualification": "Fictional jewelry test content."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [],
+      "complementary": [],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "jewelry-3": {
+      "id": "jewelry-3",
+      "handle": "jewelry-3",
+      "title": "Rounded everyday ring",
+      "vendor": "Fieldwork Objects · fictional brand",
+      "url": "/products/jewelry-3",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "jewelry-3-v1",
+          "options": [],
+          "price": 4600,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "jewelry-3-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "jewelry-3-media-1",
+          "type": "image",
+          "src": "media/metal-ring.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Rounded everyday ring synthetic schematic"
+        }
+      ],
+      "description": "Ordinary metal object with material and care context. No hallmark or real provenance claim.",
+      "ingredients": [],
+      "specifications": {
+        "Material": "Steel fixture",
+        "Dimensions": "18 mm nominal fixture"
+      },
+      "usage": [
+        {
+          "heading": "Wipe",
+          "instruction": "Use a soft dry cloth on the ordinary metal surface.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic care content; real merchandise requires merchant instructions."
+        },
+        {
+          "heading": "Store",
+          "instruction": "Keep the ring separated from other objects when storing it.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "Steel",
+          "label": "Fixture material",
+          "body": "Synthetic specification, not a verified hallmark.",
+          "source_title": "Synthetic catalog",
+          "source_url": "/sources/catalog",
+          "qualification": "Fictional jewelry test content."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [],
+      "complementary": [],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "jewelry-4": {
+      "id": "jewelry-4",
+      "handle": "jewelry-4",
+      "title": "Brushed metal ring",
+      "vendor": "Fieldwork Objects · fictional brand",
+      "url": "/products/jewelry-4",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "jewelry-4-v1",
+          "options": [],
+          "price": 5000,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "jewelry-4-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "jewelry-4-media-1",
+          "type": "image",
+          "src": "media/metal-ring.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Brushed metal ring synthetic schematic"
+        }
+      ],
+      "description": "Ordinary metal object with material and care context. No hallmark or real provenance claim.",
+      "ingredients": [],
+      "specifications": {
+        "Material": "Steel fixture",
+        "Dimensions": "18 mm nominal fixture"
+      },
+      "usage": [
+        {
+          "heading": "Wipe",
+          "instruction": "Use a soft dry cloth on the ordinary metal surface.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic care content; real merchandise requires merchant instructions."
+        },
+        {
+          "heading": "Store",
+          "instruction": "Keep the ring separated from other objects when storing it.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "Steel",
+          "label": "Fixture material",
+          "body": "Synthetic specification, not a verified hallmark.",
+          "source_title": "Synthetic catalog",
+          "source_url": "/sources/catalog",
+          "qualification": "Fictional jewelry test content."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [],
+      "complementary": [],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "jewelry-5": {
+      "id": "jewelry-5",
+      "handle": "jewelry-5",
+      "title": "Slim metal ring",
+      "vendor": "Fieldwork Objects · fictional brand",
+      "url": "/products/jewelry-5",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "jewelry-5-v1",
+          "options": [],
+          "price": 5400,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "jewelry-5-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "jewelry-5-media-1",
+          "type": "image",
+          "src": "media/metal-ring.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Slim metal ring synthetic schematic"
+        }
+      ],
+      "description": "Ordinary metal object with material and care context. No hallmark or real provenance claim.",
+      "ingredients": [],
+      "specifications": {
+        "Material": "Steel fixture",
+        "Dimensions": "18 mm nominal fixture"
+      },
+      "usage": [
+        {
+          "heading": "Wipe",
+          "instruction": "Use a soft dry cloth on the ordinary metal surface.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic care content; real merchandise requires merchant instructions."
+        },
+        {
+          "heading": "Store",
+          "instruction": "Keep the ring separated from other objects when storing it.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "Steel",
+          "label": "Fixture material",
+          "body": "Synthetic specification, not a verified hallmark.",
+          "source_title": "Synthetic catalog",
+          "source_url": "/sources/catalog",
+          "qualification": "Fictional jewelry test content."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [],
+      "complementary": [],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    },
+    "jewelry-6": {
+      "id": "jewelry-6",
+      "handle": "jewelry-6",
+      "title": "Polished metal band",
+      "vendor": "Fieldwork Objects · fictional brand",
+      "url": "/products/jewelry-6",
+      "published": true,
+      "options": [],
+      "variants": [
+        {
+          "id": "jewelry-6-v1",
+          "options": [],
+          "price": 5800,
+          "available": true,
+          "compare_at": null,
+          "unit_price": null,
+          "media_id": "jewelry-6-media-1"
+        }
+      ],
+      "media": [
+        {
+          "id": "jewelry-6-media-1",
+          "type": "image",
+          "src": "media/metal-ring.svg",
+          "width": 600,
+          "height": 600,
+          "alt": "Polished metal band synthetic schematic"
+        }
+      ],
+      "description": "Ordinary metal object with material and care context. No hallmark or real provenance claim.",
+      "ingredients": [],
+      "specifications": {
+        "Material": "Steel fixture",
+        "Dimensions": "18 mm nominal fixture"
+      },
+      "usage": [
+        {
+          "heading": "Wipe",
+          "instruction": "Use a soft dry cloth on the ordinary metal surface.",
+          "media": "",
+          "alt": "",
+          "qualification": "Synthetic care content; real merchandise requires merchant instructions."
+        },
+        {
+          "heading": "Store",
+          "instruction": "Keep the ring separated from other objects when storing it.",
+          "media": "",
+          "alt": "",
+          "qualification": ""
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "fact",
+          "value": "Steel",
+          "label": "Fixture material",
+          "body": "Synthetic specification, not a verified hallmark.",
+          "source_title": "Synthetic catalog",
+          "source_url": "/sources/catalog",
+          "qualification": "Fictional jewelry test content."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What information should I review?",
+          "answer": "Check the ingredient list and selected size above and the supplied usage sequence. These records are fictional and do not validate product claims."
+        }
+      ],
+      "recommendations": [],
+      "complementary": [],
+      "plans": [],
+      "quantity": {
+        "min": 1,
+        "max": 8,
+        "increment": 1
+      },
+      "required_properties": [],
+      "pickup": null,
+      "app": null,
+      "gift_card": false
+    }
+  },
+  "beauty": [
+    "daily-cleanser",
+    "barrier-cream",
+    "concentrate",
+    "finishing-oil",
+    "woven-cloth",
+    "balancing-formula",
+    "care-07",
+    "care-08",
+    "care-09",
+    "care-10",
+    "care-11",
+    "care-12",
+    "care-13",
+    "care-14",
+    "care-15",
+    "care-16",
+    "care-17",
+    "care-18",
+    "care-19",
+    "care-20",
+    "care-21",
+    "care-22",
+    "care-23",
+    "care-24"
+  ],
+  "jewelry": [
+    "jewelry-1",
+    "jewelry-2",
+    "jewelry-3",
+    "jewelry-4",
+    "jewelry-5",
+    "jewelry-6"
+  ]
+}

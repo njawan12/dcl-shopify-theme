@@ -1,0 +1,138 @@
+{
+  "reuse/rail/render.py": {
+    "source": "prototypes/evidence-layer/evidence-rail/render.py",
+    "sha256": "20d5ac978e7cdc6e4d92e8e9abcabbd7d726897619e00b74f5708ad42d3d0947"
+  },
+  "reuse/rail/content.py": {
+    "source": "prototypes/evidence-layer/evidence-rail/content.py",
+    "sha256": "d3ace8a94ae037ad15934df22671225cdab118fa2659f5b2ce98f5b8f278409d"
+  },
+  "reuse/rail/fixtures.py": {
+    "source": "prototypes/evidence-layer/evidence-rail/fixtures.py",
+    "sha256": "d21e0b21608019ab7205b7fb65b601b74dcf9bed031f170e3155f4a5297d1802"
+  },
+  "reuse/rail/evidence.css": {
+    "source": "prototypes/evidence-layer/evidence-rail/evidence.css",
+    "sha256": "27613f7e02c53c46becda5804d9413eb1c7512be50998ece553d4586f815a646"
+  },
+  "reuse/rail/media/storage-after.svg": {
+    "source": "prototypes/evidence-layer/evidence-rail/media/storage-after.svg",
+    "sha256": "4f40b45cc4c49da00c800cf88534f2aa1ae6c54ce0e704f2c3b54a6cc62c82e3"
+  },
+  "reuse/rail/media/storage-before.svg": {
+    "source": "prototypes/evidence-layer/evidence-rail/media/storage-before.svg",
+    "sha256": "4a5ca82342e79db82fa2eb21d5a685465bb1a517a0dd6efcd81c78351abcc281"
+  },
+  "reuse/rail/media/care-pump.jpg": {
+    "source": "prototypes/evidence-layer/evidence-rail/media/care-pump.jpg",
+    "sha256": "ec758e0c48d5021f32d7c26171f12ac577378f7417dd3fbeb00a97194b0ffb6b"
+  },
+  "reuse/rail/media/metal-ring.svg": {
+    "source": "prototypes/evidence-layer/evidence-rail/media/metal-ring.svg",
+    "sha256": "c52991d74112531024c9b897621a11a48ca2ebf5e8b67ea32bfd30f8af9a9176"
+  },
+  "reuse/rail/media/utility-case.jpg": {
+    "source": "prototypes/evidence-layer/evidence-rail/media/utility-case.jpg",
+    "sha256": "27799afc0c570c8a79c2a0c47c2a67c93b17f7dd34c124e3f82b918bd009d8bc"
+  },
+  "reuse/rail/media/pantry-jar.svg": {
+    "source": "prototypes/evidence-layer/evidence-rail/media/pantry-jar.svg",
+    "sha256": "527030fa33fe6f3f3ed24e095295f0d2db70a79dead3dcd79e387d5b307a913a"
+  },
+  "reuse/mosaic/render.py": {
+    "source": "prototypes/commerce-mosaic/anchor-cadence/render.py",
+    "sha256": "a01cc65bd7183bb2f136bbcb513d8609a7597ac4dd4d89383e8fa705b7fe0cef"
+  },
+  "reuse/mosaic/planner.py": {
+    "source": "prototypes/commerce-mosaic/anchor-cadence/planner.py",
+    "sha256": "329608dbfd71e88e417701aee49c04421edb4ad2a9c137d4aab286c057141b03"
+  },
+  "reuse/mosaic/fixtures.json": {
+    "source": "prototypes/commerce-mosaic/anchor-cadence/fixtures.json",
+    "sha256": "513becef4bc1091dad165677473a1cb667593e44c394706f370cccda4280c4a8"
+  },
+  "reuse/mosaic/mosaic.css": {
+    "source": "prototypes/commerce-mosaic/anchor-cadence/mosaic.css",
+    "sha256": "2ef1f9b05637734da61e4b8bc1ed51b2f98c1f84d4b15b8d7ea2e7713ac9f9ff"
+  },
+  "reuse/mosaic/media/case-portrait.svg": {
+    "source": "prototypes/commerce-mosaic/anchor-cadence/media/case-portrait.svg",
+    "sha256": "406dd47c56009ccb43c93bdc8bc64e50144977d683951f808134295cbb2e33a1"
+  },
+  "reuse/mosaic/media/daily-mug.jpg": {
+    "source": "prototypes/commerce-mosaic/anchor-cadence/media/daily-mug.jpg",
+    "sha256": "2ab158c36cc40f553d0eccb781a981da5563ce4a20c496ca1a1779c02e587118"
+  },
+  "reuse/mosaic/media/case-dark.svg": {
+    "source": "prototypes/commerce-mosaic/anchor-cadence/media/case-dark.svg",
+    "sha256": "a98d0116792ce0d2e19254cdbce64e5a915f66e8cf756c83f249a982b8cddf86"
+  },
+  "reuse/mosaic/media/care-jar.jpg": {
+    "source": "prototypes/commerce-mosaic/anchor-cadence/media/care-jar.jpg",
+    "sha256": "7128af9042d09a4d28721e66410a9b626e3194192985dad5f38b574d818f071b"
+  },
+  "reuse/mosaic/media/care-pump.jpg": {
+    "source": "prototypes/commerce-mosaic/anchor-cadence/media/care-pump.jpg",
+    "sha256": "ec758e0c48d5021f32d7c26171f12ac577378f7417dd3fbeb00a97194b0ffb6b"
+  },
+  "reuse/mosaic/media/bag-transparent.svg": {
+    "source": "prototypes/commerce-mosaic/anchor-cadence/media/bag-transparent.svg",
+    "sha256": "596b1b6ab190b263d32e27614fa58e24a71da05e0a13d555faf323408041f9bc"
+  },
+  "reuse/mosaic/media/metal-ring.svg": {
+    "source": "prototypes/commerce-mosaic/anchor-cadence/media/metal-ring.svg",
+    "sha256": "c52991d74112531024c9b897621a11a48ca2ebf5e8b67ea32bfd30f8af9a9176"
+  },
+  "reuse/mosaic/media/utility-case.jpg": {
+    "source": "prototypes/commerce-mosaic/anchor-cadence/media/utility-case.jpg",
+    "sha256": "27799afc0c570c8a79c2a0c47c2a67c93b17f7dd34c124e3f82b918bd009d8bc"
+  },
+  "reuse/mosaic/media/pantry-jar.svg": {
+    "source": "prototypes/commerce-mosaic/anchor-cadence/media/pantry-jar.svg",
+    "sha256": "527030fa33fe6f3f3ed24e095295f0d2db70a79dead3dcd79e387d5b307a913a"
+  },
+  "reuse/mosaic/media/case-landscape.svg": {
+    "source": "prototypes/commerce-mosaic/anchor-cadence/media/case-landscape.svg",
+    "sha256": "d03905ca5c1d081f569f21e67fe5678cb1929b872e83898ffbba6b88d7169ec5"
+  },
+  "reuse/guided/split-tension.js": {
+    "source": "prototypes/living-canvas/split-tension/split-tension.js",
+    "sha256": "041802434644e512e35f04553f998fdaa56e3ca39d65876cffc27244ff172b3b"
+  },
+  "reuse/guided/split-tension.css": {
+    "source": "prototypes/living-canvas/split-tension/split-tension.css",
+    "sha256": "d57e708a10ce28be6487036e4a64d65cdfe686b598ddcd608ad34c5403795da1"
+  },
+  "reuse/guided/media/bottle.svg": {
+    "source": "prototypes/living-canvas/split-tension/media/bottle.svg",
+    "sha256": "0ab2677ea06c14701e8f7290205ee5cc8a84df5695f97ecbdbd644903ccb302c"
+  },
+  "reuse/guided/media/jar-cutout.svg": {
+    "source": "prototypes/living-canvas/split-tension/media/jar-cutout.svg",
+    "sha256": "27dca4bcaef0113f8dbb26178bf0eb9f169bded607df216265326dd8f1e7d9fc"
+  },
+  "reuse/guided/media/bottle-portrait.svg": {
+    "source": "prototypes/living-canvas/split-tension/media/bottle-portrait.svg",
+    "sha256": "ef826350bb305436af4326d6a3ee27c5539ce5919bd61f2ee871e11a8b10b87f"
+  },
+  "reuse/guided/media/objects-landscape.svg": {
+    "source": "prototypes/living-canvas/split-tension/media/objects-landscape.svg",
+    "sha256": "07f3f0c38bd7b30690715c4337b1c1f5c0a2d28421f2278161910fc2a3cfb6c4"
+  },
+  "reuse/guided/media/jar.svg": {
+    "source": "prototypes/living-canvas/split-tension/media/jar.svg",
+    "sha256": "c53783a05e5936b39871be5f1f58943741b2974e6b3817b5cae251698b96b3ca"
+  },
+  "reuse/guided/media/box.svg": {
+    "source": "prototypes/living-canvas/split-tension/media/box.svg",
+    "sha256": "05dee316fd53db5e88aec5c485a72302e0d844a4b56bd52ea066f3e3cbc010b1"
+  },
+  "reuse/guided/media/bottle-cutout.svg": {
+    "source": "prototypes/living-canvas/split-tension/media/bottle-cutout.svg",
+    "sha256": "bd08e478196dc4f9b5f65cc2d392ec46eb9303ba4aab4cfae7261da8c1d96afe"
+  },
+  "reuse/guided/media/campaign-portrait-v2.jpg": {
+    "source": "prototypes/living-canvas/split-tension/media/campaign-portrait-v2.jpg",
+    "sha256": "02c63731a6cff5dd60a7a37ad704da0dcf80c7cf257e0bc5dce58952add8f181"
+  }
+}

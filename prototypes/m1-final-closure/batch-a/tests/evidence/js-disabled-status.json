@@ -1,0 +1,8 @@
+{
+  "status": "NOT EXECUTED",
+  "required": true,
+  "reason": "Only Codex IAB is available; its documented browser API has no JavaScript toggle. Chrome browser connector unavailable. Native app inventory reports Mac locked and automatic unlock unavailable. User was asked to unlock; no unlock confirmation received.",
+  "actual_initialization_failure_executed": true,
+  "script_removal_or_CSP_used_as_substitute": false,
+  "remaining_M1_B6_evidence": "Actual browser-JavaScript-disabled Guided Set → canonical product → native purchase/cart journey at390."
+}
