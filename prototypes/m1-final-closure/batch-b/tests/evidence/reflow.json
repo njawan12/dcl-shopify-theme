@@ -1,0 +1,1570 @@
+[
+  {
+    "fixture": "balanced",
+    "scale": 1,
+    "clipped": [],
+    "controls": [
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 1 · image",
+        "right": 101.1875,
+        "tag": "A",
+        "width": 85.1875,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 2 · image",
+        "right": 197.7578125,
+        "tag": "A",
+        "width": 86.9765625,
+        "x": 110.78125
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 3 · image",
+        "right": 294.625,
+        "tag": "A",
+        "width": 87.2734375,
+        "x": 207.3515625
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 4 · image",
+        "right": 103.4921875,
+        "tag": "A",
+        "width": 87.4921875,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 45.390625,
+        "name": "Size",
+        "right": 304,
+        "tag": "SELECT",
+        "width": 288,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 45.390625,
+        "name": "Finish",
+        "right": 304,
+        "tag": "SELECT",
+        "width": 288,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Resolve options",
+        "right": 304,
+        "tag": "BUTTON",
+        "width": 288,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Quantity",
+        "right": 112,
+        "tag": "INPUT",
+        "width": 96,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 53,
+        "name": "Add to simulated cart",
+        "right": 304,
+        "tag": "BUTTON",
+        "width": 288,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Synthetic catalog record",
+        "right": 266.40625,
+        "tag": "A",
+        "width": 210.8125,
+        "x": 55.59375
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Synthetic catalog instructions",
+        "right": 245.8203125,
+        "tag": "A",
+        "width": 192.2265625,
+        "x": 53.59375
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Unscented hand wash",
+        "right": 216.84375,
+        "tag": "A",
+        "width": 160.84375,
+        "x": 56
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Everyday body lotion",
+        "right": 207.2109375,
+        "tag": "A",
+        "width": 151.2109375,
+        "x": 56
+      }
+    ],
+    "headings": [
+      "Balancing formula",
+      "Care, with its details in view.",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Prepare",
+      "Apply",
+      "Questions & details",
+      "Related product context"
+    ],
+    "rootFont": "16px",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "fixture": "compact",
+    "scale": 1,
+    "clipped": [],
+    "controls": [
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 1 · image",
+        "right": 101.1875,
+        "tag": "A",
+        "width": 85.1875,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 2 · image",
+        "right": 197.7578125,
+        "tag": "A",
+        "width": 86.9765625,
+        "x": 110.78125
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 3 · image",
+        "right": 294.625,
+        "tag": "A",
+        "width": 87.2734375,
+        "x": 207.3515625
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 4 · image",
+        "right": 103.4921875,
+        "tag": "A",
+        "width": 87.4921875,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 45.390625,
+        "name": "Size",
+        "right": 304,
+        "tag": "SELECT",
+        "width": 288,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 45.390625,
+        "name": "Finish",
+        "right": 304,
+        "tag": "SELECT",
+        "width": 288,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Resolve options",
+        "right": 304,
+        "tag": "BUTTON",
+        "width": 288,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Quantity",
+        "right": 112,
+        "tag": "INPUT",
+        "width": 96,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 53,
+        "name": "Add to simulated cart",
+        "right": 304,
+        "tag": "BUTTON",
+        "width": 288,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Synthetic catalog record",
+        "right": 266.40625,
+        "tag": "A",
+        "width": 210.8125,
+        "x": 55.59375
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Synthetic catalog instructions",
+        "right": 245.8203125,
+        "tag": "A",
+        "width": 192.2265625,
+        "x": 53.59375
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Unscented hand wash",
+        "right": 216.84375,
+        "tag": "A",
+        "width": 160.84375,
+        "x": 56
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Everyday body lotion",
+        "right": 207.2109375,
+        "tag": "A",
+        "width": 151.2109375,
+        "x": 56
+      }
+    ],
+    "headings": [
+      "Balancing formula",
+      "Care, with its details in view.",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Prepare",
+      "Apply",
+      "Questions & details",
+      "Related product context"
+    ],
+    "rootFont": "16px",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "fixture": "editorial",
+    "scale": 1,
+    "clipped": [],
+    "controls": [
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 1 · image",
+        "right": 101.1875,
+        "tag": "A",
+        "width": 85.1875,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 2 · image",
+        "right": 197.7578125,
+        "tag": "A",
+        "width": 86.9765625,
+        "x": 110.78125
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 3 · image",
+        "right": 294.625,
+        "tag": "A",
+        "width": 87.2734375,
+        "x": 207.3515625
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 4 · image",
+        "right": 103.4921875,
+        "tag": "A",
+        "width": 87.4921875,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Synthetic catalog record",
+        "right": 304,
+        "tag": "A",
+        "width": 261,
+        "x": 43
+      },
+      {
+        "disabled": false,
+        "height": 45.390625,
+        "name": "Size",
+        "right": 304,
+        "tag": "SELECT",
+        "width": 288,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 45.390625,
+        "name": "Finish",
+        "right": 304,
+        "tag": "SELECT",
+        "width": 288,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Resolve options",
+        "right": 304,
+        "tag": "BUTTON",
+        "width": 288,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Quantity",
+        "right": 112,
+        "tag": "INPUT",
+        "width": 96,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 53,
+        "name": "Add to simulated cart",
+        "right": 304,
+        "tag": "BUTTON",
+        "width": 288,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Synthetic catalog instructions",
+        "right": 245.8203125,
+        "tag": "A",
+        "width": 192.2265625,
+        "x": 53.59375
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Unscented hand wash",
+        "right": 216.84375,
+        "tag": "A",
+        "width": 160.84375,
+        "x": 56
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Everyday body lotion",
+        "right": 207.2109375,
+        "tag": "A",
+        "width": 151.2109375,
+        "x": 56
+      }
+    ],
+    "headings": [
+      "Care, with its details in view.",
+      "Details with a place in the story.",
+      "Balancing formula",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Prepare",
+      "Apply",
+      "Questions & details",
+      "Related product context"
+    ],
+    "rootFont": "16px",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "fixture": "cart-populated",
+    "scale": 1,
+    "clipped": [],
+    "controls": [
+      {
+        "disabled": false,
+        "height": 22.5,
+        "name": "Balancing formula",
+        "right": 268.625,
+        "tag": "A",
+        "width": 156.625,
+        "x": 112
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Quantity for Balancing formula",
+        "right": 208,
+        "tag": "INPUT",
+        "width": 96,
+        "x": 112
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Update quantity",
+        "right": 252.7734375,
+        "tag": "BUTTON",
+        "width": 140.7734375,
+        "x": 112
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Simulate failed update",
+        "right": 297.578125,
+        "tag": "BUTTON",
+        "width": 185.578125,
+        "x": 112
+      },
+      {
+        "disabled": false,
+        "height": 62.390625,
+        "name": "Remove Balancing formula",
+        "right": 304,
+        "tag": "BUTTON",
+        "width": 192,
+        "x": 112
+      },
+      {
+        "disabled": false,
+        "height": 22.5,
+        "name": "Everyday body lotion",
+        "right": 293.84375,
+        "tag": "A",
+        "width": 181.84375,
+        "x": 112
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Quantity for Everyday body lotion",
+        "right": 208,
+        "tag": "INPUT",
+        "width": 96,
+        "x": 112
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Update quantity",
+        "right": 252.7734375,
+        "tag": "BUTTON",
+        "width": 140.7734375,
+        "x": 112
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Simulate failed update",
+        "right": 297.578125,
+        "tag": "BUTTON",
+        "width": 185.578125,
+        "x": 112
+      },
+      {
+        "disabled": false,
+        "height": 62.390625,
+        "name": "Remove Everyday body lotion",
+        "right": 304,
+        "tag": "BUTTON",
+        "width": 192,
+        "x": 112
+      },
+      {
+        "disabled": false,
+        "height": 22.5,
+        "name": "Cleansing balm",
+        "right": 245.6328125,
+        "tag": "A",
+        "width": 133.6328125,
+        "x": 112
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Quantity for Cleansing balm",
+        "right": 208,
+        "tag": "INPUT",
+        "width": 96,
+        "x": 112
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Update quantity",
+        "right": 252.7734375,
+        "tag": "BUTTON",
+        "width": 140.7734375,
+        "x": 112
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Simulate failed update",
+        "right": 297.578125,
+        "tag": "BUTTON",
+        "width": 185.578125,
+        "x": 112
+      },
+      {
+        "disabled": false,
+        "height": 62.390625,
+        "name": "Remove Cleansing balm",
+        "right": 304,
+        "tag": "BUTTON",
+        "width": 192,
+        "x": 112
+      },
+      {
+        "disabled": false,
+        "height": 58.390625,
+        "name": "Continue to checkout explanation",
+        "right": 279,
+        "tag": "A",
+        "width": 238,
+        "x": 41
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Save note",
+        "right": 279,
+        "tag": "BUTTON",
+        "width": 238,
+        "x": 41
+      }
+    ],
+    "headings": [
+      "Your cart",
+      "Balancing formula",
+      "Everyday body lotion",
+      "Cleansing balm",
+      "Selection summary"
+    ],
+    "rootFont": "16px",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "fixture": "story",
+    "scale": 1,
+    "clipped": [],
+    "controls": [
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Meet the daily cleanser",
+        "right": 169.484375,
+        "tag": "A",
+        "width": 153.484375,
+        "x": 16
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Synthetic catalog record",
+        "right": 266.40625,
+        "tag": "A",
+        "width": 210.8125,
+        "x": 55.59375
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Synthetic catalog instructions",
+        "right": 245.8203125,
+        "tag": "A",
+        "width": 192.2265625,
+        "x": 53.59375
+      },
+      {
+        "disabled": false,
+        "height": 456.7578125,
+        "name": "\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n",
+        "right": 150,
+        "tag": "A",
+        "width": 114,
+        "x": 36
+      },
+      {
+        "disabled": false,
+        "height": 456.7578125,
+        "name": "\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n",
+        "right": 284,
+        "tag": "A",
+        "width": 114,
+        "x": 170
+      },
+      {
+        "disabled": false,
+        "height": 508.34375,
+        "name": "\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n",
+        "right": 150,
+        "tag": "A",
+        "width": 114,
+        "x": 36
+      },
+      {
+        "disabled": false,
+        "height": 508.34375,
+        "name": "\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n",
+        "right": 284,
+        "tag": "A",
+        "width": 114,
+        "x": 170
+      },
+      {
+        "disabled": false,
+        "height": 469.953125,
+        "name": "\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n",
+        "right": 150,
+        "tag": "A",
+        "width": 114,
+        "x": 36
+      },
+      {
+        "disabled": false,
+        "height": 469.953125,
+        "name": "\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n",
+        "right": 284,
+        "tag": "A",
+        "width": 114,
+        "x": 170
+      },
+      {
+        "disabled": false,
+        "height": 437.2109375,
+        "name": "\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n",
+        "right": 284,
+        "tag": "A",
+        "width": 248,
+        "x": 36
+      },
+      {
+        "disabled": false,
+        "height": 387.171875,
+        "name": "\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n",
+        "right": 150,
+        "tag": "A",
+        "width": 114,
+        "x": 36
+      },
+      {
+        "disabled": false,
+        "height": 387.171875,
+        "name": "\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n",
+        "right": 284,
+        "tag": "A",
+        "width": 114,
+        "x": 170
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Read the field notes ↗",
+        "right": 179.140625,
+        "tag": "A",
+        "width": 143.140625,
+        "x": 36
+      },
+      {
+        "disabled": false,
+        "height": 387.171875,
+        "name": "\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n",
+        "right": 150,
+        "tag": "A",
+        "width": 114,
+        "x": 36
+      },
+      {
+        "disabled": false,
+        "height": 387.171875,
+        "name": "\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n",
+        "right": 284,
+        "tag": "A",
+        "width": 114,
+        "x": 170
+      },
+      {
+        "disabled": false,
+        "height": 365.578125,
+        "name": "\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n",
+        "right": 150,
+        "tag": "A",
+        "width": 114,
+        "x": 36
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Explore the guided collection",
+        "right": 207.9765625,
+        "tag": "A",
+        "width": 191.9765625,
+        "x": 16
+      }
+    ],
+    "headings": [
+      "Less guessing.More context.",
+      "Information follows the object.",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Wash",
+      "Finish",
+      "Questions & details",
+      "Everyday care. Considered choices.",
+      "Daily cleansing milk",
+      "Everyday barrier cream",
+      "Daily concentrate",
+      "Soft finishing oil",
+      "Reusable cleansing cloth",
+      "Balancing formula",
+      "Unscented hand wash",
+      "Everyday body lotion",
+      "Cleansing balm",
+      "Know what belongs in your day.",
+      "Hand cream refill",
+      "Daily body wash",
+      "Body butter",
+      "Build your own daily rhythm."
+    ],
+    "rootFont": "16px",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "fixture": "balanced",
+    "scale": 2,
+    "clipped": [],
+    "controls": [
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 1 · image",
+        "right": 187.8203125,
+        "tag": "A",
+        "width": 155.8203125,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 2 · image",
+        "right": 191,
+        "tag": "A",
+        "width": 159,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 3 · image",
+        "right": 191.65625,
+        "tag": "A",
+        "width": 159.65625,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 4 · image",
+        "right": 192,
+        "tag": "A",
+        "width": 160,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 86.796875,
+        "name": "Size",
+        "right": 290.296875,
+        "tag": "SELECT",
+        "width": 258.296875,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 86.796875,
+        "name": "Finish",
+        "right": 290.296875,
+        "tag": "SELECT",
+        "width": 258.296875,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 122.796875,
+        "name": "Resolve options",
+        "right": 290.296875,
+        "tag": "BUTTON",
+        "width": 258.296875,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 84.796875,
+        "name": "Quantity",
+        "right": 224,
+        "tag": "INPUT",
+        "width": 192,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 180,
+        "name": "Add to simulated cart",
+        "right": 290.296875,
+        "tag": "BUTTON",
+        "width": 258.296875,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 167.1875,
+        "name": "Synthetic catalog record",
+        "right": 212.8046875,
+        "tag": "A",
+        "width": 103.609375,
+        "x": 109.1953125
+      },
+      {
+        "disabled": false,
+        "height": 134.1875,
+        "name": "Synthetic catalog instructions",
+        "right": 249.6015625,
+        "tag": "A",
+        "width": 142.40625,
+        "x": 107.1953125
+      },
+      {
+        "disabled": false,
+        "height": 76,
+        "name": "Unscented hand wash",
+        "right": 288,
+        "tag": "A",
+        "width": 216,
+        "x": 72
+      },
+      {
+        "disabled": false,
+        "height": 76,
+        "name": "Everyday body lotion",
+        "right": 288,
+        "tag": "A",
+        "width": 216,
+        "x": 72
+      }
+    ],
+    "headings": [
+      "Balancing formula",
+      "Care, with its details in view.",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Prepare",
+      "Apply",
+      "Questions & details",
+      "Related product context"
+    ],
+    "rootFont": "32px",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "fixture": "compact",
+    "scale": 2,
+    "clipped": [],
+    "controls": [
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 1 · image",
+        "right": 187.8203125,
+        "tag": "A",
+        "width": 155.8203125,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 2 · image",
+        "right": 191,
+        "tag": "A",
+        "width": 159,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 3 · image",
+        "right": 191.65625,
+        "tag": "A",
+        "width": 159.65625,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 4 · image",
+        "right": 192,
+        "tag": "A",
+        "width": 160,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 86.796875,
+        "name": "Size",
+        "right": 288,
+        "tag": "SELECT",
+        "width": 256,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 86.796875,
+        "name": "Finish",
+        "right": 288,
+        "tag": "SELECT",
+        "width": 256,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 122.796875,
+        "name": "Resolve options",
+        "right": 288,
+        "tag": "BUTTON",
+        "width": 256,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 84.796875,
+        "name": "Quantity",
+        "right": 224,
+        "tag": "INPUT",
+        "width": 192,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 180,
+        "name": "Add to simulated cart",
+        "right": 288,
+        "tag": "BUTTON",
+        "width": 256,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 167.1875,
+        "name": "Synthetic catalog record",
+        "right": 212.8046875,
+        "tag": "A",
+        "width": 103.609375,
+        "x": 109.1953125
+      },
+      {
+        "disabled": false,
+        "height": 134.1875,
+        "name": "Synthetic catalog instructions",
+        "right": 249.6015625,
+        "tag": "A",
+        "width": 142.40625,
+        "x": 107.1953125
+      },
+      {
+        "disabled": false,
+        "height": 76,
+        "name": "Unscented hand wash",
+        "right": 288,
+        "tag": "A",
+        "width": 216,
+        "x": 72
+      },
+      {
+        "disabled": false,
+        "height": 76,
+        "name": "Everyday body lotion",
+        "right": 288,
+        "tag": "A",
+        "width": 216,
+        "x": 72
+      }
+    ],
+    "headings": [
+      "Balancing formula",
+      "Care, with its details in view.",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Prepare",
+      "Apply",
+      "Questions & details",
+      "Related product context"
+    ],
+    "rootFont": "32px",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "fixture": "editorial",
+    "scale": 2,
+    "clipped": [],
+    "controls": [
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 1 · image",
+        "right": 187.8203125,
+        "tag": "A",
+        "width": 155.8203125,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 2 · image",
+        "right": 191,
+        "tag": "A",
+        "width": 159,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 3 · image",
+        "right": 191.65625,
+        "tag": "A",
+        "width": 159.65625,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "View 4 · image",
+        "right": 192,
+        "tag": "A",
+        "width": 160,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 101.1875,
+        "name": "Synthetic catalog record",
+        "right": 290.296875,
+        "tag": "A",
+        "width": 207.296875,
+        "x": 83
+      },
+      {
+        "disabled": false,
+        "height": 86.796875,
+        "name": "Size",
+        "right": 290.296875,
+        "tag": "SELECT",
+        "width": 258.296875,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 86.796875,
+        "name": "Finish",
+        "right": 290.296875,
+        "tag": "SELECT",
+        "width": 258.296875,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 122.796875,
+        "name": "Resolve options",
+        "right": 290.296875,
+        "tag": "BUTTON",
+        "width": 258.296875,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 84.796875,
+        "name": "Quantity",
+        "right": 224,
+        "tag": "INPUT",
+        "width": 192,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 180,
+        "name": "Add to simulated cart",
+        "right": 290.296875,
+        "tag": "BUTTON",
+        "width": 258.296875,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 134.1875,
+        "name": "Synthetic catalog instructions",
+        "right": 249.6015625,
+        "tag": "A",
+        "width": 142.40625,
+        "x": 107.1953125
+      },
+      {
+        "disabled": false,
+        "height": 76,
+        "name": "Unscented hand wash",
+        "right": 288,
+        "tag": "A",
+        "width": 216,
+        "x": 72
+      },
+      {
+        "disabled": false,
+        "height": 76,
+        "name": "Everyday body lotion",
+        "right": 288,
+        "tag": "A",
+        "width": 216,
+        "x": 72
+      }
+    ],
+    "headings": [
+      "Care, with its details in view.",
+      "Details with a place in the story.",
+      "Balancing formula",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Prepare",
+      "Apply",
+      "Questions & details",
+      "Related product context"
+    ],
+    "rootFont": "32px",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "fixture": "cart-populated",
+    "scale": 2,
+    "clipped": [
+      {
+        "cls": "",
+        "tag": "INPUT",
+        "text": ""
+      },
+      {
+        "cls": "",
+        "tag": "INPUT",
+        "text": ""
+      },
+      {
+        "cls": "",
+        "tag": "INPUT",
+        "text": ""
+      }
+    ],
+    "controls": [
+      {
+        "disabled": false,
+        "height": 252.34375,
+        "name": "Balancing formula",
+        "right": 285.921875,
+        "tag": "A",
+        "width": 61.921875,
+        "x": 224
+      },
+      {
+        "disabled": false,
+        "height": 84.796875,
+        "name": "Quantity for Balancing formula",
+        "right": 288,
+        "tag": "INPUT",
+        "width": 64,
+        "x": 224
+      },
+      {
+        "disabled": false,
+        "height": 540.796875,
+        "name": "Update quantity",
+        "right": 288,
+        "tag": "BUTTON",
+        "width": 64,
+        "x": 224
+      },
+      {
+        "disabled": false,
+        "height": 768.796875,
+        "name": "Simulate failed update",
+        "right": 288,
+        "tag": "BUTTON",
+        "width": 64,
+        "x": 224
+      },
+      {
+        "disabled": false,
+        "height": 882.796875,
+        "name": "Remove Balancing formula",
+        "right": 288,
+        "tag": "BUTTON",
+        "width": 64,
+        "x": 224
+      },
+      {
+        "disabled": false,
+        "height": 293.8125,
+        "name": "Everyday body lotion",
+        "right": 285.1875,
+        "tag": "A",
+        "width": 61.1875,
+        "x": 224
+      },
+      {
+        "disabled": false,
+        "height": 84.796875,
+        "name": "Quantity for Everyday body lotion",
+        "right": 288,
+        "tag": "INPUT",
+        "width": 64,
+        "x": 224
+      },
+      {
+        "disabled": false,
+        "height": 540.796875,
+        "name": "Update quantity",
+        "right": 288,
+        "tag": "BUTTON",
+        "width": 64,
+        "x": 224
+      },
+      {
+        "disabled": false,
+        "height": 768.796875,
+        "name": "Simulate failed update",
+        "right": 288,
+        "tag": "BUTTON",
+        "width": 64,
+        "x": 224
+      },
+      {
+        "disabled": false,
+        "height": 920.796875,
+        "name": "Remove Everyday body lotion",
+        "right": 288,
+        "tag": "BUTTON",
+        "width": 64,
+        "x": 224
+      },
+      {
+        "disabled": false,
+        "height": 210.875,
+        "name": "Cleansing balm",
+        "right": 284.3515625,
+        "tag": "A",
+        "width": 60.3515625,
+        "x": 224
+      },
+      {
+        "disabled": false,
+        "height": 84.796875,
+        "name": "Quantity for Cleansing balm",
+        "right": 288,
+        "tag": "INPUT",
+        "width": 64,
+        "x": 224
+      },
+      {
+        "disabled": false,
+        "height": 540.796875,
+        "name": "Update quantity",
+        "right": 288,
+        "tag": "BUTTON",
+        "width": 64,
+        "x": 224
+      },
+      {
+        "disabled": false,
+        "height": 768.796875,
+        "name": "Simulate failed update",
+        "right": 288,
+        "tag": "BUTTON",
+        "width": 64,
+        "x": 224
+      },
+      {
+        "disabled": false,
+        "height": 768.796875,
+        "name": "Remove Cleansing balm",
+        "right": 288,
+        "tag": "BUTTON",
+        "width": 64,
+        "x": 224
+      },
+      {
+        "disabled": false,
+        "height": 250.796875,
+        "name": "Continue to checkout explanation",
+        "right": 239,
+        "tag": "A",
+        "width": 158,
+        "x": 81
+      },
+      {
+        "disabled": false,
+        "height": 122.796875,
+        "name": "Save note",
+        "right": 239,
+        "tag": "BUTTON",
+        "width": 158,
+        "x": 81
+      }
+    ],
+    "headings": [
+      "Your cart",
+      "Balancing formula",
+      "Everyday body lotion",
+      "Cleansing balm",
+      "Selection summary"
+    ],
+    "rootFont": "32px",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "fixture": "story",
+    "scale": 2,
+    "clipped": [],
+    "controls": [
+      {
+        "disabled": false,
+        "height": 113.796875,
+        "name": "Meet the daily cleanser",
+        "right": 288,
+        "tag": "A",
+        "width": 256,
+        "x": 32
+      },
+      {
+        "disabled": false,
+        "height": 167.1875,
+        "name": "Synthetic catalog record",
+        "right": 212.8046875,
+        "tag": "A",
+        "width": 103.609375,
+        "x": 109.1953125
+      },
+      {
+        "disabled": false,
+        "height": 134.1875,
+        "name": "Synthetic catalog instructions",
+        "right": 249.6015625,
+        "tag": "A",
+        "width": 142.40625,
+        "x": 107.1953125
+      },
+      {
+        "disabled": false,
+        "height": 482.1484375,
+        "name": "\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n",
+        "right": 150,
+        "tag": "A",
+        "width": 98,
+        "x": 52
+      },
+      {
+        "disabled": false,
+        "height": 482.1484375,
+        "name": "\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n",
+        "right": 268,
+        "tag": "A",
+        "width": 98,
+        "x": 170
+      },
+      {
+        "disabled": false,
+        "height": 534.5390625,
+        "name": "\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n",
+        "right": 150,
+        "tag": "A",
+        "width": 98,
+        "x": 52
+      },
+      {
+        "disabled": false,
+        "height": 534.5390625,
+        "name": "\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n",
+        "right": 268,
+        "tag": "A",
+        "width": 98,
+        "x": 170
+      },
+      {
+        "disabled": false,
+        "height": 496.1484375,
+        "name": "\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n",
+        "right": 150,
+        "tag": "A",
+        "width": 98,
+        "x": 52
+      },
+      {
+        "disabled": false,
+        "height": 496.1484375,
+        "name": "\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n",
+        "right": 268,
+        "tag": "A",
+        "width": 98,
+        "x": 170
+      },
+      {
+        "disabled": false,
+        "height": 448.28125,
+        "name": "\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n",
+        "right": 268,
+        "tag": "A",
+        "width": 216,
+        "x": 52
+      },
+      {
+        "disabled": false,
+        "height": 371.7734375,
+        "name": "\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n",
+        "right": 150,
+        "tag": "A",
+        "width": 98,
+        "x": 52
+      },
+      {
+        "disabled": false,
+        "height": 371.7734375,
+        "name": "\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n",
+        "right": 268,
+        "tag": "A",
+        "width": 98,
+        "x": 170
+      },
+      {
+        "disabled": false,
+        "height": 44,
+        "name": "Read the field notes ↗",
+        "right": 195.140625,
+        "tag": "A",
+        "width": 143.140625,
+        "x": 52
+      },
+      {
+        "disabled": false,
+        "height": 371.7734375,
+        "name": "\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n",
+        "right": 150,
+        "tag": "A",
+        "width": 98,
+        "x": 52
+      },
+      {
+        "disabled": false,
+        "height": 371.7734375,
+        "name": "\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n",
+        "right": 268,
+        "tag": "A",
+        "width": 98,
+        "x": 170
+      },
+      {
+        "disabled": false,
+        "height": 350.1796875,
+        "name": "\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n",
+        "right": 150,
+        "tag": "A",
+        "width": 98,
+        "x": 52
+      },
+      {
+        "disabled": false,
+        "height": 113.796875,
+        "name": "Explore the guided collection",
+        "right": 288,
+        "tag": "A",
+        "width": 256,
+        "x": 32
+      }
+    ],
+    "headings": [
+      "Less guessing.More context.",
+      "Information follows the object.",
+      "Details with a place in the story.",
+      "Ingredients & specifications",
+      "Read the supplied product context",
+      "A practical care sequence",
+      "Wash",
+      "Finish",
+      "Questions & details",
+      "Everyday care. Considered choices.",
+      "Daily cleansing milk",
+      "Everyday barrier cream",
+      "Daily concentrate",
+      "Soft finishing oil",
+      "Reusable cleansing cloth",
+      "Balancing formula",
+      "Unscented hand wash",
+      "Everyday body lotion",
+      "Cleansing balm",
+      "Know what belongs in your day.",
+      "Hand cream refill",
+      "Daily body wash",
+      "Body butter",
+      "Build your own daily rhythm."
+    ],
+    "rootFont": "32px",
+    "scrollWidth": 320,
+    "width": 320
+  }
+]

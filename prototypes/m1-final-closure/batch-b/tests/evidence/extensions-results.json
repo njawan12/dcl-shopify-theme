@@ -1,0 +1,110 @@
+[
+  {
+    "test": "daily-cleanser[] shared truth",
+    "pass": true
+  },
+  {
+    "test": "daily-cleanser[] preserved purchase",
+    "pass": true
+  },
+  {
+    "test": "daily-cleanser[] immutable",
+    "pass": true
+  },
+  {
+    "test": "daily-cleanser[] native disclosure",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula[] shared truth",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula[] preserved purchase",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula[] immutable",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula[] native disclosure",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula['60 ml', 'Rich'] shared truth",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula['60 ml', 'Rich'] preserved purchase",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula['60 ml', 'Rich'] immutable",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula['60 ml', 'Rich'] native disclosure",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula['30 ml', 'Rich'] shared truth",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula['30 ml', 'Rich'] preserved purchase",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula['30 ml', 'Rich'] immutable",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula['30 ml', 'Rich'] native disclosure",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula['30 ml', 'Light'] shared truth",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula['30 ml', 'Light'] preserved purchase",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula['30 ml', 'Light'] immutable",
+    "pass": true
+  },
+  {
+    "test": "balancing-formula['30 ml', 'Light'] native disclosure",
+    "pass": true
+  },
+  {
+    "test": "support omission",
+    "pass": true
+  },
+  {
+    "test": "story canonical identity",
+    "pass": true
+  },
+  {
+    "test": "story canonical destination",
+    "pass": true
+  },
+  {
+    "test": "story escape",
+    "pass": true
+  },
+  {
+    "test": "story missing reference omitted",
+    "pass": true
+  },
+  {
+    "test": "story empty omitted",
+    "pass": true
+  },
+  {
+    "test": "story vertical reuse",
+    "pass": true
+  }
+]

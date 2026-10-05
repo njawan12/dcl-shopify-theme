@@ -1,0 +1,397 @@
+{
+  "forms": [
+    {
+      "action": "/cart/add",
+      "labels": []
+    },
+    {
+      "action": "/cart/add",
+      "labels": [
+        "Add to cart",
+        "Buy it now"
+      ]
+    },
+    {
+      "action": "/cart/add",
+      "labels": [
+        "Add to cart"
+      ]
+    },
+    {
+      "action": "/cart/add",
+      "labels": [
+        "Add to cart"
+      ]
+    },
+    {
+      "action": "/cart/add",
+      "labels": [
+        "Add to cart"
+      ]
+    },
+    {
+      "action": "/cart/add",
+      "labels": [
+        "Add to cart"
+      ]
+    },
+    {
+      "action": "/cart/add",
+      "labels": [
+        "Add to cart"
+      ]
+    },
+    {
+      "action": "/cart/add",
+      "labels": [
+        "Add to cart"
+      ]
+    },
+    {
+      "action": "/cart/add",
+      "labels": [
+        "Add to cart"
+      ]
+    },
+    {
+      "action": "/cart/add",
+      "labels": [
+        "Add to cart"
+      ]
+    },
+    {
+      "action": "/cart/add",
+      "labels": [
+        "Add to cart"
+      ]
+    },
+    {
+      "action": "/cart/add",
+      "labels": [
+        "Add to cart"
+      ]
+    },
+    {
+      "action": "/contact#newsletter-form-sections--15478354411579__footer",
+      "labels": [
+        "E-mail",
+        "Subscribe"
+      ]
+    },
+    {
+      "action": "/localization",
+      "labels": [
+        "Afghanistan (USD\n                  $)",
+        "Åland Islands (EUR\n                  €)",
+        "Albania (USD\n                  $)",
+        "Algeria (USD\n                  $)",
+        "Andorra (EUR\n                  €)",
+        "Angola (USD\n                  $)",
+        "Anguilla (USD\n                  $)",
+        "Antigua & Barbuda (USD\n                  $)",
+        "Argentina (USD\n                  $)",
+        "Armenia (USD\n                  $)",
+        "Aruba (USD\n                  $)",
+        "Ascension Island (USD\n                  $)",
+        "Australia (USD\n                  $)",
+        "Austria (EUR\n                  €)",
+        "Azerbaijan (USD\n                  $)",
+        "Bahamas (USD\n                  $)",
+        "Bahrain (USD\n                  $)",
+        "Bangladesh (USD\n                  $)",
+        "Barbados (USD\n                  $)",
+        "Belarus (USD\n                  $)",
+        "Belgium (EUR\n                  €)",
+        "Belize (USD\n                  $)",
+        "Benin (USD\n                  $)",
+        "Bermuda (USD\n                  $)",
+        "Bhutan (USD\n                  $)",
+        "Bolivia (USD\n                  $)",
+        "Bosnia & Herzegovina (USD\n                  $)",
+        "Botswana (USD\n                  $)",
+        "Brazil (USD\n                  $)",
+        "British Indian Ocean Territory (USD\n                  $)",
+        "British Virgin Islands (USD\n                  $)",
+        "Brunei (USD\n                  $)",
+        "Bulgaria (USD\n                  $)",
+        "Burkina Faso (USD\n                  $)",
+        "Burundi (USD\n                  $)",
+        "Cambodia (USD\n                  $)",
+        "Cameroon (USD\n                  $)",
+        "Canada (CAD\n                  $)",
+        "Cape Verde (USD\n                  $)",
+        "Caribbean Netherlands (USD\n                  $)",
+        "Cayman Islands (USD\n                  $)",
+        "Central African Republic (USD\n                  $)",
+        "Chad (USD\n                  $)",
+        "Chile (USD\n                  $)",
+        "China (USD\n                  $)",
+        "Christmas Island (USD\n                  $)",
+        "Cocos (Keeling) Islands (USD\n                  $)",
+        "Colombia (USD\n                  $)",
+        "Comoros (USD\n                  $)",
+        "Congo - Brazzaville (USD\n                  $)",
+        "Congo - Kinshasa (USD\n                  $)",
+        "Cook Islands (USD\n                  $)",
+        "Costa Rica (USD\n                  $)",
+        "Côte d’Ivoire (USD\n                  $)",
+        "Croatia (USD\n                  $)",
+        "Curaçao (USD\n                  $)",
+        "Cyprus (EUR\n                  €)",
+        "Czechia (USD\n                  $)",
+        "Denmark (USD\n                  $)",
+        "Djibouti (USD\n                  $)",
+        "Dominica (USD\n                  $)",
+        "Dominican Republic (USD\n                  $)",
+        "Ecuador (USD\n                  $)",
+        "Egypt (USD\n                  $)",
+        "El Salvador (USD\n                  $)",
+        "Equatorial Guinea (USD\n                  $)",
+        "Eritrea (USD\n                  $)",
+        "Estonia (EUR\n                  €)",
+        "Eswatini (USD\n                  $)",
+        "Ethiopia (USD\n                  $)",
+        "Falkland Islands (USD\n                  $)",
+        "Faroe Islands (USD\n                  $)",
+        "Fiji (USD\n                  $)",
+        "Finland (EUR\n                  €)",
+        "France (EUR\n                  €)",
+        "French Guiana (EUR\n                  €)",
+        "French Polynesia (USD\n                  $)",
+        "French Southern Territories (EUR\n                  €)",
+        "Gabon (USD\n                  $)",
+        "Gambia (USD\n                  $)",
+        "Georgia (USD\n                  $)",
+        "Germany (EUR\n                  €)",
+        "Ghana (USD\n                  $)",
+        "Gibraltar (USD\n                  $)",
+        "Greece (EUR\n                  €)",
+        "Greenland (USD\n                  $)",
+        "Grenada (USD\n                  $)",
+        "Guadeloupe (EUR\n                  €)",
+        "Guatemala (USD\n                  $)",
+        "Guernsey (USD\n                  $)",
+        "Guinea (USD\n                  $)",
+        "Guinea-Bissau (USD\n                  $)",
+        "Guyana (USD\n                  $)",
+        "Haiti (USD\n                  $)",
+        "Honduras (USD\n                  $)",
+        "Hong Kong SAR (USD\n                  $)",
+        "Hungary (USD\n                  $)",
+        "Iceland (USD\n                  $)",
+        "India (USD\n                  $)",
+        "Indonesia (USD\n                  $)",
+        "Iraq (USD\n                  $)",
+        "Ireland (EUR\n                  €)",
+        "Isle of Man (USD\n                  $)",
+        "Israel (USD\n                  $)",
+        "Italy (EUR\n                  €)",
+        "Jamaica (USD\n                  $)",
+        "Japan (JPY\n                  ¥)",
+        "Jersey (USD\n                  $)",
+        "Jordan (USD\n                  $)",
+        "Kazakhstan (USD\n                  $)",
+        "Kenya (USD\n                  $)",
+        "Kiribati (USD\n                  $)",
+        "Kosovo (EUR\n                  €)",
+        "Kuwait (USD\n                  $)",
+        "Kyrgyzstan (USD\n                  $)",
+        "Laos (USD\n                  $)",
+        "Latvia (EUR\n                  €)",
+        "Lebanon (USD\n                  $)",
+        "Lesotho (USD\n                  $)",
+        "Liberia (USD\n                  $)",
+        "Libya (USD\n                  $)",
+        "Liechtenstein (USD\n                  $)",
+        "Lithuania (EUR\n                  €)",
+        "Luxembourg (EUR\n                  €)",
+        "Macao SAR (USD\n                  $)",
+        "Madagascar (USD\n                  $)",
+        "Malawi (USD\n                  $)",
+        "Malaysia (USD\n                  $)",
+        "Maldives (USD\n                  $)",
+        "Mali (USD\n                  $)",
+        "Malta (EUR\n                  €)",
+        "Martinique (EUR\n                  €)",
+        "Mauritania (USD\n                  $)",
+        "Mauritius (USD\n                  $)",
+        "Mayotte (EUR\n                  €)",
+        "Mexico (USD\n                  $)",
+        "Moldova (USD\n                  $)",
+        "Monaco (EUR\n                  €)",
+        "Mongolia (USD\n                  $)",
+        "Montenegro (EUR\n                  €)",
+        "Montserrat (USD\n                  $)",
+        "Morocco (USD\n                  $)",
+        "Mozambique (USD\n                  $)",
+        "Myanmar (Burma) (USD\n                  $)",
+        "Namibia (USD\n                  $)",
+        "Nauru (USD\n                  $)",
+        "Nepal (USD\n                  $)",
+        "Netherlands (EUR\n                  €)",
+        "New Caledonia (USD\n                  $)",
+        "New Zealand (USD\n                  $)",
+        "Nicaragua (USD\n                  $)",
+        "Niger (USD\n                  $)",
+        "Nigeria (USD\n                  $)",
+        "Niue (USD\n                  $)",
+        "Norfolk Island (USD\n                  $)",
+        "North Macedonia (USD\n                  $)",
+        "Norway (USD\n                  $)",
+        "Oman (USD\n                  $)",
+        "Pakistan (USD\n                  $)",
+        "Palestinian Territories (USD\n                  $)",
+        "Panama (USD\n                  $)",
+        "Papua New Guinea (USD\n                  $)",
+        "Paraguay (USD\n                  $)",
+        "Peru (USD\n                  $)",
+        "Philippines (USD\n                  $)",
+        "Pitcairn Islands (USD\n                  $)",
+        "Poland (USD\n                  $)",
+        "Portugal (EUR\n                  €)",
+        "Qatar (USD\n                  $)",
+        "Réunion (EUR\n                  €)",
+        "Romania (USD\n                  $)",
+        "Russia (USD\n                  $)",
+        "Rwanda (USD\n                  $)",
+        "Samoa (USD\n                  $)",
+        "San Marino (EUR\n                  €)",
+        "São Tomé & Príncipe (USD\n                  $)",
+        "Saudi Arabia (USD\n                  $)",
+        "Senegal (USD\n                  $)",
+        "Serbia (USD\n                  $)",
+        "Seychelles (USD\n                  $)",
+        "Sierra Leone (USD\n                  $)",
+        "Singapore (USD\n                  $)",
+        "Sint Maarten (USD\n                  $)",
+        "Slovakia (EUR\n                  €)",
+        "Slovenia (EUR\n                  €)",
+        "Solomon Islands (USD\n                  $)",
+        "Somalia (USD\n                  $)",
+        "South Africa (USD\n                  $)",
+        "South Georgia & South Sandwich Islands (USD\n                  $)",
+        "South Korea (USD\n                  $)",
+        "South Sudan (USD\n                  $)",
+        "Spain (EUR\n                  €)",
+        "Sri Lanka (USD\n                  $)",
+        "St. Barthélemy (EUR\n                  €)",
+        "St. Helena (USD\n                  $)",
+        "St. Kitts & Nevis (USD\n                  $)",
+        "St. Lucia (USD\n                  $)",
+        "St. Martin (EUR\n                  €)",
+        "St. Pierre & Miquelon (EUR\n                  €)",
+        "St. Vincent & Grenadines (USD\n                  $)",
+        "Sudan (USD\n                  $)",
+        "Suriname (USD\n                  $)",
+        "Svalbard & Jan Mayen (USD\n                  $)",
+        "Sweden (USD\n                  $)",
+        "Switzerland (USD\n                  $)",
+        "Taiwan (USD\n                  $)",
+        "Tajikistan (USD\n                  $)",
+        "Tanzania (USD\n                  $)",
+        "Thailand (USD\n                  $)",
+        "Timor-Leste (USD\n                  $)",
+        "Togo (USD\n                  $)",
+        "Tokelau (USD\n                  $)",
+        "Tonga (USD\n                  $)",
+        "Trinidad & Tobago (USD\n                  $)",
+        "Tristan da Cunha (USD\n                  $)",
+        "Tunisia (USD\n                  $)",
+        "Türkiye (USD\n                  $)",
+        "Turkmenistan (USD\n                  $)",
+        "Turks & Caicos Islands (USD\n                  $)",
+        "Tuvalu (USD\n                  $)",
+        "U.S. Outlying Islands (USD\n                  $)",
+        "Uganda (USD\n                  $)",
+        "Ukraine (USD\n                  $)",
+        "United Arab Emirates (USD\n                  $)",
+        "United Kingdom (USD\n                  $)",
+        "United States (USD\n                  $)",
+        "Uruguay (USD\n                  $)",
+        "Uzbekistan (USD\n                  $)",
+        "Vanuatu (USD\n                  $)",
+        "Vatican City (EUR\n                  €)",
+        "Venezuela (USD\n                  $)",
+        "Vietnam (USD\n                  $)",
+        "Wallis & Futuna (USD\n                  $)",
+        "Western Sahara (USD\n                  $)",
+        "Yemen (USD\n                  $)",
+        "Zambia (USD\n                  $)",
+        "Zimbabwe (USD\n                  $)"
+      ]
+    }
+  ],
+  "headings": [
+    "Bali Papaya Rice Masque",
+    "Frequently Asked Questions",
+    "Related products",
+    "Our collections",
+    "@Artifactskinco"
+  ],
+  "images": [
+    {
+      "alt": "Bali Papaya Rice Masque",
+      "height": 736.375,
+      "width": 631,
+      "x": 226,
+      "y": 169.3359375
+    },
+    {
+      "alt": "Bali Papaya Rice Masque",
+      "height": 736.375,
+      "width": 631,
+      "x": 226,
+      "y": 935.7109375
+    },
+    {
+      "alt": "Bali Papaya Rice Masque",
+      "height": 736.375,
+      "width": 631,
+      "x": 226,
+      "y": 1702.0859375
+    },
+    {
+      "alt": "Bali Papaya Rice Masque",
+      "height": 736.375,
+      "width": 631,
+      "x": 226,
+      "y": 2468.4609375
+    },
+    {
+      "alt": "Bali Papaya Rice Masque",
+      "height": 60.3515625,
+      "width": 52,
+      "x": 92,
+      "y": 171.3359375
+    },
+    {
+      "alt": "Bali Papaya Rice Masque",
+      "height": 60.3515625,
+      "width": 52,
+      "x": 92,
+      "y": 251.6875
+    },
+    {
+      "alt": "Bali Papaya Rice Masque",
+      "height": 60.3515625,
+      "width": 52,
+      "x": 92,
+      "y": 332.0390625
+    },
+    {
+      "alt": "Bali Papaya Rice Masque",
+      "height": 60.3515625,
+      "width": 52,
+      "x": 92,
+      "y": 412.390625
+    }
+  ],
+  "titleRect": {
+    "height": 33,
+    "width": 413,
+    "x": 937,
+    "y": 200.4296875
+  },
+  "url": "https://prestige-theme-vogue.myshopify.com/products/bali-papaya-rice-masque",
+  "width": 1440
+}

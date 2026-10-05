@@ -1,0 +1,57 @@
+[
+  {
+    "exercise": "purchase",
+    "files_touched": [
+      "prototypes/m1-final-closure/batch-b/extensions/purchase.py"
+    ],
+    "additions": 13,
+    "deletions": 0,
+    "nonblank_lines": 12,
+    "bytes": 599,
+    "sha256": "aad17fa52d04825cb33301fa630d7dd7b7db61754e8f3a378ac1a232a07740e9",
+    "global_token_changes": 0,
+    "css_additions": 0,
+    "js_additions": 0,
+    "commerce_state_additions": 0,
+    "existing_surfaces_changed": 0,
+    "controls_added": 0,
+    "content_bindings": [
+      "support label",
+      "support body"
+    ],
+    "contracts": [
+      "shared purchase(product,choices,name)",
+      "shared truth(product,choices)"
+    ],
+    "coupling": "Read-only imports from Batch A, no renderer mutation",
+    "promotion": "Evidence only"
+  },
+  {
+    "exercise": "story",
+    "files_touched": [
+      "prototypes/m1-final-closure/batch-b/extensions/story.py"
+    ],
+    "additions": 11,
+    "deletions": 0,
+    "nonblank_lines": 10,
+    "bytes": 531,
+    "sha256": "2b73067d753ccbcca67f186695a1761a5b114885515aadf14a999c15e1b05b02",
+    "global_token_changes": 0,
+    "css_additions": 0,
+    "js_additions": 0,
+    "commerce_state_additions": 0,
+    "existing_surfaces_changed": 0,
+    "controls_added": 0,
+    "content_bindings": [
+      "canonical product reference",
+      "body"
+    ],
+    "contracts": [
+      "canonical PRODUCTS identity/title/url",
+      "escaped merchant body",
+      "existing semantic tokens"
+    ],
+    "coupling": "Read-only imports from Batch A, no renderer mutation",
+    "promotion": "Evidence only"
+  }
+]

@@ -1,0 +1,2326 @@
+[
+  {
+    "test": "preserved .gitkeep",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/adr/001-theme-foundation.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/competitor-matrix.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/development-roadmap.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/engineering-compliance-standard.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/feature-matrix.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m0-architecture-red-team-2026-10-03.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m0-closure-matrix-2026-10-03.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m0-commercial-gate-2026-10-03.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m0-competitor-task-protocol-2026-10-03.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m0-historical-customization-demand-inventory-2026-10-03.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m0-incumbent-capability-challenge-2026-10-03.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m0-live-market-evidence-2026-10-03.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m0-merchant-interview-package-2026-10-03.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m0-product-thesis-reconciliation-2026-10-03.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m0-review-evidence-coded-2026-10-03.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m0-review-workbook-50-2026-10-03.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m0-shopify-requirements-refresh-2026-10-03.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m1-conventional-vs-distinctive.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m1-evidence-layer-implementation-brief.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m1-evidence-layer-prebuild-red-team-contract.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m1-final-acceptance-reconciliation.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m1-living-canvas-prebuild-red-team-matrix.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m1-living-canvas-schema-interaction-spec.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m1-originality-architecture.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m1-product-architecture-contract.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m1-prototype-plan.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m1-signature-system.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m1-split-tension-commerce-state-machine.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m1-split-tension-implementation-brief.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m1-token-schema-specimen.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m1-visual-direction-brief.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/m1-workflow-contracts.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/market-research.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/market-selection-research-2026-10-03.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/merchant-pain-points.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/merchant-usability-principles.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/originality-strategy.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/performance-budget.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/product-opportunity.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/qa-plan.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/shopify-requirements.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/support-risk-register.md",
+    "pass": true
+  },
+  {
+    "test": "preserved docs/theme-architecture.md",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/README.md",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/findings.md",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/fixture_catalog.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/fixtures.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/index.html",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/media/bag-transparent.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/media/care-jar.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/media/care-pump.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/media/case-dark.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/media/case-landscape.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/media/case-portrait.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/media/daily-mug.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/media/metal-ring.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/media/pantry-jar.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/media/utility-case.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/mosaic.css",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/planner.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/render.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/serve.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/browser_evidence.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/capture-probe.js",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/adjacent-1024.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/all-white-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/asset-provenance.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/branded-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/branded-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/browser-matrix.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/capture.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/catalog-100-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/catalog-30-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/changed-files.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/deleted-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/editorial-absent-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/editorial-long-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/editorial-no-image-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/editorial-no-link-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/empty-filter-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/feature-app-768.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/feature-no-media-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/feature-sold-out-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/filtered-one-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/focus-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/food-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/frames.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/interactions.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/jewelry-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/localized-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/media-loading.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/mixed-media-1024.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/mixed-media-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/neutral-1280.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/neutral-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/neutral-375.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/neutral-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/neutral-430.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/neutral-768.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/one-result-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/page-after-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/page-before-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/page-two-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/small-result-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/standard-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/standard-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/truth-stress-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/evidence/truth-stress-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/server_responses.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/commerce-mosaic/anchor-cadence/tests/static.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/README.md",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/app-host.liquid",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/content.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/evidence.css",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/findings.md",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/fixtures.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/index.html",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/media/care-pump.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/media/metal-ring.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/media/pantry-jar.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/media/storage-after.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/media/storage-before.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/media/utility-case.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/render.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/serve.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/browser.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/capture-probe.js",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/app-awkward-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/app-expected-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/app-removed-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/app-reordered-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/app-tall-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/app-wide-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/asset-provenance.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/before-after-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/before-after-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/before-after-incomplete-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/branded-editorial-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/branded-editorial-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/branded-pdp-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/branded-pdp-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/browser-matrix.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/capture.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/changed-files.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/comparison-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/comparison-incomplete-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/complexity.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/dense-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/disconnected-fallback-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/disconnected-omit-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/dynamic-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/editorial-process-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/editorial-process-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/fixture-inventory.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/food-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/food-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/frames.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/interactions.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/jewelry-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/jewelry-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/keyboard-focus-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/landscape-1024.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/long-claim-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/long-quote-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/long-source-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/media-loading.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/metric-no-source-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/navigation-log.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/neutral-editorial-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/neutral-editorial-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/neutral-pdp-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/neutral-pdp-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/no-js-baseline-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/no-media-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/one-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/one-process-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/portrait-768.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/preservation.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/reduced-motion-invariant-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/reflow-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/reorder-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/repeated-1280.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/rtl-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/supplemental.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/translation-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/evidence/zero-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/guests/plain.html",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/guests/tall.html",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/guests/wide.html",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/recapture.md",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/reflow.css",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/server.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/evidence-layer/evidence-rail/tests/static.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/README.md",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/findings.md",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/fixtures.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/index.html",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/media/bag-transparent.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/media/canvas-bag.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/media/care-bottle.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/media/case-dark.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/media/case-edge-bottom.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/media/case-edge-left.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/media/case-edge-right.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/media/case-edge-top.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/media/case-landscape.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/media/case-portrait.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/media/case-white.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/media/case-wide.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/media/metal-ring.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/media/pantry-jar.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/media/utility-case.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/monument.css",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/render.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/serve.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/browser_evidence.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/adjacent-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/adjacent-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/beauty-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/below-fold-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/branded-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/branded-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/browser-matrix.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/capture.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/changed-files.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/checks.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/dark-rect-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/focal-bottom-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/focal-left-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/focal-right-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/focal-top-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/focus-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/food-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/frames.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/interaction.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/jewelry-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/landscape-768.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/localized-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/localized-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/localized-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/long-cta-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/long-money-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/long-title-375.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/missing-media-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/missing-product-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/neutral-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/neutral-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/portrait-768.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/rectangular-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/rectangular-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/sold-out-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/transparent-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/two-line-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/evidence/wide-1024.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/server_responses.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/monument/tests/static.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/README.md",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/findings.md",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/fixtures.js",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/index.html",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/media/bottle-cutout.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/media/bottle-portrait.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/media/bottle.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/media/box.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/media/campaign-portrait-v2.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/media/jar-cutout.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/media/jar.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/media/objects-landscape.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/second-pass-report.md",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/split-tension.css",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/split-tension.js",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/ambiguous-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/browser-lifecycle.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/browser-matrix.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/browser-transitions.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/checks.txt",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/default-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/enhancement-withheld-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/initialization-failure-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/inventory-422-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/keyboard-focus-375.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/localized-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/maximum-375.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/multi-resolved-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/multi-unresolved-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/neutral-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/nonexistent-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/pending-switch-neutral-1280.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/request-error-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/branded-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/branded-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/browser-lifecycle.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/browser-matrix.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/browser-transitions.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/checks.txt",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/complexity.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/enhancement-withheld-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/five-step-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/five-step-375.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/five-step-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/keyboard-focus-1280.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/localized-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/missing-product-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/mixed-1024.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/neutral-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/neutral-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/pending-switch-neutral-1280.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/request-error-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/resolved-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/server-fallback-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/server-fallback.html",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/sold-out-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/two-instances-1280.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/second-pass/unresolved-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/evidence/two-instances-1280.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/second-pass.mjs",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/serve.mjs",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/state.mjs",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/living-canvas/split-tension/tests/static.mjs",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/README.md",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/build_dataset.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/changed-files.txt",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/contract.md",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/controls.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/dataset.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/findings.md",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/guided.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/bag-transparent.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/bottle-cutout.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/bottle-portrait.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/bottle.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/box.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/campaign-portrait-v2.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/care-jar.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/care-pouch.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/care-pump.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/case-dark.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/case-landscape.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/case-portrait.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/cloth-square.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/daily-mug.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/gift-card.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/jar-cutout.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/jar.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/metal-ring.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/objects-landscape.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/pantry-jar.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/storage-after.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/storage-before.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/media/utility-case.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/model.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/render.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/guided/fixtures.js",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/guided/media/bottle-cutout.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/guided/media/bottle-portrait.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/guided/media/bottle.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/guided/media/box.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/guided/media/campaign-portrait-v2.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/guided/media/jar-cutout.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/guided/media/jar.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/guided/media/objects-landscape.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/guided/split-tension.css",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/guided/split-tension.js",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/mosaic/fixtures.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/mosaic/media/bag-transparent.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/mosaic/media/care-jar.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/mosaic/media/care-pump.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/mosaic/media/case-dark.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/mosaic/media/case-landscape.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/mosaic/media/case-portrait.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/mosaic/media/daily-mug.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/mosaic/media/metal-ring.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/mosaic/media/pantry-jar.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/mosaic/media/utility-case.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/mosaic/mosaic.css",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/mosaic/planner.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/mosaic/render.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/rail/content.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/rail/evidence.css",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/rail/fixtures.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/rail/media/care-pump.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/rail/media/metal-ring.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/rail/media/pantry-jar.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/rail/media/storage-after.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/rail/media/storage-before.svg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/rail/media/utility-case.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/reuse/rail/render.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/serve.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/system.css",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/adapter-engine.mjs",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/browser-capture.js",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/adapter-results.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/browser-journeys.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/browser-results.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/browser-views.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/complexity.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/dataset-manifest.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/app-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/balanced-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/balanced-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/balanced-neutral-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/balanced-neutral-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/cart-empty-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/cart-error-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/cart-populated-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/cart-populated-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/collection100-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/collection24-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/collection24-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/compact-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/compact-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/compact-neutral-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/compact-neutral-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/disconnected-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/editorial-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/editorial-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/editorial-neutral-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/editorial-neutral-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/guided-jewelry-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/guided-jewelry-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/initialization-failure-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/keyboard-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/long-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/many-media-768.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/missing-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/plan-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/properties-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/reflow-200-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/reflow-400-320.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/repeated-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/repeated-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/rich-media-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/rtl-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/story-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/story-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/story-neutral-1440.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/frames/story-neutral-390.jpg",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/http-results.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/initialization-failure.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/js-disabled-status.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/preservation.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/reflow.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/repeated.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/reuse.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/screenshot-manifest.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/shared-tokens.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/source-integrity.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/evidence/static-results.json",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/server_journeys.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/static.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/summarize.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tests/validate_observations.py",
+    "pass": true
+  },
+  {
+    "test": "preserved prototypes/m1-final-closure/batch-a/tokens.css",
+    "pass": true
+  },
+  {
+    "test": "exactly22 final task records",
+    "pass": true
+  },
+  {
+    "test": "operator-one 11 tasks",
+    "pass": true
+  },
+  {
+    "test": "operator-one defaults at start",
+    "pass": true
+  },
+  {
+    "test": "operator-one replace product bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-one replace media bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-one replace copy bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-one switch composition bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-one reorder evidence bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-one connect source bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-one disconnect source bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-one global propagation bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-one optional missing bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-one mobile preview bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-one story assembly bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-one rendered canonical replacement",
+    "pass": true
+  },
+  {
+    "test": "operator-one distinct media replacement",
+    "pass": true
+  },
+  {
+    "test": "operator-one manual body replacement",
+    "pass": true
+  },
+  {
+    "test": "operator-one existing layout preserves applicable inputs",
+    "pass": true
+  },
+  {
+    "test": "operator-one attachment reordering",
+    "pass": true
+  },
+  {
+    "test": "operator-one source-shaped value appears",
+    "pass": true
+  },
+  {
+    "test": "operator-one disconnect valid fallback",
+    "pass": true
+  },
+  {
+    "test": "operator-one actual global token propagation",
+    "pass": true
+  },
+  {
+    "test": "operator-one optional Note omitted",
+    "pass": true
+  },
+  {
+    "test": "operator-one mobile fit",
+    "pass": true
+  },
+  {
+    "test": "operator-one actual host assembly",
+    "pass": true
+  },
+  {
+    "test": "operator-two 11 tasks",
+    "pass": true
+  },
+  {
+    "test": "operator-two defaults at start",
+    "pass": true
+  },
+  {
+    "test": "operator-two replace product bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-two replace media bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-two replace copy bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-two switch composition bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-two reorder evidence bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-two connect source bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-two disconnect source bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-two global propagation bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-two optional missing bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-two mobile preview bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-two story assembly bounded completion",
+    "pass": true
+  },
+  {
+    "test": "operator-two rendered canonical replacement",
+    "pass": true
+  },
+  {
+    "test": "operator-two distinct media replacement",
+    "pass": true
+  },
+  {
+    "test": "operator-two manual body replacement",
+    "pass": true
+  },
+  {
+    "test": "operator-two existing layout preserves applicable inputs",
+    "pass": true
+  },
+  {
+    "test": "operator-two attachment reordering",
+    "pass": true
+  },
+  {
+    "test": "operator-two source-shaped value appears",
+    "pass": true
+  },
+  {
+    "test": "operator-two disconnect valid fallback",
+    "pass": true
+  },
+  {
+    "test": "operator-two actual global token propagation",
+    "pass": true
+  },
+  {
+    "test": "operator-two optional Note omitted",
+    "pass": true
+  },
+  {
+    "test": "operator-two mobile fit",
+    "pass": true
+  },
+  {
+    "test": "operator-two actual host assembly",
+    "pass": true
+  },
+  {
+    "test": "10 reflow/text observations",
+    "pass": true
+  },
+  {
+    "test": "balanced scale 1 document fit",
+    "pass": true
+  },
+  {
+    "test": "balanced scale 1 visible controls within page",
+    "pass": true
+  },
+  {
+    "test": "balanced scale 1 no ordinary clipped content",
+    "pass": true
+  },
+  {
+    "test": "compact scale 1 document fit",
+    "pass": true
+  },
+  {
+    "test": "compact scale 1 visible controls within page",
+    "pass": true
+  },
+  {
+    "test": "compact scale 1 no ordinary clipped content",
+    "pass": true
+  },
+  {
+    "test": "editorial scale 1 document fit",
+    "pass": true
+  },
+  {
+    "test": "editorial scale 1 visible controls within page",
+    "pass": true
+  },
+  {
+    "test": "editorial scale 1 no ordinary clipped content",
+    "pass": true
+  },
+  {
+    "test": "cart-populated scale 1 document fit",
+    "pass": true
+  },
+  {
+    "test": "cart-populated scale 1 visible controls within page",
+    "pass": true
+  },
+  {
+    "test": "cart-populated scale 1 no ordinary clipped content",
+    "pass": true
+  },
+  {
+    "test": "story scale 1 document fit",
+    "pass": true
+  },
+  {
+    "test": "story scale 1 visible controls within page",
+    "pass": true
+  },
+  {
+    "test": "story scale 1 no ordinary clipped content",
+    "pass": true
+  },
+  {
+    "test": "balanced scale 2 document fit",
+    "pass": true
+  },
+  {
+    "test": "balanced scale 2 visible controls within page",
+    "pass": true
+  },
+  {
+    "test": "balanced scale 2 no ordinary clipped content",
+    "pass": true
+  },
+  {
+    "test": "compact scale 2 document fit",
+    "pass": true
+  },
+  {
+    "test": "compact scale 2 visible controls within page",
+    "pass": true
+  },
+  {
+    "test": "compact scale 2 no ordinary clipped content",
+    "pass": true
+  },
+  {
+    "test": "editorial scale 2 document fit",
+    "pass": true
+  },
+  {
+    "test": "editorial scale 2 visible controls within page",
+    "pass": true
+  },
+  {
+    "test": "editorial scale 2 no ordinary clipped content",
+    "pass": true
+  },
+  {
+    "test": "cart-populated scale 2 document fit",
+    "pass": true
+  },
+  {
+    "test": "cart-populated scale 2 visible controls within page",
+    "pass": true
+  },
+  {
+    "test": "cart-populated scale 2 no ordinary clipped content",
+    "pass": true
+  },
+  {
+    "test": "story scale 2 document fit",
+    "pass": true
+  },
+  {
+    "test": "story scale 2 visible controls within page",
+    "pass": true
+  },
+  {
+    "test": "story scale 2 no ordinary clipped content",
+    "pass": true
+  },
+  {
+    "test": "balanced semantic heading retention",
+    "pass": true
+  },
+  {
+    "test": "compact semantic heading retention",
+    "pass": true
+  },
+  {
+    "test": "editorial semantic heading retention",
+    "pass": true
+  },
+  {
+    "test": "cart-populated semantic heading retention",
+    "pass": true
+  },
+  {
+    "test": "story semantic heading retention",
+    "pass": true
+  },
+  {
+    "test": "200% native cart quantity action",
+    "pass": true
+  },
+  {
+    "test": "27 actual extension assertions pass",
+    "pass": true
+  },
+  {
+    "test": "exactly two extensions",
+    "pass": true
+  },
+  {
+    "test": "purchase measured source",
+    "pass": true
+  },
+  {
+    "test": "purchase bounded costs",
+    "pass": true
+  },
+  {
+    "test": "story measured source",
+    "pass": true
+  },
+  {
+    "test": "story bounded costs",
+    "pass": true
+  },
+  {
+    "test": "globals initial ceiling",
+    "pass": true
+  },
+  {
+    "test": "globals conditional ceiling",
+    "pass": true
+  },
+  {
+    "test": "media initial ceiling",
+    "pass": true
+  },
+  {
+    "test": "media conditional ceiling",
+    "pass": true
+  },
+  {
+    "test": "purchase initial ceiling",
+    "pass": true
+  },
+  {
+    "test": "purchase conditional ceiling",
+    "pass": true
+  },
+  {
+    "test": "education_note initial ceiling",
+    "pass": true
+  },
+  {
+    "test": "education_note conditional ceiling",
+    "pass": true
+  },
+  {
+    "test": "education_pair initial ceiling",
+    "pass": true
+  },
+  {
+    "test": "education_pair conditional ceiling",
+    "pass": true
+  },
+  {
+    "test": "education_process initial ceiling",
+    "pass": true
+  },
+  {
+    "test": "education_process conditional ceiling",
+    "pass": true
+  },
+  {
+    "test": "collection_card initial ceiling",
+    "pass": true
+  },
+  {
+    "test": "collection_card conditional ceiling",
+    "pass": true
+  },
+  {
+    "test": "cart initial ceiling",
+    "pass": true
+  },
+  {
+    "test": "cart conditional ceiling",
+    "pass": true
+  },
+  {
+    "test": "story initial ceiling",
+    "pass": true
+  },
+  {
+    "test": "story conditional ceiling",
+    "pass": true
+  },
+  {
+    "test": "37initial8conditional decisions",
+    "pass": true
+  },
+  {
+    "test": "nine bounded UI fields",
+    "pass": true
+  },
+  {
+    "test": "no promoted production settings",
+    "pass": true
+  },
+  {
+    "test": "JS-off absence disclosed, not passed",
+    "pass": true
+  },
+  {
+    "test": "incumbent-home observed evidence present",
+    "pass": true
+  },
+  {
+    "test": "incumbent-pdp observed evidence present",
+    "pass": true
+  },
+  {
+    "test": "incumbent-collection observed evidence present",
+    "pass": true
+  },
+  {
+    "test": "30 dated official register rows",
+    "pass": true
+  },
+  {
+    "test": "unchanged reference m0-live-market-evidence-2026-10-03",
+    "pass": true
+  },
+  {
+    "test": "unchanged reference m1-commerce-mosaic-anchor-cadence",
+    "pass": true
+  },
+  {
+    "test": "unchanged reference m1-evidence-layer-evidence-rail",
+    "pass": true
+  },
+  {
+    "test": "unchanged reference m1-evidence-layer-prototype",
+    "pass": true
+  },
+  {
+    "test": "unchanged reference m1-final-acceptance-reconciliation",
+    "pass": true
+  },
+  {
+    "test": "unchanged reference m1-final-closure-batch-a",
+    "pass": true
+  },
+  {
+    "test": "unchanged reference m1-monument-prototype",
+    "pass": true
+  },
+  {
+    "test": "unchanged reference m1-split-tension-prototype",
+    "pass": true
+  }
+]

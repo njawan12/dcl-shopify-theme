@@ -1,0 +1,1494 @@
+[
+  {
+    "operator": "operator-one",
+    "task": "replace product",
+    "startingState": [
+      "daily-cleanser",
+      "product",
+      "Manual product context",
+      "balanced",
+      "note-process",
+      "manual",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 152,
+    "controls": [
+      "product",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Details with a place in the story.",
+        "Care sequence"
+      ],
+      "body": "View 1 · imageProduct view 1Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Product contextCare, with its details in view.Manual product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextManual product contextSynthetic manual/source-shaped fixture; no verified claim.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothEvidence / 01Details with a place in the story.01Fact / specificationProduct contextManual product contextSynthetic manual/source-shaped fixture; no verified claim.Process / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Operator story contextManual product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Details with a place in the story.",
+        "Care sequence",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "balanced",
+      "media": [
+        "/media/cloth-square.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "manual",
+        "copy": "Manual product context",
+        "layout": "balanced",
+        "media": "product",
+        "optional": "show",
+        "order": "note-process",
+        "product": "woven-cloth",
+        "scheme": "beauty"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#203d32",
+        "#203d32",
+        "#203d32",
+        "#203d32"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-one",
+    "task": "replace media",
+    "startingState": [
+      "woven-cloth",
+      "product",
+      "Manual product context",
+      "balanced",
+      "note-process",
+      "manual",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 117,
+    "controls": [
+      "media",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Details with a place in the story.",
+        "Care sequence"
+      ],
+      "body": "View 1 · imageProduct view 1Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Product contextCare, with its details in view.Manual product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextManual product contextSynthetic manual/source-shaped fixture; no verified claim.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothEvidence / 01Details with a place in the story.01Fact / specificationProduct contextManual product contextSynthetic manual/source-shaped fixture; no verified claim.Process / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Operator story contextManual product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Details with a place in the story.",
+        "Care sequence",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "balanced",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "manual",
+        "copy": "Manual product context",
+        "layout": "balanced",
+        "media": "barrier-cream",
+        "optional": "show",
+        "order": "note-process",
+        "product": "woven-cloth",
+        "scheme": "beauty"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#203d32",
+        "#203d32",
+        "#203d32",
+        "#203d32"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-one",
+    "task": "replace copy",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Manual product context",
+      "balanced",
+      "note-process",
+      "manual",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 246,
+    "controls": [
+      "copy",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Details with a place in the story.",
+        "Care sequence"
+      ],
+      "body": "View 1 · imageProduct view 1Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Product contextCare, with its details in view.Operator-authored ordinary product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothEvidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Process / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Details with a place in the story.",
+        "Care sequence",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "balanced",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "manual",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "balanced",
+        "media": "barrier-cream",
+        "optional": "show",
+        "order": "note-process",
+        "product": "woven-cloth",
+        "scheme": "beauty"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#203d32",
+        "#203d32",
+        "#203d32",
+        "#203d32"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-one",
+    "task": "switch composition",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "balanced",
+      "note-process",
+      "manual",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 117,
+    "controls": [
+      "layout",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Details with a place in the story.",
+        "Care sequence"
+      ],
+      "body": "View 1 · imageProduct view 1Product contextCare, with its details in view.Operator-authored ordinary product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothEvidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Process / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Details with a place in the story.",
+        "Care sequence",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "manual",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "show",
+        "order": "note-process",
+        "product": "woven-cloth",
+        "scheme": "beauty"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#203d32",
+        "#203d32",
+        "#203d32",
+        "#203d32"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-one",
+    "task": "reorder evidence",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "editorial",
+      "note-process",
+      "manual",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 135,
+    "controls": [
+      "order",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Care sequence",
+        "Details with a place in the story."
+      ],
+      "body": "View 1 · imageProduct view 1Product contextCare, with its details in view.Operator-authored ordinary product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothProcess / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Evidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Care sequence",
+        "Details with a place in the story.",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "manual",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "show",
+        "order": "process-note",
+        "product": "woven-cloth",
+        "scheme": "beauty"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#203d32",
+        "#203d32",
+        "#203d32",
+        "#203d32"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-one",
+    "task": "connect source",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "editorial",
+      "process-note",
+      "manual",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 115,
+    "controls": [
+      "binding",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Care sequence",
+        "Details with a place in the story."
+      ],
+      "body": "View 1 · imageProduct view 1Product contextCare, with its details in view.Operator-authored ordinary product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextConnected source-shaped product contextSynthetic manual/source-shaped fixture; no verified claim.Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothProcess / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Evidence / 01Details with a place in the story.01Fact / specificationProduct contextConnected source-shaped product contextSynthetic manual/source-shaped fixture; no verified claim.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Care sequence",
+        "Details with a place in the story.",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "connected",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "show",
+        "order": "process-note",
+        "product": "woven-cloth",
+        "scheme": "beauty"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#203d32",
+        "#203d32",
+        "#203d32",
+        "#203d32"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-one",
+    "task": "disconnect source",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "editorial",
+      "process-note",
+      "connected",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 140,
+    "controls": [
+      "binding",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Care sequence",
+        "Details with a place in the story."
+      ],
+      "body": "View 1 · imageProduct view 1Product contextCare, with its details in view.Operator-authored ordinary product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothProcess / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Evidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Care sequence",
+        "Details with a place in the story.",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "disconnected",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "show",
+        "order": "process-note",
+        "product": "woven-cloth",
+        "scheme": "beauty"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#203d32",
+        "#203d32",
+        "#203d32",
+        "#203d32"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-one",
+    "task": "global propagation",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "editorial",
+      "process-note",
+      "disconnected",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 116,
+    "controls": [
+      "scheme",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Care sequence",
+        "Details with a place in the story."
+      ],
+      "body": "View 1 · imageProduct view 1Product contextCare, with its details in view.Operator-authored ordinary product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothProcess / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Evidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Care sequence",
+        "Details with a place in the story.",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "disconnected",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "show",
+        "order": "process-note",
+        "product": "woven-cloth",
+        "scheme": "neutral"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#202020",
+        "#202020",
+        "#202020",
+        "#202020"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-one",
+    "task": "optional missing",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "editorial",
+      "process-note",
+      "disconnected",
+      "neutral",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 111,
+    "controls": [
+      "optional",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Care sequence"
+      ],
+      "body": "View 1 · imageProduct view 1Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothProcess / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Care sequence",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "disconnected",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "omit",
+        "order": "process-note",
+        "product": "woven-cloth",
+        "scheme": "neutral"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#202020",
+        "#202020",
+        "#202020",
+        "#202020"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-one",
+    "task": "mobile preview",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "editorial",
+      "process-note",
+      "disconnected",
+      "neutral",
+      "omit",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 15,
+    "controls": [
+      "viewport320"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Care sequence"
+      ],
+      "body": "View 1 · imageProduct view 1Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothProcess / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Care sequence",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "disconnected",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "omit",
+        "order": "process-note",
+        "product": "woven-cloth",
+        "scheme": "neutral"
+      },
+      "scrollWidth": 320,
+      "tokens": [
+        "#202020",
+        "#202020",
+        "#202020",
+        "#202020"
+      ],
+      "width": 320
+    }
+  },
+  {
+    "operator": "operator-one",
+    "task": "story assembly",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "editorial",
+      "process-note",
+      "disconnected",
+      "neutral",
+      "omit",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 111,
+    "controls": [
+      "assembly",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Care sequence"
+      ],
+      "body": "View 1 · imageProduct view 1Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothProcess / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\nOperator story contextOperator-authored ordinary product context",
+      "headings": [
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Care sequence",
+        "Everyday care. Considered choices.",
+        "Operator story context"
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "collection-story",
+        "binding": "disconnected",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "omit",
+        "order": "process-note",
+        "product": "woven-cloth",
+        "scheme": "neutral"
+      },
+      "scrollWidth": 320,
+      "tokens": [
+        "#202020",
+        "#202020",
+        "#202020",
+        "#202020"
+      ],
+      "width": 320
+    }
+  },
+  {
+    "operator": "operator-two",
+    "task": "replace product",
+    "startingState": [
+      "daily-cleanser",
+      "product",
+      "Manual product context",
+      "balanced",
+      "note-process",
+      "manual",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 128,
+    "controls": [
+      "product",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Details with a place in the story.",
+        "Care sequence"
+      ],
+      "body": "View 1 · imageProduct view 1Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Product contextCare, with its details in view.Manual product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextManual product contextSynthetic manual/source-shaped fixture; no verified claim.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothEvidence / 01Details with a place in the story.01Fact / specificationProduct contextManual product contextSynthetic manual/source-shaped fixture; no verified claim.Process / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Operator story contextManual product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Details with a place in the story.",
+        "Care sequence",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "balanced",
+      "media": [
+        "/media/cloth-square.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "manual",
+        "copy": "Manual product context",
+        "layout": "balanced",
+        "media": "product",
+        "optional": "show",
+        "order": "note-process",
+        "product": "woven-cloth",
+        "scheme": "beauty"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#203d32",
+        "#203d32",
+        "#203d32",
+        "#203d32"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-two",
+    "task": "replace media",
+    "startingState": [
+      "woven-cloth",
+      "product",
+      "Manual product context",
+      "balanced",
+      "note-process",
+      "manual",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 123,
+    "controls": [
+      "media",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Details with a place in the story.",
+        "Care sequence"
+      ],
+      "body": "View 1 · imageProduct view 1Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Product contextCare, with its details in view.Manual product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextManual product contextSynthetic manual/source-shaped fixture; no verified claim.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothEvidence / 01Details with a place in the story.01Fact / specificationProduct contextManual product contextSynthetic manual/source-shaped fixture; no verified claim.Process / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Operator story contextManual product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Details with a place in the story.",
+        "Care sequence",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "balanced",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "manual",
+        "copy": "Manual product context",
+        "layout": "balanced",
+        "media": "barrier-cream",
+        "optional": "show",
+        "order": "note-process",
+        "product": "woven-cloth",
+        "scheme": "beauty"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#203d32",
+        "#203d32",
+        "#203d32",
+        "#203d32"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-two",
+    "task": "replace copy",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Manual product context",
+      "balanced",
+      "note-process",
+      "manual",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 225,
+    "controls": [
+      "copy",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Details with a place in the story.",
+        "Care sequence"
+      ],
+      "body": "View 1 · imageProduct view 1Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Product contextCare, with its details in view.Operator-authored ordinary product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothEvidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Process / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Details with a place in the story.",
+        "Care sequence",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "balanced",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "manual",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "balanced",
+        "media": "barrier-cream",
+        "optional": "show",
+        "order": "note-process",
+        "product": "woven-cloth",
+        "scheme": "beauty"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#203d32",
+        "#203d32",
+        "#203d32",
+        "#203d32"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-two",
+    "task": "switch composition",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "balanced",
+      "note-process",
+      "manual",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 318,
+    "controls": [
+      "layout",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Details with a place in the story.",
+        "Care sequence"
+      ],
+      "body": "View 1 · imageProduct view 1Product contextCare, with its details in view.Operator-authored ordinary product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothEvidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Process / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Details with a place in the story.",
+        "Care sequence",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "manual",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "show",
+        "order": "note-process",
+        "product": "woven-cloth",
+        "scheme": "beauty"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#203d32",
+        "#203d32",
+        "#203d32",
+        "#203d32"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-two",
+    "task": "reorder evidence",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "editorial",
+      "note-process",
+      "manual",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 121,
+    "controls": [
+      "order",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Care sequence",
+        "Details with a place in the story."
+      ],
+      "body": "View 1 · imageProduct view 1Product contextCare, with its details in view.Operator-authored ordinary product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothProcess / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Evidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Care sequence",
+        "Details with a place in the story.",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "manual",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "show",
+        "order": "process-note",
+        "product": "woven-cloth",
+        "scheme": "beauty"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#203d32",
+        "#203d32",
+        "#203d32",
+        "#203d32"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-two",
+    "task": "connect source",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "editorial",
+      "process-note",
+      "manual",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 143,
+    "controls": [
+      "binding",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Care sequence",
+        "Details with a place in the story."
+      ],
+      "body": "View 1 · imageProduct view 1Product contextCare, with its details in view.Operator-authored ordinary product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextConnected source-shaped product contextSynthetic manual/source-shaped fixture; no verified claim.Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothProcess / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Evidence / 01Details with a place in the story.01Fact / specificationProduct contextConnected source-shaped product contextSynthetic manual/source-shaped fixture; no verified claim.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Care sequence",
+        "Details with a place in the story.",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "connected",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "show",
+        "order": "process-note",
+        "product": "woven-cloth",
+        "scheme": "beauty"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#203d32",
+        "#203d32",
+        "#203d32",
+        "#203d32"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-two",
+    "task": "disconnect source",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "editorial",
+      "process-note",
+      "connected",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 147,
+    "controls": [
+      "binding",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Care sequence",
+        "Details with a place in the story."
+      ],
+      "body": "View 1 · imageProduct view 1Product contextCare, with its details in view.Operator-authored ordinary product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothProcess / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Evidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Care sequence",
+        "Details with a place in the story.",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "disconnected",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "show",
+        "order": "process-note",
+        "product": "woven-cloth",
+        "scheme": "beauty"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#203d32",
+        "#203d32",
+        "#203d32",
+        "#203d32"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-two",
+    "task": "global propagation",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "editorial",
+      "process-note",
+      "disconnected",
+      "beauty",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 127,
+    "controls": [
+      "scheme",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Care sequence",
+        "Details with a place in the story."
+      ],
+      "body": "View 1 · imageProduct view 1Product contextCare, with its details in view.Operator-authored ordinary product contextEvidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothProcess / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Evidence / 01Details with a place in the story.01Fact / specificationProduct contextOperator-authored ordinary product contextSynthetic manual/source-shaped fixture; no verified claim.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Care, with its details in view.",
+        "Details with a place in the story.",
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Care sequence",
+        "Details with a place in the story.",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "disconnected",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "show",
+        "order": "process-note",
+        "product": "woven-cloth",
+        "scheme": "neutral"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#202020",
+        "#202020",
+        "#202020",
+        "#202020"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-two",
+    "task": "optional missing",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "editorial",
+      "process-note",
+      "disconnected",
+      "neutral",
+      "show",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 110,
+    "controls": [
+      "optional",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Care sequence"
+      ],
+      "body": "View 1 · imageProduct view 1Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothProcess / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Care sequence",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "disconnected",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "omit",
+        "order": "process-note",
+        "product": "woven-cloth",
+        "scheme": "neutral"
+      },
+      "scrollWidth": 1440,
+      "tokens": [
+        "#202020",
+        "#202020",
+        "#202020",
+        "#202020"
+      ],
+      "width": 1440
+    }
+  },
+  {
+    "operator": "operator-two",
+    "task": "mobile preview",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "editorial",
+      "process-note",
+      "disconnected",
+      "neutral",
+      "omit",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 26,
+    "controls": [
+      "viewport320"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Care sequence"
+      ],
+      "body": "View 1 · imageProduct view 1Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothProcess / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Operator story contextOperator-authored ordinary product context\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\n",
+      "headings": [
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Care sequence",
+        "Operator story context",
+        "Everyday care. Considered choices."
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "story-collection",
+        "binding": "disconnected",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "omit",
+        "order": "process-note",
+        "product": "woven-cloth",
+        "scheme": "neutral"
+      },
+      "scrollWidth": 320,
+      "tokens": [
+        "#202020",
+        "#202020",
+        "#202020",
+        "#202020"
+      ],
+      "width": 320
+    }
+  },
+  {
+    "operator": "operator-two",
+    "task": "story assembly",
+    "startingState": [
+      "woven-cloth",
+      "barrier-cream",
+      "Operator-authored ordinary product context",
+      "editorial",
+      "process-note",
+      "disconnected",
+      "neutral",
+      "omit",
+      "story-collection"
+    ],
+    "completion": true,
+    "elapsedMs": 108,
+    "controls": [
+      "assembly",
+      "Apply supported changes"
+    ],
+    "helpRequired": false,
+    "sourceEditing": false,
+    "recovery": "Reset; disconnect retains manual value",
+    "ambiguity": "Deterministic labels known; human discoverability unmeasured",
+    "observation": {
+      "attachmentOrder": [
+        "Care sequence"
+      ],
+      "body": "View 1 · imageProduct view 1Fieldwork Care · fictional brandReusable cleansing clothFrom CAD 12.00Choose every option; this combination is not purchasable yet.FormatChoose FormatSmallLargeResolve optionsQuantityAdd to simulated cartNo inventory promise. This is a local fixture action.Accelerated payment / installments host: reserved normal flow; no payment service connected.Ingredients & specificationsMaterial / packagingCottonNominal size / format15 × 15 / 25 × 25 cmEvidence / 02Read the supplied product contextNamed fixture contexts, not an inferred winner.Read the supplied product contextCriterionReusable cleansing clothUnspecified referenceInformationNo competitor claim.Supplied belowNot suppliedSynthetic authored comparison only.Process / sequenceA practical care sequenceInstructions are distinct from product efficacy.01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.Synthetic catalog instructionsQuestions & detailsWhat information should I review?Check the material and dimensions above and the supplied usage sequence. These records are fictional and do not validate product claims.Related product contextComplementary: Reusable cleansing clothProcess / sequenceCare sequence01DampenWet the cloth with water before use.Synthetic instructions; final directions require merchant content.02CareRinse after use and allow the cloth to dry fully.\nCollection / Anchor Cadence proof\nEveryday care. Considered choices.\n12 distinct Beauty products from one canonical fictional catalog.\n12 products · showing 12 · page 1 of 1\n\n\n\n\n01\nDaily cleansing milk\nFieldwork Care · fictional brand\nCAD 24.00\nCAD 48.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n02\nEveryday barrier cream\nFieldwork Care · fictional brand\nCAD 38.00\nPreviously CAD 44.00\nCAD 76.00 / 100 ml\nAvailable\nView product ↗\n\n\n\n\n\n03\nDaily concentrate\nFieldwork Care · fictional brand\nFrom CAD 42.00\nChoose options on product page\nOptions: Volume: 10 ml, 20 ml, 30 ml, 40 ml, 50 ml, 60 ml · Texture: Light, Smooth, Rich, Fluid\nView product ↗\n\n\n\n\n\n04\nSoft finishing oil\nFieldwork Care · fictional brand\nFrom CAD 31.00\nChoose options on product page\nOptions: Format: Light, Silky, Soft, Rich, Fluid, Smooth\nView product ↗\n\n\n\n\n\n05\nReusable cleansing cloth\nFieldwork Care · fictional brand\nFrom CAD 12.00\nChoose options on product page\nOptions: Format: Small, Large\nView product ↗\n\n\n\n\n\n06\nBalancing formula\nFieldwork Care · fictional brand\nFrom CAD 29.00\nChoose options on product page\nOptions: Size: 30 ml, 60 ml · Finish: Light, Rich\nView product ↗\n\n\n\n\n\n07\nUnscented hand wash\nFeatured product\nFieldwork Care · fictional brand\nCAD 25.00\nAvailable\nView product ↗\n\n\n\n\n\n08\nEveryday body lotion\nFieldwork Care · fictional brand\nCAD 26.50\nAvailable\nView product ↗\n\n\n\n\n\n09\nCleansing balm\nFieldwork Care · fictional brand\nCAD 28.00\nAvailable\nView product ↗\n\n\nField notes · Editorial\nKnow what belongs in your day.\nIngredients, packaging and use context stay attached to their subject.\nRead the field notes ↗\n\n\n\n\n\n\n10\nHand cream refill\nFieldwork Care · fictional brand\nCAD 29.50\nAvailable\nView product ↗\n\n\n\n\n\n11\nDaily body wash\nFieldwork Care · fictional brand\nCAD 31.00\nAvailable\nView product ↗\n\n\n\n\n\n12\nBody butter\nFieldwork Care · fictional brand\nCAD 32.50\nSold out\nView product ↗\n\n\n\nOperator story contextOperator-authored ordinary product context",
+      "headings": [
+        "Ingredients & specifications",
+        "Read the supplied product context",
+        "A practical care sequence",
+        "Questions & details",
+        "Related product context",
+        "Care sequence",
+        "Everyday care. Considered choices.",
+        "Operator story context"
+      ],
+      "layout": "editorial",
+      "media": [
+        "/media/jar.svg"
+      ],
+      "product": "woven-cloth",
+      "saved": {
+        "assembly": "collection-story",
+        "binding": "disconnected",
+        "copy": "Operator-authored ordinary product context",
+        "layout": "editorial",
+        "media": "barrier-cream",
+        "optional": "omit",
+        "order": "process-note",
+        "product": "woven-cloth",
+        "scheme": "neutral"
+      },
+      "scrollWidth": 320,
+      "tokens": [
+        "#202020",
+        "#202020",
+        "#202020",
+        "#202020"
+      ],
+      "width": 320
+    }
+  }
+]

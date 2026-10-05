@@ -1,0 +1,53 @@
+{
+  "cards": [
+    {
+      "height": 428.421875,
+      "width": 311.328125,
+      "x": 338,
+      "y": 654.296875
+    },
+    {
+      "height": 428.421875,
+      "width": 311.328125,
+      "x": 709.328125,
+      "y": 654.296875
+    },
+    {
+      "height": 428.421875,
+      "width": 311.328125,
+      "x": 1080.65625,
+      "y": 654.296875
+    },
+    {
+      "height": 428.421875,
+      "width": 311.328125,
+      "x": 338,
+      "y": 1146.71875
+    },
+    {
+      "height": 428.421875,
+      "width": 311.328125,
+      "x": 709.328125,
+      "y": 1146.71875
+    },
+    {
+      "height": 428.421875,
+      "width": 311.328125,
+      "x": 1080.65625,
+      "y": 1146.71875
+    }
+  ],
+  "grid": [
+    {
+      "columns": "311.328px 311.328px 311.328px",
+      "display": "grid"
+    }
+  ],
+  "headings": [
+    "Masques",
+    "FREE INTERNATIONAL SHIPPING",
+    "@Artifactskinco"
+  ],
+  "url": "https://prestige-theme-vogue.myshopify.com/collections/masques",
+  "width": 1440
+}

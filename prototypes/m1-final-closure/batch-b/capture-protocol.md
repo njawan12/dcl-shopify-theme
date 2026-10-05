@@ -1,0 +1,17 @@
+# Browser capture/execution record
+
+Actual browser execution used the documented Codex in-app browser viewport/locator/read-only DOM observation APIs, not fixture-file editing. Native form selections/fills and Apply caused server POSTs. Tool/session transcript is the execution history; JSON observations are committed artifacts. This is deterministic black-box automation with known labels, not fresh-context human usability research.
+
+## Operator replay
+Start `PYTHONDONTWRITEBYTECODE=1 python3 prototypes/m1-final-closure/batch-b/harness.py` from repository root (port3006). At1440×900 visit `http://127.0.0.1:3006/?operator=operator-one`; Reset, then perform the11 registered tasks in protocol order. Product=woven-cloth; media=barrier-cream; copy=Operator-authored ordinary product context; layout=editorial; order=process-note; binding=connected then disconnected; scheme=neutral; optional=omit; viewport320×900; assembly=collection-story. Apply after each changed field. Observe saved fields **and** rendered media/body/layout/attachment heading order/computed color roles/document width. Repeat from default with operator-two. The two state keys must not share saved state. Screenshot final320px UI; scroll below the editor to inspect preview. This editor is a testbench, not a polished storefront or native Shopify editor.
+
+`merchant-tasks.json` has the final22 records; per-task elapsedMs is measured around interaction and observation. Initial exploratory22 records are separately retained, not counted as final tasks. No arbitrary form variants, fixture writes or external platform content writes occurred.
+
+## Reflow/text replay
+With unchanged Batch A server running port3005, open the Balanced, Compact, Editorial, populated cart and story fixture URLs. Set viewport320×900; observe inner/document width, main descendant clipping, control bounds and headings at inherited16px and then32px root font. The font override is test-only browser presentation, never a repository CSS change. At enlarged populated cart, fill first native quantity input3 and press Enter; returned native POST shows3. A subsequent page navigation resets the font override. JSON retains observed input clipping separately from page fit. This tests CSS-pixel reflow and text resize, not native browser zoom or AT certification.
+
+## Incumbent capture
+Observed publicly linked Prestige/Vogue demo home, `/products/bali-papaya-rice-masque`, `/collections/masques`. Record public DOM headings/media/form/action geometry without executing cart or editing the external theme. Save home1440 and PDP/collection1440+390 viewport JPEGs. No external CSS stripping or source copying. The home popup remains visible; don't infer vendor provenance. Only public observed structure is compared with **existing** accepted DCL neutral frames.
+
+## JS-disabled replay
+Use `node prototypes/m1-final-closure/batch-b/tests/js-off.cjs` after starting unchanged Batch A server. This test requires a real engine with `newContext({javaScriptEnabled:false})`. Local dependency/executable paths are environment-specific and must be adjusted to equivalent legitimate installations elsewhere. The committed actual attempts failed before context creation; no JS-off journey or screenshot exists. A successful future execution must navigate Guided native product link→native product POST→cart and record engine/config/steps/result. CSP, source reasoning and init-failure are not substitutes.

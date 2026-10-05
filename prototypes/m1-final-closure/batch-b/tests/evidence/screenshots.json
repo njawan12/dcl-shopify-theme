@@ -1,0 +1,65 @@
+[
+  {
+    "file": "prototypes/m1-final-closure/batch-b/tests/evidence/incumbent-collection-1440.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "bytes": 75148,
+    "sha256": "8716548a70ab9829db671534eecc29e101dcbf508aa633ca6aed717d28f805f8"
+  },
+  {
+    "file": "prototypes/m1-final-closure/batch-b/tests/evidence/incumbent-collection-390.jpg",
+    "dimensions": [
+      390,
+      900
+    ],
+    "bytes": 34527,
+    "sha256": "2442cbb4191d735d70d7fda16a761910a2393984eb6659d7a62421b4072f3e53"
+  },
+  {
+    "file": "prototypes/m1-final-closure/batch-b/tests/evidence/incumbent-home-1440.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "bytes": 86571,
+    "sha256": "8c3e8809873464027425a77a5e5f909bbf3449863c86a889ec0b6faa22679152"
+  },
+  {
+    "file": "prototypes/m1-final-closure/batch-b/tests/evidence/incumbent-pdp-1440.jpg",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "bytes": 59765,
+    "sha256": "213731c7d4ffa027902f6b6df7075c269979be751492ce1d6aeade97adfa9418"
+  },
+  {
+    "file": "prototypes/m1-final-closure/batch-b/tests/evidence/incumbent-pdp-390.jpg",
+    "dimensions": [
+      390,
+      900
+    ],
+    "bytes": 33815,
+    "sha256": "2285dd7ea674dbd85d52284f515a04bb77ff1d455a1947662c38b0fbb21fd1bf"
+  },
+  {
+    "file": "prototypes/m1-final-closure/batch-b/tests/evidence/operator-one.jpg",
+    "dimensions": [
+      320,
+      900
+    ],
+    "bytes": 53897,
+    "sha256": "2eb42b1017493bc40550bc2b35439b01d61a3644b798384deb7cfeccd7f54530"
+  },
+  {
+    "file": "prototypes/m1-final-closure/batch-b/tests/evidence/operator-two.jpg",
+    "dimensions": [
+      320,
+      900
+    ],
+    "bytes": 53890,
+    "sha256": "9bd0b3f5ac33c01fb08e4ffaac32fd3d2e8499cbceb282edfccbbc88e7c4e0b0"
+  }
+]

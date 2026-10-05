@@ -1,0 +1,38 @@
+{
+  "parent_files": 455,
+  "all_hashes_unchanged": true,
+  "refs": {
+    "m0-live-market-evidence-2026-10-03": {
+      "expected": "c92fc598a9016d75479b811b59c8fcd9275a1ea3",
+      "actual": "c92fc598a9016d75479b811b59c8fcd9275a1ea3"
+    },
+    "m1-commerce-mosaic-anchor-cadence": {
+      "expected": "39bd22bfa717951e746dc2be0035a687348d53e8",
+      "actual": "39bd22bfa717951e746dc2be0035a687348d53e8"
+    },
+    "m1-evidence-layer-evidence-rail": {
+      "expected": "9395b42b0f0f3827eddf4ba9e00a2b329915fcb1",
+      "actual": "9395b42b0f0f3827eddf4ba9e00a2b329915fcb1"
+    },
+    "m1-evidence-layer-prototype": {
+      "expected": "c48cd4ff9ba784bea1a1e91afbadfa8004f2bc1a",
+      "actual": "c48cd4ff9ba784bea1a1e91afbadfa8004f2bc1a"
+    },
+    "m1-final-acceptance-reconciliation": {
+      "expected": "8a7693e868eeb6fce5b0150f9044defd8593b3a7",
+      "actual": "8a7693e868eeb6fce5b0150f9044defd8593b3a7"
+    },
+    "m1-final-closure-batch-a": {
+      "expected": "6dd6619d1fc2d3ea85824d06cb81881b1299a871",
+      "actual": "6dd6619d1fc2d3ea85824d06cb81881b1299a871"
+    },
+    "m1-monument-prototype": {
+      "expected": "98a30d157f1cf152e609c74a60f6eb0246db736c",
+      "actual": "98a30d157f1cf152e609c74a60f6eb0246db736c"
+    },
+    "m1-split-tension-prototype": {
+      "expected": "3e1b34040899ec432c6d3e6733d6a85b68745b41",
+      "actual": "3e1b34040899ec432c6d3e6733d6a85b68745b41"
+    }
+  }
+}

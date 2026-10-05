@@ -1,0 +1,63 @@
+{
+  "sources": [
+    {
+      "file": "prototypes/m1-final-closure/batch-b/extensions/purchase.py",
+      "physical_lines": 13,
+      "nonblank_lines": 12,
+      "bytes": 599,
+      "gzip_bytes": 357,
+      "sha256": "aad17fa52d04825cb33301fa630d7dd7b7db61754e8f3a378ac1a232a07740e9",
+      "functions_methods": 1
+    },
+    {
+      "file": "prototypes/m1-final-closure/batch-b/extensions/story.py",
+      "physical_lines": 11,
+      "nonblank_lines": 10,
+      "bytes": 531,
+      "gzip_bytes": 350,
+      "sha256": "2b73067d753ccbcca67f186695a1761a5b114885515aadf14a999c15e1b05b02",
+      "functions_methods": 1
+    },
+    {
+      "file": "prototypes/m1-final-closure/batch-b/harness.py",
+      "physical_lines": 55,
+      "nonblank_lines": 55,
+      "bytes": 5151,
+      "gzip_bytes": 2303,
+      "sha256": "427cb6820ef6d2f61c99c69f54af36d1a1fd588b8577c9ac087d1f2eededa975",
+      "functions_methods": 7
+    },
+    {
+      "file": "prototypes/m1-final-closure/batch-b/tests/extensions.py",
+      "physical_lines": 28,
+      "nonblank_lines": 28,
+      "bytes": 1902,
+      "gzip_bytes": 809,
+      "sha256": "cfd04bbf4ed1689603653b2f8ec044c0a479673097feda736e6d465e8a8bccf5",
+      "functions_methods": 1
+    },
+    {
+      "file": "prototypes/m1-final-closure/batch-b/tests/js-off.cjs",
+      "physical_lines": 11,
+      "nonblank_lines": 11,
+      "bytes": 2036,
+      "gzip_bytes": 1095,
+      "sha256": "8ca0306b9eec205403a50818e28c30a7cea6d1e855d276734b86cd03f297f329"
+    },
+    {
+      "file": "prototypes/m1-final-closure/batch-b/tests/validate_closure.py",
+      "physical_lines": 81,
+      "nonblank_lines": 81,
+      "bytes": 5963,
+      "gzip_bytes": 2565,
+      "sha256": "1b97e1be609e0ee9a170ce5aff3a25ecbcfdf8922e396076f589a2efa8edbf37",
+      "functions_methods": 2
+    }
+  ],
+  "new_browser_runtime_js_bytes": 0,
+  "new_css_bytes": 0,
+  "new_dependencies": "Python stdlib; unchanged Batch A imports. Playwright is test tooling only.",
+  "new_operator_state_fields": 9,
+  "commerce_state_additions": 0,
+  "accepted_surfaces_modified": 0
+}

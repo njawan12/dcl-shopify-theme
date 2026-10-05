@@ -1,0 +1,249 @@
+{
+  "globals": {
+    "initial": [
+      "brand scheme",
+      "type roles",
+      "type scale",
+      "content width",
+      "reading width",
+      "section rhythm",
+      "shape role",
+      "button emphasis",
+      "media contain policy",
+      "motion policy"
+    ],
+    "conditional": [],
+    "ceiling": 19
+  },
+  "media": {
+    "initial": [
+      "media family",
+      "first media emphasis",
+      "navigation policy",
+      "fit policy"
+    ],
+    "conditional": [
+      "rich-media alternative policy"
+    ],
+    "ceiling": 5,
+    "conditional_ceiling": 3
+  },
+  "purchase": {
+    "initial": [
+      "Balanced/Compact/Editorial",
+      "supporting information density",
+      "native option policy",
+      "action emphasis"
+    ],
+    "conditional": [
+      "selling-plan seam",
+      "pickup seam",
+      "app seam",
+      "required-property seam"
+    ],
+    "ceiling": 6,
+    "conditional_ceiling": 4
+  },
+  "education_note": {
+    "initial": [
+      "density",
+      "scheme"
+    ],
+    "conditional": [],
+    "ceiling": 5,
+    "conditional_ceiling": 3,
+    "content": [
+      "kind",
+      "value",
+      "label",
+      "body",
+      "attribution",
+      "source title",
+      "source URL",
+      "qualification"
+    ],
+    "cap": 3
+  },
+  "education_pair": {
+    "initial": [
+      "semantic mode",
+      "density",
+      "scheme"
+    ],
+    "conditional": [],
+    "ceiling": 5,
+    "conditional_ceiling": 3,
+    "shared_content": [
+      "heading",
+      "introduction",
+      "qualification",
+      "source title",
+      "source URL"
+    ],
+    "child_content": [
+      "criterion",
+      "left",
+      "right",
+      "qualification"
+    ],
+    "cap": 4
+  },
+  "education_process": {
+    "initial": [
+      "density",
+      "scheme"
+    ],
+    "conditional": [],
+    "ceiling": 5,
+    "conditional_ceiling": 3,
+    "shared_content": [
+      "heading",
+      "introduction",
+      "source title",
+      "source URL"
+    ],
+    "child_content": [
+      "heading",
+      "instruction",
+      "media",
+      "alt",
+      "qualification"
+    ],
+    "cap": 4
+  },
+  "collection_card": {
+    "initial": [
+      "Anchor Cadence/Standard Grid",
+      "automatic feature",
+      "optional story",
+      "density"
+    ],
+    "conditional": [],
+    "ceiling": 5,
+    "conditional_ceiling": 3,
+    "content": [
+      "title",
+      "description",
+      "story title",
+      "body",
+      "media",
+      "link label",
+      "destination"
+    ]
+  },
+  "cart": {
+    "initial": [
+      "cart page",
+      "item density",
+      "checkout emphasis",
+      "note visibility"
+    ],
+    "conditional": [
+      "plan identity",
+      "properties",
+      "explicit discounts"
+    ],
+    "ceiling": 5,
+    "conditional_ceiling": 3
+  },
+  "story": {
+    "initial": [
+      "bounded assembly",
+      "density",
+      "emphasis",
+      "action treatment"
+    ],
+    "conditional": [],
+    "ceiling": 6,
+    "conditional_ceiling": 3,
+    "content": [
+      "headline",
+      "body",
+      "media",
+      "canonical product references",
+      "link label",
+      "destination"
+    ]
+  },
+  "bindings": [
+    "manual",
+    "connected-shaped",
+    "disconnected omit/manual fallback"
+  ],
+  "shopper_controls": [
+    "options",
+    "quantity",
+    "plan",
+    "required properties",
+    "add",
+    "update",
+    "remove",
+    "note",
+    "native links"
+  ],
+  "harness_controls": [
+    "fixture",
+    "preset",
+    "text enlargement",
+    "composition"
+  ],
+  "status": "Bounded proof inventory; not a production editor or executed merchant task study. Fixed policies are counted as decisions even when not exposed. Shared globals counted once.",
+  "content_fields": {
+    "globals": [
+      "brand name",
+      "navigation labels/destinations"
+    ],
+    "media": [
+      "media identity/type/source/poster/alt/dimensions",
+      "product-owned media order"
+    ],
+    "purchase": [
+      "product ID",
+      "title/vendor",
+      "variant ID",
+      "option name/values/tuple",
+      "integer price/compare-at/unit price",
+      "availability",
+      "quantity rules",
+      "plan ID/terms",
+      "required-property names",
+      "pickup context",
+      "app guest content"
+    ],
+    "cart": [
+      "canonical line identity",
+      "variant/plan/properties",
+      "explicit line/order discount fixture amounts",
+      "note"
+    ],
+    "education_ordinary": [
+      "ingredients",
+      "specification labels/values",
+      "FAQ question/answer"
+    ],
+    "story": [
+      "headline",
+      "body",
+      "media/alt",
+      "product references",
+      "link label/destination"
+    ]
+  },
+  "batch_b_status": "Executed bounded black-box automation; not live Shopify or human usability certification.",
+  "batch_b_harness": {
+    "fields": {
+      "product": "canonical content reference",
+      "media": "content reference/omission",
+      "copy": "manual content",
+      "layout": "one existing bounded presentation decision",
+      "order": "semantic block order",
+      "binding": "manual/connected-shaped/disconnected state",
+      "scheme": "one inherited global role scheme",
+      "optional": "optional-content presence",
+      "assembly": "two supported semantic host orders"
+    },
+    "new_production_settings": 0,
+    "runtime_js": 0,
+    "shopper_controls_added": 0
+  }
+}

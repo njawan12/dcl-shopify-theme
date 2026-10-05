@@ -1,0 +1,87 @@
+# M1 final closure verdict
+
+2026-10-05. **M1 NOT PASS. One required proof remains: an actual JavaScript-disabled browser journey.** This is the final reconciliation, not a new exploration batch or production authorization.
+
+## Authority and reproducible evidence identity
+
+The controlling twelve requirements are `docs/m1-product-architecture-contract.md` §10, with conjunctive acceptance in §11 and post-M1 foundation/ADR boundary in §12. Also controlling: `docs/m1-signature-system.md`, `docs/engineering-compliance-standard.md`, prior `docs/m1-final-acceptance-reconciliation.md`, Batch A `contract.md` and `findings.md`. Historical pending-review text in preserved findings is superseded **only for the accepted scope** by the product/technical lead's Batch B instructions: B1 PASS, B3 PASS; Balanced commercial default; Editorial strongest signature; Compact structural PASS; cart structural PASS; story PASS. Production polish is deferred; no new visual cycle.
+
+|Key|Branch / exact immutable commit|Root / role|
+|---|---|---|
+|A|`m1-final-closure-batch-a` / `6dd6619d1fc2d3ea85824d06cb81881b1299a871`|`prototypes/m1-final-closure/batch-a/`; accepted assembled system, dataset, matrices, tests and frames|
+|B|`m1-final-closure-batch-b`; commit containing this document, parent exactly A above|`prototypes/m1-final-closure/batch-b/`; isolated closure artifacts. Final delivery reports the full resulting SHA; self-inclusion of that SHA is impossible without changing it. Resolve with `git log -1 --format=%H m1-final-closure-batch-b` and inspect this document's blob.|
+|ST|`m1-split-tension-prototype` / `3e1b34040899ec432c6d3e6733d6a85b68745b41`; implementation `873cfbb4a73c366bca0f9c259349a187c81da968`|`prototypes/living-canvas/split-tension/`, especially `second-pass-report.md`, `findings.md`, `tests/evidence/second-pass/`|
+|CM|`m1-commerce-mosaic-anchor-cadence` / `39bd22bfa717951e746dc2be0035a687348d53e8`; implementation `105ecdd2d6bd2de1bf0d9e31f0400648532a16fb`|`prototypes/commerce-mosaic/anchor-cadence/`; `README.md`, `findings.md`, fixture/matrix/neutral evidence|
+|ER|`m1-evidence-layer-evidence-rail` / `9395b42b0f0f3827eddf4ba9e00a2b329915fcb1`; implementation `06c34717b56a53a40bc8fc71e9ec4b26f4218439`|`prototypes/evidence-layer/evidence-rail/`; accepted findings, `app-host.liquid`, browser matrix and interaction evidence|
+|M0|`m0-live-market-evidence-2026-10-03` / `c92fc598a9016d75479b811b59c8fcd9275a1ea3`|Controlling M0 documentation lineage; current official rules revalidated in B rather than presumed current|
+
+Preservation: all455 parent-tracked files hash-identical; eight pre-existing branch refs unchanged against expected values (A appropriately pinned to its accepted6dd6619 commit). B `tests/evidence/preservation-before.json`, `preservation-after.json`, `closure-results.json`. Only the isolated B root and this new document are changed. No preserved implementation, CSS, fixture, evidence, foundation ADR or production file modified. Local commit only.
+
+## Exact twelve-item reconciliation
+
+Each PASS is bounded M1 architecture/product proof, not production compliance. Tests corroborate actual rendered/observed behavior; they do not independently award visual acceptance.
+
+|#|Required proof|Disposition|Exact evidence / acceptance / practical boundary|
+|---|---|---|---|
+|1|Three materially different PDPs from same system/data|**PASS**|A `render.py`, `model.py`, `tests/evidence/dataset-manifest.json` normalized same-data projection; `tests/evidence/browser-views.json`; branded/neutral `frames/{balanced,compact,editorial}-{1440,390}.jpg` and neutral pairs. Gallery/purchase grouping, media matrix/purchase band and focused media/narrative/purchase differ structurally. Human B1 PASS, all three accepted; no fourth composition.|
+|2|One coherent selected/synthesized direction|**PASS**|B `direction.md`; A `tokens.css`, `shared-tokens.json`, accepted story/PDP/cart pairs. Balanced default, Editorial signature, Compact bounded alternate, CM cadence+Standard Grid, ER, ST Guided. Existing human authority supports synthesis; held systems excluded.|
+|3|Desktop/mobile PDP, collection, card, cart, story|**PASS**|A `tests/evidence/screenshot-manifest.json`: PDP six branded/neutral pairs, `collection24-1440/390.jpg` with native cards, `cart-populated-1440/390.jpg`, `story-1440/390.jpg` and story neutral pairs; empty/error mobile cart. A264 fixture×width observations at320/375/390/430/768/1024/1280/1440. B1 human acceptance plus preserved CM card/collection approval. Full-theme ancillary surfaces later.|
+|4|Realistic Beauty dataset exposing catalog behavior|**PASS**|Human B3 PASS; A `dataset.json`, `tests/evidence/dataset-manifest.json`, `findings.md` §2;24 distinct Beauty+6 Jewelry,61 variants,40 media records, category-specific manual context, canonical card/cart/Guided projections; collections12/24 and100 explicitly repeated encounters. Fictional provenance,11 shared schematic assets, video/3D-shaped posters and gift/plan shapes are disclosed, not genuine demo-store licensing/platform behavior.|
+|5|Stripped whole-system originality comparison|**PASS**|B `direction.md`; actual observed public Vogue home/PDP/collection JSON and five1440/390 JPEGs; compared with existing A neutral PDP/story and accepted ST/CM/ER torture evidence. Internal object/sequence/attached-source/cadence relationships survive stripping; Balanced/cart stay conventional. Private incumbent code/editor capabilities UNTESTED. No Theme Store originality certificate.|
+|6|Control-budget audit|**PASS**|A `controls.json`; B complete `controls.json`, `merchant-findings.md`;37 initial policy decisions (10 global+27 local),8 conditional, all local ceilings respected. Content/bindings/shopper controls separate; Note/Pair/Process3/4/4 and Guided2–5 caps preserved. Fixed policies counted conservatively; not37 editable Shopify settings.|
+|7|Merchant-operability tasks|**PASS**|B preregistered `protocol.md`, bounded native-form `harness.py`, `capture-protocol.md`, `tests/evidence/merchant-tasks.json`: two isolated saved states,11/11 each,22/22 total, no source editing/help; rendered semantic checks in `closure-results.json`. Deterministic black-box automation with known labels/shared browser context; not independent human usability research. Explicitly permitted M1 proof mode. Real Theme Editor/merchant research later.|
+|8|App-block insertion test|**PASS**|ER `app-host.liquid`, `tests/evidence/browser-matrix.json`, `interactions.json`, guest fixtures and findings; A `frames/app-320.jpg`, app/repeated matrix. Absent/expected/awkward/tall/wide/reordered/removed guest behavior is observed. Generic architectural dispatch and contained normal-flow host, not installed-app execution. Controlling M1 asks insertion/resilience proof; live main/featured `@app`, embeds and editor lifecycle are production/integration gates. ER engineering remains NARROW.|
+|9|Developer-extension exercise|**PASS**|B exactly `extensions/purchase.py` +13/-0 and `extensions/story.py` +11/-0; `extension-findings.md`, `tests/extensions.py`, `extension-metrics.json`, `extensions-results.json`27/27. Same truth/canonical data/tokens; zero new settings/CSS/JS/state/global changes or existing-surface edits. Evidence only; no automatic promotion.|
+|10|Resilience-matrix review|**PARTIAL**|B `resilience.md` consolidates A/ST/CM/ER actual and modeled stress; B `reflow.json`10 observations, `text-resize-action.json`;320 reflow and200% text5/5 fit. Artificial64px-root-at320 is separate extra stress. `tests/js-off.cjs`/`js-disabled.json`: real Chromium and Firefox launch attempts fail before context creation,0 journey steps. **Required actual JS-disabled Guided→product→cart journey remains unexecuted.** No CSP/script-omission/init-failure substitute and no certification inferred.|
+|11|Current Shopify requirement traceability|**PASS**|B `shopify-register.md`:2026-10-05 official-source register,30 rows covering all21 requested categories; mapping/evidence/gap/owner/gate per row. B7 architecture traceability PASS; implemented compliance NOT TESTED. Current customer-account/Shop, Custom Liquid, font/color/metaobject/package obligations explicitly mapped. Foundation/ADR still unapproved.|
+|12|Explicit table-stakes versus differentiators|**PASS**|Inventory immediately below; B `direction.md`, A canonical tests and accepted ST/CM/ER findings distinguish ordinary education/commerce from surviving structural IP. Held systems neither promoted nor erased.|
+
+Totals: **11 PASS,1 PARTIAL,0 MISSING,0 DEFERRED** for the twelve proof items. Production subgates are deferred explicitly, not used to disguise an M1 missing proof.
+
+## Surviving system and table-stakes versus differentiators
+
+|System / capability|Classification|Disposition and evidence|
+|---|---|---|
+|Canonical product/variant prices, availability, unit/compare pricing, options, quantity, properties, cart/native product fallback|Table stakes|A `model.py`, server/native journey records; ST and CM money/state tests. Preserve conventional purchase clarity; platform execution later.|
+|Balanced PDP and cart; Standard Grid/native cards|Table stakes|Human accepted B1 structures and CM conventional fallback. Their existence is necessary commerce, not signature IP.|
+|Specifications, ingredients/nutrition facts, FAQ, ordinary instructions|Table stakes|A canonical education; individually ordinary content is not signature proof simply because numbered.|
+|Editor source bindings/app slots; localization/media/accessibility|Table stakes|Bounded seams/feasibility only, actual platform implementation/certification later.|
+|Editorial PDP media→narrative/attached proof beside shared purchase|Differentiating structural expression|A accepted branded/neutral desktop/mobile frames; stronger signature grouping than a cosmetic skin. Compact remains accepted bounded alternate, not a separate signature experiment.|
+|Split Tension / Guided Set|Differentiator; **PASS TO PRESERVE**|ST second-pass accepted proof:2–5 steps, ordinary object/editorial boundary, shopper inclusion, truthful variants/aggregate, failure/race/native fallback/isolation.|
+|Commerce Mosaic / Anchor Cadence|Differentiator; **PASS TO PRESERVE**|CM encounter/feature/lane/reset merchandising rhythm survives neutral and mobile; Standard Grid stays available as conventional expression.|
+|Evidence Rail|Differentiator; visual **PASS TO PRESERVE**, engineering **NARROW**|ER subject→typed attached evidence→qualification/source; Note/Pair/ordered Process across PDP/story; accepted comparison hierarchy; app integration and certifications unresolved.|
+|Shared semantic tokens and story assembly|Coherence mechanism|A propagation/order/neutral proof, B bounded control tasks. Not independently claimed as exclusive signature IP.|
+|Monument|Reference only; **NARROW AND HOLD**|`m1-monument-prototype`98a30d157f1cf152e609c74a60f6eb0246db736c, `prototypes/living-canvas/monument/findings.md`; structural/responsive/neutral accepted, signature differentiation insufficient. No rescue.|
+|Edge Crop|Reference only; **NARROW AND HOLD**|Human accepted disposition, prior reconciliation notes limited repository availability. No invented proof, implementation or upgraded verdict.|
+|Earlier attached Evidence Layer|Semantic reference only|`m1-evidence-layer-prototype`c48cd4ff9ba784bea1a1e91afbadfa8004f2bc1a; later Rail is the surviving direction. No combined mega-section.|
+|Quiet Frame / additional signatures / extra variants|Excluded|No authorization or evidence promotion.|
+
+## Batch B execution, counts and integrity
+
+B2 PASS; B4 PASS bounded automation; B5 PASS; B6 PARTIAL; B7 PASS architecture traceability. `README.md` is the complete local completion report; `changed-files.txt` the exact scope manifest. New tests:27 extension assertions and581 evidence/preservation validation assertions (455 file hashes and8 ref checks included),0 failures. One validator assertion corroborates the27-extension result; these are not608 independent behaviors.22 final UI task records and10 reflow/text observations are not a new full fixture-width matrix. A's264 normal-width matrix and40 JPEGs are reused unchanged, not claimed rerun. B adds7 viewport JPEGs (two UI states, five incumbent observations), no new signature frame.
+
+The JS-disabled runner genuinely requested engine contexts with `javaScriptEnabled:false` but engine launch failed: Chromium macOS Mach-port permission denied; Firefox SIGABRT; regular Chrome/alternate Node launch also unsuccessful and native Chrome Computer Use permission unavailable. Neither browser reached context creation. Zero executed steps, no JS-off screenshot, no PASS. Environment paths/errors are in the raw attempt log. This is a tooling blocker requiring one genuine execution, not evidence that the fallback fails.
+
+At320 CSS pixels all five relevant surfaces fit without ordinary two-dimensional scrolling. At200% text all five retain semantic headings and contained controls; cart native number inputs have internal editing scroll width, numeric values remain usable, and quantity2→3 submits. Actual native zoom and AT are untested; neither is silently certified. The artificial400%-root stress remains recorded historically and does not invalidate the corrected normative reflow interpretation.
+
+## Requirements already satisfied
+
+Items1–9,11–12 have bounded evidence and the necessary human visual authority; no accepted implementation is altered. B1/B3 remain PASS. B2 synthesis/comparison, B4 bounded operator tasks, B5 extensions and B7 current traceability now have executed or directly inspected evidence. The survival verdicts listed above remain exact, including every NARROW/HOLD distinction.
+
+## Exact remaining M1 blocker and smallest closing package
+
+Item10/B6 requires **one actual JavaScript-disabled Guided Set→native product→native cart browser journey**. Use the prepared `tests/js-off.cjs` in an environment that permits legitimate browser launch, or a documented genuine engine JS-disable control. Record running engine/version, context configuration, Guided native links, product navigation, native purchase POST/cart result and screenshot or equivalent observable artifact. If it fails, record the specific failure; do not grant PASS. No code/visual redesign, new composition, extra experiment or M2 is required to attempt this correction. No Batch C proposed.
+
+## Legitimately deferred M2+ implementation and later gates
+
+- Post-M1 ADR/foundation review/pinning; original-code/license provenance; actual Liquid/schema/JSON/section-group/theme-block/full-theme implementation and Theme Check/CLI/package. No authorization until M1 passes and ADR/entry gate is reconsidered.
+- Live Theme Editor usability/merchant discovery/comprehension, source connections/deletions/reloads, all block/editor lifecycle; genuine `@app` main/featured support, embeds/vendor interoperability and app payload/failure/accessibility.
+- Real Shopify commerce: cart atomicity/concurrency/idempotency, inventory, selling-plan pricing, allocations/discounts, line properties, checkout/payments/installments/Shop Pay, taxes/duties/shipping, gift issuance/recipient/redemption, pickup, Markets/currencies/country/language/account/Follow on Shop.
+- Real collections/facets/filter/search/predictive/recommendations/pagination, rich-media players/3D/zoom/swipe/variant media, CDN sizing/srcset/lazy and media-error behavior.
+- Genuine merchant catalog/claims/sources/measurement/certification/quote permissions/reviews/before-after provenance and licensed photographic demo content;24 fictional Beauty records prove M1 data capacity, not submission readiness. Theme never certifies merchant claims.
+- Full accessibility/AT/native zoom/high contrast/touch/keyboard/IME certification; full translations/locale parity/native-language RTL; supported browsers/devices/social webviews, notch/orientation/virtual keyboard and reduced-motion hardware setting validation.
+- Measured production performance/CWV/Lighthouse/low-end CPU/network/memory/cache and app-attributed costs; payload counts are not certification.
+- Production art direction (Compact/cart polish, Rail opening spacing/typography/comparison), scan/reading fatigue and real merchant studies. Accepted human M1 evidence needs no visual rescue.
+- Ancillary required templates/features, current official revalidation at implementation/submission, final Theme Store originality/design judgment, presets/default/demo consistency, exclusivity, release/support/docs/contact and actual submission package/review.
+
+M1 NOT PASS — execute one actual JavaScript-disabled Guided Set → native product → native cart browser journey.
