@@ -1,0 +1,39 @@
+{
+  "theme": {
+    "id": 185844367583,
+    "name": "m2a-live-gate-b8d1086",
+    "role": "development",
+    "shop": "dcl-theme-dev.myshopify.com",
+    "editor_url": "https://dcl-theme-dev.myshopify.com/admin/themes/185844367583/editor",
+    "preview_url": "https://dcl-theme-dev.myshopify.com?preview_theme_id=185844367583"
+  },
+  "store": "dcl-theme-dev.myshopify.com",
+  "uploaded_commit": "b8d10863e668d8660b8b509ff2416f52620a894a",
+  "branch": "m2-production-theme",
+  "cli_version": "4.8.4",
+  "date_checked": "2026-10-06",
+  "upload_command": "shopify theme push --path theme --store dcl-theme-dev.myshopify.com --development --unpublished --development-context m2a-live-gate-b8d1086 --strict --json",
+  "upload_exit_code": 0,
+  "theme_check_output": [],
+  "existing_theme_ids_not_targeted": [
+    185844072671,
+    185844007135,
+    185844039903
+  ],
+  "status": "NARROW_BLOCKED_BROWSER_AUTH",
+  "storefront_observation": "Preview redirects to password-protected storefront; no password supplied or protection changed.",
+  "editor_observation": "In-app browser redirects to Shopify login; no existing authenticated browser session available to automation.",
+  "native_chrome_observation": "ScreenCaptureKit user declined capture permission; session cannot be inspected.",
+  "functional_failure_observed": false,
+  "not_executed": [
+    "test catalog inventory",
+    "real storefront smoke matrix",
+    "JS-on/off product-cart journeys",
+    "Theme Editor lifecycle",
+    "real app insertion",
+    "Markets/localization",
+    "search/filtering",
+    "accessibility/reflow smoke",
+    "Lighthouse baseline"
+  ]
+}
