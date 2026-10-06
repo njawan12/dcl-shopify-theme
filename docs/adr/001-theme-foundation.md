@@ -1,95 +1,104 @@
-# ADR-001: Theme foundation
+# ADR-001: Production theme foundation
 
-- **Status:** Proposed, conditional M1A recommendation; not accepted for implementation until M0 closes, the live foundation facts are revalidated, and the remaining M1 gates pass
-- **Decision date:** 2 October 2026
-- **Decision owners:** Product and engineering
-- **Scope:** Select the eligible starting-code strategy for this product; this ADR does not authorize production theme work
-- **Repository evidence:** [`shopify-requirements.md`](../shopify-requirements.md), [`theme-architecture.md`](../theme-architecture.md), and [`engineering-compliance-standard.md`](../engineering-compliance-standard.md)
+- **Status:** Accepted; final post-M1 architecture decision.
+- **Decision/check date:** 2026-10-05.
+- **Decision owners:** Product and engineering; engineering owns implementation.
+- **Decision:** **B — fully original Shopify theme foundation.** No upstream theme source is imported or pinned for production.
+- **Accepted baseline:** M1 `da7da33153648575f53bcf088d32dd7bedc1ceea`, twelve requirements PASS; JS-OFF-01 Actions run `37381586532`.
+- **Companion controls:** [Official-source refresh](../post-m1-foundation-revalidation-2026-10-05.md), [M2 entry checklist](../m2-production-entry-checklist.md), [engineering standard](../engineering-compliance-standard.md), [performance budget](../performance-budget.md).
 
-## Context and decision drivers
+This replaces the 2 October conditional Skeleton recommendation. The decision is final for M2 entry, subject to the explicit revalidation triggers below. It authorizes a subsequent production implementation task; this change contains no production theme files. M1 remains closed and does not certify production Shopify compliance.
 
-The repository's verified requirements baseline records only two eligible routes for a new Theme Store submission: Shopify Skeleton Theme or fully original code. Dawn and Horizon are excluded. Shopify approval is neither claimed nor predictable; the final artifact must still satisfy the current requirements and demonstrate meaningful architectural and overall-experience originality.
+## Current official evidence
 
-This product is not trying to invent a novel product form, dialog, image pipeline, or focus trap. It is trying to make five recurring commercial jobs operable through a coherent composition system: intent-led starts, surface-specific narrative behavior, strong zero-setup defaults, optional structured enhancement, and bounded merchant decisions. The foundation should preserve engineering effort for that product-level innovation while keeping provenance legible.
+Shopify permits Skeleton or fully original starting foundations; new Dawn/Horizon-derived submissions are excluded. Originality is evaluated structurally across the experience, not established by authorship alone. Checked **2026-10-05**, [Theme Store uniqueness requirements](https://shopify.dev/docs/storefronts/themes/store/requirements#2-uniqueness-from-other-themes).
 
-## Considered options
+The [official Skeleton repository](https://github.com/Shopify/skeleton-theme) is active, not archived. Both current main and the latest published stable release were considered. These identities are audit references, **not production pins**:
 
-### A. Shopify Skeleton Theme
+| Candidate | Exact inspected identity | Finding and disposition |
+|---|---|---|
+| Current `main` | `a7a655e79b21e68316c228dc7e437b0b32550888`, committed 2026-10-01 | [Pinned README](https://github.com/Shopify/skeleton-theme/blob/a7a655e79b21e68316c228dc7e437b0b32550888/README.md) describes direct block composition without JSON templates/sections and feature-gated partial rendering. Unsuitable for our generally available section/editor build. Excluded without declaring all Skeleton ineligible. |
+| Latest published stable `v1.0.0` | `8b8a1f4d2ef437d4d60df7a9cc4770f85a2f1b76`, published 2025-05-20; latest stable on check date | [Release](https://github.com/Shopify/skeleton-theme/releases/tag/v1.0.0), [pinned tree](https://github.com/Shopify/skeleton-theme/tree/8b8a1f4d2ef437d4d60df7a9cc4770f85a2f1b76). Conventional JSON/section-group scaffold makes this a credible eligible alternative. Its small reusable shell does not justify adopting and replacing its product-system scaffolding here. |
 
-Use the current official Skeleton Theme as a minimal starting repository, pin the exact upstream commit and license, retain attribution, inventory every inherited file, and replace or extend it only through recorded decisions. “Skeleton” is a code foundation, not the product architecture, visual reference, section catalog, or permission to inherit future changes blindly.
+Official source status is not assurance that a snapshot satisfies every submission rule as shipped. Approval of a foundation does not waive the [public theme architecture](https://shopify.dev/docs/storefronts/themes/architecture). Current main's changed dialect and stable's conventional scaffold are treated separately.
 
-### B. Fully original theme code
+Stable inspection covered its **53-file path manifest** and decision-bearing layout, image, metadata, font-variable, CSS, group/text block, header, product, cart, schema, locale, template/group, license and CI files. This was targeted source review, not executed storefront certification:
 
-Create every distributable theme file from an empty repository using official platform contracts and documentation. Conventional behaviors may follow published standards, but no third-party theme implementation is copied. A clean-room provenance log still records authorship, references, and licenses.
+- `sections/product.liquid` provides a basic native form/variant select, not a product block/app architecture, selling-plan system or complete accessible labeled purchase/state treatment.
+- `sections/cart.liquid` supplies basic update/checkout plumbing, not the accepted line-identity, allocation/plan/discount contract.
+- `sections/header.liquid` is starter navigation/account-link markup, not the current account-component/responsive/editor implementation.
+- `blocks/group.liquid` exposes layout direction/alignment/padding and general theme blocks: a broader composition model than our shallow semantic controls.
+- Layout, image/font/metadata snippets and critical CSS are useful references but need our landmarks, tokens, media policy, translations, truth and lifecycle checks. No complete reusable focus/interaction system was established.
 
-## Comparative assessment
+The previous ADR overstated Skeleton's provision of solved dialogs, focus traps and commerce correctness. That premise is not used for this decision.
 
-Ratings are relative for this product: **advantage**, **neutral**, or **disadvantage**. Eligibility is binary only after current rules are revalidated.
+## Actual alternative comparison
 
-| Driver | Skeleton Theme | Fully original code | Product-specific conclusion |
-|---|---|---|---|
-| Theme Store eligibility | Eligible in the verified 2026-10-02 baseline; revalidate before M2 and submission | Eligible in the same baseline; revalidate before M2 and submission | Neutral. Neither route earns approval. |
-| Architectural originality | Neutral if kept as a thin primitive layer; disadvantage if its composition is treated as a template | Superficial advantage only; novel file authorship does not prove a different experience | Originality must reside above the foundation in the composition contracts and workflows. |
-| Provenance risk | **Advantage** when exact upstream commit, license, inherited-file inventory, and diff are retained; risk rises if upstream code is mixed without records | **Advantage** for ownership, but clean-room drift and accidental copying remain possible | Both need provenance controls; Skeleton has a more auditable starting boundary. |
-| Implementation speed | **Advantage** for initial platform wiring and solved primitives | **Disadvantage** because baseline contracts and test fixtures must be created before differentiated work | Skeleton protects M1/M2 effort for the novel system. |
-| Accessibility baseline | Modest **advantage**, subject to audit; no inherited behavior is presumed conformant | **Disadvantage** initially; all interaction semantics start unproven | Reusing a minimal official baseline is rational, but WCAG 2.2 AA remains DCL's gate. |
-| Performance baseline | Modest **advantage** from minimal scope, subject to measurement | Potential advantage only if discipline survives; also higher regression risk | Neither route is accepted without the internal budgets and realistic fixtures. |
-| Shopify-native correctness | **Advantage** as a current official reference, subject to version and requirement drift | **Disadvantage** during startup; every contract must be reconstructed and verified | This is the strongest reason to use Skeleton. |
-| Long-term maintainability | **Advantage** if inherited scope stays small and DCL owns a documented boundary | Mixed: full ownership, but a larger bespoke primitive/test surface | Skeleton reduces undifferentiated maintenance without outsourcing ownership. |
-| Upgrade burden | Periodic upstream review, never blind merges; **neutral** | No upstream merge, but all platform changes are DCL's burden; **neutral/disadvantage** | Pinning avoids an implicit update channel; both require active platform maintenance. |
-| Merchant-operability architecture | No inherent advantage; must be built and tested by DCL | No inherent advantage | The layer above either foundation determines this. |
-| Intent-led workflows | No inherent advantage; Skeleton must not dictate composition | No inherent advantage | Native templates, presets, sections, and blocks remain the mechanism. |
-| Distinctive overall experience | Possible only if the M1 architecture and prototype pass the stripping test | Possible, but original source alone offers no shopper-visible difference | Fully original code would be originality theatre unless the system also differs. |
-| Support burden | Lower initial primitive burden; inherited code must be understood and owned | Higher baseline support and regression surface | Skeleton is preferable for a support-constrained product. |
-| Testing burden | Still substantial, but starts from a smaller known reference | Highest: both primitives and product systems need first-principles coverage | Skeleton does not waive any test; it reduces the number of novel claims. |
-| Accidental convergence with existing Theme Store themes | Risk if Skeleton defaults survive into shipped composition | Risk through familiar patterns and competitor observation despite original authorship | Anti-convergence controls and comparison evidence matter more than authorship route. |
+These are product-specific judgments, not measured implementation-speed or production-performance comparisons.
 
-## Conditional recommendation
+| Driver | Pinned stable Skeleton | Fully original — selected |
+|---|---|---|
+| Theme Store eligibility | Approved foundation route; submission still needs validation | Approved route; maintain authorship/provenance evidence |
+| Originality risk | Manageable ceiling, but starter groups/tokens/compositions need removal | No starter composition inheritance; convergence remains a review risk |
+| Speed | Small shell advantage; no demonstrated turnkey commerce/accessibility system | Author shell once; avoid import/remove/rewrite reconciliation. Full commerce work required either way |
+| Maintainability | Pin/diff/retained-file ownership and selective upstream review | One owned implementation and explicit public-platform updates |
+| Merchant editor | Useful stable groups, but generic grouping/product schema must change | Bounded section-local semantic blocks and reusable snippets |
+| Accessibility | Native starter markup is not certification; inspected forms need work | Semantic baseline authored/tested from first commit; AT/zoom still mandatory |
+| Performance | Minimal starter, no demonstrated production advantage | Route-scoped assets and internal budgets; real measurements still required |
+| App compatibility | Add/test real hosts and lifecycle | Same work with deliberate generic guest boundary |
+| Future Shopify compatibility | Official source useful; main shows automatic upgrades are inappropriate | Supported public APIs/changelog review; engineering owns compatibility patches |
+| Inherited support burden | Every retained file needs support, license and source lineage | Own theme directly; separately track dependencies/platform components |
 
-**Conditionally prefer Shopify Skeleton Theme as a pinned, audited primitive foundation, subject to M0 closure, the remaining M1 evidence, and live eligibility and license revalidation immediately before M2.**
+**Rejected alternative:** stable Skeleton is a viable route, but we would discard its grouping/settings/token model, header, purchase/cart sections, compositions and demo content, then materially edit the remaining helpers. The limited shell benefit does not offset inheritance reconciliation. This does not claim Skeleton is universally unsuitable, licensing prohibits our Shopify use, or freshly authored files alone prove IP.
 
-This is a recommendation for this product, not a general preference. Its value is the opportunity cost it avoids: rebuilding solved Shopify plumbing would consume accessibility, commerce-correctness, and testing capacity without strengthening the merchant promise. Fully original code would be justified if Skeleton proves legally or technically ineligible, materially violates the performance/accessibility architecture, or imposes composition assumptions that cannot be removed cleanly. None of those contradictions is established in the repository baseline.
+## License and provenance
 
-The recommendation is deliberately conditional on an **inheritance ceiling**:
+The actual [stable license](https://github.com/Shopify/skeleton-theme/blob/8b8a1f4d2ef437d4d60df7a9cc4770f85a2f1b76/LICENSE.md) and [main license](https://github.com/Shopify/skeleton-theme/blob/a7a655e79b21e68316c228dc7e437b0b32550888/LICENSE.md) is **Shopify-restricted MIT-style, not unmodified SPDX MIT**. Its grant restricts use to Shopify-interoperating themes and applicable Theme Store distribution, and requires retaining notices for copies/substantial portions. Both inspected license blobs have SHA-256 `7d691a206443039bb3737836c6843bca19b82d8d942db285357e4d7d97b9fe89`. GitHub identifies `Other` / `NOASSERTION`; the README badge is not the complete license.
 
-1. Before production work, record the official repository URL, exact commit, retrieval date, license text, and cryptographic archive/commit identifier.
-2. Produce an inherited-file inventory classifying each file as retain, rewrite, or remove, with rationale. No file survives merely because it came from Shopify.
-3. Keep inherited code below the product-system boundary: platform shell and conventional primitives only. Do not inherit page composition, preset storytelling, merchant terminology, design tokens, visual direction, or section catalog as product decisions.
-4. Never merge upstream wholesale. Review platform changes as explicit, tested patches.
-5. Maintain authorship and third-party notices plus a provenance ledger for every later dependency, reference, and generated asset.
-6. Run the same accessibility, performance, commerce, editor-lifecycle, app, localization, and originality gates as fully original code.
-7. If the M1 prototype cannot demonstrate a distinctive stripped system, stop or redesign; switching to fully original code does not cure that failure.
+The intended Shopify-only use fits the stated purpose, so license eligibility is not our rejection reason. No Skeleton source/assets are adopted; **no inherited Skeleton license or production source pin applies**. Later dependencies/media/examples still require provenance review.
 
-## Rejected rationale
+Production ledger: author, path, source, exact version if applicable, license/notices and modifications. No Dawn/Horizon/competitor theme implementation may be copied or ported. Official API names/protocols and platform-rendered controls are public interfaces, not inherited theme systems. M1 schematic fixtures/media are proof content, not automatically cleared production demo assets. Clear rights/truth before reuse. Required notices must remain correct in supported packaging; notices are distinct from developer promotional credits.
 
-- **“Fully original sounds more original.”** Rejected. Source authorship is not evidence of functional or experiential innovation.
-- **“Skeleton is faster.”** Insufficient by itself. It wins because speed is concentrated in conventional platform foundations and frees capacity for the differentiating system, with a controllable inheritance boundary.
-- **“Official starter means compliant.”** Rejected. Every inherited behavior and all current Shopify rules require validation.
-- **“Different section ordering proves originality.”** Rejected by the M1 blocking gate and the verified requirements baseline.
+## Inherited versus original boundary
 
-## Consequences
+| Layer | Production boundary |
+|---|---|
+| Skeleton/Dawn/Horizon theme files, assets, styles, scripts, presets, locales, grouping | **None inherited.** Skeleton SHAs are reference-only; no import or upstream merge. |
+| Shopify-hosted services/branded controls | Consume supported Liquid objects/forms/routes, media/CDN, account/checkout/Shop controls, editor dispatch and APIs. Shopify owns generated internals. |
+| Production shell/tokens/snippets/sections/block schemas/templates/locales/enhancement | Original repository implementation with authorship/tests. No framework or runtime layout dependency. |
+| Accepted M1 systems | Preserve semantics, composition contracts, caps and relationships; adapt to real Liquid/resource/editor lifecycles. Do not ship Python proof servers/mock transports/schematic catalog/test app UI. |
+| Tools/future dependencies | Separate versions/licenses/notice ledger; tools are not a theme foundation. No indirect theme-source inheritance through libraries. |
 
-### Positive
+## Architectural consequences
 
-- DCL can invest prototype and implementation effort in narrative composition, merchant decision reduction, cross-surface continuity, and robust defaults.
-- Platform primitives begin from a minimal official reference rather than competitor code.
-- The pinned boundary makes provenance and later upstream review auditable.
+When M2 is separately executed, use a distinct `theme/` root in this repository and package only supported theme directories. Keep docs, tests, CI, provenance tooling and preserved prototypes outside the ZIP. JSON resource templates and header/footer groups are the composition spine. Use generally supported storefront Liquid, not main-Skeleton experimental block-call syntax, gated partials or agentic-editor dependencies.
 
-### Negative and mitigations
+Platform product/variant/line data → shared semantic snippets → bounded editor blocks/sections → JSON compositions → shared tokens. Main/featured product hosts use **section-local semantic blocks plus `@app`**, with snippets for reusable purchase/evidence markup. Do not mix section-local and theme blocks within a host. No generic recursive grouping builder. Theme blocks can be added only through a later justified reuse decision that preserves control budgets; platform availability does not mandate a universal builder. Most main product elements must be separately operable blocks. Custom Liquid is a platform insertion capability, not a new branded positioning control.
 
-- **Convergence:** residual starter decisions could make the result generic. Mitigate by removing starter composition/presentation decisions and running the stripped-system comparison before M2 and at every implementation review.
-- **False confidence:** official origin may be mistaken for compliance. Mitigate with requirement traceability and independent audits.
-- **Upstream burden:** Shopify changes will not flow automatically. Mitigate with scheduled review and selective patches.
-- **Knowledge gap:** inherited code still becomes DCL's support responsibility. Mitigate with file-level ownership and tests before retention.
+Native product/cart pages and forms are baseline. Enhancements share canonical truth and instance-owned state; CSS composes one semantic source. JS requires an interaction reason, native fallback and editor cleanup. Optional app content uses genuine app dispatch and normal-flow containment, not imitation reviews or vendor dependencies.
 
-## External revalidation required
+### Accepted-system preservation
 
-Live documentation was not used for this ADR; it relies on the repository's verified 2 October 2026 baseline. Before M2, verify from official Shopify sources:
+| System | Production invariant |
+|---|---|
+| Balanced PDP | Commercial default; familiar gallery/purchase hierarchy, same product/variant contract as alternatives. |
+| Compact PDP | Bounded media matrix/purchase band; no second commerce engine or new setting vocabulary. |
+| Editorial PDP | Signature media/narrative/attached-proof relationship; clear shared purchase path and semantic mobile order. |
+| Commerce Mosaic / Anchor Cadence | Encounter/feature/lane/reset rhythm; ordinary media, truthful cards, predictable mobile scanning. No extra variants. |
+| Standard Grid | Conventional collection fallback with same cards/data/filters; table stakes. |
+| Evidence Rail | Note, Pair, ordered Process; subject → attached proof → qualification/source across PDP/editorial. One remaining process step stays ordered. No credibility assessment or invented evidence. |
+| Split Tension / Guided Set | Two–five steps, explicit inclusion, truthful variants, independent product lines; aggregate invents no bundle/discount. Preserve unresolved/error/race/native fallback/isolation contracts. |
+| Commerce truth | One native identity across cards/PDPs/Guided/cart; server-authoritative plans/prices/availability/allocations. No fabricated activity, reviews or proof. |
+| Merchant controls | Accepted local ceilings/item caps; separate presentation/content/binding/shopper inputs. No coordinates/raw-CSS controls/per-device builder/vertical forks. |
 
-1. Skeleton Theme and fully original code remain the only eligible foundation routes, and Dawn/Horizon remain excluded for the intended submission class.
-2. The current Skeleton repository, license, supported status, intended usage, and exact branch/tag/commit.
-3. Current Theme Store submission eligibility, exclusivity, review process, fees, packaging, supported directories, required templates, and schema limits.
-4. Current theme-block nesting/support and `@app` block requirements by surface.
-5. Current browser, localization/translation, accessibility, and performance measurement requirements.
+Proof identities/control budgets: [M1 final closure](../m1-final-closure-verdict.md), Batch B `direction.md` / `controls.json`, accepted prototype contracts/findings. Split Tension and Commerce Mosaic remain **PASS TO PRESERVE**. Evidence Rail remains **visual PASS TO PRESERVE / engineering NARROW**; integration requires its own evidence. Monument and Edge Crop remain **NARROW AND HOLD**, reference-only, excluded from implementation authorization.
 
-Any contradiction blocks implementation and reopens ADR-001. Approval remains a Shopify decision.
+## Revalidation and remaining gates
+
+Reopen ADR-001 for a changed foundation policy, adoption of theme-source code, supported-platform incompatibility requiring a different foundation, or inability to implement accepted contracts within control/performance architecture. A new Skeleton release does not silently change this decision. Review relevant official requirements at feature milestones and all rules before submission; record date, impact, owner/action.
+
+Live Theme Editor/apps/embeds/dynamic sources/plans/cart/Markets, genuine merchant content/provenance/usability, AT/zoom/RTL, cross-browser/touch, measured performance and full-theme/submission integration remain unexecuted production gates. They are not reopened M1 blockers. Infrastructure unavailable means BLOCKED, never PASS. Apply engineering §15 preflight before production code.
+
+**Unresolved foundation blocker: none.** The [M2 checklist](../m2-production-entry-checklist.md) defines first-commit, incremental and submission obligations.
+
+**M2 AUTHORIZED — BEGIN PRODUCTION THEME IMPLEMENTATION**
