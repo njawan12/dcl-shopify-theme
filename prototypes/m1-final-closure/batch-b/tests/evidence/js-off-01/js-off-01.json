@@ -1,0 +1,253 @@
+{
+  "test": "JS-OFF-01",
+  "date": "2026-10-05T22:18:52.576Z",
+  "commit": "643e007afb6861f73e8276d6a338d0f8809fffdc",
+  "runURL": "https://github.com/njawan12/dcl-shopify-theme/actions/runs/37381586532",
+  "startURL": "http://127.0.0.1:3005/guided?fixture=beauty",
+  "contextConfiguration": {
+    "javaScriptEnabled": false,
+    "viewport": {
+      "width": 390,
+      "height": 900
+    }
+  },
+  "expected": {
+    "product": "daily-cleanser",
+    "title": "Daily cleansing milk",
+    "variant": "daily-cleanser-v1",
+    "quantity": 2,
+    "unitPrice": "CAD 24.00",
+    "linePrice": "CAD 48.00",
+    "lineKey": "b49262fe6797dab1"
+  },
+  "plannedSteps": [
+    "Open actual Guided route",
+    "Confirm visible native fallback",
+    "Confirm aggregate controls absent/inert",
+    "Confirm ordinary real product link",
+    "Activate link through browser",
+    "Assert canonical product/variant and native purchase form",
+    "Fill quantity and submit native form",
+    "Assert resulting cart product/variant/quantity/price",
+    "Check page overflow and critical-action accessibility at each route"
+  ],
+  "attempts": [
+    {
+      "engine": "Chromium",
+      "version": "151.0.7922.34",
+      "launch": {
+        "headless": true,
+        "timeout": 30000
+      },
+      "contextConfiguration": {
+        "javaScriptEnabled": false,
+        "viewport": {
+          "width": 390,
+          "height": 900
+        }
+      },
+      "contextCreated": true,
+      "steps": [
+        {
+          "step": "1 actual Guided route",
+          "assertions": {
+            "actualRoute": true
+          },
+          "observations": {
+            "url": "http://127.0.0.1:3005/guided?fixture=beauty"
+          },
+          "pass": true
+        },
+        {
+          "step": "2 usable server/native fallback",
+          "assertions": {
+            "notice": true,
+            "products": true,
+            "expectedProduct": true
+          },
+          "observations": {
+            "nativeText": "Browser JavaScript is disabled. Discover products using the native links; no aggregate action is offered."
+          },
+          "pass": true
+        },
+        {
+          "step": "3 enhancement-dependent aggregate absent",
+          "assertions": {
+            "aggregateAbsent": true,
+            "originalModuleStillPresent": true
+          },
+          "observations": {
+            "aggregateCount": 0
+          },
+          "pass": true
+        },
+        {
+          "step": "4 real navigable product link and Guided fit",
+          "assertions": {
+            "href": true,
+            "visible": true,
+            "fit": true,
+            "critical": true
+          },
+          "observations": {
+            "href": "/products/daily-cleanser",
+            "geometry": {
+              "url": "http://127.0.0.1:3005/guided?fixture=beauty",
+              "width": 390,
+              "scrollWidth": 390,
+              "criticalVisible": true,
+              "criticalEnabled": true,
+              "criticalBox": {
+                "x": 72,
+                "y": 427.796875,
+                "width": 96.78125,
+                "height": 44
+              },
+              "criticalContained": true
+            }
+          },
+          "pass": true
+        },
+        {
+          "step": "5 native link navigation",
+          "assertions": {
+            "destination": true
+          },
+          "observations": {
+            "url": "http://127.0.0.1:3005/products/daily-cleanser"
+          },
+          "pass": true
+        },
+        {
+          "step": "6 canonical product and native purchase",
+          "assertions": {
+            "product": true,
+            "variant": true,
+            "title": true,
+            "price": true,
+            "method": true,
+            "action": true,
+            "enabled": true,
+            "fit": true,
+            "critical": true
+          },
+          "observations": {
+            "url": "http://127.0.0.1:3005/products/daily-cleanser",
+            "product": "daily-cleanser",
+            "variant": "daily-cleanser-v1",
+            "price": "CAD 24.00",
+            "geometry": {
+              "url": "http://127.0.0.1:3005/products/daily-cleanser",
+              "width": 390,
+              "scrollWidth": 390,
+              "criticalVisible": true,
+              "criticalEnabled": true,
+              "criticalBox": {
+                "x": 16,
+                "y": 423.734375,
+                "width": 358,
+                "height": 53
+              },
+              "criticalContained": true
+            }
+          },
+          "pass": true
+        },
+        {
+          "step": "7 native HTML purchase POST",
+          "assertions": {
+            "actionRoute": true,
+            "browserPOST": true,
+            "product": true,
+            "variant": true,
+            "quantity": true
+          },
+          "observations": {
+            "url": "http://127.0.0.1:3005/action",
+            "nativePost": {
+              "method": "POST",
+              "url": "http://127.0.0.1:3005/action",
+              "postData": "action=add&product=daily-cleanser&variant=daily-cleanser-v1&quantity=2"
+            }
+          },
+          "pass": true
+        },
+        {
+          "step": "8 canonical cart identity",
+          "assertions": {
+            "oneLine": true,
+            "title": true,
+            "variantIdentity": true,
+            "singleVariant": true,
+            "quantity": true,
+            "unitPrice": true,
+            "linePrice": true
+          },
+          "observations": {
+            "url": "http://127.0.0.1:3005/action",
+            "lineKey": "b49262fe6797dab1",
+            "quantity": "2",
+            "lineText": "Daily cleansing milk\n\nVariant: Single variant\n\nCAD 24.00 per item\n\nCAD 48.00 / 100 ml\n\nPurchase plan: One-time\n\nQuantity for Daily cleansing milk\nUpdate quantity\nSimulate failed update\nRemove Daily cleansing milk\nCAD 48.00"
+          },
+          "pass": true
+        },
+        {
+          "step": "9 cart fit and script observations",
+          "assertions": {
+            "fit": true,
+            "critical": true
+          },
+          "observations": {
+            "geometry": {
+              "url": "http://127.0.0.1:3005/action",
+              "width": 390,
+              "scrollWidth": 390,
+              "criticalVisible": true,
+              "criticalEnabled": true,
+              "criticalBox": {
+                "x": 216,
+                "y": 609.703125,
+                "width": 154.109375,
+                "height": 44
+              },
+              "criticalContained": true
+            },
+            "console": [],
+            "pageErrors": [],
+            "scriptRequests": [],
+            "inspection": "Only read-only automation DOM/geometry inspection; no init script, DOM injection, routing interception, CSP or script removal."
+          },
+          "pass": true
+        }
+      ],
+      "screenshots": [
+        "guided-390.jpg",
+        "product-390.jpg",
+        "cart-390.jpg"
+      ],
+      "console": [],
+      "pageErrors": [],
+      "scriptRequests": [],
+      "documentRequests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:3005/guided?fixture=beauty",
+          "postData": null
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:3005/products/daily-cleanser",
+          "postData": null
+        },
+        {
+          "method": "POST",
+          "url": "http://127.0.0.1:3005/action",
+          "postData": "action=add&product=daily-cleanser&variant=daily-cleanser-v1&quantity=2"
+        }
+      ],
+      "status": "PASS",
+      "authorJavaScriptExecuted": "NO AUTHOR EXECUTION OBSERVED — context JavaScript disabled; native noscript visible, enhancements absent."
+    }
+  ],
+  "verdict": "PASS"
+}

@@ -1,0 +1,144 @@
+{
+  "conclusion": "success",
+  "databaseId": 37381586532,
+  "headSha": "643e007afb6861f73e8276d6a338d0f8809fffdc",
+  "jobs": [
+    {
+      "completedAt": "2026-10-05T22:18:59Z",
+      "conclusion": "success",
+      "databaseId": 112004646915,
+      "name": "js-off-01",
+      "startedAt": "2026-10-05T22:18:18Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-05T22:18:20Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-05T22:18:19Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-05T22:18:23Z",
+          "conclusion": "success",
+          "name": "Run actions/checkout@v6",
+          "number": 2,
+          "startedAt": "2026-10-05T22:18:20Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-05T22:18:27Z",
+          "conclusion": "success",
+          "name": "Run actions/setup-node@v6",
+          "number": 3,
+          "startedAt": "2026-10-05T22:18:23Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-05T22:18:29Z",
+          "conclusion": "success",
+          "name": "Install pinned test dependency",
+          "number": 4,
+          "startedAt": "2026-10-05T22:18:27Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-05T22:18:51Z",
+          "conclusion": "success",
+          "name": "Install Chromium headless shell and Linux dependencies",
+          "number": 5,
+          "startedAt": "2026-10-05T22:18:29Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-05T22:18:54Z",
+          "conclusion": "success",
+          "name": "Execute JS-OFF-01",
+          "number": 6,
+          "startedAt": "2026-10-05T22:18:51Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-05T22:18:55Z",
+          "conclusion": "success",
+          "name": "Upload JS-OFF-01 evidence",
+          "number": 7,
+          "startedAt": "2026-10-05T22:18:54Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-05T22:18:57Z",
+          "conclusion": "success",
+          "name": "Post Run actions/setup-node@v6",
+          "number": 13,
+          "startedAt": "2026-10-05T22:18:55Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-05T22:18:57Z",
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@v6",
+          "number": 14,
+          "startedAt": "2026-10-05T22:18:57Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-05T22:18:57Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 15,
+          "startedAt": "2026-10-05T22:18:57Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/njawan12/dcl-shopify-theme/actions/runs/37381586532/job/112004646915"
+    }
+  ],
+  "status": "completed",
+  "url": "https://github.com/njawan12/dcl-shopify-theme/actions/runs/37381586532",
+  "workflowName": ".github/workflows/m1-js-off-01.yml",
+  "artifact": {
+    "id": 11375285886,
+    "name": "m1-js-off-01-643e007afb6861f73e8276d6a338d0f8809fffdc",
+    "url": "https://github.com/njawan12/dcl-shopify-theme/actions/runs/37381586532/artifacts/11375285886",
+    "archive_digest_reported_by_github": "sha256:6a473ac33a23ae04cb74374d51bea4b5ae4a976e89dbcbda7c94d4c74e35383c",
+    "retention_days": 30,
+    "local_directory": "prototypes/m1-final-closure/batch-b/tests/evidence/js-off-01/"
+  },
+  "resolved_setup_failure": {
+    "run_id": 37381409451,
+    "url": "https://github.com/njawan12/dcl-shopify-theme/actions/runs/37381409451",
+    "error": "(Line: 19, Col: 28): Unrecognized named-value: 'runner'. Located at position 1 within expression: runner.temp",
+    "resolution": "Move JS_OFF_EVIDENCE_DIR to execution-step env; no test or prototype change."
+  },
+  "screenshots": [
+    {
+      "path": "cart-390.jpg",
+      "dimensions": [
+        390,
+        1700
+      ],
+      "bytes": 83041,
+      "sha256": "ee41ef8a1eb54e97afc4d3dee683205e9e66bb03e1eb367af8c3136ba29193cb"
+    },
+    {
+      "path": "guided-390.jpg",
+      "dimensions": [
+        390,
+        2240
+      ],
+      "bytes": 74352,
+      "sha256": "e923e4eb96f02c300812a62d0bc4c9f522bdebb3744d5339f8d86c66c4a7a2ed"
+    },
+    {
+      "path": "product-390.jpg",
+      "dimensions": [
+        390,
+        4372
+      ],
+      "bytes": 175311,
+      "sha256": "f3e9da386efe10da9717abc3feac198d465e9ede7ffc2cc7c17d56779fbdf0c6"
+    }
+  ]
+}
