@@ -1,0 +1,782 @@
+production-foundation	Set up job	﻿2026-10-06T18:19:16.5995515Z Current runner version: '2.337.0'
+production-foundation	Set up job	2026-10-06T18:19:16.6025817Z ##[group]Runner Image Provisioner
+production-foundation	Set up job	2026-10-06T18:19:16.6026808Z Hosted Compute Agent
+production-foundation	Set up job	2026-10-06T18:19:16.6027404Z Version: 20260901.588
+production-foundation	Set up job	2026-10-06T18:19:16.6028102Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+production-foundation	Set up job	2026-10-06T18:19:16.6028879Z Build Date: 2026-09-01T19:56:44Z
+production-foundation	Set up job	2026-10-06T18:19:16.6029541Z Worker ID: {383b4d11-04b1-422d-a035-5b3ca73fdfd4}
+production-foundation	Set up job	2026-10-06T18:19:16.6030343Z Azure Region: eastus
+production-foundation	Set up job	2026-10-06T18:19:16.6031182Z ##[endgroup]
+production-foundation	Set up job	2026-10-06T18:19:16.6033224Z ##[group]Operating System
+production-foundation	Set up job	2026-10-06T18:19:16.6033906Z Ubuntu
+production-foundation	Set up job	2026-10-06T18:19:16.6034406Z 24.04.5
+production-foundation	Set up job	2026-10-06T18:19:16.6035017Z LTS
+production-foundation	Set up job	2026-10-06T18:19:16.6035529Z ##[endgroup]
+production-foundation	Set up job	2026-10-06T18:19:16.6036120Z ##[group]Runner Image
+production-foundation	Set up job	2026-10-06T18:19:16.6036737Z Image: ubuntu-24.04
+production-foundation	Set up job	2026-10-06T18:19:16.6037302Z Version: 20260927.320.1
+production-foundation	Set up job	2026-10-06T18:19:16.6038836Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+production-foundation	Set up job	2026-10-06T18:19:16.6040875Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+production-foundation	Set up job	2026-10-06T18:19:16.6041961Z ##[endgroup]
+production-foundation	Set up job	2026-10-06T18:19:16.6043186Z ##[group]GITHUB_TOKEN Permissions
+production-foundation	Set up job	2026-10-06T18:19:16.6045838Z Contents: read
+production-foundation	Set up job	2026-10-06T18:19:16.6046481Z Metadata: read
+production-foundation	Set up job	2026-10-06T18:19:16.6047235Z ##[endgroup]
+production-foundation	Set up job	2026-10-06T18:19:16.6049474Z Secret source: Actions
+production-foundation	Set up job	2026-10-06T18:19:16.6051059Z Cache mode: write
+production-foundation	Set up job	2026-10-06T18:19:16.6052175Z Prepare workflow directory
+production-foundation	Set up job	2026-10-06T18:19:16.6679086Z Prepare all required actions
+production-foundation	Set up job	2026-10-06T18:19:16.6753843Z Getting action download info
+production-foundation	Set up job	2026-10-06T18:19:16.9238953Z Download action repository 'actions/checkout@v6' (SHA:d23441a48e516b6c34aea4fa41551a30e30af803)
+production-foundation	Set up job	2026-10-06T18:19:17.0706586Z Download action repository 'actions/setup-node@v6' (SHA:249970729cb0ef3589644e2896645e5dc5ba9c38)
+production-foundation	Set up job	2026-10-06T18:19:17.2092428Z Download action repository 'actions/upload-artifact@v5' (SHA:330a01c490aca151604b8cf639adc76d48f6c5d4)
+production-foundation	Set up job	2026-10-06T18:19:17.5211755Z Complete job name: production-foundation
+production-foundation	Run actions/checkout@v6	﻿2026-10-06T18:19:17.6243484Z ##[group]Run actions/checkout@v6
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6244906Z with:
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6245700Z   fetch-depth: 0
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6246592Z   repository: njawan12/dcl-shopify-theme
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6256619Z   token: ***
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6257482Z   ssh-strict: true
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6258306Z   ssh-user: git
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6259140Z   persist-credentials: true
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6260058Z   clean: true
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6261210Z   sparse-checkout-cone-mode: true
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6262235Z   fetch-tags: false
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6263072Z   show-progress: true
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6263954Z   lfs: false
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6264744Z   submodules: false
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6265635Z   set-safe-directory: true
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6266612Z   allow-unsafe-pr-checkout: false
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6267968Z env:
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6268783Z   M2_EVIDENCE_DIR: /tmp/m2a-evidence
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6269841Z   PYTHONDONTWRITEBYTECODE: 1
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.6271153Z ##[endgroup]
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7511977Z Syncing repository: njawan12/dcl-shopify-theme
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7515757Z ##[group]Getting Git version info
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7518287Z Working directory is '/home/runner/work/dcl-shopify-theme/dcl-shopify-theme'
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7522635Z [command]/usr/bin/git version
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7632903Z git version 2.55.0
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7660337Z ##[endgroup]
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7677504Z Temporarily overriding HOME='/home/runner/work/_temp/d1443ba4-cad1-490f-8135-2fc27f0c8d3c' before making global git config changes
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7682556Z Adding repository directory to the temporary git global config as a safe directory
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7686750Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/dcl-shopify-theme/dcl-shopify-theme
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7752124Z Deleting the contents of '/home/runner/work/dcl-shopify-theme/dcl-shopify-theme'
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7763007Z ##[group]Determining repository object format
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7767137Z ##[endgroup]
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7769662Z ##[group]Initializing the repository
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7772784Z [command]/usr/bin/git init /home/runner/work/dcl-shopify-theme/dcl-shopify-theme
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7907331Z hint: Using 'master' as the name for the initial branch. This default branch name
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7910944Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7914174Z hint: to use in all of your new repositories, which will suppress this warning,
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7916688Z hint: call:
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7917927Z hint:
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7919461Z hint: 	git config --global init.defaultBranch <name>
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7921566Z hint:
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7923431Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7926444Z hint: 'development'. The just-created branch can be renamed via this command:
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7929120Z hint:
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7930410Z hint: 	git branch -m <name>
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7932736Z hint:
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7935190Z hint: Disable this message with "git config set advice.defaultBranchName false"
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7938957Z Initialized empty Git repository in /home/runner/work/dcl-shopify-theme/dcl-shopify-theme/.git/
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7944968Z [command]/usr/bin/git remote add origin https://github.com/njawan12/dcl-shopify-theme
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7986951Z ##[endgroup]
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.7989260Z ##[group]Disabling automatic garbage collection
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.8012109Z [command]/usr/bin/git config --local gc.auto 0
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.8033379Z ##[endgroup]
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.8044346Z ##[group]Setting up auth
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.8050657Z Removing SSH command configuration
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.8053306Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.8083685Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.8505736Z Removing HTTP extra header
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.8514621Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.8557078Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.8791243Z Removing includeIf entries pointing to credentials config files
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.8798165Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.8841539Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.9089033Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-2d8f268f-eca5-4512-918e-8ce73db6d296.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.9140240Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/dcl-shopify-theme/dcl-shopify-theme/.git.path /home/runner/work/_temp/git-credentials-2d8f268f-eca5-4512-918e-8ce73db6d296.config
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.9185068Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/dcl-shopify-theme/dcl-shopify-theme/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-2d8f268f-eca5-4512-918e-8ce73db6d296.config
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.9232241Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-2d8f268f-eca5-4512-918e-8ce73db6d296.config
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.9281343Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-2d8f268f-eca5-4512-918e-8ce73db6d296.config
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.9325977Z ##[endgroup]
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.9327509Z ##[group]Fetching the repository
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:17.9334167Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/*
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1856043Z From https://github.com/njawan12/dcl-shopify-theme
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1857556Z  * [new branch]      codex/conduct-market-and-competitive-research -> origin/codex/conduct-market-and-competitive-research
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1859364Z  * [new branch]      codex/create-engineering-compliance-standard-document -> origin/codex/create-engineering-compliance-standard-document
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1861380Z  * [new branch]      codex/implement-edge-crop-prototype-as-briefed -> origin/codex/implement-edge-crop-prototype-as-briefed
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1863319Z  * [new branch]      codex/initiate-m1a-foundation-and-originality-decision -> origin/codex/initiate-m1a-foundation-and-originality-decision
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1865398Z  * [new branch]      codex/perform-final-m0-product-direction-reconciliation -> origin/codex/perform-final-m0-product-direction-reconciliation
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1867490Z  * [new branch]      codex/update-product-direction-and-architecture-documents -> origin/codex/update-product-direction-and-architecture-documents
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1869232Z  * [new branch]      m0-live-market-evidence-2026-10-03 -> origin/m0-live-market-evidence-2026-10-03
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1871197Z  * [new branch]      m1-commerce-mosaic-anchor-cadence -> origin/m1-commerce-mosaic-anchor-cadence
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1872494Z  * [new branch]      m1-evidence-layer-prototype -> origin/m1-evidence-layer-prototype
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1873628Z  * [new branch]      m1-final-closure-batch-b -> origin/m1-final-closure-batch-b
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1874605Z  * [new branch]      m1-living-canvas-prototype -> origin/m1-living-canvas-prototype
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1875580Z  * [new branch]      m1-monument-prototype -> origin/m1-monument-prototype
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1876544Z  * [new branch]      m1-split-tension-prototype -> origin/m1-split-tension-prototype
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1877661Z  * [new branch]      m2-production-theme   -> origin/m2-production-theme
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1879040Z  * [new branch]      m2-theme-foundation   -> origin/m2-theme-foundation
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1879794Z  * [new branch]      main                  -> origin/main
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1882613Z [command]/usr/bin/git branch --list --remote origin/m2-production-theme
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1907046Z   origin/m2-production-theme
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1919720Z [command]/usr/bin/git rev-parse refs/remotes/origin/m2-production-theme
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1950891Z 4350553d786a358e4ab210f88910f32c9727d6e1
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1955011Z ##[endgroup]
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1955564Z ##[group]Determining the checkout info
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1956925Z ##[endgroup]
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.1962189Z [command]/usr/bin/git sparse-checkout disable
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.2059619Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.2097362Z ##[group]Checking out the ref
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.2102807Z [command]/usr/bin/git checkout --progress --force -B m2-production-theme refs/remotes/origin/m2-production-theme
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.3979823Z Switched to a new branch 'm2-production-theme'
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.3985057Z branch 'm2-production-theme' set up to track 'origin/m2-production-theme'.
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.3998333Z ##[endgroup]
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.4050715Z [command]/usr/bin/git log -1 --format=%H
+production-foundation	Run actions/checkout@v6	2026-10-06T18:19:20.4084049Z 4350553d786a358e4ab210f88910f32c9727d6e1
+production-foundation	Run actions/setup-node@v6	﻿2026-10-06T18:19:20.4447900Z ##[group]Run actions/setup-node@v6
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:20.4448249Z with:
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:20.4448456Z   node-version: 22
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:20.4448673Z   cache: npm
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:20.4448933Z   cache-dependency-path: tests/m2/package-lock.json
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:20.4449270Z   check-latest: false
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:20.4452180Z   token: ***
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:20.4452428Z   package-manager-cache: true
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:20.4452683Z env:
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:20.4452887Z   M2_EVIDENCE_DIR: /tmp/m2a-evidence
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:20.4453417Z   PYTHONDONTWRITEBYTECODE: 1
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:20.4453669Z ##[endgroup]
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:20.6140044Z Found in cache @ /opt/hostedtoolcache/node/22.23.3/x64
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:20.6158041Z ##[group]Environment details
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:23.9231756Z node: v22.23.3
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:23.9232218Z npm: 10.9.9
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:23.9232522Z yarn: 1.22.22
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:23.9233369Z ##[endgroup]
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:23.9250370Z [command]/opt/hostedtoolcache/node/22.23.3/x64/bin/npm config get cache
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:24.3034029Z /home/runner/.npm
+production-foundation	Run actions/setup-node@v6	2026-10-06T18:19:24.4229513Z npm cache is not found
+production-foundation	Install pinned production checker and test dependencies	﻿2026-10-06T18:19:24.4354782Z ##[group]Run npm install --global @shopify/cli@4.8.4
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:24.4355260Z ^[[36;1mnpm install --global @shopify/cli@4.8.4^[[0m
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:24.4355597Z ^[[36;1mnpm ci --prefix tests/m2^[[0m
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:24.4355881Z ^[[36;1mmkdir -p "$M2_EVIDENCE_DIR"^[[0m
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:24.4356251Z ^[[36;1mshopify version > "$M2_EVIDENCE_DIR/shopify-cli-version.txt"^[[0m
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:24.4706965Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:24.4707398Z env:
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:24.4707637Z   M2_EVIDENCE_DIR: /tmp/m2a-evidence
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:24.4707946Z   PYTHONDONTWRITEBYTECODE: 1
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:24.4708211Z ##[endgroup]
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:28.2716257Z npm warn deprecated boolean@3.2.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:29.0095974Z 
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:29.0096618Z added 49 packages in 4s
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:29.0096989Z 
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:29.0097315Z 23 packages are looking for funding
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:29.0097854Z   run `npm fund` for details
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:29.7992631Z 
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:29.7993599Z added 6 packages, and audited 7 packages in 686ms
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:29.7994068Z 
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:29.7999487Z 1 package is looking for funding
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:29.8000124Z   run `npm fund` for details
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:29.8005476Z 
+production-foundation	Install pinned production checker and test dependencies	2026-10-06T18:19:29.8005780Z found 0 vulnerabilities
+production-foundation	Theme Check (errors and warnings fail)	﻿2026-10-06T18:19:31.8854160Z ##[group]Run set -euo pipefail
+production-foundation	Theme Check (errors and warnings fail)	2026-10-06T18:19:31.8854510Z ^[[36;1mset -euo pipefail^[[0m
+production-foundation	Theme Check (errors and warnings fail)	2026-10-06T18:19:31.8855022Z ^[[36;1mshopify theme check --path theme --fail-level warning --output json | tee "$M2_EVIDENCE_DIR/theme-check.json"^[[0m
+production-foundation	Theme Check (errors and warnings fail)	2026-10-06T18:19:31.8918997Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+production-foundation	Theme Check (errors and warnings fail)	2026-10-06T18:19:31.8919354Z env:
+production-foundation	Theme Check (errors and warnings fail)	2026-10-06T18:19:31.8919560Z   M2_EVIDENCE_DIR: /tmp/m2a-evidence
+production-foundation	Theme Check (errors and warnings fail)	2026-10-06T18:19:31.8919842Z   PYTHONDONTWRITEBYTECODE: 1
+production-foundation	Theme Check (errors and warnings fail)	2026-10-06T18:19:31.8920085Z ##[endgroup]
+production-foundation	Theme Check (errors and warnings fail)	2026-10-06T18:19:33.2802727Z []
+production-foundation	Structural, schema, locale, budget and preservation checks	﻿2026-10-06T18:19:33.2999398Z ##[group]Run python3 tests/m2/validate.py | tee "$M2_EVIDENCE_DIR/structural-output.log"
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:33.3000061Z ^[[36;1mpython3 tests/m2/validate.py | tee "$M2_EVIDENCE_DIR/structural-output.log"^[[0m
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:33.3065829Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:33.3066179Z env:
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:33.3066383Z   M2_EVIDENCE_DIR: /tmp/m2a-evidence
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:33.3066680Z   PYTHONDONTWRITEBYTECODE: 1
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:33.3066932Z ##[endgroup]
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3474665Z {
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3475126Z   "checks": 1086,
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3475547Z   "passed": 1086,
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3475914Z   "failed": 0,
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3476335Z   "global_editable_settings": 19,
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3476845Z   "presentation_controls": 17,
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3477289Z   "assets": {
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3477625Z     "search.js": {
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3477978Z       "bytes": 2528,
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3478293Z       "gzip_bytes": 895
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3478533Z     },
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3478819Z     "gift-card.js": {
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3479043Z       "bytes": 412,
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3479254Z       "gzip_bytes": 282
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3479465Z     },
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3479653Z     "cart.js": {
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3479863Z       "bytes": 2511,
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3480158Z       "gzip_bytes": 1002
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3480377Z     },
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3481318Z     "cart-state.js": {
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3481817Z       "bytes": 748,
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3482109Z       "gzip_bytes": 412
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3482342Z     },
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3482541Z     "media.js": {
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3482768Z       "bytes": 672,
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3482981Z       "gzip_bytes": 363
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3483187Z     },
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3483371Z     "base.css": {
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3483577Z       "bytes": 7996,
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3483796Z       "gzip_bytes": 2275
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3484016Z     },
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3484202Z     "navigation.js": {
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3484412Z       "bytes": 1043,
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3484636Z       "gzip_bytes": 467
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3484860Z     }
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3485034Z   }
+production-foundation	Structural, schema, locale, budget and preservation checks	2026-10-06T18:19:34.3485212Z }
+production-foundation	Actual snippet and cart-unit contracts	﻿2026-10-06T18:19:34.3575562Z ##[group]Run set -euo pipefail
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.3575911Z ^[[36;1mset -euo pipefail^[[0m
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.3576290Z ^[[36;1mnpm --prefix tests/m2 test | tee "$M2_EVIDENCE_DIR/unit-output.log"^[[0m
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.3638216Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.3638579Z env:
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.3638791Z   M2_EVIDENCE_DIR: /tmp/m2a-evidence
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.3639085Z   PYTHONDONTWRITEBYTECODE: 1
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.3639332Z ##[endgroup]
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.4803755Z 
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.4804328Z > test
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.4804854Z > node --test liquid.test.mjs cart.test.mjs
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.4805120Z 
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.5351777Z TAP version 13
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6042975Z # Subtest: same variant with different properties/plans is updated by distinct line keys
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6072010Z ok 1 - same variant with different properties/plans is updated by distinct line keys
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6098319Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6121789Z   duration_ms: 3.094098
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6140098Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6161614Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6191807Z # Subtest: zero removal is valid at the API boundary; no line is merged
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6221718Z ok 2 - zero removal is valid at the API boundary; no line is merged
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6231595Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6251932Z   duration_ms: 0.343464
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6254087Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6254768Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6255474Z # Subtest: reject empty quantity before sending
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6256322Z ok 3 - reject empty quantity before sending
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6256955Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6257442Z   duration_ms: 0.618849
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6257970Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6258442Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6259092Z # Subtest: reject whitespace quantity before sending
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6259951Z ok 4 - reject whitespace quantity before sending
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6260826Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6261342Z   duration_ms: 0.213471
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6261900Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6262354Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6262971Z # Subtest: reject fraction quantity before sending
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6263764Z ok 5 - reject fraction quantity before sending
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6264373Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6264809Z   duration_ms: 0.22905
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6265292Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6265907Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6266547Z # Subtest: reject negative quantity before sending
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6291370Z ok 6 - reject negative quantity before sending
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6310334Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6311194Z   duration_ms: 0.196989
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6311720Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6312217Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6312862Z # Subtest: reject text quantity before sending
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6313672Z ok 7 - reject text quantity before sending
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6314310Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6314961Z   duration_ms: 0.278231
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6323173Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6323736Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6324428Z # Subtest: reject unsafe quantity before sending
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6325280Z ok 8 - reject unsafe quantity before sending
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6325918Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6326402Z   duration_ms: 0.175759
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6327378Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6327843Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6328676Z # Subtest: duplicate line keys cannot silently overwrite quantities
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6329745Z ok 9 - duplicate line keys cannot silently overwrite quantities
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6330937Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6331469Z   duration_ms: 0.581008
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6332024Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6332471Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6333055Z # Subtest: missing line identity cannot mutate cart
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6333820Z ok 10 - missing line identity cannot mutate cart
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6334396Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6334799Z   duration_ms: 0.652132
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6335247Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6335660Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6336844Z # Subtest: server error description/message are displayed; otherwise localized fallback
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6338137Z ok 11 - server error description/message are displayed; otherwise localized fallback
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6339094Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6339591Z   duration_ms: 0.295173
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6340097Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6340792Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6763595Z # Subtest: available selection submits exact native variant; accelerated default is present
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6765191Z ok 12 - available selection submits exact native variant; accelerated default is present
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6765800Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6766069Z   duration_ms: 20.612667
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6766368Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6766613Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6826552Z # Subtest: sold-out preserves canonical identity while blocking purchase and checkout
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6828363Z ok 13 - sold-out preserves canonical identity while blocking purchase and checkout
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6829247Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6829620Z   duration_ms: 6.603776
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6830007Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6830342Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6901713Z # Subtest: nonexistent tuple does not invent an ID or purchasable combination
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6903234Z ok 14 - nonexistent tuple does not invent an ID or purchasable combination
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6904213Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6904846Z   duration_ms: 7.290161
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6905316Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6905683Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6961763Z # Subtest: required plan without allocation cannot degrade to one-time
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6962441Z ok 15 - required plan without allocation cannot degrade to one-time
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6962814Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6963216Z   duration_ms: 5.590084
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6963609Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.6963937Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7037210Z # Subtest: invalid selected plan blocks purchase even on an available variant
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7061942Z ok 16 - invalid selected plan blocks purchase even on an available variant
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7070664Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7071212Z   duration_ms: 6.956877
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7071691Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7078483Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7121929Z # Subtest: valid required allocation posts the exact plan alongside variant
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7123391Z ok 17 - valid required allocation posts the exact plan alongside variant
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7124102Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7124461Z   duration_ms: 9.181341
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7124846Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7125171Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7169735Z # Subtest: removed quantity block falls back to the real rule minimum, not one
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7171609Z ok 18 - removed quantity block falls back to the real rule minimum, not one
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7172289Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7172631Z   duration_ms: 4.448186
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7173023Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7173373Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7214651Z # Subtest: quantity block uses native rule min, max, increment, ID and form association
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7216299Z ok 19 - quantity block uses native rule min, max, increment, ID and form association
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7217317Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7217590Z   duration_ms: 4.725085
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7217896Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7218146Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7273471Z # Subtest: normal variant price, compare and unit are from one identity
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7303475Z ok 20 - normal variant price, compare and unit are from one identity
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7304165Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7304536Z   duration_ms: 5.772182
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7304958Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7305305Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7342055Z # Subtest: equal or lower compare-at is never presented as a sale
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7343112Z ok 21 - equal or lower compare-at is never presented as a sale
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7343770Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7344104Z   duration_ms: 4.561615
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7344740Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7345074Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7361523Z # Subtest: allocation changes price and unit with variant measurement, never a client discount
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7370270Z ok 22 - allocation changes price and unit with variant measurement, never a client discount
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7371390Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7371787Z   duration_ms: 4.302783
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7372236Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7372614Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7389677Z # Subtest: null variant produces no fictional money
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7390768Z ok 23 - null variant produces no fictional money
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7391548Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7391898Z   duration_ms: 2.836919
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7392281Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7392628Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7432868Z # Subtest: gift recipient mode uses official properties and excludes accelerated checkout
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7434300Z ok 24 - gift recipient mode uses official properties and excludes accelerated checkout
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7434809Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7435025Z   duration_ms: 4.204619
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7435257Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7435661Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7458658Z # Subtest: gift without recipient mode may use platform checkout
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7459735Z ok 25 - gift without recipient mode may use platform checkout
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7460172Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7460390Z   duration_ms: 2.671496
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7460955Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7461167Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7493321Z # Subtest: native server errors remain visible
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7494314Z ok 26 - native server errors remain visible
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7495182Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7495802Z   duration_ms: 3.258937
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7496509Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7496865Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7536900Z # Subtest: required purchase plans expose only allocations for this variant
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7538794Z ok 27 - required purchase plans expose only allocations for this variant
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7539632Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7540031Z   duration_ms: 4.196544
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7540729Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7541105Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7591841Z # Subtest: native option URLs preserve tuple IDs, selected state, escaped labels and swatches
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7594051Z ok 28 - native option URLs preserve tuple IDs, selected state, escaped labels and swatches
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7594863Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7595185Z   duration_ms: 5.51366
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7595531Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7595843Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7629466Z # Subtest: default single variant needs no fabricated options
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7630037Z ok 29 - default single variant needs no fabricated options
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7630378Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7630858Z   duration_ms: 3.304533
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7631102Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7631299Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7704500Z # Subtest: missing product is omitted on storefront and explained only in editor
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7706732Z ok 30 - missing product is omitted on storefront and explained only in editor
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7707527Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7707939Z   duration_ms: 7.528388
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7708829Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7709231Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7825143Z # Subtest: Balanced initializes required allocation and no-media fallback from the same native truth
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7827283Z ok 31 - Balanced initializes required allocation and no-media fallback from the same native truth
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7828193Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7828605Z   duration_ms: 11.920569
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7829072Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.7829457Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8025437Z # Subtest: featured instances produce distinct native form IDs without a second commerce engine
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8027030Z ok 32 - featured instances produce distinct native form IDs without a second commerce engine
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8027922Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8028687Z   duration_ms: 19.911113
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8029100Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8029441Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8065505Z # Subtest: native filters preserve active unavailable values, range numbers and sort identity
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8067146Z ok 33 - native filters preserve active unavailable values, range numbers and sort identity
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8068190Z   ---
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8068868Z   duration_ms: 4.477425
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8069334Z   type: 'test'
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8069677Z   ...
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8166047Z 1..33
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8166469Z # tests 33
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8166799Z # suites 0
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8167286Z # pass 33
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8167888Z # fail 0
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8168541Z # cancelled 0
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8169161Z # skipped 0
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8169782Z # todo 0
+production-foundation	Actual snippet and cart-unit contracts	2026-10-06T18:19:34.8171571Z # duration_ms 300.359316
+production-foundation	Install only Chromium headless shell	﻿2026-10-06T18:19:34.8323957Z ##[group]Run npx playwright install --with-deps --only-shell chromium
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:34.8324496Z ^[[36;1mnpx playwright install --with-deps --only-shell chromium^[[0m
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:34.8389355Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:34.8389723Z env:
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:34.8389954Z   M2_EVIDENCE_DIR: /tmp/m2a-evidence
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:34.8390239Z   PYTHONDONTWRITEBYTECODE: 1
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:34.8390814Z ##[endgroup]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:35.6760894Z Installing dependencies...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:35.6833577Z Switching to root user to install dependencies...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:35.8273508Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:35.8389202Z Get:6 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease [3600 B]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:35.8642223Z Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:35.8652803Z Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:35.8734608Z Get:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:35.8801862Z Get:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:35.9734925Z Get:7 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [458 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:35.9952306Z Get:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main armhf Packages [12.6 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:35.9985885Z Get:9 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [515 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.1064973Z Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1374 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.1144161Z Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [306 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.1165995Z Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [181 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.1182256Z Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1700 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.1276768Z Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [341 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.1302237Z Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [388 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.1329726Z Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1730 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.1424217Z Get:17 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [396 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.1543667Z Get:18 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse Translation-en [13.3 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.1549083Z Get:19 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.2166490Z Get:20 http://azure.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [5764 B]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.2181197Z Get:21 http://azure.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [12.6 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.2262371Z Get:22 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Packages [1072 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.2325960Z Get:23 http://azure.archive.ubuntu.com/ubuntu noble-security/main Translation-en [222 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.2341942Z Get:24 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Components [46.4 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.2360753Z Get:25 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1217 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.2429990Z Get:26 http://azure.archive.ubuntu.com/ubuntu noble-security/universe Translation-en [245 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.2447518Z Get:27 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.3 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.2457007Z Get:28 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1566 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.2545043Z Get:29 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted Translation-en [361 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:36.2571126Z Get:30 http://azure.archive.ubuntu.com/ubuntu noble-security/multiverse Translation-en [11.6 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:44.0490846Z Fetched 12.6 MB in 1s (8719 kB/s)
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.0118973Z Reading package lists...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.0362108Z Reading package lists...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.2598265Z Building dependency tree...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.2606025Z Reading state information...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5087401Z libasound2t64 is already the newest version (1.2.11-1ubuntu0.3).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5088462Z libasound2t64 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5089118Z libatk-bridge2.0-0t64 is already the newest version (2.52.0-1build1).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5089769Z libatk-bridge2.0-0t64 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5090392Z libatk1.0-0t64 is already the newest version (2.52.0-1build1).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5093221Z libatk1.0-0t64 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5093725Z libatspi2.0-0t64 is already the newest version (2.52.0-1build1).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5094201Z libatspi2.0-0t64 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5094691Z libcairo2 is already the newest version (1.18.0-3build1).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5095122Z libcairo2 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5095674Z libcups2t64 is already the newest version (2.4.7-1.2ubuntu7.14).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5096397Z libcups2t64 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5097059Z libdbus-1-3 is already the newest version (1.14.10-4ubuntu4.1).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5097505Z libdbus-1-3 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5097972Z libdrm2 is already the newest version (2.4.125-1ubuntu0.1~24.04.2).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5098425Z libdrm2 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5098875Z libglib2.0-0t64 is already the newest version (2.80.0-6ubuntu3.9).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5099338Z libglib2.0-0t64 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5099798Z libnspr4 is already the newest version (2:4.35-1.1build1).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5100229Z libnspr4 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5100792Z libnss3 is already the newest version (2:3.98-1ubuntu0.2).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5101220Z libnss3 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5101671Z libpango-1.0-0 is already the newest version (1.52.1+ds-1build1).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5102130Z libpango-1.0-0 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5102569Z libx11-6 is already the newest version (2:1.8.7-1build1).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5103395Z libx11-6 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5103801Z libxcb1 is already the newest version (1.15-1ubuntu2).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5104273Z libxcb1 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5104994Z libxcomposite1 is already the newest version (1:0.4.5-1build3).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5105614Z libxcomposite1 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5106029Z libxdamage1 is already the newest version (1:1.1.6-1build1).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5106425Z libxdamage1 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5106835Z libxext6 is already the newest version (2:1.3.4-1build2).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5107207Z libxext6 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5107598Z libxfixes3 is already the newest version (1:6.0.0-2build1).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5107979Z libxfixes3 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5108564Z libxkbcommon0 is already the newest version (1.6.0-1build1).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5108953Z libxkbcommon0 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5109367Z libxrandr2 is already the newest version (2:1.5.2-2build1).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5109744Z libxrandr2 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5110133Z xvfb is already the newest version (2:21.1.12-1ubuntu1.8).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5110953Z fonts-noto-color-emoji is already the newest version (2.047-0ubuntu0.24.04.1).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5111524Z libfontconfig1 is already the newest version (2.15.0-1.1ubuntu2).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5112037Z libfontconfig1 set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5112455Z fonts-liberation is already the newest version (1:2.1.5-3).
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5112857Z fonts-liberation set to manually installed.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5113256Z The following additional packages will be installed:
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5113973Z   libgl1-mesa-dri libglx-mesa0 mesa-libgallium xfonts-encodings xfonts-utils
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5114397Z Recommended packages:
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5114679Z   fonts-ipafont-mincho fonts-tlwg-loma
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5520068Z The following NEW packages will be installed:
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5521050Z   fonts-freefont-ttf fonts-ipafont-gothic fonts-tlwg-loma-otf fonts-unifont
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5529260Z   fonts-wqy-zenhei xfonts-cyrillic xfonts-encodings xfonts-scalable
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5529975Z   xfonts-utils
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5535001Z The following packages will be upgraded:
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5541650Z   libfreetype6 libgbm1 libgl1-mesa-dri libglx-mesa0 mesa-libgallium
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5737855Z 5 upgraded, 9 newly installed, 0 to remove and 24 not upgraded.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5738398Z Need to get 32.5 MB of archives.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5738842Z After this operation, 79.5 MB of additional disk space will be used.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.5739390Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.6713054Z Get:2 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-ipafont-gothic all 00303-21ubuntu1 [3513 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:45.8311321Z Get:3 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 fonts-freefont-ttf all 20211204+svn4273-2 [5641 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:46.0425805Z Get:4 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-tlwg-loma-otf all 1:0.7.3-1 [107 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:46.1213134Z Get:5 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-unifont all 1:15.1.01-1build1 [2993 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:46.2693172Z Get:6 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-wqy-zenhei all 0.9.45-8 [7472 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:46.5242468Z Get:7 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 libfreetype6 amd64 2.13.2+dfsg-1ubuntu0.2 [403 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:46.6093333Z Get:8 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgl1-mesa-dri amd64 25.2.8-0ubuntu0.24.04.4 [38.0 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:46.6856738Z Get:9 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libglx-mesa0 amd64 25.2.8-0ubuntu0.24.04.4 [110 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:46.7639456Z Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgbm1 amd64 25.2.8-0ubuntu0.24.04.4 [34.2 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:46.8417565Z Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 mesa-libgallium amd64 25.2.8-0ubuntu0.24.04.4 [10.8 MB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.1806454Z Get:12 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xfonts-encodings all 1:1.0.5-0ubuntu2 [578 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.2735373Z Get:13 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xfonts-utils amd64 1:7.7+6build3 [94.4 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.3511913Z Get:14 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 xfonts-cyrillic all 1:1.0.5+nmu1 [384 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.4355746Z Get:15 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xfonts-scalable all 1:1.0.3-1.3 [304 kB]
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.7384968Z Fetched 32.5 MB in 2s (17.3 MB/s)
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.7833958Z Selecting previously unselected package fonts-ipafont-gothic.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.8606070Z (Reading database ... 
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.8606843Z (Reading database ... 5%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.8607486Z (Reading database ... 10%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.8607855Z (Reading database ... 15%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.8608164Z (Reading database ... 20%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.8608422Z (Reading database ... 25%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.8608671Z (Reading database ... 30%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.8608920Z (Reading database ... 35%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.8609360Z (Reading database ... 40%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.8609768Z (Reading database ... 45%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.8610197Z (Reading database ... 50%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:47.9001775Z (Reading database ... 55%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:48.4442688Z (Reading database ... 60%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:48.7348443Z (Reading database ... 65%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:49.0415210Z (Reading database ... 70%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:49.3513287Z (Reading database ... 75%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:49.7888907Z (Reading database ... 80%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:50.4390277Z (Reading database ... 85%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:51.1799139Z (Reading database ... 90%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:51.9301708Z (Reading database ... 95%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:51.9315325Z (Reading database ... 100%
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:51.9316096Z (Reading database ... 202296 files and directories currently installed.)
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:51.9347541Z Preparing to unpack .../00-fonts-ipafont-gothic_00303-21ubuntu1_all.deb ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:51.9447185Z Unpacking fonts-ipafont-gothic (00303-21ubuntu1) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:52.1755541Z Selecting previously unselected package fonts-freefont-ttf.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:52.1882930Z Preparing to unpack .../01-fonts-freefont-ttf_20211204+svn4273-2_all.deb ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:52.1892376Z Unpacking fonts-freefont-ttf (20211204+svn4273-2) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:52.2796110Z Selecting previously unselected package fonts-tlwg-loma-otf.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:52.2925273Z Preparing to unpack .../02-fonts-tlwg-loma-otf_1%3a0.7.3-1_all.deb ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:52.2935354Z Unpacking fonts-tlwg-loma-otf (1:0.7.3-1) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:52.3207197Z Selecting previously unselected package fonts-unifont.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:52.3336318Z Preparing to unpack .../03-fonts-unifont_1%3a15.1.01-1build1_all.deb ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:52.3345703Z Unpacking fonts-unifont (1:15.1.01-1build1) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:52.4504901Z Selecting previously unselected package fonts-wqy-zenhei.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:52.4633422Z Preparing to unpack .../04-fonts-wqy-zenhei_0.9.45-8_all.deb ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:52.4743178Z Unpacking fonts-wqy-zenhei (0.9.45-8) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:52.9712229Z Preparing to unpack .../05-libfreetype6_2.13.2+dfsg-1ubuntu0.2_amd64.deb ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:52.9749807Z Unpacking libfreetype6:amd64 (2.13.2+dfsg-1ubuntu0.2) over (2.13.2+dfsg-1ubuntu0.1) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.0159581Z Preparing to unpack .../06-libgl1-mesa-dri_25.2.8-0ubuntu0.24.04.4_amd64.deb ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.0309934Z Unpacking libgl1-mesa-dri:amd64 (25.2.8-0ubuntu0.24.04.4) over (25.2.8-0ubuntu0.24.04.2) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.0953589Z Preparing to unpack .../07-libglx-mesa0_25.2.8-0ubuntu0.24.04.4_amd64.deb ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.0980544Z Unpacking libglx-mesa0:amd64 (25.2.8-0ubuntu0.24.04.4) over (25.2.8-0ubuntu0.24.04.2) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.1650003Z Preparing to unpack .../08-libgbm1_25.2.8-0ubuntu0.24.04.4_amd64.deb ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.1743012Z Unpacking libgbm1:amd64 (25.2.8-0ubuntu0.24.04.4) over (25.2.8-0ubuntu0.24.04.2) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.2176368Z Preparing to unpack .../09-mesa-libgallium_25.2.8-0ubuntu0.24.04.4_amd64.deb ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.2210854Z Unpacking mesa-libgallium:amd64 (25.2.8-0ubuntu0.24.04.4) over (25.2.8-0ubuntu0.24.04.2) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.4141846Z Selecting previously unselected package xfonts-encodings.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.4273779Z Preparing to unpack .../10-xfonts-encodings_1%3a1.0.5-0ubuntu2_all.deb ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.4283249Z Unpacking xfonts-encodings (1:1.0.5-0ubuntu2) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.4612770Z Selecting previously unselected package xfonts-utils.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.4744649Z Preparing to unpack .../11-xfonts-utils_1%3a7.7+6build3_amd64.deb ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.4755579Z Unpacking xfonts-utils (1:7.7+6build3) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.5472595Z Selecting previously unselected package xfonts-cyrillic.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.5599972Z Preparing to unpack .../12-xfonts-cyrillic_1%3a1.0.5+nmu1_all.deb ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.5606975Z Unpacking xfonts-cyrillic (1:1.0.5+nmu1) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.5996992Z Selecting previously unselected package xfonts-scalable.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.6126242Z Preparing to unpack .../13-xfonts-scalable_1%3a1.0.3-1.3_all.deb ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.6133638Z Unpacking xfonts-scalable (1:1.0.3-1.3) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.6601230Z Setting up mesa-libgallium:amd64 (25.2.8-0ubuntu0.24.04.4) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.6623529Z Setting up libgbm1:amd64 (25.2.8-0ubuntu0.24.04.4) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.6641335Z Setting up libgl1-mesa-dri:amd64 (25.2.8-0ubuntu0.24.04.4) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.6728149Z Setting up fonts-wqy-zenhei (0.9.45-8) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.6842483Z Setting up fonts-freefont-ttf (20211204+svn4273-2) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.6859452Z Setting up fonts-tlwg-loma-otf (1:0.7.3-1) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.6876530Z Setting up libfreetype6:amd64 (2.13.2+dfsg-1ubuntu0.2) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.6894627Z Setting up xfonts-encodings (1:1.0.5-0ubuntu2) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.6912064Z Setting up fonts-ipafont-gothic (00303-21ubuntu1) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.7013735Z update-alternatives: using /usr/share/fonts/opentype/ipafont-gothic/ipag.ttf to provide /usr/share/fonts/truetype/fonts-japanese-gothic.ttf (fonts-japanese-gothic.ttf) in auto mode
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.7029094Z Setting up fonts-unifont (1:15.1.01-1build1) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.7047860Z Setting up libglx-mesa0:amd64 (25.2.8-0ubuntu0.24.04.4) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.7065770Z Setting up xfonts-utils (1:7.7+6build3) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.7109096Z Setting up xfonts-cyrillic (1:1.0.5+nmu1) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.7453155Z Setting up xfonts-scalable (1:1.0.3-1.3) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.7743370Z Processing triggers for libc-bin (2.39-0ubuntu8.9) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.8350127Z Processing triggers for man-db (2.12.0-4build2) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.8376103Z Not building database; man-db/auto-update is not 'true'.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:53.8392233Z Processing triggers for fontconfig (2.15.0-1.1ubuntu2) ...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:55.4666218Z 
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:55.4667018Z Running kernel seems to be up-to-date.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:55.4667446Z 
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:55.4667640Z Restarting services...
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:55.4752577Z  systemctl restart php8.3-fpm.service
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:55.5834026Z 
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:55.5835961Z No containers need to be restarted.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:55.5836369Z 
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:55.5836699Z No user sessions are running outdated binaries.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:55.5837076Z 
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:55.5837561Z No VM guests are running outdated hypervisor (qemu) binaries on this host.
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:56.6851690Z Downloading Chrome Headless Shell 151.0.7922.34 (playwright chromium-headless-shell v1234) from https://cdn.playwright.dev/builds/cft/151.0.7922.34/linux64/chrome-headless-shell-linux64.zip
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:57.6699416Z |                                                                                |   0% of 114.7 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:57.7647520Z |■■■■■■■■                                                                        |  10% of 114.7 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:57.8229502Z |■■■■■■■■■■■■■■■■                                                                |  20% of 114.7 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:57.8743030Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 114.7 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:57.9295705Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 114.7 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:57.9724301Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 114.7 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:58.0110947Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 114.7 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:58.0494592Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 114.7 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:58.0887672Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 114.7 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:58.1299360Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 114.7 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:19:58.1672456Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 114.7 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:20:00.1613837Z Chrome Headless Shell 151.0.7922.34 (playwright chromium-headless-shell v1234) downloaded to /home/runner/.cache/ms-playwright/chromium_headless_shell-1234
+production-foundation	Install only Chromium headless shell	2026-10-06T18:20:00.1617925Z Downloading FFmpeg (playwright ffmpeg v1011) from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-linux.zip
+production-foundation	Install only Chromium headless shell	2026-10-06T18:20:01.1395762Z |                                                                                |   0% of 2.3 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:20:01.1429715Z |■■■■■■■■                                                                        |  10% of 2.3 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:20:01.1453390Z |■■■■■■■■■■■■■■■■                                                                |  20% of 2.3 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:20:01.1507924Z |■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.3 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:20:01.1526561Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.3 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:20:01.1546133Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.3 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:20:01.1557192Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.3 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:20:01.1582490Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.3 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:20:01.1592348Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.3 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:20:01.1610653Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.3 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:20:01.1621531Z |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.3 MiB
+production-foundation	Install only Chromium headless shell	2026-10-06T18:20:01.2218494Z FFmpeg (playwright ffmpeg v1011) downloaded to /home/runner/.cache/ms-playwright/ffmpeg-1011
+production-foundation	Browser component contracts and responsive accessibility checks	﻿2026-10-06T18:20:01.2473144Z ##[group]Run set -euo pipefail
+production-foundation	Browser component contracts and responsive accessibility checks	2026-10-06T18:20:01.2473492Z ^[[36;1mset -euo pipefail^[[0m
+production-foundation	Browser component contracts and responsive accessibility checks	2026-10-06T18:20:01.2473950Z ^[[36;1mtimeout 180s npm --prefix tests/m2 run test:browser | tee "$M2_EVIDENCE_DIR/browser-output.log"^[[0m
+production-foundation	Browser component contracts and responsive accessibility checks	2026-10-06T18:20:01.2537894Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+production-foundation	Browser component contracts and responsive accessibility checks	2026-10-06T18:20:01.2538244Z env:
+production-foundation	Browser component contracts and responsive accessibility checks	2026-10-06T18:20:01.2538449Z   M2_EVIDENCE_DIR: /tmp/m2a-evidence
+production-foundation	Browser component contracts and responsive accessibility checks	2026-10-06T18:20:01.2538743Z   PYTHONDONTWRITEBYTECODE: 1
+production-foundation	Browser component contracts and responsive accessibility checks	2026-10-06T18:20:01.2538990Z ##[endgroup]
+production-foundation	Browser component contracts and responsive accessibility checks	2026-10-06T18:20:01.3595170Z 
+production-foundation	Browser component contracts and responsive accessibility checks	2026-10-06T18:20:01.3595686Z > test:browser
+production-foundation	Browser component contracts and responsive accessibility checks	2026-10-06T18:20:30.7990730Z > node browser.mjs
+production-foundation	Browser component contracts and responsive accessibility checks	2026-10-06T18:20:30.7991083Z 
+production-foundation	Browser component contracts and responsive accessibility checks	2026-10-06T18:20:30.7992411Z {"result":"PASS","version":"151.0.7922.34","observations":48,"assertions":113,"scope":"isolated production snippet/asset browser contracts with test platform adapters; NOT live Shopify checkout/editor/apps/Markets proof"}
+production-foundation	Package actual distributable theme	﻿2026-10-06T18:20:30.8225353Z ##[group]Run set -euo pipefail
+production-foundation	Package actual distributable theme	2026-10-06T18:20:30.8225687Z ^[[36;1mset -euo pipefail^[[0m
+production-foundation	Package actual distributable theme	2026-10-06T18:20:30.8225969Z ^[[36;1mshopify theme package --path theme^[[0m
+production-foundation	Package actual distributable theme	2026-10-06T18:20:30.8226339Z ^[[36;1mpython3 tests/m2/package-check.py "$M2_EVIDENCE_DIR"^[[0m
+production-foundation	Package actual distributable theme	2026-10-06T18:20:30.8289651Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+production-foundation	Package actual distributable theme	2026-10-06T18:20:30.8290013Z env:
+production-foundation	Package actual distributable theme	2026-10-06T18:20:30.8290227Z   M2_EVIDENCE_DIR: /tmp/m2a-evidence
+production-foundation	Package actual distributable theme	2026-10-06T18:20:30.8290764Z   PYTHONDONTWRITEBYTECODE: 1
+production-foundation	Package actual distributable theme	2026-10-06T18:20:30.8291026Z ##[endgroup]
+production-foundation	Package actual distributable theme	2026-10-06T18:20:31.4774065Z ╭─ success ────────────────────────────────────────────────────────────────────╮
+production-foundation	Package actual distributable theme	2026-10-06T18:20:31.4775074Z │                                                                              │
+production-foundation	Package actual distributable theme	2026-10-06T18:20:31.4776063Z │  Your local theme was packaged in theme/Living Canvas-0.1.0.zip              │
+production-foundation	Package actual distributable theme	2026-10-06T18:20:31.4776985Z │                                                                              │
+production-foundation	Package actual distributable theme	2026-10-06T18:20:31.4777910Z ╰──────────────────────────────────────────────────────────────────────────────╯
+production-foundation	Package actual distributable theme	2026-10-06T18:20:31.4778748Z 
+production-foundation	Package actual distributable theme	2026-10-06T18:20:32.7179209Z {"archive": "Living Canvas-0.1.0.zip", "sha256": "290a976598fd3571d0b31e8e79fd05af6d5f170083b6769024bead94b5aea608", "bytes": 38850, "files": 66, "source_identical": true}
+production-foundation	Upload production check results and package	﻿2026-10-06T18:20:32.7328534Z ##[group]Run actions/upload-artifact@v5
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.7328866Z with:
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.7329157Z   name: m2a-production-4350553d786a358e4ab210f88910f32c9727d6e1
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.7329512Z   path: /tmp/m2a-evidence/
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.7329760Z   if-no-files-found: error
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.7329991Z   retention-days: 30
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.7330208Z   compression-level: 6
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.7330421Z   overwrite: false
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.7330953Z   include-hidden-files: false
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.7331187Z env:
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.7331382Z   M2_EVIDENCE_DIR: /tmp/m2a-evidence
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.7331678Z   PYTHONDONTWRITEBYTECODE: 1
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.7332151Z ##[endgroup]
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.8994948Z (node:3837) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.8995904Z (Use `node --trace-deprecation ...` to show where the warning was created)
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.9092520Z With the provided path, there will be 21 files uploaded
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.9099554Z Artifact name is valid!
+production-foundation	Upload production check results and package	2026-10-06T18:20:32.9100357Z Root directory input is valid!
+production-foundation	Upload production check results and package	2026-10-06T18:20:33.1496998Z Beginning upload of artifact content to blob storage
+production-foundation	Upload production check results and package	2026-10-06T18:20:33.2148399Z (node:3837) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+production-foundation	Upload production check results and package	2026-10-06T18:20:33.3099990Z Uploaded bytes 444552
+production-foundation	Upload production check results and package	2026-10-06T18:20:33.3305494Z Finished uploading artifact content to blob storage!
+production-foundation	Upload production check results and package	2026-10-06T18:20:33.3306452Z SHA256 digest of uploaded artifact zip is a0111b3b7b1ac10941807c859132304a6ff351bfffe92d50a67edaf48c41a6f1
+production-foundation	Upload production check results and package	2026-10-06T18:20:33.3308689Z Finalizing artifact upload
+production-foundation	Upload production check results and package	2026-10-06T18:20:33.5716314Z Artifact m2a-production-4350553d786a358e4ab210f88910f32c9727d6e1.zip successfully finalized. Artifact ID 11435596693
+production-foundation	Upload production check results and package	2026-10-06T18:20:33.5718366Z Artifact m2a-production-4350553d786a358e4ab210f88910f32c9727d6e1 has been successfully uploaded! Final size is 444552 bytes. Artifact ID is 11435596693
+production-foundation	Upload production check results and package	2026-10-06T18:20:33.5724159Z Artifact download URL: https://github.com/njawan12/dcl-shopify-theme/actions/runs/37510381753/artifacts/11435596693
+production-foundation	Post Run actions/setup-node@v6	﻿2026-10-06T18:20:33.5899155Z Post job cleanup.
+production-foundation	Post Run actions/setup-node@v6	2026-10-06T18:20:33.7368390Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/dcl-shopify-theme/dcl-shopify-theme --files-from manifest.txt --use-compress-program zstdmt
+production-foundation	Post Run actions/setup-node@v6	2026-10-06T18:20:34.6024152Z Sent 24278874 of 24278874 (100.0%), 36.8 MBs/sec
+production-foundation	Post Run actions/setup-node@v6	2026-10-06T18:20:34.7472373Z Cache saved with the key: node-cache-Linux-x64-npm-3a4b27f9ef8f2341f91f0d6772034638ce6c86b0cb768def44e85f70d4b68473
+production-foundation	Post Run actions/checkout@v6	﻿2026-10-06T18:20:34.7623268Z Post job cleanup.
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.8556814Z [command]/usr/bin/git version
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.8604185Z git version 2.55.0
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.8652638Z Temporarily overriding HOME='/home/runner/work/_temp/b5866158-a006-48b1-978d-9b39fca29cf1' before making global git config changes
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.8653624Z Adding repository directory to the temporary git global config as a safe directory
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.8659078Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/dcl-shopify-theme/dcl-shopify-theme
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.8696902Z Removing SSH command configuration
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.8704872Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.8747124Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9007862Z Removing HTTP extra header
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9015029Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9057303Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9326927Z Removing includeIf entries pointing to credentials config files
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9335282Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9373202Z includeif.gitdir:/home/runner/work/dcl-shopify-theme/dcl-shopify-theme/.git.path
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9374824Z includeif.gitdir:/home/runner/work/dcl-shopify-theme/dcl-shopify-theme/.git/worktrees/*.path
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9375915Z includeif.gitdir:/github/workspace/.git.path
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9376809Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9387844Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/dcl-shopify-theme/dcl-shopify-theme/.git.path
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9418117Z /home/runner/work/_temp/git-credentials-2d8f268f-eca5-4512-918e-8ce73db6d296.config
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9432129Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/dcl-shopify-theme/dcl-shopify-theme/.git.path /home/runner/work/_temp/git-credentials-2d8f268f-eca5-4512-918e-8ce73db6d296.config
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9479531Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/dcl-shopify-theme/dcl-shopify-theme/.git/worktrees/*.path
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9513472Z /home/runner/work/_temp/git-credentials-2d8f268f-eca5-4512-918e-8ce73db6d296.config
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9526186Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/dcl-shopify-theme/dcl-shopify-theme/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-2d8f268f-eca5-4512-918e-8ce73db6d296.config
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9570302Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9606986Z /github/runner_temp/git-credentials-2d8f268f-eca5-4512-918e-8ce73db6d296.config
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9618565Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-2d8f268f-eca5-4512-918e-8ce73db6d296.config
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9666533Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9694446Z /github/runner_temp/git-credentials-2d8f268f-eca5-4512-918e-8ce73db6d296.config
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9704495Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-2d8f268f-eca5-4512-918e-8ce73db6d296.config
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9746879Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+production-foundation	Post Run actions/checkout@v6	2026-10-06T18:20:34.9976001Z Removing credentials config '/home/runner/work/_temp/git-credentials-2d8f268f-eca5-4512-918e-8ce73db6d296.config'
+production-foundation	Complete job	﻿2026-10-06T18:20:35.0123103Z Cleaning up orphan processes
+production-foundation	Complete job	2026-10-06T18:20:35.0475279Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/upload-artifact@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

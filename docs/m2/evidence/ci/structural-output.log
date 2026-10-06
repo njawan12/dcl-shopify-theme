@@ -1,0 +1,37 @@
+{
+  "checks": 1086,
+  "passed": 1086,
+  "failed": 0,
+  "global_editable_settings": 19,
+  "presentation_controls": 17,
+  "assets": {
+    "search.js": {
+      "bytes": 2528,
+      "gzip_bytes": 895
+    },
+    "gift-card.js": {
+      "bytes": 412,
+      "gzip_bytes": 282
+    },
+    "cart.js": {
+      "bytes": 2511,
+      "gzip_bytes": 1002
+    },
+    "cart-state.js": {
+      "bytes": 748,
+      "gzip_bytes": 412
+    },
+    "media.js": {
+      "bytes": 672,
+      "gzip_bytes": 363
+    },
+    "base.css": {
+      "bytes": 7996,
+      "gzip_bytes": 2275
+    },
+    "navigation.js": {
+      "bytes": 1043,
+      "gzip_bytes": 467
+    }
+  }
+}

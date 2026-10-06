@@ -1,0 +1,411 @@
+{
+  "scope": "isolated production snippet/asset browser contracts with test platform adapters; NOT live Shopify checkout/editor/apps/Markets proof",
+  "engine": "Chromium",
+  "configuration": {
+    "viewport": {
+      "width": 390,
+      "height": 900
+    }
+  },
+  "observations": [
+    {
+      "route": "/product",
+      "width": 320,
+      "javaScriptEnabled": true,
+      "viewport": 320,
+      "scroll": 320,
+      "script": true
+    },
+    {
+      "route": "/cart",
+      "width": 320,
+      "javaScriptEnabled": true,
+      "viewport": 320,
+      "scroll": 320,
+      "script": true
+    },
+    {
+      "route": "/guest",
+      "width": 320,
+      "javaScriptEnabled": true,
+      "viewport": 320,
+      "scroll": 320,
+      "script": true
+    },
+    {
+      "route": "/product",
+      "width": 375,
+      "javaScriptEnabled": true,
+      "viewport": 375,
+      "scroll": 375,
+      "script": true
+    },
+    {
+      "route": "/cart",
+      "width": 375,
+      "javaScriptEnabled": true,
+      "viewport": 375,
+      "scroll": 375,
+      "script": true
+    },
+    {
+      "route": "/guest",
+      "width": 375,
+      "javaScriptEnabled": true,
+      "viewport": 375,
+      "scroll": 375,
+      "script": true
+    },
+    {
+      "route": "/product",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "viewport": 390,
+      "scroll": 390,
+      "script": true
+    },
+    {
+      "route": "/cart",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "viewport": 390,
+      "scroll": 390,
+      "script": true
+    },
+    {
+      "route": "/guest",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "viewport": 390,
+      "scroll": 390,
+      "script": true
+    },
+    {
+      "route": "/product",
+      "width": 430,
+      "javaScriptEnabled": true,
+      "viewport": 430,
+      "scroll": 430,
+      "script": true
+    },
+    {
+      "route": "/cart",
+      "width": 430,
+      "javaScriptEnabled": true,
+      "viewport": 430,
+      "scroll": 430,
+      "script": true
+    },
+    {
+      "route": "/guest",
+      "width": 430,
+      "javaScriptEnabled": true,
+      "viewport": 430,
+      "scroll": 430,
+      "script": true
+    },
+    {
+      "route": "/product",
+      "width": 768,
+      "javaScriptEnabled": true,
+      "viewport": 768,
+      "scroll": 768,
+      "script": true
+    },
+    {
+      "route": "/cart",
+      "width": 768,
+      "javaScriptEnabled": true,
+      "viewport": 768,
+      "scroll": 768,
+      "script": true
+    },
+    {
+      "route": "/guest",
+      "width": 768,
+      "javaScriptEnabled": true,
+      "viewport": 768,
+      "scroll": 768,
+      "script": true
+    },
+    {
+      "route": "/product",
+      "width": 1024,
+      "javaScriptEnabled": true,
+      "viewport": 1024,
+      "scroll": 1024,
+      "script": true
+    },
+    {
+      "route": "/cart",
+      "width": 1024,
+      "javaScriptEnabled": true,
+      "viewport": 1024,
+      "scroll": 1024,
+      "script": true
+    },
+    {
+      "route": "/guest",
+      "width": 1024,
+      "javaScriptEnabled": true,
+      "viewport": 1024,
+      "scroll": 1024,
+      "script": true
+    },
+    {
+      "route": "/product",
+      "width": 1280,
+      "javaScriptEnabled": true,
+      "viewport": 1280,
+      "scroll": 1280,
+      "script": true
+    },
+    {
+      "route": "/cart",
+      "width": 1280,
+      "javaScriptEnabled": true,
+      "viewport": 1280,
+      "scroll": 1280,
+      "script": true
+    },
+    {
+      "route": "/guest",
+      "width": 1280,
+      "javaScriptEnabled": true,
+      "viewport": 1280,
+      "scroll": 1280,
+      "script": true
+    },
+    {
+      "route": "/product",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "script": true
+    },
+    {
+      "route": "/cart",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "script": true
+    },
+    {
+      "route": "/guest",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "script": true
+    },
+    {
+      "route": "/product",
+      "width": 320,
+      "javaScriptEnabled": false,
+      "viewport": 320,
+      "scroll": 320,
+      "script": false
+    },
+    {
+      "route": "/cart",
+      "width": 320,
+      "javaScriptEnabled": false,
+      "viewport": 320,
+      "scroll": 320,
+      "script": false
+    },
+    {
+      "route": "/guest",
+      "width": 320,
+      "javaScriptEnabled": false,
+      "viewport": 320,
+      "scroll": 320,
+      "script": false
+    },
+    {
+      "route": "/product",
+      "width": 375,
+      "javaScriptEnabled": false,
+      "viewport": 375,
+      "scroll": 375,
+      "script": false
+    },
+    {
+      "route": "/cart",
+      "width": 375,
+      "javaScriptEnabled": false,
+      "viewport": 375,
+      "scroll": 375,
+      "script": false
+    },
+    {
+      "route": "/guest",
+      "width": 375,
+      "javaScriptEnabled": false,
+      "viewport": 375,
+      "scroll": 375,
+      "script": false
+    },
+    {
+      "route": "/product",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "viewport": 390,
+      "scroll": 390,
+      "script": false
+    },
+    {
+      "route": "/cart",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "viewport": 390,
+      "scroll": 390,
+      "script": false
+    },
+    {
+      "route": "/guest",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "viewport": 390,
+      "scroll": 390,
+      "script": false
+    },
+    {
+      "route": "/product",
+      "width": 430,
+      "javaScriptEnabled": false,
+      "viewport": 430,
+      "scroll": 430,
+      "script": false
+    },
+    {
+      "route": "/cart",
+      "width": 430,
+      "javaScriptEnabled": false,
+      "viewport": 430,
+      "scroll": 430,
+      "script": false
+    },
+    {
+      "route": "/guest",
+      "width": 430,
+      "javaScriptEnabled": false,
+      "viewport": 430,
+      "scroll": 430,
+      "script": false
+    },
+    {
+      "route": "/product",
+      "width": 768,
+      "javaScriptEnabled": false,
+      "viewport": 768,
+      "scroll": 768,
+      "script": false
+    },
+    {
+      "route": "/cart",
+      "width": 768,
+      "javaScriptEnabled": false,
+      "viewport": 768,
+      "scroll": 768,
+      "script": false
+    },
+    {
+      "route": "/guest",
+      "width": 768,
+      "javaScriptEnabled": false,
+      "viewport": 768,
+      "scroll": 768,
+      "script": false
+    },
+    {
+      "route": "/product",
+      "width": 1024,
+      "javaScriptEnabled": false,
+      "viewport": 1024,
+      "scroll": 1024,
+      "script": false
+    },
+    {
+      "route": "/cart",
+      "width": 1024,
+      "javaScriptEnabled": false,
+      "viewport": 1024,
+      "scroll": 1024,
+      "script": false
+    },
+    {
+      "route": "/guest",
+      "width": 1024,
+      "javaScriptEnabled": false,
+      "viewport": 1024,
+      "scroll": 1024,
+      "script": false
+    },
+    {
+      "route": "/product",
+      "width": 1280,
+      "javaScriptEnabled": false,
+      "viewport": 1280,
+      "scroll": 1280,
+      "script": false
+    },
+    {
+      "route": "/cart",
+      "width": 1280,
+      "javaScriptEnabled": false,
+      "viewport": 1280,
+      "scroll": 1280,
+      "script": false
+    },
+    {
+      "route": "/guest",
+      "width": 1280,
+      "javaScriptEnabled": false,
+      "viewport": 1280,
+      "scroll": 1280,
+      "script": false
+    },
+    {
+      "route": "/product",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "viewport": 1440,
+      "scroll": 1440,
+      "script": false
+    },
+    {
+      "route": "/cart",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "viewport": 1440,
+      "scroll": 1440,
+      "script": false
+    },
+    {
+      "route": "/guest",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "viewport": 1440,
+      "scroll": 1440,
+      "script": false
+    }
+  ],
+  "assertions": 113,
+  "axe": [
+    {
+      "route": "/product",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "route": "/cart",
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "version": "151.0.7922.34",
+  "result": "PASS"
+}

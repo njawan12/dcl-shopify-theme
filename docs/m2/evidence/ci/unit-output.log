@@ -1,0 +1,212 @@
+
+> test
+> node --test liquid.test.mjs cart.test.mjs
+
+TAP version 13
+# Subtest: same variant with different properties/plans is updated by distinct line keys
+ok 1 - same variant with different properties/plans is updated by distinct line keys
+  ---
+  duration_ms: 3.094098
+  type: 'test'
+  ...
+# Subtest: zero removal is valid at the API boundary; no line is merged
+ok 2 - zero removal is valid at the API boundary; no line is merged
+  ---
+  duration_ms: 0.343464
+  type: 'test'
+  ...
+# Subtest: reject empty quantity before sending
+ok 3 - reject empty quantity before sending
+  ---
+  duration_ms: 0.618849
+  type: 'test'
+  ...
+# Subtest: reject whitespace quantity before sending
+ok 4 - reject whitespace quantity before sending
+  ---
+  duration_ms: 0.213471
+  type: 'test'
+  ...
+# Subtest: reject fraction quantity before sending
+ok 5 - reject fraction quantity before sending
+  ---
+  duration_ms: 0.22905
+  type: 'test'
+  ...
+# Subtest: reject negative quantity before sending
+ok 6 - reject negative quantity before sending
+  ---
+  duration_ms: 0.196989
+  type: 'test'
+  ...
+# Subtest: reject text quantity before sending
+ok 7 - reject text quantity before sending
+  ---
+  duration_ms: 0.278231
+  type: 'test'
+  ...
+# Subtest: reject unsafe quantity before sending
+ok 8 - reject unsafe quantity before sending
+  ---
+  duration_ms: 0.175759
+  type: 'test'
+  ...
+# Subtest: duplicate line keys cannot silently overwrite quantities
+ok 9 - duplicate line keys cannot silently overwrite quantities
+  ---
+  duration_ms: 0.581008
+  type: 'test'
+  ...
+# Subtest: missing line identity cannot mutate cart
+ok 10 - missing line identity cannot mutate cart
+  ---
+  duration_ms: 0.652132
+  type: 'test'
+  ...
+# Subtest: server error description/message are displayed; otherwise localized fallback
+ok 11 - server error description/message are displayed; otherwise localized fallback
+  ---
+  duration_ms: 0.295173
+  type: 'test'
+  ...
+# Subtest: available selection submits exact native variant; accelerated default is present
+ok 12 - available selection submits exact native variant; accelerated default is present
+  ---
+  duration_ms: 20.612667
+  type: 'test'
+  ...
+# Subtest: sold-out preserves canonical identity while blocking purchase and checkout
+ok 13 - sold-out preserves canonical identity while blocking purchase and checkout
+  ---
+  duration_ms: 6.603776
+  type: 'test'
+  ...
+# Subtest: nonexistent tuple does not invent an ID or purchasable combination
+ok 14 - nonexistent tuple does not invent an ID or purchasable combination
+  ---
+  duration_ms: 7.290161
+  type: 'test'
+  ...
+# Subtest: required plan without allocation cannot degrade to one-time
+ok 15 - required plan without allocation cannot degrade to one-time
+  ---
+  duration_ms: 5.590084
+  type: 'test'
+  ...
+# Subtest: invalid selected plan blocks purchase even on an available variant
+ok 16 - invalid selected plan blocks purchase even on an available variant
+  ---
+  duration_ms: 6.956877
+  type: 'test'
+  ...
+# Subtest: valid required allocation posts the exact plan alongside variant
+ok 17 - valid required allocation posts the exact plan alongside variant
+  ---
+  duration_ms: 9.181341
+  type: 'test'
+  ...
+# Subtest: removed quantity block falls back to the real rule minimum, not one
+ok 18 - removed quantity block falls back to the real rule minimum, not one
+  ---
+  duration_ms: 4.448186
+  type: 'test'
+  ...
+# Subtest: quantity block uses native rule min, max, increment, ID and form association
+ok 19 - quantity block uses native rule min, max, increment, ID and form association
+  ---
+  duration_ms: 4.725085
+  type: 'test'
+  ...
+# Subtest: normal variant price, compare and unit are from one identity
+ok 20 - normal variant price, compare and unit are from one identity
+  ---
+  duration_ms: 5.772182
+  type: 'test'
+  ...
+# Subtest: equal or lower compare-at is never presented as a sale
+ok 21 - equal or lower compare-at is never presented as a sale
+  ---
+  duration_ms: 4.561615
+  type: 'test'
+  ...
+# Subtest: allocation changes price and unit with variant measurement, never a client discount
+ok 22 - allocation changes price and unit with variant measurement, never a client discount
+  ---
+  duration_ms: 4.302783
+  type: 'test'
+  ...
+# Subtest: null variant produces no fictional money
+ok 23 - null variant produces no fictional money
+  ---
+  duration_ms: 2.836919
+  type: 'test'
+  ...
+# Subtest: gift recipient mode uses official properties and excludes accelerated checkout
+ok 24 - gift recipient mode uses official properties and excludes accelerated checkout
+  ---
+  duration_ms: 4.204619
+  type: 'test'
+  ...
+# Subtest: gift without recipient mode may use platform checkout
+ok 25 - gift without recipient mode may use platform checkout
+  ---
+  duration_ms: 2.671496
+  type: 'test'
+  ...
+# Subtest: native server errors remain visible
+ok 26 - native server errors remain visible
+  ---
+  duration_ms: 3.258937
+  type: 'test'
+  ...
+# Subtest: required purchase plans expose only allocations for this variant
+ok 27 - required purchase plans expose only allocations for this variant
+  ---
+  duration_ms: 4.196544
+  type: 'test'
+  ...
+# Subtest: native option URLs preserve tuple IDs, selected state, escaped labels and swatches
+ok 28 - native option URLs preserve tuple IDs, selected state, escaped labels and swatches
+  ---
+  duration_ms: 5.51366
+  type: 'test'
+  ...
+# Subtest: default single variant needs no fabricated options
+ok 29 - default single variant needs no fabricated options
+  ---
+  duration_ms: 3.304533
+  type: 'test'
+  ...
+# Subtest: missing product is omitted on storefront and explained only in editor
+ok 30 - missing product is omitted on storefront and explained only in editor
+  ---
+  duration_ms: 7.528388
+  type: 'test'
+  ...
+# Subtest: Balanced initializes required allocation and no-media fallback from the same native truth
+ok 31 - Balanced initializes required allocation and no-media fallback from the same native truth
+  ---
+  duration_ms: 11.920569
+  type: 'test'
+  ...
+# Subtest: featured instances produce distinct native form IDs without a second commerce engine
+ok 32 - featured instances produce distinct native form IDs without a second commerce engine
+  ---
+  duration_ms: 19.911113
+  type: 'test'
+  ...
+# Subtest: native filters preserve active unavailable values, range numbers and sort identity
+ok 33 - native filters preserve active unavailable values, range numbers and sort identity
+  ---
+  duration_ms: 4.477425
+  type: 'test'
+  ...
+1..33
+# tests 33
+# suites 0
+# pass 33
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 300.359316
