@@ -1,0 +1,1 @@
+{% if variant == nil %}<p>{{ 'product.unavailable' | t }}</p>{% elsif variant.available %}<p>{{ 'product.available' | t }}</p>{% else %}<p>{{ 'product.sold_out' | t }}</p>{% endif %}

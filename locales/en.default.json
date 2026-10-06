@@ -1,0 +1,118 @@
+{
+  "general": {
+    "skip": "Skip to content",
+    "country": "Country/region",
+    "language": "Language",
+    "apply": "Apply",
+    "view_all": "View all {{ title }}",
+    "menu": "Menu",
+    "navigation": "Main navigation",
+    "footer_navigation": "Footer navigation",
+    "search": "Search",
+    "newsletter": "Email updates",
+    "email": "Email",
+    "name": "Name",
+    "subscribed": "You have subscribed.",
+    "subscribe": "Subscribe",
+    "social": "Social media",
+    "no_media": "No media available",
+    "pagination": "Pagination",
+    "continue": "Continue shopping",
+    "shop": "Shop products",
+    "not_found": "Page not found",
+    "home": "Home",
+    "password": "Password",
+    "enter": "Enter",
+    "account": "Account"
+  },
+  "product": {
+    "regular_price": "Regular price",
+    "sale_price": "Sale price",
+    "unavailable": "Unavailable",
+    "available": "Available",
+    "sold_out": "Sold out",
+    "quantity": "Quantity",
+    "quantity_rule": "Minimum {{ minimum }}; increments of {{ increment }}.",
+    "quantity_max": "Maximum {{ maximum }}.",
+    "purchase_option": "Purchase option",
+    "one_time": "One-time purchase",
+    "plan_help": "Apply your purchase option to update the price before adding to cart.",
+    "plan_unavailable": "No eligible purchase plan is available for this selection.",
+    "add": "Add to cart",
+    "tax_included": "Tax included.",
+    "pickup": "Store pickup",
+    "pickup_unavailable": "Pickup unavailable",
+    "choose": "Choose a product in this section.",
+    "from": "From {{ price }}",
+    "unit_for": "Unit price for {{ title }}",
+    "model_file": "Open 3D model file"
+  },
+  "gift": {
+    "recipient": "Gift recipient",
+    "send_recipient": "Send this gift card to a recipient",
+    "recipient_name": "Recipient name (optional)",
+    "message": "Message (optional)",
+    "recipient_help": "Enter an email when sending to a recipient. Recipient gifts use Add to cart, not accelerated checkout.",
+    "title": "Gift card",
+    "balance": "Remaining balance",
+    "disabled": "This gift card is disabled.",
+    "expired": "This gift card has expired.",
+    "expires": "Expires",
+    "code": "Gift card code",
+    "use": "Use this code at checkout.",
+    "wallet": "Add to Apple Wallet",
+    "unavailable": "This gift card is unavailable."
+  },
+  "collection": {
+    "min_price": "Minimum price",
+    "max_price": "Maximum price",
+    "sort": "Sort by",
+    "clear": "Clear filters",
+    "empty": "No products found.",
+    "title": "Collections"
+  },
+  "cart": {
+    "title": "Cart",
+    "count": {
+      "one": "{{ count }} item",
+      "other": "{{ count }} items"
+    },
+    "empty": "Your cart is empty.",
+    "items": "Cart items",
+    "file": "View uploaded file",
+    "line_total": "Line total",
+    "remove": "Remove {{ title }}",
+    "note": "Order note",
+    "update": "Update cart",
+    "subtotal": "Subtotal",
+    "tax_included": "Taxes included. Shipping calculated at checkout.",
+    "tax_shipping": "Taxes and shipping calculated at checkout.",
+    "checkout": "Checkout",
+    "error": "The cart could not be updated. Please try again."
+  },
+  "search": {
+    "unavailable": "Suggestions are unavailable. Submit the search to see results.",
+    "help": "Search products and content. Suggestions appear after typing; use Tab to visit them.",
+    "suggestions": "Search suggestions",
+    "results": {
+      "one": "{{ count }} result for \u201c{{ terms }}\u201d",
+      "other": "{{ count }} results for \u201c{{ terms }}\u201d"
+    },
+    "empty": "No results found."
+  },
+  "contact": {
+    "title": "Contact",
+    "success": "Your message was sent.",
+    "message": "Message",
+    "send": "Send message"
+  },
+  "blog": {
+    "empty": "No articles yet.",
+    "comments": "Comments",
+    "comment_success": "Your comment was submitted. It may require moderation.",
+    "post": "Post comment"
+  },
+  "date_formats": {
+    "date": "%B %d, %Y"
+  }
+}

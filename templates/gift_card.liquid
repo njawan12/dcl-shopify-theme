@@ -1,0 +1,14 @@
+{% layout none %}
+<!doctype html><html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{{ 'gift.title' | t }} — {{ shop.name | escape }}</title>{% render 'theme-tokens' %}{{ 'base.css' | asset_url | stylesheet_tag }}{{ content_for_header }}
+<script src="{{ 'vendor/qrcode.js' | shopify_asset_url }}" defer></script><script src="{{ 'gift-card.js' | asset_url }}" type="module"></script></head>
+<body><a class="skip-link" href="#MainContent">{{ 'general.skip' | t }}</a><main id="MainContent" tabindex="-1" class="page-width reading-width section-space"><h1>{{ shop.name | escape }} — {{ 'gift.title' | t }}</h1>
+  {% if settings.logo %}{{ settings.logo | image_url: width: 400 | image_tag: widths: '200,400', sizes: '200px', alt: shop.name, class: 'gift-logo' }}{% endif %}
+  {% if gift_card %}
+  <h2>{{ gift_card.initial_value | money_with_currency }}</h2><p>{{ 'gift.balance' | t }} {{ gift_card.balance | money_with_currency }}</p>
+  {% unless gift_card.enabled %}<p>{{ 'gift.disabled' | t }}</p>{% endunless %}{% if gift_card.expired %}<p>{{ 'gift.expired' | t }}</p>{% elsif gift_card.expires_on %}<p>{{ 'gift.expires' | t }} {{ gift_card.expires_on | date: format: 'date' }}</p>{% endif %}
+  <label for="GiftCode">{{ 'gift.code' | t }}</label><input id="GiftCode" value="{{ gift_card.code | escape }}" readonly>
+  <p>{{ 'gift.use' | t }}</p><div id="GiftQR" data-qr="{{ gift_card.qr_identifier | escape }}" aria-hidden="true"></div>
+  <a href="{{ shop.url }}">{{ 'general.shop' | t }}</a>
+  {% if gift_card.pass_url %}<a href="{{ gift_card.pass_url }}"><img src="{{ 'gift-card/add-to-apple-wallet.svg' | shopify_asset_url }}" width="120" height="40" alt="{{ 'gift.wallet' | t }}"></a>{% endif %}
+{% else %}<p>{{ 'gift.unavailable' | t }}</p>{% endif %}
+</main></body></html>

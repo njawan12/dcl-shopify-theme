@@ -1,0 +1,28 @@
+{% liquid
+  assign purchasable = false
+  if variant.available
+    assign purchasable = true
+  endif
+  if product.requires_selling_plan or variant.requires_selling_plan
+    unless allocation
+      assign purchasable = false
+    endunless
+  endif
+  if product.selected_selling_plan and allocation == nil
+    assign purchasable = false
+  endif
+  assign recipient_mode = false
+  if product.gift_card? and block.settings.recipient
+    assign recipient_mode = true
+  endif
+%}
+{% form 'product', product, id: form_id, class: 'product-form' %}
+  {{ form.errors | default_errors }}
+  <input type="hidden" name="id" value="{{ variant.id }}" {% unless purchasable %}disabled{% endunless %}>
+  {% unless has_quantity %}<input type="hidden" name="quantity" value="{{ variant.quantity_rule.min | default: 1 }}">{% endunless %}
+  {% if allocation %}<input type="hidden" name="selling_plan" value="{{ allocation.selling_plan.id }}">{% endif %}
+  {% if recipient_mode %}{% render 'gift-recipient', form: form, section: section %}{% endif %}
+  <button type="submit" name="add" {% unless purchasable %}disabled{% endunless %}>{% if purchasable %}{{ 'product.add' | t }}{% elsif variant == nil %}{{ 'product.unavailable' | t }}{% elsif variant.available %}{{ 'product.plan_unavailable' | t }}{% else %}{{ 'product.sold_out' | t }}{% endif %}</button>
+  {% if block.settings.dynamic_checkout and purchasable and recipient_mode == false %}{{ form | payment_button }}{% endif %}
+  {{ form | payment_terms }}
+{% endform %}

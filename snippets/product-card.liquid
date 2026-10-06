@@ -1,0 +1,7 @@
+{% assign card_alt = product.featured_media.alt | default: product.title %}
+<article class="product-card">
+  <a href="{{ product.url }}">{% render 'image', image: product.featured_media.preview_image, alt: card_alt, sizes: '(min-width: 990px) 25vw, (min-width: 600px) 33vw, 50vw', eager: false %}<h3>{{ product.title | escape }}</h3></a>
+  {% if product.price_varies %}<p>{% assign from_price = product.price_min | money_with_currency %}{{ 'product.from' | t: price: from_price }}</p>{% else %}{% render 'price', variant: product.selected_or_first_available_variant %}{% endif %}
+  {% if product.price_varies and product.selected_or_first_available_variant.unit_price %}<p>{{ 'product.unit_for' | t: title: product.selected_or_first_available_variant.title }}</p>{% render 'unit-price', item: product.selected_or_first_available_variant %}{% endif %}
+  {% unless product.available %}<p>{{ 'product.sold_out' | t }}</p>{% endunless %}
+</article>

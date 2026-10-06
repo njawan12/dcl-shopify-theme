@@ -1,0 +1,98 @@
+{% render 'product-surface', product: product, section: section, primary: true %}
+{% schema %}
+{
+  "name": "t:sections.product",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "title",
+      "name": "t:blocks.title",
+      "limit": 1,
+      "settings": []
+    },
+    {
+      "type": "vendor",
+      "name": "t:blocks.vendor",
+      "limit": 1,
+      "settings": []
+    },
+    {
+      "type": "price",
+      "name": "t:blocks.price",
+      "limit": 1,
+      "settings": []
+    },
+    {
+      "type": "options",
+      "name": "t:blocks.options",
+      "limit": 1,
+      "settings": []
+    },
+    {
+      "type": "plans",
+      "name": "t:blocks.plans",
+      "limit": 1,
+      "settings": []
+    },
+    {
+      "type": "quantity",
+      "name": "t:blocks.quantity",
+      "limit": 1,
+      "settings": []
+    },
+    {
+      "type": "buy",
+      "name": "t:blocks.buy",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "dynamic_checkout",
+          "label": "t:settings.dynamic_checkout",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "recipient",
+          "label": "t:settings.recipient",
+          "default": true
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "name": "t:blocks.description",
+      "limit": 1,
+      "settings": []
+    },
+    {
+      "type": "pickup",
+      "name": "t:blocks.pickup",
+      "limit": 1,
+      "settings": []
+    },
+    {
+      "type": "liquid",
+      "name": "t:blocks.liquid",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "content",
+          "label": "t:settings.content"
+        }
+      ]
+    },
+    {
+      "type": "@app"
+    }
+  ],
+  "max_blocks": 15,
+  "disabled_on": {
+    "groups": [
+      "header",
+      "footer"
+    ]
+  }
+}
+{% endschema %}

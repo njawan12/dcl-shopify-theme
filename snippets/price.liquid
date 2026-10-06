@@ -1,0 +1,19 @@
+{% liquid
+  assign amount = variant.price
+  assign compare = variant.compare_at_price
+  assign unit_item = variant
+  if allocation
+    assign amount = allocation.price
+    assign compare = allocation.compare_at_price
+    assign unit_item = allocation
+  endif
+%}
+{% if variant %}
+  <div class="price">
+    {% if compare > amount %}<span class="visually-hidden">{{ 'product.regular_price' | t }}</span><s>{{ compare | money_with_currency }}</s><span class="visually-hidden">{{ 'product.sale_price' | t }}</span>{% endif %}
+    <span>{{ amount | money_with_currency }}</span>
+    {% if allocation and allocation.unit_price %}
+      <small>{{ allocation.unit_price | money_with_currency }} / {% unless variant.unit_price_measurement.reference_value == 1 %}{{ variant.unit_price_measurement.reference_value }}{% endunless %}{{ variant.unit_price_measurement.reference_unit }}</small>
+    {% else %}{% render 'unit-price', item: unit_item %}{% endif %}
+  </div>
+{% endif %}

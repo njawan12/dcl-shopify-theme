@@ -1,0 +1,9 @@
+{%- liquid
+  assign language = request.locale.iso_code | split: '-' | first
+  assign rtl_languages = 'ar,he,fa,ur' | split: ','
+  if rtl_languages contains language
+    echo 'rtl'
+  else
+    echo 'ltr'
+  endif
+-%}

@@ -1,0 +1,3 @@
+{% if item.unit_price and item.unit_price_measurement %}
+  <small class="unit-price">{{ item.unit_price | money_with_currency }} / {% unless item.unit_price_measurement.reference_value == 1 %}{{ item.unit_price_measurement.reference_value }}{% endunless %}{{ item.unit_price_measurement.reference_unit | escape }}</small>
+{% endif %}

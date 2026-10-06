@@ -1,0 +1,229 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Living Canvas",
+    "theme_version": "0.1.0",
+    "theme_author": "DCL",
+    "theme_documentation_url": "https://github.com/njawan12/dcl-shopify-theme",
+    "theme_support_url": "https://github.com/njawan12/dcl-shopify-theme/issues"
+  },
+  {
+    "name": "t:sections.brand",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "t:settings.logo"
+      },
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "t:settings.favicon"
+      },
+      {
+        "type": "font_picker",
+        "id": "font_body",
+        "label": "t:settings.font_body",
+        "default": "assistant_n4"
+      },
+      {
+        "type": "font_picker",
+        "id": "font_heading",
+        "label": "t:settings.font_heading",
+        "default": "assistant_n4"
+      },
+      {
+        "type": "select",
+        "id": "type_scale",
+        "label": "t:settings.type_scale",
+        "default": "standard",
+        "options": [
+          {
+            "value": "compact",
+            "label": "t:options.compact"
+          },
+          {
+            "value": "standard",
+            "label": "t:options.standard"
+          },
+          {
+            "value": "expressive",
+            "label": "t:options.expressive"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "t:sections.color",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:settings.scheme_1"
+      },
+      {
+        "type": "color",
+        "id": "background_1",
+        "label": "t:settings.background",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "color",
+        "id": "foreground_1",
+        "label": "t:settings.foreground",
+        "default": "#202020"
+      },
+      {
+        "type": "header",
+        "content": "t:settings.scheme_2"
+      },
+      {
+        "type": "color",
+        "id": "background_2",
+        "label": "t:settings.background",
+        "default": "#F4F4F0"
+      },
+      {
+        "type": "color",
+        "id": "foreground_2",
+        "label": "t:settings.foreground",
+        "default": "#202020"
+      },
+      {
+        "type": "header",
+        "content": "t:settings.scheme_3"
+      },
+      {
+        "type": "color",
+        "id": "background_3",
+        "label": "t:settings.background",
+        "default": "#202020"
+      },
+      {
+        "type": "color",
+        "id": "foreground_3",
+        "label": "t:settings.foreground",
+        "default": "#FFFFFF"
+      },
+      {
+        "type": "header",
+        "content": "t:settings.scheme_4"
+      },
+      {
+        "type": "color",
+        "id": "background_4",
+        "label": "t:settings.background",
+        "default": "#E8EEE8"
+      },
+      {
+        "type": "color",
+        "id": "foreground_4",
+        "label": "t:settings.foreground",
+        "default": "#202020"
+      },
+      {
+        "type": "color",
+        "id": "accent",
+        "label": "t:settings.accent",
+        "default": "#245438"
+      }
+    ]
+  },
+  {
+    "name": "t:sections.layout",
+    "settings": [
+      {
+        "type": "select",
+        "id": "page_width",
+        "label": "t:settings.page_width",
+        "default": "standard",
+        "options": [
+          {
+            "value": "compact",
+            "label": "t:options.compact"
+          },
+          {
+            "value": "standard",
+            "label": "t:options.standard"
+          },
+          {
+            "value": "wide",
+            "label": "t:options.wide"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "rhythm",
+        "label": "t:settings.rhythm",
+        "default": "comfortable",
+        "options": [
+          {
+            "value": "compact",
+            "label": "t:options.compact"
+          },
+          {
+            "value": "comfortable",
+            "label": "t:options.comfortable"
+          },
+          {
+            "value": "spacious",
+            "label": "t:options.spacious"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "radius",
+        "label": "t:settings.radius",
+        "default": "soft",
+        "options": [
+          {
+            "value": "square",
+            "label": "t:options.square"
+          },
+          {
+            "value": "soft",
+            "label": "t:options.soft"
+          },
+          {
+            "value": "round",
+            "label": "t:options.round"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "border",
+        "label": "t:settings.border",
+        "default": "quiet",
+        "options": [
+          {
+            "value": "quiet",
+            "label": "t:options.quiet"
+          },
+          {
+            "value": "defined",
+            "label": "t:options.defined"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "motion",
+        "label": "t:settings.motion",
+        "default": "respect",
+        "options": [
+          {
+            "value": "respect",
+            "label": "t:options.respect"
+          },
+          {
+            "value": "none",
+            "label": "t:options.none"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+<div class="page-width section-space">
+  <h1>{{ 'general.search' | t }}</h1>{% render 'search-form', section: section %}
+  {% if search.performed %}
+    <h2>{{ 'search.results' | t: count: search.results_count, terms: search.terms }}</h2>
+    {% paginate search.results by 24 %}
+      <div class="product-grid">{% for result in search.results %}{% if result.object_type == 'product' %}{% render 'product-card', product: result %}{% else %}<article><h3><a href="{{ result.url }}">{{ result.title | escape }}</a></h3></article>{% endif %}{% else %}<p>{{ 'search.empty' | t }}</p>{% endfor %}</div>
+      {% render 'pagination', paginate: paginate %}
+    {% endpaginate %}
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.search",
+  "settings": []
+}
+{% endschema %}

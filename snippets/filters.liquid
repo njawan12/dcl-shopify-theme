@@ -1,0 +1,17 @@
+<form method="get" action="{{ collection.url }}" class="filters">
+  {% for filter in collection.filters %}
+    <details><summary>{{ filter.label | escape }} ({{ filter.active_values.size }})</summary>
+      {% case filter.type %}
+        {% when 'list', 'boolean' %}
+          <ul>{% for value in filter.values %}<li><label><input type="checkbox" name="{{ value.param_name }}" value="{{ value.value }}" {% if value.active %}checked{% elsif value.count == 0 %}disabled{% endif %}>{{ value.label | escape }} ({{ value.count }})</label></li>{% endfor %}</ul>
+        {% when 'price_range' %}
+          <label for="Min-{{ section.id }}">{{ 'collection.min_price' | t }}</label><input id="Min-{{ section.id }}" type="number" min="0" step="0.01" name="{{ filter.min_value.param_name }}" {% if filter.min_value.value %}value="{{ filter.min_value.value | divided_by: 100.0 }}"{% endif %}>
+          <label for="Max-{{ section.id }}">{{ 'collection.max_price' | t }}</label><input id="Max-{{ section.id }}" type="number" min="0" step="0.01" name="{{ filter.max_value.param_name }}" {% if filter.max_value.value %}value="{{ filter.max_value.value | divided_by: 100.0 }}"{% endif %}>
+      {% endcase %}
+    </details>
+  {% endfor %}
+  <label for="Sort-{{ section.id }}">{{ 'collection.sort' | t }}</label>
+  {% assign sort_by = collection.sort_by | default: collection.default_sort_by %}
+  <select id="Sort-{{ section.id }}" name="sort_by">{% for option in collection.sort_options %}<option value="{{ option.value }}" {% if sort_by == option.value %}selected{% endif %}>{{ option.name | escape }}</option>{% endfor %}</select>
+  <button>{{ 'general.apply' | t }}</button><a href="{{ collection.url }}">{{ 'collection.clear' | t }}</a>
+</form>

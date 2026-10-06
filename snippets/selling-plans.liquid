@@ -1,0 +1,12 @@
+{% if variant.selling_plan_allocations.size > 0 %}
+  <form method="get" action="{{ product.url }}">
+    <input type="hidden" name="variant" value="{{ variant.id }}">
+    <label for="Plan-{{ section.id }}">{{ 'product.purchase_option' | t }}</label>
+    <select name="selling_plan" id="Plan-{{ section.id }}">
+      {% unless product.requires_selling_plan or variant.requires_selling_plan %}<option value="" {% unless allocation %}selected{% endunless %}>{{ 'product.one_time' | t }}</option>{% endunless %}
+      {% for item in variant.selling_plan_allocations %}<option value="{{ item.selling_plan.id }}" {% if allocation.selling_plan.id == item.selling_plan.id %}selected{% endif %}>{{ item.selling_plan.name | escape }} — {{ item.price | money_with_currency }}</option>{% endfor %}
+    </select>
+    <button>{{ 'general.apply' | t }}</button>
+    <p>{{ 'product.plan_help' | t }}</p>
+  </form>
+{% elsif product.requires_selling_plan or variant.requires_selling_plan %}<p>{{ 'product.plan_unavailable' | t }}</p>{% endif %}

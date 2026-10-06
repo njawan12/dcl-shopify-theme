@@ -1,0 +1,58 @@
+{% liquid
+  assign heading_scale = '2.4rem'
+  if settings.type_scale == 'compact'
+    assign heading_scale = '2rem'
+  elsif settings.type_scale == 'expressive'
+    assign heading_scale = '3rem'
+  endif
+  assign page_width = '78rem'
+  if settings.page_width == 'compact'
+    assign page_width = '64rem'
+  elsif settings.page_width == 'wide'
+    assign page_width = '90rem'
+  endif
+  assign rhythm = '2rem'
+  if settings.rhythm == 'compact'
+    assign rhythm = '1rem'
+  elsif settings.rhythm == 'spacious'
+    assign rhythm = '3rem'
+  endif
+  assign radius = '0.4rem'
+  if settings.radius == 'square'
+    assign radius = '0'
+  elsif settings.radius == 'round'
+    assign radius = '1rem'
+  endif
+  assign border_width = '1px'
+  if settings.border == 'defined'
+    assign border_width = '2px'
+  endif
+%}
+{% style %}
+  {{ settings.font_body | font_face: font_display: 'swap' }}
+  {{ settings.font_body | font_modify: 'weight', 'bold' | font_face: font_display: 'swap' }}
+  {{ settings.font_body | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }}
+  {{ settings.font_body | font_modify: 'weight', 'bold' | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }}
+  {{ settings.font_heading | font_face: font_display: 'swap' }}
+  {{ settings.font_heading | font_modify: 'weight', 'bold' | font_face: font_display: 'swap' }}
+  {{ settings.font_heading | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }}
+  {{ settings.font_heading | font_modify: 'weight', 'bold' | font_modify: 'style', 'italic' | font_face: font_display: 'swap' }}
+  :root {
+    --font-body: {{ settings.font_body.family }}, {{ settings.font_body.fallback_families }};
+    --font-heading: {{ settings.font_heading.family }}, {{ settings.font_heading.fallback_families }};
+    --font-weight: {{ settings.font_body.weight }};
+    --heading-weight: {{ settings.font_heading.weight }};
+    --heading-scale: {{ heading_scale }};
+    --page-width: {{ page_width }};
+    --rhythm: {{ rhythm }};
+    --radius: {{ radius }};
+    --border-width: {{ border_width }};
+    --accent: {{ settings.accent }};
+    {% for i in (1..4) %}
+      {% assign bg_key = 'background_' | append: i %}
+      {% assign fg_key = 'foreground_' | append: i %}
+      --background-{{ i }}: {{ settings[bg_key] }};
+      --foreground-{{ i }}: {{ settings[fg_key] }};
+    {% endfor %}
+  }
+{% endstyle %}

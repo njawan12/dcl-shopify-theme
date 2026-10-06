@@ -1,0 +1,17 @@
+<article class="page-width reading-width section-space"><h1>{{ article.title | escape }}</h1><p>{{ article.author | escape }} · <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: format: 'date' }}</time></p>
+{% if article.image %}{% render 'image', image: article.image, alt: article.image.alt, sizes: '(min-width: 750px) 65ch, 100vw', eager: true %}{% endif %}
+<div class="rich-text">{{ article.content }}</div>
+{% if blog.comments_enabled? %}<h2>{{ 'blog.comments' | t }}</h2>{% paginate article.comments by 10 %}{% for comment in article.comments %}<article><h3>{{ comment.author | escape }}</h3>{{ comment.content }}</article>{% endfor %}{% render 'pagination', paginate: paginate %}{% endpaginate %}
+  {% assign comment_id = 'Comment-' | append: section.id %}{% form 'new_comment', article, id: comment_id %}{{ form.errors | default_errors }}{% if form.posted_successfully? %}<p role="status">{{ 'blog.comment_success' | t }}</p>{% endif %}
+    <label for="CommentName-{{ section.id }}">{{ 'general.name' | t }}</label><input id="CommentName-{{ section.id }}" name="comment[author]" value="{{ form.author | escape }}" required>
+    <label for="CommentEmail-{{ section.id }}">{{ 'general.email' | t }}</label><input id="CommentEmail-{{ section.id }}" name="comment[email]" type="email" value="{{ form.email | escape }}" required>
+    <label for="CommentBody-{{ section.id }}">{{ 'contact.message' | t }}</label><textarea id="CommentBody-{{ section.id }}" name="comment[body]" required>{{ form.body | escape }}</textarea><button>{{ 'blog.post' | t }}</button>
+  {% endform %}
+{% endif %}</article>
+
+{% schema %}
+{
+  "name": "t:sections.article",
+  "settings": []
+}
+{% endschema %}

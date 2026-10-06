@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}" data-motion="{{ settings.motion }}">
+  <head>
+    <meta charset="utf-8">
+    {% render 'meta-tags' %}
+    {% render 'theme-tokens' %}
+    {{ 'base.css' | asset_url | stylesheet_tag }}
+    <script type="module" src="{{ 'navigation.js' | asset_url }}"></script>
+    {{ content_for_header }}
+  </head>
+  <body>
+    <a class="skip-link" href="#MainContent">{{ 'general.skip' | t }}</a>
+    {% sections 'header-group' %}
+    <main id="MainContent" tabindex="-1">{{ content_for_layout }}</main>
+    {% sections 'footer-group' %}
+  </body>
+</html>
