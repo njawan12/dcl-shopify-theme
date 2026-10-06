@@ -1,0 +1,18 @@
+<div class="page-width section-space">{{ section.settings.content }}</div>
+{% schema %}
+{
+  "name": "t:sections.custom_liquid",
+  "settings": [
+    {
+      "type": "liquid",
+      "id": "content",
+      "label": "t:settings.content"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.custom_liquid"
+    }
+  ]
+}
+{% endschema %}

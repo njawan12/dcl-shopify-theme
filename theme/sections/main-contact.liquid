@@ -1,0 +1,16 @@
+<div class="page-width reading-width section-space"><h1>{% if page.title != blank %}{{ page.title | escape }}{% else %}{{ 'contact.title' | t }}{% endif %}</h1><div class="rich-text">{{ page.content }}</div>
+{% assign contact_id = 'Contact-' | append: section.id %}
+{% form 'contact', id: contact_id %}
+  {{ form.errors | default_errors }}{% if form.posted_successfully? %}<p role="status">{{ 'contact.success' | t }}</p>{% endif %}
+  <label for="ContactName-{{ section.id }}">{{ 'general.name' | t }}</label><input id="ContactName-{{ section.id }}" name="contact[name]" autocomplete="name" value="{{ form.name | escape }}" required>
+  <label for="ContactEmail-{{ section.id }}">{{ 'general.email' | t }}</label><input id="ContactEmail-{{ section.id }}" name="contact[email]" type="email" autocomplete="email" value="{{ form.email | escape }}" required>
+  <label for="ContactBody-{{ section.id }}">{{ 'contact.message' | t }}</label><textarea id="ContactBody-{{ section.id }}" name="contact[body]" required>{{ form.body | escape }}</textarea>
+  <button>{{ 'contact.send' | t }}</button>
+{% endform %}</div>
+
+{% schema %}
+{
+  "name": "t:sections.contact",
+  "settings": []
+}
+{% endschema %}

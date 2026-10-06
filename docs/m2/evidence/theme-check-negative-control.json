@@ -1,0 +1,1 @@
+[{"path":"/private/tmp/m2a-check-negative/layout/theme.liquid","offenses":[{"check":"MissingTemplate","severity":"error","start_row":0,"start_column":10,"end_row":0,"end_column":34,"message":"'snippets/definitely-missing-m2a.liquid' does not exist"}],"errorCount":1,"warningCount":0,"infoCount":0}]

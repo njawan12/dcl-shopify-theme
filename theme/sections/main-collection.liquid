@@ -1,0 +1,16 @@
+<div class="page-width section-space">
+  <h1>{{ collection.title | escape }}</h1><div class="rich-text">{{ collection.description }}</div>
+  {% if collection.image %}{% render 'image', image: collection.image, alt: collection.image.alt, sizes: '100vw', eager: true %}{% endif %}
+  {% render 'filters', collection: collection, section: section %}
+  {% paginate collection.products by 24 %}
+    <div class="product-grid">{% for product in collection.products %}{% render 'product-card', product: product %}{% else %}<p>{{ 'collection.empty' | t }}</p>{% endfor %}</div>
+    {% render 'pagination', paginate: paginate %}
+  {% endpaginate %}
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.collection",
+  "settings": []
+}
+{% endschema %}

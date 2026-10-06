@@ -1,0 +1,50 @@
+{% if product != blank %}
+  {% liquid
+    assign variant = product.selected_or_first_available_variant
+    assign allocation = variant.selected_selling_plan_allocation
+    if product.requires_selling_plan or variant.requires_selling_plan
+      unless product.selected_selling_plan
+        assign allocation = variant.selling_plan_allocations.first
+      endunless
+    endif
+    assign form_id = 'ProductForm-' | append: section.id
+    assign has_quantity = false
+    for b in section.blocks
+      if b.type == 'quantity'
+        assign has_quantity = true
+      endif
+    endfor
+    assign chosen_media = variant.featured_media | default: product.featured_media
+  %}
+  <div class="page-width section-space balanced-product" data-product-id="{{ product.id }}">
+    <div class="product-gallery">
+      {% if chosen_media %}{% render 'product-media', media: chosen_media, product: product, section: section, eager: primary %}{% endif %}
+      {% for media in product.media %}{% unless media.id == chosen_media.id %}{% render 'product-media', media: media, product: product, section: section, eager: false %}{% endunless %}{% endfor %}
+      {% if product.media.size == 0 %}<div class="media-placeholder">{{ 'general.no_media' | t }}</div>{% endif %}
+    </div>
+    <div class="product-content">
+      {% for block in section.blocks %}
+        {% if block.type == '@app' %}<div class="app-host">{% render block %}</div>{% else %}
+          <div class="product-block" {{ block.shopify_attributes }}>
+            {% case block.type %}
+              {% when 'title' %}{% if primary %}<h1>{{ product.title | escape }}</h1>{% else %}<h2><a href="{{ product.url }}">{{ product.title | escape }}</a></h2>{% endif %}
+              {% when 'vendor' %}{% if product.vendor != blank %}<p>{{ product.vendor | escape }}</p>{% endif %}
+              {% when 'price' %}{% render 'price', variant: variant, allocation: allocation %}{% render 'availability', variant: variant %}{% if cart.taxes_included %}<p>{{ 'product.tax_included' | t }}</p>{% endif %}
+              {% when 'description' %}<div class="rich-text">{{ product.description }}</div>
+              {% when 'options' %}{% render 'variant-options', product: product %}
+              {% when 'quantity' %}{% render 'quantity', variant: variant, section: section, form_id: form_id %}
+              {% when 'plans' %}{% render 'selling-plans', variant: variant, product: product, allocation: allocation, section: section %}
+              {% when 'buy' %}{% render 'product-form', product: product, variant: variant, allocation: allocation, form_id: form_id, has_quantity: has_quantity, block: block, section: section %}
+              {% when 'pickup' %}
+                {% if variant.available %}{% assign pickups = variant.store_availabilities | where: 'pick_up_enabled', true %}{% if pickups.size > 0 %}<div><h3>{{ 'product.pickup' | t }}</h3>{% for pickup in pickups %}<p>{{ pickup.location.name | escape }} — {% if pickup.available %}{{ pickup.pick_up_time | escape }}{% else %}{{ 'product.pickup_unavailable' | t }}{% endif %}</p>{% endfor %}</div>{% endif %}{% endif %}
+              {% when 'liquid' %}{{ block.settings.content }}
+            {% endcase %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  {% assign models = product.media | where: 'media_type', 'model' %}
+  {% if models.size > 0 %}<script type="module" src="{{ 'media.js' | asset_url }}"></script>{% endif %}
+  {% if primary %}<script type="application/ld+json">{{ product | structured_data }}</script>{% endif %}
+{% elsif request.design_mode %}<div class="page-width section-space"><p>{{ 'product.choose' | t }}</p></div>{% endif %}

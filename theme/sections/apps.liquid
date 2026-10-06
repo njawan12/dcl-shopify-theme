@@ -1,0 +1,18 @@
+<div class="page-width section-space app-host">{% for block in section.blocks %}{% render block %}{% endfor %}</div>
+
+{% schema %}
+{
+  "name": "t:sections.apps",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.apps"
+    }
+  ]
+}
+{% endschema %}

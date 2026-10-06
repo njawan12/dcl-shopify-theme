@@ -1,0 +1,14 @@
+{
+  "name": "m2-production-foundation-validation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test liquid.test.mjs cart.test.mjs",
+    "test:browser": "node browser.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "liquidjs": "10.30.0",
+    "playwright": "1.62.1"
+  }
+}

@@ -1,0 +1,8 @@
+<div class="page-width section-space"><h1>{{ 'collection.title' | t }}</h1>{% paginate collections by 24 %}<div class="product-grid">{% for collection in collections %}<article><a href="{{ collection.url }}">{% render 'image', image: collection.featured_image, alt: collection.featured_image.alt, sizes: '(min-width: 750px) 33vw, 50vw' %}<h2>{{ collection.title | escape }}</h2></a></article>{% else %}<p>{{ 'collection.empty' | t }}</p>{% endfor %}</div>{% render 'pagination', paginate: paginate %}{% endpaginate %}</div>
+
+{% schema %}
+{
+  "name": "t:sections.collections",
+  "settings": []
+}
+{% endschema %}

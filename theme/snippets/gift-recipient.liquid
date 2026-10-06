@@ -1,0 +1,7 @@
+<fieldset><legend>{{ 'gift.recipient' | t }}</legend>
+  <label for="RecipientOpt-{{ section.id }}"><input id="RecipientOpt-{{ section.id }}" name="properties[__shopify_send_gift_card_to_recipient]" type="checkbox" value="true">{{ 'gift.send_recipient' | t }}</label>
+  <label for="RecipientEmail-{{ section.id }}">{{ 'general.email' | t }}</label><input id="RecipientEmail-{{ section.id }}" type="email" name="properties[Recipient email]" value="{{ form.email | escape }}">
+  <label for="RecipientName-{{ section.id }}">{{ 'gift.recipient_name' | t }}</label><input id="RecipientName-{{ section.id }}" name="properties[Recipient name]" maxlength="255">
+  <label for="RecipientMessage-{{ section.id }}">{{ 'gift.message' | t }}</label><textarea id="RecipientMessage-{{ section.id }}" name="properties[Message]" maxlength="200"></textarea>
+  <p>{{ 'gift.recipient_help' | t }}</p>
+</fieldset>

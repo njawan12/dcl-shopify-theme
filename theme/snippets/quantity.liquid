@@ -1,0 +1,4 @@
+{% assign minimum = variant.quantity_rule.min | default: 1 %}
+<label for="Quantity-{{ section.id }}">{{ 'product.quantity' | t }}</label>
+<input id="Quantity-{{ section.id }}" type="number" name="quantity" form="{{ form_id }}" min="{{ minimum }}" {% if variant.quantity_rule.max %}max="{{ variant.quantity_rule.max }}"{% endif %} step="{{ variant.quantity_rule.increment | default: 1 }}" value="{{ minimum }}" required {% unless variant %}disabled{% endunless %}>
+<p class="muted">{% assign increment = variant.quantity_rule.increment | default: 1 %}{{ 'product.quantity_rule' | t: minimum: minimum, increment: increment }}{% if variant.quantity_rule.max %} {{ 'product.quantity_max' | t: maximum: variant.quantity_rule.max }}{% endif %}</p>

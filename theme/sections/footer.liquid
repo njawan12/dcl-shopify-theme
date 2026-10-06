@@ -1,0 +1,49 @@
+<footer class="scheme-2 section-space">
+  <div class="page-width footer-grid">
+    <nav aria-label="{{ 'general.footer_navigation' | t }}">{% render 'navigation-links', menu: section.settings.menu %}</nav>
+    <div>
+      {% assign newsletter_id = 'Newsletter-' | append: section.id %}
+      {% form 'customer', id: newsletter_id %}
+        <h2>{{ 'general.newsletter' | t }}</h2>
+        {{ form.errors | default_errors }}
+        {% if form.posted_successfully? %}<p role="status">{{ 'general.subscribed' | t }}</p>{% endif %}
+        <input type="hidden" name="contact[tags]" value="newsletter">
+        <label for="Email-{{ section.id }}">{{ 'general.email' | t }}</label>
+        <input id="Email-{{ section.id }}" type="email" name="contact[email]" autocomplete="email" required>
+        <button>{{ 'general.subscribe' | t }}</button>
+      {% endform %}
+      {% render 'localization', location: 'footer' %}
+    </div>
+  </div>
+  <div class="page-width footer-links">
+    {% for policy in shop.policies %}{% if policy.body != blank %}<a href="{{ policy.url }}">{{ policy.title | escape }}</a>{% endif %}{% endfor %}
+    {% if section.settings.social_url != blank %}<a href="{{ section.settings.social_url }}">{% if section.settings.social_label != blank %}{{ section.settings.social_label | escape }}{% else %}{{ 'general.social' | t }}{% endif %}</a>{% endif %}
+    {{ shop | login_button: action: 'follow' }}
+    <small>&copy; {{ 'now' | date: '%Y' }} {{ shop.name | escape }}</small>
+    {{ powered_by_link }}
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "t:sections.footer",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "t:settings.menu",
+      "default": "footer"
+    },
+    {
+      "type": "url",
+      "id": "social_url",
+      "label": "t:settings.social_url"
+    },
+    {
+      "type": "text",
+      "id": "social_label",
+      "label": "t:settings.social_label"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,37 @@
+# M2A closed implementation contract / pre-code red team
+
+2026-10-05. Base ADR commit `5d7396fdd4b4e5fbaa61334852bfc5a37775255e`; original production root `theme/`, branch `m2-production-theme`. Scope: distributable foundation, Balanced PDP/shared featured product, Standard Grid/native card, native cart and required ancillary templates. No imported theme code, preserved-prototype edits, Compact/Editorial/Rail/Anchor Cadence/Guided production implementation. This preflight precedes production files.
+
+## Required spine and bounded controls
+
+Layout/theme; config settings schema/data; JSON404/article/blog/cart/collection/index/list-collections/page/page.contact/password/product/search; gift_card Liquid; header/footer section groups; Custom Liquid everywhere section-supported; generic apps wrapper. Supported directories only; never config/markets.json. Native product/cart/localization/customer/contact/password forms. Global visual decisions stay within19; content/logo/favicon/menu/platform settings counted separately. Main/featured use section-local blocks plus @app, shared snippets; no mixed theme-block hierarchy.
+
+## Commerce and adversarial invariants
+
+| Area | Closed implementation / red-team response |
+|---|---|
+| Canonical truth | Native selected_or_first_available_variant, option-value identities and server-rendered money; no bulk variants enumeration or JavaScript money model. No tuple→first-variant invention. |
+| Option states | Normal/first available/deep-link/sold-out/nonexistent tuple; option-value native links navigate real product URLs. Native full-page option navigation updates every price/media/form region together; no client-side variant transport is necessary. Null variant disables purchase and clears ID; sold-out preserves identity but prevents action. Options never depend on fetch initialization; predictive/cart enhancements abort stale requests. |
+| Selling plans | Native allocation context/selection; required plans cannot silently become one-time. Current plan price/unit/compare data from allocation, hidden submitted plan ID only when selected (or explicitly initialized for plan-required variants); GET native refresh for no-JS correctness. Plan choices invalidated across variant changes. |
+| Quantity | Variant quantity_rule min/max/increment; native number input plus server enforcement. Do not silently preserve an out-of-range quantity or fake inventory certainty. Cart quantities use line identity, not variant ID. |
+| Price | Selected variant/plan price, compare-at only when greater; unit price/base unit; product-card from price only when variable. Tax/currency from Shopify. No invented discount/reviews/urgency. |
+| Gift recipient | Recipient fields/properties follow official contract; optional recipient opt-in, email/message limits and server errors. Recipient mode excludes accelerated checkout; schedule timezone is platform default unless a native enhancement supplies offset. |
+| Native cart | Native POST/update/remove/checkout, unique line keys/properties/plans, original/final/unit/discount prices, notes/subtotal/tax/shipping and checkout errors. No mock transport or atomicity promise. |
+| Dynamic checkout | Platform payment_button/payment_terms and cart additional_checkout_buttons; default enabled where valid; suppress incompatible recipient or invalid/unavailable purchase. Never impersonate branded buttons. |
+| Apps | Main/featured @app dispatch, Custom Liquid block and apps wrapper; optional normal-flow guests; no baked-in demo app or vendor API. Preserve app nodes during owned-region updates. Live installed extensions remain a separate actual test. |
+| Missing data | Missing selected product: truthful editor instruction/empty storefront omission. No-media accessible placeholder, all media ratios reserved/contained; no empty optional headings. Rich text is intentional merchant HTML; other text escaped. |
+| Markets/locales | Native localization forms/lists, routes, localized money and locale keys. Logical CSS and direction are foundations, not certified RTL. No currency conversion or custom markets file. |
+| Editor lifecycle | Scoped native custom elements, disconnect cleanup/abort, block selection and no duplicate global listeners. Header menu is native disclosure without duplicated content or modal focus trap. |
+| No JS | Useful server HTML, navigable option URLs, native plan GET and product/cart POST; no initialization-failure simulation. Live Shopify journey requires an authorized store; local checks do not substitute platform execution. |
+| Accessibility/responsiveness | Labels/IDs/errors/status, native keyboard disclosures, visible focus,44px target design, one DOM source,320px reflow/logical properties/reduced motion/media alternatives. Full AT/zoom/touch certification deferred, never inferred from static assertions. |
+| Performance threats | No framework/Sass/minification/layout JS; option-value rendering avoids250-variant ceiling; responsive CDN images, single main-media priority owner, lazy remaining images/video/model only as needed. Internal gzip budgets remain45KB CSS/25KB global JS/20KB route JS/45KB total. Lighthouse90/95 requires live populated preview, not empty local fixtures. |
+
+## Current official contracts checked before coding
+
+Shopify documentation only; checked2026-10-05: [product](https://shopify.dev/docs/storefronts/themes/architecture/templates/product/overview), [variants/high variant](https://shopify.dev/docs/storefronts/themes/product-merchandising/variants/support-high-variant-products), [option values](https://shopify.dev/docs/api/liquid/objects/product_option_value), [variant](https://shopify.dev/docs/api/liquid/objects/variant), [allocations](https://shopify.dev/docs/api/liquid/objects/selling_plan_allocation), [gift recipient](https://shopify.dev/docs/storefronts/themes/product-merchandising/gift-cards), [cart](https://shopify.dev/docs/storefronts/themes/architecture/templates/cart), [apps](https://shopify.dev/docs/storefronts/themes/architecture/blocks/app-blocks). Foundation official register/ADR govern directories, eligibility and source boundary.
+
+## Red-team closure and validation ownership
+
+Resolved: large product cannot rely on an all-variants JSON blob; selected nonexistent option tuple must remain null. Reorderable blocks must use external form-associated controls without nesting app forms. Gift recipient conflicts with accelerated checkout: explicitly suppress that path in recipient mode. Plan/variant changes must use Shopify-rendered allocation truth, not duplicated JS price calculations. Native link fallback must survive fetch failure. Product options use native navigation rather than partial app-DOM replacement. Full media is rendered, not a first-image-only stub. All these are implementation invariants with focused tests.
+
+Engineering owns real Theme Check, schema/locale/reference/provenance/budget/preservation tests and focused native module state tests. CI repeats pinned checks and browser tests where available, saving results/package artifacts. QA/integration own live store product→cart, Markets/editor/apps/media and accessibility/performance measurements. Missing store authorization is reported precisely as unavailable execution evidence, not an architectural contradiction or fabricated PASS. No known contract contradiction: proceed immediately with implementation. Stop after committed/pushed M2A report with major-area PASS/NARROW/FAIL; no next production layer.

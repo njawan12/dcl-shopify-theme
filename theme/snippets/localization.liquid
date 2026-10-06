@@ -1,0 +1,22 @@
+{% if localization.available_countries.size > 1 or localization.available_languages.size > 1 %}
+  {% assign localization_id = 'Localization-' | append: location | append: section.id %}
+  {% form 'localization', id: localization_id, class: 'localization' %}
+    {% if localization.available_countries.size > 1 %}
+      <label for="Country-{{ localization_id }}">{{ 'general.country' | t }}</label>
+      <select id="Country-{{ localization_id }}" name="country_code">
+        {% for country in localization.available_countries %}
+          <option value="{{ country.iso_code }}" {% if country.iso_code == localization.country.iso_code %}selected{% endif %}>{{ country.name | escape }} ({{ country.currency.iso_code }} {{ country.currency.symbol }})</option>
+        {% endfor %}
+      </select>
+    {% endif %}
+    {% if localization.available_languages.size > 1 %}
+      <label for="Language-{{ localization_id }}">{{ 'general.language' | t }}</label>
+      <select id="Language-{{ localization_id }}" name="language_code">
+        {% for language in localization.available_languages %}
+          <option value="{{ language.iso_code }}" {% if language.iso_code == localization.language.iso_code %}selected{% endif %}>{{ language.endonym_name | escape }}</option>
+        {% endfor %}
+      </select>
+    {% endif %}
+    <button type="submit">{{ 'general.apply' | t }}</button>
+  {% endform %}
+{% endif %}

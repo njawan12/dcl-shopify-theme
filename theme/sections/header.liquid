@@ -1,0 +1,33 @@
+<header class="site-header scheme-1">
+  <div class="page-width header-row">
+    <a href="{{ routes.root_url }}" class="brand">
+      {% if settings.logo %}{{ settings.logo | image_url: width: 400 | image_tag: widths: '100,200,400', sizes: '200px', alt: shop.name, loading: 'eager' }}{% else %}{{ shop.name | escape }}{% endif %}
+    </a>
+    <site-navigation>
+      {% if section.settings.menu.links.size > 0 %}
+      <details><summary>{{ 'general.menu' | t }}</summary><nav aria-label="{{ 'general.navigation' | t }}">{% render 'navigation-links', menu: section.settings.menu %}</nav></details>
+    {% endif %}
+    </site-navigation>
+    <div class="header-actions">
+      <a href="{{ routes.search_url }}">{{ 'general.search' | t }}</a>
+      <a href="{{ routes.cart_url }}">{{ 'cart.title' | t }} <span aria-label="{{ 'cart.count' | t: count: cart.item_count }}">({{ cart.item_count }})</span></a>
+      <shopify-account></shopify-account>
+      <noscript><a href="{{ routes.account_url }}">{{ 'general.account' | t }}</a></noscript>
+    </div>
+    {% render 'localization', location: 'header' %}
+  </div>
+</header>
+
+{% schema %}
+{
+  "name": "t:sections.header",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "t:settings.menu",
+      "default": "main-menu"
+    }
+  ]
+}
+{% endschema %}

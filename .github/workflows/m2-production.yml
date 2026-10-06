@@ -1,0 +1,67 @@
+name: M2 Production Theme
+on:
+  push:
+    branches: [m2-production-theme]
+    paths: ['theme/**', 'tests/m2/**', '.github/workflows/m2-production.yml', '.gitignore']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  production-foundation:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    defaults:
+      run:
+        shell: bash
+    env:
+      M2_EVIDENCE_DIR: ${{ runner.temp }}/m2a-evidence
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: tests/m2/package-lock.json
+      - name: Install pinned production checker and test dependencies
+        run: |
+          npm install --global @shopify/cli@4.8.4
+          npm ci --prefix tests/m2
+          mkdir -p "$M2_EVIDENCE_DIR"
+          shopify version > "$M2_EVIDENCE_DIR/shopify-cli-version.txt"
+      - name: Theme Check (errors and warnings fail)
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopify theme check --path theme --fail-level warning --output json | tee "$M2_EVIDENCE_DIR/theme-check.json"
+      - name: Structural, schema, locale, budget and preservation checks
+        run: python3 tests/m2/validate.py | tee "$M2_EVIDENCE_DIR/structural-output.log"
+      - name: Actual snippet and cart-unit contracts
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm --prefix tests/m2 test | tee "$M2_EVIDENCE_DIR/unit-output.log"
+      - name: Install only Chromium headless shell
+        working-directory: tests/m2
+        run: npx playwright install --with-deps --only-shell chromium
+      - name: Browser component contracts and responsive accessibility checks
+        shell: bash
+        run: |
+          set -euo pipefail
+          timeout 180s npm --prefix tests/m2 run test:browser | tee "$M2_EVIDENCE_DIR/browser-output.log"
+      - name: Package actual distributable theme
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopify theme package --path theme
+          python3 tests/m2/package-check.py "$M2_EVIDENCE_DIR"
+      - name: Upload production check results and package
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: m2a-production-${{ github.sha }}
+          path: ${{ runner.temp }}/m2a-evidence/
+          if-no-files-found: error
+          retention-days: 30

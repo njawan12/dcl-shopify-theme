@@ -1,0 +1,45 @@
+
+> test
+> node --test liquid.test.mjs cart.test.mjs
+
+✔ same variant with different properties/plans is updated by distinct line keys (1.081542ms)
+✔ zero removal is valid at the API boundary; no line is merged (0.075417ms)
+✔ reject empty quantity before sending (0.196291ms)
+✔ reject whitespace quantity before sending (0.048083ms)
+✔ reject fraction quantity before sending (0.063ms)
+✔ reject negative quantity before sending (0.042666ms)
+✔ reject text quantity before sending (0.04525ms)
+✔ reject unsafe quantity before sending (0.044166ms)
+✔ duplicate line keys cannot silently overwrite quantities (0.079ms)
+✔ missing line identity cannot mutate cart (0.091333ms)
+✔ server error description/message are displayed; otherwise localized fallback (0.074708ms)
+✔ available selection submits exact native variant; accelerated default is present (6.975541ms)
+✔ sold-out preserves canonical identity while blocking purchase and checkout (1.575791ms)
+✔ nonexistent tuple does not invent an ID or purchasable combination (1.652833ms)
+✔ required plan without allocation cannot degrade to one-time (1.222458ms)
+✔ invalid selected plan blocks purchase even on an available variant (1.281417ms)
+✔ valid required allocation posts the exact plan alongside variant (1.479041ms)
+✔ removed quantity block falls back to the real rule minimum, not one (1.054ms)
+✔ quantity block uses native rule min, max, increment, ID and form association (0.932125ms)
+✔ normal variant price, compare and unit are from one identity (2.323167ms)
+✔ equal or lower compare-at is never presented as a sale (1.413208ms)
+✔ allocation changes price and unit with variant measurement, never a client discount (0.990458ms)
+✔ null variant produces no fictional money (1.036542ms)
+✔ gift recipient mode uses official properties and excludes accelerated checkout (1.751542ms)
+✔ gift without recipient mode may use platform checkout (0.920667ms)
+✔ native server errors remain visible (1.273042ms)
+✔ required purchase plans expose only allocations for this variant (1.118667ms)
+✔ native option URLs preserve tuple IDs, selected state, escaped labels and swatches (1.989292ms)
+✔ default single variant needs no fabricated options (0.80575ms)
+✔ missing product is omitted on storefront and explained only in editor (2.051416ms)
+✔ Balanced initializes required allocation and no-media fallback from the same native truth (4.889084ms)
+✔ featured instances produce distinct native form IDs without a second commerce engine (6.325333ms)
+✔ native filters preserve active unavailable values, range numbers and sort identity (1.384542ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 143.301292

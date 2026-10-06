@@ -1,0 +1,13 @@
+{% if predictive_search.performed %}
+  <nav aria-label="{{ 'search.suggestions' | t }}">
+    <ul>{% for product in predictive_search.resources.products %}<li><a href="{{ product.url }}">{{ product.title | escape }}</a></li>{% endfor %}
+    {% for query in predictive_search.resources.queries %}<li><a href="{{ query.url }}">{{ query.text | escape }}</a></li>{% endfor %}</ul>
+  </nav>
+{% endif %}
+
+{% schema %}
+{
+  "name": "t:sections.predictions",
+  "settings": []
+}
+{% endschema %}
