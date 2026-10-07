@@ -188,7 +188,7 @@ legend { padding: 0; }
 .brand { flex: 1 1 10rem; font-size: 1.2rem; letter-spacing: -0.035em; text-decoration: none; }
 .brand img { max-block-size: 56px; }
 .header-actions { gap: 0.8rem; font-size: 0.85rem; }
-.header-actions a { text-decoration: none; }
+.header-actions a { text-decoration: none; min-inline-size: 44px; }
 site-navigation { font-size: 0.9rem; }
 .primary-menu > summary { padding: 0.65rem 0; font-weight: 600; }
 .primary-menu > nav { position: absolute; inset-inline: 0; inset-block-start: 100%; z-index: 5; padding: 1rem; border: 1px solid currentColor; background: var(--background-1); }

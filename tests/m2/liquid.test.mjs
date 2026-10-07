@@ -169,3 +169,14 @@ test('source rendering is structural only and preserves title when link is unsup
  }
  for(const url of ['https://shopify.dev/docs','http://example.com/source','/pages/source'])assert.match(await render('evidence-source',{title:'Supplied source',url}),/<a href=/);
 });
+test('source structural handling supports the known document fragment and rejects malformed authority',async()=>{
+ assert.match(await render('evidence-source',{title:'Context',url:'#MainContent'}),/<a href="#MainContent"/);
+ for(const url of ['#nonexistent','https://?query','https://#fragment','/\\other.test'])assert.doesNotMatch(await render('evidence-source',{title:'Context',url}),/<a /);
+});
+test('native alternate template navigation retains the semantic composition context',async()=>{
+ const data=fixture();data.template={suffix:'editorial'};data.product.has_only_default_variant=false;
+ data.product.options_with_values=[{position:1,name:'Size',values:[{id:11,name:'Small',selected:true,available:true}]}];
+ assert.match(await render('variant-options',data),/option_values=11&amp;view=editorial/);
+ data.variant.selling_plan_allocations=[{price:2000,selling_plan:{id:91,name:'Weekly'}}];
+ assert.match(await render('selling-plans',data),/name="view" value="editorial"/);
+});
