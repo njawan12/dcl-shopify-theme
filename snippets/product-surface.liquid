@@ -53,8 +53,8 @@
     {{ gallery }}
     {% if composition == 'editorial' %}
       <div class="editorial-decision">
-        {% assign narrative_text = narrative | strip %}{% if narrative_text != blank %}<div class="product-narrative">{{ narrative }}</div>{% endif %}
         <div class="product-content">{{ decision }}</div>
+        {% assign narrative_text = narrative | strip %}{% if narrative_text != blank %}<div class="product-narrative">{{ narrative }}</div>{% endif %}
       </div>
     {% elsif composition == 'compact' %}
       <div class="purchase-band">
