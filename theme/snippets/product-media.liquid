@@ -1,8 +1,20 @@
+{% liquid
+  assign media_sizes = '(min-width: 750px) 50vw, 100vw'
+  if composition == 'compact'
+    assign media_sizes = '(min-width: 990px) 25vw, 50vw'
+  elsif composition == 'editorial'
+    if lead
+      assign media_sizes = '100vw'
+    else
+      assign media_sizes = '(min-width: 750px) 33vw, 50vw'
+    endif
+  endif
+%}
 <figure id="Media-{{ section.id }}-{{ media.id }}" class="product-media" style="--media-ratio: {{ media.preview_image.aspect_ratio | default: 1 }}">
   {% case media.media_type %}
-    {% when 'image' %}{% assign media_alt = media.alt | default: product.title %}{% render 'image', image: media.preview_image, alt: media_alt, sizes: '(min-width: 750px) 45vw, 100vw', eager: eager %}
+    {% when 'image' %}{% assign media_alt = media.alt | default: product.title %}{% render 'image', image: media.preview_image, alt: media_alt, sizes: media_sizes, eager: eager %}
     {% when 'video' %}{{ media | video_tag: controls: true, preload: 'none', image_size: '960x' }}<figcaption>{{ media.alt | default: product.title | escape }}</figcaption>
     {% when 'external_video' %}{{ media | external_video_url | external_video_tag: loading: 'lazy', title: media.alt }}<figcaption>{{ media.alt | default: product.title | escape }}</figcaption>
-    {% when 'model' %}{% assign model_alt = media.alt | default: product.title %}{% render 'image', image: media.preview_image, alt: model_alt, sizes: '(min-width: 750px) 45vw, 100vw', eager: false %}<product-model>{{ media | model_viewer_tag: reveal: 'interaction', toggleable: true }}</product-model>{% if media.sources.first.url %}<a href="{{ media.sources.first.url }}">{{ 'product.model_file' | t }}</a>{% endif %}<figcaption>{{ media.alt | default: product.title | escape }}</figcaption>
+    {% when 'model' %}{% assign model_alt = media.alt | default: product.title %}{% render 'image', image: media.preview_image, alt: model_alt, sizes: media_sizes, eager: false %}<product-model>{{ media | model_viewer_tag: reveal: 'interaction', toggleable: true }}</product-model>{% if media.sources.first.url %}<a href="{{ media.sources.first.url }}">{{ 'product.model_file' | t }}</a>{% endif %}<figcaption>{{ media.alt | default: product.title | escape }}</figcaption>
   {% endcase %}
 </figure>

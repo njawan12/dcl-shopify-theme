@@ -5,7 +5,7 @@
     </a>
     <site-navigation>
       {% if section.settings.menu.links.size > 0 %}
-      <details><summary>{{ 'general.menu' | t }}</summary><nav aria-label="{{ 'general.navigation' | t }}">{% render 'navigation-links', menu: section.settings.menu %}</nav></details>
+      <details class="primary-menu"><summary>{{ 'general.menu' | t }}</summary><nav aria-label="{{ 'general.navigation' | t }}">{% render 'navigation-links', menu: section.settings.menu %}</nav></details>
     {% endif %}
     </site-navigation>
     <div class="header-actions">
@@ -14,7 +14,7 @@
       <shopify-account></shopify-account>
       <noscript><a href="{{ routes.account_url }}">{{ 'general.account' | t }}</a></noscript>
     </div>
-    {% render 'localization', location: 'header' %}
+    {% if localization.available_countries.size > 1 or localization.available_languages.size > 1 %}<details class="header-localization"><summary>{{ localization.country.iso_code }} · {{ localization.language.iso_code | upcase }}<span class="visually-hidden"> {{ 'general.region' | t }}</span></summary>{% render 'localization', location: 'header' %}</details>{% endif %}
   </div>
 </header>
 

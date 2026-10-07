@@ -1,0 +1,67 @@
+{% capture notes %}
+  {% assign encounter = 0 %}
+  {% for i in (1..3) %}
+    {% liquid
+      assign suffix = '_' | append: i
+      assign key = 'kind' | append: suffix
+      assign kind = content[key] | default: 'fact'
+      assign key = 'value' | append: suffix
+      assign value = content[key]
+      assign key = 'label' | append: suffix
+      assign label = content[key]
+      assign key = 'body' | append: suffix
+      assign body = content[key]
+      assign key = 'attribution' | append: suffix
+      assign attribution = content[key]
+      assign valid = false
+      case kind
+        when 'metric'
+          if value != blank and label != blank
+            assign valid = true
+          endif
+        when 'fact'
+          if label != blank
+            if value != blank or body != blank
+              assign valid = true
+            endif
+          endif
+        when 'claim'
+          if body != blank
+            assign valid = true
+          endif
+        when 'quote'
+          if body != blank and attribution != blank
+            assign valid = true
+          endif
+        when 'certification'
+          if label != blank and attribution != blank
+            assign valid = true
+          endif
+      endcase
+    %}
+    {% if valid %}
+      {% assign encounter = encounter | plus: 1 %}
+      <li class="rail-note">
+        <div class="rail-index"><span aria-hidden="true">0{{ encounter }}</span><span class="eyebrow">{% assign kind_key = 'evidence.' | append: kind %}{{ kind_key | t }}</span></div>
+        <div class="rail-statement">
+          {% if value != blank %}<p class="evidence-value">{{ value | escape }}</p>{% endif %}
+          {% if label != blank %}<h3>{{ label | escape }}</h3>{% endif %}
+          {% if kind == 'quote' %}<blockquote><p>{{ body | escape | newline_to_br }}</p><cite>{{ attribution | escape }}</cite></blockquote>
+          {% else %}{% if body != blank %}<p>{{ body | escape | newline_to_br }}</p>{% endif %}{% if attribution != blank %}<p class="muted">{{ attribution | escape }}</p>{% endif %}{% endif %}
+        </div>
+        <div class="rail-qualification">
+          {% assign key = 'qualification' | append: suffix %}{% if content[key] != blank %}<p>{{ content[key] | escape | newline_to_br }}</p>{% endif %}
+          {% assign key = 'source_title' | append: suffix %}{% assign source_title = content[key] %}{% assign key = 'source_url' | append: suffix %}
+          {% render 'evidence-source', title: source_title, url: content[key] %}
+        </div>
+      </li>
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+{% assign notes = notes | strip %}
+{% if notes != blank %}
+<section class="evidence-attachment evidence-note density-{{ content.density | default: 'balanced' }} {{ content.scheme | replace: 'scheme', 'scheme-' | default: 'scheme-1' }}" {{ block.shopify_attributes }}>
+  <div class="rail-subject"><p class="eyebrow">{{ 'evidence.note' | t }}</p>{% if content.heading != blank %}<h2>{{ content.heading | escape }}</h2>{% endif %}</div>
+  <ul class="evidence-rail-list" role="list">{{ notes }}</ul>
+</section>
+{% endif %}

@@ -1,0 +1,57 @@
+{% liquid
+  assign complete = false
+  if content.mode == 'before_after'
+    if content.before_label != blank and content.after_label != blank
+      if content.before_media != blank or content.before_caption != blank
+        if content.after_media != blank or content.after_caption != blank
+          assign complete = true
+        endif
+      endif
+    endif
+  else
+    assign rows = 0
+    for i in (1..4)
+      assign suffix = '_' | append: i
+      assign key = 'criterion' | append: suffix
+      assign criterion = content[key]
+      assign key = 'left' | append: suffix
+      assign left = content[key]
+      assign key = 'right' | append: suffix
+      if criterion != blank and left != blank and content[key] != blank
+        assign rows = rows | plus: 1
+      endif
+    endfor
+    if content.left_subject != blank and content.right_subject != blank and rows > 0
+      assign complete = true
+    endif
+  endif
+%}
+{% if complete %}
+<section class="evidence-attachment evidence-pair density-{{ content.density | default: 'balanced' }} {{ content.scheme | replace: 'scheme', 'scheme-' | default: 'scheme-1' }}" {{ block.shopify_attributes }}>
+  <div class="rail-subject"><p class="eyebrow">{% if content.mode == 'before_after' %}{{ 'evidence.before_after' | t }}{% else %}{{ 'evidence.comparison' | t }}{% endif %}</p>{% if content.heading != blank %}<h2>{{ content.heading | escape }}</h2>{% endif %}{% if content.introduction != blank %}<div class="rich-text">{{ content.introduction }}</div>{% endif %}</div>
+  <div class="rail-content">
+    {% if content.mode == 'before_after' %}
+      <div class="evidence-sides">
+        {% assign sides = 'before,after' | split: ',' %}
+        {% for side in sides %}
+          {% assign key = side | append: '_label' %}{% assign side_label = content[key] %}
+          {% assign key = side | append: '_media' %}{% assign side_media = content[key] %}
+          {% assign key = side | append: '_alt' %}{% assign side_alt = content[key] | default: side_media.alt | default: side_label %}
+          <figure><figcaption><h3>{{ side_label | escape }}</h3></figcaption>{% if side_media != blank %}{% render 'image', image: side_media, alt: side_alt, sizes: '(min-width: 750px) 35vw, 100vw', eager: false %}{% endif %}{% assign key = side | append: '_caption' %}{% if content[key] != blank %}<p>{{ content[key] | escape | newline_to_br }}</p>{% endif %}</figure>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="comparison-scroll" tabindex="0" role="region" aria-label="{{ 'evidence.comparison' | t }}">
+        <table><caption>{% if content.heading != blank %}{{ content.heading | escape }}{% else %}{{ 'evidence.comparison' | t }}{% endif %}</caption><thead><tr><th scope="col">{{ 'evidence.criterion' | t }}</th><th scope="col">{{ content.left_subject | escape }}</th><th scope="col">{{ content.right_subject | escape }}</th></tr></thead><tbody>
+        {% for i in (1..4) %}
+          {% assign suffix = '_' | append: i %}{% assign key = 'criterion' | append: suffix %}{% assign criterion = content[key] %}{% assign key = 'left' | append: suffix %}{% assign left = content[key] %}{% assign key = 'right' | append: suffix %}{% assign right = content[key] %}
+          {% if criterion != blank and left != blank and right != blank %}<tr><th scope="row">{{ criterion | escape }}{% assign key = 'qualification' | append: suffix %}{% if content[key] != blank %}<small>{{ content[key] | escape }}</small>{% endif %}</th><td>{{ left | escape }}</td><td>{{ right | escape }}</td></tr>{% endif %}
+        {% endfor %}
+        </tbody></table>
+      </div>
+    {% endif %}
+    {% if content.qualification != blank %}<p class="rail-qualification">{{ content.qualification | escape | newline_to_br }}</p>{% endif %}
+    {% render 'evidence-source', title: content.source_title, url: content.source_url %}
+  </div>
+</section>
+{% endif %}

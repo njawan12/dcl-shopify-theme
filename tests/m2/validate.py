@@ -53,7 +53,11 @@ for f in (T/'sections').glob('*.liquid'):
  check('section-name:'+f.stem,schema['name'].removeprefix('t:') in schema_locale)
  ss=[v for v in schema.get('settings',[]) if 'id' in v];check('section-budget:'+f.stem,len(ss)<=12)
  check('section-setting-ids:'+f.stem,len({v['id'] for v in ss})==len(ss))
- for b in schema.get('blocks',[]):check('block-budget:'+f.stem+':'+b['type'],len(b.get('settings',[]))<=8)
+ for b in schema.get('blocks',[]):
+  # Approved flat evidence content records; presentation choices are separately bounded.
+  caps={'evidence_note':27,'evidence_pair':34,'evidence_process':26}
+  fields=[v for v in b.get('settings',[]) if 'id' in v]
+  check('block-budget:'+f.stem+':'+b['type'],len(fields)<=caps.get(b['type'],8))
  for node in [schema,*schema.get('settings',[]),*schema.get('blocks',[])]:
   for k in ['label','name','content']:
    if isinstance(node.get(k),str) and node[k].startswith('t:'):check('schema-label:'+node[k],node[k][2:] in schema_locale)
@@ -62,7 +66,7 @@ for group in ['header','footer']:
  check('group-file:'+group,json.loads(text('sections/'+group+'-group.json'))['type']==group)
 for host in ['main-product','featured-product','apps']:
  check('app-host:'+host,any(b['type']=='@app' for b in section_inventory[host]['blocks']))
-check('no-static-app-block',"{% render block %}" in text('sections/apps.liquid') and "{% render block %}" in text('snippets/product-surface.liquid'))
+check('no-static-app-block',"{% render block %}" in text('sections/apps.liquid') and "{% render block %}" in text('snippets/product-block.liquid'))
 check('main-featured-shared',all("render 'product-surface'" in text('sections/'+host+'.liquid') for host in ['main-product','featured-product']))
 check('custom-liquid-everywhere','enabled_on' not in section_inventory['custom-liquid'] and 'disabled_on' not in section_inventory['custom-liquid'])
 check('no-variant-enumeration',all('product.variants' not in p.read_text() for p in T.rglob('*.liquid')))

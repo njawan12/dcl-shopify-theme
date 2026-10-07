@@ -125,3 +125,47 @@ test('native filters preserve active unavailable values, range numbers and sort 
   assert.match(html,/name="filter.v.availability" value="1" checked/);
   assert.match(html,/name="filter.v.price.gte" value="12"/);assert.match(html,/value="price-descending" selected/);
 });
+
+for (const composition of ['balanced','compact','editorial']) {
+ test(`${composition} preserves one native purchase identity and quantity association`, async () => {
+  const data=fixture();data.product={...data.product,title:'Same product',selected_or_first_available_variant:data.variant,media:[],description:'<p>Education</p>',has_only_default_variant:true};
+  data.section.settings={composition};data.section.blocks=['title','price','quantity','buy','description'].map(type=>({type,settings:data.block.settings}));data.primary=true;
+  const html=await render('product-surface',data);
+  assert.equal((html.match(/action="\/cart\/add"/g)||[]).length,1);
+  assert.match(html,/name="id" value="501"/);assert.match(html,/form="ProductForm-test"/);assert.match(html,/24.00 CAD/);
+  assert.equal((html.match(/Education/g)||[]).length,1);
+  assert.match(html,new RegExp(`data-composition="${composition}"`));
+  if(composition==='compact')assert.match(html,/purchase-band[\s\S]*purchase-actions/);
+  if(composition==='editorial')assert.match(html,/editorial-decision[\s\S]*product-narrative/);
+ });
+}
+test('invalid and disconnected notes omit while valid unsourced metric remains truthful',async()=>{
+ assert.equal((await render('evidence-note',{content:{kind_1:'metric',value_1:'20'}})).trim(),'');
+ const html=await render('evidence-note',{content:{kind_1:'metric',value_1:'20',label_1:'Grams',qualification_1:'Merchant supplied; no measurement certified'}});
+ assert.match(html,/20/);assert.doesNotMatch(html,/href|verified|rating/);assert.match(html,/qualification/);
+});
+test('quote requires attribution and is explicitly merchant-authored; certification requires issuer',async()=>{
+ for(const kind of ['quote','certification'])assert.equal((await render('evidence-note',{content:{kind_1:kind,label_1:'Certificate',body_1:'Statement'}})).trim(),'');
+ const html=await render('evidence-note',{content:{kind_1:'quote',body_1:'<unsafe> & quotation',attribution_1:'Author'}});
+ assert.match(html,/Merchant-authored quotation/);assert.match(html,/&lt;unsafe&gt; &amp;/);assert.match(html,/<blockquote>/);assert.match(html,/<cite>Author/);
+});
+test('one surviving process remains ordered, invalid earlier step is omitted',async()=>{
+ const html=await render('evidence-process',{content:{heading_1:'Invalid',heading_3:'Use',instruction_3:'Read the supplied instructions.'}});
+ assert.match(html,/<ol[^>]*>/);assert.equal((html.match(/<li /g)||[]).length,1);assert.doesNotMatch(html,/Invalid/);
+});
+test('incomplete before/after omits; complete labelled text alternatives survive missing media',async()=>{
+ assert.equal((await render('evidence-pair',{content:{mode:'before_after',before_label:'Before',before_caption:'Text',after_label:'After'}})).trim(),'');
+ const html=await render('evidence-pair',{content:{mode:'before_after',before_label:'Before',before_caption:'Earlier state',after_label:'After',after_caption:'Later state'}});
+ assert.equal((html.match(/<figure>/g)||[]).length,2);assert.match(html,/Earlier state/);assert.match(html,/Later state/);
+});
+test('comparison requires named subjects and complete rows; partial row is not silently completed',async()=>{
+ const content={mode:'comparison',left_subject:'A',right_subject:'B',criterion_1:'Material',left_1:'Cotton',right_1:'Wool',criterion_2:'Size',left_2:'Small'};
+ const html=await render('evidence-pair',{content});assert.match(html,/scope="row">Material/);assert.doesNotMatch(html,/>Size/);
+ assert.equal((await render('evidence-pair',{content:{...content,right_subject:''}})).trim(),'');
+});
+test('source rendering is structural only and preserves title when link is unsupported',async()=>{
+ for(const url of ['javascript:alert(1)','data:text/html,x','//other.test','https://','https://host.test/a b']){
+  const html=await render('evidence-source',{title:'Supplied source',url});assert.match(html,/Supplied source/);assert.doesNotMatch(html,/<a /);
+ }
+ for(const url of ['https://shopify.dev/docs','http://example.com/source','/pages/source'])assert.match(await render('evidence-source',{title:'Supplied source',url}),/<a href=/);
+});

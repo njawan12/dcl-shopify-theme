@@ -1,118 +1,62 @@
-{% assign featured = section.settings.product | default: product %}
-{% render 'product-surface', product: featured, section: section, primary: false %}
+{% capture attachment %}
+  {% for block in section.blocks %}
+    {% if block.type == '@app' %}<div class="app-host" tabindex="0" role="region" aria-label="{{ 'general.evidence' | t }}" {{ block.shopify_attributes }}>{% render block %}</div>
+    {% elsif block.type == 'evidence_note' and section.settings.attachment == 'note' %}{% render 'evidence-note', content: block.settings, block: block %}
+    {% elsif block.type == 'evidence_process' and section.settings.attachment == 'process' %}{% render 'evidence-process', content: block.settings, block: block %}{% endif %}
+  {% endfor %}
+{% endcapture %}
+{% if section.settings.heading != blank or section.settings.media != blank or attachment != blank %}
+<section class="page-width section-space evidence-story">
+  <div class="story-subject">
+    {% if section.settings.heading != blank %}<h2>{{ section.settings.heading | escape }}</h2>{% endif %}
+    {% if section.settings.introduction != blank %}<div class="rich-text">{{ section.settings.introduction }}</div>{% endif %}
+    {% if section.settings.media != blank %}{% assign story_alt = section.settings.alt | default: section.settings.media.alt %}{% render 'image', image: section.settings.media, alt: story_alt, sizes: '(min-width: 990px) 40vw, 100vw', eager: false %}{% endif %}
+  </div>
+  <div class="story-proof">{{ attachment }}</div>
+</section>
+{% endif %}
 {% schema %}
 {
-  "name": "t:sections.featured",
+  "name": "t:sections.evidence_rail",
   "settings": [
     {
-      "type": "product",
-      "id": "product",
-      "label": "t:settings.product"
+      "type": "text",
+      "id": "heading",
+      "label": "t:settings.subject"
+    },
+    {
+      "type": "richtext",
+      "id": "introduction",
+      "label": "t:settings.introduction"
+    },
+    {
+      "type": "image_picker",
+      "id": "media",
+      "label": "t:settings.media"
+    },
+    {
+      "type": "text",
+      "id": "alt",
+      "label": "t:settings.alt"
     },
     {
       "type": "select",
-      "id": "composition",
-      "label": "t:settings.composition",
+      "id": "attachment",
+      "label": "t:settings.attachment",
       "options": [
         {
-          "value": "balanced",
-          "label": "t:options.balanced"
+          "value": "note",
+          "label": "t:options.note"
         },
         {
-          "value": "compact",
-          "label": "t:options.compact"
-        },
-        {
-          "value": "editorial",
-          "label": "t:options.editorial"
+          "value": "process",
+          "label": "t:options.process"
         }
       ],
-      "default": "balanced"
+      "default": "note"
     }
   ],
   "blocks": [
-    {
-      "type": "title",
-      "name": "t:blocks.title",
-      "limit": 1,
-      "settings": []
-    },
-    {
-      "type": "vendor",
-      "name": "t:blocks.vendor",
-      "limit": 1,
-      "settings": []
-    },
-    {
-      "type": "price",
-      "name": "t:blocks.price",
-      "limit": 1,
-      "settings": []
-    },
-    {
-      "type": "options",
-      "name": "t:blocks.options",
-      "limit": 1,
-      "settings": []
-    },
-    {
-      "type": "plans",
-      "name": "t:blocks.plans",
-      "limit": 1,
-      "settings": []
-    },
-    {
-      "type": "quantity",
-      "name": "t:blocks.quantity",
-      "limit": 1,
-      "settings": []
-    },
-    {
-      "type": "buy",
-      "name": "t:blocks.buy",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "checkbox",
-          "id": "dynamic_checkout",
-          "label": "t:settings.dynamic_checkout",
-          "default": true
-        },
-        {
-          "type": "checkbox",
-          "id": "recipient",
-          "label": "t:settings.recipient",
-          "default": true
-        }
-      ]
-    },
-    {
-      "type": "description",
-      "name": "t:blocks.description",
-      "limit": 1,
-      "settings": []
-    },
-    {
-      "type": "pickup",
-      "name": "t:blocks.pickup",
-      "limit": 1,
-      "settings": []
-    },
-    {
-      "type": "liquid",
-      "name": "t:blocks.liquid",
-      "limit": 3,
-      "settings": [
-        {
-          "type": "liquid",
-          "id": "content",
-          "label": "t:settings.content"
-        }
-      ]
-    },
-    {
-      "type": "@app"
-    },
     {
       "type": "evidence_note",
       "name": "t:blocks.evidence_note",
@@ -371,252 +315,6 @@
       ]
     },
     {
-      "type": "evidence_pair",
-      "name": "t:blocks.evidence_pair",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "select",
-          "id": "mode",
-          "label": "t:settings.mode",
-          "options": [
-            {
-              "value": "comparison",
-              "label": "t:options.comparison"
-            },
-            {
-              "value": "before_after",
-              "label": "t:options.before_after"
-            }
-          ],
-          "default": "comparison"
-        },
-        {
-          "type": "select",
-          "id": "density",
-          "label": "t:settings.density",
-          "options": [
-            {
-              "value": "compact",
-              "label": "t:options.compact"
-            },
-            {
-              "value": "balanced",
-              "label": "t:options.balanced"
-            },
-            {
-              "value": "spacious",
-              "label": "t:options.spacious"
-            }
-          ],
-          "default": "balanced"
-        },
-        {
-          "type": "select",
-          "id": "scheme",
-          "label": "t:settings.scheme",
-          "options": [
-            {
-              "value": "scheme1",
-              "label": "t:options.scheme1"
-            },
-            {
-              "value": "scheme2",
-              "label": "t:options.scheme2"
-            },
-            {
-              "value": "scheme3",
-              "label": "t:options.scheme3"
-            },
-            {
-              "value": "scheme4",
-              "label": "t:options.scheme4"
-            }
-          ],
-          "default": "scheme1"
-        },
-        {
-          "type": "text",
-          "id": "heading",
-          "label": "t:settings.heading"
-        },
-        {
-          "type": "richtext",
-          "id": "introduction",
-          "label": "t:settings.introduction"
-        },
-        {
-          "type": "textarea",
-          "id": "qualification",
-          "label": "t:settings.qualification"
-        },
-        {
-          "type": "text",
-          "id": "source_title",
-          "label": "t:settings.source_title"
-        },
-        {
-          "type": "url",
-          "id": "source_url",
-          "label": "t:settings.source_url"
-        },
-        {
-          "type": "text",
-          "id": "left_subject",
-          "label": "t:settings.left_subject"
-        },
-        {
-          "type": "text",
-          "id": "right_subject",
-          "label": "t:settings.right_subject"
-        },
-        {
-          "type": "header",
-          "content": "Comparison row 1"
-        },
-        {
-          "type": "textarea",
-          "id": "criterion_1",
-          "label": "t:settings.criterion"
-        },
-        {
-          "type": "textarea",
-          "id": "left_1",
-          "label": "t:settings.left"
-        },
-        {
-          "type": "textarea",
-          "id": "right_1",
-          "label": "t:settings.right"
-        },
-        {
-          "type": "textarea",
-          "id": "qualification_1",
-          "label": "t:settings.qualification"
-        },
-        {
-          "type": "header",
-          "content": "Comparison row 2"
-        },
-        {
-          "type": "textarea",
-          "id": "criterion_2",
-          "label": "t:settings.criterion"
-        },
-        {
-          "type": "textarea",
-          "id": "left_2",
-          "label": "t:settings.left"
-        },
-        {
-          "type": "textarea",
-          "id": "right_2",
-          "label": "t:settings.right"
-        },
-        {
-          "type": "textarea",
-          "id": "qualification_2",
-          "label": "t:settings.qualification"
-        },
-        {
-          "type": "header",
-          "content": "Comparison row 3"
-        },
-        {
-          "type": "textarea",
-          "id": "criterion_3",
-          "label": "t:settings.criterion"
-        },
-        {
-          "type": "textarea",
-          "id": "left_3",
-          "label": "t:settings.left"
-        },
-        {
-          "type": "textarea",
-          "id": "right_3",
-          "label": "t:settings.right"
-        },
-        {
-          "type": "textarea",
-          "id": "qualification_3",
-          "label": "t:settings.qualification"
-        },
-        {
-          "type": "header",
-          "content": "Comparison row 4"
-        },
-        {
-          "type": "textarea",
-          "id": "criterion_4",
-          "label": "t:settings.criterion"
-        },
-        {
-          "type": "textarea",
-          "id": "left_4",
-          "label": "t:settings.left"
-        },
-        {
-          "type": "textarea",
-          "id": "right_4",
-          "label": "t:settings.right"
-        },
-        {
-          "type": "textarea",
-          "id": "qualification_4",
-          "label": "t:settings.qualification"
-        },
-        {
-          "type": "header",
-          "content": "Before"
-        },
-        {
-          "type": "text",
-          "id": "before_label",
-          "label": "t:settings.label"
-        },
-        {
-          "type": "image_picker",
-          "id": "before_media",
-          "label": "t:settings.media"
-        },
-        {
-          "type": "text",
-          "id": "before_alt",
-          "label": "t:settings.alt"
-        },
-        {
-          "type": "textarea",
-          "id": "before_caption",
-          "label": "t:settings.caption"
-        },
-        {
-          "type": "header",
-          "content": "After"
-        },
-        {
-          "type": "text",
-          "id": "after_label",
-          "label": "t:settings.label"
-        },
-        {
-          "type": "image_picker",
-          "id": "after_media",
-          "label": "t:settings.media"
-        },
-        {
-          "type": "text",
-          "id": "after_alt",
-          "label": "t:settings.alt"
-        },
-        {
-          "type": "textarea",
-          "id": "after_caption",
-          "label": "t:settings.caption"
-        }
-      ]
-    },
-    {
       "type": "evidence_process",
       "name": "t:blocks.evidence_process",
       "limit": 1,
@@ -802,41 +500,15 @@
           "label": "t:settings.qualification"
         }
       ]
+    },
+    {
+      "type": "@app"
     }
   ],
-  "max_blocks": 18,
+  "max_blocks": 8,
   "presets": [
     {
-      "name": "t:sections.featured",
-      "blocks": [
-        {
-          "type": "title"
-        },
-        {
-          "type": "vendor"
-        },
-        {
-          "type": "price"
-        },
-        {
-          "type": "options"
-        },
-        {
-          "type": "plans"
-        },
-        {
-          "type": "quantity"
-        },
-        {
-          "type": "buy"
-        },
-        {
-          "type": "description"
-        },
-        {
-          "type": "pickup"
-        }
-      ]
+      "name": "t:sections.evidence_rail"
     }
   ],
   "disabled_on": {

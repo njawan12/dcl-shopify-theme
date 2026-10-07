@@ -23,7 +23,15 @@
     "home": "Home",
     "password": "Password",
     "enter": "Enter",
-    "account": "Account"
+    "account": "Account",
+    "region": "Region & language",
+    "explore": "Explore",
+    "collection_context": "Selected objects",
+    "newsletter_help": "News and considered updates, delivered by email.",
+    "product_details": "Product details",
+    "evidence": "Evidence",
+    "source": "Source",
+    "qualification": "Qualification"
   },
   "product": {
     "regular_price": "Regular price",
@@ -114,5 +122,20 @@
   },
   "date_formats": {
     "date": "%B %d, %Y"
+  },
+  "evidence": {
+    "fact": "Fact / specification",
+    "metric": "Metric / result",
+    "claim": "Merchant-authored claim",
+    "certification": "Certification",
+    "quote": "Merchant-authored quotation",
+    "before_after": "Before / after",
+    "comparison": "Comparison",
+    "process": "Process / sequence",
+    "note": "Evidence note",
+    "steps": "Steps",
+    "source": "Source",
+    "subject": "Subject",
+    "criterion": "Criterion"
   }
 }

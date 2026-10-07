@@ -1,6 +1,7 @@
 {% if variant.selling_plan_allocations.size > 0 %}
   <form method="get" action="{{ product.url }}">
-    <input type="hidden" name="variant" value="{{ variant.id }}">
+    {% if template.suffix == 'compact' or template.suffix == 'editorial' %}<input type="hidden" name="view" value="{{ template.suffix }}">{% endif %}
+  <input type="hidden" name="variant" value="{{ variant.id }}">
     <label for="Plan-{{ section.id }}">{{ 'product.purchase_option' | t }}</label>
     <select name="selling_plan" id="Plan-{{ section.id }}">
       {% unless product.requires_selling_plan or variant.requires_selling_plan %}<option value="" {% unless allocation %}selected{% endunless %}>{{ 'product.one_time' | t }}</option>{% endunless %}

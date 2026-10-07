@@ -14,7 +14,17 @@ const data = fixture();
 data.product = { ...data.product, title: 'Ordinary product with a long practical description', vendor: 'Example merchant', description: '<p>Ordinary merchant content, no required photography.</p>', media: [], selected_or_first_available_variant: data.variant, has_only_default_variant: true };
 data.section.blocks = ['title','price','options','plans','quantity','buy','description'].map(type => ({ type, settings: { dynamic_checkout: true, recipient: true } }));
 data.primary = true;
-const product = await render('product-surface', data);
+const products={};
+for(const composition of ['balanced','compact','editorial']) {
+ data.section.settings={composition};
+ const note={type:'evidence_note',settings:{heading:'Supplied product context',kind_1:'fact',value_1:'30 g',label_1:'Declared mass',body_1:'Ordinary manual content.',qualification_1:'Merchant authored.',source_title_1:'Supplied specification',source_url_1:'/pages/specification'}};
+ const pair={type:'evidence_pair',settings:{mode:'comparison',heading:'Two declared contexts',left_subject:'First',right_subject:'Second',criterion_1:'Material',left_1:'Cotton',right_1:'Wool'}};
+ const process={type:'evidence_process',settings:{heading:'Care instructions',heading_1:'Read',instruction_1:'Read the supplied care label.'}};
+ const baseBlocks=data.section.blocks.filter(b=>!b.type.startsWith('evidence_'));
+ data.section.blocks=[...baseBlocks,note,pair,process];
+ products[composition]=await render('product-surface',data);
+}
+const product=products.balanced;
 const line = {key:'501:properties-plan',product:{title:'Ordinary product',has_only_default_variant:false},url:'/products/unit-test?variant=501',variant:data.variant,options_with_values:[{name:'Size',value:'Small'}],quantity:3,properties:{Finish:'Plain'},selling_plan_allocation:{selling_plan:{name:'Monthly'}},original_price:2400,final_price:2000,original_line_price:7200,final_line_price:6000,unit_price:1000,unit_price_measurement:data.variant.unit_price_measurement,line_level_discount_allocations:[],url_to_remove:'/cart/change?line=1&quantity=0'};
 const cartSource = (await readFile(resolve(root,'theme/sections/main-cart.liquid'),'utf8')).replace(/{% schema %}[\s\S]*?{% endschema %}/,'');
 const cart = await engine.parseAndRender(cartSource,{cart:{items:[line],total_price:6000},routes:{cart_url:'/cart',cart_update_url:'/cart/update'},section:{id:'cart'},shop:{}});
@@ -28,7 +38,7 @@ const server = createServer(async (request,response) => {
     catch { response.writeHead(404).end(); } return;
   }
   response.setHeader('Content-Type','text/html');
-  response.end(page(pathname==='/cart'?cart:pathname==='/search'?search:product,pathname==='/guest'));
+  response.end(page(pathname==='/cart'?cart:pathname==='/search'?search:products[pathname.slice(1)]||product,pathname==='/guest'));
 });
 await new Promise(resolve => server.listen(0,'127.0.0.1',resolve));
 const base = `http://127.0.0.1:${server.address().port}`;
@@ -41,7 +51,7 @@ try {
     const page = await context.newPage();
     for (const width of [320,375,390,430,768,1024,1280,1440]) {
       await page.setViewportSize({width,height:900});
-      for (const route of ['/product','/cart','/guest']) {
+      for (const route of ['/product','/compact','/editorial','/cart','/guest']) {
         await page.goto(base+route); await page.waitForLoadState('networkidle');
         const dims=await page.evaluate(() => ({viewport:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth,script:window.unitApplicationScriptRan===true}));
         assert.ok(dims.scroll<=dims.viewport+1,`${route} overflow at ${width}`);report.assertions++;
@@ -50,7 +60,7 @@ try {
         if (width===390 || width===1440) await page.screenshot({path:resolve(out,`${route.slice(1)}-${width}-js-${javaScriptEnabled?'on':'off'}.jpg`),fullPage:true});
       }
     }
-    await page.goto(base+'/product');
+    await page.goto(base+'/editorial');
     const fields=await page.locator('#ProductForm-test').evaluate(form => Object.fromEntries(new FormData(form)));
     assert.equal(fields.id,'501');assert.equal(fields.quantity,'3');report.assertions+=2;
     await page.getByRole('button',{name:'Add to cart',exact:true}).isEnabled().then(enabled=>assert.ok(enabled));report.assertions++;

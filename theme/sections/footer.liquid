@@ -1,10 +1,11 @@
 <footer class="scheme-2 section-space">
   <div class="page-width footer-grid">
+    <div class="footer-brand"><a class="brand" href="{{ routes.root_url }}">{{ shop.name | escape }}</a>{% if section.settings.brand_context != blank %}<div class="rich-text">{{ section.settings.brand_context }}</div>{% elsif shop.description != blank %}<div class="rich-text">{{ shop.description }}</div>{% endif %}</div>
     <nav aria-label="{{ 'general.footer_navigation' | t }}">{% render 'navigation-links', menu: section.settings.menu %}</nav>
     <div>
       {% assign newsletter_id = 'Newsletter-' | append: section.id %}
       {% form 'customer', id: newsletter_id %}
-        <h2>{{ 'general.newsletter' | t }}</h2>
+        <h2>{{ 'general.newsletter' | t }}</h2><p>{{ 'general.newsletter_help' | t }}</p>
         {{ form.errors | default_errors }}
         {% if form.posted_successfully? %}<p role="status">{{ 'general.subscribed' | t }}</p>{% endif %}
         <input type="hidden" name="contact[tags]" value="newsletter">
@@ -43,6 +44,11 @@
       "type": "text",
       "id": "social_label",
       "label": "t:settings.social_label"
+    },
+    {
+      "type": "richtext",
+      "id": "brand_context",
+      "label": "t:settings.brand_context"
     }
   ]
 }

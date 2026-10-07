@@ -1,0 +1,4769 @@
+{
+  "scope": "static architecture/schema/reference/budget and preservation; not live Shopify certification",
+  "checks": 1169,
+  "passed": 1169,
+  "failed": 0,
+  "global_editable_settings": 19,
+  "presentation_controls": 17,
+  "platform_brand_controls": 2,
+  "assets": {
+    "cart.js": {
+      "bytes": 2511,
+      "gzip_bytes": 1002
+    },
+    "media.js": {
+      "bytes": 672,
+      "gzip_bytes": 363
+    },
+    "navigation.js": {
+      "bytes": 1043,
+      "gzip_bytes": 467
+    },
+    "cart-state.js": {
+      "bytes": 748,
+      "gzip_bytes": 412
+    },
+    "search.js": {
+      "bytes": 2528,
+      "gzip_bytes": 895
+    },
+    "base.css": {
+      "bytes": 20202,
+      "gzip_bytes": 4537
+    },
+    "gift-card.js": {
+      "bytes": 412,
+      "gzip_bytes": 282
+    }
+  },
+  "product_blocks": [
+    "title",
+    "vendor",
+    "price",
+    "options",
+    "plans",
+    "quantity",
+    "buy",
+    "description",
+    "pickup",
+    "liquid",
+    "@app",
+    "evidence_note",
+    "evidence_pair",
+    "evidence_process"
+  ],
+  "section_controls": {
+    "main-home": 2,
+    "main-contact": 0,
+    "predictive-search": 0,
+    "main-list-collections": 0,
+    "evidence-rail": 5,
+    "main-cart": 0,
+    "main-search": 0,
+    "apps": 0,
+    "header": 1,
+    "main-blog": 0,
+    "main-page": 0,
+    "custom-liquid": 1,
+    "featured-product": 2,
+    "main-article": 0,
+    "footer": 4,
+    "main-404": 0,
+    "main-product": 1,
+    "main-collection": 0,
+    "main-password": 0
+  },
+  "required_templates": [
+    "404.json",
+    "article.json",
+    "blog.json",
+    "cart.json",
+    "collection.json",
+    "index.json",
+    "list-collections.json",
+    "page.json",
+    "page.contact.json",
+    "password.json",
+    "product.json",
+    "search.json",
+    "gift_card.liquid"
+  ],
+  "results": [
+    {
+      "name": "template:404",
+      "pass": true
+    },
+    {
+      "name": "template-reference:404",
+      "pass": true
+    },
+    {
+      "name": "template:article",
+      "pass": true
+    },
+    {
+      "name": "template-reference:article",
+      "pass": true
+    },
+    {
+      "name": "template:blog",
+      "pass": true
+    },
+    {
+      "name": "template-reference:blog",
+      "pass": true
+    },
+    {
+      "name": "template:cart",
+      "pass": true
+    },
+    {
+      "name": "template-reference:cart",
+      "pass": true
+    },
+    {
+      "name": "template:collection",
+      "pass": true
+    },
+    {
+      "name": "template-reference:collection",
+      "pass": true
+    },
+    {
+      "name": "template:index",
+      "pass": true
+    },
+    {
+      "name": "template-reference:index",
+      "pass": true
+    },
+    {
+      "name": "template:list-collections",
+      "pass": true
+    },
+    {
+      "name": "template-reference:list-collections",
+      "pass": true
+    },
+    {
+      "name": "template:page",
+      "pass": true
+    },
+    {
+      "name": "template-reference:page",
+      "pass": true
+    },
+    {
+      "name": "template:page.contact",
+      "pass": true
+    },
+    {
+      "name": "template-reference:page.contact",
+      "pass": true
+    },
+    {
+      "name": "template:password",
+      "pass": true
+    },
+    {
+      "name": "template-reference:password",
+      "pass": true
+    },
+    {
+      "name": "template:product",
+      "pass": true
+    },
+    {
+      "name": "template-reference:product",
+      "pass": true
+    },
+    {
+      "name": "template:search",
+      "pass": true
+    },
+    {
+      "name": "template-reference:search",
+      "pass": true
+    },
+    {
+      "name": "required:layout/theme.liquid",
+      "pass": true
+    },
+    {
+      "name": "required:templates/gift_card.liquid",
+      "pass": true
+    },
+    {
+      "name": "required:config/settings_schema.json",
+      "pass": true
+    },
+    {
+      "name": "required:config/settings_data.json",
+      "pass": true
+    },
+    {
+      "name": "no-markets",
+      "pass": true
+    },
+    {
+      "name": "supported-directories",
+      "pass": true
+    },
+    {
+      "name": "root-controls",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:.theme-check.yml",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:.theme-check.yml",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:.theme-check.yml",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/product-surface.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/product-surface.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/product-surface.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.no_media",
+      "pass": true
+    },
+    {
+      "name": "translation:product.choose",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-media",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-media",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-block",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-block",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-block",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-block",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-block",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-block",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/navigation-links.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/navigation-links.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/navigation-links.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.view_all",
+      "pass": true
+    },
+    {
+      "name": "translation:general.view_all",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/direction.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/direction.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/direction.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/theme-tokens.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/theme-tokens.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/theme-tokens.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/gift-recipient.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/gift-recipient.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/gift-recipient.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.recipient",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.send_recipient",
+      "pass": true
+    },
+    {
+      "name": "translation:general.email",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.recipient_name",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.message",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.recipient_help",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/selling-plans.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/selling-plans.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/selling-plans.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.purchase_option",
+      "pass": true
+    },
+    {
+      "name": "translation:product.one_time",
+      "pass": true
+    },
+    {
+      "name": "translation:general.apply",
+      "pass": true
+    },
+    {
+      "name": "translation:product.plan_help",
+      "pass": true
+    },
+    {
+      "name": "translation:product.plan_unavailable",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/product-form.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/product-form.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/product-form.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.add",
+      "pass": true
+    },
+    {
+      "name": "translation:product.unavailable",
+      "pass": true
+    },
+    {
+      "name": "translation:product.plan_unavailable",
+      "pass": true
+    },
+    {
+      "name": "translation:product.sold_out",
+      "pass": true
+    },
+    {
+      "name": "snippet:gift-recipient",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/localization.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/localization.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/localization.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.country",
+      "pass": true
+    },
+    {
+      "name": "translation:general.language",
+      "pass": true
+    },
+    {
+      "name": "translation:general.apply",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/product-block.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/product-block.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/product-block.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.product_details",
+      "pass": true
+    },
+    {
+      "name": "translation:product.tax_included",
+      "pass": true
+    },
+    {
+      "name": "translation:product.pickup",
+      "pass": true
+    },
+    {
+      "name": "translation:product.pickup_unavailable",
+      "pass": true
+    },
+    {
+      "name": "snippet:price",
+      "pass": true
+    },
+    {
+      "name": "snippet:availability",
+      "pass": true
+    },
+    {
+      "name": "snippet:variant-options",
+      "pass": true
+    },
+    {
+      "name": "snippet:quantity",
+      "pass": true
+    },
+    {
+      "name": "snippet:selling-plans",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-form",
+      "pass": true
+    },
+    {
+      "name": "snippet:evidence-note",
+      "pass": true
+    },
+    {
+      "name": "snippet:evidence-pair",
+      "pass": true
+    },
+    {
+      "name": "snippet:evidence-process",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/filters.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/filters.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/filters.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:collection.min_price",
+      "pass": true
+    },
+    {
+      "name": "translation:collection.max_price",
+      "pass": true
+    },
+    {
+      "name": "translation:collection.sort",
+      "pass": true
+    },
+    {
+      "name": "translation:general.apply",
+      "pass": true
+    },
+    {
+      "name": "translation:collection.clear",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/unit-price.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/unit-price.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/unit-price.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/evidence-source.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/evidence-source.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/evidence-source.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/product-media.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/product-media.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/product-media.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.model_file",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/meta-tags.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/meta-tags.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/meta-tags.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/evidence-note.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/evidence-note.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/evidence-note.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.note",
+      "pass": true
+    },
+    {
+      "name": "snippet:evidence-source",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/price.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/price.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/price.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.regular_price",
+      "pass": true
+    },
+    {
+      "name": "translation:product.sale_price",
+      "pass": true
+    },
+    {
+      "name": "snippet:unit-price",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/evidence-pair.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/evidence-pair.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/evidence-pair.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.before_after",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.comparison",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.comparison",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.comparison",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.criterion",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "snippet:evidence-source",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/search-form.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/search-form.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/search-form.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:search.unavailable",
+      "pass": true
+    },
+    {
+      "name": "translation:general.search",
+      "pass": true
+    },
+    {
+      "name": "translation:general.search",
+      "pass": true
+    },
+    {
+      "name": "translation:search.help",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/image.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/image.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/image.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.no_media",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/pagination.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/pagination.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/pagination.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.pagination",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/variant-options.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/variant-options.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/variant-options.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.unavailable",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/evidence-process.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/evidence-process.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/evidence-process.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.process",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "snippet:evidence-source",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/availability.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/availability.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/availability.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.unavailable",
+      "pass": true
+    },
+    {
+      "name": "translation:product.available",
+      "pass": true
+    },
+    {
+      "name": "translation:product.sold_out",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/product-card.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/product-card.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/product-card.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.from",
+      "pass": true
+    },
+    {
+      "name": "translation:product.unit_for",
+      "pass": true
+    },
+    {
+      "name": "translation:product.sold_out",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "snippet:price",
+      "pass": true
+    },
+    {
+      "name": "snippet:unit-price",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/quantity.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/quantity.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/quantity.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.quantity",
+      "pass": true
+    },
+    {
+      "name": "translation:product.quantity_rule",
+      "pass": true
+    },
+    {
+      "name": "translation:product.quantity_max",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/main-home.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/main-home.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/main-home.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.explore",
+      "pass": true
+    },
+    {
+      "name": "translation:general.shop",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-card",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/main-contact.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/main-contact.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/main-contact.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:contact.title",
+      "pass": true
+    },
+    {
+      "name": "translation:contact.success",
+      "pass": true
+    },
+    {
+      "name": "translation:general.name",
+      "pass": true
+    },
+    {
+      "name": "translation:general.email",
+      "pass": true
+    },
+    {
+      "name": "translation:contact.message",
+      "pass": true
+    },
+    {
+      "name": "translation:contact.send",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/predictive-search.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/predictive-search.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/predictive-search.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:search.suggestions",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/main-list-collections.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/main-list-collections.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/main-list-collections.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:collection.title",
+      "pass": true
+    },
+    {
+      "name": "translation:collection.empty",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "snippet:pagination",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/evidence-rail.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/evidence-rail.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/evidence-rail.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.evidence",
+      "pass": true
+    },
+    {
+      "name": "snippet:evidence-note",
+      "pass": true
+    },
+    {
+      "name": "snippet:evidence-process",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/main-cart.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/main-cart.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/main-cart.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.title",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.empty",
+      "pass": true
+    },
+    {
+      "name": "translation:general.continue",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.error",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.items",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.file",
+      "pass": true
+    },
+    {
+      "name": "translation:product.regular_price",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.line_total",
+      "pass": true
+    },
+    {
+      "name": "translation:product.quantity",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.remove",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.note",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.update",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.subtotal",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.tax_included",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.tax_shipping",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.checkout",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "snippet:unit-price",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/main-search.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/main-search.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/main-search.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.search",
+      "pass": true
+    },
+    {
+      "name": "translation:search.results",
+      "pass": true
+    },
+    {
+      "name": "translation:search.empty",
+      "pass": true
+    },
+    {
+      "name": "snippet:search-form",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-card",
+      "pass": true
+    },
+    {
+      "name": "snippet:pagination",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/apps.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/apps.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/apps.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/header-group.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/header-group.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/header-group.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/header.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/header.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/header.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.menu",
+      "pass": true
+    },
+    {
+      "name": "translation:general.navigation",
+      "pass": true
+    },
+    {
+      "name": "translation:general.search",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.title",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.count",
+      "pass": true
+    },
+    {
+      "name": "translation:general.account",
+      "pass": true
+    },
+    {
+      "name": "translation:general.region",
+      "pass": true
+    },
+    {
+      "name": "snippet:navigation-links",
+      "pass": true
+    },
+    {
+      "name": "snippet:localization",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/footer-group.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/footer-group.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/footer-group.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/main-blog.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/main-blog.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/main-blog.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:blog.empty",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "snippet:pagination",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/main-page.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/main-page.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/main-page.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/custom-liquid.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/custom-liquid.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/custom-liquid.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/featured-product.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/featured-product.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/featured-product.liquid",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-surface",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/main-article.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/main-article.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/main-article.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:blog.comments",
+      "pass": true
+    },
+    {
+      "name": "translation:blog.comment_success",
+      "pass": true
+    },
+    {
+      "name": "translation:general.name",
+      "pass": true
+    },
+    {
+      "name": "translation:general.email",
+      "pass": true
+    },
+    {
+      "name": "translation:contact.message",
+      "pass": true
+    },
+    {
+      "name": "translation:blog.post",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "snippet:pagination",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/footer.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/footer.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/footer.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.footer_navigation",
+      "pass": true
+    },
+    {
+      "name": "translation:general.newsletter",
+      "pass": true
+    },
+    {
+      "name": "translation:general.newsletter_help",
+      "pass": true
+    },
+    {
+      "name": "translation:general.subscribed",
+      "pass": true
+    },
+    {
+      "name": "translation:general.email",
+      "pass": true
+    },
+    {
+      "name": "translation:general.subscribe",
+      "pass": true
+    },
+    {
+      "name": "translation:general.social",
+      "pass": true
+    },
+    {
+      "name": "snippet:navigation-links",
+      "pass": true
+    },
+    {
+      "name": "snippet:localization",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/main-404.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/main-404.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/main-404.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.not_found",
+      "pass": true
+    },
+    {
+      "name": "translation:general.home",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/main-product.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/main-product.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/main-product.liquid",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-surface",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/main-collection.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/main-collection.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/main-collection.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:collection.empty",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "snippet:filters",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-card",
+      "pass": true
+    },
+    {
+      "name": "snippet:pagination",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/main-password.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/main-password.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/main-password.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.password",
+      "pass": true
+    },
+    {
+      "name": "translation:general.enter",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:locales/en.default.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:locales/en.default.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:locales/en.default.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:locales/en.default.schema.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:locales/en.default.schema.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:locales/en.default.schema.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:config/settings_schema.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:config/settings_schema.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:config/settings_schema.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:config/settings_data.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:config/settings_data.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:config/settings_data.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:layout/theme.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:layout/theme.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:layout/theme.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.skip",
+      "pass": true
+    },
+    {
+      "name": "snippet:direction",
+      "pass": true
+    },
+    {
+      "name": "snippet:meta-tags",
+      "pass": true
+    },
+    {
+      "name": "snippet:theme-tokens",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:layout/password.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:layout/password.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:layout/password.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.skip",
+      "pass": true
+    },
+    {
+      "name": "snippet:direction",
+      "pass": true
+    },
+    {
+      "name": "snippet:meta-tags",
+      "pass": true
+    },
+    {
+      "name": "snippet:theme-tokens",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/password.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/password.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/password.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/cart.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/cart.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/cart.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/search.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/search.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/search.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/page.contact.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/page.contact.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/page.contact.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/404.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/404.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/404.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/article.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/article.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/article.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/gift_card.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/gift_card.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/gift_card.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.title",
+      "pass": true
+    },
+    {
+      "name": "translation:general.skip",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.title",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.balance",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.disabled",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.expired",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.expires",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.code",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.use",
+      "pass": true
+    },
+    {
+      "name": "translation:general.shop",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.wallet",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.unavailable",
+      "pass": true
+    },
+    {
+      "name": "snippet:direction",
+      "pass": true
+    },
+    {
+      "name": "snippet:theme-tokens",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/collection.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/collection.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/collection.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/product.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/product.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/product.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/index.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/index.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/index.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/blog.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/blog.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/blog.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/product.compact.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/product.compact.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/product.compact.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/product.editorial.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/product.editorial.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/product.editorial.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/list-collections.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/list-collections.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/list-collections.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/page.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/page.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/page.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:assets/cart.js",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:assets/cart.js",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:assets/cart.js",
+      "pass": true
+    },
+    {
+      "name": "readable:assets/cart.js",
+      "pass": true
+    },
+    {
+      "name": "javascript-syntax:cart.js",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:assets/media.js",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:assets/media.js",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:assets/media.js",
+      "pass": true
+    },
+    {
+      "name": "readable:assets/media.js",
+      "pass": true
+    },
+    {
+      "name": "javascript-syntax:media.js",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:assets/navigation.js",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:assets/navigation.js",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:assets/navigation.js",
+      "pass": true
+    },
+    {
+      "name": "readable:assets/navigation.js",
+      "pass": true
+    },
+    {
+      "name": "javascript-syntax:navigation.js",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:assets/cart-state.js",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:assets/cart-state.js",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:assets/cart-state.js",
+      "pass": true
+    },
+    {
+      "name": "readable:assets/cart-state.js",
+      "pass": true
+    },
+    {
+      "name": "javascript-syntax:cart-state.js",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:assets/search.js",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:assets/search.js",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:assets/search.js",
+      "pass": true
+    },
+    {
+      "name": "readable:assets/search.js",
+      "pass": true
+    },
+    {
+      "name": "javascript-syntax:search.js",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:assets/base.css",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:assets/base.css",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:assets/base.css",
+      "pass": true
+    },
+    {
+      "name": "readable:assets/base.css",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:assets/gift-card.js",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:assets/gift-card.js",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:assets/gift-card.js",
+      "pass": true
+    },
+    {
+      "name": "readable:assets/gift-card.js",
+      "pass": true
+    },
+    {
+      "name": "javascript-syntax:gift-card.js",
+      "pass": true
+    },
+    {
+      "name": "global-count",
+      "pass": true
+    },
+    {
+      "name": "unique-global-ids",
+      "pass": true
+    },
+    {
+      "name": "no-arbitrary-controls",
+      "pass": true
+    },
+    {
+      "name": "four-color-pairs",
+      "pass": true
+    },
+    {
+      "name": "schema:main-home.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-home",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-home",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-home",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.home",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.heading",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.collection",
+      "pass": true
+    },
+    {
+      "name": "schema:main-contact.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-contact",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-contact",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-contact",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.contact",
+      "pass": true
+    },
+    {
+      "name": "schema:predictive-search.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:predictive-search",
+      "pass": true
+    },
+    {
+      "name": "section-budget:predictive-search",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:predictive-search",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.predictions",
+      "pass": true
+    },
+    {
+      "name": "schema:main-list-collections.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-list-collections",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-list-collections",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-list-collections",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.collections",
+      "pass": true
+    },
+    {
+      "name": "schema:evidence-rail.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:evidence-rail",
+      "pass": true
+    },
+    {
+      "name": "section-budget:evidence-rail",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:evidence-rail",
+      "pass": true
+    },
+    {
+      "name": "block-budget:evidence-rail:evidence_note",
+      "pass": true
+    },
+    {
+      "name": "block-budget:evidence-rail:evidence_process",
+      "pass": true
+    },
+    {
+      "name": "block-budget:evidence-rail:@app",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.evidence_rail",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.subject",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.introduction",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.media",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.alt",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.attachment",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.evidence_note",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.evidence_process",
+      "pass": true
+    },
+    {
+      "name": "schema:main-cart.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-cart",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-cart",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-cart",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.cart",
+      "pass": true
+    },
+    {
+      "name": "schema:main-search.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-search",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-search",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-search",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.search",
+      "pass": true
+    },
+    {
+      "name": "schema:apps.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:apps",
+      "pass": true
+    },
+    {
+      "name": "section-budget:apps",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:apps",
+      "pass": true
+    },
+    {
+      "name": "block-budget:apps:@app",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.apps",
+      "pass": true
+    },
+    {
+      "name": "schema:header.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:header",
+      "pass": true
+    },
+    {
+      "name": "section-budget:header",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:header",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.header",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.menu",
+      "pass": true
+    },
+    {
+      "name": "schema:main-blog.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-blog",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-blog",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-blog",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.blog",
+      "pass": true
+    },
+    {
+      "name": "schema:main-page.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-page",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-page",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-page",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.page",
+      "pass": true
+    },
+    {
+      "name": "schema:custom-liquid.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:custom-liquid",
+      "pass": true
+    },
+    {
+      "name": "section-budget:custom-liquid",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:custom-liquid",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.custom_liquid",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.content",
+      "pass": true
+    },
+    {
+      "name": "schema:featured-product.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:featured-product",
+      "pass": true
+    },
+    {
+      "name": "section-budget:featured-product",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:featured-product",
+      "pass": true
+    },
+    {
+      "name": "block-budget:featured-product:title",
+      "pass": true
+    },
+    {
+      "name": "block-budget:featured-product:vendor",
+      "pass": true
+    },
+    {
+      "name": "block-budget:featured-product:price",
+      "pass": true
+    },
+    {
+      "name": "block-budget:featured-product:options",
+      "pass": true
+    },
+    {
+      "name": "block-budget:featured-product:plans",
+      "pass": true
+    },
+    {
+      "name": "block-budget:featured-product:quantity",
+      "pass": true
+    },
+    {
+      "name": "block-budget:featured-product:buy",
+      "pass": true
+    },
+    {
+      "name": "block-budget:featured-product:description",
+      "pass": true
+    },
+    {
+      "name": "block-budget:featured-product:pickup",
+      "pass": true
+    },
+    {
+      "name": "block-budget:featured-product:liquid",
+      "pass": true
+    },
+    {
+      "name": "block-budget:featured-product:@app",
+      "pass": true
+    },
+    {
+      "name": "block-budget:featured-product:evidence_note",
+      "pass": true
+    },
+    {
+      "name": "block-budget:featured-product:evidence_pair",
+      "pass": true
+    },
+    {
+      "name": "block-budget:featured-product:evidence_process",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.featured",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.product",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.composition",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.title",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.vendor",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.price",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.options",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.plans",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.quantity",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.buy",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.description",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.pickup",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.liquid",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.evidence_note",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.evidence_pair",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.evidence_process",
+      "pass": true
+    },
+    {
+      "name": "schema:main-article.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-article",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-article",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-article",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.article",
+      "pass": true
+    },
+    {
+      "name": "schema:footer.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:footer",
+      "pass": true
+    },
+    {
+      "name": "section-budget:footer",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:footer",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.footer",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.menu",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.social_url",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.social_label",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.brand_context",
+      "pass": true
+    },
+    {
+      "name": "schema:main-404.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-404",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-404",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-404",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.not_found",
+      "pass": true
+    },
+    {
+      "name": "schema:main-product.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-product",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-product",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-product",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:title",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:vendor",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:price",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:options",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:plans",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:quantity",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:buy",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:description",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:pickup",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:liquid",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:@app",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:evidence_note",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:evidence_pair",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:evidence_process",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.product",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.composition",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.title",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.vendor",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.price",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.options",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.plans",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.quantity",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.buy",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.description",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.pickup",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.liquid",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.evidence_note",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.evidence_pair",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.evidence_process",
+      "pass": true
+    },
+    {
+      "name": "schema:main-collection.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-collection",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-collection",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-collection",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.collection",
+      "pass": true
+    },
+    {
+      "name": "schema:main-password.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-password",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-password",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-password",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.password",
+      "pass": true
+    },
+    {
+      "name": "group-render:header",
+      "pass": true
+    },
+    {
+      "name": "group-file:header",
+      "pass": true
+    },
+    {
+      "name": "group-render:footer",
+      "pass": true
+    },
+    {
+      "name": "group-file:footer",
+      "pass": true
+    },
+    {
+      "name": "app-host:main-product",
+      "pass": true
+    },
+    {
+      "name": "app-host:featured-product",
+      "pass": true
+    },
+    {
+      "name": "app-host:apps",
+      "pass": true
+    },
+    {
+      "name": "no-static-app-block",
+      "pass": true
+    },
+    {
+      "name": "main-featured-shared",
+      "pass": true
+    },
+    {
+      "name": "custom-liquid-everywhere",
+      "pass": true
+    },
+    {
+      "name": "no-variant-enumeration",
+      "pass": true
+    },
+    {
+      "name": "product-native-form",
+      "pass": true
+    },
+    {
+      "name": "cart-native-form",
+      "pass": true
+    },
+    {
+      "name": "native-option-route",
+      "pass": true
+    },
+    {
+      "name": "native-plan-route",
+      "pass": true
+    },
+    {
+      "name": "gift-recipient-flag",
+      "pass": true
+    },
+    {
+      "name": "account-component",
+      "pass": true
+    },
+    {
+      "name": "header-untouched",
+      "pass": true
+    },
+    {
+      "name": "skip-link",
+      "pass": true
+    },
+    {
+      "name": "reduced-motion",
+      "pass": true
+    },
+    {
+      "name": "css-logical",
+      "pass": true
+    },
+    {
+      "name": "image-priority",
+      "pass": true
+    },
+    {
+      "name": "responsive-image",
+      "pass": true
+    },
+    {
+      "name": "media-types",
+      "pass": true
+    },
+    {
+      "name": "css-budget",
+      "pass": true
+    },
+    {
+      "name": "global-js-budget",
+      "pass": true
+    },
+    {
+      "name": "total-js-budget",
+      "pass": true
+    },
+    {
+      "name": "cart-route-budget",
+      "pass": true
+    },
+    {
+      "name": "preserved:.github/workflows/m1-js-off-01.yml",
+      "pass": true
+    },
+    {
+      "name": "preserved:.gitkeep",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/adr/001-theme-foundation.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/competitor-matrix.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/development-roadmap.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/engineering-compliance-standard.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/feature-matrix.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m0-architecture-red-team-2026-10-03.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m0-closure-matrix-2026-10-03.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m0-commercial-gate-2026-10-03.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m0-competitor-task-protocol-2026-10-03.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m0-historical-customization-demand-inventory-2026-10-03.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m0-incumbent-capability-challenge-2026-10-03.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m0-live-market-evidence-2026-10-03.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m0-merchant-interview-package-2026-10-03.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m0-product-thesis-reconciliation-2026-10-03.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m0-review-evidence-coded-2026-10-03.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m0-review-workbook-50-2026-10-03.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m0-shopify-requirements-refresh-2026-10-03.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-conventional-vs-distinctive.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-evidence-layer-implementation-brief.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-evidence-layer-prebuild-red-team-contract.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-final-acceptance-reconciliation.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-final-closure-verdict.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-living-canvas-prebuild-red-team-matrix.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-living-canvas-schema-interaction-spec.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-originality-architecture.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-product-architecture-contract.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-prototype-plan.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-signature-system.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-split-tension-commerce-state-machine.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-split-tension-implementation-brief.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-token-schema-specimen.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-visual-direction-brief.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m1-workflow-contracts.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/m2-production-entry-checklist.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/market-research.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/market-selection-research-2026-10-03.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/merchant-pain-points.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/merchant-usability-principles.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/originality-strategy.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/performance-budget.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/post-m1-foundation-revalidation-2026-10-05.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/product-opportunity.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/qa-plan.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/shopify-requirements.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/support-risk-register.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:docs/theme-architecture.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/README.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/findings.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/fixture_catalog.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/fixtures.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/index.html",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/media/bag-transparent.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/media/care-jar.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/media/care-pump.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/media/case-dark.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/media/case-landscape.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/media/case-portrait.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/media/daily-mug.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/media/metal-ring.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/media/pantry-jar.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/media/utility-case.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/mosaic.css",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/planner.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/render.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/serve.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/browser_evidence.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/capture-probe.js",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/adjacent-1024.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/all-white-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/asset-provenance.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/branded-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/branded-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/browser-matrix.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/capture.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/catalog-100-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/catalog-30-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/changed-files.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/deleted-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/editorial-absent-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/editorial-long-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/editorial-no-image-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/editorial-no-link-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/empty-filter-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/feature-app-768.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/feature-no-media-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/feature-sold-out-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/filtered-one-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/focus-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/food-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/frames.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/interactions.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/jewelry-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/localized-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/media-loading.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/mixed-media-1024.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/mixed-media-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/neutral-1280.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/neutral-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/neutral-375.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/neutral-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/neutral-430.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/neutral-768.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/one-result-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/page-after-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/page-before-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/page-two-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/small-result-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/standard-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/standard-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/truth-stress-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/evidence/truth-stress-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/server_responses.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/commerce-mosaic/anchor-cadence/tests/static.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/README.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/app-host.liquid",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/content.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/evidence.css",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/findings.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/fixtures.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/index.html",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/media/care-pump.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/media/metal-ring.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/media/pantry-jar.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/media/storage-after.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/media/storage-before.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/media/utility-case.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/render.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/serve.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/browser.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/capture-probe.js",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/app-awkward-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/app-expected-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/app-removed-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/app-reordered-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/app-tall-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/app-wide-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/asset-provenance.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/before-after-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/before-after-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/before-after-incomplete-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/branded-editorial-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/branded-editorial-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/branded-pdp-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/branded-pdp-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/browser-matrix.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/capture.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/changed-files.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/comparison-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/comparison-incomplete-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/complexity.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/dense-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/disconnected-fallback-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/disconnected-omit-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/dynamic-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/editorial-process-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/editorial-process-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/fixture-inventory.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/food-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/food-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/frames.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/interactions.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/jewelry-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/jewelry-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/keyboard-focus-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/landscape-1024.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/long-claim-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/long-quote-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/long-source-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/media-loading.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/metric-no-source-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/navigation-log.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/neutral-editorial-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/neutral-editorial-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/neutral-pdp-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/neutral-pdp-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/no-js-baseline-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/no-media-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/one-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/one-process-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/portrait-768.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/preservation.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/reduced-motion-invariant-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/reflow-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/reorder-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/repeated-1280.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/rtl-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/supplemental.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/translation-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/evidence/zero-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/guests/plain.html",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/guests/tall.html",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/guests/wide.html",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/recapture.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/reflow.css",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/server.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/evidence-layer/evidence-rail/tests/static.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/README.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/findings.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/fixtures.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/index.html",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/media/bag-transparent.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/media/canvas-bag.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/media/care-bottle.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/media/case-dark.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/media/case-edge-bottom.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/media/case-edge-left.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/media/case-edge-right.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/media/case-edge-top.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/media/case-landscape.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/media/case-portrait.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/media/case-white.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/media/case-wide.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/media/metal-ring.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/media/pantry-jar.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/media/utility-case.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/monument.css",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/render.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/serve.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/browser_evidence.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/adjacent-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/adjacent-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/beauty-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/below-fold-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/branded-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/branded-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/browser-matrix.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/capture.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/changed-files.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/checks.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/dark-rect-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/focal-bottom-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/focal-left-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/focal-right-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/focal-top-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/focus-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/food-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/frames.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/interaction.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/jewelry-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/landscape-768.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/localized-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/localized-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/localized-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/long-cta-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/long-money-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/long-title-375.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/missing-media-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/missing-product-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/neutral-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/neutral-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/portrait-768.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/rectangular-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/rectangular-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/sold-out-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/transparent-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/two-line-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/evidence/wide-1024.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/server_responses.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/monument/tests/static.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/README.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/findings.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/fixtures.js",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/index.html",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/media/bottle-cutout.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/media/bottle-portrait.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/media/bottle.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/media/box.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/media/campaign-portrait-v2.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/media/jar-cutout.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/media/jar.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/media/objects-landscape.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/second-pass-report.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/split-tension.css",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/split-tension.js",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/ambiguous-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/browser-lifecycle.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/browser-matrix.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/browser-transitions.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/checks.txt",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/default-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/enhancement-withheld-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/initialization-failure-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/inventory-422-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/keyboard-focus-375.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/localized-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/maximum-375.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/multi-resolved-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/multi-unresolved-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/neutral-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/nonexistent-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/pending-switch-neutral-1280.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/request-error-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/branded-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/branded-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/browser-lifecycle.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/browser-matrix.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/browser-transitions.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/checks.txt",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/complexity.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/enhancement-withheld-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/five-step-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/five-step-375.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/five-step-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/keyboard-focus-1280.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/localized-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/missing-product-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/mixed-1024.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/neutral-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/neutral-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/pending-switch-neutral-1280.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/request-error-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/resolved-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/server-fallback-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/server-fallback.html",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/sold-out-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/two-instances-1280.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/second-pass/unresolved-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/evidence/two-instances-1280.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/second-pass.mjs",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/serve.mjs",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/state.mjs",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/living-canvas/split-tension/tests/static.mjs",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/README.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/build_dataset.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/changed-files.txt",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/contract.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/controls.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/dataset.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/findings.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/guided.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/bag-transparent.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/bottle-cutout.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/bottle-portrait.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/bottle.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/box.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/campaign-portrait-v2.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/care-jar.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/care-pouch.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/care-pump.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/case-dark.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/case-landscape.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/case-portrait.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/cloth-square.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/daily-mug.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/gift-card.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/jar-cutout.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/jar.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/metal-ring.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/objects-landscape.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/pantry-jar.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/storage-after.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/storage-before.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/media/utility-case.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/model.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/render.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/guided/fixtures.js",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/guided/media/bottle-cutout.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/guided/media/bottle-portrait.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/guided/media/bottle.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/guided/media/box.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/guided/media/campaign-portrait-v2.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/guided/media/jar-cutout.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/guided/media/jar.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/guided/media/objects-landscape.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/guided/split-tension.css",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/guided/split-tension.js",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/mosaic/fixtures.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/mosaic/media/bag-transparent.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/mosaic/media/care-jar.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/mosaic/media/care-pump.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/mosaic/media/case-dark.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/mosaic/media/case-landscape.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/mosaic/media/case-portrait.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/mosaic/media/daily-mug.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/mosaic/media/metal-ring.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/mosaic/media/pantry-jar.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/mosaic/media/utility-case.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/mosaic/mosaic.css",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/mosaic/planner.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/mosaic/render.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/rail/content.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/rail/evidence.css",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/rail/fixtures.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/rail/media/care-pump.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/rail/media/metal-ring.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/rail/media/pantry-jar.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/rail/media/storage-after.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/rail/media/storage-before.svg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/rail/media/utility-case.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/reuse/rail/render.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/serve.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/system.css",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/adapter-engine.mjs",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/browser-capture.js",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/adapter-results.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/browser-journeys.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/browser-results.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/browser-views.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/complexity.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/dataset-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/app-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/balanced-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/balanced-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/balanced-neutral-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/balanced-neutral-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/cart-empty-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/cart-error-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/cart-populated-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/cart-populated-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/collection100-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/collection24-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/collection24-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/compact-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/compact-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/compact-neutral-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/compact-neutral-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/disconnected-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/editorial-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/editorial-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/editorial-neutral-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/editorial-neutral-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/guided-jewelry-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/guided-jewelry-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/initialization-failure-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/keyboard-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/long-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/many-media-768.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/missing-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/plan-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/properties-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/reflow-200-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/reflow-400-320.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/repeated-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/repeated-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/rich-media-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/rtl-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/story-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/story-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/story-neutral-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/frames/story-neutral-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/http-results.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/initialization-failure.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/js-disabled-status.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/preservation.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/reflow.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/repeated.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/reuse.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/screenshot-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/shared-tokens.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/source-integrity.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/evidence/static-results.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/server_journeys.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/static.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/summarize.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tests/validate_observations.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-a/tokens.css",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/README.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/capture-protocol.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/changed-files.txt",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/controls.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/direction.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/extension-findings.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/extensions/purchase.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/extensions/story.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/harness.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/merchant-findings.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/protocol.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/resilience.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/shopify-register.md",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/closure-results.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/complexity.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/extension-metrics.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/extensions-results.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/incumbent-collection-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/incumbent-collection-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/incumbent-collection.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/incumbent-home-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/incumbent-home.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/incumbent-pdp-1440.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/incumbent-pdp-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/incumbent-pdp.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/js-disabled-final-attempt.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/js-disabled.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/js-off-01/cart-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/js-off-01/guided-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/js-off-01/js-off-01.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/js-off-01/product-390.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/js-off-01/server.log",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/js-off-01/test-output.log",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/js-off-01/workflow-run.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/merchant-tasks-first.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/merchant-tasks.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/operator-one.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/operator-two.jpg",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/preservation-after.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/preservation-before.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/reflow.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/screenshots.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/evidence/text-resize-action.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/extensions.py",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/js-off.cjs",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/package-lock.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/package.json",
+      "pass": true
+    },
+    {
+      "name": "preserved:prototypes/m1-final-closure/batch-b/tests/validate_closure.py",
+      "pass": true
+    }
+  ]
+}
