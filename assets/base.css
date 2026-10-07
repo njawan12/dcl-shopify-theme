@@ -320,3 +320,7 @@ site-navigation { font-size: 0.9rem; }
     .primary-menu .navigation-list ul ul { position: static; border: 0; }
   }
 }
+
+.gallery-more { grid-column: 1 / -1; border-block-start: 1px solid currentColor; }
+.gallery-more > summary { padding-inline: 0; font-size: 0.9rem; }
+.gallery-continuation { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.7rem; }

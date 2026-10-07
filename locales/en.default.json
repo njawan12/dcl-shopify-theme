@@ -53,7 +53,8 @@
     "choose": "Choose a product in this section.",
     "from": "From {{ price }}",
     "unit_for": "Unit price for {{ title }}",
-    "model_file": "Open 3D model file"
+    "model_file": "Open 3D model file",
+    "more_media": "Explore all product media"
   },
   "gift": {
     "recipient": "Gift recipient",
