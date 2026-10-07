@@ -74,7 +74,7 @@ try {
         const dims=await page.evaluate(() => ({viewport:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth,script:window.unitApplicationScriptRan===true}));
         assert.ok(dims.scroll<=dims.viewport+1,`${route} overflow at ${width}`);report.assertions++;
         assert.equal(dims.script,javaScriptEnabled);report.assertions++;
-        if(route.endsWith('-stress')) { const ids=await page.locator('[id]').evaluateAll(es=>es.map(e=>e.id)); assert.equal(new Set(ids).size,ids.length,route+' duplicate IDs: '+JSON.stringify(ids)); report.assertions++; assert.equal(await page.locator('form[action="/cart/add"]').count(),2);report.assertions++; }
+        if(route.endsWith('-stress')) { const ids=await page.locator('[id]').evaluateAll(es=>es.map(e=>e.getAttribute('id'))); assert.equal(new Set(ids).size,ids.length,route+' duplicate IDs: '+JSON.stringify(ids)); report.assertions++; assert.equal(await page.locator('form[action="/cart/add"]').count(),2);report.assertions++; }
         report.observations.push({route,width,javaScriptEnabled,...dims});
         if (width===390 || width===1440) await page.screenshot({path:resolve(out,`${route.slice(1)}-${width}-js-${javaScriptEnabled?'on':'off'}.jpg`),fullPage:true});
       }
