@@ -1,0 +1,927 @@
+{
+  "store": "dcl-theme-dev.myshopify.com",
+  "themeId": 185844367583,
+  "uploadedCommit": "b8d10863e668d8660b8b509ff2416f52620a894a",
+  "engine": "Chromium",
+  "journeys": [],
+  "surfaces": [
+    {
+      "label": "home-recheck-390",
+      "path": "/",
+      "title": "dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "dcl-theme-dev"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=39332786862164879811791339667",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "home-recheck-320",
+      "path": "/",
+      "title": "dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "dcl-theme-dev"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=39332786862164879811791339667",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "home-text-200-320",
+      "path": "/",
+      "title": "dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "dcl-theme-dev"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=39332786862164879811791339667",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "product-recheck-390",
+      "path": "/products/the-complete-snowboard",
+      "title": "Complete Snowboard \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=39332786862164879811791339667",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "product-recheck-320",
+      "path": "/products/the-complete-snowboard",
+      "title": "Complete Snowboard \u2014 dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=39332786862164879811791339667",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "product-text-200-320",
+      "path": "/products/the-complete-snowboard",
+      "title": "Complete Snowboard \u2014 dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=39332786862164879811791339667",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "collection-recheck-390",
+      "path": "/collections/all",
+      "title": "Products \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Products"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=39332786862164879811791339667",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "collection-recheck-320",
+      "path": "/collections/all",
+      "title": "Products \u2014 dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Products"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=39332786862164879811791339667",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "collection-text-200-320",
+      "path": "/collections/all",
+      "title": "Products \u2014 dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Products"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=39332786862164879811791339667",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "cart-recheck-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=39332786862164879811791339667",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    }
+  ],
+  "axe": [
+    {
+      "surface": "home",
+      "violations": [
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.i",
+            "TTv5",
+            "TT12.d",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-2.1.1"
+          ],
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<iframe id=\"PBarNextFrame\" src=\"https://cdn.shopify..../\" sandbox=\"allow-same-origin al...\" style=\"width: 100%; height:...\">",
+              "target": [
+                "#PBarNextFrame"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "surface": "product",
+      "violations": [
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.i",
+            "TTv5",
+            "TT12.d",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-2.1.1"
+          ],
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<iframe id=\"PBarNextFrame\" src=\"https://cdn.shopify..../\" sandbox=\"allow-same-origin al...\" style=\"width: 100%; height:...\">",
+              "target": [
+                "#PBarNextFrame"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "surface": "collection",
+      "violations": [
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.i",
+            "TTv5",
+            "TT12.d",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-2.1.1"
+          ],
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<iframe id=\"PBarNextFrame\" src=\"https://cdn.shopify..../\" sandbox=\"allow-same-origin al...\" style=\"width: 100%; height:...\">",
+              "target": [
+                "#PBarNextFrame"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "surface": "cart",
+      "violations": [
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.i",
+            "TTv5",
+            "TT12.d",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-2.1.1"
+          ],
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<iframe id=\"PBarNextFrame\" src=\"https://cdn.shopify..../\" sandbox=\"allow-same-origin al...\" style=\"width: 100%; height:...\">",
+              "target": [
+                "#PBarNextFrame"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "states": [],
+  "performance": [
+    {
+      "surface": "home",
+      "mode": "mobile",
+      "lighthouseVersion": "13.5.0",
+      "performance": 96,
+      "accessibility": 96,
+      "LCP": 2631.63704,
+      "CLS": 0.00020759864907465806,
+      "TBT": 39,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/",
+      "runtimeError": null
+    },
+    {
+      "surface": "product",
+      "mode": "mobile",
+      "lighthouseVersion": "13.5.0",
+      "performance": 96,
+      "accessibility": 96,
+      "LCP": 2550.5771469665524,
+      "CLS": 0.00020759864907465806,
+      "TBT": 49.06865000000016,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard",
+      "runtimeError": null
+    },
+    {
+      "surface": "collection",
+      "mode": "mobile",
+      "lighthouseVersion": "13.5.0",
+      "performance": 96,
+      "accessibility": 95,
+      "LCP": 2203.71111,
+      "CLS": 0.00020759864907465806,
+      "TBT": 143.06491000000005,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/collections/all",
+      "runtimeError": null
+    },
+    {
+      "surface": "home",
+      "mode": "desktop",
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 96,
+      "LCP": 501.49270000000007,
+      "CLS": 0.002008755618305461,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/",
+      "runtimeError": null
+    },
+    {
+      "surface": "product",
+      "mode": "desktop",
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 96,
+      "LCP": 510.8429,
+      "CLS": 0,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard",
+      "runtimeError": null
+    },
+    {
+      "surface": "collection",
+      "mode": "desktop",
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 95,
+      "LCP": 557.6121699999999,
+      "CLS": 0.006786293076715407,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/collections/all",
+      "runtimeError": null
+    }
+  ],
+  "exceptions": [],
+  "browserVersion": "151.0.7922.34",
+  "lighthouseBrowser": {
+    "Browser": "Chrome/151.0.7922.34",
+    "Protocol-Version": "1.3",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+    "V8-Version": "15.1.206.8",
+    "WebKit-Version": "537.36 (@782af9cb30a53f54487e5d2e44738645a8ec457c)"
+  },
+  "keyboard": [
+    {
+      "tag": "A",
+      "text": "Skip to content",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":8,\"y\":8,\"width\":132.328125,\"height\":57.59375,\"top\":8,\"right\":140.328125,\"bottom\":65.59375,\"left\":8}"
+    },
+    {
+      "tag": "A",
+      "text": "dcl-theme-dev",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":16,\"y\":21.265625,\"width\":267.53125,\"height\":35.84375,\"top\":21.265625,\"right\":283.53125,\"bottom\":57.109375,\"left\":16}"
+    },
+    {
+      "tag": "SUMMARY",
+      "text": "Menu",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":299.53125,\"y\":16,\"width\":74.46875,\"height\":46.375,\"top\":16,\"right\":374,\"bottom\":62.375,\"left\":299.53125}"
+    },
+    {
+      "tag": "A",
+      "text": "Search",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":16,\"y\":78.375,\"width\":45.328125,\"height\":44,\"top\":78.375,\"right\":61.328125,\"bottom\":122.375,\"left\":16}"
+    },
+    {
+      "tag": "A",
+      "text": "Cart\n(0)",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":77.328125,\"y\":78.375,\"width\":45.25,\"height\":44,\"top\":78.375,\"right\":122.578125,\"bottom\":122.375,\"left\":77.328125}"
+    },
+    {
+      "tag": "SHOPIFY-ACCOUNT",
+      "text": "",
+      "outline": "none",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":154.578125,\"y\":78.375,\"width\":44,\"height\":44,\"top\":78.375,\"right\":198.578125,\"bottom\":122.375,\"left\":154.578125}"
+    },
+    {
+      "tag": "SELECT",
+      "text": "Canada (USD $)\nUnited States (USD $)",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":16,\"y\":177.5625,\"width\":358,\"height\":45.78125,\"top\":177.5625,\"right\":374,\"bottom\":223.34375,\"left\":16}"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Apply",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":16,\"y\":223.34375,\"width\":71.640625,\"height\":48.375,\"top\":223.34375,\"right\":87.640625,\"bottom\":271.71875,\"left\":16}"
+    },
+    {
+      "tag": "A",
+      "text": "Ice",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":33,\"y\":426.3125,\"width\":41.984375,\"height\":47.59375,\"top\":426.3125,\"right\":74.984375,\"bottom\":473.90625,\"left\":33}"
+    },
+    {
+      "tag": "A",
+      "text": "Dawn",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":82.984375,\"y\":426.3125,\"width\":55.875,\"height\":44,\"top\":426.3125,\"right\":138.859375,\"bottom\":470.3125,\"left\":82.984375}"
+    },
+    {
+      "tag": "A",
+      "text": "Powder",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":146.859375,\"y\":426.3125,\"width\":68.65625,\"height\":44,\"top\":426.3125,\"right\":215.515625,\"bottom\":470.3125,\"left\":146.859375}"
+    },
+    {
+      "tag": "A",
+      "text": "Electric",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":223.515625,\"y\":426.3125,\"width\":67.234375,\"height\":44,\"top\":426.3125,\"right\":290.75,\"bottom\":470.3125,\"left\":223.515625}"
+    },
+    {
+      "tag": "A",
+      "text": "Sunset",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":33,\"y\":481.90625,\"width\":63.484375,\"height\":44,\"top\":481.90625,\"right\":96.484375,\"bottom\":525.90625,\"left\":33}"
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":16,\"y\":609.296875,\"width\":192,\"height\":48.375,\"top\":609.296875,\"right\":208,\"bottom\":657.671875,\"left\":16}"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Add to cart",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":16,\"y\":715.90625,\"width\":358,\"height\":48.375,\"top\":715.90625,\"right\":374,\"bottom\":764.28125,\"left\":16}"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Buy it now",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":16,\"y\":780.28125,\"width\":358,\"height\":44,\"top\":780.28125,\"right\":374,\"bottom\":824.28125,\"left\":16}"
+    },
+    {
+      "tag": "A",
+      "text": "Search",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":16,\"y\":427.0625,\"width\":358,\"height\":46.375,\"top\":427.0625,\"right\":374,\"bottom\":473.4375,\"left\":16}"
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":16,\"y\":619.640625,\"width\":358,\"height\":48.375,\"top\":619.640625,\"right\":374,\"bottom\":668.015625,\"left\":16}"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Subscribe",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":16,\"y\":668.015625,\"width\":99.828125,\"height\":48.375,\"top\":668.015625,\"right\":115.828125,\"bottom\":716.390625,\"left\":16}"
+    },
+    {
+      "tag": "SELECT",
+      "text": "Canada (USD $)\nUnited States (USD $)",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":16,\"y\":755.578125,\"width\":358,\"height\":45.78125,\"top\":755.578125,\"right\":374,\"bottom\":801.359375,\"left\":16}"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Apply",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":16,\"y\":801.359375,\"width\":71.640625,\"height\":48.375,\"top\":801.359375,\"right\":87.640625,\"bottom\":849.734375,\"left\":16}"
+    },
+    {
+      "tag": "A",
+      "text": "Privacy policy",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":16,\"y\":855.734375,\"width\":91.34375,\"height\":44,\"top\":855.734375,\"right\":107.34375,\"bottom\":899.734375,\"left\":16}"
+    },
+    {
+      "tag": "A",
+      "text": "Powered by Shopify",
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":16,\"y\":823.734375,\"width\":131.234375,\"height\":44,\"top\":823.734375,\"right\":147.234375,\"bottom\":867.734375,\"left\":16}"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "outline": "none",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":0,\"y\":0,\"width\":390,\"height\":900,\"top\":0,\"right\":390,\"bottom\":900,\"left\":0}"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "outline": "none",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":0,\"y\":0,\"width\":390,\"height\":900,\"top\":0,\"right\":390,\"bottom\":900,\"left\":0}"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "outline": "none",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":0,\"y\":0,\"width\":390,\"height\":900,\"top\":0,\"right\":390,\"bottom\":900,\"left\":0}"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "outline": "none",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":0,\"y\":0,\"width\":390,\"height\":900,\"top\":0,\"right\":390,\"bottom\":900,\"left\":0}"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "outline": "none",
+      "outlineWidth": "3px",
+      "rect": "{\"x\":0,\"y\":0,\"width\":390,\"height\":900,\"top\":0,\"right\":390,\"bottom\":900,\"left\":0}"
+    }
+  ],
+  "textEnlargement": [
+    {
+      "surface": "home",
+      "method": "200% root text size via controlled CSS; feasibility check, not browser/AT certification",
+      "viewport": 320,
+      "scroll": 320
+    },
+    {
+      "surface": "product",
+      "method": "200% root text size via controlled CSS; feasibility check, not browser/AT certification",
+      "viewport": 320,
+      "scroll": 320
+    },
+    {
+      "surface": "collection",
+      "method": "200% root text size via controlled CSS; feasibility check, not browser/AT certification",
+      "viewport": 320,
+      "scroll": 320
+    }
+  ],
+  "settings": [
+    {
+      "surface": "home",
+      "pageWidth": "78rem",
+      "foreground": "#202020",
+      "background": "#FFFFFF",
+      "direction": "ltr"
+    },
+    {
+      "surface": "product",
+      "pageWidth": "78rem",
+      "foreground": "#202020",
+      "background": "#FFFFFF",
+      "direction": "ltr"
+    },
+    {
+      "surface": "collection",
+      "pageWidth": "78rem",
+      "foreground": "#202020",
+      "background": "#FFFFFF",
+      "direction": "ltr"
+    }
+  ],
+  "homeProductCount": 1,
+  "nativeValidation": {
+    "rangeUnderflow": true,
+    "message": "Value must be greater than or equal to 1."
+  },
+  "cartKeyboard": [
+    {
+      "tag": "A",
+      "text": "Skip to content",
+      "outline": "solid"
+    },
+    {
+      "tag": "A",
+      "text": "dcl-theme-dev",
+      "outline": "solid"
+    },
+    {
+      "tag": "SUMMARY",
+      "text": "Menu",
+      "outline": "solid"
+    },
+    {
+      "tag": "A",
+      "text": "Search",
+      "outline": "solid"
+    },
+    {
+      "tag": "A",
+      "text": "Cart\n(1)",
+      "outline": "solid"
+    },
+    {
+      "tag": "SHOPIFY-ACCOUNT",
+      "text": "",
+      "outline": "none"
+    },
+    {
+      "tag": "SELECT",
+      "text": "Canada (USD $)\nUnited States (USD $)",
+      "outline": "solid"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Apply",
+      "outline": "solid"
+    },
+    {
+      "tag": "A",
+      "text": "",
+      "outline": "solid"
+    },
+    {
+      "tag": "A",
+      "text": "The Complete Snowboard",
+      "outline": "solid"
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "outline": "solid"
+    },
+    {
+      "tag": "A",
+      "text": "Remove The Complete Snowboard",
+      "outline": "solid"
+    },
+    {
+      "tag": "TEXTAREA",
+      "text": "",
+      "outline": "solid"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Update cart",
+      "outline": "solid"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Checkout",
+      "outline": "solid"
+    },
+    {
+      "tag": "A",
+      "text": "Search",
+      "outline": "solid"
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "outline": "solid"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Subscribe",
+      "outline": "solid"
+    },
+    {
+      "tag": "SELECT",
+      "text": "Canada (USD $)\nUnited States (USD $)",
+      "outline": "solid"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Apply",
+      "outline": "solid"
+    },
+    {
+      "tag": "A",
+      "text": "Privacy policy",
+      "outline": "solid"
+    },
+    {
+      "tag": "A",
+      "text": "Powered by Shopify",
+      "outline": "solid"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "outline": "none"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "outline": "none"
+    }
+  ],
+  "result": "PASS_EXECUTED_FUNCTIONAL_CHECKS",
+  "workflowRun": 37561606897,
+  "harnessCommit": "35ed7291997af0dba09d717fb0425de226d54bd0",
+  "themeSource": "initial b8d1086 plus only assets/base.css patch 35ed729"
+}

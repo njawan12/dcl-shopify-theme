@@ -1,0 +1,1071 @@
+{
+  "store": "dcl-theme-dev.myshopify.com",
+  "themeId": 185844367583,
+  "uploadedCommit": "b8d10863e668d8660b8b509ff2416f52620a894a",
+  "engine": "Chromium",
+  "journeys": [
+    {
+      "javaScriptEnabled": true,
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "initialVariant": "67931960574175",
+      "productId": "15414509732063",
+      "variantId": "67931960606943",
+      "selectedOptions": "Color: Dawn",
+      "quantity": 2,
+      "priceMinor": 69995,
+      "currency": "USD",
+      "lineKey": "67931960606943:b0135402b1b7da6b75a8fccabc2b99a2",
+      "cartPath": "/cart",
+      "nativeFormSubmitted": true,
+      "scriptPolicy": "enabled",
+      "serverCartVerified": true,
+      "updateAndNotePassed": true,
+      "checkoutBoundaryReached": true,
+      "removePassed": true,
+      "consoleObservations": [
+        {
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified.",
+          "type": "info",
+          "count": 37
+        },
+        {
+          "text": "[bugsnag] Loaded!",
+          "type": "debug",
+          "count": 40
+        },
+        {
+          "text": "Framing 'https://shop.app/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://shop.app/ https://admin.shopify.com/\". The request has been blocked.\n",
+          "type": "error",
+          "count": 1
+        },
+        {
+          "text": "Failed to load resource: the server responded with a status of 403 ()",
+          "type": "error",
+          "count": 1
+        },
+        {
+          "text": "Rendering was performed in a subtree hidden by content-visibility.",
+          "type": "verbose",
+          "count": 1089
+        },
+        {
+          "text": "Clear-Site-Data header on 'https://dcl-theme-dev.myshopify.com/cart/add': Cleared data types: \"prefetchCache\", \"prerenderCache\".",
+          "type": "info",
+          "count": 1
+        },
+        {
+          "text": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://pay.shopify.com')/ does not match the recipient window's origin ('https://shop.app')./",
+          "type": "warning",
+          "count": 2
+        },
+        {
+          "text": "Clear-Site-Data header on 'https://dcl-theme-dev.myshopify.com/cart/update.js': Cleared data types: \"prefetchCache\", \"prerenderCache\".",
+          "type": "info",
+          "count": 1
+        },
+        {
+          "text": "Failed to load resource: the server responded with a status of 401 ()",
+          "type": "error",
+          "count": 1
+        },
+        {
+          "text": "Clear-Site-Data header on 'https://dcl-theme-dev.myshopify.com/cart/change?id=67931960606943:b0135402b1b7da6b75a8fccabc2b99a2&quantity=0%27: Cleared data types: \"prefetchCache\", \"prerenderCache\".",
+          "type": "info",
+          "count": 1
+        },
+        {
+          "text": "Failed to load resource: the server responded with a status of 404 ()",
+          "type": "error",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "javaScriptEnabled": false,
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "initialVariant": "67931960574175",
+      "productId": "15414509732063",
+      "variantId": "67931960606943",
+      "selectedOptions": "Color: Dawn",
+      "quantity": 2,
+      "priceMinor": 69995,
+      "currency": "USD",
+      "lineKey": "67931960606943:b0135402b1b7da6b75a8fccabc2b99a2",
+      "cartPath": "/cart",
+      "nativeFormSubmitted": true,
+      "scriptPolicy": "browser-context disabled; no script-removal/CSP/failure simulation",
+      "serverCartVerified": true,
+      "updateAndNotePassed": true,
+      "removePassed": true,
+      "consoleObservations": [
+        {
+          "text": "Clear-Site-Data header on 'https://dcl-theme-dev.myshopify.com/cart/add': Cleared data types: \"prefetchCache\", \"prerenderCache\".",
+          "type": "info",
+          "count": 1
+        },
+        {
+          "text": "Clear-Site-Data header on 'https://dcl-theme-dev.myshopify.com/cart': Cleared data types: \"prefetchCache\", \"prerenderCache\".",
+          "type": "info",
+          "count": 1
+        },
+        {
+          "text": "Clear-Site-Data header on 'https://dcl-theme-dev.myshopify.com/cart/change?id=67931960606943:b0135402b1b7da6b75a8fccabc2b99a2&quantity=0%27: Cleared data types: \"prefetchCache\", \"prerenderCache\".",
+          "type": "info",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "surfaces": [
+    {
+      "label": "product-js-on-390",
+      "path": "/products/the-complete-snowboard?option_values=15004252602591",
+      "title": "Complete Snowboard \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "cart-js-on-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "home-390",
+      "path": "/",
+      "title": "dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "dcl-theme-dev"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "product-390",
+      "path": "/products/the-complete-snowboard",
+      "title": "Complete Snowboard \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "collection-390",
+      "path": "/collections/all",
+      "title": "Products \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Products"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "cart-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "search-390",
+      "path": "/search?q=snowboard",
+      "title": "Search: 11 results found for \"snowboard\" \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Search"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "contact-390",
+      "path": "/pages/contact",
+      "title": "Contact \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Contact"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "404-390",
+      "path": "/m2a-live-gate-not-found",
+      "title": "404 Not Found \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Page not found"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "home-1440",
+      "path": "/",
+      "title": "dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "dcl-theme-dev"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "product-1440",
+      "path": "/products/the-complete-snowboard",
+      "title": "Complete Snowboard \u2014 dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "collection-1440",
+      "path": "/collections/all",
+      "title": "Products \u2014 dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Products"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "cart-1440",
+      "path": "/cart",
+      "title": "Your Shopping Cart \u2014 dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "search-1440",
+      "path": "/search?q=snowboard",
+      "title": "Search: 11 results found for \"snowboard\" \u2014 dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Search"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "contact-1440",
+      "path": "/pages/contact",
+      "title": "Contact \u2014 dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Contact"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "404-1440",
+      "path": "/m2a-live-gate-not-found",
+      "title": "404 Not Found \u2014 dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Page not found"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "home-320",
+      "path": "/",
+      "title": "dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "dcl-theme-dev"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "product-320",
+      "path": "/products/the-complete-snowboard",
+      "title": "Complete Snowboard \u2014 dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "collection-320",
+      "path": "/collections/all",
+      "title": "Products \u2014 dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Products"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "cart-320",
+      "path": "/cart",
+      "title": "Your Shopping Cart \u2014 dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "search-320",
+      "path": "/search?q=snowboard",
+      "title": "Search: 11 results found for \"snowboard\" \u2014 dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Search"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "contact-320",
+      "path": "/pages/contact",
+      "title": "Contact \u2014 dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Contact"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "404-320",
+      "path": "/m2a-live-gate-not-found",
+      "title": "404 Not Found \u2014 dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Page not found"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "sold-out-390",
+      "path": "/products/the-out-of-stock-snowboard",
+      "title": "The Out of Stock Snowboard \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Out of Stock Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compare-at-390",
+      "path": "/products/the-compare-at-price-snowboard",
+      "title": "The Compare at Price Snowboard \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Compare at Price Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "multiple-media-390",
+      "path": "/products/the-videographer-snowboard",
+      "title": "The Videographer Snowboard \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Videographer Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "gift-product-390",
+      "path": "/products/gift-card",
+      "title": "Gift Card \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Gift Card"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "selling-plans-390",
+      "path": "/products/selling-plans-ski-wax",
+      "title": "Selling Plans Ski Wax \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Selling Plans Ski Wax"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "product-js-off-390",
+      "path": "/products/the-complete-snowboard?option_values=15004252602591",
+      "title": "Complete Snowboard \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "cart-js-off-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=181906562087496355961791316471",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    }
+  ],
+  "axe": [
+    {
+      "surface": "cart",
+      "violations": [
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.i",
+            "TTv5",
+            "TT12.d",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-2.1.1"
+          ],
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<iframe id=\"PBarNextFrame\" src=\"https://cdn.shopify..../\" sandbox=\"allow-same-origin al...\" style=\"width: 100%; height:...\">",
+              "target": [
+                "#PBarNextFrame"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "surface": "home",
+      "violations": [
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.i",
+            "TTv5",
+            "TT12.d",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-2.1.1"
+          ],
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<iframe id=\"PBarNextFrame\" src=\"https://cdn.shopify..../\" sandbox=\"allow-same-origin al...\" style=\"width: 100%; height:...\">",
+              "target": [
+                "#PBarNextFrame"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "surface": "product",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143",
+            "TTv5",
+            "TT13.c",
+            "EN-301-549",
+            "EN-9.1.4.3",
+            "ACT",
+            "RGAAv4",
+            "RGAA-3.2.1"
+          ],
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "color-contrast",
+                  "data": {
+                    "fgColor": "#ffffff",
+                    "bgColor": "#1990c6",
+                    "contrastRatio": 3.59,
+                    "fontSize": "12.0pt (16px)",
+                    "fontWeight": "normal",
+                    "messageKey": null,
+                    "expectedContrastRatio": "4.5:1"
+                  },
+                  "relatedNodes": [
+                    {
+                      "html": "<button type=\"button\" class=\"shopify-payment-button__button shopify-payment-button__button--unbranded\">Buy it now</button>",
+                      "target": [
+                        ".shopify-payment-button__button"
+                      ]
+                    }
+                  ],
+                  "impact": "serious",
+                  "message": "Element has insufficient color contrast of 3.59 (foreground color: #ffffff, background color: #1990c6, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<button type=\"button\" class=\"shopify-payment-button__button shopify-payment-button__button--unbranded\">Buy it now</button>",
+              "target": [
+                ".shopify-payment-button__button"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #ffffff, background color: #1990c6, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.i",
+            "TTv5",
+            "TT12.d",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-2.1.1"
+          ],
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<iframe id=\"PBarNextFrame\" src=\"https://cdn.shopify..../\" sandbox=\"allow-same-origin al...\" style=\"width: 100%; height:...\">",
+              "target": [
+                "#PBarNextFrame"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "surface": "collection",
+      "violations": [
+        {
+          "id": "frame-title",
+          "impact": "serious",
+          "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.i",
+            "TTv5",
+            "TT12.d",
+            "EN-301-549",
+            "EN-9.4.1.2",
+            "RGAAv4",
+            "RGAA-2.1.1"
+          ],
+          "description": "Ensure <iframe> and <frame> elements have an accessible name",
+          "help": "Frames must have an accessible name",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/frame-title?application=playwright",
+          "nodes": [
+            {
+              "any": [
+                {
+                  "id": "non-empty-title",
+                  "data": {
+                    "messageKey": "noAttr"
+                  },
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element has no title attribute"
+                },
+                {
+                  "id": "aria-label",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-label attribute does not exist or is empty"
+                },
+                {
+                  "id": "aria-labelledby",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+                },
+                {
+                  "id": "presentational-role",
+                  "data": null,
+                  "relatedNodes": [],
+                  "impact": "serious",
+                  "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+                }
+              ],
+              "all": [],
+              "none": [],
+              "impact": "serious",
+              "html": "<iframe id=\"PBarNextFrame\" src=\"https://cdn.shopify..../\" sandbox=\"allow-same-origin al...\" style=\"width: 100%; height:...\">",
+              "target": [
+                "#PBarNextFrame"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "states": [
+    {
+      "name": "sold-out",
+      "path": "/products/the-out-of-stock-snowboard",
+      "text": "The Out of Stock Snowboard\n\ndcl-theme-dev\n\n$885.95 USD\n\nSold out\n\nQuantity\n\nMinimum 1; increments of 1.\n\nSold out"
+    },
+    {
+      "name": "compare-at",
+      "path": "/products/the-compare-at-price-snowboard",
+      "text": "The Compare at Price Snowboard\n\ndcl-theme-dev\n\nRegular price\n$885.95 USD\nSale price\n$785.95 USD\n\nAvailable\n\nQuantity\n\nMinimum 1; increments of 1.\n\nAdd to cart\nBuy it now"
+    },
+    {
+      "name": "multiple-media",
+      "path": "/products/the-videographer-snowboard",
+      "text": "Video of the Snowboard.\nThe Videographer Snowboard\n\ndcl-theme-dev\n\n$885.95 USD\n\nAvailable\n\nQuantity\n\nMinimum 1; increments of 1.\n\nAdd to cart\nBuy it now"
+    },
+    {
+      "name": "gift-product",
+      "path": "/products/gift-card",
+      "text": "Gift Card\n\nSnowboard Vendor\n\n$10.00 USD\n\nSold out\n\nDenominations\n$10\n\u2014 Unavailable\n$25\n\u2014 Unavailable\n$50\n\u2014 Unavailable\n$100\n\u2014 Unavailable\nQuantity\n\nMinimum 1; increments of 1.\n\nGift recipient\nSend this gift card to a recipient\nEmail\nRecipient name (optional)\nMessage (optional)\n\nEnter an email when sending to a recipient. Recipient gifts use Add to cart, not accelerated checkout.\n\nSold out"
+    },
+    {
+      "name": "selling-plans",
+      "path": "/products/selling-plans-ski-wax",
+      "text": "Selling Plans Ski Wax\n\ndcl-theme-dev\n\n$24.95 USD\n\nAvailable\n\nTitle\nSelling Plans Ski Wax\nSpecial Selling Plans Ski Wax\nSample Selling Plans Ski Wax\nPurchase option\nOne-time purchase\nSki wax subscription, billed and delivered weekly \u2014 $21.21 USD\nA year supply of prepaid ski wax, delivered monthly \u2014 $239.52 USD\nApply\n\nApply your purchase option to update the price before adding to cart.\n\nQuantity\n\nMinimum 1; increments of 1.\n\nAdd to cart\nBuy it now"
+    }
+  ],
+  "performance": [],
+  "exceptions": [
+    {
+      "category": "Lighthouse",
+      "name": "home",
+      "mode": "mobile",
+      "error": "process failed"
+    },
+    {
+      "category": "Lighthouse",
+      "name": "product",
+      "mode": "mobile",
+      "error": "process failed"
+    },
+    {
+      "category": "Lighthouse",
+      "name": "collection",
+      "mode": "mobile",
+      "error": "process failed"
+    },
+    {
+      "category": "Lighthouse",
+      "name": "home",
+      "mode": "desktop",
+      "error": "process failed"
+    },
+    {
+      "category": "Lighthouse",
+      "name": "product",
+      "mode": "desktop",
+      "error": "process failed"
+    },
+    {
+      "category": "Lighthouse",
+      "name": "collection",
+      "mode": "desktop",
+      "error": "process failed"
+    }
+  ],
+  "browserVersion": "151.0.7922.34",
+  "predictiveSearch": {
+    "actualEndpoint": true,
+    "suggestions": [
+      "The Multi-managed Snowboard",
+      "The Multi-location Snowboard",
+      "The Complete Snowboard",
+      "The 3p Fulfilled Snowboard",
+      "The Videographer Snowboard",
+      "The Collection Snowboard: Oxygen",
+      "The Inventory Not Tracked Snowboard",
+      "The Compare at Price Snowboard",
+      "The Collection Snowboard: Liquid",
+      "The Collection Snowboard: Hydrogen"
+    ]
+  },
+  "sorting": true,
+  "filterControls": 2,
+  "filterSubmission": {
+    "path": "/collections/all?filter.v.availability=1&filter.v.price.gte=&filter.v.price.lte=&sort_by=price-descending",
+    "results": 10
+  },
+  "reducedMotion": true,
+  "result": "PASS_EXECUTED_FUNCTIONAL_CHECKS",
+  "workflowRun": 37560197128,
+  "harnessCommit": "f620eee197491c2387af72a05aa2e8849a6fe631",
+  "themeSource": "b8d10863e668d8660b8b509ff2416f52620a894a"
+}

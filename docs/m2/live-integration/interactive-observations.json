@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-06",
+  "store": "dcl-theme-dev.myshopify.com",
+  "theme": 185844367583,
+  "uploadedCommit": "b8d10863e668d8660b8b509ff2416f52620a894a",
+  "editor": [
+    {
+      "operation": "Content width Standard\u2192Wide, Save",
+      "result": "Editor displays Wide selected and Save disabled; preview frame was recreated. Nested DOM token inspection unavailable through this browser binding."
+    },
+    {
+      "operation": "Header group menu Main menu\u2192Footer menu; saved",
+      "result": "PASS save accepted"
+    },
+    {
+      "operation": "Footer group menu Footer menu\u2192Main menu; Save",
+      "result": "Save accepted"
+    },
+    {
+      "operation": "Remove Description main-product block; Save",
+      "result": "Removed without purchase-path alteration"
+    },
+    {
+      "operation": "Main-product installed Shop app",
+      "result": "Shopify-rendered Sign in with Shop button visible in actual preview; nested-frame DOM evaluation unavailable via browser backend"
+    },
+    {
+      "operation": "Remove installed Shop block, restore Description via native insertion before Store pickup; Save",
+      "result": "Saved restored semantic block set; direct keyboard/drag reorder activation did not change order, not counted as a PASS"
+    },
+    {
+      "operation": "Featured product select Compare at Price Snowboard; save; keyboard reorder below main product",
+      "result": "PASS \u2014 template and rendered order Product \u2192 Featured product; US sale 785.95 / compare-at 885.95 USD"
+    },
+    {
+      "operation": "Featured-product @app seam; add installed Shop block; save; reorder after price; save",
+      "result": "PASS \u2014 native Shop sign-in button rendered again in mobile preview; no app installation or sign-in"
+    },
+    {
+      "operation": "Main product Custom Liquid add/save/reorder/save",
+      "result": "PASS \u2014 moved from before Title to after Product options; rendered M2A reorder test \u2014 The Complete Snowboard; same native product source"
+    },
+    {
+      "operation": "App embeds pane",
+      "result": "No apps with embeds installed; no app installed for this test"
+    },
+    {
+      "operation": "Home collection selection",
+      "result": "PASS \u2014 saved existing Home page/frontpage collection; actual Inventory Not Tracked Snowboard card 949.95 USD renders"
+    },
+    {
+      "operation": "Gift card context at mobile preview",
+      "result": "Shopify-supplied sample renders 100 USD balance, code field, QR and shop link; platform preview data only, not actual gift issuance/redemption"
+    },
+    {
+      "operation": "Core Vendor block reordered before Title; Save",
+      "result": "PASS \u2014 saved core main-product block order Vendor \u2192 Title \u2192 Price; restoration through undo follows"
+    },
+    {
+      "operation": "Custom Liquid duplication",
+      "result": "PASS \u2014 two saved blocks rendered M2A editor test \u2014 Gift Card; both removed"
+    },
+    {
+      "operation": "Main product @app",
+      "result": "PASS \u2014 installed Shop block added/saved/rendered in mobile preview and then removed"
+    },
+    {
+      "operation": "Description remove/add",
+      "result": "Removed/saved and restored through native Add block; semantic order retained with new Shopify block ID"
+    },
+    {
+      "operation": "Core Vendor reorder/restore",
+      "result": "DOM order Vendor \u2192 Title verified; restored via native Undo; Save disabled after restoration. Final remote order is checked separately."
+    },
+    {
+      "operation": "Password context",
+      "result": "Actual uploaded-theme editor preview renders shop heading, labeled Password field and Enter action at mobile; no password entered"
+    },
+    {
+      "operation": "Final core-order cleanup verification",
+      "result": "Undo UI title-first did not persist remotely; scoped CLI restored only accepted templates/product.json. Final read-only pull exactly equals accepted template; no new implementation or full/new theme upload."
+    },
+    {
+      "operation": "Final fresh editor session",
+      "result": "Old temporary test session closed; Restore last session notification dismissed; fresh editor Save disabled and populated home renders from saved data. Native product-template pull exactly equals accepted source."
+    }
+  ],
+  "storefront": [],
+  "journeys": [
+    {
+      "javascript": "ON",
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "product": {
+        "overflow": false,
+        "path": "/products/the-complete-snowboard?option_values=15004252602591",
+        "price": "$699.95 USD",
+        "productIdentity": "15414509732063",
+        "purchaseEnabled": true,
+        "quantity": "2",
+        "selectedOption": "Dawn",
+        "variantIdentity": "<redacted>"
+      },
+      "cart": {
+        "lineKey": "67931960606943:b0135402b1b7da6b75a8fccabc2b99a2",
+        "overflow": false,
+        "path": "/cart",
+        "quantity": "2",
+        "text": "Cart\n  \n    \n      \n      \n        Cart items\n          \n            \n              \n                \n  \n  \n\n\n                \n                  The Complete Snowboard\n                  ColorDawn\n                  \n                  \n                  \n                  $699.95 USD\n                  \n\n                  Line total $1,399.90 USD\n                  \n                  Quantity\n                  \n                  Remove The Complete Snowboard\n                \n              \n            \n          \n          Order note\n          Update cart\n        \n        \n          \n          Subtotal $1,399.90 USD\n          Taxes and shipping calculated at checkout.\n          Checkout",
+        "variantDestination": "/products/the-complete-snowboard?variant=67931960606943"
+      },
+      "updatedCart": {
+        "note": "M2A live gate test note",
+        "overflow": false,
+        "quantity": "3",
+        "text": "Cart\n  \n    \n      \n      \n        Cart items\n          \n            \n              \n                \n  \n  \n\n\n                \n                  The Complete Snowboard\n                  ColorDawn\n                  \n                  \n                  \n                  $699.95 USD\n                  \n\n                  Line total $2,099.85 USD\n                  \n                  Quantity\n                  \n                  Remove The Complete Snowboard\n                \n              \n            \n          \n          Order noteM2A live gate test note\n          Update cart\n        \n        \n          \n          Subtotal $2,099.85 USD\n          Taxes and shipping calculated at checkout.\n          Checkout"
+      },
+      "checkoutBoundary": {
+        "reached": true,
+        "product": "The Complete Snowboard",
+        "variant": "Dawn",
+        "quantity": 3,
+        "total": "2099.85 USD",
+        "route": "/checkouts/cn/[session]/en-us",
+        "transactionCompleted": false
+      },
+      "removed": "Cart\n\nYour cart is empty.\n\nContinue shopping"
+    }
+  ],
+  "limitations": []
+}

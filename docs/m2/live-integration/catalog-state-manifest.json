@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-06",
+  "store": "dcl-theme-dev.myshopify.com",
+  "addedTestProduct": {
+    "productId": "15414839476447",
+    "title": "M2A Integration Test \u2014 Two Options (no media)",
+    "path": "/products/m2a-integration-test-two-options-no-media",
+    "initialVariant": "67933303996639",
+    "price": "$12.00 USD\n$6.00 USD / oz",
+    "options": [
+      "Size\n      \n        \n          \n          \n          \n            \n            Small\n          \n        \n          \n          \n          \n            \n            Large\n          \n        \n      \n    ",
+      "Finish\n      \n        \n          \n          \n          \n            \n            Matte\n          \n        \n          \n          \n          \n            \n            Gloss\n          \n        \n      \n    "
+    ],
+    "noMedia": true,
+    "description": "",
+    "nativeCart": [
+      {
+        "productId": 15414839476447,
+        "variantId": 67933304029407,
+        "quantity": 1,
+        "priceMinor": 1200,
+        "variantTitle": "Small / Gloss",
+        "unitPrice": 600,
+        "measurement": {
+          "measured_type": "weight",
+          "quantity_value": "2.0",
+          "quantity_unit": "oz",
+          "reference_value": 1,
+          "reference_unit": "oz"
+        }
+      }
+    ]
+  },
+  "missingCombination": {
+    "path": "/products/m2a-integration-test-two-options-no-media?option_values=15005741383903%2C15005741449439",
+    "selected": [
+      "\n            \n            Large\n          ",
+      "\n            \n            Gloss \u2014 Unavailable\n          "
+    ],
+    "purchaseDisabled": true,
+    "noFalsePrice": true
+  },
+  "sellingPlan": {
+    "plan": {
+      "value": "8657469663",
+      "text": "Ski wax subscription, billed and delivered weekly \u2014 $21.21 USD"
+    },
+    "allocatedPrice": "Regular price\n$24.95 USD\nSale price\n$21.21 USD",
+    "nativeFormSubmitted": true,
+    "cartPriceMinor": 2121,
+    "quantity": 1,
+    "productId": 15414509502687,
+    "variantId": 67931960738015
+  },
+  "existingCatalog": {
+    "totalBefore": 17,
+    "ordinary": {
+      "title": "The Complete Snowboard",
+      "productId": "15414509732063",
+      "option": "Color",
+      "variant": "Dawn",
+      "variantId": "67931960606943",
+      "priceUSD": 699.95
+    },
+    "soldOut": {
+      "title": "The Out of Stock Snowboard",
+      "productId": "15414509535455",
+      "inventory": 0
+    },
+    "compareAt": {
+      "title": "The Compare at Price Snowboard",
+      "productId": "15414509666527",
+      "US_saleUSD": 785.95,
+      "US_compareUSD": 885.95
+    },
+    "multipleMedia": {
+      "title": "The Videographer Snowboard",
+      "productId": "15414509699295"
+    },
+    "giftCard": {
+      "productId": "15414509371615",
+      "nativeProduct": true,
+      "fourDenominations": true,
+      "allSoldOut": true,
+      "issuanceTested": false
+    },
+    "sellingPlans": {
+      "productId": "15414509502687",
+      "weeklyPlanId": "8657469663",
+      "priceMinor": 2121
+    }
+  },
+  "unavailableStates": [
+    "Actual gift issuance/redemption and recipient cart submission (gift variants sold out; no gift issued)",
+    "Enabled store pickup availability not exposed",
+    "Non-default quantity min/max/increment not exposed; default min 1/step 1 verified",
+    "Native collection pagination needs more than 24 products; existing catalog plus one minimal fixture does not meet that threshold",
+    "Multiple languages, currency changes and real RTL locale not configured",
+    "No installed app embeds"
+  ],
+  "fixturePolicy": "Exactly one clearly named real Shopify test product added; no existing merchant product or live theme changed; Large/Gloss omitted before initial save; real native three-variant product, no fixture adapter."
+}

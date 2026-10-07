@@ -1,0 +1,122 @@
+{
+  "sections/header-group.json": {
+    "type": "header",
+    "name": "t:sections.header",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "menu": "main-menu"
+        }
+      }
+    },
+    "order": [
+      "header"
+    ]
+  },
+  "sections/footer-group.json": {
+    "type": "footer",
+    "name": "t:sections.footer",
+    "sections": {
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "menu": "footer",
+          "social_url": "",
+          "social_label": ""
+        }
+      }
+    },
+    "order": [
+      "footer"
+    ]
+  },
+  "config/settings_data.json": {
+    "current": {
+      "page_width": "standard",
+      "content_for_index": []
+    },
+    "presets": {
+      "Living Canvas": {}
+    }
+  },
+  "templates/product.json": {
+    "sections": {
+      "main": {
+        "type": "main-product",
+        "blocks": {
+          "title": {
+            "type": "title",
+            "settings": {}
+          },
+          "vendor": {
+            "type": "vendor",
+            "settings": {}
+          },
+          "price": {
+            "type": "price",
+            "settings": {}
+          },
+          "options": {
+            "type": "options",
+            "settings": {}
+          },
+          "plans": {
+            "type": "plans",
+            "settings": {}
+          },
+          "quantity": {
+            "type": "quantity",
+            "settings": {}
+          },
+          "buy": {
+            "type": "buy",
+            "settings": {}
+          },
+          "description": {
+            "type": "description",
+            "settings": {}
+          },
+          "pickup": {
+            "type": "pickup",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "title",
+          "vendor",
+          "price",
+          "options",
+          "plans",
+          "quantity",
+          "buy",
+          "description",
+          "pickup"
+        ],
+        "settings": {}
+      }
+    },
+    "order": [
+      "main"
+    ]
+  },
+  "templates/index.json": {
+    "sections": {
+      "main": {
+        "type": "main-home",
+        "settings": {
+          "heading": "",
+          "collection": "frontpage"
+        }
+      }
+    },
+    "order": [
+      "main"
+    ]
+  },
+  "css_sha256": "a4b8280e61fe8cbd4f459c03aaae9c550c720cc59cb221e78eef2a4a1532998e",
+  "css_matches_local": true,
+  "scope": "Read-only pull of saved native editor config; NOT replacement production theme files",
+  "product_template_matches_accepted_source": true,
+  "cleanup": "Single templates/product.json restored to accepted native template via scoped CLI --only --nodelete after editor exercise; not a new/full upload"
+}

@@ -20,20 +20,28 @@
     185844007135,
     185844039903
   ],
-  "status": "NARROW_BLOCKED_BROWSER_AUTH",
-  "storefront_observation": "Preview redirects to password-protected storefront; no password supplied or protection changed.",
-  "editor_observation": "In-app browser redirects to Shopify login; no existing authenticated browser session available to automation.",
+  "status": "M2A_LIVE_GATE_PASS",
+  "storefront_observation": "Authenticated signed development preview used for actual native JS-on/off browser tests; store password protection retained.",
+  "editor_observation": "User authenticated; actual editor settings/blocks/sections/app integration exercised.",
   "native_chrome_observation": "ScreenCaptureKit user declined capture permission; session cannot be inspected.",
   "functional_failure_observed": false,
-  "not_executed": [
-    "test catalog inventory",
-    "real storefront smoke matrix",
-    "JS-on/off product-cart journeys",
-    "Theme Editor lifecycle",
-    "real app insertion",
-    "Markets/localization",
-    "search/filtering",
-    "accessibility/reflow smoke",
-    "Lighthouse baseline"
-  ]
+  "not_executed": [],
+  "initial_checkpoint_status": "NARROW_BLOCKED_BROWSER_AUTH",
+  "unexecuted_categories_manifest": "completion-report.md / Unavailable states and remaining production gates",
+  "scoped_patch": {
+    "source_commit": "35ed7291997af0dba09d717fb0425de226d54bd0",
+    "file": "assets/base.css",
+    "themeId": 185844367583,
+    "onlyFileUpload": true,
+    "exitCode": 0,
+    "remoteEqualsLocal": true
+  },
+  "temporary_preview_secret_deleted": true,
+  "editor_test_cleanup": {
+    "file": "templates/product.json",
+    "source": "accepted original template",
+    "scopedUpload": true,
+    "newThemeCreated": false,
+    "remoteMatchesAcceptedTemplate": true
+  }
 }

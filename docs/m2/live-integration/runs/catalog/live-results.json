@@ -1,0 +1,175 @@
+{
+  "store": "dcl-theme-dev.myshopify.com",
+  "themeId": 185844367583,
+  "uploadedCommit": "b8d10863e668d8660b8b509ff2416f52620a894a",
+  "engine": "Chromium",
+  "journeys": [],
+  "surfaces": [
+    {
+      "label": "two-options-unit-no-media-390",
+      "path": "/products/m2a-integration-test-two-options-no-media",
+      "title": "M2A Integration Test \u2014 Two Options (no media) \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "M2A Integration Test \u2014 Two Options (no media)"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=39332786862164879811791339667",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "nonexistent-combination-390",
+      "path": "/products/m2a-integration-test-two-options-no-media?option_values=15005741383903%2C15005741449439",
+      "title": "M2A Integration Test \u2014 Two Options (no media) \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "M2A Integration Test \u2014 Two Options (no media)"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=39332786862164879811791339667",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "two-options-cart-js-off-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=39332786862164879811791339667",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "native-selling-plan-390",
+      "path": "/products/selling-plans-ski-wax?variant=67931960738015&selling_plan=8657469663",
+      "title": "Selling Plans Ski Wax \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Selling Plans Ski Wax"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=39332786862164879811791339667",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "native-selling-plan-cart-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart \u2014 dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=39332786862164879811791339667",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "password-390",
+      "path": "/password",
+      "title": "dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": false,
+      "footer": false,
+      "headings": [],
+      "themeAssets": []
+    }
+  ],
+  "axe": [],
+  "states": [],
+  "performance": [],
+  "exceptions": [],
+  "browserVersion": "151.0.7922.34",
+  "testProduct": {
+    "productId": "15414839476447",
+    "title": "M2A Integration Test \u2014 Two Options (no media)",
+    "path": "/products/m2a-integration-test-two-options-no-media",
+    "initialVariant": "67933303996639",
+    "price": "$12.00 USD\n$6.00 USD / oz",
+    "options": [
+      "Size\n      \n        \n          \n          \n          \n            \n            Small\n          \n        \n          \n          \n          \n            \n            Large\n          \n        \n      \n    ",
+      "Finish\n      \n        \n          \n          \n          \n            \n            Matte\n          \n        \n          \n          \n          \n            \n            Gloss\n          \n        \n      \n    "
+    ],
+    "noMedia": true,
+    "description": "",
+    "nativeCart": [
+      {
+        "productId": 15414839476447,
+        "variantId": 67933304029407,
+        "quantity": 1,
+        "priceMinor": 1200,
+        "variantTitle": "Small / Gloss",
+        "unitPrice": 600,
+        "measurement": {
+          "measured_type": "weight",
+          "quantity_value": "2.0",
+          "quantity_unit": "oz",
+          "reference_value": 1,
+          "reference_unit": "oz"
+        }
+      }
+    ]
+  },
+  "missingCombination": {
+    "path": "/products/m2a-integration-test-two-options-no-media?option_values=15005741383903%2C15005741449439",
+    "selected": [
+      "\n            \n            Large\n          ",
+      "\n            \n            Gloss \u2014 Unavailable\n          "
+    ],
+    "purchaseDisabled": true,
+    "noFalsePrice": true
+  },
+  "sellingPlan": {
+    "plan": {
+      "value": "8657469663",
+      "text": "Ski wax subscription, billed and delivered weekly \u2014 $21.21 USD"
+    },
+    "allocatedPrice": "Regular price\n$24.95 USD\nSale price\n$21.21 USD",
+    "nativeFormSubmitted": true,
+    "cartPriceMinor": 2121,
+    "quantity": 1,
+    "productId": 15414509502687,
+    "variantId": 67931960738015
+  },
+  "password": {
+    "path": "/password",
+    "status": 200,
+    "title": "dcl-theme-dev",
+    "headingCount": 0,
+    "passwordInput": 1,
+    "text": "dcl-theme-dev\n\nThis store is password protected. Use the password to enter the store.\n\nEnter store password\nEnter\nAre you the store owner? Log in here",
+    "scope": "Native unauthenticated store gate; uploaded-theme password presentation is separately proven in Theme Editor. Public preview id does not prove which theme styles the unauthenticated gate."
+  },
+  "result": "PASS_EXECUTED_FUNCTIONAL_CHECKS",
+  "workflowRun": 37562546883,
+  "harnessCommit": "109306704e855799d58b31cd55f8db22d678dd51",
+  "themeSource": "b8d1086 plus only assets/base.css patch 35ed729"
+}
