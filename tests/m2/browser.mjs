@@ -24,6 +24,24 @@ for(const composition of ['balanced','compact','editorial']) {
  data.section.blocks=[...baseBlocks,note,pair,process];
  products[composition]=await render('product-surface',data);
 }
+// Maximum/long translation-shaped content and two real renderer instances.
+const longText='Supplied context with deliberately expanded wording and qualification. '.repeat(8);
+for(const composition of ['balanced','compact','editorial']) {
+ const note={type:'evidence_note',settings:{heading:longText}};
+ const pair={type:'evidence_pair',settings:{mode:'comparison',heading:longText,left_subject:longText,right_subject:longText}};
+ const process={type:'evidence_process',settings:{heading:longText}};
+ for(let i=1;i<=3;i++)Object.assign(note.settings,{['kind_'+i]:'fact',['value_'+i]:'Declared value',['label_'+i]:longText,['body_'+i]:longText,['qualification_'+i]:longText,['source_title_'+i]:longText,['source_url_'+i]:'/pages/supplied-source'});
+ for(let i=1;i<=4;i++){
+  Object.assign(pair.settings,{['criterion_'+i]:longText,['left_'+i]:longText,['right_'+i]:longText,['row_qualification_'+i]:longText});
+  Object.assign(process.settings,{['heading_'+i]:longText,['instruction_'+i]:longText});
+ }
+ let content='';
+ for(const id of ['stress-first','stress-second']) {
+  const scoped={...data,section:{...data.section,id,settings:{composition},blocks:[...data.section.blocks.filter(b=>!b.type.startsWith('evidence_')),note,pair,process]}};
+  content+=await render('product-surface',scoped);
+ }
+ products[composition+'-stress']=content;
+}
 const product=products.balanced;
 const line = {key:'501:properties-plan',product:{title:'Ordinary product',has_only_default_variant:false},url:'/products/unit-test?variant=501',variant:data.variant,options_with_values:[{name:'Size',value:'Small'}],quantity:3,properties:{Finish:'Plain'},selling_plan_allocation:{selling_plan:{name:'Monthly'}},original_price:2400,final_price:2000,original_line_price:7200,final_line_price:6000,unit_price:1000,unit_price_measurement:data.variant.unit_price_measurement,line_level_discount_allocations:[],url_to_remove:'/cart/change?line=1&quantity=0'};
 const cartSource = (await readFile(resolve(root,'theme/sections/main-cart.liquid'),'utf8')).replace(/{% schema %}[\s\S]*?{% endschema %}/,'');
@@ -51,11 +69,12 @@ try {
     const page = await context.newPage();
     for (const width of [320,375,390,430,768,1024,1280,1440]) {
       await page.setViewportSize({width,height:900});
-      for (const route of ['/product','/compact','/editorial','/cart','/guest']) {
+      for (const route of ['/product','/compact','/editorial','/cart','/guest','/balanced-stress','/compact-stress','/editorial-stress']) {
         await page.goto(base+route); await page.waitForLoadState('networkidle');
         const dims=await page.evaluate(() => ({viewport:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth,script:window.unitApplicationScriptRan===true}));
         assert.ok(dims.scroll<=dims.viewport+1,`${route} overflow at ${width}`);report.assertions++;
         assert.equal(dims.script,javaScriptEnabled);report.assertions++;
+        if(route.endsWith('-stress')) { const ids=await page.locator('[id]').evaluateAll(es=>es.map(e=>e.id)); assert.equal(new Set(ids).size,ids.length,route+' duplicate IDs'); report.assertions++; assert.equal(await page.locator('form.product-form').count(),2);report.assertions++; }
         report.observations.push({route,width,javaScriptEnabled,...dims});
         if (width===390 || width===1440) await page.screenshot({path:resolve(out,`${route.slice(1)}-${width}-js-${javaScriptEnabled?'on':'off'}.jpg`),fullPage:true});
       }
