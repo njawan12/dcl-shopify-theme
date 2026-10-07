@@ -11,7 +11,7 @@ on:
         description: Execute authorized real Shopify store validation
       live_phase:
         type: choice
-        options: [all, baseline]
+        options: [all, baseline, catalog]
         default: all
         description: All checks or affected performance/accessibility baseline only
 permissions:

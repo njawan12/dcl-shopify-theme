@@ -20,7 +20,7 @@ const go=async(page,path)=>{await page.goto(origin+path,{waitUntil:'domcontentlo
 let browser;
 try {
  browser=await chromium.launch({headless:true});report.browserVersion=browser.version();
- if(process.env.M2_LIVE_PHASE!=='baseline') for(const javaScriptEnabled of [true,false]){
+ if(!['baseline','catalog'].includes(process.env.M2_LIVE_PHASE)) for(const javaScriptEnabled of [true,false]){
   const context=await browser.newContext({javaScriptEnabled,viewport:{width:390,height:900}});const page=await context.newPage();const consoleMessages=[];page.on('console',m=>consoleMessages.push({type:m.type(),text:m.text()}));
   await page.goto(secret,{waitUntil:'domcontentloaded'});await page.locator('header').waitFor();await countryUS(page);
   await go(page,'/products/the-complete-snowboard');const initial=await page.locator('input[name=id]').inputValue();
@@ -54,9 +54,20 @@ try {
   }
   await context.close();await save();
  }
+ if(process.env.M2_LIVE_PHASE==='catalog') {
+  const ctx=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:900}});const p=await ctx.newPage();await p.goto(secret,{waitUntil:'domcontentloaded'});await countryUS(p);
+  const path='/products/m2a-integration-test-two-options-no-media';await go(p,path);assert.equal(await p.locator('[data-product-id]').getAttribute('data-product-id'),'15414839476447');assert.match(await p.locator('.media-placeholder').innerText(),/No media/);assert.equal(await p.locator('main img').count(),0);
+  report.testProduct={productId:'15414839476447',title:await p.locator('h1').innerText(),path,initialVariant:await p.locator('input[name=id]').inputValue(),price:await p.locator('.price').innerText(),options:await p.locator('.option-group').allTextContents(),noMedia:true,description:await p.locator('main .rich-text').innerText()};await observe(p,'two-options-unit-no-media-390');
+  await Promise.all([p.waitForNavigation({waitUntil:'domcontentloaded'}),p.getByRole('link',{name:'Large',exact:true}).click()]);assert.ok(await p.getByRole('button',{name:'Add to cart',exact:true}).isEnabled());
+  await Promise.all([p.waitForNavigation({waitUntil:'domcontentloaded'}),p.getByRole('link',{name:/^Gloss/}).click()]);assert.ok(await p.getByRole('button',{name:'Unavailable',exact:true}).isDisabled());assert.ok(await p.locator('input[name=id]').isDisabled());assert.equal(await p.locator('main .price').count(),0);report.missingCombination={path:new URL(p.url()).pathname+new URL(p.url()).search,selected:await p.locator('.option-link[aria-current]').allTextContents(),purchaseDisabled:true,noFalsePrice:true};await observe(p,'nonexistent-combination-390');
+  await Promise.all([p.waitForNavigation({waitUntil:'domcontentloaded'}),p.getByRole('link',{name:'Small',exact:true}).click()]);const variant=await p.locator('input[name=id]').inputValue();assert.ok(await p.getByRole('button',{name:'Add to cart',exact:true}).isEnabled());await Promise.all([p.waitForNavigation({waitUntil:'domcontentloaded'}),p.getByRole('button',{name:'Add to cart',exact:true}).click()]);let cart=await (await ctx.request.get(origin+'/cart.js')).json();assert.equal(cart.items.length,1);assert.equal(cart.items[0].product_id,15414839476447);assert.equal(cart.items[0].variant_id,Number(variant));assert.equal(cart.items[0].quantity,1);assert.equal(cart.items[0].final_price,1200);report.testProduct.nativeCart=cart.items.map(i=>({productId:i.product_id,variantId:i.variant_id,quantity:i.quantity,priceMinor:i.final_price,variantTitle:i.variant_title,unitPrice:i.unit_price,measurement:i.unit_price_measurement}));await observe(p,'two-options-cart-js-off-390');await Promise.all([p.waitForNavigation({waitUntil:'domcontentloaded'}),p.getByRole('link',{name:'Remove M2A Integration Test — Two Options (no media)',exact:true}).click()]);
+  await go(p,'/products/selling-plans-ski-wax');const plans=await p.locator('select[name=selling_plan] option').evaluateAll(es=>es.map(e=>({value:e.value,text:e.textContent})));const plan=plans.find(x=>x.value);assert.ok(plan,'existing real selling plan required');await p.locator('select[name=selling_plan]').selectOption(plan.value);await Promise.all([p.waitForNavigation({waitUntil:'domcontentloaded'}),p.locator('main form[method=get] button').click()]);const allocatedPrice=await p.locator('main .price').innerText();assert.match(allocatedPrice,/21.21/);await observe(p,'native-selling-plan-390');await Promise.all([p.waitForNavigation({waitUntil:'domcontentloaded'}),p.getByRole('button',{name:'Add to cart',exact:true}).click()]);cart=await (await ctx.request.get(origin+'/cart.js')).json();assert.equal(cart.items.length,1);assert.equal(cart.items[0].selling_plan_allocation.selling_plan.id,Number(plan.value));assert.equal(cart.items[0].final_price,2121);report.sellingPlan={plan,allocatedPrice,nativeFormSubmitted:true,cartPriceMinor:cart.items[0].final_price,quantity:cart.items[0].quantity,productId:cart.items[0].product_id,variantId:cart.items[0].variant_id};await observe(p,'native-selling-plan-cart-390');await Promise.all([p.waitForNavigation({waitUntil:'domcontentloaded'}),p.getByRole('link',{name:'Remove Selling Plans Ski Wax',exact:true}).click()]);await ctx.close();
+  const locked=await browser.newContext({viewport:{width:390,height:900}});const pw=await locked.newPage();await pw.goto(origin,{waitUntil:'domcontentloaded'});report.password={path:new URL(pw.url()).pathname,heading:await pw.locator('h1').innerText(),passwordInput:await pw.locator('input[type=password]').count()};await observe(pw,'password-390');await locked.close();await save();
+ }
  await browser.close();browser=null;
  // Lighthouse uses a real persistent Chromium profile authenticated through Shopify preview,
  // preserves store cookies and never logs or measures the signed credential URL.
+ if(process.env.M2_LIVE_PHASE!=='catalog') {
  const persistent=await chromium.launchPersistentContext('/tmp/m2a-lighthouse-profile',{headless:true,channel:'chromium',args:['--remote-debugging-port=9222'],viewport:{width:1440,height:1000}});const lp=await persistent.newPage();await lp.goto(secret,{waitUntil:'domcontentloaded'});await countryUS(lp);
  const debug=await fetch('http://127.0.0.1:9222/json/version');report.lighthouseBrowser=await debug.json();delete report.lighthouseBrowser.webSocketDebuggerUrl;
  if(process.env.M2_LIVE_PHASE==='baseline') {
@@ -78,6 +89,7 @@ try {
   if(r.status!==0){report.exceptions.push({category:'Lighthouse',name,mode,error:r.stderr||'process failed'});continue;}
   const {readFile}=await import('node:fs/promises');const lhr=JSON.parse(await readFile(file,'utf8'));await writeFile(file,JSON.stringify(redact(lhr),null,2)+'\n');report.performance.push({surface:name,mode,lighthouseVersion:lhr.lighthouseVersion,performance:lhr.categories.performance.score*100,accessibility:lhr.categories.accessibility.score*100,LCP:lhr.audits['largest-contentful-paint'].numericValue,CLS:lhr.audits['cumulative-layout-shift'].numericValue,TBT:lhr.audits['total-blocking-time'].numericValue,INP:'not available as field metric in lab',finalUrl:lhr.finalDisplayedUrl,runtimeError:lhr.runtimeError||null});await save();
  }
- await persistent.close();report.result='PASS_EXECUTED_FUNCTIONAL_CHECKS';
+ await persistent.close();}
+ report.result='PASS_EXECUTED_FUNCTIONAL_CHECKS';
 }catch(error){report.result='FAIL';report.error=error.stack;process.exitCode=1;}finally{await save();await browser?.close();}
 console.log(JSON.stringify({result:report.result,engine:report.engine,version:report.browserVersion,journeys:report.journeys.length,surfaces:report.surfaces.length,axe:report.axe.map(x=>({surface:x.surface,violations:x.violations.length})),performance:report.performance}));
