@@ -1,8 +1,8 @@
-<div class="page-width section-space">
-  <h1>{{ section.settings.heading | default: shop.name | escape }}</h1><div class="rich-text">{{ shop.description }}</div>
+<div class="page-width section-space home-surface">
+  <div class="home-opening"><p class="eyebrow">{{ 'general.explore' | t }}</p><h1>{{ section.settings.heading | default: shop.name | escape }}</h1><div class="rich-text">{{ shop.description }}</div>
+  <a class="button" href="{{ routes.all_products_collection_url }}">{{ 'general.shop' | t }}</a></div>
   {% assign home_collection = section.settings.collection %}
   {% if home_collection %}<h2><a href="{{ home_collection.url }}">{{ home_collection.title | escape }}</a></h2><div class="product-grid">{% for product in home_collection.products limit: 8 %}{% render 'product-card', product: product %}{% endfor %}</div>{% endif %}
-  <a class="button" href="{{ routes.all_products_collection_url }}">{{ 'general.shop' | t }}</a>
 </div>
 
 {% schema %}

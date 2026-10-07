@@ -20,7 +20,8 @@
     "article": "Article",
     "collections": "Collections",
     "not_found": "Page not found",
-    "password": "Password"
+    "password": "Password",
+    "evidence_rail": "Evidence Rail"
   },
   "blocks": {
     "title": "Title",
@@ -32,7 +33,10 @@
     "buy": "Buy buttons",
     "description": "Description",
     "pickup": "Store pickup",
-    "liquid": "Custom Liquid"
+    "liquid": "Custom Liquid",
+    "evidence_note": "Evidence Note",
+    "evidence_pair": "Evidence Pair",
+    "evidence_process": "Process Sequence"
   },
   "settings": {
     "logo": "Logo",
@@ -60,7 +64,31 @@
     "scheme_1": "Primary surface",
     "scheme_2": "Secondary surface",
     "scheme_3": "Inverse surface",
-    "scheme_4": "Supporting surface"
+    "scheme_4": "Supporting surface",
+    "composition": "Product composition",
+    "brand_context": "Brand context",
+    "subject": "Subject heading",
+    "introduction": "Introduction",
+    "density": "Density",
+    "scheme": "Color scheme",
+    "kind": "Evidence kind",
+    "value": "Value",
+    "label": "Label",
+    "body": "Statement / instruction",
+    "attribution": "Attribution / issuer",
+    "source_title": "Source title",
+    "source_url": "Source URL",
+    "qualification": "Qualification / scope",
+    "mode": "Pair mode",
+    "left_subject": "First subject",
+    "right_subject": "Second subject",
+    "criterion": "Criterion",
+    "left": "First value",
+    "right": "Second value",
+    "media": "Media",
+    "alt": "Alternative text",
+    "caption": "Caption",
+    "attachment": "Attachment"
   },
   "options": {
     "compact": "Compact",
@@ -75,6 +103,21 @@
     "quiet": "Quiet",
     "defined": "Defined",
     "respect": "Respect",
-    "none": "None"
+    "none": "None",
+    "balanced": "Balanced",
+    "editorial": "Editorial",
+    "before_after": "Before / after",
+    "comparison": "Comparison",
+    "fact": "Fact / specification",
+    "metric": "Metric / result",
+    "claim": "Merchant-authored claim",
+    "certification": "Certification",
+    "quote": "Merchant-authored quotation",
+    "note": "Evidence Note",
+    "process": "Process Sequence",
+    "scheme1": "Primary",
+    "scheme2": "Secondary",
+    "scheme3": "Inverse",
+    "scheme4": "Accent surface"
   }
 }

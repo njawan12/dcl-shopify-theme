@@ -1,0 +1,18 @@
+{% capture steps %}
+  {% for i in (1..4) %}
+    {% assign suffix = '_' | append: i %}{% assign key = 'heading' | append: suffix %}{% assign heading = content[key] %}{% assign key = 'instruction' | append: suffix %}{% assign instruction = content[key] %}
+    {% if heading != blank and instruction != blank %}
+      <li class="rail-step"><div><h3>{{ heading | escape }}</h3><p>{{ instruction | escape | newline_to_br }}</p>{% assign key = 'qualification' | append: suffix %}{% if content[key] != blank %}<p class="rail-qualification">{{ content[key] | escape | newline_to_br }}</p>{% endif %}</div>
+        {% assign key = 'media' | append: suffix %}{% assign step_media = content[key] %}{% assign key = 'alt' | append: suffix %}{% assign step_alt = content[key] | default: step_media.alt | default: heading %}
+        {% if step_media != blank %}{% render 'image', image: step_media, alt: step_alt, sizes: '(min-width: 750px) 25vw, 100vw', eager: false %}{% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+{% assign steps = steps | strip %}
+{% if steps != blank %}
+<section class="evidence-attachment evidence-process density-{{ content.density | default: 'balanced' }} {{ content.scheme | replace: 'scheme', 'scheme-' | default: 'scheme-1' }}" {{ block.shopify_attributes }}>
+  <div class="rail-subject"><p class="eyebrow">{{ 'evidence.process' | t }}</p>{% if content.heading != blank %}<h2>{{ content.heading | escape }}</h2>{% endif %}{% if content.introduction != blank %}<div class="rich-text">{{ content.introduction }}</div>{% endif %}</div>
+  <div class="rail-content"><ol class="evidence-steps" role="list">{{ steps }}</ol>{% render 'evidence-source', title: content.source_title, url: content.source_url %}</div>
+</section>
+{% endif %}

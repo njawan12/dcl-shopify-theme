@@ -1,0 +1,27 @@
+{% liquid
+  assign source_url = url | strip
+  assign prefix = source_url | slice: 0, 8
+  assign first = source_url | slice: 0, 1
+  assign two = source_url | slice: 0, 2
+  assign linked = false
+  if prefix == 'https://'
+    assign host = source_url | remove_first: 'https://' | split: '/' | first
+    if host != blank
+      assign linked = true
+    endif
+  else
+    assign prefix = source_url | slice: 0, 7
+    if prefix == 'http://'
+      assign host = source_url | remove_first: 'http://' | split: '/' | first
+      if host != blank
+        assign linked = true
+      endif
+    elsif first == '/' and two != '//'
+      assign linked = true
+    endif
+  endif
+  if source_url contains ' ' or source_url contains '\\' or source_url contains '<' or source_url contains '>' or source_url contains '"'
+    assign linked = false
+  endif
+%}
+{% if title != blank %}<p class="evidence-source">{% if linked %}<a href="{{ source_url | escape }}">{{ title | escape }}</a>{% else %}{{ title | escape }}{% endif %}</p>{% endif %}

@@ -1,0 +1,24 @@
+{% if block.type == '@app' %}
+  <div class="app-host product-block" tabindex="0" role="region" aria-label="{{ 'general.product_details' | t }}" {{ block.shopify_attributes }}>{% render block %}</div>
+{% else %}
+  {% capture rendered %}
+            {% case block.type %}
+              {% when 'title' %}{% if primary %}<h1>{{ product.title | escape }}</h1>{% else %}<h2><a href="{{ product.url }}">{{ product.title | escape }}</a></h2>{% endif %}
+              {% when 'vendor' %}{% if product.vendor != blank %}<p>{{ product.vendor | escape }}</p>{% endif %}
+              {% when 'price' %}{% render 'price', variant: variant, allocation: allocation %}{% render 'availability', variant: variant %}{% if cart.taxes_included %}<p>{{ 'product.tax_included' | t }}</p>{% endif %}
+              {% when 'description' %}{% if product.description != blank %}<div class="rich-text">{{ product.description }}</div>{% endif %}
+              {% when 'options' %}{% render 'variant-options', product: product %}
+              {% when 'quantity' %}{% render 'quantity', variant: variant, section: section, form_id: form_id %}
+              {% when 'plans' %}{% render 'selling-plans', variant: variant, product: product, allocation: allocation, section: section %}
+              {% when 'buy' %}{% render 'product-form', product: product, variant: variant, allocation: allocation, form_id: form_id, has_quantity: has_quantity, block: block, section: section %}
+              {% when 'pickup' %}
+                {% if variant.available %}{% assign pickups = variant.store_availabilities | where: 'pick_up_enabled', true %}{% if pickups.size > 0 %}<div><h3>{{ 'product.pickup' | t }}</h3>{% for pickup in pickups %}<p>{{ pickup.location.name | escape }} — {% if pickup.available %}{{ pickup.pick_up_time | escape }}{% else %}{{ 'product.pickup_unavailable' | t }}{% endif %}</p>{% endfor %}</div>{% endif %}{% endif %}
+              {% when 'evidence_note' %}{% render 'evidence-note', content: block.settings, block: block %}
+              {% when 'evidence_pair' %}{% render 'evidence-pair', content: block.settings, block: block %}
+              {% when 'evidence_process' %}{% render 'evidence-process', content: block.settings, block: block %}
+              {% when 'liquid' %}{{ block.settings.content }}
+            {% endcase %}
+  {% endcapture %}
+  {% assign rendered = rendered | strip %}
+  {% if rendered != blank %}<div class="product-block product-block--{{ block.type }}" {{ block.shopify_attributes }}>{{ rendered }}</div>{% endif %}
+{% endif %}

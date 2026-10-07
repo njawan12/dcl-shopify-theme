@@ -2,7 +2,28 @@
 {% schema %}
 {
   "name": "t:sections.product",
-  "settings": [],
+  "settings": [
+    {
+      "type": "select",
+      "id": "composition",
+      "label": "t:settings.composition",
+      "options": [
+        {
+          "value": "balanced",
+          "label": "t:options.balanced"
+        },
+        {
+          "value": "compact",
+          "label": "t:options.compact"
+        },
+        {
+          "value": "editorial",
+          "label": "t:options.editorial"
+        }
+      ],
+      "default": "balanced"
+    }
+  ],
   "blocks": [
     {
       "type": "title",
@@ -85,9 +106,699 @@
     },
     {
       "type": "@app"
+    },
+    {
+      "type": "evidence_note",
+      "name": "t:blocks.evidence_note",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "select",
+          "id": "density",
+          "label": "t:settings.density",
+          "options": [
+            {
+              "value": "compact",
+              "label": "t:options.compact"
+            },
+            {
+              "value": "balanced",
+              "label": "t:options.balanced"
+            },
+            {
+              "value": "spacious",
+              "label": "t:options.spacious"
+            }
+          ],
+          "default": "balanced"
+        },
+        {
+          "type": "select",
+          "id": "scheme",
+          "label": "t:settings.scheme",
+          "options": [
+            {
+              "value": "scheme1",
+              "label": "t:options.scheme1"
+            },
+            {
+              "value": "scheme2",
+              "label": "t:options.scheme2"
+            },
+            {
+              "value": "scheme3",
+              "label": "t:options.scheme3"
+            },
+            {
+              "value": "scheme4",
+              "label": "t:options.scheme4"
+            }
+          ],
+          "default": "scheme1"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "t:settings.subject"
+        },
+        {
+          "type": "header",
+          "content": "Note 1"
+        },
+        {
+          "type": "select",
+          "id": "kind_1",
+          "label": "t:settings.kind",
+          "options": [
+            {
+              "value": "fact",
+              "label": "t:options.fact"
+            },
+            {
+              "value": "metric",
+              "label": "t:options.metric"
+            },
+            {
+              "value": "claim",
+              "label": "t:options.claim"
+            },
+            {
+              "value": "certification",
+              "label": "t:options.certification"
+            },
+            {
+              "value": "quote",
+              "label": "t:options.quote"
+            }
+          ],
+          "default": "fact"
+        },
+        {
+          "type": "text",
+          "id": "value_1",
+          "label": "t:settings.value"
+        },
+        {
+          "type": "text",
+          "id": "label_1",
+          "label": "t:settings.label"
+        },
+        {
+          "type": "textarea",
+          "id": "body_1",
+          "label": "t:settings.body"
+        },
+        {
+          "type": "text",
+          "id": "attribution_1",
+          "label": "t:settings.attribution"
+        },
+        {
+          "type": "text",
+          "id": "source_title_1",
+          "label": "t:settings.source_title"
+        },
+        {
+          "type": "url",
+          "id": "source_url_1",
+          "label": "t:settings.source_url"
+        },
+        {
+          "type": "textarea",
+          "id": "qualification_1",
+          "label": "t:settings.qualification"
+        },
+        {
+          "type": "header",
+          "content": "Note 2"
+        },
+        {
+          "type": "select",
+          "id": "kind_2",
+          "label": "t:settings.kind",
+          "options": [
+            {
+              "value": "fact",
+              "label": "t:options.fact"
+            },
+            {
+              "value": "metric",
+              "label": "t:options.metric"
+            },
+            {
+              "value": "claim",
+              "label": "t:options.claim"
+            },
+            {
+              "value": "certification",
+              "label": "t:options.certification"
+            },
+            {
+              "value": "quote",
+              "label": "t:options.quote"
+            }
+          ],
+          "default": "fact"
+        },
+        {
+          "type": "text",
+          "id": "value_2",
+          "label": "t:settings.value"
+        },
+        {
+          "type": "text",
+          "id": "label_2",
+          "label": "t:settings.label"
+        },
+        {
+          "type": "textarea",
+          "id": "body_2",
+          "label": "t:settings.body"
+        },
+        {
+          "type": "text",
+          "id": "attribution_2",
+          "label": "t:settings.attribution"
+        },
+        {
+          "type": "text",
+          "id": "source_title_2",
+          "label": "t:settings.source_title"
+        },
+        {
+          "type": "url",
+          "id": "source_url_2",
+          "label": "t:settings.source_url"
+        },
+        {
+          "type": "textarea",
+          "id": "qualification_2",
+          "label": "t:settings.qualification"
+        },
+        {
+          "type": "header",
+          "content": "Note 3"
+        },
+        {
+          "type": "select",
+          "id": "kind_3",
+          "label": "t:settings.kind",
+          "options": [
+            {
+              "value": "fact",
+              "label": "t:options.fact"
+            },
+            {
+              "value": "metric",
+              "label": "t:options.metric"
+            },
+            {
+              "value": "claim",
+              "label": "t:options.claim"
+            },
+            {
+              "value": "certification",
+              "label": "t:options.certification"
+            },
+            {
+              "value": "quote",
+              "label": "t:options.quote"
+            }
+          ],
+          "default": "fact"
+        },
+        {
+          "type": "text",
+          "id": "value_3",
+          "label": "t:settings.value"
+        },
+        {
+          "type": "text",
+          "id": "label_3",
+          "label": "t:settings.label"
+        },
+        {
+          "type": "textarea",
+          "id": "body_3",
+          "label": "t:settings.body"
+        },
+        {
+          "type": "text",
+          "id": "attribution_3",
+          "label": "t:settings.attribution"
+        },
+        {
+          "type": "text",
+          "id": "source_title_3",
+          "label": "t:settings.source_title"
+        },
+        {
+          "type": "url",
+          "id": "source_url_3",
+          "label": "t:settings.source_url"
+        },
+        {
+          "type": "textarea",
+          "id": "qualification_3",
+          "label": "t:settings.qualification"
+        }
+      ]
+    },
+    {
+      "type": "evidence_pair",
+      "name": "t:blocks.evidence_pair",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "select",
+          "id": "mode",
+          "label": "t:settings.mode",
+          "options": [
+            {
+              "value": "comparison",
+              "label": "t:options.comparison"
+            },
+            {
+              "value": "before_after",
+              "label": "t:options.before_after"
+            }
+          ],
+          "default": "comparison"
+        },
+        {
+          "type": "select",
+          "id": "density",
+          "label": "t:settings.density",
+          "options": [
+            {
+              "value": "compact",
+              "label": "t:options.compact"
+            },
+            {
+              "value": "balanced",
+              "label": "t:options.balanced"
+            },
+            {
+              "value": "spacious",
+              "label": "t:options.spacious"
+            }
+          ],
+          "default": "balanced"
+        },
+        {
+          "type": "select",
+          "id": "scheme",
+          "label": "t:settings.scheme",
+          "options": [
+            {
+              "value": "scheme1",
+              "label": "t:options.scheme1"
+            },
+            {
+              "value": "scheme2",
+              "label": "t:options.scheme2"
+            },
+            {
+              "value": "scheme3",
+              "label": "t:options.scheme3"
+            },
+            {
+              "value": "scheme4",
+              "label": "t:options.scheme4"
+            }
+          ],
+          "default": "scheme1"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "t:settings.heading"
+        },
+        {
+          "type": "richtext",
+          "id": "introduction",
+          "label": "t:settings.introduction"
+        },
+        {
+          "type": "textarea",
+          "id": "qualification",
+          "label": "t:settings.qualification"
+        },
+        {
+          "type": "text",
+          "id": "source_title",
+          "label": "t:settings.source_title"
+        },
+        {
+          "type": "url",
+          "id": "source_url",
+          "label": "t:settings.source_url"
+        },
+        {
+          "type": "text",
+          "id": "left_subject",
+          "label": "t:settings.left_subject"
+        },
+        {
+          "type": "text",
+          "id": "right_subject",
+          "label": "t:settings.right_subject"
+        },
+        {
+          "type": "header",
+          "content": "Comparison row 1"
+        },
+        {
+          "type": "textarea",
+          "id": "criterion_1",
+          "label": "t:settings.criterion"
+        },
+        {
+          "type": "textarea",
+          "id": "left_1",
+          "label": "t:settings.left"
+        },
+        {
+          "type": "textarea",
+          "id": "right_1",
+          "label": "t:settings.right"
+        },
+        {
+          "type": "textarea",
+          "id": "qualification_1",
+          "label": "t:settings.qualification"
+        },
+        {
+          "type": "header",
+          "content": "Comparison row 2"
+        },
+        {
+          "type": "textarea",
+          "id": "criterion_2",
+          "label": "t:settings.criterion"
+        },
+        {
+          "type": "textarea",
+          "id": "left_2",
+          "label": "t:settings.left"
+        },
+        {
+          "type": "textarea",
+          "id": "right_2",
+          "label": "t:settings.right"
+        },
+        {
+          "type": "textarea",
+          "id": "qualification_2",
+          "label": "t:settings.qualification"
+        },
+        {
+          "type": "header",
+          "content": "Comparison row 3"
+        },
+        {
+          "type": "textarea",
+          "id": "criterion_3",
+          "label": "t:settings.criterion"
+        },
+        {
+          "type": "textarea",
+          "id": "left_3",
+          "label": "t:settings.left"
+        },
+        {
+          "type": "textarea",
+          "id": "right_3",
+          "label": "t:settings.right"
+        },
+        {
+          "type": "textarea",
+          "id": "qualification_3",
+          "label": "t:settings.qualification"
+        },
+        {
+          "type": "header",
+          "content": "Comparison row 4"
+        },
+        {
+          "type": "textarea",
+          "id": "criterion_4",
+          "label": "t:settings.criterion"
+        },
+        {
+          "type": "textarea",
+          "id": "left_4",
+          "label": "t:settings.left"
+        },
+        {
+          "type": "textarea",
+          "id": "right_4",
+          "label": "t:settings.right"
+        },
+        {
+          "type": "textarea",
+          "id": "qualification_4",
+          "label": "t:settings.qualification"
+        },
+        {
+          "type": "header",
+          "content": "Before"
+        },
+        {
+          "type": "text",
+          "id": "before_label",
+          "label": "t:settings.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "before_media",
+          "label": "t:settings.media"
+        },
+        {
+          "type": "text",
+          "id": "before_alt",
+          "label": "t:settings.alt"
+        },
+        {
+          "type": "textarea",
+          "id": "before_caption",
+          "label": "t:settings.caption"
+        },
+        {
+          "type": "header",
+          "content": "After"
+        },
+        {
+          "type": "text",
+          "id": "after_label",
+          "label": "t:settings.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "after_media",
+          "label": "t:settings.media"
+        },
+        {
+          "type": "text",
+          "id": "after_alt",
+          "label": "t:settings.alt"
+        },
+        {
+          "type": "textarea",
+          "id": "after_caption",
+          "label": "t:settings.caption"
+        }
+      ]
+    },
+    {
+      "type": "evidence_process",
+      "name": "t:blocks.evidence_process",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "select",
+          "id": "density",
+          "label": "t:settings.density",
+          "options": [
+            {
+              "value": "compact",
+              "label": "t:options.compact"
+            },
+            {
+              "value": "balanced",
+              "label": "t:options.balanced"
+            },
+            {
+              "value": "spacious",
+              "label": "t:options.spacious"
+            }
+          ],
+          "default": "balanced"
+        },
+        {
+          "type": "select",
+          "id": "scheme",
+          "label": "t:settings.scheme",
+          "options": [
+            {
+              "value": "scheme1",
+              "label": "t:options.scheme1"
+            },
+            {
+              "value": "scheme2",
+              "label": "t:options.scheme2"
+            },
+            {
+              "value": "scheme3",
+              "label": "t:options.scheme3"
+            },
+            {
+              "value": "scheme4",
+              "label": "t:options.scheme4"
+            }
+          ],
+          "default": "scheme1"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "t:settings.heading"
+        },
+        {
+          "type": "richtext",
+          "id": "introduction",
+          "label": "t:settings.introduction"
+        },
+        {
+          "type": "text",
+          "id": "source_title",
+          "label": "t:settings.source_title"
+        },
+        {
+          "type": "url",
+          "id": "source_url",
+          "label": "t:settings.source_url"
+        },
+        {
+          "type": "header",
+          "content": "Step 1"
+        },
+        {
+          "type": "text",
+          "id": "heading_1",
+          "label": "t:settings.heading"
+        },
+        {
+          "type": "textarea",
+          "id": "instruction_1",
+          "label": "t:settings.body"
+        },
+        {
+          "type": "image_picker",
+          "id": "media_1",
+          "label": "t:settings.media"
+        },
+        {
+          "type": "text",
+          "id": "alt_1",
+          "label": "t:settings.alt"
+        },
+        {
+          "type": "textarea",
+          "id": "qualification_1",
+          "label": "t:settings.qualification"
+        },
+        {
+          "type": "header",
+          "content": "Step 2"
+        },
+        {
+          "type": "text",
+          "id": "heading_2",
+          "label": "t:settings.heading"
+        },
+        {
+          "type": "textarea",
+          "id": "instruction_2",
+          "label": "t:settings.body"
+        },
+        {
+          "type": "image_picker",
+          "id": "media_2",
+          "label": "t:settings.media"
+        },
+        {
+          "type": "text",
+          "id": "alt_2",
+          "label": "t:settings.alt"
+        },
+        {
+          "type": "textarea",
+          "id": "qualification_2",
+          "label": "t:settings.qualification"
+        },
+        {
+          "type": "header",
+          "content": "Step 3"
+        },
+        {
+          "type": "text",
+          "id": "heading_3",
+          "label": "t:settings.heading"
+        },
+        {
+          "type": "textarea",
+          "id": "instruction_3",
+          "label": "t:settings.body"
+        },
+        {
+          "type": "image_picker",
+          "id": "media_3",
+          "label": "t:settings.media"
+        },
+        {
+          "type": "text",
+          "id": "alt_3",
+          "label": "t:settings.alt"
+        },
+        {
+          "type": "textarea",
+          "id": "qualification_3",
+          "label": "t:settings.qualification"
+        },
+        {
+          "type": "header",
+          "content": "Step 4"
+        },
+        {
+          "type": "text",
+          "id": "heading_4",
+          "label": "t:settings.heading"
+        },
+        {
+          "type": "textarea",
+          "id": "instruction_4",
+          "label": "t:settings.body"
+        },
+        {
+          "type": "image_picker",
+          "id": "media_4",
+          "label": "t:settings.media"
+        },
+        {
+          "type": "text",
+          "id": "alt_4",
+          "label": "t:settings.alt"
+        },
+        {
+          "type": "textarea",
+          "id": "qualification_4",
+          "label": "t:settings.qualification"
+        }
+      ]
     }
   ],
-  "max_blocks": 15,
+  "max_blocks": 18,
   "disabled_on": {
     "groups": [
       "header",

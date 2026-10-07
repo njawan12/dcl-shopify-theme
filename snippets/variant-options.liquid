@@ -5,7 +5,7 @@
         {% for value in option.values %}
           {% capture ids %}{% for other in product.options_with_values %}{% if other.position == option.position %}{{ value.id }}{% else %}{% assign selected_id = other.values.first.id %}{% for candidate in other.values %}{% if candidate.selected %}{% assign selected_id = candidate.id %}{% endif %}{% endfor %}{{ selected_id }}{% endif %}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
           {% assign destination = product.url %}{% if value.product_url %}{% assign destination = value.product_url %}{% assign ids = value.id %}{% endif %}
-          <li><a class="option-link" href="{{ destination }}?option_values={{ ids | strip | url_encode }}" {% if value.selected %}aria-current="true"{% endif %}>
+          <li><a class="option-link" href="{{ destination }}?option_values={{ ids | strip | url_encode }}{% if template.suffix == 'compact' or template.suffix == 'editorial' %}&amp;view={{ template.suffix }}{% endif %}" {% if value.selected %}aria-current="true"{% endif %}>
             {% if value.swatch.image %}{{ value.swatch.image | image_url: width: 60 | image_tag: widths: '30,60', sizes: '30px', alt: '', class: 'swatch', loading: 'lazy' }}{% elsif value.swatch.color %}<span class="swatch" style="background-color: {{ value.swatch.color }}" aria-hidden="true"></span>{% endif %}
             {{ value.name | escape }}{% unless value.available %} <span>— {{ 'product.unavailable' | t }}</span>{% endunless %}
           </a></li>

@@ -1,0 +1,62 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "options": {
+          "type": "options",
+          "settings": {}
+        },
+        "plans": {
+          "type": "plans",
+          "settings": {}
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {}
+        },
+        "buy": {
+          "type": "buy",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "pickup": {
+          "type": "pickup",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "price",
+        "options",
+        "plans",
+        "quantity",
+        "buy",
+        "description",
+        "pickup"
+      ],
+      "settings": {
+        "composition": "compact"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
