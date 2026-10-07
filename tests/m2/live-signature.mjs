@@ -6,7 +6,7 @@ export async function runSignature({browser,secret,origin,go,countryUS,observe,r
  const fixtures=[['ordinary','the-complete-snowboard'],['complex','m2a-integration-test-two-options-no-media'],['plan','selling-plans-ski-wax'],['sold-out','the-out-of-stock-snowboard'],['compare','the-compare-at-price-snowboard'],['media','the-videographer-snowboard']];
  for(const javaScriptEnabled of [true,false]) {
   const ctx=await browser.newContext({javaScriptEnabled,viewport:{width:390,height:900}});const page=await ctx.newPage();
-  await page.goto(secret,{waitUntil:'domcontentloaded'});await page.locator('header').waitFor();await countryUS(page);
+  await page.goto(secret,{waitUntil:'domcontentloaded'});await page.locator('.site-header').waitFor();await countryUS(page);
   for(const composition of ['balanced','compact','editorial']) {
    const query=composition==='balanced'?'':'?view='+composition;
    if(javaScriptEnabled) {
