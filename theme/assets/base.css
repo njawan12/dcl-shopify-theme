@@ -289,6 +289,8 @@ site-navigation { font-size: 0.9rem; }
   .product-surface--balanced { grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.85fr); gap: 3rem; }
   .purchase-band, .editorial-decision { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 3rem; }
   .purchase-actions { border-inline-start: 1px solid currentColor; padding-inline-start: 2rem; }
+  .editorial-decision:has(.product-narrative) > .product-content { grid-column: 2; grid-row: 1; }
+  .editorial-decision > .product-narrative { grid-column: 1; grid-row: 1; }
   .editorial-decision:not(:has(.product-narrative)) { grid-template-columns: 1fr; max-inline-size: 48rem; }
   .product-surface--editorial .product-gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .product-surface--editorial .product-gallery > :first-child { grid-column: 1 / -1; }

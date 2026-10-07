@@ -136,7 +136,7 @@ for (const composition of ['balanced','compact','editorial']) {
   assert.equal((html.match(/Education/g)||[]).length,1);
   assert.match(html,new RegExp(`data-composition="${composition}"`));
   if(composition==='compact')assert.match(html,/purchase-band[\s\S]*purchase-actions/);
-  if(composition==='editorial')assert.match(html,/editorial-decision[\s\S]*product-narrative/);
+  if(composition==='editorial') { assert.match(html,/editorial-decision[\s\S]*product-narrative/); assert.ok(html.indexOf('product-content')<html.indexOf('product-narrative'),'commerce precedes narrative in mobile source'); }
  });
 }
 test('invalid and disconnected notes omit while valid unsourced metric remains truthful',async()=>{
