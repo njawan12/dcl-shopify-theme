@@ -32,7 +32,7 @@ try {
   await observe(page,`product-js-${javaScriptEnabled?'on':'off'}-390`);
   await Promise.all([page.waitForNavigation({waitUntil:'domcontentloaded'}),page.getByRole('button',{name:'Add to cart',exact:true}).click()]);
   assert.equal(new URL(page.url()).pathname,'/cart');assert.equal(await page.locator('input[name="updates[]"]').inputValue(),'2');
-  const key=await page.locator('[data-line-key]').getAttribute('data-line-key');assert.ok(key.startsWith(variant+':'));assert.match(await page.locator('main').innerText(),/Dawn/);assert.match(await page.locator('main').innerText(),/1,399\.90/);
+  const key=await page.locator('input[data-line-key]').getAttribute('data-line-key');assert.ok(key.startsWith(variant+':'));assert.match(await page.locator('main').innerText(),/Dawn/);assert.match(await page.locator('main').innerText(),/1,399\.90/);
   const cart=await observe(page,`cart-js-${javaScriptEnabled?'on':'off'}-390`);
   // Read-only real Shopify cart endpoint verifies server identity after native browser submission.
   const response=await context.request.get(origin+'/cart.js');const actual=await response.json();assert.equal(actual.items.length,1);const item=actual.items[0];assert.equal(item.product_id,Number(product));assert.equal(item.variant_id,Number(variant));assert.equal(item.quantity,2);assert.equal(item.final_price,69995);assert.equal(actual.currency,'USD');assert.equal(item.key,key);assert.equal(item.variant_title,'Dawn');
