@@ -20,7 +20,20 @@
   {% capture gallery %}
     <div class="product-gallery">
       {% if chosen_media %}{% render 'product-media', media: chosen_media, product: product, section: section, eager: primary, composition: composition, lead: true %}{% endif %}
-      {% for media in product.media %}{% unless media.id == chosen_media.id %}{% render 'product-media', media: media, product: product, section: section, eager: false, composition: composition %}{% endunless %}{% endfor %}
+      {% assign encounters = 0 %}{% if chosen_media %}{% assign encounters = 1 %}{% endif %}
+      {% capture additional_media %}
+        {% for media in product.media %}{% unless media.id == chosen_media.id %}
+          {% assign encounters = encounters | plus: 1 %}
+          {% if encounters > 4 %}{% render 'product-media', media: media, product: product, section: section, eager: false, composition: composition %}{% endif %}
+        {% endunless %}{% endfor %}
+      {% endcapture %}
+      {% assign encounters = 0 %}{% if chosen_media %}{% assign encounters = 1 %}{% endif %}
+      {% for media in product.media %}{% unless media.id == chosen_media.id %}
+        {% assign encounters = encounters | plus: 1 %}
+        {% if encounters <= 4 %}{% render 'product-media', media: media, product: product, section: section, eager: false, composition: composition %}{% endif %}
+      {% endunless %}{% endfor %}
+      {% assign additional_media = additional_media | strip %}
+      {% if additional_media != blank %}<details class="gallery-more"><summary>{{ 'product.more_media' | t }}</summary><div class="gallery-continuation">{{ additional_media }}</div></details>{% endif %}
       {% if product.media.size == 0 %}<div class="media-placeholder">{{ 'general.no_media' | t }}</div>{% endif %}
     </div>
   {% endcapture %}

@@ -180,3 +180,12 @@ test('native alternate template navigation retains the semantic composition cont
  data.variant.selling_plan_allocations=[{price:2000,selling_plan:{id:91,name:'Weekly'}}];
  assert.match(await render('selling-plans',data),/name="view" value="editorial"/);
 });
+test('large media sets remain available once without burying the initial decision band',async()=>{
+ const data=fixture();data.primary=true;data.section.settings={composition:'compact'};data.section.blocks=[{type:'title'},{type:'buy',settings:data.block.settings}];
+ const media=Array.from({length:12},(_,i)=>({id:i+1,media_type:'image',preview_image:{aspect_ratio:1},alt:'Product view '+(i+1)}));
+ data.product={...data.product,title:'Same product',selected_or_first_available_variant:data.variant,featured_media:media[0],media};
+ const html=await render('product-surface',data);
+ for(const item of media)assert.equal((html.match(new RegExp(`id="Media-test-${item.id}"`,'g'))||[]).length,1);
+ assert.equal((html.slice(html.indexOf('gallery-continuation'),html.indexOf('</details>')).match(/class="product-media"/g)||[]).length,8);
+ assert.match(html,/Explore all product media/);assert.equal((html.match(/action="\/cart\/add"/g)||[]).length,1);
+});

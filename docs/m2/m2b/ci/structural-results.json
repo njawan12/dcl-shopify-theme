@@ -1,7 +1,7 @@
 {
   "scope": "static architecture/schema/reference/budget and preservation; not live Shopify certification",
-  "checks": 1169,
-  "passed": 1169,
+  "checks": 1171,
+  "passed": 1171,
   "failed": 0,
   "global_editable_settings": 19,
   "presentation_controls": 17,
@@ -28,8 +28,8 @@
       "gzip_bytes": 895
     },
     "base.css": {
-      "bytes": 20225,
-      "gzip_bytes": 4542
+      "bytes": 20479,
+      "gzip_bytes": 4586
     },
     "gift-card.js": {
       "bytes": 412,
@@ -238,11 +238,19 @@
       "pass": true
     },
     {
+      "name": "translation:product.more_media",
+      "pass": true
+    },
+    {
       "name": "translation:general.no_media",
       "pass": true
     },
     {
       "name": "translation:product.choose",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-media",
       "pass": true
     },
     {
