@@ -9,6 +9,11 @@ on:
         type: boolean
         default: false
         description: Execute authorized real Shopify store validation
+      live_phase:
+        type: choice
+        options: [all, baseline]
+        default: all
+        description: All checks or affected performance/accessibility baseline only
 permissions:
   contents: read
 jobs:
@@ -82,11 +87,12 @@ jobs:
           node-version: '22'
       - run: npm ci --prefix tests/m2
       - run: npm install --prefix /tmp/m2a-lighthouse lighthouse@13.5.0
-      - run: cd tests/m2 && npx playwright install --with-deps --only-shell chromium
+      - run: cd tests/m2 && npx playwright install --with-deps chromium
       - name: Real Shopify journeys, responsive smoke, axe and Lighthouse
         env:
           M2A_SHOPIFY_PREVIEW_URL: ${{ secrets.M2A_SHOPIFY_PREVIEW_URL }}
           M2_LIVE_EVIDENCE_DIR: /tmp/m2a-live-evidence
+          M2_LIVE_PHASE: ${{ inputs.live_phase }}
           M2_LIGHTHOUSE_CLI: /tmp/m2a-lighthouse/node_modules/lighthouse/cli/index.js
         run: timeout 900s node tests/m2/live-shopify.mjs
       - uses: actions/upload-artifact@v5

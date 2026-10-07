@@ -3,7 +3,7 @@ import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
 import assert from 'node:assert/strict';
 import { mkdir, writeFile } from 'node:fs/promises';
-import { spawnSync } from 'node:child_process';
+import { spawn } from 'node:child_process';
 const out=process.env.M2_LIVE_EVIDENCE_DIR||'/tmp/m2a-live-evidence';await mkdir(out,{recursive:true});
 const origin='https://dcl-theme-dev.myshopify.com';
 const secret=process.env.M2A_SHOPIFY_PREVIEW_URL;assert.ok(secret,'temporary preview secret required');
@@ -20,7 +20,7 @@ const go=async(page,path)=>{await page.goto(origin+path,{waitUntil:'domcontentlo
 let browser;
 try {
  browser=await chromium.launch({headless:true});report.browserVersion=browser.version();
- for(const javaScriptEnabled of [true,false]){
+ if(process.env.M2_LIVE_PHASE!=='baseline') for(const javaScriptEnabled of [true,false]){
   const context=await browser.newContext({javaScriptEnabled,viewport:{width:390,height:900}});const page=await context.newPage();const consoleMessages=[];page.on('console',m=>consoleMessages.push({type:m.type(),text:m.text()}));
   await page.goto(secret,{waitUntil:'domcontentloaded'});await page.locator('header').waitFor();await countryUS(page);
   await go(page,'/products/the-complete-snowboard');const initial=await page.locator('input[name=id]').inputValue();
@@ -57,9 +57,24 @@ try {
  await browser.close();browser=null;
  // Lighthouse uses a real persistent Chromium profile authenticated through Shopify preview,
  // preserves store cookies and never logs or measures the signed credential URL.
- const persistent=await chromium.launchPersistentContext('/tmp/m2a-lighthouse-profile',{headless:true,args:['--remote-debugging-port=9222'],viewport:{width:1440,height:1000}});const lp=await persistent.newPage();await lp.goto(secret,{waitUntil:'domcontentloaded'});await countryUS(lp);
+ const persistent=await chromium.launchPersistentContext('/tmp/m2a-lighthouse-profile',{headless:true,channel:'chromium',args:['--remote-debugging-port=9222'],viewport:{width:1440,height:1000}});const lp=await persistent.newPage();await lp.goto(secret,{waitUntil:'domcontentloaded'});await countryUS(lp);
+ const debug=await fetch('http://127.0.0.1:9222/json/version');report.lighthouseBrowser=await debug.json();delete report.lighthouseBrowser.webSocketDebuggerUrl;
+ if(process.env.M2_LIVE_PHASE==='baseline') {
+  report.keyboard=[];report.textEnlargement=[];report.settings=[];
+  for(const [name,path] of [['home','/'],['product','/products/the-complete-snowboard'],['collection','/collections/all']]){
+   await lp.setViewportSize({width:390,height:900});await go(lp,path);
+   if(name==='home'){const cards=await lp.locator('main article').count();assert.ok(cards>0,'populated real homepage required');report.homeProductCount=cards;}
+   await observe(lp,name+'-recheck-390');const a=await new AxeBuilder({page:lp}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze();report.axe.push({surface:name,violations:a.violations,incomplete:a.incomplete.map(x=>x.id)});
+   report.settings.push({surface:name,...await lp.evaluate(()=>({pageWidth:getComputedStyle(document.documentElement).getPropertyValue('--page-width').trim(),foreground:getComputedStyle(document.documentElement).getPropertyValue('--foreground-1').trim(),background:getComputedStyle(document.documentElement).getPropertyValue('--background-1').trim(),direction:document.documentElement.dir}))});
+   if(name==='product'){for(let i=0;i<28;i++){await lp.keyboard.press('Tab');report.keyboard.push(await lp.evaluate(()=>{const e=document.activeElement,c=getComputedStyle(e);return {tag:e.tagName,text:(e.innerText||e.getAttribute('aria-label')||'').slice(0,100),outline:c.outlineStyle,outlineWidth:c.outlineWidth,rect:JSON.stringify(e.getBoundingClientRect().toJSON())};}));}await lp.getByRole('spinbutton',{name:'Quantity',exact:true}).fill('0');await lp.getByRole('button',{name:'Add to cart',exact:true}).click();assert.equal(new URL(lp.url()).pathname,path);report.nativeValidation=await lp.locator('input[name=quantity]').evaluate(e=>({rangeUnderflow:e.validity.rangeUnderflow,message:e.validationMessage}));assert.equal(report.nativeValidation.rangeUnderflow,true);}
+   await lp.setViewportSize({width:320,height:900});await observe(lp,name+'-recheck-320');await lp.addStyleTag({content:'html { font-size: 200% !important; }'});const zoom=await observe(lp,name+'-text-200-320');report.textEnlargement.push({surface:name,method:'200% root text size via controlled CSS; feasibility check, not browser/AT certification',viewport:zoom.viewport,scroll:zoom.scroll});
+  }
+  await lp.setViewportSize({width:390,height:900});await go(lp,'/products/the-complete-snowboard');await lp.getByRole('button',{name:'Add to cart',exact:true}).click();await lp.waitForURL('**/cart');await observe(lp,'cart-recheck-390');const ca=await new AxeBuilder({page:lp}).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze();report.axe.push({surface:'cart',violations:ca.violations,incomplete:ca.incomplete.map(x=>x.id)});
+  report.cartKeyboard=[];for(let i=0;i<24;i++){await lp.keyboard.press('Tab');report.cartKeyboard.push(await lp.evaluate(()=>({tag:document.activeElement.tagName,text:(document.activeElement.innerText||document.activeElement.getAttribute('aria-label')||'').slice(0,100),outline:getComputedStyle(document.activeElement).outlineStyle})));}
+  await lp.getByRole('link',{name:'Remove The Complete Snowboard',exact:true}).click();await lp.waitForURL('**/cart**');await save();
+ }
  for(const mode of ['mobile','desktop'])for(const [name,path] of [['home','/'],['product','/products/the-complete-snowboard'],['collection','/collections/all']]){
-  const file=`${out}/lighthouse-${name}-${mode}.json`;const args=[process.env.M2_LIGHTHOUSE_CLI,origin+path+'?preview_theme_id=185844367583','--port=9222','--quiet','--disable-storage-reset','--only-categories=performance,accessibility','--output=json','--output-path='+file];if(mode==='desktop')args.push('--preset=desktop');const r=spawnSync(process.execPath,args,{timeout:120000,encoding:'utf8'});
+  const file=`${out}/lighthouse-${name}-${mode}.json`;const args=[process.env.M2_LIGHTHOUSE_CLI,origin+path+'?preview_theme_id=185844367583','--port=9222','--quiet','--disable-storage-reset','--only-categories=performance,accessibility','--output=json','--output-path='+file];if(mode==='desktop')args.push('--preset=desktop');const r=await new Promise(resolve=>{const child=spawn(process.execPath,args,{stdio:['ignore','pipe','pipe']});let stderr='',stdout='';child.stdout.on('data',d=>stdout+=d);child.stderr.on('data',d=>stderr+=d);const timer=setTimeout(()=>child.kill('SIGTERM'),120000);child.on('error',error=>{clearTimeout(timer);resolve({status:-1,stderr:error.message});});child.on('close',(status,signal)=>{clearTimeout(timer);resolve({status,stderr:stderr||stdout||('signal: '+signal)});});});
   if(r.status!==0){report.exceptions.push({category:'Lighthouse',name,mode,error:r.stderr||'process failed'});continue;}
   const {readFile}=await import('node:fs/promises');const lhr=JSON.parse(await readFile(file,'utf8'));await writeFile(file,JSON.stringify(redact(lhr),null,2)+'\n');report.performance.push({surface:name,mode,lighthouseVersion:lhr.lighthouseVersion,performance:lhr.categories.performance.score*100,accessibility:lhr.categories.accessibility.score*100,LCP:lhr.audits['largest-contentful-paint'].numericValue,CLS:lhr.audits['cumulative-layout-shift'].numericValue,TBT:lhr.audits['total-blocking-time'].numericValue,INP:'not available as field metric in lab',finalUrl:lhr.finalDisplayedUrl,runtimeError:lhr.runtimeError||null});await save();
  }
