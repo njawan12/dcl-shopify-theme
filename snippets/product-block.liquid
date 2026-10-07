@@ -20,5 +20,5 @@
             {% endcase %}
   {% endcapture %}
   {% assign rendered = rendered | strip %}
-  {% if rendered != blank %}<div class="product-block product-block--{{ block.type }}" {{ block.shopify_attributes }}>{{ rendered }}</div>{% endif %}
+  {% if rendered != blank %}<div class="product-block product-block--{{ block.type }}" {% unless block.type == 'evidence_note' or block.type == 'evidence_pair' or block.type == 'evidence_process' %}{{ block.shopify_attributes }}{% endunless %}>{{ rendered }}</div>{% endif %}
 {% endif %}
