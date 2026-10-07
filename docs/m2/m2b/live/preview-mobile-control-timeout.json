@@ -1,0 +1,15 @@
+{
+  "store": "dcl-theme-dev.myshopify.com",
+  "themeId": 185844367583,
+  "uploadedCommit": "394152fe95919d36b8aa88ac2311d7bf77153ae9",
+  "engine": "Chromium",
+  "journeys": [],
+  "surfaces": [],
+  "axe": [],
+  "states": [],
+  "performance": [],
+  "exceptions": [],
+  "browserVersion": "151.0.7922.34",
+  "result": "FAIL",
+  "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#PBarNextFrame').contentFrame().getByRole('button', { name: 'Hide bar', exact: true })\n    - locator resolved to <button type=\"button\" class=\"_Button_1tidf_1 _prefix_1tidf_29\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - element is outside of the viewport\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - element is outside of the viewport\n    - retrying click action\n      - waiting 100ms\n    56 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - element is outside of the viewport\n     - retrying click action\n       - waiting 500ms\n\n    at observe (/home/runner/work/dcl-shopify-theme/dcl-shopify-theme/tests/m2/live-shopify.mjs:18:423)\n    at async file:///home/runner/work/dcl-shopify-theme/dcl-shopify-theme/tests/m2/live-shopify.mjs:34:3"
+}

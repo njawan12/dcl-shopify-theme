@@ -1,0 +1,49 @@
+{
+  "store": "dcl-theme-dev.myshopify.com",
+  "themeId": 185844367583,
+  "published": false,
+  "compositionSwitching": {
+    "sequence": [
+      "balanced",
+      "compact",
+      "editorial",
+      "balanced"
+    ],
+    "nativeSaved": true,
+    "sameBlockIds": true
+  },
+  "evidenceContent": "Qualified demonstration content only, no product claims/results/reviews fabricated",
+  "pairMode": {
+    "comparisonFieldsVisible": true,
+    "beforeAfterFieldsVisibleOnSwitch": true,
+    "irrelevantComparisonFieldsHidden": true,
+    "missingBothMediaPairOmitted": true,
+    "originalComparisonRestored": true
+  },
+  "nativeDynamicSource": {
+    "field": "Evidence Note / value_1",
+    "source": "product.title",
+    "actualEditorPreview": "Native catalogGift Card",
+    "connectionExecuted": true,
+    "restoredThroughNativeHistory": true,
+    "savedBinding": false,
+    "metafieldMetaobjectCreation": false
+  },
+  "app": {
+    "installedBlock": "Shop / Sign in with Shop Button",
+    "nativeInsertionSaved": true,
+    "PDPRemovedInEditorPreview": true,
+    "commerceAndEvidenceRetained": true,
+    "restoredThroughNativeHistory": true,
+    "publicConfigurationUnchangedDuringCI": true
+  },
+  "scope": "Recorded native editor actions; not merchant usability certification, arbitrary app compatibility or payment/authentication testing",
+  "storyEditor": {
+    "normalHomeAndAlternateEvidenceTemplateAttempted": true,
+    "nativeSectionAndAppInsertionControlsAvailable": true,
+    "renderedPreview": "about:blank",
+    "executedAppRendering": false,
+    "changesRestoredWithoutSaving": true,
+    "limitation": "Home/story iframe remained about:blank in this IAB session. Product iframe rendered. Real storefront story route is independently captured in Ubuntu Chromium."
+  }
+}

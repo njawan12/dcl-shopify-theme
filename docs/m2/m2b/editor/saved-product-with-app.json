@@ -1,0 +1,169 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "shop_shop_login_button_app_block_MzTyPm": {
+          "type": "shopify://apps/shop/blocks/shop-login-button-app-block/7cab7c4a-1dfc-4b7e-8e53-31f104f2fa4e",
+          "settings": {}
+        },
+        "evidence_pair_hParYc": {
+          "type": "evidence_pair",
+          "settings": {
+            "mode": "comparison",
+            "density": "balanced",
+            "scheme": "scheme1",
+            "heading": "Keep context distinct.",
+            "introduction": "",
+            "qualification": "Development-store structural demonstration, not a product superiority claim.",
+            "source_title": "",
+            "source_url": "",
+            "left_subject": "Product record",
+            "right_subject": "Attached evidence",
+            "criterion_1": "Content role",
+            "left_1": "Native options, price and availability",
+            "right_1": "Merchant-supplied context and source",
+            "qualification_1": "",
+            "criterion_2": "",
+            "left_2": "",
+            "right_2": "",
+            "qualification_2": "",
+            "criterion_3": "",
+            "left_3": "",
+            "right_3": "",
+            "qualification_3": "",
+            "criterion_4": "",
+            "left_4": "",
+            "right_4": "",
+            "qualification_4": "",
+            "before_label": "",
+            "before_alt": "",
+            "before_caption": "",
+            "after_label": "",
+            "after_alt": "",
+            "after_caption": ""
+          }
+        },
+        "evidence_process_j7areH": {
+          "type": "evidence_process",
+          "settings": {
+            "density": "balanced",
+            "scheme": "scheme1",
+            "heading": "A considered sequence.",
+            "introduction": "",
+            "source_title": "",
+            "source_url": "",
+            "heading_1": "Review",
+            "instruction_1": "Review the product description and selected options before purchase.",
+            "alt_1": "",
+            "qualification_1": "",
+            "heading_2": "Select",
+            "instruction_2": "Choose the native purchase option that applies to your selection.",
+            "alt_2": "",
+            "qualification_2": "",
+            "heading_3": "",
+            "instruction_3": "",
+            "alt_3": "",
+            "qualification_3": "",
+            "heading_4": "",
+            "instruction_4": "",
+            "alt_4": "",
+            "qualification_4": ""
+          }
+        },
+        "evidence_note_N4RX8U": {
+          "type": "evidence_note",
+          "settings": {
+            "density": "balanced",
+            "scheme": "scheme1",
+            "heading": "Details, in context.",
+            "kind_1": "fact",
+            "value_1": "Native catalog",
+            "label_1": "Product identity",
+            "body_1": "This development-store attachment demonstrates the proof relationship. Purchase details come from the product record.",
+            "attribution_1": "",
+            "source_title_1": "View sample catalog",
+            "source_url_1": "/collections/all",
+            "qualification_1": "Layout demonstration only. No measured result, certification or verified review is asserted.",
+            "kind_2": "fact",
+            "value_2": "",
+            "label_2": "",
+            "body_2": "",
+            "attribution_2": "",
+            "source_title_2": "",
+            "source_url_2": "",
+            "qualification_2": "",
+            "kind_3": "fact",
+            "value_3": "",
+            "label_3": "",
+            "body_3": "",
+            "attribution_3": "",
+            "source_title_3": "",
+            "source_url_3": "",
+            "qualification_3": ""
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "options": {
+          "type": "options",
+          "settings": {}
+        },
+        "plans": {
+          "type": "plans",
+          "settings": {}
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {}
+        },
+        "buy": {
+          "type": "buy",
+          "settings": {
+            "dynamic_checkout": true,
+            "recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "pickup": {
+          "type": "pickup",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "shop_shop_login_button_app_block_MzTyPm",
+        "evidence_pair_hParYc",
+        "evidence_process_j7areH",
+        "evidence_note_N4RX8U",
+        "title",
+        "vendor",
+        "price",
+        "options",
+        "plans",
+        "quantity",
+        "buy",
+        "description",
+        "pickup"
+      ],
+      "settings": {
+        "composition": "balanced"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

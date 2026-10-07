@@ -1,0 +1,5398 @@
+{
+  "store": "dcl-theme-dev.myshopify.com",
+  "themeId": 185844367583,
+  "uploadedCommit": "3609df16ef3c7670b95b9409d833b5077429fa1e",
+  "engine": "Chromium",
+  "journeys": [
+    {
+      "javaScriptEnabled": true,
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "initialVariant": "67931960574175",
+      "productId": "15414509732063",
+      "variantId": "67931960606943",
+      "selectedOptions": "Color: Dawn",
+      "quantity": 2,
+      "priceMinor": 69995,
+      "currency": "USD",
+      "lineKey": "67931960606943:b0135402b1b7da6b75a8fccabc2b99a2",
+      "cartPath": "/cart",
+      "nativeFormSubmitted": true,
+      "scriptPolicy": "enabled",
+      "serverCartVerified": true,
+      "consoleMessages": [
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "debug",
+          "text": "[bugsnag] Loaded!"
+        },
+        {
+          "type": "error",
+          "text": "Framing 'https://shop.app/' violates the following Content Security Policy directive: \"frame-ancestors 'self' https://shop.app/ https://admin.shopify.com/\". The request has been blocked.\n"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 403 ()"
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "debug",
+          "text": "[bugsnag] Loaded!"
+        },
+        {
+          "type": "info",
+          "text": "Clear-Site-Data header on 'https://dcl-theme-dev.myshopify.com/cart/add': Cleared data types: \"prefetchCache\", \"prerenderCache\"."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "warning",
+          "text": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://pay.shopify.com')/ does not match the recipient window's origin ('https://shop.app')./"
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "debug",
+          "text": "[bugsnag] Loaded!"
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "warning",
+          "text": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://pay.shopify.com')/ does not match the recipient window's origin ('https://shop.app')./"
+        },
+        {
+          "type": "info",
+          "text": "Clear-Site-Data header on 'https://dcl-theme-dev.myshopify.com/cart/update.js': Cleared data types: \"prefetchCache\", \"prerenderCache\"."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 401 ()"
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "Clear-Site-Data header on 'https://dcl-theme-dev.myshopify.com/cart/change?id=67931960606943:b0135402b1b7da6b75a8fccabc2b99a2&quantity=0%27: Cleared data types: \"prefetchCache\", \"prerenderCache\"."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "debug",
+          "text": "[bugsnag] Loaded!"
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "warning",
+          "text": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://pay.shopify.com')/ does not match the recipient window's origin ('https://shop.app')./"
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "debug",
+          "text": "[bugsnag] Loaded!"
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "warning",
+          "text": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://pay.shopify.com')/ does not match the recipient window's origin ('https://shop.app')./"
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "debug",
+          "text": "[bugsnag] Loaded!"
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "warning",
+          "text": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://pay.shopify.com')/ does not match the recipient window's origin ('https://shop.app')./"
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "debug",
+          "text": "[bugsnag] Loaded!"
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "warning",
+          "text": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://pay.shopify.com')/ does not match the recipient window's origin ('https://shop.app')./"
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "warning",
+          "text": "No available adapters."
+        },
+        {
+          "type": "debug",
+          "text": "[bugsnag] Loaded!"
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "warning",
+          "text": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://pay.shopify.com')/ does not match the recipient window's origin ('https://shop.app')./"
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "debug",
+          "text": "[bugsnag] Loaded!"
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "warning",
+          "text": "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://pay.shopify.com')/ does not match the recipient window's origin ('https://shop.app')./"
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "verbose",
+          "text": "Rendering was performed in a subtree hidden by content-visibility."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        },
+        {
+          "type": "info",
+          "text": "[HotReload] CLI hot reload disabled - No hot reload port specified."
+        }
+      ],
+      "updateAndNotePassed": true,
+      "checkoutBoundaryReached": true,
+      "removePassed": true
+    },
+    {
+      "javaScriptEnabled": false,
+      "viewport": {
+        "width": 390,
+        "height": 900
+      },
+      "initialVariant": "67931960574175",
+      "productId": "15414509732063",
+      "variantId": "67931960606943",
+      "selectedOptions": "Color: Dawn",
+      "quantity": 2,
+      "priceMinor": 69995,
+      "currency": "USD",
+      "lineKey": "67931960606943:b0135402b1b7da6b75a8fccabc2b99a2",
+      "cartPath": "/cart",
+      "nativeFormSubmitted": true,
+      "scriptPolicy": "browser-context disabled; no script-removal/CSP/failure simulation",
+      "serverCartVerified": true,
+      "consoleMessages": [
+        {
+          "type": "info",
+          "text": "Clear-Site-Data header on 'https://dcl-theme-dev.myshopify.com/cart/add': Cleared data types: \"prefetchCache\", \"prerenderCache\"."
+        },
+        {
+          "type": "info",
+          "text": "Clear-Site-Data header on 'https://dcl-theme-dev.myshopify.com/cart': Cleared data types: \"prefetchCache\", \"prerenderCache\"."
+        },
+        {
+          "type": "info",
+          "text": "Clear-Site-Data header on 'https://dcl-theme-dev.myshopify.com/cart/change?id=67931960606943:b0135402b1b7da6b75a8fccabc2b99a2&quantity=0%27: Cleared data types: \"prefetchCache\", \"prerenderCache\"."
+        }
+      ],
+      "updateAndNotePassed": true,
+      "removePassed": true
+    }
+  ],
+  "surfaces": [
+    {
+      "label": "product-js-on-390",
+      "path": "/products/the-complete-snowboard?option_values=15004252602591",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "cart-js-on-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "home-390",
+      "path": "/",
+      "title": "dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "dcl-theme-dev"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "product-390",
+      "path": "/products/the-complete-snowboard",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "collection-390",
+      "path": "/collections/all",
+      "title": "Products — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Products"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "cart-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "search-390",
+      "path": "/search?q=snowboard",
+      "title": "Search: 11 results found for \"snowboard\" — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Search"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "contact-390",
+      "path": "/pages/contact",
+      "title": "Contact — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Contact"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "404-390",
+      "path": "/m2a-live-gate-not-found",
+      "title": "404 Not Found — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Page not found"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "home-1440",
+      "path": "/",
+      "title": "dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "dcl-theme-dev"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "product-1440",
+      "path": "/products/the-complete-snowboard",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "collection-1440",
+      "path": "/collections/all",
+      "title": "Products — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Products"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "cart-1440",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "search-1440",
+      "path": "/search?q=snowboard",
+      "title": "Search: 11 results found for \"snowboard\" — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Search"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "contact-1440",
+      "path": "/pages/contact",
+      "title": "Contact — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Contact"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "404-1440",
+      "path": "/m2a-live-gate-not-found",
+      "title": "404 Not Found — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Page not found"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "home-320",
+      "path": "/",
+      "title": "dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "dcl-theme-dev"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "product-320",
+      "path": "/products/the-complete-snowboard",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "collection-320",
+      "path": "/collections/all",
+      "title": "Products — dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Products"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "cart-320",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "search-320",
+      "path": "/search?q=snowboard",
+      "title": "Search: 11 results found for \"snowboard\" — dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Search"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "contact-320",
+      "path": "/pages/contact",
+      "title": "Contact — dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Contact"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "404-320",
+      "path": "/m2a-live-gate-not-found",
+      "title": "404 Not Found — dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Page not found"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "sold-out-390",
+      "path": "/products/the-out-of-stock-snowboard",
+      "title": "The Out of Stock Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Out of Stock Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compare-at-390",
+      "path": "/products/the-compare-at-price-snowboard",
+      "title": "The Compare at Price Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Compare at Price Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "multiple-media-390",
+      "path": "/products/the-videographer-snowboard",
+      "title": "The Videographer Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Videographer Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "gift-product-390",
+      "path": "/products/gift-card",
+      "title": "Gift Card — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Gift Card"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "selling-plans-390",
+      "path": "/products/selling-plans-ski-wax",
+      "title": "Selling Plans Ski Wax — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Selling Plans Ski Wax"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "product-js-off-390",
+      "path": "/products/the-complete-snowboard?option_values=15004252602591",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "cart-js-off-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    }
+  ],
+  "axe": [
+    {
+      "surface": "cart",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "surface": "home",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "surface": "product",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "surface": "collection",
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "states": [
+    {
+      "name": "sold-out",
+      "path": "/products/the-out-of-stock-snowboard",
+      "text": "The Out of Stock Snowboard\n\nDCL-THEME-DEV\n\n$885.95 USD\n\nSold out\n\nQuantity\n\nMinimum 1; increments of 1.\n\nSold out\n\nCOMPARISON\n\nKeep context distinct.\nKeep context distinct.\nCriterion\tProduct record\tAttached evidence\nContent role\tNative options, price and availability\tMerchant-supplied context and source\n\nDevelopment-store structural demonstration, not a product superiority claim.\n\nPROCESS / SEQUENCE\n\nA considered sequence.\nReview\n\nReview the product description and selected options before purchase.\n\nSelect\n\nChoose the native purchase option that applies to your selection.\n\nEVIDENCE NOTE\n\nDetails, in context.\n01\nFACT / SPECIFICATION\n\nNative catalog\n\nProduct identity\n\nThis development-store attachment demonstrates the proof relationship. Purchase details come from the product record.\n\nLayout demonstration only. No measured result, certification or verified review is asserted.\n\nView sample catalog"
+    },
+    {
+      "name": "compare-at",
+      "path": "/products/the-compare-at-price-snowboard",
+      "text": "The Compare at Price Snowboard\n\nDCL-THEME-DEV\n\nRegular price\n$885.95 USD\nSale price\n$785.95 USD\n\nAvailable\n\nQuantity\n\nMinimum 1; increments of 1.\n\nAdd to cart\nBuy it now\n\nCOMPARISON\n\nKeep context distinct.\nKeep context distinct.\nCriterion\tProduct record\tAttached evidence\nContent role\tNative options, price and availability\tMerchant-supplied context and source\n\nDevelopment-store structural demonstration, not a product superiority claim.\n\nPROCESS / SEQUENCE\n\nA considered sequence.\nReview\n\nReview the product description and selected options before purchase.\n\nSelect\n\nChoose the native purchase option that applies to your selection.\n\nEVIDENCE NOTE\n\nDetails, in context.\n01\nFACT / SPECIFICATION\n\nNative catalog\n\nProduct identity\n\nThis development-store attachment demonstrates the proof relationship. Purchase details come from the product record.\n\nLayout demonstration only. No measured result, certification or verified review is asserted.\n\nView sample catalog"
+    },
+    {
+      "name": "multiple-media",
+      "path": "/products/the-videographer-snowboard",
+      "text": "Video of the Snowboard.\nThe Videographer Snowboard\n\nDCL-THEME-DEV\n\n$885.95 USD\n\nAvailable\n\nQuantity\n\nMinimum 1; increments of 1.\n\nAdd to cart\nBuy it now\n\nCOMPARISON\n\nKeep context distinct.\nKeep context distinct.\nCriterion\tProduct record\tAttached evidence\nContent role\tNative options, price and availability\tMerchant-supplied context and source\n\nDevelopment-store structural demonstration, not a product superiority claim.\n\nPROCESS / SEQUENCE\n\nA considered sequence.\nReview\n\nReview the product description and selected options before purchase.\n\nSelect\n\nChoose the native purchase option that applies to your selection.\n\nEVIDENCE NOTE\n\nDetails, in context.\n01\nFACT / SPECIFICATION\n\nNative catalog\n\nProduct identity\n\nThis development-store attachment demonstrates the proof relationship. Purchase details come from the product record.\n\nLayout demonstration only. No measured result, certification or verified review is asserted.\n\nView sample catalog"
+    },
+    {
+      "name": "gift-product",
+      "path": "/products/gift-card",
+      "text": "Gift Card\n\nSNOWBOARD VENDOR\n\n$10.00 USD\n\nSold out\n\nDenominations\n$10\n— Unavailable\n$25\n— Unavailable\n$50\n— Unavailable\n$100\n— Unavailable\nQuantity\n\nMinimum 1; increments of 1.\n\nGift recipient\nSend this gift card to a recipient\nEmail\nRecipient name (optional)\nMessage (optional)\n\nEnter an email when sending to a recipient. Recipient gifts use Add to cart, not accelerated checkout.\n\nSold out\n\nCOMPARISON\n\nKeep context distinct.\nKeep context distinct.\nCriterion\tProduct record\tAttached evidence\nContent role\tNative options, price and availability\tMerchant-supplied context and source\n\nDevelopment-store structural demonstration, not a product superiority claim.\n\nPROCESS / SEQUENCE\n\nA considered sequence.\nReview\n\nReview the product description and selected options before purchase.\n\nSelect\n\nChoose the native purchase option that applies to your selection.\n\nEVIDENCE NOTE\n\nDetails, in context.\n01\nFACT / SPECIFICATION\n\nNative catalog\n\nProduct identity\n\nThis development-store attachment demonstrates the proof relationship. Purchase details come from the product record.\n\nLayout demonstration only. No measured result, certification or verified review is asserted.\n\nView sample catalog\n\nThis is a gift card for the store"
+    },
+    {
+      "name": "selling-plans",
+      "path": "/products/selling-plans-ski-wax",
+      "text": "Selling Plans Ski Wax\n\nDCL-THEME-DEV\n\n$24.95 USD\n\nAvailable\n\nTitle\nSelling Plans Ski Wax\nSpecial Selling Plans Ski Wax\nSample Selling Plans Ski Wax\nPurchase option\nOne-time purchase\nSki wax subscription, billed and delivered weekly — $21.21 USD\nA year supply of prepaid ski wax, delivered monthly — $239.52 USD\nApply\n\nApply your purchase option to update the price before adding to cart.\n\nQuantity\n\nMinimum 1; increments of 1.\n\nAdd to cart\nBuy it now\n\nCOMPARISON\n\nKeep context distinct.\nKeep context distinct.\nCriterion\tProduct record\tAttached evidence\nContent role\tNative options, price and availability\tMerchant-supplied context and source\n\nDevelopment-store structural demonstration, not a product superiority claim.\n\nPROCESS / SEQUENCE\n\nA considered sequence.\nReview\n\nReview the product description and selected options before purchase.\n\nSelect\n\nChoose the native purchase option that applies to your selection.\n\nEVIDENCE NOTE\n\nDetails, in context.\n01\nFACT / SPECIFICATION\n\nNative catalog\n\nProduct identity\n\nThis development-store attachment demonstrates the proof relationship. Purchase details come from the product record.\n\nLayout demonstration only. No measured result, certification or verified review is asserted.\n\nView sample catalog"
+    }
+  ],
+  "performance": [
+    {
+      "surface": "home",
+      "mode": "mobile",
+      "repeat": 1,
+      "lighthouseVersion": "13.5.0",
+      "performance": 98,
+      "accessibility": 96,
+      "LCP": 1861.6572999999999,
+      "CLS": 0.0007899996586971634,
+      "TBT": 9,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/",
+      "runtimeError": null
+    },
+    {
+      "surface": "product",
+      "mode": "mobile",
+      "repeat": 1,
+      "lighthouseVersion": "13.5.0",
+      "performance": 94,
+      "accessibility": 97,
+      "LCP": 2727.1871,
+      "CLS": 0.015728220165311037,
+      "TBT": 15,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard",
+      "runtimeError": null
+    },
+    {
+      "surface": "collection",
+      "mode": "mobile",
+      "repeat": 1,
+      "lighthouseVersion": "13.5.0",
+      "performance": 85,
+      "accessibility": 95,
+      "LCP": 4010.37857,
+      "CLS": 0.007455511153756276,
+      "TBT": 111.39550999999983,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/collections/all",
+      "runtimeError": null
+    },
+    {
+      "surface": "home",
+      "mode": "desktop",
+      "repeat": 1,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 96,
+      "LCP": 469.3453400000001,
+      "CLS": 0.0006161334384029419,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/",
+      "runtimeError": null
+    },
+    {
+      "surface": "product",
+      "mode": "desktop",
+      "repeat": 1,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 97,
+      "LCP": 475.50672999999995,
+      "CLS": 0.015343992754574907,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard",
+      "runtimeError": null
+    },
+    {
+      "surface": "collection",
+      "mode": "desktop",
+      "repeat": 1,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 95,
+      "LCP": 571.025289691162,
+      "CLS": 0.005318113745147827,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/collections/all",
+      "runtimeError": null
+    }
+  ],
+  "exceptions": [],
+  "browserVersion": "151.0.7922.34",
+  "predictiveSearch": {
+    "actualEndpoint": true,
+    "suggestions": [
+      "The Complete Snowboard",
+      "The Multi-managed Snowboard",
+      "The Multi-location Snowboard",
+      "The Videographer Snowboard",
+      "The 3p Fulfilled Snowboard",
+      "The Collection Snowboard: Oxygen",
+      "The Inventory Not Tracked Snowboard",
+      "snowboard",
+      "stock snowboard",
+      "price snowboard"
+    ]
+  },
+  "sorting": true,
+  "filterControls": 2,
+  "filterSubmission": {
+    "path": "/collections/all?filter.v.availability=1&filter.v.price.gte=&filter.v.price.lte=&sort_by=price-descending",
+    "results": 11
+  },
+  "reducedMotion": true,
+  "lighthouseBrowser": {
+    "Browser": "Chrome/151.0.7922.34",
+    "Protocol-Version": "1.3",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+    "V8-Version": "15.1.206.8",
+    "WebKit-Version": "537.36 (@782af9cb30a53f54487e5d2e44738645a8ec457c)"
+  },
+  "result": "PASS_EXECUTED_FUNCTIONAL_CHECKS"
+}

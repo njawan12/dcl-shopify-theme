@@ -1,0 +1,158 @@
+{
+  "base": "7b75cf1f6c45f302f8c72893123dec23446d57cd",
+  "productionFiles": [
+    "theme/assets/base.css",
+    "theme/config/settings_schema.json",
+    "theme/locales/en.default.json",
+    "theme/locales/en.default.schema.json",
+    "theme/sections/evidence-rail.liquid",
+    "theme/sections/featured-product.liquid",
+    "theme/sections/footer.liquid",
+    "theme/sections/header.liquid",
+    "theme/sections/main-home.liquid",
+    "theme/sections/main-product.liquid",
+    "theme/snippets/evidence-note.liquid",
+    "theme/snippets/evidence-pair.liquid",
+    "theme/snippets/evidence-process.liquid",
+    "theme/snippets/evidence-source.liquid",
+    "theme/snippets/product-block.liquid",
+    "theme/snippets/product-media.liquid",
+    "theme/snippets/product-surface.liquid",
+    "theme/snippets/selling-plans.liquid",
+    "theme/snippets/theme-tokens.liquid",
+    "theme/snippets/variant-options.liquid",
+    "theme/templates/product.compact.json",
+    "theme/templates/product.editorial.json"
+  ],
+  "globalControls": {
+    "7b75cf1f6c45f302f8c72893123dec23446d57cd": 19,
+    "HEAD": 19
+  },
+  "assets": {
+    "theme/assets/base.css": {
+      "beforeBytes": 8344,
+      "afterBytes": 20653,
+      "delta": 12309,
+      "beforeGzip": 2391,
+      "afterGzip": 4610
+    },
+    "theme/assets/cart.js": {
+      "beforeBytes": 2511,
+      "afterBytes": 2511,
+      "delta": 0,
+      "beforeGzip": 1002,
+      "afterGzip": 1002
+    },
+    "theme/assets/media.js": {
+      "beforeBytes": 672,
+      "afterBytes": 672,
+      "delta": 0,
+      "beforeGzip": 363,
+      "afterGzip": 363
+    },
+    "theme/assets/navigation.js": {
+      "beforeBytes": 1043,
+      "afterBytes": 1043,
+      "delta": 0,
+      "beforeGzip": 467,
+      "afterGzip": 467
+    },
+    "theme/assets/cart-state.js": {
+      "beforeBytes": 748,
+      "afterBytes": 748,
+      "delta": 0,
+      "beforeGzip": 412,
+      "afterGzip": 412
+    },
+    "theme/assets/search.js": {
+      "beforeBytes": 2528,
+      "afterBytes": 2528,
+      "delta": 0,
+      "beforeGzip": 895,
+      "afterGzip": 895
+    },
+    "theme/assets/gift-card.js": {
+      "beforeBytes": 412,
+      "afterBytes": 412,
+      "delta": 0,
+      "beforeGzip": 282,
+      "afterGzip": 282
+    }
+  },
+  "newJavaScriptFiles": [],
+  "globalPresentationControls": 17,
+  "globalPlatformBrandControls": 2,
+  "PDP": {
+    "compositionSettingsPerHost": 1,
+    "values": [
+      "balanced",
+      "compact",
+      "editorial"
+    ],
+    "nativeFormImplementations": 1,
+    "maxBlocksBefore": 15,
+    "maxBlocksAfter": 18,
+    "evidenceBlocksPerType": 1
+  },
+  "evidence": {
+    "note": {
+      "totalSettingIds": 27,
+      "presentation": 2,
+      "content": 25,
+      "maxRecords": 3
+    },
+    "pair": {
+      "totalSettingIds": 34,
+      "presentation": 3,
+      "content": 31,
+      "modes": [
+        "comparison",
+        "before_after"
+      ],
+      "maxRows": 4,
+      "conditionalActiveModeFields": true
+    },
+    "process": {
+      "totalSettingIds": 26,
+      "presentation": 2,
+      "content": 24,
+      "maxSteps": 4
+    },
+    "storyHost": {
+      "settings": 5,
+      "presentation": 1,
+      "subjectContent": 4,
+      "maxBlocks": 8,
+      "attachment": "Note OR Process; plus generic app guests"
+    }
+  },
+  "footer": {
+    "editableFieldsAfter": 4,
+    "newFields": 1,
+    "newFieldKind": "brand context content"
+  },
+  "breakpoints": {
+    "before": [
+      600,
+      750,
+      990
+    ],
+    "after": [
+      600,
+      750,
+      990
+    ],
+    "new": []
+  },
+  "newRuntimeJavaScriptBytes": 0,
+  "newCommerceState": 0,
+  "preservedPrototypeChangedFiles": [],
+  "fonts": {
+    "nativeShopifyFontPicker": true,
+    "defaultFamily": "Assistant",
+    "defaultBodyWeight": 400,
+    "defaultHeadingWeight": 600,
+    "newFamilyDependency": false,
+    "qualification": "Heading selects native 600 weight rather than the old 400 heading default; no bespoke font/library dependency. Live Lighthouse includes platform font delivery."
+  }
+}

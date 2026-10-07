@@ -1,0 +1,215 @@
+{
+  "run": 37649193805,
+  "themeSource": "394152fe95919d36b8aa88ac2311d7bf77153ae9",
+  "samples": [
+    {
+      "surface": "home",
+      "mode": "mobile",
+      "samples": 3,
+      "median": {
+        "performance": 99,
+        "accessibility": 96,
+        "LCP": 1716.6633,
+        "CLS": 0.0008,
+        "TBT": 2.5
+      },
+      "range": {
+        "performance": [
+          98,
+          99
+        ],
+        "LCP": [
+          986.3047999999999,
+          1888.6606818115233
+        ],
+        "TBT": [
+          0,
+          145.5000000000001
+        ]
+      }
+    },
+    {
+      "surface": "home",
+      "mode": "desktop",
+      "samples": 3,
+      "median": {
+        "performance": 100,
+        "accessibility": 96,
+        "LCP": 455.7491,
+        "CLS": 0.0006,
+        "TBT": 0
+      },
+      "range": {
+        "performance": [
+          100,
+          100
+        ],
+        "LCP": [
+          320.54285,
+          527.4322999999999
+        ],
+        "TBT": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "surface": "product",
+      "mode": "mobile",
+      "samples": 3,
+      "median": {
+        "performance": 95,
+        "accessibility": 97,
+        "LCP": 1691.5541,
+        "CLS": 0.0157,
+        "TBT": 2.5
+      },
+      "range": {
+        "performance": [
+          89,
+          99
+        ],
+        "LCP": [
+          1369.5063999999998,
+          2568.16595
+        ],
+        "TBT": [
+          0,
+          440.9999999999999
+        ]
+      }
+    },
+    {
+      "surface": "product",
+      "mode": "desktop",
+      "samples": 3,
+      "median": {
+        "performance": 100,
+        "accessibility": 97,
+        "LCP": 520.7626,
+        "CLS": 0.0153,
+        "TBT": 0
+      },
+      "range": {
+        "performance": [
+          100,
+          100
+        ],
+        "LCP": [
+          376.7666489746094,
+          537.5309000000001
+        ],
+        "TBT": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "surface": "editorial",
+      "mode": "mobile",
+      "samples": 3,
+      "median": {
+        "performance": 98,
+        "accessibility": 97,
+        "LCP": 1674.1988,
+        "CLS": 0.0009,
+        "TBT": 0
+      },
+      "range": {
+        "performance": [
+          98,
+          99
+        ],
+        "LCP": [
+          1520.7068000000002,
+          2125.95545
+        ],
+        "TBT": [
+          0,
+          156.99999999999977
+        ]
+      }
+    },
+    {
+      "surface": "editorial",
+      "mode": "desktop",
+      "samples": 3,
+      "median": {
+        "performance": 100,
+        "accessibility": 97,
+        "LCP": 503.9681,
+        "CLS": 0.0034,
+        "TBT": 0
+      },
+      "range": {
+        "performance": [
+          100,
+          100
+        ],
+        "LCP": [
+          480.75135,
+          526.1506
+        ],
+        "TBT": [
+          0,
+          23.000000000000057
+        ]
+      }
+    },
+    {
+      "surface": "collection",
+      "mode": "mobile",
+      "samples": 3,
+      "median": {
+        "performance": 98,
+        "accessibility": 95,
+        "LCP": 2122.4429,
+        "CLS": 0.0074,
+        "TBT": 49.5
+      },
+      "range": {
+        "performance": [
+          97,
+          100
+        ],
+        "LCP": [
+          1368.4637000000002,
+          2391.580744033203
+        ],
+        "TBT": [
+          1.5,
+          137
+        ]
+      }
+    },
+    {
+      "surface": "collection",
+      "mode": "desktop",
+      "samples": 3,
+      "median": {
+        "performance": 100,
+        "accessibility": 95,
+        "LCP": 543.9129,
+        "CLS": 0.0053,
+        "TBT": 0
+      },
+      "range": {
+        "performance": [
+          100,
+          100
+        ],
+        "LCP": [
+          525.75593,
+          545.2538999999999
+        ],
+        "TBT": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "scope": "three repetitions for each of four real surfaces in mobile/desktop; raw reports retained; not field certification"
+}

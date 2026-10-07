@@ -1,0 +1,23 @@
+{
+  "store": "dcl-theme-dev.myshopify.com",
+  "themeId": 185844367583,
+  "uploadedCommit": "ff0b3658217716950b24bbd1fa7c313132a8deac",
+  "engine": "Chromium",
+  "journeys": [],
+  "surfaces": [],
+  "axe": [],
+  "states": [],
+  "performance": [],
+  "exceptions": [],
+  "browserVersion": "151.0.7922.34",
+  "signature": {
+    "compositions": [],
+    "nativeJourneys": [],
+    "nativeAdvanced": [],
+    "stress": [],
+    "app": [],
+    "keyboard": []
+  },
+  "result": "FAIL",
+  "error": "page.evaluate: Execution context was destroyed, most likely because of a navigation\n    at observe (/home/runner/work/dcl-shopify-theme/dcl-shopify-theme/tests/m2/live-shopify.mjs:18:557)\n    at async runSignature (/home/runner/work/dcl-shopify-theme/dcl-shopify-theme/tests/m2/live-signature.mjs:17:16)\n    at async file:///home/runner/work/dcl-shopify-theme/dcl-shopify-theme/tests/m2/live-shopify.mjs:24:45"
+}

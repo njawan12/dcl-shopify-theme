@@ -1,0 +1,34 @@
+{
+  "branch": "m2-production-theme",
+  "themeSource": "394152fe95919d36b8aa88ac2311d7bf77153ae9",
+  "productionCI": {
+    "run": 37649193990,
+    "result": "PASS",
+    "structuralChecks": 1172,
+    "unitTests": 46,
+    "browserAssertions": 369,
+    "browserObservations": 128,
+    "packageFiles": 74
+  },
+  "finalHarnessCI": {
+    "run": 37649973886,
+    "result": "PASS"
+  },
+  "signature": {
+    "run": 37649193805,
+    "result": "PASS_EXECUTED_FUNCTIONAL_CHECKS",
+    "nativeJourneys": 6,
+    "nativeAdvanced": 6,
+    "surfaces": 63
+  },
+  "nativeRegression": {
+    "run": 37649974374,
+    "result": "PASS_EXECUTED_FUNCTIONAL_CHECKS",
+    "nativeJourneys": 2,
+    "surfaces": 30
+  },
+  "temporarySecretRemoved": true,
+  "localSignedUrlRemoved": true,
+  "visualVerdict": "PENDING HUMAN REVIEW",
+  "recommendation": "M2B READY FOR HUMAN VISUAL REVIEW"
+}

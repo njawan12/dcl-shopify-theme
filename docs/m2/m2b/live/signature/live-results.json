@@ -1,0 +1,3152 @@
+{
+  "store": "dcl-theme-dev.myshopify.com",
+  "themeId": 185844367583,
+  "uploadedCommit": "394152fe95919d36b8aa88ac2311d7bf77153ae9",
+  "engine": "Chromium",
+  "journeys": [],
+  "surfaces": [
+    {
+      "label": "balanced-ordinary-1440",
+      "path": "/products/the-complete-snowboard?pb=0",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-ordinary-390",
+      "path": "/products/the-complete-snowboard",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-complex-1440",
+      "path": "/products/m2a-integration-test-two-options-no-media",
+      "title": "M2A Integration Test — Two Options (no media) — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "M2A Integration Test — Two Options (no media)"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-complex-390",
+      "path": "/products/m2a-integration-test-two-options-no-media",
+      "title": "M2A Integration Test — Two Options (no media) — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "M2A Integration Test — Two Options (no media)"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-plan-1440",
+      "path": "/products/selling-plans-ski-wax",
+      "title": "Selling Plans Ski Wax — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Selling Plans Ski Wax"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-plan-390",
+      "path": "/products/selling-plans-ski-wax",
+      "title": "Selling Plans Ski Wax — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Selling Plans Ski Wax"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-sold-out-1440",
+      "path": "/products/the-out-of-stock-snowboard",
+      "title": "The Out of Stock Snowboard — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Out of Stock Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-sold-out-390",
+      "path": "/products/the-out-of-stock-snowboard",
+      "title": "The Out of Stock Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Out of Stock Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-compare-1440",
+      "path": "/products/the-compare-at-price-snowboard",
+      "title": "The Compare at Price Snowboard — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Compare at Price Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-compare-390",
+      "path": "/products/the-compare-at-price-snowboard",
+      "title": "The Compare at Price Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Compare at Price Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-media-1440",
+      "path": "/products/the-videographer-snowboard",
+      "title": "The Videographer Snowboard — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Videographer Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-media-390",
+      "path": "/products/the-videographer-snowboard",
+      "title": "The Videographer Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Videographer Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-text-200-320",
+      "path": "/products/the-complete-snowboard",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-cart-js-on-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-ordinary-1440",
+      "path": "/products/the-complete-snowboard?view=compact",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-ordinary-390",
+      "path": "/products/the-complete-snowboard?view=compact",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-complex-1440",
+      "path": "/products/m2a-integration-test-two-options-no-media?view=compact",
+      "title": "M2A Integration Test — Two Options (no media) — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "M2A Integration Test — Two Options (no media)"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-complex-390",
+      "path": "/products/m2a-integration-test-two-options-no-media?view=compact",
+      "title": "M2A Integration Test — Two Options (no media) — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "M2A Integration Test — Two Options (no media)"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-plan-1440",
+      "path": "/products/selling-plans-ski-wax?view=compact",
+      "title": "Selling Plans Ski Wax — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Selling Plans Ski Wax"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-plan-390",
+      "path": "/products/selling-plans-ski-wax?view=compact",
+      "title": "Selling Plans Ski Wax — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Selling Plans Ski Wax"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-sold-out-1440",
+      "path": "/products/the-out-of-stock-snowboard?view=compact",
+      "title": "The Out of Stock Snowboard — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Out of Stock Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-sold-out-390",
+      "path": "/products/the-out-of-stock-snowboard?view=compact",
+      "title": "The Out of Stock Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Out of Stock Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-compare-1440",
+      "path": "/products/the-compare-at-price-snowboard?view=compact",
+      "title": "The Compare at Price Snowboard — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Compare at Price Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-compare-390",
+      "path": "/products/the-compare-at-price-snowboard?view=compact",
+      "title": "The Compare at Price Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Compare at Price Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-media-1440",
+      "path": "/products/the-videographer-snowboard?view=compact",
+      "title": "The Videographer Snowboard — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Videographer Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-media-390",
+      "path": "/products/the-videographer-snowboard?view=compact",
+      "title": "The Videographer Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Videographer Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-text-200-320",
+      "path": "/products/the-complete-snowboard?view=compact",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 321,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-cart-js-on-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-ordinary-1440",
+      "path": "/products/the-complete-snowboard?view=editorial",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-ordinary-390",
+      "path": "/products/the-complete-snowboard?view=editorial",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-complex-1440",
+      "path": "/products/m2a-integration-test-two-options-no-media?view=editorial",
+      "title": "M2A Integration Test — Two Options (no media) — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "M2A Integration Test — Two Options (no media)"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-complex-390",
+      "path": "/products/m2a-integration-test-two-options-no-media?view=editorial",
+      "title": "M2A Integration Test — Two Options (no media) — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "M2A Integration Test — Two Options (no media)"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-plan-1440",
+      "path": "/products/selling-plans-ski-wax?view=editorial",
+      "title": "Selling Plans Ski Wax — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Selling Plans Ski Wax"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-plan-390",
+      "path": "/products/selling-plans-ski-wax?view=editorial",
+      "title": "Selling Plans Ski Wax — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Selling Plans Ski Wax"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-sold-out-1440",
+      "path": "/products/the-out-of-stock-snowboard?view=editorial",
+      "title": "The Out of Stock Snowboard — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Out of Stock Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-sold-out-390",
+      "path": "/products/the-out-of-stock-snowboard?view=editorial",
+      "title": "The Out of Stock Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Out of Stock Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-compare-1440",
+      "path": "/products/the-compare-at-price-snowboard?view=editorial",
+      "title": "The Compare at Price Snowboard — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Compare at Price Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-compare-390",
+      "path": "/products/the-compare-at-price-snowboard?view=editorial",
+      "title": "The Compare at Price Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Compare at Price Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-media-1440",
+      "path": "/products/the-videographer-snowboard?view=editorial",
+      "title": "The Videographer Snowboard — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Videographer Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-media-390",
+      "path": "/products/the-videographer-snowboard?view=editorial",
+      "title": "The Videographer Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Videographer Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-text-200-320",
+      "path": "/products/the-complete-snowboard?view=editorial",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 320,
+      "scroll": 320,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-neutral-1440",
+      "path": "/products/the-complete-snowboard?view=editorial",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-neutral-390",
+      "path": "/products/the-complete-snowboard?view=editorial",
+      "title": "Complete Snowboard — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "The Complete Snowboard"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-cart-js-on-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "home-1440",
+      "path": "/",
+      "title": "dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "dcl-theme-dev"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "home-390",
+      "path": "/",
+      "title": "dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "dcl-theme-dev"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "story-1440",
+      "path": "/?view=evidence",
+      "title": "dcl-theme-dev",
+      "viewport": 1440,
+      "scroll": 1440,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Objects, with context."
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "story-390",
+      "path": "/?view=evidence",
+      "title": "dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Objects, with context."
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-cart-js-off-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-unresolved-js-off-390",
+      "path": "/products/m2a-integration-test-two-options-no-media?option_values=15005741383903%2C15005741449439",
+      "title": "M2A Integration Test — Two Options (no media) — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "M2A Integration Test — Two Options (no media)"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-unit-cart-js-off-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-allocated-plan-js-off-390",
+      "path": "/products/selling-plans-ski-wax?variant=67931960738015&selling_plan=8657469663",
+      "title": "Selling Plans Ski Wax — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Selling Plans Ski Wax"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "balanced-plan-cart-js-off-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-cart-js-off-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-unresolved-js-off-390",
+      "path": "/products/m2a-integration-test-two-options-no-media?option_values=15005741383903%2C15005741449439&view=compact",
+      "title": "M2A Integration Test — Two Options (no media) — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "M2A Integration Test — Two Options (no media)"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-unit-cart-js-off-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-allocated-plan-js-off-390",
+      "path": "/products/selling-plans-ski-wax?view=compact&variant=67931960738015&selling_plan=8657469663",
+      "title": "Selling Plans Ski Wax — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Selling Plans Ski Wax"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "compact-plan-cart-js-off-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-cart-js-off-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-unresolved-js-off-390",
+      "path": "/products/m2a-integration-test-two-options-no-media?option_values=15005741383903%2C15005741449439&view=editorial",
+      "title": "M2A Integration Test — Two Options (no media) — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "M2A Integration Test — Two Options (no media)"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-unit-cart-js-off-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-allocated-plan-js-off-390",
+      "path": "/products/selling-plans-ski-wax?view=editorial&variant=67931960738015&selling_plan=8657469663",
+      "title": "Selling Plans Ski Wax — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Selling Plans Ski Wax"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    },
+    {
+      "label": "editorial-plan-cart-js-off-390",
+      "path": "/cart",
+      "title": "Your Shopping Cart — dcl-theme-dev",
+      "viewport": 390,
+      "scroll": 390,
+      "liquidError": false,
+      "header": true,
+      "footer": true,
+      "headings": [
+        "Cart"
+      ],
+      "themeAssets": [
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/base.css?v=178308284146719305341791389048",
+        "https://dcl-theme-dev.myshopify.com/cdn/shop/t/4/assets/navigation.js?v=161046375386898566361791316471"
+      ]
+    }
+  ],
+  "axe": [
+    {
+      "surface": "balanced",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "surface": "compact",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "surface": "editorial",
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "states": [],
+  "performance": [
+    {
+      "surface": "home",
+      "mode": "mobile",
+      "repeat": 1,
+      "lighthouseVersion": "13.5.0",
+      "performance": 98,
+      "accessibility": 96,
+      "LCP": 1888.6606818115233,
+      "CLS": 0.00003952341088212718,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/",
+      "runtimeError": null
+    },
+    {
+      "surface": "product",
+      "mode": "mobile",
+      "repeat": 1,
+      "lighthouseVersion": "13.5.0",
+      "performance": 95,
+      "accessibility": 97,
+      "LCP": 2568.16595,
+      "CLS": 0.015728220165311037,
+      "TBT": 2.5,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard",
+      "runtimeError": null
+    },
+    {
+      "surface": "collection",
+      "mode": "mobile",
+      "repeat": 1,
+      "lighthouseVersion": "13.5.0",
+      "performance": 97,
+      "accessibility": 95,
+      "LCP": 2391.580744033203,
+      "CLS": 0,
+      "TBT": 137,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/collections/all",
+      "runtimeError": null
+    },
+    {
+      "surface": "editorial",
+      "mode": "mobile",
+      "repeat": 1,
+      "lighthouseVersion": "13.5.0",
+      "performance": 98,
+      "accessibility": 97,
+      "LCP": 1520.7068000000002,
+      "CLS": 0.00003952341088212718,
+      "TBT": 156.99999999999977,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard?view=editorial",
+      "runtimeError": null
+    },
+    {
+      "surface": "home",
+      "mode": "desktop",
+      "repeat": 1,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 96,
+      "LCP": 320.54285,
+      "CLS": 0.0006161334384029419,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/",
+      "runtimeError": null
+    },
+    {
+      "surface": "product",
+      "mode": "desktop",
+      "repeat": 1,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 97,
+      "LCP": 376.7666489746094,
+      "CLS": 0.015343992754574907,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard",
+      "runtimeError": null
+    },
+    {
+      "surface": "collection",
+      "mode": "desktop",
+      "repeat": 1,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 95,
+      "LCP": 543.9129131225586,
+      "CLS": 0.005318113745147827,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/collections/all",
+      "runtimeError": null
+    },
+    {
+      "surface": "editorial",
+      "mode": "desktop",
+      "repeat": 1,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 97,
+      "LCP": 480.75135,
+      "CLS": 0.0034162570502437035,
+      "TBT": 23.000000000000057,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard?view=editorial",
+      "runtimeError": null
+    },
+    {
+      "surface": "home",
+      "mode": "mobile",
+      "repeat": 2,
+      "lighthouseVersion": "13.5.0",
+      "performance": 99,
+      "accessibility": 96,
+      "LCP": 986.3047999999999,
+      "CLS": 0.0007899996586971634,
+      "TBT": 145.5000000000001,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/",
+      "runtimeError": null
+    },
+    {
+      "surface": "product",
+      "mode": "mobile",
+      "repeat": 2,
+      "lighthouseVersion": "13.5.0",
+      "performance": 89,
+      "accessibility": 97,
+      "LCP": 1369.5063999999998,
+      "CLS": 0.01568869675442891,
+      "TBT": 440.9999999999999,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard",
+      "runtimeError": null
+    },
+    {
+      "surface": "collection",
+      "mode": "mobile",
+      "repeat": 2,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 95,
+      "LCP": 1368.4637000000002,
+      "CLS": 0.007415987742874148,
+      "TBT": 49.5,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/collections/all",
+      "runtimeError": null
+    },
+    {
+      "surface": "editorial",
+      "mode": "mobile",
+      "repeat": 2,
+      "lighthouseVersion": "13.5.0",
+      "performance": 99,
+      "accessibility": 97,
+      "LCP": 1674.1988499999998,
+      "CLS": 0.0008598617274331714,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard?view=editorial",
+      "runtimeError": null
+    },
+    {
+      "surface": "home",
+      "mode": "desktop",
+      "repeat": 2,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 96,
+      "LCP": 455.74913999999995,
+      "CLS": 0.0006161334384029419,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/",
+      "runtimeError": null
+    },
+    {
+      "surface": "product",
+      "mode": "desktop",
+      "repeat": 2,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 97,
+      "LCP": 520.7626000000001,
+      "CLS": 0.015343992754574907,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard",
+      "runtimeError": null
+    },
+    {
+      "surface": "collection",
+      "mode": "desktop",
+      "repeat": 2,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 95,
+      "LCP": 525.75593,
+      "CLS": 0.005318113745147827,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/collections/all",
+      "runtimeError": null
+    },
+    {
+      "surface": "editorial",
+      "mode": "desktop",
+      "repeat": 2,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 97,
+      "LCP": 503.96813999999995,
+      "CLS": 0.0034162570502437035,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard?view=editorial",
+      "runtimeError": null
+    },
+    {
+      "surface": "home",
+      "mode": "mobile",
+      "repeat": 3,
+      "lighthouseVersion": "13.5.0",
+      "performance": 99,
+      "accessibility": 96,
+      "LCP": 1716.66332,
+      "CLS": 0.0007899996586971634,
+      "TBT": 2.5,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/",
+      "runtimeError": null
+    },
+    {
+      "surface": "product",
+      "mode": "mobile",
+      "repeat": 3,
+      "lighthouseVersion": "13.5.0",
+      "performance": 99,
+      "accessibility": 97,
+      "LCP": 1691.5540799999999,
+      "CLS": 0.0007312512208906205,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard",
+      "runtimeError": null
+    },
+    {
+      "surface": "collection",
+      "mode": "mobile",
+      "repeat": 3,
+      "lighthouseVersion": "13.5.0",
+      "performance": 98,
+      "accessibility": 95,
+      "LCP": 2122.4429,
+      "CLS": 0.007455511153756276,
+      "TBT": 1.5,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/collections/all",
+      "runtimeError": null
+    },
+    {
+      "surface": "editorial",
+      "mode": "mobile",
+      "repeat": 3,
+      "lighthouseVersion": "13.5.0",
+      "performance": 98,
+      "accessibility": 97,
+      "LCP": 2125.95545,
+      "CLS": 0.0008993851383152986,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard?view=editorial",
+      "runtimeError": null
+    },
+    {
+      "surface": "home",
+      "mode": "desktop",
+      "repeat": 3,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 96,
+      "LCP": 527.4322999999999,
+      "CLS": 0.0006161334384029419,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/",
+      "runtimeError": null
+    },
+    {
+      "surface": "product",
+      "mode": "desktop",
+      "repeat": 3,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 97,
+      "LCP": 537.5309000000001,
+      "CLS": 0.015343992754574907,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard",
+      "runtimeError": null
+    },
+    {
+      "surface": "collection",
+      "mode": "desktop",
+      "repeat": 3,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 95,
+      "LCP": 545.2538999999999,
+      "CLS": 0.005318113745147827,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/collections/all",
+      "runtimeError": null
+    },
+    {
+      "surface": "editorial",
+      "mode": "desktop",
+      "repeat": 3,
+      "lighthouseVersion": "13.5.0",
+      "performance": 100,
+      "accessibility": 97,
+      "LCP": 526.1506,
+      "CLS": 0.0034162570502437035,
+      "TBT": 0,
+      "INP": "not available as field metric in lab",
+      "finalUrl": "https://dcl-theme-dev.myshopify.com/products/the-complete-snowboard?view=editorial",
+      "runtimeError": null
+    }
+  ],
+  "exceptions": [],
+  "browserVersion": "151.0.7922.34",
+  "signature": {
+    "compositions": [
+      {
+        "composition": "balanced",
+        "fixture": "ordinary",
+        "width": 1440,
+        "path": "/products/the-complete-snowboard?pb=0",
+        "productId": "15414509732063",
+        "variantId": "67931960574175",
+        "price": [
+          "\n    \n    $699.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "ordinary",
+        "width": 390,
+        "path": "/products/the-complete-snowboard",
+        "productId": "15414509732063",
+        "variantId": "67931960574175",
+        "price": [
+          "\n    \n    $699.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "complex",
+        "width": 1440,
+        "path": "/products/m2a-integration-test-two-options-no-media",
+        "productId": "15414839476447",
+        "variantId": "67933303996639",
+        "price": [
+          "\n    \n    $12.00 USD\n    \n  $6.00 USD / oz\n\n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "complex",
+        "width": 390,
+        "path": "/products/m2a-integration-test-two-options-no-media",
+        "productId": "15414839476447",
+        "variantId": "67933303996639",
+        "price": [
+          "\n    \n    $12.00 USD\n    \n  $6.00 USD / oz\n\n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "plan",
+        "width": 1440,
+        "path": "/products/selling-plans-ski-wax",
+        "productId": "15414509502687",
+        "variantId": "67931960738015",
+        "price": [
+          "\n    \n    $24.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "plan",
+        "width": 390,
+        "path": "/products/selling-plans-ski-wax",
+        "productId": "15414509502687",
+        "variantId": "67931960738015",
+        "price": [
+          "\n    \n    $24.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "sold-out",
+        "width": 1440,
+        "path": "/products/the-out-of-stock-snowboard",
+        "productId": "15414509535455",
+        "variantId": "67931960148191",
+        "price": [
+          "\n    \n    $885.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Sold out"
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "sold-out",
+        "width": 390,
+        "path": "/products/the-out-of-stock-snowboard",
+        "productId": "15414509535455",
+        "variantId": "67931960148191",
+        "price": [
+          "\n    \n    $885.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Sold out"
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "compare",
+        "width": 1440,
+        "path": "/products/the-compare-at-price-snowboard",
+        "productId": "15414509666527",
+        "variantId": "67931960377567",
+        "price": [
+          "\n    Regular price$885.95 USDSale price\n    $785.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "compare",
+        "width": 390,
+        "path": "/products/the-compare-at-price-snowboard",
+        "productId": "15414509666527",
+        "variantId": "67931960377567",
+        "price": [
+          "\n    Regular price$885.95 USDSale price\n    $785.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "media",
+        "width": 1440,
+        "path": "/products/the-videographer-snowboard",
+        "productId": "15414509699295",
+        "variantId": "67931960508639",
+        "price": [
+          "\n    \n    $885.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "media",
+        "width": 390,
+        "path": "/products/the-videographer-snowboard",
+        "productId": "15414509699295",
+        "variantId": "67931960508639",
+        "price": [
+          "\n    \n    $885.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "ordinary",
+        "width": 1440,
+        "path": "/products/the-complete-snowboard?view=compact",
+        "productId": "15414509732063",
+        "variantId": "67931960574175",
+        "price": [
+          "\n    \n    $699.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "ordinary",
+        "width": 390,
+        "path": "/products/the-complete-snowboard?view=compact",
+        "productId": "15414509732063",
+        "variantId": "67931960574175",
+        "price": [
+          "\n    \n    $699.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "complex",
+        "width": 1440,
+        "path": "/products/m2a-integration-test-two-options-no-media?view=compact",
+        "productId": "15414839476447",
+        "variantId": "67933303996639",
+        "price": [
+          "\n    \n    $12.00 USD\n    \n  $6.00 USD / oz\n\n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "complex",
+        "width": 390,
+        "path": "/products/m2a-integration-test-two-options-no-media?view=compact",
+        "productId": "15414839476447",
+        "variantId": "67933303996639",
+        "price": [
+          "\n    \n    $12.00 USD\n    \n  $6.00 USD / oz\n\n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "plan",
+        "width": 1440,
+        "path": "/products/selling-plans-ski-wax?view=compact",
+        "productId": "15414509502687",
+        "variantId": "67931960738015",
+        "price": [
+          "\n    \n    $24.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "plan",
+        "width": 390,
+        "path": "/products/selling-plans-ski-wax?view=compact",
+        "productId": "15414509502687",
+        "variantId": "67931960738015",
+        "price": [
+          "\n    \n    $24.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "sold-out",
+        "width": 1440,
+        "path": "/products/the-out-of-stock-snowboard?view=compact",
+        "productId": "15414509535455",
+        "variantId": "67931960148191",
+        "price": [
+          "\n    \n    $885.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Sold out"
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "sold-out",
+        "width": 390,
+        "path": "/products/the-out-of-stock-snowboard?view=compact",
+        "productId": "15414509535455",
+        "variantId": "67931960148191",
+        "price": [
+          "\n    \n    $885.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Sold out"
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "compare",
+        "width": 1440,
+        "path": "/products/the-compare-at-price-snowboard?view=compact",
+        "productId": "15414509666527",
+        "variantId": "67931960377567",
+        "price": [
+          "\n    Regular price$885.95 USDSale price\n    $785.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "compare",
+        "width": 390,
+        "path": "/products/the-compare-at-price-snowboard?view=compact",
+        "productId": "15414509666527",
+        "variantId": "67931960377567",
+        "price": [
+          "\n    Regular price$885.95 USDSale price\n    $785.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "media",
+        "width": 1440,
+        "path": "/products/the-videographer-snowboard?view=compact",
+        "productId": "15414509699295",
+        "variantId": "67931960508639",
+        "price": [
+          "\n    \n    $885.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "media",
+        "width": 390,
+        "path": "/products/the-videographer-snowboard?view=compact",
+        "productId": "15414509699295",
+        "variantId": "67931960508639",
+        "price": [
+          "\n    \n    $885.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "ordinary",
+        "width": 1440,
+        "path": "/products/the-complete-snowboard?view=editorial",
+        "productId": "15414509732063",
+        "variantId": "67931960574175",
+        "price": [
+          "\n    \n    $699.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "ordinary",
+        "width": 390,
+        "path": "/products/the-complete-snowboard?view=editorial",
+        "productId": "15414509732063",
+        "variantId": "67931960574175",
+        "price": [
+          "\n    \n    $699.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "complex",
+        "width": 1440,
+        "path": "/products/m2a-integration-test-two-options-no-media?view=editorial",
+        "productId": "15414839476447",
+        "variantId": "67933303996639",
+        "price": [
+          "\n    \n    $12.00 USD\n    \n  $6.00 USD / oz\n\n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "complex",
+        "width": 390,
+        "path": "/products/m2a-integration-test-two-options-no-media?view=editorial",
+        "productId": "15414839476447",
+        "variantId": "67933303996639",
+        "price": [
+          "\n    \n    $12.00 USD\n    \n  $6.00 USD / oz\n\n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "plan",
+        "width": 1440,
+        "path": "/products/selling-plans-ski-wax?view=editorial",
+        "productId": "15414509502687",
+        "variantId": "67931960738015",
+        "price": [
+          "\n    \n    $24.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "plan",
+        "width": 390,
+        "path": "/products/selling-plans-ski-wax?view=editorial",
+        "productId": "15414509502687",
+        "variantId": "67931960738015",
+        "price": [
+          "\n    \n    $24.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "sold-out",
+        "width": 1440,
+        "path": "/products/the-out-of-stock-snowboard?view=editorial",
+        "productId": "15414509535455",
+        "variantId": "67931960148191",
+        "price": [
+          "\n    \n    $885.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Sold out"
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "sold-out",
+        "width": 390,
+        "path": "/products/the-out-of-stock-snowboard?view=editorial",
+        "productId": "15414509535455",
+        "variantId": "67931960148191",
+        "price": [
+          "\n    \n    $885.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Sold out"
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "compare",
+        "width": 1440,
+        "path": "/products/the-compare-at-price-snowboard?view=editorial",
+        "productId": "15414509666527",
+        "variantId": "67931960377567",
+        "price": [
+          "\n    Regular price$885.95 USDSale price\n    $785.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "compare",
+        "width": 390,
+        "path": "/products/the-compare-at-price-snowboard?view=editorial",
+        "productId": "15414509666527",
+        "variantId": "67931960377567",
+        "price": [
+          "\n    Regular price$885.95 USDSale price\n    $785.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "media",
+        "width": 1440,
+        "path": "/products/the-videographer-snowboard?view=editorial",
+        "productId": "15414509699295",
+        "variantId": "67931960508639",
+        "price": [
+          "\n    \n    $885.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "media",
+        "width": 390,
+        "path": "/products/the-videographer-snowboard?view=editorial",
+        "productId": "15414509699295",
+        "variantId": "67931960508639",
+        "price": [
+          "\n    \n    $885.95 USD\n    \n\n  "
+        ],
+        "buttons": [
+          "Add to cart"
+        ]
+      }
+    ],
+    "nativeJourneys": [
+      {
+        "composition": "balanced",
+        "javaScriptEnabled": true,
+        "viewport": {
+          "width": 390,
+          "height": 900
+        },
+        "nativeVariantLink": true,
+        "nativeFormSubmitted": true,
+        "productId": 15414509732063,
+        "variantId": 67931960606943,
+        "quantity": 2,
+        "priceMinor": 69995,
+        "currency": "USD",
+        "cartPath": "/cart"
+      },
+      {
+        "composition": "compact",
+        "javaScriptEnabled": true,
+        "viewport": {
+          "width": 390,
+          "height": 900
+        },
+        "nativeVariantLink": true,
+        "nativeFormSubmitted": true,
+        "productId": 15414509732063,
+        "variantId": 67931960606943,
+        "quantity": 2,
+        "priceMinor": 69995,
+        "currency": "USD",
+        "cartPath": "/cart"
+      },
+      {
+        "composition": "editorial",
+        "javaScriptEnabled": true,
+        "viewport": {
+          "width": 390,
+          "height": 900
+        },
+        "nativeVariantLink": true,
+        "nativeFormSubmitted": true,
+        "productId": 15414509732063,
+        "variantId": 67931960606943,
+        "quantity": 2,
+        "priceMinor": 69995,
+        "currency": "USD",
+        "cartPath": "/cart"
+      },
+      {
+        "composition": "balanced",
+        "javaScriptEnabled": false,
+        "viewport": {
+          "width": 390,
+          "height": 900
+        },
+        "nativeVariantLink": true,
+        "nativeFormSubmitted": true,
+        "productId": 15414509732063,
+        "variantId": 67931960606943,
+        "quantity": 2,
+        "priceMinor": 69995,
+        "currency": "USD",
+        "cartPath": "/cart"
+      },
+      {
+        "composition": "compact",
+        "javaScriptEnabled": false,
+        "viewport": {
+          "width": 390,
+          "height": 900
+        },
+        "nativeVariantLink": true,
+        "nativeFormSubmitted": true,
+        "productId": 15414509732063,
+        "variantId": 67931960606943,
+        "quantity": 2,
+        "priceMinor": 69995,
+        "currency": "USD",
+        "cartPath": "/cart"
+      },
+      {
+        "composition": "editorial",
+        "javaScriptEnabled": false,
+        "viewport": {
+          "width": 390,
+          "height": 900
+        },
+        "nativeVariantLink": true,
+        "nativeFormSubmitted": true,
+        "productId": 15414509732063,
+        "variantId": 67931960606943,
+        "quantity": 2,
+        "priceMinor": 69995,
+        "currency": "USD",
+        "cartPath": "/cart"
+      }
+    ],
+    "nativeAdvanced": [
+      {
+        "composition": "balanced",
+        "javaScriptEnabled": false,
+        "kind": "nonexistent tuple recovery / unit price",
+        "variantId": 67933304029407,
+        "quantity": 1,
+        "priceMinor": 1200,
+        "unitPrice": 600
+      },
+      {
+        "composition": "balanced",
+        "javaScriptEnabled": false,
+        "kind": "native weekly allocation",
+        "variantId": 67931960738015,
+        "planId": 8657469663,
+        "quantity": 1,
+        "priceMinor": 2121
+      },
+      {
+        "composition": "compact",
+        "javaScriptEnabled": false,
+        "kind": "nonexistent tuple recovery / unit price",
+        "variantId": 67933304029407,
+        "quantity": 1,
+        "priceMinor": 1200,
+        "unitPrice": 600
+      },
+      {
+        "composition": "compact",
+        "javaScriptEnabled": false,
+        "kind": "native weekly allocation",
+        "variantId": 67931960738015,
+        "planId": 8657469663,
+        "quantity": 1,
+        "priceMinor": 2121
+      },
+      {
+        "composition": "editorial",
+        "javaScriptEnabled": false,
+        "kind": "nonexistent tuple recovery / unit price",
+        "variantId": 67933304029407,
+        "quantity": 1,
+        "priceMinor": 1200,
+        "unitPrice": 600
+      },
+      {
+        "composition": "editorial",
+        "javaScriptEnabled": false,
+        "kind": "native weekly allocation",
+        "variantId": 67931960738015,
+        "planId": 8657469663,
+        "quantity": 1,
+        "priceMinor": 2121
+      }
+    ],
+    "stress": [
+      {
+        "composition": "balanced",
+        "kind": "width",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "composition": "balanced",
+        "kind": "width",
+        "width": 375,
+        "scroll": 375
+      },
+      {
+        "composition": "balanced",
+        "kind": "width",
+        "width": 430,
+        "scroll": 430
+      },
+      {
+        "composition": "balanced",
+        "kind": "width",
+        "width": 768,
+        "scroll": 768
+      },
+      {
+        "composition": "balanced",
+        "kind": "width",
+        "width": 1024,
+        "scroll": 1024
+      },
+      {
+        "composition": "balanced",
+        "kind": "width",
+        "width": 1280,
+        "scroll": 1280
+      },
+      {
+        "composition": "balanced",
+        "kind": "controlled 200% text feasibility; not native zoom certification",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "composition": "balanced",
+        "reducedMotion": true
+      },
+      {
+        "composition": "compact",
+        "kind": "width",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "composition": "compact",
+        "kind": "width",
+        "width": 375,
+        "scroll": 375
+      },
+      {
+        "composition": "compact",
+        "kind": "width",
+        "width": 430,
+        "scroll": 430
+      },
+      {
+        "composition": "compact",
+        "kind": "width",
+        "width": 768,
+        "scroll": 768
+      },
+      {
+        "composition": "compact",
+        "kind": "width",
+        "width": 1024,
+        "scroll": 1024
+      },
+      {
+        "composition": "compact",
+        "kind": "width",
+        "width": 1280,
+        "scroll": 1280
+      },
+      {
+        "composition": "compact",
+        "kind": "controlled 200% text feasibility; not native zoom certification",
+        "width": 320,
+        "scroll": 321
+      },
+      {
+        "composition": "compact",
+        "reducedMotion": true
+      },
+      {
+        "composition": "editorial",
+        "kind": "width",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "composition": "editorial",
+        "kind": "width",
+        "width": 375,
+        "scroll": 375
+      },
+      {
+        "composition": "editorial",
+        "kind": "width",
+        "width": 430,
+        "scroll": 430
+      },
+      {
+        "composition": "editorial",
+        "kind": "width",
+        "width": 768,
+        "scroll": 768
+      },
+      {
+        "composition": "editorial",
+        "kind": "width",
+        "width": 1024,
+        "scroll": 1024
+      },
+      {
+        "composition": "editorial",
+        "kind": "width",
+        "width": 1280,
+        "scroll": 1280
+      },
+      {
+        "composition": "editorial",
+        "kind": "controlled 200% text feasibility; not native zoom certification",
+        "width": 320,
+        "scroll": 320
+      },
+      {
+        "composition": "editorial",
+        "reducedMotion": true
+      }
+    ],
+    "app": [
+      {
+        "composition": "balanced",
+        "fixture": "ordinary",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 498,
+            "scroll": 498,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "ordinary",
+        "width": 390,
+        "guests": [
+          {
+            "width": 350,
+            "scroll": 350,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "complex",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 498,
+            "scroll": 498,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "complex",
+        "width": 390,
+        "guests": [
+          {
+            "width": 350,
+            "scroll": 350,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "plan",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 498,
+            "scroll": 498,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "plan",
+        "width": 390,
+        "guests": [
+          {
+            "width": 350,
+            "scroll": 350,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "sold-out",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 498,
+            "scroll": 498,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "sold-out",
+        "width": 390,
+        "guests": [
+          {
+            "width": 350,
+            "scroll": 350,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "compare",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 498,
+            "scroll": 498,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "compare",
+        "width": 390,
+        "guests": [
+          {
+            "width": 350,
+            "scroll": 350,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "media",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 498,
+            "scroll": 498,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "balanced",
+        "fixture": "media",
+        "width": 390,
+        "guests": [
+          {
+            "width": 350,
+            "scroll": 350,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "ordinary",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 576,
+            "scroll": 576,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "ordinary",
+        "width": 390,
+        "guests": [
+          {
+            "width": 302,
+            "scroll": 302,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "complex",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 576,
+            "scroll": 576,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "complex",
+        "width": 390,
+        "guests": [
+          {
+            "width": 302,
+            "scroll": 302,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "plan",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 576,
+            "scroll": 576,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "plan",
+        "width": 390,
+        "guests": [
+          {
+            "width": 302,
+            "scroll": 302,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "sold-out",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 576,
+            "scroll": 576,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "sold-out",
+        "width": 390,
+        "guests": [
+          {
+            "width": 302,
+            "scroll": 302,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "compare",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 576,
+            "scroll": 576,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "compare",
+        "width": 390,
+        "guests": [
+          {
+            "width": 302,
+            "scroll": 302,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "media",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 576,
+            "scroll": 576,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "compact",
+        "fixture": "media",
+        "width": 390,
+        "guests": [
+          {
+            "width": 302,
+            "scroll": 302,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "ordinary",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 600,
+            "scroll": 600,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "ordinary",
+        "width": 390,
+        "guests": [
+          {
+            "width": 350,
+            "scroll": 350,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "complex",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 600,
+            "scroll": 600,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "complex",
+        "width": 390,
+        "guests": [
+          {
+            "width": 350,
+            "scroll": 350,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "plan",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 600,
+            "scroll": 600,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "plan",
+        "width": 390,
+        "guests": [
+          {
+            "width": 350,
+            "scroll": 350,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "sold-out",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 600,
+            "scroll": 600,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "sold-out",
+        "width": 390,
+        "guests": [
+          {
+            "width": 350,
+            "scroll": 350,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "compare",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 600,
+            "scroll": 600,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "compare",
+        "width": 390,
+        "guests": [
+          {
+            "width": 350,
+            "scroll": 350,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "media",
+        "width": 1440,
+        "guests": [
+          {
+            "width": 600,
+            "scroll": 600,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      },
+      {
+        "composition": "editorial",
+        "fixture": "media",
+        "width": 390,
+        "guests": [
+          {
+            "width": 350,
+            "scroll": 350,
+            "childCount": 1,
+            "insideEvidenceList": false
+          }
+        ]
+      }
+    ],
+    "keyboard": [
+      {
+        "composition": "balanced",
+        "tag": "A",
+        "text": "Skip to content",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "A",
+        "text": "dcl-theme-dev",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "SUMMARY",
+        "text": "Menu",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "A",
+        "text": "Search",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "A",
+        "text": "Cart\n(0)",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "SHOPIFY-ACCOUNT",
+        "text": "",
+        "outline": "none"
+      },
+      {
+        "composition": "balanced",
+        "tag": "SUMMARY",
+        "text": "US · EN\nRegion & language",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "DIV",
+        "text": "Product details",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "SHOP-LOGIN-BUTTON",
+        "text": "",
+        "outline": "none"
+      },
+      {
+        "composition": "balanced",
+        "tag": "A",
+        "text": "Ice",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "A",
+        "text": "Dawn",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "A",
+        "text": "Powder",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "A",
+        "text": "Electric",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "A",
+        "text": "Sunset",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "INPUT",
+        "text": "",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "BUTTON",
+        "text": "Add to cart",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "BUTTON",
+        "text": "Buy it now",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "DIV",
+        "text": "Keep context distinct.\nCriterion\tProduct record\tAttached evidence\nContent role\tN",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "A",
+        "text": "View sample catalog",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "A",
+        "text": "dcl-theme-dev",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "A",
+        "text": "Search",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "A",
+        "text": "Your Privacy Choices",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "INPUT",
+        "text": "",
+        "outline": "solid"
+      },
+      {
+        "composition": "balanced",
+        "tag": "BUTTON",
+        "text": "Subscribe",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "A",
+        "text": "Skip to content",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "A",
+        "text": "dcl-theme-dev",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "SUMMARY",
+        "text": "Menu",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "A",
+        "text": "Search",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "A",
+        "text": "Cart\n(0)",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "SHOPIFY-ACCOUNT",
+        "text": "",
+        "outline": "none"
+      },
+      {
+        "composition": "compact",
+        "tag": "SUMMARY",
+        "text": "US · EN\nRegion & language",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "DIV",
+        "text": "Product details",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "SHOP-LOGIN-BUTTON",
+        "text": "",
+        "outline": "none"
+      },
+      {
+        "composition": "compact",
+        "tag": "A",
+        "text": "Ice",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "A",
+        "text": "Dawn",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "A",
+        "text": "Powder",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "A",
+        "text": "Electric",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "A",
+        "text": "Sunset",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "INPUT",
+        "text": "",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "BUTTON",
+        "text": "Add to cart",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "BUTTON",
+        "text": "Buy it now",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "DIV",
+        "text": "Keep context distinct.\nCriterion\tProduct record\tAttached evidence\nContent role\tN",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "A",
+        "text": "View sample catalog",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "A",
+        "text": "dcl-theme-dev",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "A",
+        "text": "Search",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "A",
+        "text": "Your Privacy Choices",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "INPUT",
+        "text": "",
+        "outline": "solid"
+      },
+      {
+        "composition": "compact",
+        "tag": "BUTTON",
+        "text": "Subscribe",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "A",
+        "text": "Skip to content",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "A",
+        "text": "dcl-theme-dev",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "SUMMARY",
+        "text": "Menu",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "A",
+        "text": "Search",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "A",
+        "text": "Cart\n(0)",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "SHOPIFY-ACCOUNT",
+        "text": "",
+        "outline": "none"
+      },
+      {
+        "composition": "editorial",
+        "tag": "SUMMARY",
+        "text": "US · EN\nRegion & language",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "DIV",
+        "text": "Product details",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "SHOP-LOGIN-BUTTON",
+        "text": "",
+        "outline": "none"
+      },
+      {
+        "composition": "editorial",
+        "tag": "A",
+        "text": "Ice",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "A",
+        "text": "Dawn",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "A",
+        "text": "Powder",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "A",
+        "text": "Electric",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "A",
+        "text": "Sunset",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "INPUT",
+        "text": "",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "BUTTON",
+        "text": "Add to cart",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "BUTTON",
+        "text": "Buy it now",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "A",
+        "text": "View sample catalog",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "DIV",
+        "text": "Keep context distinct.\nCriterion\tProduct record\tAttached evidence\nContent role\tN",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "A",
+        "text": "dcl-theme-dev",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "A",
+        "text": "Search",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "A",
+        "text": "Your Privacy Choices",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "INPUT",
+        "text": "",
+        "outline": "solid"
+      },
+      {
+        "composition": "editorial",
+        "tag": "BUTTON",
+        "text": "Subscribe",
+        "outline": "solid"
+      }
+    ]
+  },
+  "lighthouseBrowser": {
+    "Browser": "Chrome/151.0.7922.34",
+    "Protocol-Version": "1.3",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.0.0 Safari/537.36",
+    "V8-Version": "15.1.206.8",
+    "WebKit-Version": "537.36 (@782af9cb30a53f54487e5d2e44738645a8ec457c)"
+  },
+  "result": "PASS_EXECUTED_FUNCTIONAL_CHECKS"
+}

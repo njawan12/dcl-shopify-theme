@@ -1,0 +1,290 @@
+
+> test
+> node --test liquid.test.mjs cart.test.mjs
+
+TAP version 13
+# Subtest: same variant with different properties/plans is updated by distinct line keys
+ok 1 - same variant with different properties/plans is updated by distinct line keys
+  ---
+  duration_ms: 2.050406
+  type: 'test'
+  ...
+# Subtest: zero removal is valid at the API boundary; no line is merged
+ok 2 - zero removal is valid at the API boundary; no line is merged
+  ---
+  duration_ms: 0.20131
+  type: 'test'
+  ...
+# Subtest: reject empty quantity before sending
+ok 3 - reject empty quantity before sending
+  ---
+  duration_ms: 0.395006
+  type: 'test'
+  ...
+# Subtest: reject whitespace quantity before sending
+ok 4 - reject whitespace quantity before sending
+  ---
+  duration_ms: 0.102557
+  type: 'test'
+  ...
+# Subtest: reject fraction quantity before sending
+ok 5 - reject fraction quantity before sending
+  ---
+  duration_ms: 0.137486
+  type: 'test'
+  ...
+# Subtest: reject negative quantity before sending
+ok 6 - reject negative quantity before sending
+  ---
+  duration_ms: 0.128119
+  type: 'test'
+  ...
+# Subtest: reject text quantity before sending
+ok 7 - reject text quantity before sending
+  ---
+  duration_ms: 0.1344
+  type: 'test'
+  ...
+# Subtest: reject unsafe quantity before sending
+ok 8 - reject unsafe quantity before sending
+  ---
+  duration_ms: 0.075601
+  type: 'test'
+  ...
+# Subtest: duplicate line keys cannot silently overwrite quantities
+ok 9 - duplicate line keys cannot silently overwrite quantities
+  ---
+  duration_ms: 0.286268
+  type: 'test'
+  ...
+# Subtest: missing line identity cannot mutate cart
+ok 10 - missing line identity cannot mutate cart
+  ---
+  duration_ms: 0.350881
+  type: 'test'
+  ...
+# Subtest: server error description/message are displayed; otherwise localized fallback
+ok 11 - server error description/message are displayed; otherwise localized fallback
+  ---
+  duration_ms: 0.177942
+  type: 'test'
+  ...
+# Subtest: available selection submits exact native variant; accelerated default is present
+ok 12 - available selection submits exact native variant; accelerated default is present
+  ---
+  duration_ms: 15.942097
+  type: 'test'
+  ...
+# Subtest: sold-out preserves canonical identity while blocking purchase and checkout
+ok 13 - sold-out preserves canonical identity while blocking purchase and checkout
+  ---
+  duration_ms: 5.835426
+  type: 'test'
+  ...
+# Subtest: nonexistent tuple does not invent an ID or purchasable combination
+ok 14 - nonexistent tuple does not invent an ID or purchasable combination
+  ---
+  duration_ms: 4.931134
+  type: 'test'
+  ...
+# Subtest: required plan without allocation cannot degrade to one-time
+ok 15 - required plan without allocation cannot degrade to one-time
+  ---
+  duration_ms: 5.731954
+  type: 'test'
+  ...
+# Subtest: invalid selected plan blocks purchase even on an available variant
+ok 16 - invalid selected plan blocks purchase even on an available variant
+  ---
+  duration_ms: 4.88585
+  type: 'test'
+  ...
+# Subtest: valid required allocation posts the exact plan alongside variant
+ok 17 - valid required allocation posts the exact plan alongside variant
+  ---
+  duration_ms: 9.587213
+  type: 'test'
+  ...
+# Subtest: removed quantity block falls back to the real rule minimum, not one
+ok 18 - removed quantity block falls back to the real rule minimum, not one
+  ---
+  duration_ms: 4.417521
+  type: 'test'
+  ...
+# Subtest: quantity block uses native rule min, max, increment, ID and form association
+ok 19 - quantity block uses native rule min, max, increment, ID and form association
+  ---
+  duration_ms: 5.347211
+  type: 'test'
+  ...
+# Subtest: normal variant price, compare and unit are from one identity
+ok 20 - normal variant price, compare and unit are from one identity
+  ---
+  duration_ms: 5.037947
+  type: 'test'
+  ...
+# Subtest: equal or lower compare-at is never presented as a sale
+ok 21 - equal or lower compare-at is never presented as a sale
+  ---
+  duration_ms: 4.902969
+  type: 'test'
+  ...
+# Subtest: allocation changes price and unit with variant measurement, never a client discount
+ok 22 - allocation changes price and unit with variant measurement, never a client discount
+  ---
+  duration_ms: 4.591564
+  type: 'test'
+  ...
+# Subtest: null variant produces no fictional money
+ok 23 - null variant produces no fictional money
+  ---
+  duration_ms: 1.905255
+  type: 'test'
+  ...
+# Subtest: gift recipient mode uses official properties and excludes accelerated checkout
+ok 24 - gift recipient mode uses official properties and excludes accelerated checkout
+  ---
+  duration_ms: 4.005124
+  type: 'test'
+  ...
+# Subtest: gift without recipient mode may use platform checkout
+ok 25 - gift without recipient mode may use platform checkout
+  ---
+  duration_ms: 3.512474
+  type: 'test'
+  ...
+# Subtest: native server errors remain visible
+ok 26 - native server errors remain visible
+  ---
+  duration_ms: 2.497338
+  type: 'test'
+  ...
+# Subtest: required purchase plans expose only allocations for this variant
+ok 27 - required purchase plans expose only allocations for this variant
+  ---
+  duration_ms: 2.992289
+  type: 'test'
+  ...
+# Subtest: native option URLs preserve tuple IDs, selected state, escaped labels and swatches
+ok 28 - native option URLs preserve tuple IDs, selected state, escaped labels and swatches
+  ---
+  duration_ms: 5.032014
+  type: 'test'
+  ...
+# Subtest: default single variant needs no fabricated options
+ok 29 - default single variant needs no fabricated options
+  ---
+  duration_ms: 3.006535
+  type: 'test'
+  ...
+# Subtest: missing product is omitted on storefront and explained only in editor
+ok 30 - missing product is omitted on storefront and explained only in editor
+  ---
+  duration_ms: 7.639969
+  type: 'test'
+  ...
+# Subtest: Balanced initializes required allocation and no-media fallback from the same native truth
+ok 31 - Balanced initializes required allocation and no-media fallback from the same native truth
+  ---
+  duration_ms: 23.860157
+  type: 'test'
+  ...
+# Subtest: featured instances produce distinct native form IDs without a second commerce engine
+ok 32 - featured instances produce distinct native form IDs without a second commerce engine
+  ---
+  duration_ms: 23.874887
+  type: 'test'
+  ...
+# Subtest: native filters preserve active unavailable values, range numbers and sort identity
+ok 33 - native filters preserve active unavailable values, range numbers and sort identity
+  ---
+  duration_ms: 3.93249
+  type: 'test'
+  ...
+# Subtest: balanced preserves one native purchase identity and quantity association
+ok 34 - balanced preserves one native purchase identity and quantity association
+  ---
+  duration_ms: 27.646198
+  type: 'test'
+  ...
+# Subtest: compact preserves one native purchase identity and quantity association
+ok 35 - compact preserves one native purchase identity and quantity association
+  ---
+  duration_ms: 30.33742
+  type: 'test'
+  ...
+# Subtest: editorial preserves one native purchase identity and quantity association
+ok 36 - editorial preserves one native purchase identity and quantity association
+  ---
+  duration_ms: 34.271861
+  type: 'test'
+  ...
+# Subtest: invalid and disconnected notes omit while valid unsourced metric remains truthful
+ok 37 - invalid and disconnected notes omit while valid unsourced metric remains truthful
+  ---
+  duration_ms: 14.727928
+  type: 'test'
+  ...
+# Subtest: quote requires attribution and is explicitly merchant-authored; certification requires issuer
+ok 38 - quote requires attribution and is explicitly merchant-authored; certification requires issuer
+  ---
+  duration_ms: 14.006854
+  type: 'test'
+  ...
+# Subtest: one surviving process remains ordered, invalid earlier step is omitted
+ok 39 - one surviving process remains ordered, invalid earlier step is omitted
+  ---
+  duration_ms: 5.700201
+  type: 'test'
+  ...
+# Subtest: before/after requires two actual labelled media and meaningful alternatives
+ok 40 - before/after requires two actual labelled media and meaningful alternatives
+  ---
+  duration_ms: 15.455269
+  type: 'test'
+  ...
+# Subtest: comparison requires named subjects and complete rows; partial row is not silently completed
+ok 41 - comparison requires named subjects and complete rows; partial row is not silently completed
+  ---
+  duration_ms: 15.482149
+  type: 'test'
+  ...
+# Subtest: source rendering is structural only and preserves title when link is unsupported
+ok 42 - source rendering is structural only and preserves title when link is unsupported
+  ---
+  duration_ms: 21.914528
+  type: 'test'
+  ...
+# Subtest: source structural handling supports the known document fragment and rejects malformed authority
+ok 43 - source structural handling supports the known document fragment and rejects malformed authority
+  ---
+  duration_ms: 10.117331
+  type: 'test'
+  ...
+# Subtest: native alternate template navigation retains the semantic composition context
+ok 44 - native alternate template navigation retains the semantic composition context
+  ---
+  duration_ms: 3.685885
+  type: 'test'
+  ...
+# Subtest: large media sets remain available once without burying the initial decision band
+ok 45 - large media sets remain available once without burying the initial decision band
+  ---
+  duration_ms: 44.546154
+  type: 'test'
+  ...
+# Subtest: pair and process require their shared subject heading
+ok 46 - pair and process require their shared subject heading
+  ---
+  duration_ms: 4.861261
+  type: 'test'
+  ...
+1..46
+# tests 46
+# suites 0
+# pass 46
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 511.645737

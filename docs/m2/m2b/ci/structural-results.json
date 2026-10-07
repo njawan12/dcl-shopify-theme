@@ -7,33 +7,33 @@
   "presentation_controls": 17,
   "platform_brand_controls": 2,
   "assets": {
+    "search.js": {
+      "bytes": 2528,
+      "gzip_bytes": 895
+    },
+    "gift-card.js": {
+      "bytes": 412,
+      "gzip_bytes": 282
+    },
     "cart.js": {
       "bytes": 2511,
       "gzip_bytes": 1002
-    },
-    "media.js": {
-      "bytes": 672,
-      "gzip_bytes": 363
-    },
-    "navigation.js": {
-      "bytes": 1043,
-      "gzip_bytes": 467
     },
     "cart-state.js": {
       "bytes": 748,
       "gzip_bytes": 412
     },
-    "search.js": {
-      "bytes": 2528,
-      "gzip_bytes": 895
+    "media.js": {
+      "bytes": 672,
+      "gzip_bytes": 363
     },
     "base.css": {
-      "bytes": 20479,
-      "gzip_bytes": 4586
+      "bytes": 20653,
+      "gzip_bytes": 4610
     },
-    "gift-card.js": {
-      "bytes": 412,
-      "gzip_bytes": 282
+    "navigation.js": {
+      "bytes": 1043,
+      "gzip_bytes": 467
     }
   },
   "product_blocks": [
@@ -53,25 +53,25 @@
     "evidence_process"
   ],
   "section_controls": {
-    "main-home": 2,
     "main-contact": 0,
-    "predictive-search": 0,
     "main-list-collections": 0,
-    "evidence-rail": 5,
-    "main-cart": 0,
+    "predictive-search": 0,
     "main-search": 0,
-    "apps": 0,
-    "header": 1,
-    "main-blog": 0,
-    "main-page": 0,
+    "main-cart": 0,
+    "main-password": 0,
     "custom-liquid": 1,
-    "featured-product": 2,
+    "evidence-rail": 5,
+    "main-blog": 0,
     "main-article": 0,
     "footer": 4,
-    "main-404": 0,
+    "header": 1,
+    "main-home": 2,
+    "apps": 0,
     "main-product": 1,
+    "main-page": 0,
+    "featured-product": 2,
     "main-collection": 0,
-    "main-password": 0
+    "main-404": 0
   },
   "required_templates": [
     "404.json",
@@ -226,683 +226,15 @@
       "pass": true
     },
     {
-      "name": "no-forbidden-extension:snippets/product-surface.liquid",
+      "name": "no-forbidden-extension:sections/header-group.json",
       "pass": true
     },
     {
-      "name": "no-theme-contamination:snippets/product-surface.liquid",
+      "name": "no-theme-contamination:sections/header-group.json",
       "pass": true
     },
     {
-      "name": "no-legacy-liquid:snippets/product-surface.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:product.more_media",
-      "pass": true
-    },
-    {
-      "name": "translation:general.no_media",
-      "pass": true
-    },
-    {
-      "name": "translation:product.choose",
-      "pass": true
-    },
-    {
-      "name": "snippet:product-media",
-      "pass": true
-    },
-    {
-      "name": "snippet:product-media",
-      "pass": true
-    },
-    {
-      "name": "snippet:product-media",
-      "pass": true
-    },
-    {
-      "name": "snippet:product-block",
-      "pass": true
-    },
-    {
-      "name": "snippet:product-block",
-      "pass": true
-    },
-    {
-      "name": "snippet:product-block",
-      "pass": true
-    },
-    {
-      "name": "snippet:product-block",
-      "pass": true
-    },
-    {
-      "name": "snippet:product-block",
-      "pass": true
-    },
-    {
-      "name": "snippet:product-block",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/navigation-links.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/navigation-links.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/navigation-links.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:general.view_all",
-      "pass": true
-    },
-    {
-      "name": "translation:general.view_all",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/direction.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/direction.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/direction.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/theme-tokens.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/theme-tokens.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/theme-tokens.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/gift-recipient.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/gift-recipient.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/gift-recipient.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:gift.recipient",
-      "pass": true
-    },
-    {
-      "name": "translation:gift.send_recipient",
-      "pass": true
-    },
-    {
-      "name": "translation:general.email",
-      "pass": true
-    },
-    {
-      "name": "translation:gift.recipient_name",
-      "pass": true
-    },
-    {
-      "name": "translation:gift.message",
-      "pass": true
-    },
-    {
-      "name": "translation:gift.recipient_help",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/selling-plans.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/selling-plans.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/selling-plans.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:product.purchase_option",
-      "pass": true
-    },
-    {
-      "name": "translation:product.one_time",
-      "pass": true
-    },
-    {
-      "name": "translation:general.apply",
-      "pass": true
-    },
-    {
-      "name": "translation:product.plan_help",
-      "pass": true
-    },
-    {
-      "name": "translation:product.plan_unavailable",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/product-form.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/product-form.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/product-form.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:product.add",
-      "pass": true
-    },
-    {
-      "name": "translation:product.unavailable",
-      "pass": true
-    },
-    {
-      "name": "translation:product.plan_unavailable",
-      "pass": true
-    },
-    {
-      "name": "translation:product.sold_out",
-      "pass": true
-    },
-    {
-      "name": "snippet:gift-recipient",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/localization.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/localization.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/localization.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:general.country",
-      "pass": true
-    },
-    {
-      "name": "translation:general.language",
-      "pass": true
-    },
-    {
-      "name": "translation:general.apply",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/product-block.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/product-block.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/product-block.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:general.product_details",
-      "pass": true
-    },
-    {
-      "name": "translation:product.tax_included",
-      "pass": true
-    },
-    {
-      "name": "translation:product.pickup",
-      "pass": true
-    },
-    {
-      "name": "translation:product.pickup_unavailable",
-      "pass": true
-    },
-    {
-      "name": "snippet:price",
-      "pass": true
-    },
-    {
-      "name": "snippet:availability",
-      "pass": true
-    },
-    {
-      "name": "snippet:variant-options",
-      "pass": true
-    },
-    {
-      "name": "snippet:quantity",
-      "pass": true
-    },
-    {
-      "name": "snippet:selling-plans",
-      "pass": true
-    },
-    {
-      "name": "snippet:product-form",
-      "pass": true
-    },
-    {
-      "name": "snippet:evidence-note",
-      "pass": true
-    },
-    {
-      "name": "snippet:evidence-pair",
-      "pass": true
-    },
-    {
-      "name": "snippet:evidence-process",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/filters.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/filters.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/filters.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:collection.min_price",
-      "pass": true
-    },
-    {
-      "name": "translation:collection.max_price",
-      "pass": true
-    },
-    {
-      "name": "translation:collection.sort",
-      "pass": true
-    },
-    {
-      "name": "translation:general.apply",
-      "pass": true
-    },
-    {
-      "name": "translation:collection.clear",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/unit-price.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/unit-price.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/unit-price.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/evidence-source.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/evidence-source.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/evidence-source.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/product-media.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/product-media.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/product-media.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:product.model_file",
-      "pass": true
-    },
-    {
-      "name": "snippet:image",
-      "pass": true
-    },
-    {
-      "name": "snippet:image",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/meta-tags.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/meta-tags.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/meta-tags.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/evidence-note.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/evidence-note.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/evidence-note.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:evidence.note",
-      "pass": true
-    },
-    {
-      "name": "translation:evidence.note",
-      "pass": true
-    },
-    {
-      "name": "snippet:evidence-source",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/price.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/price.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/price.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:product.regular_price",
-      "pass": true
-    },
-    {
-      "name": "translation:product.sale_price",
-      "pass": true
-    },
-    {
-      "name": "snippet:unit-price",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/evidence-pair.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/evidence-pair.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/evidence-pair.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:evidence.before_after",
-      "pass": true
-    },
-    {
-      "name": "translation:evidence.comparison",
-      "pass": true
-    },
-    {
-      "name": "translation:evidence.comparison",
-      "pass": true
-    },
-    {
-      "name": "translation:evidence.comparison",
-      "pass": true
-    },
-    {
-      "name": "translation:evidence.criterion",
-      "pass": true
-    },
-    {
-      "name": "snippet:image",
-      "pass": true
-    },
-    {
-      "name": "snippet:evidence-source",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/search-form.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/search-form.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/search-form.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:search.unavailable",
-      "pass": true
-    },
-    {
-      "name": "translation:general.search",
-      "pass": true
-    },
-    {
-      "name": "translation:general.search",
-      "pass": true
-    },
-    {
-      "name": "translation:search.help",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/image.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/image.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/image.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:general.no_media",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/pagination.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/pagination.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/pagination.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:general.pagination",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/variant-options.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/variant-options.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/variant-options.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:product.unavailable",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/evidence-process.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/evidence-process.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/evidence-process.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:evidence.process",
-      "pass": true
-    },
-    {
-      "name": "snippet:image",
-      "pass": true
-    },
-    {
-      "name": "snippet:evidence-source",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/availability.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/availability.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/availability.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:product.unavailable",
-      "pass": true
-    },
-    {
-      "name": "translation:product.available",
-      "pass": true
-    },
-    {
-      "name": "translation:product.sold_out",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/product-card.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/product-card.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/product-card.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:product.from",
-      "pass": true
-    },
-    {
-      "name": "translation:product.unit_for",
-      "pass": true
-    },
-    {
-      "name": "translation:product.sold_out",
-      "pass": true
-    },
-    {
-      "name": "snippet:image",
-      "pass": true
-    },
-    {
-      "name": "snippet:price",
-      "pass": true
-    },
-    {
-      "name": "snippet:unit-price",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:snippets/quantity.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:snippets/quantity.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:snippets/quantity.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:product.quantity",
-      "pass": true
-    },
-    {
-      "name": "translation:product.quantity_rule",
-      "pass": true
-    },
-    {
-      "name": "translation:product.quantity_max",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:sections/main-home.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:sections/main-home.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:sections/main-home.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:general.explore",
-      "pass": true
-    },
-    {
-      "name": "translation:general.shop",
-      "pass": true
-    },
-    {
-      "name": "snippet:product-card",
+      "name": "no-legacy-liquid:sections/header-group.json",
       "pass": true
     },
     {
@@ -942,22 +274,6 @@
       "pass": true
     },
     {
-      "name": "no-forbidden-extension:sections/predictive-search.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:sections/predictive-search.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:sections/predictive-search.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:search.suggestions",
-      "pass": true
-    },
-    {
       "name": "no-forbidden-extension:sections/main-list-collections.liquid",
       "pass": true
     },
@@ -986,31 +302,67 @@
       "pass": true
     },
     {
-      "name": "no-forbidden-extension:sections/evidence-rail.liquid",
+      "name": "no-forbidden-extension:sections/predictive-search.liquid",
       "pass": true
     },
     {
-      "name": "no-theme-contamination:sections/evidence-rail.liquid",
+      "name": "no-theme-contamination:sections/predictive-search.liquid",
       "pass": true
     },
     {
-      "name": "no-legacy-liquid:sections/evidence-rail.liquid",
+      "name": "no-legacy-liquid:sections/predictive-search.liquid",
       "pass": true
     },
     {
-      "name": "translation:general.evidence",
+      "name": "translation:search.suggestions",
       "pass": true
     },
     {
-      "name": "snippet:evidence-note",
+      "name": "no-forbidden-extension:sections/main-search.liquid",
       "pass": true
     },
     {
-      "name": "snippet:evidence-process",
+      "name": "no-theme-contamination:sections/main-search.liquid",
       "pass": true
     },
     {
-      "name": "snippet:image",
+      "name": "no-legacy-liquid:sections/main-search.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.search",
+      "pass": true
+    },
+    {
+      "name": "translation:search.results",
+      "pass": true
+    },
+    {
+      "name": "translation:search.empty",
+      "pass": true
+    },
+    {
+      "name": "snippet:search-form",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-card",
+      "pass": true
+    },
+    {
+      "name": "snippet:pagination",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/footer-group.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/footer-group.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/footer-group.json",
       "pass": true
     },
     {
@@ -1098,123 +450,63 @@
       "pass": true
     },
     {
-      "name": "no-forbidden-extension:sections/main-search.liquid",
+      "name": "no-forbidden-extension:sections/main-password.liquid",
       "pass": true
     },
     {
-      "name": "no-theme-contamination:sections/main-search.liquid",
+      "name": "no-theme-contamination:sections/main-password.liquid",
       "pass": true
     },
     {
-      "name": "no-legacy-liquid:sections/main-search.liquid",
+      "name": "no-legacy-liquid:sections/main-password.liquid",
       "pass": true
     },
     {
-      "name": "translation:general.search",
+      "name": "translation:general.password",
       "pass": true
     },
     {
-      "name": "translation:search.results",
+      "name": "translation:general.enter",
       "pass": true
     },
     {
-      "name": "translation:search.empty",
+      "name": "no-forbidden-extension:sections/custom-liquid.liquid",
       "pass": true
     },
     {
-      "name": "snippet:search-form",
+      "name": "no-theme-contamination:sections/custom-liquid.liquid",
       "pass": true
     },
     {
-      "name": "snippet:product-card",
+      "name": "no-legacy-liquid:sections/custom-liquid.liquid",
       "pass": true
     },
     {
-      "name": "snippet:pagination",
+      "name": "no-forbidden-extension:sections/evidence-rail.liquid",
       "pass": true
     },
     {
-      "name": "no-forbidden-extension:sections/apps.liquid",
+      "name": "no-theme-contamination:sections/evidence-rail.liquid",
       "pass": true
     },
     {
-      "name": "no-theme-contamination:sections/apps.liquid",
+      "name": "no-legacy-liquid:sections/evidence-rail.liquid",
       "pass": true
     },
     {
-      "name": "no-legacy-liquid:sections/apps.liquid",
+      "name": "translation:general.evidence",
       "pass": true
     },
     {
-      "name": "no-forbidden-extension:sections/header-group.json",
+      "name": "snippet:evidence-note",
       "pass": true
     },
     {
-      "name": "no-theme-contamination:sections/header-group.json",
+      "name": "snippet:evidence-process",
       "pass": true
     },
     {
-      "name": "no-legacy-liquid:sections/header-group.json",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:sections/header.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:sections/header.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:sections/header.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:general.menu",
-      "pass": true
-    },
-    {
-      "name": "translation:general.navigation",
-      "pass": true
-    },
-    {
-      "name": "translation:general.search",
-      "pass": true
-    },
-    {
-      "name": "translation:cart.title",
-      "pass": true
-    },
-    {
-      "name": "translation:cart.count",
-      "pass": true
-    },
-    {
-      "name": "translation:general.account",
-      "pass": true
-    },
-    {
-      "name": "translation:general.region",
-      "pass": true
-    },
-    {
-      "name": "snippet:navigation-links",
-      "pass": true
-    },
-    {
-      "name": "snippet:localization",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:sections/footer-group.json",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:sections/footer-group.json",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:sections/footer-group.json",
+      "name": "snippet:image",
       "pass": true
     },
     {
@@ -1239,46 +531,6 @@
     },
     {
       "name": "snippet:pagination",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:sections/main-page.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:sections/main-page.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:sections/main-page.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:sections/custom-liquid.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:sections/custom-liquid.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:sections/custom-liquid.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:sections/featured-product.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:sections/featured-product.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:sections/featured-product.liquid",
-      "pass": true
-    },
-    {
-      "name": "snippet:product-surface",
       "pass": true
     },
     {
@@ -1374,23 +626,87 @@
       "pass": true
     },
     {
-      "name": "no-forbidden-extension:sections/main-404.liquid",
+      "name": "no-forbidden-extension:sections/header.liquid",
       "pass": true
     },
     {
-      "name": "no-theme-contamination:sections/main-404.liquid",
+      "name": "no-theme-contamination:sections/header.liquid",
       "pass": true
     },
     {
-      "name": "no-legacy-liquid:sections/main-404.liquid",
+      "name": "no-legacy-liquid:sections/header.liquid",
       "pass": true
     },
     {
-      "name": "translation:general.not_found",
+      "name": "translation:general.menu",
       "pass": true
     },
     {
-      "name": "translation:general.home",
+      "name": "translation:general.navigation",
+      "pass": true
+    },
+    {
+      "name": "translation:general.search",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.title",
+      "pass": true
+    },
+    {
+      "name": "translation:cart.count",
+      "pass": true
+    },
+    {
+      "name": "translation:general.account",
+      "pass": true
+    },
+    {
+      "name": "translation:general.region",
+      "pass": true
+    },
+    {
+      "name": "snippet:navigation-links",
+      "pass": true
+    },
+    {
+      "name": "snippet:localization",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/main-home.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/main-home.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/main-home.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.explore",
+      "pass": true
+    },
+    {
+      "name": "translation:general.shop",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-card",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/apps.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/apps.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/apps.liquid",
       "pass": true
     },
     {
@@ -1403,6 +719,34 @@
     },
     {
       "name": "no-legacy-liquid:sections/main-product.liquid",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-surface",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/main-page.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/main-page.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/main-page.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:sections/featured-product.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:sections/featured-product.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:sections/featured-product.liquid",
       "pass": true
     },
     {
@@ -1442,127 +786,59 @@
       "pass": true
     },
     {
-      "name": "no-forbidden-extension:sections/main-password.liquid",
+      "name": "no-forbidden-extension:sections/main-404.liquid",
       "pass": true
     },
     {
-      "name": "no-theme-contamination:sections/main-password.liquid",
+      "name": "no-theme-contamination:sections/main-404.liquid",
       "pass": true
     },
     {
-      "name": "no-legacy-liquid:sections/main-password.liquid",
+      "name": "no-legacy-liquid:sections/main-404.liquid",
       "pass": true
     },
     {
-      "name": "translation:general.password",
+      "name": "translation:general.not_found",
       "pass": true
     },
     {
-      "name": "translation:general.enter",
+      "name": "translation:general.home",
       "pass": true
     },
     {
-      "name": "no-forbidden-extension:locales/en.default.json",
+      "name": "no-forbidden-extension:templates/index.json",
       "pass": true
     },
     {
-      "name": "no-theme-contamination:locales/en.default.json",
+      "name": "no-theme-contamination:templates/index.json",
       "pass": true
     },
     {
-      "name": "no-legacy-liquid:locales/en.default.json",
+      "name": "no-legacy-liquid:templates/index.json",
       "pass": true
     },
     {
-      "name": "no-forbidden-extension:locales/en.default.schema.json",
+      "name": "no-forbidden-extension:templates/list-collections.json",
       "pass": true
     },
     {
-      "name": "no-theme-contamination:locales/en.default.schema.json",
+      "name": "no-theme-contamination:templates/list-collections.json",
       "pass": true
     },
     {
-      "name": "no-legacy-liquid:locales/en.default.schema.json",
+      "name": "no-legacy-liquid:templates/list-collections.json",
       "pass": true
     },
     {
-      "name": "no-forbidden-extension:config/settings_schema.json",
+      "name": "no-forbidden-extension:templates/404.json",
       "pass": true
     },
     {
-      "name": "no-theme-contamination:config/settings_schema.json",
+      "name": "no-theme-contamination:templates/404.json",
       "pass": true
     },
     {
-      "name": "no-legacy-liquid:config/settings_schema.json",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:config/settings_data.json",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:config/settings_data.json",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:config/settings_data.json",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:layout/theme.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:layout/theme.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:layout/theme.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:general.skip",
-      "pass": true
-    },
-    {
-      "name": "snippet:direction",
-      "pass": true
-    },
-    {
-      "name": "snippet:meta-tags",
-      "pass": true
-    },
-    {
-      "name": "snippet:theme-tokens",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:layout/password.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:layout/password.liquid",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:layout/password.liquid",
-      "pass": true
-    },
-    {
-      "name": "translation:general.skip",
-      "pass": true
-    },
-    {
-      "name": "snippet:direction",
-      "pass": true
-    },
-    {
-      "name": "snippet:meta-tags",
-      "pass": true
-    },
-    {
-      "name": "snippet:theme-tokens",
+      "name": "no-legacy-liquid:templates/404.json",
       "pass": true
     },
     {
@@ -1575,6 +851,54 @@
     },
     {
       "name": "no-legacy-liquid:templates/password.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/product.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/product.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/product.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/article.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/article.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/article.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/page.contact.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/page.contact.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/page.contact.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:templates/product.compact.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:templates/product.compact.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:templates/product.compact.json",
       "pass": true
     },
     {
@@ -1602,39 +926,39 @@
       "pass": true
     },
     {
-      "name": "no-forbidden-extension:templates/page.contact.json",
+      "name": "no-forbidden-extension:templates/page.json",
       "pass": true
     },
     {
-      "name": "no-theme-contamination:templates/page.contact.json",
+      "name": "no-theme-contamination:templates/page.json",
       "pass": true
     },
     {
-      "name": "no-legacy-liquid:templates/page.contact.json",
+      "name": "no-legacy-liquid:templates/page.json",
       "pass": true
     },
     {
-      "name": "no-forbidden-extension:templates/404.json",
+      "name": "no-forbidden-extension:templates/product.editorial.json",
       "pass": true
     },
     {
-      "name": "no-theme-contamination:templates/404.json",
+      "name": "no-theme-contamination:templates/product.editorial.json",
       "pass": true
     },
     {
-      "name": "no-legacy-liquid:templates/404.json",
+      "name": "no-legacy-liquid:templates/product.editorial.json",
       "pass": true
     },
     {
-      "name": "no-forbidden-extension:templates/article.json",
+      "name": "no-forbidden-extension:templates/blog.json",
       "pass": true
     },
     {
-      "name": "no-theme-contamination:templates/article.json",
+      "name": "no-theme-contamination:templates/blog.json",
       "pass": true
     },
     {
-      "name": "no-legacy-liquid:templates/article.json",
+      "name": "no-legacy-liquid:templates/blog.json",
       "pass": true
     },
     {
@@ -1718,170 +1042,6 @@
       "pass": true
     },
     {
-      "name": "no-forbidden-extension:templates/product.json",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:templates/product.json",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:templates/product.json",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:templates/index.json",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:templates/index.json",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:templates/index.json",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:templates/blog.json",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:templates/blog.json",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:templates/blog.json",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:templates/product.compact.json",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:templates/product.compact.json",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:templates/product.compact.json",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:templates/product.editorial.json",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:templates/product.editorial.json",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:templates/product.editorial.json",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:templates/list-collections.json",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:templates/list-collections.json",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:templates/list-collections.json",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:templates/page.json",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:templates/page.json",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:templates/page.json",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:assets/cart.js",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:assets/cart.js",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:assets/cart.js",
-      "pass": true
-    },
-    {
-      "name": "readable:assets/cart.js",
-      "pass": true
-    },
-    {
-      "name": "javascript-syntax:cart.js",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:assets/media.js",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:assets/media.js",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:assets/media.js",
-      "pass": true
-    },
-    {
-      "name": "readable:assets/media.js",
-      "pass": true
-    },
-    {
-      "name": "javascript-syntax:media.js",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:assets/navigation.js",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:assets/navigation.js",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:assets/navigation.js",
-      "pass": true
-    },
-    {
-      "name": "readable:assets/navigation.js",
-      "pass": true
-    },
-    {
-      "name": "javascript-syntax:navigation.js",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:assets/cart-state.js",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:assets/cart-state.js",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:assets/cart-state.js",
-      "pass": true
-    },
-    {
-      "name": "readable:assets/cart-state.js",
-      "pass": true
-    },
-    {
-      "name": "javascript-syntax:cart-state.js",
-      "pass": true
-    },
-    {
       "name": "no-forbidden-extension:assets/search.js",
       "pass": true
     },
@@ -1899,22 +1059,6 @@
     },
     {
       "name": "javascript-syntax:search.js",
-      "pass": true
-    },
-    {
-      "name": "no-forbidden-extension:assets/base.css",
-      "pass": true
-    },
-    {
-      "name": "no-theme-contamination:assets/base.css",
-      "pass": true
-    },
-    {
-      "name": "no-legacy-liquid:assets/base.css",
-      "pass": true
-    },
-    {
-      "name": "readable:assets/base.css",
       "pass": true
     },
     {
@@ -1938,6 +1082,862 @@
       "pass": true
     },
     {
+      "name": "no-forbidden-extension:assets/cart.js",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:assets/cart.js",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:assets/cart.js",
+      "pass": true
+    },
+    {
+      "name": "readable:assets/cart.js",
+      "pass": true
+    },
+    {
+      "name": "javascript-syntax:cart.js",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:assets/cart-state.js",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:assets/cart-state.js",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:assets/cart-state.js",
+      "pass": true
+    },
+    {
+      "name": "readable:assets/cart-state.js",
+      "pass": true
+    },
+    {
+      "name": "javascript-syntax:cart-state.js",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:assets/media.js",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:assets/media.js",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:assets/media.js",
+      "pass": true
+    },
+    {
+      "name": "readable:assets/media.js",
+      "pass": true
+    },
+    {
+      "name": "javascript-syntax:media.js",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:assets/base.css",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:assets/base.css",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:assets/base.css",
+      "pass": true
+    },
+    {
+      "name": "readable:assets/base.css",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:assets/navigation.js",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:assets/navigation.js",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:assets/navigation.js",
+      "pass": true
+    },
+    {
+      "name": "readable:assets/navigation.js",
+      "pass": true
+    },
+    {
+      "name": "javascript-syntax:navigation.js",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:config/settings_schema.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:config/settings_schema.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:config/settings_schema.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:config/settings_data.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:config/settings_data.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:config/settings_data.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/quantity.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/quantity.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/quantity.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.quantity",
+      "pass": true
+    },
+    {
+      "name": "translation:product.quantity_rule",
+      "pass": true
+    },
+    {
+      "name": "translation:product.quantity_max",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/price.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/price.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/price.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.regular_price",
+      "pass": true
+    },
+    {
+      "name": "translation:product.sale_price",
+      "pass": true
+    },
+    {
+      "name": "snippet:unit-price",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/unit-price.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/unit-price.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/unit-price.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/product-form.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/product-form.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/product-form.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.add",
+      "pass": true
+    },
+    {
+      "name": "translation:product.unavailable",
+      "pass": true
+    },
+    {
+      "name": "translation:product.plan_unavailable",
+      "pass": true
+    },
+    {
+      "name": "translation:product.sold_out",
+      "pass": true
+    },
+    {
+      "name": "snippet:gift-recipient",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/evidence-note.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/evidence-note.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/evidence-note.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.note",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.note",
+      "pass": true
+    },
+    {
+      "name": "snippet:evidence-source",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/product-block.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/product-block.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/product-block.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.product_details",
+      "pass": true
+    },
+    {
+      "name": "translation:product.tax_included",
+      "pass": true
+    },
+    {
+      "name": "translation:product.pickup",
+      "pass": true
+    },
+    {
+      "name": "translation:product.pickup_unavailable",
+      "pass": true
+    },
+    {
+      "name": "snippet:price",
+      "pass": true
+    },
+    {
+      "name": "snippet:availability",
+      "pass": true
+    },
+    {
+      "name": "snippet:variant-options",
+      "pass": true
+    },
+    {
+      "name": "snippet:quantity",
+      "pass": true
+    },
+    {
+      "name": "snippet:selling-plans",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-form",
+      "pass": true
+    },
+    {
+      "name": "snippet:evidence-note",
+      "pass": true
+    },
+    {
+      "name": "snippet:evidence-pair",
+      "pass": true
+    },
+    {
+      "name": "snippet:evidence-process",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/availability.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/availability.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/availability.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.unavailable",
+      "pass": true
+    },
+    {
+      "name": "translation:product.available",
+      "pass": true
+    },
+    {
+      "name": "translation:product.sold_out",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/evidence-process.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/evidence-process.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/evidence-process.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.process",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "snippet:evidence-source",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/navigation-links.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/navigation-links.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/navigation-links.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.view_all",
+      "pass": true
+    },
+    {
+      "name": "translation:general.view_all",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/filters.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/filters.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/filters.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:collection.min_price",
+      "pass": true
+    },
+    {
+      "name": "translation:collection.max_price",
+      "pass": true
+    },
+    {
+      "name": "translation:collection.sort",
+      "pass": true
+    },
+    {
+      "name": "translation:general.apply",
+      "pass": true
+    },
+    {
+      "name": "translation:collection.clear",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/product-surface.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/product-surface.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/product-surface.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.more_media",
+      "pass": true
+    },
+    {
+      "name": "translation:general.no_media",
+      "pass": true
+    },
+    {
+      "name": "translation:product.choose",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-media",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-media",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-media",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-block",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-block",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-block",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-block",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-block",
+      "pass": true
+    },
+    {
+      "name": "snippet:product-block",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/direction.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/direction.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/direction.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/localization.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/localization.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/localization.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.country",
+      "pass": true
+    },
+    {
+      "name": "translation:general.language",
+      "pass": true
+    },
+    {
+      "name": "translation:general.apply",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/selling-plans.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/selling-plans.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/selling-plans.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.purchase_option",
+      "pass": true
+    },
+    {
+      "name": "translation:product.one_time",
+      "pass": true
+    },
+    {
+      "name": "translation:general.apply",
+      "pass": true
+    },
+    {
+      "name": "translation:product.plan_help",
+      "pass": true
+    },
+    {
+      "name": "translation:product.plan_unavailable",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/pagination.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/pagination.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/pagination.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.pagination",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/evidence-pair.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/evidence-pair.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/evidence-pair.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.before_after",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.comparison",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.comparison",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.comparison",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.criterion",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "snippet:evidence-source",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/meta-tags.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/meta-tags.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/meta-tags.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/variant-options.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/variant-options.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/variant-options.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.unavailable",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/product-media.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/product-media.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/product-media.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.model_file",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/evidence-source.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/evidence-source.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/evidence-source.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/theme-tokens.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/theme-tokens.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/theme-tokens.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/product-card.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/product-card.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/product-card.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:product.from",
+      "pass": true
+    },
+    {
+      "name": "translation:product.unit_for",
+      "pass": true
+    },
+    {
+      "name": "translation:product.sold_out",
+      "pass": true
+    },
+    {
+      "name": "snippet:image",
+      "pass": true
+    },
+    {
+      "name": "snippet:price",
+      "pass": true
+    },
+    {
+      "name": "snippet:unit-price",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/search-form.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/search-form.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/search-form.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:search.unavailable",
+      "pass": true
+    },
+    {
+      "name": "translation:general.search",
+      "pass": true
+    },
+    {
+      "name": "translation:general.search",
+      "pass": true
+    },
+    {
+      "name": "translation:search.help",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/gift-recipient.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/gift-recipient.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/gift-recipient.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.recipient",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.send_recipient",
+      "pass": true
+    },
+    {
+      "name": "translation:general.email",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.recipient_name",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.message",
+      "pass": true
+    },
+    {
+      "name": "translation:gift.recipient_help",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:snippets/image.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:snippets/image.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:snippets/image.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.no_media",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:layout/theme.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:layout/theme.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:layout/theme.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.skip",
+      "pass": true
+    },
+    {
+      "name": "snippet:direction",
+      "pass": true
+    },
+    {
+      "name": "snippet:meta-tags",
+      "pass": true
+    },
+    {
+      "name": "snippet:theme-tokens",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:layout/password.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:layout/password.liquid",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:layout/password.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:general.skip",
+      "pass": true
+    },
+    {
+      "name": "snippet:direction",
+      "pass": true
+    },
+    {
+      "name": "snippet:meta-tags",
+      "pass": true
+    },
+    {
+      "name": "snippet:theme-tokens",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:locales/en.default.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:locales/en.default.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:locales/en.default.json",
+      "pass": true
+    },
+    {
+      "name": "no-forbidden-extension:locales/en.default.schema.json",
+      "pass": true
+    },
+    {
+      "name": "no-theme-contamination:locales/en.default.schema.json",
+      "pass": true
+    },
+    {
+      "name": "no-legacy-liquid:locales/en.default.schema.json",
+      "pass": true
+    },
+    {
       "name": "global-count",
       "pass": true
     },
@@ -1951,34 +1951,6 @@
     },
     {
       "name": "four-color-pairs",
-      "pass": true
-    },
-    {
-      "name": "schema:main-home.liquid",
-      "pass": true
-    },
-    {
-      "name": "section-name:main-home",
-      "pass": true
-    },
-    {
-      "name": "section-budget:main-home",
-      "pass": true
-    },
-    {
-      "name": "section-setting-ids:main-home",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:sections.home",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:settings.heading",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:settings.collection",
       "pass": true
     },
     {
@@ -2002,6 +1974,26 @@
       "pass": true
     },
     {
+      "name": "schema:main-list-collections.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-list-collections",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-list-collections",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-list-collections",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.collections",
+      "pass": true
+    },
+    {
       "name": "schema:predictive-search.liquid",
       "pass": true
     },
@@ -2022,23 +2014,87 @@
       "pass": true
     },
     {
-      "name": "schema:main-list-collections.liquid",
+      "name": "schema:main-search.liquid",
       "pass": true
     },
     {
-      "name": "section-name:main-list-collections",
+      "name": "section-name:main-search",
       "pass": true
     },
     {
-      "name": "section-budget:main-list-collections",
+      "name": "section-budget:main-search",
       "pass": true
     },
     {
-      "name": "section-setting-ids:main-list-collections",
+      "name": "section-setting-ids:main-search",
       "pass": true
     },
     {
-      "name": "schema-label:t:sections.collections",
+      "name": "schema-label:t:sections.search",
+      "pass": true
+    },
+    {
+      "name": "schema:main-cart.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-cart",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-cart",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-cart",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.cart",
+      "pass": true
+    },
+    {
+      "name": "schema:main-password.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-password",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-password",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-password",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.password",
+      "pass": true
+    },
+    {
+      "name": "schema:custom-liquid.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:custom-liquid",
+      "pass": true
+    },
+    {
+      "name": "section-budget:custom-liquid",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:custom-liquid",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.custom_liquid",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.content",
       "pass": true
     },
     {
@@ -2102,67 +2158,79 @@
       "pass": true
     },
     {
-      "name": "schema:main-cart.liquid",
+      "name": "schema:main-blog.liquid",
       "pass": true
     },
     {
-      "name": "section-name:main-cart",
+      "name": "section-name:main-blog",
       "pass": true
     },
     {
-      "name": "section-budget:main-cart",
+      "name": "section-budget:main-blog",
       "pass": true
     },
     {
-      "name": "section-setting-ids:main-cart",
+      "name": "section-setting-ids:main-blog",
       "pass": true
     },
     {
-      "name": "schema-label:t:sections.cart",
+      "name": "schema-label:t:sections.blog",
       "pass": true
     },
     {
-      "name": "schema:main-search.liquid",
+      "name": "schema:main-article.liquid",
       "pass": true
     },
     {
-      "name": "section-name:main-search",
+      "name": "section-name:main-article",
       "pass": true
     },
     {
-      "name": "section-budget:main-search",
+      "name": "section-budget:main-article",
       "pass": true
     },
     {
-      "name": "section-setting-ids:main-search",
+      "name": "section-setting-ids:main-article",
       "pass": true
     },
     {
-      "name": "schema-label:t:sections.search",
+      "name": "schema-label:t:sections.article",
       "pass": true
     },
     {
-      "name": "schema:apps.liquid",
+      "name": "schema:footer.liquid",
       "pass": true
     },
     {
-      "name": "section-name:apps",
+      "name": "section-name:footer",
       "pass": true
     },
     {
-      "name": "section-budget:apps",
+      "name": "section-budget:footer",
       "pass": true
     },
     {
-      "name": "section-setting-ids:apps",
+      "name": "section-setting-ids:footer",
       "pass": true
     },
     {
-      "name": "block-budget:apps:@app",
+      "name": "schema-label:t:sections.footer",
       "pass": true
     },
     {
-      "name": "schema-label:t:sections.apps",
+      "name": "schema-label:t:settings.menu",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.social_url",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.social_label",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.brand_context",
       "pass": true
     },
     {
@@ -2190,23 +2258,187 @@
       "pass": true
     },
     {
-      "name": "schema:main-blog.liquid",
+      "name": "schema:main-home.liquid",
       "pass": true
     },
     {
-      "name": "section-name:main-blog",
+      "name": "section-name:main-home",
       "pass": true
     },
     {
-      "name": "section-budget:main-blog",
+      "name": "section-budget:main-home",
       "pass": true
     },
     {
-      "name": "section-setting-ids:main-blog",
+      "name": "section-setting-ids:main-home",
       "pass": true
     },
     {
-      "name": "schema-label:t:sections.blog",
+      "name": "schema-label:t:sections.home",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.heading",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.collection",
+      "pass": true
+    },
+    {
+      "name": "schema:apps.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:apps",
+      "pass": true
+    },
+    {
+      "name": "section-budget:apps",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:apps",
+      "pass": true
+    },
+    {
+      "name": "block-budget:apps:@app",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.apps",
+      "pass": true
+    },
+    {
+      "name": "schema:main-product.liquid",
+      "pass": true
+    },
+    {
+      "name": "section-name:main-product",
+      "pass": true
+    },
+    {
+      "name": "section-budget:main-product",
+      "pass": true
+    },
+    {
+      "name": "section-setting-ids:main-product",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:title",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:vendor",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:price",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:options",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:plans",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:quantity",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:buy",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:description",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:pickup",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:liquid",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:@app",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:evidence_note",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:evidence_pair",
+      "pass": true
+    },
+    {
+      "name": "block-budget:main-product:evidence_process",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:sections.product",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.composition",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.title",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.vendor",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.price",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.options",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.plans",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.quantity",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.buy",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.description",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.pickup",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.liquid",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.evidence_note",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.evidence_pair",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:blocks.evidence_process",
       "pass": true
     },
     {
@@ -2227,30 +2459,6 @@
     },
     {
       "name": "schema-label:t:sections.page",
-      "pass": true
-    },
-    {
-      "name": "schema:custom-liquid.liquid",
-      "pass": true
-    },
-    {
-      "name": "section-name:custom-liquid",
-      "pass": true
-    },
-    {
-      "name": "section-budget:custom-liquid",
-      "pass": true
-    },
-    {
-      "name": "section-setting-ids:custom-liquid",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:sections.custom_liquid",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:settings.content",
       "pass": true
     },
     {
@@ -2390,214 +2598,6 @@
       "pass": true
     },
     {
-      "name": "schema:main-article.liquid",
-      "pass": true
-    },
-    {
-      "name": "section-name:main-article",
-      "pass": true
-    },
-    {
-      "name": "section-budget:main-article",
-      "pass": true
-    },
-    {
-      "name": "section-setting-ids:main-article",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:sections.article",
-      "pass": true
-    },
-    {
-      "name": "schema:footer.liquid",
-      "pass": true
-    },
-    {
-      "name": "section-name:footer",
-      "pass": true
-    },
-    {
-      "name": "section-budget:footer",
-      "pass": true
-    },
-    {
-      "name": "section-setting-ids:footer",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:sections.footer",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:settings.menu",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:settings.social_url",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:settings.social_label",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:settings.brand_context",
-      "pass": true
-    },
-    {
-      "name": "schema:main-404.liquid",
-      "pass": true
-    },
-    {
-      "name": "section-name:main-404",
-      "pass": true
-    },
-    {
-      "name": "section-budget:main-404",
-      "pass": true
-    },
-    {
-      "name": "section-setting-ids:main-404",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:sections.not_found",
-      "pass": true
-    },
-    {
-      "name": "schema:main-product.liquid",
-      "pass": true
-    },
-    {
-      "name": "section-name:main-product",
-      "pass": true
-    },
-    {
-      "name": "section-budget:main-product",
-      "pass": true
-    },
-    {
-      "name": "section-setting-ids:main-product",
-      "pass": true
-    },
-    {
-      "name": "block-budget:main-product:title",
-      "pass": true
-    },
-    {
-      "name": "block-budget:main-product:vendor",
-      "pass": true
-    },
-    {
-      "name": "block-budget:main-product:price",
-      "pass": true
-    },
-    {
-      "name": "block-budget:main-product:options",
-      "pass": true
-    },
-    {
-      "name": "block-budget:main-product:plans",
-      "pass": true
-    },
-    {
-      "name": "block-budget:main-product:quantity",
-      "pass": true
-    },
-    {
-      "name": "block-budget:main-product:buy",
-      "pass": true
-    },
-    {
-      "name": "block-budget:main-product:description",
-      "pass": true
-    },
-    {
-      "name": "block-budget:main-product:pickup",
-      "pass": true
-    },
-    {
-      "name": "block-budget:main-product:liquid",
-      "pass": true
-    },
-    {
-      "name": "block-budget:main-product:@app",
-      "pass": true
-    },
-    {
-      "name": "block-budget:main-product:evidence_note",
-      "pass": true
-    },
-    {
-      "name": "block-budget:main-product:evidence_pair",
-      "pass": true
-    },
-    {
-      "name": "block-budget:main-product:evidence_process",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:sections.product",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:settings.composition",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:blocks.title",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:blocks.vendor",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:blocks.price",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:blocks.options",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:blocks.plans",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:blocks.quantity",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:blocks.buy",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:blocks.description",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:blocks.pickup",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:blocks.liquid",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:blocks.evidence_note",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:blocks.evidence_pair",
-      "pass": true
-    },
-    {
-      "name": "schema-label:t:blocks.evidence_process",
-      "pass": true
-    },
-    {
       "name": "schema:main-collection.liquid",
       "pass": true
     },
@@ -2618,23 +2618,23 @@
       "pass": true
     },
     {
-      "name": "schema:main-password.liquid",
+      "name": "schema:main-404.liquid",
       "pass": true
     },
     {
-      "name": "section-name:main-password",
+      "name": "section-name:main-404",
       "pass": true
     },
     {
-      "name": "section-budget:main-password",
+      "name": "section-budget:main-404",
       "pass": true
     },
     {
-      "name": "section-setting-ids:main-password",
+      "name": "section-setting-ids:main-404",
       "pass": true
     },
     {
-      "name": "schema-label:t:sections.password",
+      "name": "schema-label:t:sections.not_found",
       "pass": true
     },
     {

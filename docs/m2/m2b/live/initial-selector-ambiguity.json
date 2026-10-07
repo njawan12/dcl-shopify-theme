@@ -1,0 +1,23 @@
+{
+  "store": "dcl-theme-dev.myshopify.com",
+  "themeId": 185844367583,
+  "uploadedCommit": "77c9f4733a77aa18e2be997fabfdb6ad8e63bfb4",
+  "engine": "Chromium",
+  "journeys": [],
+  "surfaces": [],
+  "axe": [],
+  "states": [],
+  "performance": [],
+  "exceptions": [],
+  "browserVersion": "151.0.7922.34",
+  "signature": {
+    "compositions": [],
+    "nativeJourneys": [],
+    "nativeAdvanced": [],
+    "stress": [],
+    "app": [],
+    "keyboard": []
+  },
+  "result": "FAIL",
+  "error": "locator.waitFor: Error: strict mode violation: locator('header') resolved to 2 elements:\n    1) <header class=\"site-header scheme-1\">…</header> aka getByRole('banner')\n    2) <header class=\"account__header\">…</header> aka getByLabel('Sign in or create account').locator('header')\n\nCall log:\n  - waiting for locator('header') to be visible\n\n    at runSignature (/home/runner/work/dcl-shopify-theme/dcl-shopify-theme/tests/m2/live-signature.mjs:9:87)\n    at async file:///home/runner/work/dcl-shopify-theme/dcl-shopify-theme/tests/m2/live-shopify.mjs:24:45"
+}
