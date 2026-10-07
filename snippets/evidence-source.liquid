@@ -1,26 +1,33 @@
+{% capture backslash %}\{% endcapture %}
 {% liquid
   assign source_url = url | strip
-  assign prefix = source_url | slice: 0, 8
-  assign first = source_url | slice: 0, 1
-  assign two = source_url | slice: 0, 2
+  assign prefix = source_url | downcase | slice: 0, 8
+  assign first = source_url | downcase | slice: 0, 1
+  assign two = source_url | downcase | slice: 0, 2
   assign linked = false
   if prefix == 'https://'
-    assign host = source_url | remove_first: 'https://' | split: '/' | first
+    assign host = source_url | slice: 8, 99999 | split: '/' | first | split: '?' | first | split: '#' | first
     if host != blank
       assign linked = true
     endif
   else
-    assign prefix = source_url | slice: 0, 7
+    assign prefix = source_url | downcase | slice: 0, 7
     if prefix == 'http://'
-      assign host = source_url | remove_first: 'http://' | split: '/' | first
+      assign host = source_url | slice: 7, 99999 | split: '/' | first | split: '?' | first | split: '#' | first
       if host != blank
         assign linked = true
       endif
+    elsif source_url == '#MainContent'
+      assign linked = true
     elsif first == '/' and two != '//'
       assign linked = true
     endif
   endif
-  if source_url contains ' ' or source_url contains '\\' or source_url contains '<' or source_url contains '>' or source_url contains '"'
+  assign single_line = source_url | strip_newlines
+  if single_line != source_url
+    assign linked = false
+  endif
+  if source_url contains ' ' or source_url contains backslash or source_url contains '<' or source_url contains '>' or source_url contains '"'
     assign linked = false
   endif
 %}

@@ -163,7 +163,7 @@
         },
         {
           "type": "header",
-          "content": "Note 1"
+          "content": "t:settings.note_1"
         },
         {
           "type": "select",
@@ -230,7 +230,7 @@
         },
         {
           "type": "header",
-          "content": "Note 2"
+          "content": "t:settings.note_2"
         },
         {
           "type": "select",
@@ -297,7 +297,7 @@
         },
         {
           "type": "header",
-          "content": "Note 3"
+          "content": "t:settings.note_3"
         },
         {
           "type": "select",
@@ -457,156 +457,188 @@
         {
           "type": "text",
           "id": "left_subject",
-          "label": "t:settings.left_subject"
+          "label": "t:settings.left_subject",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "text",
           "id": "right_subject",
-          "label": "t:settings.right_subject"
+          "label": "t:settings.right_subject",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "header",
-          "content": "Comparison row 1"
+          "content": "t:settings.row_1",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "criterion_1",
-          "label": "t:settings.criterion"
+          "label": "t:settings.criterion",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "left_1",
-          "label": "t:settings.left"
+          "label": "t:settings.left",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "right_1",
-          "label": "t:settings.right"
+          "label": "t:settings.right",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "qualification_1",
-          "label": "t:settings.qualification"
+          "label": "t:settings.qualification",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "header",
-          "content": "Comparison row 2"
+          "content": "t:settings.row_2",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "criterion_2",
-          "label": "t:settings.criterion"
+          "label": "t:settings.criterion",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "left_2",
-          "label": "t:settings.left"
+          "label": "t:settings.left",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "right_2",
-          "label": "t:settings.right"
+          "label": "t:settings.right",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "qualification_2",
-          "label": "t:settings.qualification"
+          "label": "t:settings.qualification",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "header",
-          "content": "Comparison row 3"
+          "content": "t:settings.row_3",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "criterion_3",
-          "label": "t:settings.criterion"
+          "label": "t:settings.criterion",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "left_3",
-          "label": "t:settings.left"
+          "label": "t:settings.left",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "right_3",
-          "label": "t:settings.right"
+          "label": "t:settings.right",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "qualification_3",
-          "label": "t:settings.qualification"
+          "label": "t:settings.qualification",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "header",
-          "content": "Comparison row 4"
+          "content": "t:settings.row_4",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "criterion_4",
-          "label": "t:settings.criterion"
+          "label": "t:settings.criterion",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "left_4",
-          "label": "t:settings.left"
+          "label": "t:settings.left",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "right_4",
-          "label": "t:settings.right"
+          "label": "t:settings.right",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "textarea",
           "id": "qualification_4",
-          "label": "t:settings.qualification"
+          "label": "t:settings.qualification",
+          "visible_if": "{{ block.settings.mode == 'comparison' }}"
         },
         {
           "type": "header",
-          "content": "Before"
+          "content": "t:settings.before",
+          "visible_if": "{{ block.settings.mode == 'before_after' }}"
         },
         {
           "type": "text",
           "id": "before_label",
-          "label": "t:settings.label"
+          "label": "t:settings.label",
+          "visible_if": "{{ block.settings.mode == 'before_after' }}"
         },
         {
           "type": "image_picker",
           "id": "before_media",
-          "label": "t:settings.media"
+          "label": "t:settings.media",
+          "visible_if": "{{ block.settings.mode == 'before_after' }}"
         },
         {
           "type": "text",
           "id": "before_alt",
-          "label": "t:settings.alt"
+          "label": "t:settings.alt",
+          "visible_if": "{{ block.settings.mode == 'before_after' }}"
         },
         {
           "type": "textarea",
           "id": "before_caption",
-          "label": "t:settings.caption"
+          "label": "t:settings.caption",
+          "visible_if": "{{ block.settings.mode == 'before_after' }}"
         },
         {
           "type": "header",
-          "content": "After"
+          "content": "t:settings.after",
+          "visible_if": "{{ block.settings.mode == 'before_after' }}"
         },
         {
           "type": "text",
           "id": "after_label",
-          "label": "t:settings.label"
+          "label": "t:settings.label",
+          "visible_if": "{{ block.settings.mode == 'before_after' }}"
         },
         {
           "type": "image_picker",
           "id": "after_media",
-          "label": "t:settings.media"
+          "label": "t:settings.media",
+          "visible_if": "{{ block.settings.mode == 'before_after' }}"
         },
         {
           "type": "text",
           "id": "after_alt",
-          "label": "t:settings.alt"
+          "label": "t:settings.alt",
+          "visible_if": "{{ block.settings.mode == 'before_after' }}"
         },
         {
           "type": "textarea",
           "id": "after_caption",
-          "label": "t:settings.caption"
+          "label": "t:settings.caption",
+          "visible_if": "{{ block.settings.mode == 'before_after' }}"
         }
       ]
     },
@@ -681,7 +713,7 @@
         },
         {
           "type": "header",
-          "content": "Step 1"
+          "content": "t:settings.step_1"
         },
         {
           "type": "text",
@@ -710,7 +742,7 @@
         },
         {
           "type": "header",
-          "content": "Step 2"
+          "content": "t:settings.step_2"
         },
         {
           "type": "text",
@@ -739,7 +771,7 @@
         },
         {
           "type": "header",
-          "content": "Step 3"
+          "content": "t:settings.step_3"
         },
         {
           "type": "text",
@@ -768,7 +800,7 @@
         },
         {
           "type": "header",
-          "content": "Step 4"
+          "content": "t:settings.step_4"
         },
         {
           "type": "text",

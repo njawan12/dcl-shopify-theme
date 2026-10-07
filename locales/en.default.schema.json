@@ -88,7 +88,20 @@
     "media": "Media",
     "alt": "Alternative text",
     "caption": "Caption",
-    "attachment": "Attachment"
+    "attachment": "Attachment",
+    "note_1": "Note 1",
+    "note_2": "Note 2",
+    "note_3": "Note 3",
+    "row_1": "Comparison row 1",
+    "row_2": "Comparison row 2",
+    "row_3": "Comparison row 3",
+    "row_4": "Comparison row 4",
+    "step_1": "Step 1",
+    "step_2": "Step 2",
+    "step_3": "Step 3",
+    "step_4": "Step 4",
+    "before": "Before",
+    "after": "After"
   },
   "options": {
     "compact": "Compact",
