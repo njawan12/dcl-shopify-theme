@@ -1,7 +1,7 @@
 {
   "scope": "static architecture/schema/reference/budget and preservation; not live Shopify certification",
-  "checks": 1171,
-  "passed": 1171,
+  "checks": 1172,
+  "passed": 1172,
   "failed": 0,
   "global_editable_settings": 19,
   "presentation_controls": 17,
@@ -619,6 +619,10 @@
     },
     {
       "name": "no-legacy-liquid:snippets/evidence-note.liquid",
+      "pass": true
+    },
+    {
+      "name": "translation:evidence.note",
       "pass": true
     },
     {

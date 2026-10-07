@@ -1,11 +1,11 @@
 {% liquid
   assign complete = false
   if content.mode == 'before_after'
-    if content.before_label != blank and content.after_label != blank
-      if content.before_media != blank or content.before_caption != blank
-        if content.after_media != blank or content.after_caption != blank
-          assign complete = true
-        endif
+    assign before_alt = content.before_alt | default: content.before_media.alt
+    assign after_alt = content.after_alt | default: content.after_media.alt
+    if content.heading != blank and content.before_label != blank and content.after_label != blank
+      if content.before_media != blank and content.after_media != blank and before_alt != blank and after_alt != blank
+        assign complete = true
       endif
     endif
   else
@@ -21,7 +21,7 @@
         assign rows = rows | plus: 1
       endif
     endfor
-    if content.left_subject != blank and content.right_subject != blank and rows > 0
+    if content.heading != blank and content.left_subject != blank and content.right_subject != blank and rows > 0
       assign complete = true
     endif
   endif

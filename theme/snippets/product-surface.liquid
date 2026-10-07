@@ -44,7 +44,7 @@
       {% else %}{% render 'product-block', block: block, product: product, variant: variant, allocation: allocation, form_id: form_id, has_quantity: has_quantity, section: section, primary: primary %}{% endif %}
     {% endunless %}
   {% endfor %}{% endcapture %}
-  {% capture narrative %}{% for block in section.blocks %}{% if block.type == 'description' or block.type == 'evidence_note' %}{% render 'product-block', block: block, product: product, section: section %}{% endif %}{% endfor %}{% endcapture %}
+  {% capture narrative %}{% if composition == 'editorial' %}{% for block in section.blocks %}{% if block.type == 'description' or block.type == 'evidence_note' %}{% render 'product-block', block: block, product: product, section: section %}{% endif %}{% endfor %}{% endif %}{% endcapture %}
   {% capture education %}{% for block in section.blocks %}
     {% if block.type == 'evidence_pair' or block.type == 'evidence_process' %}{% render 'product-block', block: block, product: product, section: section %}
     {% elsif composition != 'editorial' %}{% if block.type == 'description' or block.type == 'evidence_note' %}{% render 'product-block', block: block, product: product, section: section %}{% endif %}{% endif %}

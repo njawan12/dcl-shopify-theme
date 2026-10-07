@@ -6,13 +6,13 @@
       assign key = 'kind' | append: suffix
       assign kind = content[key] | default: 'fact'
       assign key = 'value' | append: suffix
-      assign value = content[key]
+      assign value = content[key] | strip
       assign key = 'label' | append: suffix
-      assign label = content[key]
+      assign label = content[key] | strip
       assign key = 'body' | append: suffix
-      assign body = content[key]
+      assign body = content[key] | strip
       assign key = 'attribution' | append: suffix
-      assign attribution = content[key]
+      assign attribution = content[key] | strip
       assign valid = false
       case kind
         when 'metric'
@@ -61,7 +61,7 @@
 {% assign notes = notes | strip %}
 {% if notes != blank %}
 <section class="evidence-attachment evidence-note density-{{ content.density | default: 'balanced' }} {{ content.scheme | replace: 'scheme', 'scheme-' | default: 'scheme-1' }}" {{ block.shopify_attributes }}>
-  <div class="rail-subject"><p class="eyebrow">{{ 'evidence.note' | t }}</p>{% if content.heading != blank %}<h2>{{ content.heading | escape }}</h2>{% endif %}</div>
-  <ul class="evidence-rail-list" role="list">{{ notes }}</ul>
+  <div class="rail-subject"><p class="eyebrow">{{ 'evidence.note' | t }}</p><h2>{% if content.heading != blank %}{{ content.heading | escape }}{% else %}{{ 'evidence.note' | t }}{% endif %}</h2></div>
+  <ol class="evidence-rail-list" role="list">{{ notes }}</ol>
 </section>
 {% endif %}

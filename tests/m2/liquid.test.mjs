@@ -150,16 +150,19 @@ test('quote requires attribution and is explicitly merchant-authored; certificat
  assert.match(html,/Merchant-authored quotation/);assert.match(html,/&lt;unsafe&gt; &amp;/);assert.match(html,/<blockquote>/);assert.match(html,/<cite>Author/);
 });
 test('one surviving process remains ordered, invalid earlier step is omitted',async()=>{
- const html=await render('evidence-process',{content:{heading_1:'Invalid',heading_3:'Use',instruction_3:'Read the supplied instructions.'}});
+ const html=await render('evidence-process',{content:{heading:'Care sequence',heading_1:'Invalid',heading_3:'Use',instruction_3:'Read the supplied instructions.'}});
  assert.match(html,/<ol[^>]*>/);assert.equal((html.match(/<li /g)||[]).length,1);assert.doesNotMatch(html,/Invalid/);
 });
-test('incomplete before/after omits; complete labelled text alternatives survive missing media',async()=>{
- assert.equal((await render('evidence-pair',{content:{mode:'before_after',before_label:'Before',before_caption:'Text',after_label:'After'}})).trim(),'');
- const html=await render('evidence-pair',{content:{mode:'before_after',before_label:'Before',before_caption:'Earlier state',after_label:'After',after_caption:'Later state'}});
- assert.equal((html.match(/<figure>/g)||[]).length,2);assert.match(html,/Earlier state/);assert.match(html,/Later state/);
+test('before/after requires two actual labelled media and meaningful alternatives',async()=>{
+ const content={mode:'before_after',heading:'Explicit comparison',before_label:'Before',before_caption:'Earlier state',after_label:'After',after_caption:'Later state'};
+ assert.equal((await render('evidence-pair',{content})).trim(),'');
+ const complete={...content,before_media:{alt:'Earlier product state'},after_media:{alt:'Later product state'}};
+ const html=await render('evidence-pair',{content:complete});assert.equal((html.match(/<figure>/g)||[]).length,2);assert.match(html,/Earlier state/);assert.match(html,/Later state/);
+ assert.equal((await render('evidence-pair',{content:{...complete,after_media:null}})).trim(),'');
+ assert.equal((await render('evidence-pair',{content:{...complete,after_media:{},after_alt:''}})).trim(),'');
 });
 test('comparison requires named subjects and complete rows; partial row is not silently completed',async()=>{
- const content={mode:'comparison',left_subject:'A',right_subject:'B',criterion_1:'Material',left_1:'Cotton',right_1:'Wool',criterion_2:'Size',left_2:'Small'};
+ const content={mode:'comparison',heading:'Materials',left_subject:'A',right_subject:'B',criterion_1:'Material',left_1:'Cotton',right_1:'Wool',criterion_2:'Size',left_2:'Small'};
  const html=await render('evidence-pair',{content});assert.match(html,/scope="row">Material/);assert.doesNotMatch(html,/>Size/);
  assert.equal((await render('evidence-pair',{content:{...content,right_subject:''}})).trim(),'');
 });
@@ -188,4 +191,9 @@ test('large media sets remain available once without burying the initial decisio
  for(const item of media)assert.equal((html.match(new RegExp(`id="Media-test-${item.id}"`,'g'))||[]).length,1);
  assert.equal((html.slice(html.indexOf('gallery-continuation'),html.indexOf('</details>')).match(/class="product-media"/g)||[]).length,8);
  assert.match(html,/Explore all product media/);assert.equal((html.match(/action="\/cart\/add"/g)||[]).length,1);
+});
+
+test('pair and process require their shared subject heading',async()=>{
+ assert.equal((await render('evidence-process',{content:{heading_1:'Read',instruction_1:'Read the label.'}})).trim(),'');
+ assert.equal((await render('evidence-pair',{content:{mode:'comparison',left_subject:'A',right_subject:'B',criterion_1:'Material',left_1:'A',right_1:'B'}})).trim(),'');
 });
