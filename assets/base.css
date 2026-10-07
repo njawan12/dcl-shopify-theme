@@ -147,3 +147,10 @@ html[data-motion='none'] *, html[data-motion='none'] *::before, html[data-motion
 .header-row, .footer-links, .product-content, .cart-line { overflow-wrap: anywhere; min-inline-size: 0; }
 button:hover, .button:hover { box-shadow: inset 0 -3px 0 var(--accent); }
 .app-host :where(img, video, iframe) { max-inline-size: 100%; }
+
+/* Native unbranded fallback observed in Shopify; branded/shadow wallet UI stays platform-owned. */
+.shopify-payment-button .shopify-payment-button__button--unbranded,
+.shopify-payment-button .shopify-payment-button__button--unbranded:hover:not([disabled]) {
+  color: var(--background-1, #fff);
+  background-color: var(--foreground-1, #202020);
+}
