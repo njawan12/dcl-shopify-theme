@@ -400,7 +400,9 @@ product-recommendations:empty { display: none; }
 .product-recs__heading { margin-block-end: 1.5rem; }
 
 /* ---------- phone menu: slide out panel ---------- */
-.primary-menu > summary { list-style: none; display: inline-flex; align-items: center; gap: 0.6rem; min-inline-size: 44px; }
+.primary-menu > summary { list-style: none; align-items: center; gap: 0.6rem; min-inline-size: 44px; }
+@media (max-width: 989px) { .primary-menu > summary { display: inline-flex; } }
+@supports not selector(details::details-content) { .primary-menu > summary { display: inline-flex; } }
 .primary-menu > summary::-webkit-details-marker { display: none; }
 .menu-icon, .menu-icon::before, .menu-icon::after {
   display: block;
