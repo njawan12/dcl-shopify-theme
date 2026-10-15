@@ -1,5 +1,9 @@
 # Theme Store build
 
+Theme name: **Vela** (theme and its single preset share the name, as Shopify requires).
+
+Store sync: the `shopify-theme` branch holds the `theme/` folder at its root and is connected to dcl-theme-dev through Shopify's GitHub integration (draft theme `dcl-shopify-theme/shopify-theme`). Update it with `git subtree split --prefix=theme -b st && git push origin st:shopify-theme`.
+
 Date: 2026-10-15. Builds on the tested `m2-production-theme` commerce core. The M0/M1 research gates are retired; Theme Check, the structural validator, unit tests and the browser suite remain the quality bar.
 
 ## Added
@@ -24,6 +28,12 @@ Every new section has presets, translated schema labels, placeholder states for 
 - `tests/m2/validate.py`: all structural, locale, budget and preservation checks pass.
 - Unit tests 46/46; browser suite 369 assertions / 128 observations pass.
 - Local Liquid render of every new section at 1440 and 390 px: no horizontal overflow, no console errors, guided set total and image detail popovers work.
+
+## Theme Store compliance pass (2026-10-15)
+
+Checked against Shopify's live requirements list and fixed: related and complementary product recommendations, search filters and sort, collection list image fallback, Sale and Sold out badges, image focal points, social icon set, payment icons, h4 to h6 styles, sentence case names, no `shopify://` URLs in templates, default YouTube video, editor support for image detail popovers, slide out phone menu with one row phone header.
+
+Verified on dcl-theme-dev (draft theme): home, collection, collection list, cart, search with and without results, blog, contact, 404 and product pages render with no Liquid errors or missing translations. Note: the dev store reports every product unavailable in the Canada market, so cards show Sold out and recommendations return nothing there. That is store data, not a theme fault.
 
 ## Still needed before submission
 
