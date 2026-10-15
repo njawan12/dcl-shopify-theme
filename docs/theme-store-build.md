@@ -37,9 +37,9 @@ Verified on dcl-theme-dev (draft theme): home, collection, collection list, cart
 
 ## Still needed before submission
 
-1. Upload to `dcl-theme-dev` and review in the real Theme Editor, including adding each section from scratch.
+1. Walk through the real Theme Editor on the synced draft theme, adding each section from scratch.
 2. Vela demo store: real products, photography and collections.
 3. Real product photography in the hero (shipped defaults use Shopify placeholders).
 4. Theme Store listing: screenshots, description, documentation page and support contact.
 5. Accessibility pass with a screen reader, plus Safari and Firefox checks.
-6. Optional: mobile slide out menu and a cart drawer.
+6. Optional: a cart drawer.
