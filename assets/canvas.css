@@ -446,3 +446,25 @@ product-recommendations:empty { display: none; }
 @media (min-width: 990px) {
   .menu-label { display: inline; }
 }
+
+/* ---------- phone header: one row ---------- */
+@media (max-width: 989px) {
+  .header-row { flex-wrap: nowrap; gap: 0.25rem; }
+  site-navigation { order: -1; flex: none; }
+  .brand { flex: 1 1 auto; min-inline-size: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 1.1rem; }
+  .brand img { max-block-size: 40px; }
+  .menu-label {
+    position: absolute;
+    inline-size: 1px;
+    block-size: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  .primary-menu > summary { justify-content: center; padding: 0; }
+  .header-actions { flex: none; gap: 0.15rem; }
+  .header-actions a { padding-inline: 0.3rem; }
+  .header-localization { display: none; }
+}
+.menu-localization { margin-block-start: 2rem; padding-block-start: 1rem; border-block-start: 1px solid currentColor; }
+@media (min-width: 990px) { .menu-localization { display: none; } }
