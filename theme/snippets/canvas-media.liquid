@@ -4,6 +4,7 @@
   Params: image, mobile_image, sizes, eager, priority, placeholder, class
 {%- endcomment -%}
 {%- if image -%}
+  {%- capture focal -%}{% if image.presentation.focal_point %}object-position: {{ image.presentation.focal_point }};{% endif %}{%- endcapture -%}
   <picture class="canvas-media {{ class }}">
     {%- if mobile_image -%}
       <source
@@ -15,11 +16,11 @@
       >
     {%- endif -%}
     {%- if priority -%}
-      {{ image | image_url: width: 2400 | image_tag: widths: '375,550,750,1100,1500,1800,2400', sizes: sizes, loading: 'eager', fetchpriority: 'high' }}
+      {{ image | image_url: width: 2400 | image_tag: widths: '375,550,750,1100,1500,1800,2400', sizes: sizes, loading: 'eager', fetchpriority: 'high', style: focal }}
     {%- elsif eager -%}
-      {{ image | image_url: width: 2400 | image_tag: widths: '375,550,750,1100,1500,1800,2400', sizes: sizes, loading: 'eager' }}
+      {{ image | image_url: width: 2400 | image_tag: widths: '375,550,750,1100,1500,1800,2400', sizes: sizes, loading: 'eager', style: focal }}
     {%- else -%}
-      {{ image | image_url: width: 2400 | image_tag: widths: '375,550,750,1100,1500,1800,2400', sizes: sizes, loading: 'lazy' }}
+      {{ image | image_url: width: 2400 | image_tag: widths: '375,550,750,1100,1500,1800,2400', sizes: sizes, loading: 'lazy', style: focal }}
     {%- endif -%}
   </picture>
 {%- else -%}

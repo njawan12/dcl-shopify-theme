@@ -24,14 +24,16 @@
     "password": "Password",
     "enter": "Enter",
     "account": "Account",
-    "region": "Region & language",
+    "region": "Region and language",
     "explore": "Explore",
     "collection_context": "Selected objects",
     "newsletter_help": "News and considered updates, delivered by email.",
     "product_details": "Product details",
     "evidence": "Evidence",
     "source": "Source",
-    "qualification": "Qualification"
+    "qualification": "Qualification",
+    "payment_methods": "Payment methods",
+    "close_menu": "Close menu"
   },
   "product": {
     "regular_price": "Regular price",
@@ -54,7 +56,8 @@
     "from": "From {{ price }}",
     "unit_for": "Unit price for {{ title }}",
     "model_file": "Open 3D model file",
-    "more_media": "Explore all product media"
+    "more_media": "Explore all product media",
+    "sale": "Sale"
   },
   "gift": {
     "recipient": "Gift recipient",
@@ -163,5 +166,13 @@
       "one": "{{ count }} product",
       "other": "{{ count }} products"
     }
+  },
+  "social": {
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "youtube": "YouTube",
+    "pinterest": "Pinterest",
+    "x": "X"
   }
 }

@@ -225,5 +225,40 @@
         ]
       }
     ]
+  },
+  {
+    "name": "t:sections.social",
+    "settings": [
+      {
+        "type": "url",
+        "id": "social_facebook",
+        "label": "t:settings.social_facebook"
+      },
+      {
+        "type": "url",
+        "id": "social_instagram",
+        "label": "t:settings.social_instagram"
+      },
+      {
+        "type": "url",
+        "id": "social_tiktok",
+        "label": "t:settings.social_tiktok"
+      },
+      {
+        "type": "url",
+        "id": "social_youtube",
+        "label": "t:settings.social_youtube"
+      },
+      {
+        "type": "url",
+        "id": "social_pinterest",
+        "label": "t:settings.social_pinterest"
+      },
+      {
+        "type": "url",
+        "id": "social_x",
+        "label": "t:settings.social_x"
+      }
+    ]
   }
 ]
