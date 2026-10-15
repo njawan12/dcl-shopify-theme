@@ -13,15 +13,15 @@
         "stat-2": {
           "type": "stat",
           "settings": {
-            "value": "0",
-            "label": "Added fragrance, in every formula"
+            "value": "10",
+            "label": "Products in the whole range"
           }
         },
         "stat-3": {
           "type": "stat",
           "settings": {
-            "value": "100%",
-            "label": "Recyclable glass and aluminum packaging"
+            "value": "2",
+            "label": "Minutes, morning and night"
           }
         }
       },
@@ -161,15 +161,15 @@
         "f2": {
           "type": "fact",
           "settings": {
-            "heading": "Fragrance free",
-            "text": "<p>Calm for sensitive skin and everyday use.</p>"
+            "heading": "Gentle textures",
+            "text": "<p>Milks, gels and balms that feel calm on skin.</p>"
           }
         },
         "f3": {
           "type": "fact",
           "settings": {
-            "heading": "Refill ready",
-            "text": "<p>Glass and aluminum made to be kept and refilled.</p>"
+            "heading": "Made to be kept",
+            "text": "<p>Glass and aluminum you will want to keep on the shelf.</p>"
           }
         }
       },
@@ -211,7 +211,7 @@
           "type": "question",
           "settings": {
             "question": "Are the formulas suitable for sensitive skin?",
-            "answer": "<p>They are fragrance free and kept short. Patch test any new product first.</p>"
+            "answer": "<p>Our textures are gentle, but every skin is different. Patch test any new product first.</p>"
           }
         },
         "q3": {
