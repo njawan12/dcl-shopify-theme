@@ -1,4 +1,4 @@
-<header class="site-header scheme-1">
+<header class="site-header scheme-1{% if section.settings.sticky %} site-header--sticky{% endif %}">
   <div class="page-width header-row">
     <a href="{{ routes.root_url }}" class="brand">
       {% if settings.logo %}{{ settings.logo | image_url: width: 400 | image_tag: widths: '100,200,400', sizes: '200px', alt: shop.name, loading: 'eager' }}{% else %}{{ shop.name | escape }}{% endif %}
@@ -27,6 +27,12 @@
       "id": "menu",
       "label": "t:settings.menu",
       "default": "main-menu"
+    },
+    {
+      "type": "checkbox",
+      "id": "sticky",
+      "label": "t:settings.sticky",
+      "default": true
     }
   ]
 }

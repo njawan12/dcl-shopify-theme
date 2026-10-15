@@ -1,0 +1,81 @@
+{%- liquid
+  assign s = section.settings
+  assign scheme = s.scheme | remove: 'scheme'
+-%}
+<section class="newsletter scheme-{{ scheme }} section-space" aria-labelledby="Heading-{{ section.id }}">
+  <div class="page-width newsletter__grid">
+    <div>
+      {%- if s.eyebrow != blank -%}<p class="eyebrow">{{ s.eyebrow | escape }}</p>{%- endif -%}
+      {%- assign title = s.heading -%}{%- if title == blank -%}{%- assign title = 'general.newsletter' | t -%}{%- endif -%}
+      <h2 id="Heading-{{ section.id }}">{{ title | escape }}</h2>
+      {%- if s.text != blank -%}<div class="rich-text">{{ s.text }}</div>{%- endif -%}
+    </div>
+    {%- assign form_id = 'NewsletterSection-' | append: section.id -%}
+    {%- form 'customer', id: form_id, class: 'newsletter__form' -%}
+      {{ form.errors | default_errors }}
+      {%- if form.posted_successfully? -%}<p role="status">{{ 'general.subscribed' | t }}</p>{%- endif -%}
+      <input type="hidden" name="contact[tags]" value="newsletter">
+      <label for="NewsletterEmail-{{ section.id }}">{{ 'general.email' | t }}</label>
+      <div class="newsletter__row">
+        <input id="NewsletterEmail-{{ section.id }}" type="email" name="contact[email]" autocomplete="email" required>
+        <button class="button">{{ 'general.subscribe' | t }}</button>
+      </div>
+    {%- endform -%}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.newsletter",
+  "tag": "div",
+  "class": "section-newsletter",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "t:settings.eyebrow"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:settings.heading",
+      "default": "Join the list"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "t:settings.text",
+      "default": "<p>Launches, restocks and the occasional note. No noise.</p>"
+    },
+    {
+      "type": "select",
+      "id": "scheme",
+      "label": "t:settings.scheme",
+      "default": "scheme3",
+      "options": [
+        {
+          "value": "scheme1",
+          "label": "t:options.scheme1"
+        },
+        {
+          "value": "scheme2",
+          "label": "t:options.scheme2"
+        },
+        {
+          "value": "scheme3",
+          "label": "t:options.scheme3"
+        },
+        {
+          "value": "scheme4",
+          "label": "t:options.scheme4"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.newsletter"
+    }
+  ]
+}
+{% endschema %}

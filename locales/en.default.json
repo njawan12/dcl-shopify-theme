@@ -104,8 +104,8 @@
     "help": "Search products and content. Suggestions appear after typing; use Tab to visit them.",
     "suggestions": "Search suggestions",
     "results": {
-      "one": "{{ count }} result for \u201c{{ terms }}\u201d",
-      "other": "{{ count }} results for \u201c{{ terms }}\u201d"
+      "one": "{{ count }} result for “{{ terms }}”",
+      "other": "{{ count }} results for “{{ terms }}”"
     },
     "empty": "No results found."
   },
@@ -138,5 +138,30 @@
     "source": "Source",
     "subject": "Subject",
     "criterion": "Criterion"
+  },
+  "canvas": {
+    "view_product": "View product",
+    "view_all": "View all",
+    "sample_product": "Example product title",
+    "sample_collection": "Example collection",
+    "detail": "Detail {{ number }}",
+    "close": "Close",
+    "details_heading": "Details",
+    "choose_options": "Choose options",
+    "include": "Include {{ title }}",
+    "selection": "Your selection",
+    "selected_label": "selected",
+    "selection_total_help": "Total of the items you selected. Taxes, shipping and discounts are calculated at checkout.",
+    "add_selected": "Add selected to cart",
+    "add_error": "Those items could not be added. Please try again or add them one at a time.",
+    "step": "Step {{ number }}",
+    "play_video": "Play video",
+    "video_title": "Video",
+    "source": "Source",
+    "faq": "Frequently asked questions",
+    "products_count": {
+      "one": "{{ count }} product",
+      "other": "{{ count }} products"
+    }
   }
 }

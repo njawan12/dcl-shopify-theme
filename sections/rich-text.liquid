@@ -1,0 +1,100 @@
+{%- liquid
+  assign s = section.settings
+  assign scheme = s.scheme | remove: 'scheme'
+-%}
+<section class="rich-text-section rts--{{ s.alignment }} scheme-{{ scheme }} section-space" {% if s.heading != blank %}aria-labelledby="Heading-{{ section.id }}"{% endif %}>
+  <div class="page-width">
+    <div class="rts__inner">
+      {%- if s.eyebrow != blank or s.heading != blank -%}
+  <div class="section-intro">
+    {%- if s.eyebrow != blank -%}<p class="eyebrow">{{ s.eyebrow | escape }}</p>{%- endif -%}
+    {%- if s.heading != blank -%}<h2 id="Heading-{{ section.id }}">{{ s.heading | escape }}</h2>{%- endif -%}
+    {%- if s.text != blank -%}<div class="rich-text section-intro__text">{{ s.text }}</div>{%- endif -%}
+  </div>
+{%- endif -%}
+      {%- if s.button_label != blank and s.button_link != blank -%}<a class="button" href="{{ s.button_link }}">{{ s.button_label | escape }}</a>{%- endif -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.rich_text",
+  "tag": "div",
+  "class": "section-rich-text",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "t:settings.eyebrow"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:settings.heading",
+      "default": "A statement worth reading"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "t:settings.text",
+      "default": "<p>Use this space for a brand belief, a launch note or a short story.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "t:settings.button_label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:settings.button_link"
+    },
+    {
+      "type": "select",
+      "id": "alignment",
+      "label": "t:settings.alignment",
+      "default": "start",
+      "options": [
+        {
+          "value": "start",
+          "label": "t:options.start"
+        },
+        {
+          "value": "center",
+          "label": "t:options.center"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "scheme",
+      "label": "t:settings.scheme",
+      "default": "scheme1",
+      "options": [
+        {
+          "value": "scheme1",
+          "label": "t:options.scheme1"
+        },
+        {
+          "value": "scheme2",
+          "label": "t:options.scheme2"
+        },
+        {
+          "value": "scheme3",
+          "label": "t:options.scheme3"
+        },
+        {
+          "value": "scheme4",
+          "label": "t:options.scheme4"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.rich_text"
+    }
+  ]
+}
+{% endschema %}
