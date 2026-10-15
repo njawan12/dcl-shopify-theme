@@ -1,0 +1,122 @@
+{%- liquid
+  assign s = section.settings
+  assign scheme = s.scheme | remove: 'scheme'
+-%}
+<section class="testimonials scheme-{{ scheme }} section-space" {% if s.heading != blank %}aria-labelledby="Heading-{{ section.id }}"{% endif %}>
+  <div class="page-width">
+    {%- if s.eyebrow != blank or s.heading != blank -%}
+  <div class="section-intro">
+    {%- if s.eyebrow != blank -%}<p class="eyebrow">{{ s.eyebrow | escape }}</p>{%- endif -%}
+    {%- if s.heading != blank -%}<h2 id="Heading-{{ section.id }}">{{ s.heading | escape }}</h2>{%- endif -%}
+    {%- if s.text != blank -%}<div class="rich-text section-intro__text">{{ s.text }}</div>{%- endif -%}
+  </div>
+{%- endif -%}
+    <ul class="quote-grid" role="list">
+      {%- for block in section.blocks -%}
+        {%- if block.settings.quote != blank -%}
+          <li {{ block.shopify_attributes }}>
+            <figure class="quote">
+              <blockquote><p>{{ block.settings.quote | escape | newline_to_br }}</p></blockquote>
+              {%- if block.settings.author != blank -%}
+                <figcaption><strong>{{ block.settings.author | escape }}</strong>{% if block.settings.context != blank %}<span>{{ block.settings.context | escape }}</span>{% endif %}</figcaption>
+              {%- endif -%}
+            </figure>
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.testimonials",
+  "tag": "div",
+  "class": "section-testimonials",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "t:settings.eyebrow"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:settings.heading",
+      "default": "In their words"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "t:settings.text"
+    },
+    {
+      "type": "select",
+      "id": "scheme",
+      "label": "t:settings.scheme",
+      "default": "scheme2",
+      "options": [
+        {
+          "value": "scheme1",
+          "label": "t:options.scheme1"
+        },
+        {
+          "value": "scheme2",
+          "label": "t:options.scheme2"
+        },
+        {
+          "value": "scheme3",
+          "label": "t:options.scheme3"
+        },
+        {
+          "value": "scheme4",
+          "label": "t:options.scheme4"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "quote",
+      "name": "t:blocks.quote",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "quote",
+          "label": "t:settings.quote",
+          "default": "Add a real quote from a customer, in their own words."
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "t:settings.author",
+          "default": "Customer name"
+        },
+        {
+          "type": "text",
+          "id": "context",
+          "label": "t:settings.context",
+          "default": "Verified customer"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 6,
+  "presets": [
+    {
+      "name": "t:sections.testimonials",
+      "blocks": [
+        {
+          "type": "quote"
+        },
+        {
+          "type": "quote"
+        },
+        {
+          "type": "quote"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

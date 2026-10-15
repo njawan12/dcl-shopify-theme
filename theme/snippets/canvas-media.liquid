@@ -1,0 +1,29 @@
+{%- comment -%}
+  Art-directed responsive media. One download per viewport: the optional mobile
+  image is a <source>, never a second <img>. Placeholder keeps zero-setup states complete.
+  Params: image, mobile_image, sizes, eager, priority, placeholder, class
+{%- endcomment -%}
+{%- if image -%}
+  <picture class="canvas-media {{ class }}">
+    {%- if mobile_image -%}
+      <source
+        media="(max-width: 749px)"
+        srcset="{{ mobile_image | image_url: width: 375 }} 375w, {{ mobile_image | image_url: width: 750 }} 750w, {{ mobile_image | image_url: width: 1100 }} 1100w"
+        sizes="100vw"
+        width="{{ mobile_image.width }}"
+        height="{{ mobile_image.height }}"
+      >
+    {%- endif -%}
+    {%- if priority -%}
+      {{ image | image_url: width: 2400 | image_tag: widths: '375,550,750,1100,1500,1800,2400', sizes: sizes, loading: 'eager', fetchpriority: 'high' }}
+    {%- elsif eager -%}
+      {{ image | image_url: width: 2400 | image_tag: widths: '375,550,750,1100,1500,1800,2400', sizes: sizes, loading: 'eager' }}
+    {%- else -%}
+      {{ image | image_url: width: 2400 | image_tag: widths: '375,550,750,1100,1500,1800,2400', sizes: sizes, loading: 'lazy' }}
+    {%- endif -%}
+  </picture>
+{%- else -%}
+  <div class="canvas-media canvas-placeholder {{ class }}">
+    {{- placeholder | default: 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' -}}
+  </div>
+{%- endif -%}

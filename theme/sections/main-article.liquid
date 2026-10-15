@@ -1,5 +1,5 @@
-<article class="page-width reading-width section-space"><h1>{{ article.title | escape }}</h1><p>{{ article.author | escape }} · <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: format: 'date' }}</time></p>
-{% if article.image %}{% render 'image', image: article.image, alt: article.image.alt, sizes: '(min-width: 750px) 65ch, 100vw', eager: true %}{% endif %}
+<article class="page-width reading-width section-space"><p class="article-meta">{{ article.author | escape }} · <time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: format: 'date' }}</time></p><h1>{{ article.title | escape }}</h1>
+{% if article.image %}<div class="article-hero">{% render 'image', image: article.image, alt: article.image.alt, sizes: '(min-width: 750px) 65ch, 100vw', eager: true %}</div>{% endif %}
 <div class="rich-text">{{ article.content }}</div>
 {% if blog.comments_enabled? %}<h2>{{ 'blog.comments' | t }}</h2>{% paginate article.comments by 10 %}{% for comment in article.comments %}<article><h3>{{ comment.author | escape }}</h3>{{ comment.content }}</article>{% endfor %}{% render 'pagination', paginate: paginate %}{% endpaginate %}
   {% assign comment_id = 'Comment-' | append: section.id %}{% form 'new_comment', article, id: comment_id %}{{ form.errors | default_errors }}{% if form.posted_successfully? %}<p role="status">{{ 'blog.comment_success' | t }}</p>{% endif %}

@@ -1,0 +1,32 @@
+{%- comment -%}
+  Live commerce object for editorial sections. Real title, price and availability.
+  Direct add only when no choice is needed; otherwise the shopper goes to the product.
+  Params: product, allow_add, show_media, heading_level, hide_title
+{%- endcomment -%}
+{%- if product != blank -%}
+  {%- assign variant = product.selected_or_first_available_variant -%}
+  {%- assign level = heading_level | default: 'h2' -%}
+  <div class="live-product{% if show_media %} live-product--media{% endif %}">
+    {%- if show_media -%}
+      <a class="live-product__media" href="{{ product.url }}" tabindex="-1" aria-hidden="true">
+        {%- render 'image', image: product.featured_media.preview_image, alt: '', sizes: '160px', eager: false -%}
+      </a>
+    {%- endif -%}
+    <div class="live-product__info">
+      {%- unless hide_title -%}
+        <{{ level }} class="live-product__title"><a href="{{ product.url }}">{{ product.title | escape }}</a></{{ level }}>
+      {%- endunless -%}
+      {%- render 'price', variant: variant -%}
+      <div class="live-product__actions">
+        {%- if allow_add and product.has_only_default_variant and variant.available and product.requires_selling_plan == false -%}
+          {%- assign form_id = 'LiveProduct-' | append: product.id | append: '-' | append: section.id -%}
+          {%- form 'product', product, id: form_id, class: 'live-product__form' -%}
+            <input type="hidden" name="id" value="{{ variant.id }}">
+            <button type="submit" name="add" class="button">{{ 'product.add' | t }}</button>
+          {%- endform -%}
+        {%- endif -%}
+        <a class="text-link" href="{{ product.url }}">{{ 'canvas.view_product' | t }}<span class="visually-hidden">: {{ product.title | escape }}</span></a>
+      </div>
+    </div>
+  </div>
+{%- endif -%}

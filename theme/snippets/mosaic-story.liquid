@@ -1,0 +1,15 @@
+{%- comment -%} Editorial tile inside a product grid. Clearly not a product: no price, its own heading. {%- endcomment -%}
+<li class="mosaic-item mosaic-item--story" {{ block.shopify_attributes }}>
+  <article class="mosaic-story scheme-4">
+    {%- if block.settings.image -%}
+      {%- render 'image', image: block.settings.image, alt: block.settings.image.alt, sizes: '(min-width: 990px) 50vw, 100vw', eager: false -%}
+    {%- endif -%}
+    <div class="mosaic-story__body">
+      {%- if block.settings.heading != blank -%}<h3>{{ block.settings.heading | escape }}</h3>{%- endif -%}
+      {%- if block.settings.text != blank -%}<p>{{ block.settings.text | escape }}</p>{%- endif -%}
+      {%- if block.settings.button_label != blank and block.settings.button_link != blank -%}
+        <a class="text-link" href="{{ block.settings.button_link }}">{{ block.settings.button_label | escape }}</a>
+      {%- endif -%}
+    </div>
+  </article>
+</li>

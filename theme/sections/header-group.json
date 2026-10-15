@@ -2,12 +2,17 @@
   "type": "header",
   "name": "t:sections.header",
   "sections": {
+    "announcement": {
+      "type": "announcement-bar",
+      "settings": {}
+    },
     "header": {
       "type": "header",
       "settings": {}
     }
   },
   "order": [
+    "announcement",
     "header"
   ]
 }

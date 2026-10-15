@@ -1,0 +1,368 @@
+{%- liquid
+  assign s = section.settings
+  assign scheme = s.scheme | remove: 'scheme'
+  assign stats = section.blocks | where: 'type', 'stat'
+  assign hotspots = section.blocks | where: 'type', 'hotspot'
+  assign priority = false
+  assign eager = false
+  assign heading_tag = 'h2'
+  if section.index == 1
+    assign priority = true
+    assign heading_tag = 'h1'
+  endif
+  if section.index != blank and section.index < 3
+    assign eager = true
+  endif
+  assign media = s.image
+  if s.composition == 'quiet_frame' and media == blank and s.product != blank
+    assign media = s.product.featured_media.preview_image
+  endif
+  assign heading = s.heading
+  if heading == blank and s.composition == 'quiet_frame' and s.product != blank
+    assign heading = s.product.title
+  endif
+  assign sizes = '(min-width: 990px) 55vw, 100vw'
+  if s.composition == 'edge_crop'
+    assign sizes = '(min-width: 990px) 62vw, 100vw'
+  endif
+-%}
+<section
+  class="living-canvas living-canvas--{{ s.composition }} canvas-density--{{ s.density }} scheme-{{ scheme }}"
+  {% if heading != blank %}aria-labelledby="Canvas-{{ section.id }}"{% endif %}
+>
+  <div class="page-width living-canvas__grid">
+    <div class="living-canvas__copy">
+      {%- if s.eyebrow != blank -%}<p class="eyebrow">{{ s.eyebrow | escape }}</p>{%- endif -%}
+      {%- if heading != blank -%}
+        <{{ heading_tag }} id="Canvas-{{ section.id }}" class="living-canvas__heading">{{ heading | escape }}</{{ heading_tag }}>
+      {%- endif -%}
+      {%- if s.text != blank -%}<div class="rich-text living-canvas__text">{{ s.text }}</div>{%- endif -%}
+      {%- if s.button_label != blank -%}
+        <div class="living-canvas__cta"><a class="button" href="{{ s.button_link | default: routes.all_products_collection_url }}">{{ s.button_label | escape }}</a></div>
+      {%- endif -%}
+      {%- if s.composition == 'quiet_frame' -%}
+        {%- liquid
+          assign hide_title = false
+          if s.heading == blank
+            assign hide_title = true
+          endif
+        -%}
+        {%- render 'live-product', product: s.product, allow_add: true, show_media: false, heading_level: 'h2', hide_title: hide_title, section: section -%}
+      {%- else -%}
+        {%- render 'live-product', product: s.product, allow_add: false, show_media: true, heading_level: 'h2', section: section -%}
+      {%- endif -%}
+    </div>
+
+    <div class="living-canvas__stage">
+      {%- render 'canvas-media', image: media, mobile_image: s.mobile_image, sizes: sizes, eager: eager, priority: priority, placeholder: 'lifestyle-1', class: 'living-canvas__media' -%}
+      {%- if s.composition == 'edge_crop' and hotspots.size > 0 -%}
+        <ol class="canvas-markers" role="list">
+          {%- for block in hotspots -%}
+            <li class="canvas-marker canvas-marker--{{ block.settings.anchor }}">
+              <button type="button" class="canvas-marker__button" popovertarget="Note-{{ block.id }}" aria-label="{{ 'canvas.detail' | t: number: forloop.index }}: {{ block.settings.label | escape }}">{{ forloop.index }}</button>
+            </li>
+          {%- endfor -%}
+        </ol>
+      {%- endif -%}
+    </div>
+  </div>
+
+  {%- if s.composition == 'edge_crop' and hotspots.size > 0 -%}
+    <div class="page-width">
+      <h2 class="visually-hidden">{{ 'canvas.details_heading' | t }}</h2>
+      <ol class="canvas-notes" role="list">
+        {%- for block in hotspots -%}
+          <li {{ block.shopify_attributes }}>
+            <div class="canvas-note" id="Note-{{ block.id }}" popover>
+              <span class="canvas-note__index" aria-hidden="true">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+              <h3>{{ block.settings.label | escape }}</h3>
+              {%- if block.settings.text != blank -%}<p>{{ block.settings.text | escape }}</p>{%- endif -%}
+              {%- if block.settings.product != blank -%}
+                <a class="text-link" href="{{ block.settings.product.url }}">{{ block.settings.product.title | escape }}</a>
+              {%- endif -%}
+              <button type="button" class="canvas-note__close" popovertarget="Note-{{ block.id }}" popovertargetaction="hide">{{ 'canvas.close' | t }}</button>
+            </div>
+          </li>
+        {%- endfor -%}
+      </ol>
+    </div>
+  {%- endif -%}
+
+  {%- if stats.size > 0 -%}
+    <div class="page-width">
+      <dl class="canvas-stats canvas-stats--{{ stats.size }}">
+        {%- for block in stats -%}
+          <div class="canvas-stat" {{ block.shopify_attributes }}>
+            <dt class="canvas-stat__value">{{ block.settings.value | escape }}</dt>
+            <dd>
+              {{ block.settings.label | escape }}
+              {%- if block.settings.source != blank -%}
+                <small class="canvas-stat__source">
+                  {%- if block.settings.source_url != blank -%}<a href="{{ block.settings.source_url }}">{{ block.settings.source | escape }}</a>{%- else -%}{{ block.settings.source | escape }}{%- endif -%}
+                </small>
+              {%- endif -%}
+            </dd>
+          </div>
+        {%- endfor -%}
+      </dl>
+    </div>
+  {%- endif -%}
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.living_canvas",
+  "tag": "div",
+  "class": "section-living-canvas",
+  "settings": [
+    {
+      "type": "select",
+      "id": "composition",
+      "label": "t:settings.composition",
+      "default": "monument",
+      "options": [
+        {
+          "value": "monument",
+          "label": "t:options.monument"
+        },
+        {
+          "value": "edge_crop",
+          "label": "t:options.edge_crop"
+        },
+        {
+          "value": "quiet_frame",
+          "label": "t:options.quiet_frame"
+        }
+      ],
+      "info": "t:info.composition_canvas"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "t:settings.eyebrow",
+      "default": "New season"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:settings.heading",
+      "default": "Made to be noticed."
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "t:settings.text",
+      "default": "<p>Pair a striking image with a live product and the facts that matter most.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "t:settings.button_label",
+      "default": "Shop now"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:settings.button_link"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:settings.image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "t:settings.mobile_image",
+      "info": "t:info.mobile_image"
+    },
+    {
+      "type": "product",
+      "id": "product",
+      "label": "t:settings.product"
+    },
+    {
+      "type": "select",
+      "id": "scheme",
+      "label": "t:settings.scheme",
+      "default": "scheme2",
+      "options": [
+        {
+          "value": "scheme1",
+          "label": "t:options.scheme1"
+        },
+        {
+          "value": "scheme2",
+          "label": "t:options.scheme2"
+        },
+        {
+          "value": "scheme3",
+          "label": "t:options.scheme3"
+        },
+        {
+          "value": "scheme4",
+          "label": "t:options.scheme4"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "density",
+      "label": "t:settings.density",
+      "default": "balanced",
+      "options": [
+        {
+          "value": "compact",
+          "label": "t:options.compact"
+        },
+        {
+          "value": "balanced",
+          "label": "t:options.balanced"
+        },
+        {
+          "value": "spacious",
+          "label": "t:options.spacious"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "stat",
+      "name": "t:blocks.stat",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "value",
+          "label": "t:settings.value",
+          "default": "98%"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "t:settings.label",
+          "default": "Describe what this number measures"
+        },
+        {
+          "type": "text",
+          "id": "source",
+          "label": "t:settings.source"
+        },
+        {
+          "type": "url",
+          "id": "source_url",
+          "label": "t:settings.source_url"
+        }
+      ]
+    },
+    {
+      "type": "hotspot",
+      "name": "t:blocks.hotspot",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "t:settings.label",
+          "default": "Detail name"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "t:settings.text",
+          "default": "Explain what the shopper is looking at."
+        },
+        {
+          "type": "product",
+          "id": "product",
+          "label": "t:settings.product"
+        },
+        {
+          "type": "select",
+          "id": "anchor",
+          "label": "t:settings.anchor",
+          "default": "center",
+          "options": [
+            {
+              "value": "top_start",
+              "label": "t:options.top_start"
+            },
+            {
+              "value": "top_end",
+              "label": "t:options.top_end"
+            },
+            {
+              "value": "center",
+              "label": "t:options.center"
+            },
+            {
+              "value": "bottom_start",
+              "label": "t:options.bottom_start"
+            },
+            {
+              "value": "bottom_end",
+              "label": "t:options.bottom_end"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "max_blocks": 7,
+  "presets": [
+    {
+      "name": "t:sections.living_canvas",
+      "blocks": [
+        {
+          "type": "stat",
+          "settings": {
+            "value": "3",
+            "label": "Ingredients that do the work"
+          }
+        },
+        {
+          "type": "stat",
+          "settings": {
+            "value": "0",
+            "label": "Added fragrance"
+          }
+        }
+      ]
+    },
+    {
+      "name": "t:sections.living_canvas_edge",
+      "settings": {
+        "composition": "edge_crop",
+        "scheme": "scheme1"
+      },
+      "blocks": [
+        {
+          "type": "hotspot",
+          "settings": {
+            "anchor": "top_start",
+            "label": "Detail one"
+          }
+        },
+        {
+          "type": "hotspot",
+          "settings": {
+            "anchor": "bottom_end",
+            "label": "Detail two"
+          }
+        }
+      ]
+    },
+    {
+      "name": "t:sections.living_canvas_quiet",
+      "settings": {
+        "composition": "quiet_frame",
+        "scheme": "scheme1",
+        "eyebrow": "Featured",
+        "heading": "",
+        "button_label": ""
+      }
+    }
+  ]
+}
+{% endschema %}

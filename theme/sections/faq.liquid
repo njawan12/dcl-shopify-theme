@@ -1,0 +1,109 @@
+{%- liquid
+  assign s = section.settings
+  assign scheme = s.scheme | remove: 'scheme'
+-%}
+<section class="faq scheme-{{ scheme }} section-space" aria-labelledby="Heading-{{ section.id }}">
+  <div class="page-width faq__grid">
+    <div class="section-intro">
+      {%- if s.eyebrow != blank -%}<p class="eyebrow">{{ s.eyebrow | escape }}</p>{%- endif -%}
+      {%- assign title = s.heading -%}{%- if title == blank -%}{%- assign title = 'canvas.faq' | t -%}{%- endif -%}
+      <h2 id="Heading-{{ section.id }}">{{ title | escape }}</h2>
+      {%- if s.text != blank -%}<div class="rich-text">{{ s.text }}</div>{%- endif -%}
+    </div>
+    <div class="faq__list">
+      {%- for block in section.blocks -%}
+        <details class="faq__item" {{ block.shopify_attributes }}>
+          <summary><span>{{ block.settings.question | escape }}</span></summary>
+          <div class="rich-text">{{ block.settings.answer }}</div>
+        </details>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.faq",
+  "tag": "div",
+  "class": "section-faq",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "t:settings.eyebrow"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:settings.heading",
+      "default": "Questions, answered"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "t:settings.text"
+    },
+    {
+      "type": "select",
+      "id": "scheme",
+      "label": "t:settings.scheme",
+      "default": "scheme1",
+      "options": [
+        {
+          "value": "scheme1",
+          "label": "t:options.scheme1"
+        },
+        {
+          "value": "scheme2",
+          "label": "t:options.scheme2"
+        },
+        {
+          "value": "scheme3",
+          "label": "t:options.scheme3"
+        },
+        {
+          "value": "scheme4",
+          "label": "t:options.scheme4"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "question",
+      "name": "t:blocks.question",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "t:settings.question",
+          "default": "How long does shipping take?"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "t:settings.answer",
+          "default": "<p>Write a clear, specific answer.</p>"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 12,
+  "presets": [
+    {
+      "name": "t:sections.faq",
+      "blocks": [
+        {
+          "type": "question"
+        },
+        {
+          "type": "question"
+        },
+        {
+          "type": "question"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -5,6 +5,7 @@
     {% render 'meta-tags' %}
     {% render 'theme-tokens' %}
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'canvas.css' | asset_url | stylesheet_tag }}
     <script type="module" src="{{ 'navigation.js' | asset_url }}"></script>
     {{ content_for_header }}
   </head>

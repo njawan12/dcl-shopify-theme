@@ -1,6 +1,24 @@
 {
-  "current": {},
+  "current": "Vela",
   "presets": {
-    "Living Canvas": {}
+    "Vela": {
+      "font_heading": "fraunces_n4",
+      "font_body": "geist_n4",
+      "type_scale": "expressive",
+      "background_1": "#F6F5F0",
+      "foreground_1": "#1F2A24",
+      "background_2": "#E9EBE3",
+      "foreground_2": "#1F2A24",
+      "background_3": "#2F4A3D",
+      "foreground_3": "#F6F5F0",
+      "background_4": "#DCE3D6",
+      "foreground_4": "#1F2A24",
+      "accent": "#2F4A3D",
+      "page_width": "wide",
+      "rhythm": "spacious",
+      "radius": "square",
+      "border": "quiet",
+      "motion": "respect"
+    }
   }
 }
