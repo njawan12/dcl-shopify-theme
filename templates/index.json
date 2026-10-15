@@ -36,9 +36,11 @@
         "heading": "A quieter daily ritual.",
         "text": "<p>Three considered formulas for skin that feels calm, cared for and entirely your own.</p>",
         "button_label": "Shop the routine",
-        "button_link": "",
+        "button_link": "shopify://collections/routine",
         "scheme": "scheme2",
-        "density": "balanced"
+        "density": "balanced",
+        "image": "shopify://shop_images/vela-hero-serum.png",
+        "product": "barrier-cream"
       }
     },
     "edit": {
@@ -49,8 +51,9 @@
           "settings": {
             "heading": "Fewer steps, better kept",
             "text": "We formulate for the routine you will actually do, morning and night.",
-            "button_label": "Read our approach",
-            "button_link": ""
+            "button_label": "Shop the routine",
+            "button_link": "shopify://collections/routine",
+            "image": "shopify://shop_images/vela-lip-story.png"
           }
         }
       },
@@ -63,7 +66,7 @@
         "cadence": "story",
         "limit": "8",
         "button_label": "View all",
-        "collection": "all",
+        "collection": "face",
         "scheme": "scheme1"
       }
     },
@@ -74,21 +77,24 @@
           "type": "step",
           "settings": {
             "label": "Cleanse",
-            "text": "A gentle start that never strips."
+            "text": "A gentle start that never strips.",
+            "product": "daily-cleansing-milk"
           }
         },
         "step-2": {
           "type": "step",
           "settings": {
             "label": "Treat",
-            "text": "Targeted care where skin needs it."
+            "text": "Targeted care where skin needs it.",
+            "product": "clarifying-serum"
           }
         },
         "step-3": {
           "type": "step",
           "settings": {
             "label": "Protect",
-            "text": "Lock in comfort for the day ahead."
+            "text": "Lock in comfort for the day ahead.",
+            "product": "barrier-cream"
           }
         }
       },
@@ -112,23 +118,24 @@
           "type": "hotspot",
           "settings": {
             "label": "Texture",
-            "text": "A light milk that melts on contact and rinses clean.",
+            "text": "Rich but never heavy. It melts in and leaves skin soft.",
             "anchor": "top_start"
           }
         },
         "spot-2": {
           "type": "hotspot",
           "settings": {
-            "label": "Formula",
-            "text": "Plant oils and ceramides, nothing you do not need.",
-            "anchor": "center"
+            "label": "Jar",
+            "text": "Frosted glass with a sage lid, made to keep on your shelf.",
+            "anchor": "center",
+            "product": "barrier-cream"
           }
         },
         "spot-3": {
           "type": "hotspot",
           "settings": {
             "label": "Finish",
-            "text": "Skin feels soft, never tight.",
+            "text": "Skin feels comfortable through the day.",
             "anchor": "bottom_end"
           }
         }
@@ -145,7 +152,9 @@
         "text": "<p>Every texture is tested on real routines before it reaches you.</p>",
         "button_label": "",
         "scheme": "scheme1",
-        "density": "balanced"
+        "density": "balanced",
+        "image": "shopify://shop_images/vela-cream-detail.png",
+        "product": "barrier-cream"
       }
     },
     "facts": {
@@ -192,9 +201,10 @@
         "eyebrow": "Our approach",
         "heading": "Made slowly, in small batches",
         "text": "<p>We work with a small lab, test every batch and only release formulas we use ourselves.</p>",
-        "button_label": "Our story",
-        "button_link": "",
-        "scheme": "scheme1"
+        "button_label": "Shop body",
+        "button_link": "shopify://collections/body",
+        "scheme": "scheme1",
+        "image": "shopify://shop_images/vela-body-oil-story.png"
       }
     },
     "questions": {
