@@ -1,5 +1,10 @@
-<form method="get" action="{{ collection.url }}" class="filters">
-  {% for filter in collection.filters %}
+{%- liquid
+  assign source = results | default: collection
+  assign action = url | default: collection.url
+-%}
+<form method="get" action="{{ action }}" class="filters">
+  {%- if terms != blank -%}<input type="hidden" name="q" value="{{ terms | escape }}"><input type="hidden" name="options[prefix]" value="last">{%- endif -%}
+  {% for filter in source.filters %}
     <details><summary>{{ filter.label | escape }} ({{ filter.active_values.size }})</summary>
       {% case filter.type %}
         {% when 'list', 'boolean' %}
@@ -11,7 +16,7 @@
     </details>
   {% endfor %}
   <label for="Sort-{{ section.id }}">{{ 'collection.sort' | t }}</label>
-  {% assign sort_by = collection.sort_by | default: collection.default_sort_by %}
-  <select id="Sort-{{ section.id }}" name="sort_by">{% for option in collection.sort_options %}<option value="{{ option.value }}" {% if sort_by == option.value %}selected{% endif %}>{{ option.name | escape }}</option>{% endfor %}</select>
-  <button>{{ 'general.apply' | t }}</button><a href="{{ collection.url }}">{{ 'collection.clear' | t }}</a>
+  {% assign sort_by = source.sort_by | default: source.default_sort_by %}
+  <select id="Sort-{{ section.id }}" name="sort_by">{% for option in source.sort_options %}<option value="{{ option.value }}" {% if sort_by == option.value %}selected{% endif %}>{{ option.name | escape }}</option>{% endfor %}</select>
+  <button>{{ 'general.apply' | t }}</button><a href="{% if terms != blank %}{{ routes.search_url }}?q={{ terms | url_encode }}{% else %}{{ collection.url }}{% endif %}">{{ 'collection.clear' | t }}</a>
 </form>

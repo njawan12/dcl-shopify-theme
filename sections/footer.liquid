@@ -1,6 +1,6 @@
 <footer class="scheme-2 section-space">
   <div class="page-width footer-grid">
-    <div class="footer-brand"><a class="brand" href="{{ routes.root_url }}">{{ shop.name | escape }}</a>{% if section.settings.brand_context != blank %}<div class="rich-text">{{ section.settings.brand_context }}</div>{% elsif shop.description != blank %}<div class="rich-text">{{ shop.description }}</div>{% endif %}</div>
+    <div class="footer-brand"><a class="brand" href="{{ routes.root_url }}">{{ shop.name | escape }}</a>{% render 'social-icons' %}{% if section.settings.brand_context != blank %}<div class="rich-text">{{ section.settings.brand_context }}</div>{% elsif shop.description != blank %}<div class="rich-text">{{ shop.description }}</div>{% endif %}</div>
     <nav aria-label="{{ 'general.footer_navigation' | t }}">{% render 'navigation-links', menu: section.settings.menu %}</nav>
     <div>
       {% assign newsletter_id = 'Newsletter-' | append: section.id %}
@@ -18,10 +18,14 @@
   </div>
   <div class="page-width footer-links">
     {% for policy in shop.policies %}{% if policy.body != blank %}<a href="{{ policy.url }}">{{ policy.title | escape }}</a>{% endif %}{% endfor %}
-    {% if section.settings.social_url != blank %}<a href="{{ section.settings.social_url }}">{% if section.settings.social_label != blank %}{{ section.settings.social_label | escape }}{% else %}{{ 'general.social' | t }}{% endif %}</a>{% endif %}
     {{ shop | login_button: action: 'follow' }}
     <small>&copy; {{ 'now' | date: '%Y' }} {{ shop.name | escape }}</small>
     {{ powered_by_link }}
+    {%- if section.settings.payment_icons -%}
+      <ul class="payment-icons" role="list" aria-label="{{ 'general.payment_methods' | t }}">
+        {%- for type in shop.enabled_payment_types -%}<li>{{ type | payment_type_svg_tag: class: 'payment-icon' }}</li>{%- endfor -%}
+      </ul>
+    {%- endif -%}
   </div>
 </footer>
 
@@ -36,14 +40,10 @@
       "default": "footer"
     },
     {
-      "type": "url",
-      "id": "social_url",
-      "label": "t:settings.social_url"
-    },
-    {
-      "type": "text",
-      "id": "social_label",
-      "label": "t:settings.social_label"
+      "type": "checkbox",
+      "id": "payment_icons",
+      "label": "t:settings.payment_icons",
+      "default": true
     },
     {
       "type": "richtext",

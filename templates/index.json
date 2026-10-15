@@ -36,7 +36,7 @@
         "heading": "A quieter daily ritual.",
         "text": "<p>Three considered formulas for skin that feels calm, cared for and entirely your own.</p>",
         "button_label": "Shop the routine",
-        "button_link": "shopify://collections/all",
+        "button_link": "",
         "scheme": "scheme2",
         "density": "balanced"
       }
@@ -50,7 +50,7 @@
             "heading": "Fewer steps, better kept",
             "text": "We formulate for the routine you will actually do, morning and night.",
             "button_label": "Read our approach",
-            "button_link": "shopify://pages/about"
+            "button_link": ""
           }
         }
       },
@@ -193,7 +193,7 @@
         "heading": "Made slowly, in small batches",
         "text": "<p>We work with a small lab, test every batch and only release formulas we use ourselves.</p>",
         "button_label": "Our story",
-        "button_link": "shopify://pages/about",
+        "button_link": "",
         "scheme": "scheme1"
       }
     },

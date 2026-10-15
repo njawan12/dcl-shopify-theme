@@ -12,6 +12,14 @@ class SiteNavigation extends HTMLElement {
       disclosure.querySelector(':scope > summary')?.focus();
       event.preventDefault();
     }, { signal });
+    this.addEventListener('click', (event) => {
+      const menu = this.querySelector('.primary-menu');
+      if (!menu?.open) return;
+      if (event.target.closest('[data-close-menu]') || event.target === menu) {
+        menu.open = false;
+        menu.querySelector(':scope > summary')?.focus();
+      }
+    }, { signal });
     document.addEventListener('shopify:block:select', (event) => {
       if (this.closest('.shopify-section')?.contains(event.target)) {
         const disclosure = this.querySelector('details');

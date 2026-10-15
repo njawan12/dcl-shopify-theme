@@ -5,7 +5,7 @@
     </a>
     <site-navigation>
       {% if section.settings.menu.links.size > 0 %}
-      <details class="primary-menu"><summary>{{ 'general.menu' | t }}</summary><nav aria-label="{{ 'general.navigation' | t }}">{% render 'navigation-links', menu: section.settings.menu %}</nav></details>
+      <details class="primary-menu"><summary><span class="menu-icon" aria-hidden="true"></span><span class="menu-label">{{ 'general.menu' | t }}</span></summary><nav aria-label="{{ 'general.navigation' | t }}"><button type="button" class="menu-close" data-close-menu>{{ 'general.close_menu' | t }}</button>{% render 'navigation-links', menu: section.settings.menu %}</nav></details>
     {% endif %}
     </site-navigation>
     <div class="header-actions">

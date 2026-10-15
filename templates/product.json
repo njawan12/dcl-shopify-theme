@@ -52,9 +52,29 @@
         "pickup"
       ],
       "settings": {}
+    },
+    "complementary": {
+      "type": "product-recommendations",
+      "settings": {
+        "intent": "complementary",
+        "heading": "Pairs well with",
+        "limit": "4",
+        "scheme": "scheme1"
+      }
+    },
+    "related": {
+      "type": "product-recommendations",
+      "settings": {
+        "intent": "related",
+        "heading": "You may also like",
+        "limit": "4",
+        "scheme": "scheme2"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "complementary",
+    "related"
   ]
 }
