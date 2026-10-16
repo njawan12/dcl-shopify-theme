@@ -4,10 +4,15 @@
   "sections": {
     "footer": {
       "type": "footer",
-      "settings": {}
+      "blocks": {
+        "brand": { "type": "brand", "settings": { "text": "", "social": true } },
+        "shop": { "type": "menu", "settings": { "heading": "Shop", "menu": "main-menu" } },
+        "help": { "type": "menu", "settings": { "heading": "Help", "menu": "footer" } },
+        "newsletter": { "type": "newsletter", "settings": { "heading": "Stay in touch", "text": "<p>New launches and routines, a few times a month.</p>" } }
+      },
+      "block_order": ["brand", "shop", "help", "newsletter"],
+      "settings": { "payment_icons": true, "localization": true, "scheme": "scheme3" }
     }
   },
-  "order": [
-    "footer"
-  ]
+  "order": ["footer"]
 }

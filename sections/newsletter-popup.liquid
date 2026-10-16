@@ -1,0 +1,134 @@
+{%- liquid
+  assign s = section.settings
+  assign scheme = s.scheme | remove: 'scheme'
+  assign form_id = 'Popup-' | append: section.id
+-%}
+{%- if s.enabled -%}
+  <signup-popup data-delay="{{ s.delay }}" data-days="{{ s.days }}">
+    {%- form 'customer', id: form_id, class: 'popup__form' -%}
+      {%- if form.posted_successfully? or form.errors -%}<span hidden data-popup-submitted></span>{%- endif -%}
+      <dialog class="popup scheme-{{ scheme }}{% if s.image != blank %} popup--image{% endif %}" aria-labelledby="PopupHeading-{{ section.id }}">
+        <button type="button" class="icon-button popup__close" data-dialog-close>{% render 'icon', icon: 'close' %}<span class="visually-hidden">{{ 'general.close' | t }}</span></button>
+        {%- if s.image != blank -%}<div class="popup__media">{{ s.image | image_url: width: 900 | image_tag: widths: '450,900', sizes: '(min-width: 750px) 22rem, 100vw', loading: 'lazy', alt: '' }}</div>{%- endif -%}
+        <div class="popup__content">
+          {%- if form.posted_successfully? -%}
+            <h2 id="PopupHeading-{{ section.id }}">{{ s.success_heading | escape }}</h2>
+            <p role="status">{{ 'general.subscribed' | t }}</p>
+          {%- else -%}
+            {%- if s.eyebrow != blank -%}<p class="eyebrow">{{ s.eyebrow | escape }}</p>{%- endif -%}
+            <h2 id="PopupHeading-{{ section.id }}">{{ s.heading | escape }}</h2>
+            {%- if s.text != blank -%}<div class="rich-text">{{ s.text }}</div>{%- endif -%}
+            {{ form.errors | default_errors }}
+            <input type="hidden" name="contact[tags]" value="newsletter, popup">
+            <label class="visually-hidden" for="PopupEmail-{{ section.id }}">{{ 'general.email' | t }}</label>
+            <div class="popup__field">
+              <input id="PopupEmail-{{ section.id }}" type="email" name="contact[email]" autocomplete="email" placeholder="{{ 'general.email' | t }}" required>
+              <button type="submit" class="button">{{ 'general.subscribe' | t }}</button>
+            </div>
+            <button type="button" class="popup__dismiss" data-dialog-close>{{ 'general.newsletter_close' | t }}</button>
+          {%- endif -%}
+        </div>
+      </dialog>
+    {%- endform -%}
+  </signup-popup>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.popup",
+  "tag": "div",
+  "class": "section-popup",
+  "enabled_on": {
+    "groups": [
+      "footer"
+    ]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enabled",
+      "label": "t:settings.enable_popup",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "delay",
+      "label": "t:settings.delay",
+      "min": 2,
+      "max": 30,
+      "step": 1,
+      "unit": "s",
+      "default": 6
+    },
+    {
+      "type": "range",
+      "id": "days",
+      "label": "t:settings.frequency",
+      "info": "t:info.frequency",
+      "min": 1,
+      "max": 60,
+      "step": 1,
+      "unit": "d",
+      "default": 7
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:settings.image"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "t:settings.eyebrow",
+      "default": "Join the list"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:settings.heading",
+      "default": "Be the first to know"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "t:settings.text",
+      "default": "<p>Sign up for new launches, routines and members only offers.</p>"
+    },
+    {
+      "type": "text",
+      "id": "success_heading",
+      "label": "t:settings.success_heading",
+      "default": "Welcome to the list"
+    },
+    {
+      "type": "select",
+      "id": "scheme",
+      "label": "t:settings.scheme",
+      "default": "scheme1",
+      "options": [
+        {
+          "value": "scheme1",
+          "label": "t:options.scheme1"
+        },
+        {
+          "value": "scheme2",
+          "label": "t:options.scheme2"
+        },
+        {
+          "value": "scheme3",
+          "label": "t:options.scheme3"
+        },
+        {
+          "value": "scheme4",
+          "label": "t:options.scheme4"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.popup"
+    }
+  ]
+}
+{% endschema %}

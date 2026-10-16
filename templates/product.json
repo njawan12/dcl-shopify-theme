@@ -7,13 +7,20 @@
           "type": "title",
           "settings": {}
         },
-        "vendor": {
-          "type": "vendor",
+        "rating": {
+          "type": "rating",
           "settings": {}
         },
         "price": {
           "type": "price",
           "settings": {}
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Gentle, effective formulas made in small batches.",
+            "style": "small"
+          }
         },
         "options": {
           "type": "options",
@@ -23,35 +30,90 @@
           "type": "plans",
           "settings": {}
         },
+        "inventory": {
+          "type": "inventory",
+          "settings": {
+            "threshold": 5
+          }
+        },
         "quantity": {
           "type": "quantity",
           "settings": {}
         },
         "buy": {
           "type": "buy",
+          "settings": {
+            "dynamic_checkout": true,
+            "recipient": true
+          }
+        },
+        "icons": {
+          "type": "icons",
+          "settings": {
+            "icon_1": "truck",
+            "label_1": "Tracked shipping",
+            "icon_2": "return",
+            "label_2": "30 day returns",
+            "icon_3": "shield",
+            "label_3": "Secure checkout"
+          }
+        },
+        "pickup": {
+          "type": "pickup",
           "settings": {}
         },
         "description": {
           "type": "description",
           "settings": {}
         },
-        "pickup": {
-          "type": "pickup",
-          "settings": {}
+        "how_to": {
+          "type": "collapsible",
+          "settings": {
+            "heading": "How to use",
+            "icon": "drop",
+            "content": "<p>Apply to clean skin morning and night. Follow with your usual moisturiser.</p>",
+            "open": false
+          }
+        },
+        "shipping": {
+          "type": "collapsible",
+          "settings": {
+            "heading": "Shipping and returns",
+            "icon": "truck",
+            "content": "<p>Most orders ship within two business days. If something isn’t right, contact us within 30 days for a return or exchange.</p>",
+            "open": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "label": "Share"
+          }
         }
       },
       "block_order": [
         "title",
-        "vendor",
+        "rating",
         "price",
+        "text",
         "options",
         "plans",
+        "inventory",
         "quantity",
         "buy",
+        "icons",
+        "pickup",
         "description",
-        "pickup"
+        "how_to",
+        "shipping",
+        "share"
       ],
-      "settings": {}
+      "settings": {
+        "composition": "balanced",
+        "gallery_layout": "thumbnails",
+        "zoom": true,
+        "sticky_buy": true
+      }
     },
     "complementary": {
       "type": "product-recommendations",

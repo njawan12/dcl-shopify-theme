@@ -1,0 +1,132 @@
+{%- liquid
+  assign s = section.settings
+  assign scheme = s.scheme | remove: 'scheme'
+-%}
+<section class="before-after scheme-{{ scheme }} section-space" {% if s.heading != blank %}aria-labelledby="Heading-{{ section.id }}"{% endif %}>
+  <div class="page-width before-after__grid before-after--{{ s.layout }}">
+    <div class="before-after__copy">
+      {%- if s.eyebrow != blank -%}<p class="eyebrow">{{ s.eyebrow | escape }}</p>{%- endif -%}
+      {%- if s.heading != blank -%}<h2 id="Heading-{{ section.id }}">{{ s.heading | escape }}</h2>{%- endif -%}
+      {%- if s.text != blank -%}<div class="rich-text">{{ s.text }}</div>{%- endif -%}
+      {%- if s.button_label != blank -%}<a class="button" href="{{ s.button_link | default: routes.all_products_collection_url }}">{{ s.button_label | escape }}</a>{%- endif -%}
+    </div>
+    <before-after class="compare" style="--position: 50%">
+      <div class="compare__layer compare__layer--after">
+        {% render 'canvas-media', image: s.after_image, sizes: '(min-width: 990px) 55vw, 100vw', placeholder: 'lifestyle-2' %}
+        {%- if s.after_label != blank -%}<span class="compare__label compare__label--after">{{ s.after_label | escape }}</span>{%- endif -%}
+      </div>
+      <div class="compare__layer compare__layer--before" aria-hidden="false">
+        {% render 'canvas-media', image: s.before_image, sizes: '(min-width: 990px) 55vw, 100vw', placeholder: 'lifestyle-1' %}
+        {%- if s.before_label != blank -%}<span class="compare__label compare__label--before">{{ s.before_label | escape }}</span>{%- endif -%}
+      </div>
+      <span class="compare__handle" aria-hidden="true">{% render 'icon', icon: 'chevron-left' %}{% render 'icon', icon: 'chevron-right' %}</span>
+      <label class="visually-hidden" for="Compare-{{ section.id }}">{{ 'general.compare' | t }}</label>
+      <input class="compare__range" id="Compare-{{ section.id }}" type="range" min="0" max="100" value="50">
+    </before-after>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.before_after",
+  "tag": "div",
+  "class": "section-before-after",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "t:settings.eyebrow",
+      "default": "Texture"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:settings.heading",
+      "default": "See the difference"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "t:settings.text",
+      "default": "<p>Drag the slider to compare two images side by side.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "t:settings.button_label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:settings.button_link"
+    },
+    {
+      "type": "image_picker",
+      "id": "before_image",
+      "label": "t:settings.before_image"
+    },
+    {
+      "type": "text",
+      "id": "before_label",
+      "label": "t:settings.before_label",
+      "default": "Before"
+    },
+    {
+      "type": "image_picker",
+      "id": "after_image",
+      "label": "t:settings.after_image"
+    },
+    {
+      "type": "text",
+      "id": "after_label",
+      "label": "t:settings.after_label",
+      "default": "After"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "t:settings.layout",
+      "default": "image_second",
+      "options": [
+        {
+          "value": "image_first",
+          "label": "t:options.image_first"
+        },
+        {
+          "value": "image_second",
+          "label": "t:options.image_second"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "scheme",
+      "label": "t:settings.scheme",
+      "default": "scheme1",
+      "options": [
+        {
+          "value": "scheme1",
+          "label": "t:options.scheme1"
+        },
+        {
+          "value": "scheme2",
+          "label": "t:options.scheme2"
+        },
+        {
+          "value": "scheme3",
+          "label": "t:options.scheme3"
+        },
+        {
+          "value": "scheme4",
+          "label": "t:options.scheme4"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.before_after"
+    }
+  ]
+}
+{% endschema %}

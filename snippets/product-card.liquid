@@ -1,12 +1,92 @@
-{% assign card_alt = product.featured_media.alt | default: product.title %}
-<article class="product-card">
-  {%- if product.available == false -%}
-    <span class="card-badge">{{ 'product.sold_out' | t }}</span>
-  {%- elsif product.compare_at_price_max > product.price_min -%}
-    <span class="card-badge card-badge--sale">{{ 'product.sale' | t }}</span>
-  {%- endif -%}
-  <a href="{{ product.url }}">{% render 'image', image: product.featured_media.preview_image, alt: card_alt, sizes: '(min-width: 990px) 25vw, (min-width: 600px) 33vw, 50vw', eager: false %}<h3>{{ product.title | escape }}</h3></a>
-  {% if product.price_varies %}<p>{% assign from_price = product.price_min | money_with_currency %}{{ 'product.from' | t: price: from_price }}</p>{% else %}{% render 'price', variant: product.selected_or_first_available_variant %}{% endif %}
-  {% if product.price_varies and product.selected_or_first_available_variant.unit_price %}<p>{{ 'product.unit_for' | t: title: product.selected_or_first_available_variant.title }}</p>{% render 'unit-price', item: product.selected_or_first_available_variant %}{% endif %}
-  {% unless product.available %}<p>{{ 'product.sold_out' | t }}</p>{% endunless %}
+{%- comment -%}
+  Product card. Params: product, eager (optional), sizes (optional), lead (optional, larger image)
+{%- endcomment -%}
+{%- liquid
+  assign first_media = product.featured_media
+  assign second_media = nil
+  if settings.card_hover and product.media.size > 1
+    assign second_media = product.media[1]
+  endif
+  assign card_sizes = sizes | default: '(min-width: 990px) 25vw, (min-width: 600px) 33vw, 50vw'
+  if lead
+    assign card_sizes = '(min-width: 990px) 50vw, 100vw'
+  endif
+  assign loading = 'lazy'
+  if eager
+    assign loading = 'eager'
+  endif
+  assign variant = product.selected_or_first_available_variant
+  assign on_sale = false
+  if product.compare_at_price_max > product.price_min
+    assign on_sale = true
+  endif
+-%}
+<article class="card{% if second_media %} card--hover{% endif %}">
+  <div class="card__media">
+    <a href="{{ product.url }}" class="card__image-link" tabindex="-1" aria-hidden="true">
+      {%- if first_media -%}
+        {%- capture focal -%}{% if first_media.presentation.focal_point %}object-position: {{ first_media.presentation.focal_point }};{% endif %}{%- endcapture -%}
+        {{ first_media | image_url: width: 1200 | image_tag: widths: '240,360,480,600,800,1000,1200', sizes: card_sizes, loading: loading, alt: '', class: 'card__img', style: focal }}
+        {%- if second_media -%}
+          {{ second_media | image_url: width: 1200 | image_tag: widths: '240,360,480,600,800,1000,1200', sizes: card_sizes, loading: 'lazy', alt: '', class: 'card__img card__img--hover' }}
+        {%- endif -%}
+      {%- else -%}
+        {{ 'product-1' | placeholder_svg_tag: 'card__img card__placeholder' }}
+      {%- endif -%}
+    </a>
+    <div class="card__badges">
+      {%- if product.available == false -%}
+        <span class="card-badge card-badge--soldout">{{ 'product.sold_out' | t }}</span>
+      {%- elsif on_sale -%}
+        <span class="card-badge card-badge--sale">{{ 'product.sale' | t }}</span>
+      {%- endif -%}
+    </div>
+    {%- if settings.card_quick_add and product.available -%}
+      <div class="card__quick">
+        {%- if product.has_only_default_variant -%}
+          {%- form 'product', product, class: 'card__quick-form' -%}
+            <input type="hidden" name="id" value="{{ variant.id }}">
+            <button type="submit" name="add" class="card__quick-button">
+              {% render 'icon', icon: 'plus' %}<span>{{ 'product.add' | t }}</span><span class="visually-hidden">: {{ product.title | escape }}</span>
+            </button>
+          {%- endform -%}
+        {%- elsif product.options.size == 1 and product.options_with_values.first.values.size <= 5 -%}
+          {%- form 'product', product, class: 'card__quick-form card__quick-form--options' -%}
+            <span class="card__quick-label">{{ 'product.quick_add' | t }}</span>
+            <span class="card__quick-values">
+              {%- for value in product.options_with_values.first.values -%}
+                {%- if value.variant -%}
+                  <button type="submit" name="id" value="{{ value.variant.id }}" class="card__quick-value" {% unless value.available %}disabled{% endunless %}>
+                    {{- value.name | escape -}}<span class="visually-hidden">, {{ product.title | escape }}</span>
+                  </button>
+                {%- endif -%}
+              {%- endfor -%}
+            </span>
+          {%- endform -%}
+        {%- else -%}
+          <a class="card__quick-button" href="{{ product.url }}">
+            <span>{{ 'product.choose_options' | t }}</span><span class="visually-hidden">: {{ product.title | escape }}</span>
+          </a>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </div>
+  <div class="card__info">
+    {%- if settings.card_vendor and product.vendor != blank -%}<p class="card__vendor">{{ product.vendor | escape }}</p>{%- endif -%}
+    <h3 class="card__title"><a href="{{ product.url }}">{{ product.title | escape }}</a></h3>
+    {%- if settings.card_rating -%}{% render 'rating-stars', product: product, compact: true %}{%- endif -%}
+    <div class="card__price">
+      {%- if product.price_varies -%}
+        {%- assign from_price = product.price_min | money -%}
+        <span>{{ 'product.from' | t: price: from_price }}</span>
+      {%- else -%}
+        {%- if on_sale -%}
+          <span class="visually-hidden">{{ 'product.regular_price' | t }}</span><s>{{ product.compare_at_price_max | money }}</s>
+          <span class="visually-hidden">{{ 'product.sale_price' | t }}</span>
+        {%- endif -%}
+        <span{% if on_sale %} class="card__price--sale"{% endif %}>{{ product.price_min | money }}</span>
+      {%- endif -%}
+      {%- if variant.unit_price -%}{% render 'unit-price', item: variant %}{%- endif -%}
+    </div>
+  </div>
 </article>

@@ -1,0 +1,64 @@
+{%- comment -%}
+  Desktop navigation. Links with grandchildren open a full width mega panel; links with children open a dropdown.
+  Native details elements keep it usable without JavaScript. Param: menu
+{%- endcomment -%}
+<nav class="header-menu" aria-label="{{ 'general.navigation' | t }}">
+  <ul class="header-menu__list" role="list">
+    {%- for link in menu.links -%}
+      <li class="header-menu__item">
+        {%- if link.links.size > 0 -%}
+          {%- liquid
+            assign is_mega = false
+            for child in link.links
+              if child.links.size > 0
+                assign is_mega = true
+              endif
+            endfor
+          -%}
+          <details class="nav-disclosure{% if is_mega %} nav-disclosure--mega{% endif %}">
+            <summary class="header-menu__link{% if link.child_active or link.active %} is-active{% endif %}">
+              {{- link.title | escape -}}{% render 'icon', icon: 'chevron-down' %}
+            </summary>
+            {%- if is_mega -%}
+              <div class="mega">
+                <div class="page-width mega__inner">
+                  <ul class="mega__columns" role="list">
+                    {%- for child in link.links -%}
+                      <li>
+                        <a class="mega__heading" href="{{ child.url }}" {% if child.current %}aria-current="page"{% endif %}>{{ child.title | escape }}</a>
+                        {%- if child.links.size > 0 -%}
+                          <ul role="list">
+                            {%- for leaf in child.links -%}
+                              <li><a href="{{ leaf.url }}" {% if leaf.current %}aria-current="page"{% endif %}>{{ leaf.title | escape }}</a></li>
+                            {%- endfor -%}
+                          </ul>
+                        {%- endif -%}
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                  {%- if link.type == 'collection_link' and link.object.featured_image -%}
+                    <a class="mega__feature" href="{{ link.url }}">
+                      {{ link.object.featured_image | image_url: width: 720 | image_tag: widths: '360,540,720', sizes: '22rem', loading: 'lazy', alt: '' }}
+                      <span>{{ 'general.view_all' | t: title: link.title }} {% render 'icon', icon: 'arrow' %}</span>
+                    </a>
+                  {%- else -%}
+                    <a class="mega__all" href="{{ link.url }}">{{ 'general.view_all' | t: title: link.title }} {% render 'icon', icon: 'arrow' %}</a>
+                  {%- endif -%}
+                </div>
+              </div>
+            {%- else -%}
+              <ul class="dropdown" role="list">
+                {%- for child in link.links -%}
+                  <li><a href="{{ child.url }}" {% if child.current %}aria-current="page"{% endif %}>{{ child.title | escape }}</a></li>
+                {%- endfor -%}
+                <li class="dropdown__all"><a href="{{ link.url }}">{{ 'general.view_all' | t: title: link.title }}</a></li>
+              </ul>
+            {%- endif -%}
+          </details>
+        {%- else -%}
+          <a class="header-menu__link{% if link.active %} is-active{% endif %}" href="{{ link.url }}" {% if link.current %}aria-current="page"{% endif %}>{{ link.title | escape }}</a>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>

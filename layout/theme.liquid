@@ -6,14 +6,17 @@
     {% render 'theme-tokens' %}
     {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'canvas.css' | asset_url | stylesheet_tag }}
+    {{ 'store.css' | asset_url | stylesheet_tag }}
     <script type="module" src="{{ 'navigation.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'store.js' | asset_url }}"></script>
     {%- if request.design_mode -%}<script src="{{ 'canvas-editor.js' | asset_url }}" defer></script>{%- endif -%}
     {{ content_for_header }}
   </head>
-  <body>
+  <body class="template-{{ template.name }}{% if settings.card_ratio %} cards--{{ settings.card_ratio }}{% endif %}">
     <a class="skip-link" href="#MainContent">{{ 'general.skip' | t }}</a>
     {% sections 'header-group' %}
     <main id="MainContent" tabindex="-1">{{ content_for_layout }}</main>
     {% sections 'footer-group' %}
+    {%- if settings.cart_type != 'page' and template.name != 'cart' -%}{% section 'cart-drawer' %}{%- endif -%}
   </body>
 </html>

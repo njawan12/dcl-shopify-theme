@@ -33,7 +33,19 @@
     "source": "Source",
     "qualification": "Qualification",
     "payment_methods": "Payment methods",
-    "close_menu": "Close menu"
+    "close_menu": "Close menu",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next",
+    "pause": "Pause slideshow",
+    "play": "Play slideshow",
+    "slide": "Slide {{ index }} of {{ count }}",
+    "shop_now": "Shop now",
+    "view_all_short": "View all",
+    "newsletter_close": "No thanks",
+    "compare": "Drag to compare the two images",
+    "slideshow": "Slideshow",
+    "verified": "Verified buyer"
   },
   "product": {
     "regular_price": "Regular price",
@@ -57,7 +69,28 @@
     "unit_for": "Unit price for {{ title }}",
     "model_file": "Open 3D model file",
     "more_media": "Explore all product media",
-    "sale": "Sale"
+    "sale": "Sale",
+    "decrease": "Decrease quantity for {{ title }}",
+    "increase": "Increase quantity for {{ title }}",
+    "quantity_for": "Quantity for {{ title }}",
+    "quick_add": "Quick add",
+    "choose_options": "Choose options",
+    "rating": "Rated {{ rating }} out of {{ max }}",
+    "reviews": {
+      "one": "{{ count }} review",
+      "other": "{{ count }} reviews"
+    },
+    "save": "Save {{ percent }}%",
+    "pickup_at": "Pickup available at {{ location }}",
+    "pickup_unavailable_at": "Pickup currently unavailable at {{ location }}",
+    "pickup_more": "Check other stores",
+    "low_stock": "Only {{ count }} left in stock",
+    "in_stock": "In stock, ready to ship",
+    "link_copied": "Link copied",
+    "share": "Share",
+    "media_label": "{{ title }} media",
+    "zoom": "Open image {{ index }} of {{ count }} in full screen",
+    "show_media": "Show media {{ index }} of {{ count }}"
   },
   "gift": {
     "recipient": "Gift recipient",
@@ -100,7 +133,15 @@
     "tax_included": "Taxes included. Shipping calculated at checkout.",
     "tax_shipping": "Taxes and shipping calculated at checkout.",
     "checkout": "Checkout",
-    "error": "The cart could not be updated. Please try again."
+    "error": "The cart could not be updated. Please try again.",
+    "free_shipping_remaining": "You are {{ amount }} away from free shipping",
+    "free_shipping_reached": "You have unlocked free shipping",
+    "remove_short": "Remove",
+    "upsell": "Pairs well with your order",
+    "add_short": "Add",
+    "view": "View",
+    "note_add": "Add an order note",
+    "view_cart": "View cart"
   },
   "search": {
     "unavailable": "Suggestions are unavailable. Submit the search to see results.",
@@ -165,7 +206,8 @@
     "products_count": {
       "one": "{{ count }} product",
       "other": "{{ count }} products"
-    }
+    },
+    "sample_article": "Your article title"
   },
   "social": {
     "facebook": "Facebook",

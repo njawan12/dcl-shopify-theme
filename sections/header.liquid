@@ -1,26 +1,88 @@
-<header class="site-header scheme-1{% if section.settings.sticky %} site-header--sticky{% endif %}">
-  <div class="page-width header-row">
-    <a href="{{ routes.root_url }}" class="brand">
-      {% if settings.logo %}{{ settings.logo | image_url: width: 400 | image_tag: widths: '100,200,400', sizes: '200px', alt: shop.name, loading: 'eager' }}{% else %}{{ shop.name | escape }}{% endif %}
-    </a>
-    <site-navigation>
-      {% if section.settings.menu.links.size > 0 %}
-      <details class="primary-menu"><summary><span class="menu-icon" aria-hidden="true"></span><span class="menu-label">{{ 'general.menu' | t }}</span></summary><nav aria-label="{{ 'general.navigation' | t }}"><button type="button" class="menu-close" data-close-menu>{{ 'general.close_menu' | t }}</button>{% render 'navigation-links', menu: section.settings.menu %}{% if localization.available_countries.size > 1 or localization.available_languages.size > 1 %}<div class="menu-localization">{% render 'localization', location: 'menu' %}</div>{% endif %}</nav></details>
-    {% endif %}
-    </site-navigation>
-    <div class="header-actions">
-      <a href="{{ routes.search_url }}">{{ 'general.search' | t }}</a>
-      <a href="{{ routes.cart_url }}">{{ 'cart.title' | t }} <span aria-label="{{ 'cart.count' | t: count: cart.item_count }}">({{ cart.item_count }})</span></a>
-      <shopify-account></shopify-account>
-      <noscript><a href="{{ routes.account_url }}">{{ 'general.account' | t }}</a></noscript>
+{%- liquid
+  assign position = section.settings.logo_position | default: 'center'
+  assign has_menu = false
+  if section.settings.menu.links.size > 0
+    assign has_menu = true
+  endif
+  assign has_localization = false
+  if localization.available_countries.size > 1 or localization.available_languages.size > 1
+    assign has_localization = true
+  endif
+-%}
+<header class="header header--{{ position }} scheme-1{% if section.settings.sticky %} site-header--sticky{% endif %}{% if section.settings.transparent_border %} header--borderless{% endif %}">
+  <div class="page-width header__inner">
+    <div class="header__start">
+      {%- if has_menu -%}
+        <site-navigation class="header__drawer">
+          <details class="menu-drawer">
+            <summary class="icon-button">
+              {% render 'icon', icon: 'menu' %}<span class="visually-hidden">{{ 'general.menu' | t }}</span>
+            </summary>
+            <div class="menu-drawer__panel scheme-1">
+              <div class="menu-drawer__head">
+                <span class="menu-drawer__brand">{{ shop.name | escape }}</span>
+                <button type="button" class="icon-button" data-close-menu>
+                  {% render 'icon', icon: 'close' %}<span class="visually-hidden">{{ 'general.close_menu' | t }}</span>
+                </button>
+              </div>
+              <nav aria-label="{{ 'general.navigation' | t }}">{% render 'navigation-links', menu: section.settings.menu %}</nav>
+              <div class="menu-drawer__foot">
+                <a class="menu-drawer__account" href="{{ routes.account_url }}">{% render 'icon', icon: 'account' %} {{ 'general.account' | t }}</a>
+                {%- if has_localization -%}<div class="menu-localization">{% render 'localization', location: 'menu' %}</div>{%- endif -%}
+              </div>
+            </div>
+          </details>
+        </site-navigation>
+        {%- if position == 'center' -%}{% render 'header-menu', menu: section.settings.menu %}{%- endif -%}
+      {%- endif -%}
     </div>
-    {% if localization.available_countries.size > 1 or localization.available_languages.size > 1 %}<details class="header-localization"><summary>{{ localization.country.iso_code }} · {{ localization.language.iso_code | upcase }}<span class="visually-hidden"> {{ 'general.region' | t }}</span></summary>{% render 'localization', location: 'header' %}</details>{% endif %}
+
+    <a href="{{ routes.root_url }}" class="header__logo"{% if section.settings.logo_width %} style="--logo-width: {{ section.settings.logo_width }}px"{% endif %}>
+      {%- if settings.logo -%}
+        {{ settings.logo | image_url: width: 600 | image_tag: widths: '150,300,450,600', sizes: '(min-width: 990px) 220px, 160px', alt: shop.name, loading: 'eager' }}
+      {%- else -%}
+        <span class="header__wordmark">{{ shop.name | escape }}</span>
+      {%- endif -%}
+    </a>
+
+    {%- if position == 'left' and has_menu -%}<div class="header__middle">{% render 'header-menu', menu: section.settings.menu %}</div>{%- endif -%}
+
+    <div class="header__icons">
+      {%- if has_localization -%}
+        <details class="header-localization">
+          <summary>{{ localization.country.iso_code }} · {{ localization.language.iso_code | upcase }}<span class="visually-hidden"> {{ 'general.region' | t }}</span></summary>
+          {% render 'localization', location: 'header' %}
+        </details>
+      {%- endif -%}
+      <a class="icon-button" href="{{ routes.search_url }}" data-search-open>
+        {% render 'icon', icon: 'search' %}<span class="visually-hidden">{{ 'general.search' | t }}</span>
+      </a>
+      <span class="header__account">
+        <shopify-account></shopify-account>
+        <noscript><a class="icon-button" href="{{ routes.account_url }}">{% render 'icon', icon: 'account' %}<span class="visually-hidden">{{ 'general.account' | t }}</span></a></noscript>
+      </span>
+      <a class="icon-button header__cart" href="{{ routes.cart_url }}" data-cart-open>
+        {% render 'icon', icon: 'bag' %}
+        <span class="cart-bubble" data-cart-count{% if cart.item_count == 0 %} hidden{% endif %}>{{ cart.item_count }}</span>
+        <span class="visually-hidden" data-cart-count-label>{{ 'cart.title' | t }}, {{ 'cart.count' | t: count: cart.item_count }}</span>
+      </a>
+    </div>
   </div>
+
+  <dialog class="search-modal scheme-1" id="SearchModal" aria-label="{{ 'general.search' | t }}">
+    <div class="page-width search-modal__inner">
+      {% render 'search-form' %}
+      <button type="button" class="icon-button search-modal__close" data-dialog-close>
+        {% render 'icon', icon: 'close' %}<span class="visually-hidden">{{ 'general.close' | t }}</span>
+      </button>
+    </div>
+  </dialog>
 </header>
 
 {% schema %}
 {
   "name": "t:sections.header",
+  "class": "header-section",
   "settings": [
     {
       "type": "link_list",
@@ -29,10 +91,36 @@
       "default": "main-menu"
     },
     {
+      "type": "select",
+      "id": "logo_position",
+      "label": "t:settings.logo_position",
+      "options": [
+        { "value": "left", "label": "t:options.left" },
+        { "value": "center", "label": "t:options.center" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "logo_width",
+      "label": "t:settings.logo_width",
+      "min": 60,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "default": 140
+    },
+    {
       "type": "checkbox",
       "id": "sticky",
       "label": "t:settings.sticky",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "transparent_border",
+      "label": "t:settings.hide_divider",
+      "default": false
     }
   ]
 }

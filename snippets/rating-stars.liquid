@@ -1,0 +1,22 @@
+{%- comment -%}
+  Star rating from Shopify's standard reviews metafields (reviews.rating, reviews.rating_count), which review apps fill.
+  Renders nothing when a product has no rating. Params: product, compact (optional)
+{%- endcomment -%}
+{%- assign rating = product.metafields.reviews.rating.value -%}
+{%- if rating != blank -%}
+  {%- liquid
+    assign scale = rating.scale_max | default: 5
+    assign value = rating.rating | times: 1.0
+    assign percent = value | divided_by: scale | times: 100
+    assign count = product.metafields.reviews.rating_count.value | default: 0
+    assign rounded = value | round: 1
+  -%}
+  <div class="rating{% if compact %} rating--compact{% endif %}">
+    <span class="rating__stars" style="--rating: {{ percent }}%" aria-hidden="true">
+      <span class="rating__base">{%- for i in (1..5) -%}{% render 'icon', icon: 'star' %}{%- endfor -%}</span>
+      <span class="rating__fill">{%- for i in (1..5) -%}{% render 'icon', icon: 'star' %}{%- endfor -%}</span>
+    </span>
+    <span class="visually-hidden">{{ 'product.rating' | t: rating: rounded, max: scale }}</span>
+    {%- if count > 0 -%}<span class="rating__count">({{ count }})<span class="visually-hidden"> {{ 'product.reviews' | t: count: count }}</span></span>{%- endif -%}
+  </div>
+{%- endif -%}

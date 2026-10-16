@@ -13,7 +13,7 @@ class SiteNavigation extends HTMLElement {
       event.preventDefault();
     }, { signal });
     this.addEventListener('click', (event) => {
-      const menu = this.querySelector('.primary-menu');
+      const menu = this.querySelector('.menu-drawer');
       if (!menu?.open) return;
       if (event.target.closest('[data-close-menu]') || event.target === menu) {
         menu.open = false;
