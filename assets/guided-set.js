@@ -59,10 +59,17 @@ class GuidedSet extends HTMLElement {
       const response = await fetch(`${this.dataset.addUrl}.js`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({ items }),
+        body: JSON.stringify({ items, sections: ['cart-drawer'], sections_url: window.location.pathname }),
       });
       if (!response.ok) throw new Error(String(response.status));
-      window.location.assign(this.dataset.cartUrl);
+      const body = await response.json();
+      if (document.querySelector('cart-drawer') && body.sections) {
+        document.dispatchEvent(new CustomEvent('vela:cart-updated', { detail: { sections: body.sections, opener: this.button } }));
+        this.checks.forEach((input) => { input.checked = false; });
+        this.update();
+      } else {
+        window.location.assign(this.dataset.cartUrl);
+      }
     } catch (error) {
       this.error.hidden = false;
       this.button.disabled = false;

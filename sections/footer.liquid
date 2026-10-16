@@ -1,44 +1,71 @@
-<footer class="scheme-2 section-space">
-  <div class="page-width footer-grid">
-    <div class="footer-brand"><a class="brand" href="{{ routes.root_url }}">{{ shop.name | escape }}</a>{% render 'social-icons' %}{% if section.settings.brand_context != blank %}<div class="rich-text">{{ section.settings.brand_context }}</div>{% elsif shop.description != blank %}<div class="rich-text">{{ shop.description }}</div>{% endif %}</div>
-    <nav aria-label="{{ 'general.footer_navigation' | t }}">{% render 'navigation-links', menu: section.settings.menu %}</nav>
-    <div>
-      {% assign newsletter_id = 'Newsletter-' | append: section.id %}
-      {% form 'customer', id: newsletter_id %}
-        <h2>{{ 'general.newsletter' | t }}</h2><p>{{ 'general.newsletter_help' | t }}</p>
-        {{ form.errors | default_errors }}
-        {% if form.posted_successfully? %}<p role="status">{{ 'general.subscribed' | t }}</p>{% endif %}
-        <input type="hidden" name="contact[tags]" value="newsletter">
-        <label for="Email-{{ section.id }}">{{ 'general.email' | t }}</label>
-        <input id="Email-{{ section.id }}" type="email" name="contact[email]" autocomplete="email" required>
-        <button>{{ 'general.subscribe' | t }}</button>
-      {% endform %}
-      {% render 'localization', location: 'footer' %}
-    </div>
+{%- liquid
+  assign s = section.settings
+  assign scheme = s.scheme | remove: 'scheme'
+-%}
+<footer class="footer scheme-{{ scheme }}">
+  <div class="page-width footer__grid">
+    {%- for block in section.blocks -%}
+      {%- assign b = block.settings -%}
+      <div class="footer__block footer__block--{{ block.type }}" {{ block.shopify_attributes }}>
+        {%- case block.type -%}
+          {%- when 'brand' -%}
+            <a class="footer__brand" href="{{ routes.root_url }}">
+              {%- if settings.logo -%}{{ settings.logo | image_url: width: 400 | image_tag: widths: '200,400', sizes: '180px', alt: shop.name, loading: 'lazy' }}{%- else -%}{{ shop.name | escape }}{%- endif -%}
+            </a>
+            {%- if b.text != blank -%}<div class="rich-text footer__text">{{ b.text }}</div>{%- elsif shop.description != blank -%}<p class="footer__text">{{ shop.description | escape }}</p>{%- endif -%}
+            {%- if b.social -%}{% render 'social-icons' %}{%- endif -%}
+          {%- when 'menu' -%}
+            {%- if b.heading != blank -%}<h2 class="footer__heading">{{ b.heading | escape }}</h2>{%- endif -%}
+            <nav aria-label="{{ b.heading | default: shop.name | escape }}">
+              <ul class="footer__links" role="list">
+                {%- for link in b.menu.links -%}<li><a href="{{ link.url }}" {% if link.current %}aria-current="page"{% endif %}>{{ link.title | escape }}</a></li>{%- endfor -%}
+              </ul>
+            </nav>
+          {%- when 'text' -%}
+            {%- if b.heading != blank -%}<h2 class="footer__heading">{{ b.heading | escape }}</h2>{%- endif -%}
+            <div class="rich-text footer__text">{{ b.text }}</div>
+          {%- when 'newsletter' -%}
+            {%- if b.heading != blank -%}<h2 class="footer__heading">{{ b.heading | escape }}</h2>{%- endif -%}
+            {%- if b.text != blank -%}<div class="rich-text footer__text">{{ b.text }}</div>{%- endif -%}
+            {%- assign newsletter_id = 'Newsletter-' | append: section.id -%}
+            {%- form 'customer', id: newsletter_id, class: 'footer__form' -%}
+              {{ form.errors | default_errors }}
+              {%- if form.posted_successfully? -%}<p role="status">{{ 'general.subscribed' | t }}</p>{%- endif -%}
+              <input type="hidden" name="contact[tags]" value="newsletter">
+              <label class="visually-hidden" for="Email-{{ section.id }}">{{ 'general.email' | t }}</label>
+              <div class="footer__field">
+                <input id="Email-{{ section.id }}" type="email" name="contact[email]" autocomplete="email" placeholder="{{ 'general.email' | t }}" required>
+                <button type="submit" class="icon-button">{% render 'icon', icon: 'arrow' %}<span class="visually-hidden">{{ 'general.subscribe' | t }}</span></button>
+              </div>
+            {%- endform -%}
+        {%- endcase -%}
+      </div>
+    {%- endfor -%}
   </div>
-  <div class="page-width footer-links">
-    {% for policy in shop.policies %}{% if policy.body != blank %}<a href="{{ policy.url }}">{{ policy.title | escape }}</a>{% endif %}{% endfor %}
-    {{ shop | login_button: action: 'follow' }}
-    <small>&copy; {{ 'now' | date: '%Y' }} {{ shop.name | escape }}</small>
-    {{ powered_by_link }}
-    {%- if section.settings.payment_icons -%}
-      <ul class="payment-icons" role="list" aria-label="{{ 'general.payment_methods' | t }}">
-        {%- for type in shop.enabled_payment_types -%}<li>{{ type | payment_type_svg_tag: class: 'payment-icon' }}</li>{%- endfor -%}
-      </ul>
-    {%- endif -%}
+  <div class="page-width footer__bottom">
+    <div class="footer__legal">
+      <small>&copy; {{ 'now' | date: '%Y' }} {{ shop.name | link_to: routes.root_url }}</small>
+      {%- for policy in shop.policies -%}{%- if policy.body != blank -%}<a href="{{ policy.url }}">{{ policy.title | escape }}</a>{%- endif -%}{%- endfor -%}
+      <span class="footer__powered">{{ powered_by_link }}</span>
+    </div>
+    <div class="footer__tools">
+      {%- if s.localization -%}{% render 'localization', location: 'footer' %}{%- endif -%}
+      {{ shop | login_button: action: 'follow' }}
+      {%- if s.payment_icons -%}
+        <ul class="payment-icons" role="list" aria-label="{{ 'general.payment_methods' | t }}">
+          {%- for type in shop.enabled_payment_types -%}<li>{{ type | payment_type_svg_tag: class: 'payment-icon' }}</li>{%- endfor -%}
+        </ul>
+      {%- endif -%}
+    </div>
   </div>
 </footer>
 
 {% schema %}
 {
   "name": "t:sections.footer",
+  "tag": "div",
+  "class": "section-footer",
   "settings": [
-    {
-      "type": "link_list",
-      "id": "menu",
-      "label": "t:settings.menu",
-      "default": "footer"
-    },
     {
       "type": "checkbox",
       "id": "payment_icons",
@@ -46,9 +73,127 @@
       "default": true
     },
     {
-      "type": "richtext",
-      "id": "brand_context",
-      "label": "t:settings.brand_context"
+      "type": "checkbox",
+      "id": "localization",
+      "label": "t:settings.show_localization",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "scheme",
+      "label": "t:settings.scheme",
+      "default": "scheme3",
+      "options": [
+        {
+          "value": "scheme1",
+          "label": "t:options.scheme1"
+        },
+        {
+          "value": "scheme2",
+          "label": "t:options.scheme2"
+        },
+        {
+          "value": "scheme3",
+          "label": "t:options.scheme3"
+        },
+        {
+          "value": "scheme4",
+          "label": "t:options.scheme4"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "brand",
+      "name": "t:blocks.brand",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "t:settings.text"
+        },
+        {
+          "type": "checkbox",
+          "id": "social",
+          "label": "t:settings.show_social",
+          "default": true
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "name": "t:blocks.menu",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "t:settings.heading",
+          "default": "Shop"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "t:settings.menu",
+          "default": "footer"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:blocks.text",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "t:settings.heading",
+          "default": "About"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "t:settings.text",
+          "default": "<p>Use this space to share your story or support details.</p>"
+        }
+      ]
+    },
+    {
+      "type": "newsletter",
+      "name": "t:blocks.newsletter",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "t:settings.heading",
+          "default": "Stay in touch"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "t:settings.text",
+          "default": "<p>New launches and routines, a few times a month.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.footer",
+      "blocks": [
+        {
+          "type": "brand"
+        },
+        {
+          "type": "menu"
+        },
+        {
+          "type": "newsletter"
+        }
+      ]
     }
   ]
 }

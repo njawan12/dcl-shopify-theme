@@ -1,0 +1,77 @@
+{%- comment -%}
+  Product gallery: a swipeable strip of every product media with thumbnails, arrows and a zoom view.
+  Without JavaScript the strip still scrolls and thumbnails link to each slide.
+  Params: product, section, selected (media), primary, layout (thumbnails, side, grid)
+{%- endcomment -%}
+{%- liquid
+  assign gallery_layout = layout | default: 'thumbnails'
+  assign total = product.media.size
+  assign images = product.media | where: 'media_type', 'image'
+-%}
+<media-gallery class="gallery gallery--{{ gallery_layout }}{% if total < 2 %} gallery--single{% endif %}">
+  {%- if total == 0 -%}
+    <div class="gallery__empty">{{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+  {%- else -%}
+    <div class="gallery__main">
+      <ul class="gallery__viewport" data-gallery-viewport role="list" aria-label="{{ 'product.media_label' | t: title: product.title }}">
+        {%- for media in product.media -%}
+          {%- liquid
+            assign eager = false
+            if primary and forloop.first
+              assign eager = true
+            endif
+            if primary and media.id == selected.id
+              assign eager = true
+            endif
+          -%}
+          <li class="gallery__slide" id="Slide-{{ section.id }}-{{ media.id }}" data-gallery-slide{% if media.id == selected.id %} data-selected{% endif %}>
+            {% render 'product-media', media: media, product: product, section: section, eager: eager, composition: 'gallery' %}
+            {%- if media.media_type == 'image' and section.settings.zoom != false -%}
+              {%- assign zoom_index = 0 -%}
+              {%- for image in images -%}{%- if image.id == media.id -%}{%- assign zoom_index = forloop.index0 -%}{%- endif -%}{%- endfor -%}
+              <button type="button" class="gallery__zoom" data-zoom="{{ zoom_index }}">
+                {% render 'icon', icon: 'zoom' %}<span class="visually-hidden">{{ 'product.zoom' | t: index: forloop.index, count: total }}</span>
+              </button>
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+      {%- if total > 1 -%}
+        <button type="button" class="gallery__arrow gallery__arrow--prev" data-gallery-prev>
+          {% render 'icon', icon: 'chevron-left' %}<span class="visually-hidden">{{ 'general.previous' | t }}</span>
+        </button>
+        <button type="button" class="gallery__arrow gallery__arrow--next" data-gallery-next>
+          {% render 'icon', icon: 'chevron-right' %}<span class="visually-hidden">{{ 'general.next' | t }}</span>
+        </button>
+        <p class="gallery__counter" aria-hidden="true"><span data-gallery-current>1</span> / {{ total }}</p>
+      {%- endif -%}
+    </div>
+    {%- if total > 1 -%}
+      <ul class="gallery__thumbs" role="list">
+        {%- for media in product.media -%}
+          <li>
+            <a class="gallery__thumb" href="#Slide-{{ section.id }}-{{ media.id }}" data-gallery-thumb{% if media.id == selected.id %} aria-current="true"{% endif %}>
+              {{ media.preview_image | image_url: width: 200 | image_tag: widths: '100,200', sizes: '6rem', loading: 'lazy', alt: '' }}
+              {%- if media.media_type == 'video' or media.media_type == 'external_video' -%}<span class="gallery__thumb-badge">{% render 'icon', icon: 'play' %}</span>{%- endif -%}
+              <span class="visually-hidden">{{ 'product.show_media' | t: index: forloop.index, count: total }}</span>
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+    {%- if images.size > 0 and section.settings.zoom != false -%}
+      <dialog class="zoom-view" data-zoom-dialog aria-label="{{ 'product.media_label' | t: title: product.title }}">
+        <button type="button" class="icon-button zoom-view__close" data-dialog-close>
+          {% render 'icon', icon: 'close' %}<span class="visually-hidden">{{ 'general.close' | t }}</span>
+        </button>
+        <ul class="zoom-view__list" role="list">
+          {%- for image in images -%}
+            <li data-zoom-index="{{ forloop.index0 }}">
+              {{ image.preview_image | image_url: width: 2400 | image_tag: widths: '1000,1500,2000,2400', sizes: '100vw', loading: 'lazy', alt: image.alt }}
+            </li>
+          {%- endfor -%}
+        </ul>
+      </dialog>
+    {%- endif -%}
+  {%- endif -%}
+</media-gallery>

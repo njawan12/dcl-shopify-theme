@@ -28,6 +28,32 @@
         }
       ],
       "default": "balanced"
+    },
+    {
+      "type": "select",
+      "id": "gallery_layout",
+      "label": "t:settings.gallery_layout",
+      "options": [
+        {
+          "value": "thumbnails",
+          "label": "t:options.thumbnails_below"
+        },
+        {
+          "value": "side",
+          "label": "t:options.thumbnails_side"
+        },
+        {
+          "value": "grid",
+          "label": "t:options.grid"
+        }
+      ],
+      "default": "thumbnails"
+    },
+    {
+      "type": "checkbox",
+      "id": "zoom",
+      "label": "t:settings.zoom",
+      "default": true
     }
   ],
   "blocks": [
@@ -97,6 +123,481 @@
       "name": "t:blocks.pickup",
       "limit": 1,
       "settings": []
+    },
+    {
+      "type": "rating",
+      "name": "t:blocks.rating",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "t:info.rating"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:blocks.text",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "text",
+          "label": "t:settings.text"
+        },
+        {
+          "type": "select",
+          "id": "style",
+          "label": "t:settings.style",
+          "options": [
+            {
+              "value": "body",
+              "label": "t:options.body"
+            },
+            {
+              "value": "eyebrow",
+              "label": "t:options.eyebrow"
+            },
+            {
+              "value": "small",
+              "label": "t:options.small"
+            }
+          ],
+          "default": "body"
+        }
+      ]
+    },
+    {
+      "type": "inventory",
+      "name": "t:blocks.inventory",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "range",
+          "id": "threshold",
+          "label": "t:settings.low_stock",
+          "min": 1,
+          "max": 20,
+          "step": 1,
+          "default": 5
+        }
+      ]
+    },
+    {
+      "type": "icons",
+      "name": "t:blocks.icons",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon_1",
+          "label": "t:settings.icon_1",
+          "options": [
+            {
+              "value": "none",
+              "label": "t:icons.none"
+            },
+            {
+              "value": "leaf",
+              "label": "t:icons.leaf"
+            },
+            {
+              "value": "drop",
+              "label": "t:icons.drop"
+            },
+            {
+              "value": "sparkle",
+              "label": "t:icons.sparkle"
+            },
+            {
+              "value": "shield",
+              "label": "t:icons.shield"
+            },
+            {
+              "value": "truck",
+              "label": "t:icons.truck"
+            },
+            {
+              "value": "return",
+              "label": "t:icons.return"
+            },
+            {
+              "value": "recycle",
+              "label": "t:icons.recycle"
+            },
+            {
+              "value": "heart",
+              "label": "t:icons.heart"
+            },
+            {
+              "value": "clock",
+              "label": "t:icons.clock"
+            },
+            {
+              "value": "gift",
+              "label": "t:icons.gift"
+            },
+            {
+              "value": "check",
+              "label": "t:icons.check"
+            },
+            {
+              "value": "lock",
+              "label": "t:icons.lock"
+            },
+            {
+              "value": "chat",
+              "label": "t:icons.chat"
+            },
+            {
+              "value": "sun",
+              "label": "t:icons.sun"
+            },
+            {
+              "value": "moon",
+              "label": "t:icons.moon"
+            },
+            {
+              "value": "flask",
+              "label": "t:icons.flask"
+            },
+            {
+              "value": "globe",
+              "label": "t:icons.globe"
+            },
+            {
+              "value": "rabbit",
+              "label": "t:icons.rabbit"
+            },
+            {
+              "value": "star",
+              "label": "t:icons.star"
+            }
+          ],
+          "default": "truck"
+        },
+        {
+          "type": "text",
+          "id": "label_1",
+          "label": "t:settings.label_1",
+          "default": "Tracked shipping"
+        },
+        {
+          "type": "select",
+          "id": "icon_2",
+          "label": "t:settings.icon_2",
+          "options": [
+            {
+              "value": "none",
+              "label": "t:icons.none"
+            },
+            {
+              "value": "leaf",
+              "label": "t:icons.leaf"
+            },
+            {
+              "value": "drop",
+              "label": "t:icons.drop"
+            },
+            {
+              "value": "sparkle",
+              "label": "t:icons.sparkle"
+            },
+            {
+              "value": "shield",
+              "label": "t:icons.shield"
+            },
+            {
+              "value": "truck",
+              "label": "t:icons.truck"
+            },
+            {
+              "value": "return",
+              "label": "t:icons.return"
+            },
+            {
+              "value": "recycle",
+              "label": "t:icons.recycle"
+            },
+            {
+              "value": "heart",
+              "label": "t:icons.heart"
+            },
+            {
+              "value": "clock",
+              "label": "t:icons.clock"
+            },
+            {
+              "value": "gift",
+              "label": "t:icons.gift"
+            },
+            {
+              "value": "check",
+              "label": "t:icons.check"
+            },
+            {
+              "value": "lock",
+              "label": "t:icons.lock"
+            },
+            {
+              "value": "chat",
+              "label": "t:icons.chat"
+            },
+            {
+              "value": "sun",
+              "label": "t:icons.sun"
+            },
+            {
+              "value": "moon",
+              "label": "t:icons.moon"
+            },
+            {
+              "value": "flask",
+              "label": "t:icons.flask"
+            },
+            {
+              "value": "globe",
+              "label": "t:icons.globe"
+            },
+            {
+              "value": "rabbit",
+              "label": "t:icons.rabbit"
+            },
+            {
+              "value": "star",
+              "label": "t:icons.star"
+            }
+          ],
+          "default": "return"
+        },
+        {
+          "type": "text",
+          "id": "label_2",
+          "label": "t:settings.label_2",
+          "default": "30 day returns"
+        },
+        {
+          "type": "select",
+          "id": "icon_3",
+          "label": "t:settings.icon_3",
+          "options": [
+            {
+              "value": "none",
+              "label": "t:icons.none"
+            },
+            {
+              "value": "leaf",
+              "label": "t:icons.leaf"
+            },
+            {
+              "value": "drop",
+              "label": "t:icons.drop"
+            },
+            {
+              "value": "sparkle",
+              "label": "t:icons.sparkle"
+            },
+            {
+              "value": "shield",
+              "label": "t:icons.shield"
+            },
+            {
+              "value": "truck",
+              "label": "t:icons.truck"
+            },
+            {
+              "value": "return",
+              "label": "t:icons.return"
+            },
+            {
+              "value": "recycle",
+              "label": "t:icons.recycle"
+            },
+            {
+              "value": "heart",
+              "label": "t:icons.heart"
+            },
+            {
+              "value": "clock",
+              "label": "t:icons.clock"
+            },
+            {
+              "value": "gift",
+              "label": "t:icons.gift"
+            },
+            {
+              "value": "check",
+              "label": "t:icons.check"
+            },
+            {
+              "value": "lock",
+              "label": "t:icons.lock"
+            },
+            {
+              "value": "chat",
+              "label": "t:icons.chat"
+            },
+            {
+              "value": "sun",
+              "label": "t:icons.sun"
+            },
+            {
+              "value": "moon",
+              "label": "t:icons.moon"
+            },
+            {
+              "value": "flask",
+              "label": "t:icons.flask"
+            },
+            {
+              "value": "globe",
+              "label": "t:icons.globe"
+            },
+            {
+              "value": "rabbit",
+              "label": "t:icons.rabbit"
+            },
+            {
+              "value": "star",
+              "label": "t:icons.star"
+            }
+          ],
+          "default": "shield"
+        },
+        {
+          "type": "text",
+          "id": "label_3",
+          "label": "t:settings.label_3",
+          "default": "Secure checkout"
+        }
+      ]
+    },
+    {
+      "type": "collapsible",
+      "name": "t:blocks.collapsible",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "t:settings.heading",
+          "default": "Ingredients"
+        },
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "t:settings.icon",
+          "options": [
+            {
+              "value": "none",
+              "label": "t:icons.none"
+            },
+            {
+              "value": "leaf",
+              "label": "t:icons.leaf"
+            },
+            {
+              "value": "drop",
+              "label": "t:icons.drop"
+            },
+            {
+              "value": "sparkle",
+              "label": "t:icons.sparkle"
+            },
+            {
+              "value": "shield",
+              "label": "t:icons.shield"
+            },
+            {
+              "value": "truck",
+              "label": "t:icons.truck"
+            },
+            {
+              "value": "return",
+              "label": "t:icons.return"
+            },
+            {
+              "value": "recycle",
+              "label": "t:icons.recycle"
+            },
+            {
+              "value": "heart",
+              "label": "t:icons.heart"
+            },
+            {
+              "value": "clock",
+              "label": "t:icons.clock"
+            },
+            {
+              "value": "gift",
+              "label": "t:icons.gift"
+            },
+            {
+              "value": "check",
+              "label": "t:icons.check"
+            },
+            {
+              "value": "lock",
+              "label": "t:icons.lock"
+            },
+            {
+              "value": "chat",
+              "label": "t:icons.chat"
+            },
+            {
+              "value": "sun",
+              "label": "t:icons.sun"
+            },
+            {
+              "value": "moon",
+              "label": "t:icons.moon"
+            },
+            {
+              "value": "flask",
+              "label": "t:icons.flask"
+            },
+            {
+              "value": "globe",
+              "label": "t:icons.globe"
+            },
+            {
+              "value": "rabbit",
+              "label": "t:icons.rabbit"
+            },
+            {
+              "value": "star",
+              "label": "t:icons.star"
+            }
+          ],
+          "default": "none"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "t:settings.content"
+        },
+        {
+          "type": "page",
+          "id": "page",
+          "label": "t:settings.page_content"
+        },
+        {
+          "type": "checkbox",
+          "id": "open",
+          "label": "t:settings.open_default",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "share",
+      "name": "t:blocks.share",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "t:settings.label",
+          "default": "Share"
+        }
+      ]
     },
     {
       "type": "liquid",
