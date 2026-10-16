@@ -1,4 +1,7 @@
-{% render 'product-surface', product: product, section: section, primary: true %}
+<div data-variant-section="{{ section.id }}">
+  {% render 'product-surface', product: product, section: section, primary: true %}
+</div>
+{%- unless product.has_only_default_variant -%}<script src="{{ 'variant-swap.js' | asset_url }}" type="module"></script>{%- endunless -%}
 {% schema %}
 {
   "name": "t:sections.product",
