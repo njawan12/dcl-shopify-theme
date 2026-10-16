@@ -12,7 +12,8 @@
             "button_label": "Shop bestsellers",
             "button_link": "shopify://collections/bestsellers",
             "position": "left",
-            "text_color": "dark"
+            "text_color": "dark",
+            "mobile_image": "shopify://shop_images/vela-face.png"
           }
         },
         "s2": {
