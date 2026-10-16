@@ -470,3 +470,16 @@ product-recommendations:empty { display: none; }
 }
 .menu-localization { margin-block-start: 2rem; padding-block-start: 1rem; border-block-start: 1px solid currentColor; }
 @media (min-width: 990px) { .menu-localization { display: none; } }
+
+/* ---------- phone hero: photo first, tighter rhythm ---------- */
+@media (max-width: 749px) {
+  .living-canvas { padding-block: 1.25rem calc(var(--rhythm) * 1.25); }
+  .living-canvas__grid { gap: 1.5rem; }
+  .living-canvas--monument .living-canvas__stage,
+  .living-canvas--edge_crop .living-canvas__stage { order: -1; padding-block-start: 0; }
+  .living-canvas--monument .living-canvas__stage { padding-inline-start: 0; }
+  .living-canvas--monument .living-canvas__stage::before { display: none; }
+  .living-canvas__media img, .living-canvas__media.canvas-placeholder { aspect-ratio: 4 / 4.4; }
+  .living-canvas__heading { font-size: clamp(2.6rem, 12vw, 3.4rem); margin-block-end: 1rem; }
+  .live-product { margin-block-start: 1.75rem; }
+}
