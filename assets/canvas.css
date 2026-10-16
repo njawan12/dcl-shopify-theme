@@ -398,7 +398,7 @@ h6 { font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; }
 
 /* ---------- product recommendations ---------- */
 product-recommendations { display: block; }
-product-recommendations:empty { display: none; }
+product-recommendations:empty { display: block; min-block-size: 1px; padding: 0; }
 .product-recs__heading { margin-block-end: 1.5rem; }
 
 /* ---------- phone hero: photo first, tighter rhythm ---------- */
