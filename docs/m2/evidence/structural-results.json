@@ -24,8 +24,8 @@
       "gzip_bytes": 539
     },
     "store.css": {
-      "bytes": 63367,
-      "gzip_bytes": 11684
+      "bytes": 64255,
+      "gzip_bytes": 11828
     },
     "canvas-editor.js": {
       "bytes": 644,
@@ -44,8 +44,8 @@
       "gzip_bytes": 363
     },
     "canvas.css": {
-      "bytes": 24138,
-      "gzip_bytes": 5141
+      "bytes": 24172,
+      "gzip_bytes": 5149
     },
     "cart.js": {
       "bytes": 2511,

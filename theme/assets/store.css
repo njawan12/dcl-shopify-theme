@@ -1017,3 +1017,21 @@ facet-form:defined .facets__panel-foot button[type='submit'] { display: inline-f
 .collection-banner { block-size: clamp(18rem, 36vw, 30rem); }
 .collection-banner__image { block-size: 100%; min-block-size: 0; }
 .facets__panel-foot .button { padding-inline: 0.75rem; white-space: nowrap; font-size: 0.9rem; }
+@media (min-width: 990px) {
+  .footer__grid { display: flex; flex-wrap: wrap; gap: 3rem; }
+  .footer__block { flex: 1 1 9rem; min-inline-size: 0; }
+  .footer__block--brand { flex: 1.6 1 16rem; }
+  .footer__block--newsletter { flex: 1.5 1 15rem; min-inline-size: 0; }
+}
+.footer__field input { min-inline-size: 0; }
+.section-space { padding-block: clamp(2.75rem, 6vw, calc(var(--rhythm, 2rem) * 1.25)); }
+.product-form .shopify-payment-button__button--unbranded,
+.product-form .shopify-payment-button__button--unbranded:hover:not([disabled]) {
+  background: transparent;
+  color: var(--foreground-1);
+  border: 1px solid var(--foreground-1);
+  border-radius: var(--radius);
+  font-weight: 600;
+}
+.product-form .shopify-payment-button__button--unbranded:hover:not([disabled]) { background: var(--foreground-1); color: var(--background-1); }
+.product-recs .mosaic-grid { gap: 2.25rem 1rem; }
