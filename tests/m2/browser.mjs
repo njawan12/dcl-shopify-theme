@@ -63,7 +63,7 @@ const base = `http://127.0.0.1:${server.address().port}`;
 const report={scope:'isolated production snippet/asset browser contracts with test platform adapters; NOT live Shopify checkout/editor/apps/Markets proof',engine:'Chromium',configuration:{viewport:{width:390,height:900}},observations:[],assertions:0,axe:[]};
 let browser;
 try {
-  browser = await chromium.launch({headless:true}); report.version=browser.version();
+  browser = await chromium.launch({headless:true, ...(process.env.CHROME_PATH ? {executablePath: process.env.CHROME_PATH, args: ['--no-sandbox']} : {})}); report.version=browser.version();
   for (const javaScriptEnabled of [true,false]) {
     const context = await browser.newContext({javaScriptEnabled,viewport:{width:390,height:900}});
     const page = await context.newPage();

@@ -123,7 +123,7 @@ test('featured instances produce distinct native form IDs without a second comme
 test('native filters preserve active unavailable values, range numbers and sort identity', async () => {
   const html=await render('filters',{section:{id:'filters'},collection:{url:'/collections/catalog',sort_by:'price-descending',sort_options:[{value:'price-descending',name:'Price descending'}],filters:[{type:'boolean',label:'Available',active_values:[1],values:[{param_name:'filter.v.availability',value:'1',label:'In stock',active:true,count:0}]},{type:'price_range',label:'Price',active_values:[],min_value:{param_name:'filter.v.price.gte',value:1200},max_value:{param_name:'filter.v.price.lte',value:2400}}]}});
   assert.match(html,/name="filter.v.availability" value="1" checked/);
-  assert.match(html,/name="filter.v.price.gte" value="12"/);assert.match(html,/value="price-descending" selected/);
+  assert.match(html,/name="filter.v.price.gte"[^>]*value="12"/);assert.match(html,/value="price-descending" selected/);
 });
 
 for (const composition of ['balanced','compact','editorial']) {

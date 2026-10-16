@@ -1,7 +1,7 @@
 {
   "scope": "static architecture/schema/reference/budget and preservation; not live Shopify certification",
-  "checks": 1791,
-  "passed": 1791,
+  "checks": 1811,
+  "passed": 1811,
   "failed": 0,
   "global_editable_settings": 34,
   "presentation_controls": 32,
@@ -12,8 +12,8 @@
       "gzip_bytes": 4605
     },
     "store.js": {
-      "bytes": 20955,
-      "gzip_bytes": 5604
+      "bytes": 23779,
+      "gzip_bytes": 6261
     },
     "variant-swap.js": {
       "bytes": 1595,
@@ -24,8 +24,8 @@
       "gzip_bytes": 539
     },
     "store.css": {
-      "bytes": 56850,
-      "gzip_bytes": 10657
+      "bytes": 62972,
+      "gzip_bytes": 11600
     },
     "canvas-editor.js": {
       "bytes": 644,
@@ -87,7 +87,7 @@
     "evidence_process"
   ],
   "section_controls": {
-    "main-collection": 0,
+    "main-collection": 3,
     "guided-set": 5,
     "main-blog": 0,
     "main-contact": 0,
@@ -355,11 +355,27 @@
       "pass": true
     },
     {
+      "name": "translation:general.breadcrumbs",
+      "pass": true
+    },
+    {
+      "name": "translation:general.home",
+      "pass": true
+    },
+    {
+      "name": "translation:general.breadcrumbs",
+      "pass": true
+    },
+    {
+      "name": "translation:general.home",
+      "pass": true
+    },
+    {
       "name": "translation:collection.empty",
       "pass": true
     },
     {
-      "name": "snippet:image",
+      "name": "translation:collection.clear",
       "pass": true
     },
     {
@@ -2719,11 +2735,35 @@
       "pass": true
     },
     {
+      "name": "translation:collection.filter",
+      "pass": true
+    },
+    {
+      "name": "translation:collection.filter",
+      "pass": true
+    },
+    {
+      "name": "translation:general.close",
+      "pass": true
+    },
+    {
       "name": "translation:collection.min_price",
       "pass": true
     },
     {
       "name": "translation:collection.max_price",
+      "pass": true
+    },
+    {
+      "name": "translation:collection.clear",
+      "pass": true
+    },
+    {
+      "name": "translation:general.apply",
+      "pass": true
+    },
+    {
+      "name": "translation:collection.product_count",
       "pass": true
     },
     {
@@ -2735,7 +2775,35 @@
       "pass": true
     },
     {
+      "name": "translation:collection.remove_filter",
+      "pass": true
+    },
+    {
+      "name": "translation:collection.remove_filter",
+      "pass": true
+    },
+    {
       "name": "translation:collection.clear",
+      "pass": true
+    },
+    {
+      "name": "snippet:icon",
+      "pass": true
+    },
+    {
+      "name": "snippet:icon",
+      "pass": true
+    },
+    {
+      "name": "snippet:icon",
+      "pass": true
+    },
+    {
+      "name": "snippet:icon",
+      "pass": true
+    },
+    {
+      "name": "snippet:icon",
       "pass": true
     },
     {
@@ -3272,6 +3340,18 @@
     },
     {
       "name": "schema-label:t:sections.collection",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.show_collection_image",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.columns_desktop",
+      "pass": true
+    },
+    {
+      "name": "schema-label:t:settings.products_per_page",
       "pass": true
     },
     {
