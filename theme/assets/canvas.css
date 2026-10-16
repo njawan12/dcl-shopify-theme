@@ -483,3 +483,6 @@ product-recommendations:empty { display: none; }
   .living-canvas__heading { font-size: clamp(2.6rem, 12vw, 3.4rem); margin-block-end: 1rem; }
   .live-product { margin-block-start: 1.75rem; }
 }
+
+/* ---------- native form controls follow the brand accent ---------- */
+input[type='checkbox'], input[type='radio'], progress { accent-color: var(--accent); }
