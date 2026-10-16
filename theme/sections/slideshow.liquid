@@ -1,0 +1,219 @@
+{%- liquid
+  assign s = section.settings
+  assign count = section.blocks.size
+-%}
+<section class="slideshow slideshow--{{ s.height }} slideshow--mobile-{{ s.mobile_layout }}" aria-roledescription="carousel" aria-label="{{ 'general.slideshow' | t }}">
+  <slide-track class="slideshow__track" data-autoplay="{{ s.autoplay }}">
+    <ul class="slideshow__viewport" data-track role="list">
+      {%- for block in section.blocks -%}
+        {%- liquid
+          assign b = block.settings
+          assign priority = false
+          if forloop.first and section.index0 < 2
+            assign priority = true
+          endif
+        -%}
+        <li class="slide slide--{{ b.position }} slide--{{ b.text_color }}" {{ block.shopify_attributes }} aria-roledescription="slide" aria-label="{{ 'general.slide' | t: index: forloop.index, count: count }}">
+          <div class="slide__media">
+            {%- capture ph -%}lifestyle-{{ forloop.index | modulo: 2 | plus: 1 }}{%- endcapture -%}
+            {% render 'canvas-media', image: b.image, mobile_image: b.mobile_image, sizes: '100vw', priority: priority, placeholder: ph %}
+            <span class="slide__overlay" style="--overlay: {{ s.overlay | divided_by: 100.0 }}" aria-hidden="true"></span>
+          </div>
+          <div class="page-width slide__content">
+            <div class="slide__box">
+              {%- if b.heading != blank -%}
+                {%- if priority and section.index0 == 0 -%}<h1 class="slide__heading">{{ b.heading | escape }}</h1>{%- else -%}<h2 class="slide__heading">{{ b.heading | escape }}</h2>{%- endif -%}
+              {%- endif -%}
+              {%- if b.text != blank -%}<div class="slide__text rich-text">{{ b.text }}</div>{%- endif -%}
+              {%- if b.button_label != blank -%}<a class="button slide__button" href="{{ b.button_link | default: routes.all_products_collection_url }}">{{ b.button_label | escape }}</a>{%- endif -%}
+            </div>
+          </div>
+        </li>
+      {%- endfor -%}
+    </ul>
+    {%- if count > 1 -%}
+      <div class="slideshow__controls">
+        <button type="button" class="icon-button" data-track-prev>{% render 'icon', icon: 'chevron-left' %}<span class="visually-hidden">{{ 'general.previous' | t }}</span></button>
+        <div class="slideshow__dots">
+          {%- for block in section.blocks -%}
+            <button type="button" class="slideshow__dot" data-track-dot aria-current="{% if forloop.first %}true{% else %}false{% endif %}"><span class="visually-hidden">{{ 'general.slide' | t: index: forloop.index, count: count }}</span></button>
+          {%- endfor -%}
+        </div>
+        <button type="button" class="icon-button" data-track-next>{% render 'icon', icon: 'chevron-right' %}<span class="visually-hidden">{{ 'general.next' | t }}</span></button>
+        {%- if s.autoplay > 0 -%}
+          <button type="button" class="icon-button slideshow__pause" data-track-pause aria-pressed="false">
+            <span class="slideshow__pause-icon">{% render 'icon', icon: 'pause' %}</span><span class="slideshow__play-icon">{% render 'icon', icon: 'play' %}</span>
+            <span class="visually-hidden">{{ 'general.pause' | t }}</span>
+          </button>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </slide-track>
+</section>
+
+{% schema %}
+{
+  "name": "t:sections.slideshow",
+  "tag": "div",
+  "class": "section-slideshow",
+  "settings": [
+    {
+      "type": "select",
+      "id": "height",
+      "label": "t:settings.height",
+      "default": "large",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:options.small"
+        },
+        {
+          "value": "medium",
+          "label": "t:options.medium"
+        },
+        {
+          "value": "large",
+          "label": "t:options.large"
+        },
+        {
+          "value": "full",
+          "label": "t:options.full_screen"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "mobile_layout",
+      "label": "t:settings.mobile_layout",
+      "default": "overlay",
+      "options": [
+        {
+          "value": "overlay",
+          "label": "t:options.text_on_image"
+        },
+        {
+          "value": "stacked",
+          "label": "t:options.text_below"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "overlay",
+      "label": "t:settings.overlay",
+      "min": 0,
+      "max": 70,
+      "step": 5,
+      "unit": "%",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "autoplay",
+      "label": "t:settings.autoplay",
+      "info": "t:info.autoplay",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "unit": "s",
+      "default": 6
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "t:blocks.slide",
+      "limit": 5,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:settings.image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "t:settings.mobile_image"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "t:settings.heading",
+          "default": "Skincare with nothing to hide"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "t:settings.text",
+          "default": "<p>Small batch formulas for calm, healthy skin.</p>"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "t:settings.button_label",
+          "default": "Shop now"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:settings.button_link"
+        },
+        {
+          "type": "select",
+          "id": "position",
+          "label": "t:settings.content_position",
+          "default": "left",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:options.left"
+            },
+            {
+              "value": "center",
+              "label": "t:options.center"
+            },
+            {
+              "value": "right",
+              "label": "t:options.right"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "text_color",
+          "label": "t:settings.text_color",
+          "default": "light",
+          "options": [
+            {
+              "value": "light",
+              "label": "t:options.light"
+            },
+            {
+              "value": "dark",
+              "label": "t:options.dark"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.slideshow",
+      "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide",
+          "settings": {
+            "heading": "The daily ritual",
+            "text": "<p>Three steps, morning and night.</p>",
+            "button_label": "Shop the routine"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

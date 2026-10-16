@@ -227,6 +227,93 @@
     ]
   },
   {
+    "name": "t:sections.cards",
+    "settings": [
+      {
+        "type": "select",
+        "id": "card_ratio",
+        "label": "t:settings.image_ratio",
+        "options": [
+          {
+            "value": "square",
+            "label": "t:options.square"
+          },
+          {
+            "value": "portrait",
+            "label": "t:options.portrait"
+          },
+          {
+            "value": "natural",
+            "label": "t:options.natural"
+          }
+        ],
+        "default": "portrait"
+      },
+      {
+        "type": "checkbox",
+        "id": "card_hover",
+        "label": "t:settings.card_hover",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "card_quick_add",
+        "label": "t:settings.card_quick_add",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "card_vendor",
+        "label": "t:settings.card_vendor",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "card_rating",
+        "label": "t:settings.card_rating",
+        "default": true
+      }
+    ]
+  },
+  {
+    "name": "t:sections.cart",
+    "settings": [
+      {
+        "type": "select",
+        "id": "cart_type",
+        "label": "t:settings.cart_type",
+        "options": [
+          {
+            "value": "drawer",
+            "label": "t:options.drawer"
+          },
+          {
+            "value": "page",
+            "label": "t:options.page"
+          }
+        ],
+        "default": "drawer"
+      },
+      {
+        "type": "number",
+        "id": "cart_free_shipping",
+        "label": "t:settings.free_shipping",
+        "info": "t:info.free_shipping"
+      },
+      {
+        "type": "collection",
+        "id": "cart_upsell",
+        "label": "t:settings.cart_upsell"
+      },
+      {
+        "type": "checkbox",
+        "id": "cart_note",
+        "label": "t:settings.cart_note",
+        "default": true
+      }
+    ]
+  },
+  {
     "name": "t:sections.social",
     "settings": [
       {

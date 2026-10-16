@@ -5,14 +5,70 @@
             {% case block.type %}
               {% when 'title' %}{% if primary %}<h1>{{ product.title | escape }}</h1>{% else %}<h2><a href="{{ product.url }}">{{ product.title | escape }}</a></h2>{% endif %}
               {% when 'vendor' %}{% if product.vendor != blank %}<p>{{ product.vendor | escape }}</p>{% endif %}
-              {% when 'price' %}{% render 'price', variant: variant, allocation: allocation %}{% render 'availability', variant: variant %}{% if cart.taxes_included %}<p>{{ 'product.tax_included' | t }}</p>{% endif %}
+              {% when 'rating' %}{% render 'rating-stars', product: product %}
+              {% when 'text' %}{% if block.settings.text != blank %}<p class="product-text product-text--{{ block.settings.style }}">{{ block.settings.text }}</p>{% endif %}
+              {% when 'price' %}
+                <div class="price-row">
+                  {% render 'price', variant: variant, allocation: allocation %}
+                  {%- assign compare = variant.compare_at_price -%}
+                  {%- if allocation -%}{%- assign compare = allocation.compare_at_price -%}{%- endif -%}
+                  {%- assign amount = variant.price -%}
+                  {%- if allocation -%}{%- assign amount = allocation.price -%}{%- endif -%}
+                  {%- if compare > amount -%}
+                    {%- assign saving = compare | minus: amount | times: 100.0 | divided_by: compare | round -%}
+                    <span class="save-badge">{{ 'product.save' | t: percent: saving }}</span>
+                  {%- endif -%}
+                </div>
+                {% render 'availability', variant: variant %}{% if cart.taxes_included %}<p>{{ 'product.tax_included' | t }}</p>{% endif %}
               {% when 'description' %}{% if product.description != blank %}<div class="rich-text">{{ product.description }}</div>{% endif %}
               {% when 'options' %}{% render 'variant-options', product: product %}
-              {% when 'quantity' %}{% render 'quantity', variant: variant, section: section, form_id: form_id %}
+              {% when 'quantity' %}{% render 'quantity', variant: variant, section: section, form_id: form_id, product: product %}
               {% when 'plans' %}{% render 'selling-plans', variant: variant, product: product, allocation: allocation, section: section %}
               {% when 'buy' %}{% render 'product-form', product: product, variant: variant, allocation: allocation, form_id: form_id, has_quantity: has_quantity, block: block, section: section %}
               {% when 'pickup' %}
-                {% if variant.available %}{% assign pickups = variant.store_availabilities | where: 'pick_up_enabled', true %}{% if pickups.size > 0 %}<div><h3>{{ 'product.pickup' | t }}</h3>{% for pickup in pickups %}<p>{{ pickup.location.name | escape }} — {% if pickup.available %}{{ pickup.pick_up_time | escape }}{% else %}{{ 'product.pickup_unavailable' | t }}{% endif %}</p>{% endfor %}</div>{% endif %}{% endif %}
+                {% if variant.available %}{% assign pickups = variant.store_availabilities | where: 'pick_up_enabled', true %}{% if pickups.size > 0 %}
+                  <div class="pickup">
+                    {% render 'icon', icon: 'check' %}
+                    <div>
+                      {% for pickup in pickups limit: 1 %}<p class="pickup__title">{% if pickup.available %}{{ 'product.pickup_at' | t: location: pickup.location.name }}{% else %}{{ 'product.pickup_unavailable_at' | t: location: pickup.location.name }}{% endif %}</p>{% if pickup.available %}<p class="pickup__time">{{ pickup.pick_up_time | escape }}</p>{% endif %}{% endfor %}
+                      {% if pickups.size > 1 %}<details class="pickup__more"><summary>{{ 'product.pickup_more' | t }}</summary><ul role="list">{% for pickup in pickups offset: 1 %}<li>{{ pickup.location.name | escape }}: {% if pickup.available %}{{ pickup.pick_up_time | escape }}{% else %}{{ 'product.pickup_unavailable' | t }}{% endif %}</li>{% endfor %}</ul></details>{% endif %}
+                    </div>
+                  </div>
+                {% endif %}{% endif %}
+              {% when 'inventory' %}
+                {%- if variant.available and variant.inventory_management == 'shopify' -%}
+                  {%- assign low = block.settings.threshold | default: 5 -%}
+                  {%- if variant.inventory_quantity > 0 and variant.inventory_quantity <= low -%}
+                    <p class="stock stock--low"><span class="stock__dot" aria-hidden="true"></span>{{ 'product.low_stock' | t: count: variant.inventory_quantity }}</p>
+                  {%- elsif variant.inventory_quantity > low -%}
+                    <p class="stock"><span class="stock__dot" aria-hidden="true"></span>{{ 'product.in_stock' | t }}</p>
+                  {%- endif -%}
+                {%- elsif variant.available -%}
+                  <p class="stock"><span class="stock__dot" aria-hidden="true"></span>{{ 'product.in_stock' | t }}</p>
+                {%- endif -%}
+              {% when 'icons' %}
+                {%- capture icon_items -%}
+                  {%- for i in (1..3) -%}
+                    {%- assign label_key = 'label_' | append: i -%}{%- assign icon_key = 'icon_' | append: i -%}
+                    {%- if block.settings[label_key] != blank -%}<li>{% if block.settings[icon_key] != 'none' %}{% render 'icon', icon: block.settings[icon_key] %}{% endif %}<span>{{ block.settings[label_key] | escape }}</span></li>{%- endif -%}
+                  {%- endfor -%}
+                {%- endcapture -%}
+                {%- if icon_items != blank -%}<ul class="trust-icons" role="list">{{ icon_items }}</ul>{%- endif -%}
+              {% when 'collapsible' %}
+                {%- if block.settings.heading != blank -%}
+                  {%- capture tab_body -%}{{ block.settings.content }}{% if block.settings.page != blank %}{{ block.settings.page.content }}{% endif %}{%- endcapture -%}
+                  {%- if tab_body != blank -%}
+                    <details class="accordion"{% if block.settings.open %} open{% endif %}>
+                      <summary>{% if block.settings.icon != 'none' %}{% render 'icon', icon: block.settings.icon %}{% endif %}<span>{{ block.settings.heading | escape }}</span>{% render 'icon', icon: 'plus' %}</summary>
+                      <div class="accordion__body rich-text">{{ tab_body }}</div>
+                    </details>
+                  {%- endif -%}
+                {%- endif -%}
+              {% when 'share' %}
+                <share-button class="share" data-url="{{ shop.url }}{{ product.url }}" data-copied="{{ 'product.link_copied' | t }}">
+                  <button type="button" class="share__button">{% render 'icon', icon: 'share' %}<span>{% if block.settings.label != blank %}{{ block.settings.label | escape }}{% else %}{{ 'product.share' | t }}{% endif %}</span></button>
+                  <p class="share__status" role="status"></p>
+                </share-button>
               {% when 'evidence_note' %}{% render 'evidence-note', content: block.settings, block: block %}
               {% when 'evidence_pair' %}{% render 'evidence-pair', content: block.settings, block: block %}
               {% when 'evidence_process' %}{% render 'evidence-process', content: block.settings, block: block %}

@@ -305,7 +305,6 @@
 .announcement-bar p { margin: 0; padding-block: 0.6rem; text-align: center; font-size: 0.8rem; letter-spacing: 0.04em; }
 .announcement-bar a { text-decoration: none; }
 .announcement-bar a:hover { text-decoration: underline; }
-.shopify-section-group-header-group:has(.site-header--sticky) { position: sticky; inset-block-start: 0; z-index: 20; }
 .site-header { background: var(--background-1); }
 
 /* ---------- Blog / article / collection polish ---------- */
@@ -401,78 +400,6 @@ h6 { font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; }
 product-recommendations { display: block; }
 product-recommendations:empty { display: none; }
 .product-recs__heading { margin-block-end: 1.5rem; }
-
-/* ---------- phone menu: slide out panel ---------- */
-.primary-menu > summary { list-style: none; align-items: center; gap: 0.6rem; min-inline-size: 44px; }
-@media (max-width: 989px) { .primary-menu > summary { display: inline-flex; } }
-@supports not selector(details::details-content) { .primary-menu > summary { display: inline-flex; } }
-.primary-menu > summary::-webkit-details-marker { display: none; }
-.menu-icon, .menu-icon::before, .menu-icon::after {
-  display: block;
-  inline-size: 20px;
-  block-size: 1.5px;
-  background: currentColor;
-  border-radius: 1px;
-}
-.menu-icon { position: relative; }
-.menu-icon::before, .menu-icon::after { content: ''; position: absolute; inset-inline-start: 0; }
-.menu-icon::before { inset-block-start: -6px; }
-.menu-icon::after { inset-block-start: 6px; }
-.menu-close { display: none; }
-@media (max-width: 989px) {
-  .menu-label { font-size: 0.85rem; }
-  .primary-menu[open]::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    z-index: 30;
-    background: rgb(0 0 0 / 0.35);
-  }
-  .primary-menu > nav {
-    position: fixed;
-    inset-block: 0;
-    inset-inline: 0 auto;
-    z-index: 31;
-    inline-size: min(24rem, 86vw);
-    padding: 1rem 1.5rem 2rem;
-    overflow-y: auto;
-    border: 0;
-    border-inline-end: 1px solid currentColor;
-    background: var(--background-1);
-    animation: menu-in 0.25s ease;
-  }
-  .menu-close { display: inline-flex; margin-block-end: 1rem; }
-  .primary-menu .navigation-list > li { border-block-end: 1px solid color-mix(in srgb, currentColor 20%, transparent); }
-  .primary-menu .navigation-list > li > a, .primary-menu .navigation-list summary { font-size: 1.15rem; padding-inline: 0; }
-}
-@keyframes menu-in { from { transform: translateX(-100%); } to { transform: none; } }
-[dir='rtl'] .primary-menu > nav { animation-name: menu-in-rtl; }
-@keyframes menu-in-rtl { from { transform: translateX(100%); } to { transform: none; } }
-@media (min-width: 990px) {
-  .menu-label { display: inline; }
-}
-
-/* ---------- phone header: one row ---------- */
-@media (max-width: 989px) {
-  .header-row { flex-wrap: nowrap; gap: 0.25rem; }
-  site-navigation { order: -1; flex: none; }
-  .brand { flex: 1 1 auto; min-inline-size: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 1.1rem; }
-  .brand img { max-block-size: 40px; }
-  .menu-label {
-    position: absolute;
-    inline-size: 1px;
-    block-size: 1px;
-    overflow: hidden;
-    clip-path: inset(50%);
-    white-space: nowrap;
-  }
-  .primary-menu > summary { justify-content: center; padding: 0; }
-  .header-actions { flex: none; gap: 0.15rem; }
-  .header-actions a { padding-inline: 0.3rem; }
-  .header-localization { display: none; }
-}
-.menu-localization { margin-block-start: 2rem; padding-block-start: 1rem; border-block-start: 1px solid currentColor; }
-@media (min-width: 990px) { .menu-localization { display: none; } }
 
 /* ---------- phone hero: photo first, tighter rhythm ---------- */
 @media (max-width: 749px) {

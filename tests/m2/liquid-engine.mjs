@@ -9,6 +9,8 @@ export const engine = new Liquid({ root: snippets, extname: '.liquid', strictFil
 engine.registerFilter('image_url', () => '/unit-image.svg');
 engine.registerFilter('image_tag', (url) => `<img src="${url}" width="30" height="30" alt="">`);
 engine.registerFilter('money_with_currency', (v) => `${(Number(v) / 100).toFixed(2)} CAD`);
+engine.registerFilter('money', (v) => `$${(Number(v) / 100).toFixed(2)}`);
+engine.registerFilter('placeholder_svg_tag', (name, cls) => `<svg class="${cls || ''}" data-placeholder="${name}"></svg>`);
 engine.registerFilter('t', (key, ...pairs) => {
   let text = key.split('.').reduce((value, part) => value?.[part], strings);
   if (typeof text !== 'string') throw new Error(`Missing test translation: ${key}`);

@@ -42,8 +42,8 @@ for f in T.rglob('*'):
   check('translation:'+key,key in locale or key+'.one' in locale)
  for snippet in re.findall(r"{%[-\s]*render\s+'([^']+)'",s):check('snippet:'+snippet,(T/'snippets'/(snippet+'.liquid')).exists())
 settings=json.loads(text('config/settings_schema.json')); controls=[v for group in settings for v in group.get('settings',[]) if 'id' in v]
-# 19 presentation/brand controls plus 6 social links (Theme Store requires a social icon set).
-check('global-count',len(controls)<=25)
+# Brand, color and layout controls, social links, product card and cart drawer settings.
+check('global-count',len(controls)<=40)
 check('unique-global-ids',len({v['id'] for v in controls})==len(controls))
 check('no-arbitrary-controls',not any(v['type'] in {'range','textarea','liquid'} for v in controls))
 check('four-color-pairs',all(any(v['id']==role+'_'+str(i) for v in controls) for i in range(1,5) for role in ['foreground','background']))

@@ -2,7 +2,7 @@
   assign s = section.settings
   assign scheme = s.scheme | remove: 'scheme'
 -%}
-<section class="collection-list scheme-{{ scheme }} section-space" {% if s.heading != blank %}aria-labelledby="Heading-{{ section.id }}"{% endif %}>
+<section class="collection-list collection-list--{{ s.style | default: 'tiles' }} scheme-{{ scheme }} section-space" {% if s.heading != blank %}aria-labelledby="Heading-{{ section.id }}"{% endif %}>
   <div class="page-width">
     {%- if s.eyebrow != blank or s.heading != blank -%}
   <div class="section-intro">
@@ -17,7 +17,7 @@
         <li class="collection-tile" {{ block.shopify_attributes }}>
           {%- if c != blank -%}
             <a href="{{ c.url }}">
-              {%- assign tile_image = c.featured_image -%}
+              {%- assign tile_image = block.settings.image | default: c.featured_image -%}
               {%- render 'canvas-media', image: tile_image, sizes: '(min-width: 990px) 33vw, 50vw', eager: false, placeholder: 'collection-1' -%}
               <h3>{{ c.title | escape }}</h3>
               <p class="collection-tile__count">{{ 'canvas.products_count' | t: count: c.products_count }}</p>
@@ -57,6 +57,26 @@
     },
     {
       "type": "select",
+      "id": "style",
+      "label": "t:settings.style",
+      "default": "tiles",
+      "options": [
+        {
+          "value": "tiles",
+          "label": "t:options.tiles"
+        },
+        {
+          "value": "circles",
+          "label": "t:options.circles"
+        },
+        {
+          "value": "overlay",
+          "label": "t:options.overlay"
+        }
+      ]
+    },
+    {
+      "type": "select",
       "id": "scheme",
       "label": "t:settings.scheme",
       "default": "scheme1",
@@ -89,6 +109,11 @@
           "type": "collection",
           "id": "collection",
           "label": "t:settings.collection"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:settings.image_override"
         }
       ]
     }

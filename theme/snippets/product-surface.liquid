@@ -17,28 +17,10 @@
     assign chosen_media = variant.featured_media | default: product.featured_media
   %}
   {% assign composition = section.settings.composition | default: 'balanced' %}
-  {% capture gallery %}
-    <div class="product-gallery">
-      {% if chosen_media %}{% render 'product-media', media: chosen_media, product: product, section: section, eager: primary, composition: composition, lead: true %}{% endif %}
-      {% assign encounters = 0 %}{% if chosen_media %}{% assign encounters = 1 %}{% endif %}
-      {% capture additional_media %}
-        {% for media in product.media %}{% unless media.id == chosen_media.id %}
-          {% assign encounters = encounters | plus: 1 %}
-          {% if encounters > 4 %}{% render 'product-media', media: media, product: product, section: section, eager: false, composition: composition %}{% endif %}
-        {% endunless %}{% endfor %}
-      {% endcapture %}
-      {% assign encounters = 0 %}{% if chosen_media %}{% assign encounters = 1 %}{% endif %}
-      {% for media in product.media %}{% unless media.id == chosen_media.id %}
-        {% assign encounters = encounters | plus: 1 %}
-        {% if encounters <= 4 %}{% render 'product-media', media: media, product: product, section: section, eager: false, composition: composition %}{% endif %}
-      {% endunless %}{% endfor %}
-      {% assign additional_media = additional_media | strip %}
-      {% if additional_media != blank %}<details class="gallery-more"><summary>{{ 'product.more_media' | t }}</summary><div class="gallery-continuation">{{ additional_media }}</div></details>{% endif %}
-      {% if product.media.size == 0 %}<div class="media-placeholder">{{ 'general.no_media' | t }}</div>{% endif %}
-    </div>
-  {% endcapture %}
+  {% capture gallery %}{% render 'product-gallery', product: product, section: section, selected: chosen_media, primary: primary, layout: section.settings.gallery_layout %}{% endcapture %}
   {% capture decision %}{% for block in section.blocks %}
-    {% unless block.type == 'description' or block.type == 'evidence_note' or block.type == 'evidence_pair' or block.type == 'evidence_process' %}
+    {% assign narrative_block = false %}{% if composition == 'editorial' and block.type == 'description' %}{% assign narrative_block = true %}{% endif %}
+    {% unless narrative_block or block.type == 'evidence_note' or block.type == 'evidence_pair' or block.type == 'evidence_process' %}
       {% if composition == 'compact' %}
         {% unless block.type == 'quantity' or block.type == 'buy' or block.type == 'pickup' %}{% render 'product-block', block: block, product: product, variant: variant, allocation: allocation, form_id: form_id, has_quantity: has_quantity, section: section, primary: primary %}{% endunless %}
       {% else %}{% render 'product-block', block: block, product: product, variant: variant, allocation: allocation, form_id: form_id, has_quantity: has_quantity, section: section, primary: primary %}{% endif %}
@@ -47,7 +29,7 @@
   {% capture narrative %}{% if composition == 'editorial' %}{% for block in section.blocks %}{% if block.type == 'description' or block.type == 'evidence_note' %}{% render 'product-block', block: block, product: product, section: section %}{% endif %}{% endfor %}{% endif %}{% endcapture %}
   {% capture education %}{% for block in section.blocks %}
     {% if block.type == 'evidence_pair' or block.type == 'evidence_process' %}{% render 'product-block', block: block, product: product, section: section %}
-    {% elsif composition != 'editorial' %}{% if block.type == 'description' or block.type == 'evidence_note' %}{% render 'product-block', block: block, product: product, section: section %}{% endif %}{% endif %}
+    {% elsif composition != 'editorial' %}{% if block.type == 'evidence_note' %}{% render 'product-block', block: block, product: product, section: section %}{% endif %}{% endif %}
   {% endfor %}{% endcapture %}
   <div class="page-width section-space product-surface product-surface--{{ composition }} {% if composition == 'balanced' %}balanced-product{% endif %}" data-product-id="{{ product.id }}" data-composition="{{ composition }}">
     {{ gallery }}
@@ -66,6 +48,28 @@
     {% else %}<div class="product-content">{{ decision }}</div>{% endif %}
     {% assign education_text = education | strip %}{% if education_text != blank %}<div class="product-education">{{ education }}</div>{% endif %}
   </div>
+  {%- if primary and section.settings.sticky_buy -%}
+    {%- liquid
+      assign sticky_ok = variant.available
+      if product.requires_selling_plan and allocation == nil
+        assign sticky_ok = false
+      endif
+    -%}
+    <sticky-buy class="sticky-buy scheme-1" data-watch="{{ form_id }}">
+      <div class="page-width sticky-buy__inner">
+        <div class="sticky-buy__product">
+          {%- if chosen_media -%}{{ chosen_media.preview_image | image_url: width: 120 | image_tag: sizes: '3rem', loading: 'lazy', alt: '' }}{%- endif -%}
+          <div>
+            <p class="sticky-buy__title">{{ product.title | escape }}</p>
+            <p class="sticky-buy__meta">{% unless product.has_only_default_variant %}{{ variant.title | escape }} · {% endunless %}{{ variant.price | money }}</p>
+          </div>
+        </div>
+        <button type="submit" form="{{ form_id }}" name="add" class="button"{% unless sticky_ok %} disabled{% endunless %}>
+          {%- if sticky_ok -%}{{ 'product.add' | t }}{%- else -%}{{ 'product.sold_out' | t }}{%- endif -%}
+        </button>
+      </div>
+    </sticky-buy>
+  {%- endif -%}
   {% assign models = product.media | where: 'media_type', 'model' %}
   {% if models.size > 0 %}<script type="module" src="{{ 'media.js' | asset_url }}"></script>{% endif %}
   {% if primary %}<script type="application/ld+json">{{ product | structured_data }}</script>{% endif %}
