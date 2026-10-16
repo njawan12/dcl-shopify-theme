@@ -238,7 +238,9 @@
     "text_size": "Text size",
     "title": "Title",
     "verified": "Show verified buyer",
-    "view_all": "Show view all button"
+    "view_all": "Show view all button",
+    "products_per_page": "Products per page",
+    "show_collection_image": "Show collection image as a banner"
   },
   "options": {
     "compact": "Compact",
