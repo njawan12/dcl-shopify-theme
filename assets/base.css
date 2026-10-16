@@ -221,8 +221,8 @@ site-navigation { font-size: 0.9rem; }
 .product-surface { display: grid; gap: 2.5rem; align-items: start; }
 .product-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.7rem; }
 .product-gallery > :first-child { grid-column: 1 / -1; }
-.product-media { background: #fff; }
-.product-media img { aspect-ratio: var(--media-ratio, 1); max-block-size: 70svh; padding: 0.5rem; }
+.product-media { background: var(--background-2); }
+.product-media img { aspect-ratio: var(--media-ratio, 1); max-block-size: 70svh; }
 .product-content { padding-block-start: 0.5rem; }
 .product-block { margin-block-end: 1.1rem; }
 .product-block--title h1 { font-size: clamp(2rem, 4vw, var(--heading-scale)); margin-block-end: 0.8rem; }
