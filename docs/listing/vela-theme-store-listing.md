@@ -30,13 +30,13 @@ https://vela-skincare-qjtn7bvf.myshopify.com
 
 File: `vela-desktop-1000x1248.png`
 
-Alt text: Vela theme home page with a large serif headline, a lifestyle photo of a woman holding a skincare bottle, a featured product and three proof points
+Alt text: Vela theme home page with a slideshow showing a woman holding a skincare jar, a serif headline, a Shop bestsellers button and a scrolling message strip
 
 **Mobile screenshot**
 
 File: `vela-mobile-750x1334.png`
 
-Alt text: Vela theme home page on a phone with the lifestyle hero photo above the headline and a one row header
+Alt text: Vela theme home page on a phone with a square slideshow photo above the headline and a one row header
 
 ## Key highlights
 
@@ -64,13 +64,13 @@ Alt text: Vela Guided set section showing three routine steps with products and 
 
 **Highlight 3**
 
-File: `vela-highlight-3-image-details.png`
+File: `vela-highlight-3-slide-out-cart.png`
 
-Title (30 max): Image details
+Title (30 max): Slide out cart
 
-Description (140 max): Number the details on any photo. Shoppers open each one to learn more, and on phones they turn into a clean list.
+Description (140 max): Add to cart without leaving the page. A free shipping bar, quantity buttons and smart suggestions help lift order value.
 
-Alt text: Vela Edge crop layout with numbered detail markers on a close up of face cream
+Alt text: Vela slide out cart over a product page with a free shipping bar, two products and suggested add ons
 
 ## Features to select
 
