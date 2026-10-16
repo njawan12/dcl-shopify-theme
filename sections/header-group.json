@@ -4,11 +4,19 @@
   "sections": {
     "announcement": {
       "type": "announcement-bar",
-      "settings": {}
+      "settings": {
+        "text": "Free shipping on orders over $50"
+      }
     },
     "header": {
       "type": "header",
-      "settings": {}
+      "settings": {
+        "menu": "main-menu",
+        "logo_position": "center",
+        "logo_width": 140,
+        "sticky": true,
+        "transparent_border": false
+      }
     }
   },
   "order": [

@@ -18,7 +18,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Gentle, effective formulas made in small batches.",
+            "text": "Fragrance free and made in small batches.",
             "style": "small"
           }
         },
@@ -51,11 +51,11 @@
           "type": "icons",
           "settings": {
             "icon_1": "truck",
-            "label_1": "Tracked shipping",
-            "icon_2": "return",
-            "label_2": "30 day returns",
-            "icon_3": "shield",
-            "label_3": "Secure checkout"
+            "label_1": "Free shipping over $50",
+            "icon_2": "recycle",
+            "label_2": "Refillable glass",
+            "icon_3": "rabbit",
+            "label_3": "Cruelty free"
           }
         },
         "pickup": {
@@ -71,7 +71,7 @@
           "settings": {
             "heading": "How to use",
             "icon": "drop",
-            "content": "<p>Apply to clean skin morning and night. Follow with your usual moisturiser.</p>",
+            "content": "{{ product.metafields.custom.how_to_use | metafield_tag }}",
             "open": false
           }
         },
@@ -80,7 +80,7 @@
           "settings": {
             "heading": "Shipping and returns",
             "icon": "truck",
-            "content": "<p>Most orders ship within two business days. If something isn’t right, contact us within 30 days for a return or exchange.</p>",
+            "content": "<p>Orders ship within two business days with tracking. Shipping is free over $50. Unopened products can be returned within 30 days.</p>",
             "open": false
           }
         },
@@ -88,6 +88,15 @@
           "type": "share",
           "settings": {
             "label": "Share"
+          }
+        },
+        "ingredients": {
+          "type": "collapsible",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "leaf",
+            "content": "{{ product.metafields.custom.ingredients | metafield_tag }}",
+            "open": false
           }
         }
       },
@@ -105,6 +114,7 @@
         "pickup",
         "description",
         "how_to",
+        "ingredients",
         "shipping",
         "share"
       ],

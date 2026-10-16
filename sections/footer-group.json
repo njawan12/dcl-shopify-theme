@@ -5,14 +5,64 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "brand": { "type": "brand", "settings": { "text": "", "social": true } },
-        "shop": { "type": "menu", "settings": { "heading": "Shop", "menu": "main-menu" } },
-        "help": { "type": "menu", "settings": { "heading": "Help", "menu": "footer" } },
-        "newsletter": { "type": "newsletter", "settings": { "heading": "Stay in touch", "text": "<p>New launches and routines, a few times a month.</p>" } }
+        "brand": {
+          "type": "brand",
+          "settings": {
+            "text": "<p>Small batch skincare for calm, healthy skin. A demo store for the Vela Shopify theme.</p>",
+            "social": true
+          }
+        },
+        "shop": {
+          "type": "menu",
+          "settings": {
+            "heading": "Shop",
+            "menu": "main-menu"
+          }
+        },
+        "help": {
+          "type": "menu",
+          "settings": {
+            "heading": "Help",
+            "menu": "footer"
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "heading": "Stay in touch",
+            "text": "<p>New launches and routines, a few times a month.</p>"
+          }
+        }
       },
-      "block_order": ["brand", "shop", "help", "newsletter"],
-      "settings": { "payment_icons": true, "localization": true, "scheme": "scheme3" }
+      "block_order": [
+        "brand",
+        "shop",
+        "help",
+        "newsletter"
+      ],
+      "settings": {
+        "payment_icons": true,
+        "localization": true,
+        "scheme": "scheme3"
+      }
+    },
+    "popup": {
+      "type": "newsletter-popup",
+      "settings": {
+        "enabled": true,
+        "delay": 8,
+        "days": 7,
+        "image": "shopify://shop_images/vela-face.png",
+        "eyebrow": "Join the list",
+        "heading": "Be the first to know",
+        "text": "<p>New launches, routines and members only offers, a few times a month.</p>",
+        "success_heading": "Welcome to the list",
+        "scheme": "scheme1"
+      }
     }
   },
-  "order": ["footer"]
+  "order": [
+    "footer",
+    "popup"
+  ]
 }

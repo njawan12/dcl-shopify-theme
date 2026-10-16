@@ -18,7 +18,16 @@
       "rhythm": "spacious",
       "radius": "square",
       "border": "quiet",
-      "motion": "respect"
+      "motion": "respect",
+      "card_ratio": "portrait",
+      "card_hover": true,
+      "card_quick_add": true,
+      "card_vendor": false,
+      "card_rating": true,
+      "cart_type": "drawer",
+      "cart_free_shipping": 50,
+      "cart_upsell": "bestsellers",
+      "cart_note": true
     }
   }
 }

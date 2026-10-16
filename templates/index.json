@@ -1,5 +1,181 @@
 {
   "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "s1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/vela-slide-model.png",
+            "heading": "Skincare with nothing to hide",
+            "text": "<p>Small batch formulas for calm, healthy skin. Fragrance free and made to be refilled.</p>",
+            "button_label": "Shop bestsellers",
+            "button_link": "shopify://collections/bestsellers",
+            "position": "left",
+            "text_color": "dark"
+          }
+        },
+        "s2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/vela-slide-shelf.png",
+            "heading": "The daily ritual",
+            "text": "<p>Three steps, morning and night. Build yours in a minute.</p>",
+            "button_label": "Shop the routine",
+            "button_link": "shopify://collections/routine",
+            "position": "left",
+            "text_color": "dark"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2"
+      ],
+      "settings": {
+        "height": "large",
+        "mobile_layout": "stacked",
+        "overlay": 0,
+        "autoplay": 6
+      }
+    },
+    "marquee": {
+      "type": "marquee",
+      "blocks": {
+        "m0": {
+          "type": "item",
+          "settings": {
+            "text": "Free shipping over $50"
+          }
+        },
+        "m1": {
+          "type": "item",
+          "settings": {
+            "text": "Fragrance free"
+          }
+        },
+        "m2": {
+          "type": "item",
+          "settings": {
+            "text": "Refillable glass"
+          }
+        },
+        "m3": {
+          "type": "item",
+          "settings": {
+            "text": "Made in small batches"
+          }
+        },
+        "m4": {
+          "type": "item",
+          "settings": {
+            "text": "Cruelty free"
+          }
+        }
+      },
+      "block_order": [
+        "m0",
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ],
+      "settings": {
+        "size": "small",
+        "speed": 35,
+        "separator": "sparkle",
+        "scheme": "scheme3"
+      }
+    },
+    "categories": {
+      "type": "collection-list",
+      "blocks": {
+        "face": {
+          "type": "collection",
+          "settings": {
+            "collection": "face"
+          }
+        },
+        "body": {
+          "type": "collection",
+          "settings": {
+            "collection": "body"
+          }
+        },
+        "lips": {
+          "type": "collection",
+          "settings": {
+            "collection": "lips"
+          }
+        },
+        "routine": {
+          "type": "collection",
+          "settings": {
+            "collection": "routine"
+          }
+        },
+        "bestsellers": {
+          "type": "collection",
+          "settings": {
+            "collection": "bestsellers"
+          }
+        }
+      },
+      "block_order": [
+        "face",
+        "body",
+        "lips",
+        "routine",
+        "bestsellers"
+      ],
+      "settings": {
+        "eyebrow": "",
+        "heading": "Shop by category",
+        "text": "",
+        "style": "circles",
+        "scheme": "scheme1"
+      }
+    },
+    "tabs": {
+      "type": "product-tabs",
+      "blocks": {
+        "t1": {
+          "type": "tab",
+          "settings": {
+            "collection": "bestsellers",
+            "label": "Bestsellers"
+          }
+        },
+        "t2": {
+          "type": "tab",
+          "settings": {
+            "collection": "face",
+            "label": "Face"
+          }
+        },
+        "t3": {
+          "type": "tab",
+          "settings": {
+            "collection": "body",
+            "label": "Body"
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "settings": {
+        "eyebrow": "Shop",
+        "heading": "Most loved",
+        "layout": "carousel",
+        "limit": 8,
+        "columns": 4,
+        "view_all": true,
+        "scheme": "scheme1"
+      }
+    },
     "hero": {
       "type": "living-canvas",
       "blocks": {
@@ -43,31 +219,53 @@
         "product": "barrier-cream"
       }
     },
-    "edit": {
-      "type": "commerce-mosaic",
+    "benefits": {
+      "type": "icon-row",
       "blocks": {
-        "story-1": {
-          "type": "story",
+        "b1": {
+          "type": "item",
           "settings": {
-            "heading": "Fewer steps, better kept",
-            "text": "We formulate for the routine you will actually do, morning and night.",
-            "button_label": "Shop the routine",
-            "button_link": "shopify://collections/routine",
-            "image": "shopify://shop_images/vela-hero-serum.png"
+            "icon": "leaf",
+            "heading": "Plant based",
+            "text": "Short ingredient lists with nothing extra."
+          }
+        },
+        "b2": {
+          "type": "item",
+          "settings": {
+            "icon": "rabbit",
+            "heading": "Cruelty free",
+            "text": "Never tested on animals."
+          }
+        },
+        "b3": {
+          "type": "item",
+          "settings": {
+            "icon": "recycle",
+            "heading": "Refillable glass",
+            "text": "Packaging made to be kept."
+          }
+        },
+        "b4": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "heading": "Free shipping",
+            "text": "On every order over $50."
           }
         }
       },
       "block_order": [
-        "story-1"
+        "b1",
+        "b2",
+        "b3",
+        "b4"
       ],
       "settings": {
-        "eyebrow": "Shop",
-        "heading": "The daily edit",
-        "cadence": "story",
-        "limit": "8",
-        "button_label": "View all",
-        "collection": "face",
-        "scheme": "scheme1"
+        "eyebrow": "",
+        "heading": "",
+        "style": "plain",
+        "scheme": "scheme2"
       }
     },
     "routine": {
@@ -109,6 +307,22 @@
         "text": "<p>Start with the essentials. Choose only the steps you want and add them together.</p>",
         "footnote": "Individual products. Your own rhythm.",
         "scheme": "scheme3"
+      }
+    },
+    "compare": {
+      "type": "before-after",
+      "settings": {
+        "eyebrow": "Texture",
+        "heading": "Rich cream or light milk?",
+        "text": "<p>Drag to compare. Barrier Cream is thick and cushioning for the last step. Cleansing Milk melts on contact and rinses clean.</p>",
+        "button_label": "Find your texture",
+        "button_link": "shopify://collections/face",
+        "before_image": "shopify://shop_images/vela-texture-cream.png",
+        "before_label": "Barrier Cream",
+        "after_image": "shopify://shop_images/vela-texture-milk.png",
+        "after_label": "Cleansing Milk",
+        "layout": "image_second",
+        "scheme": "scheme1"
       }
     },
     "detail": {
@@ -157,40 +371,65 @@
         "product": "barrier-cream"
       }
     },
-    "facts": {
-      "type": "feature-facts",
+    "reviews": {
+      "type": "reviews",
       "blocks": {
-        "f1": {
-          "type": "fact",
+        "r1": {
+          "type": "review",
           "settings": {
-            "heading": "Short ingredient lists",
-            "text": "<p>Each formula uses only what earns its place.</p>"
+            "rating": 5,
+            "title": "My skin finally feels calm",
+            "quote": "<p>The barrier cream is rich without feeling heavy. I use it every night.</p>",
+            "author": "Sample review",
+            "verified": false,
+            "product": "barrier-cream"
           }
         },
-        "f2": {
-          "type": "fact",
+        "r2": {
+          "type": "review",
           "settings": {
-            "heading": "Gentle textures",
-            "text": "<p>Milks, gels and balms that feel calm on skin.</p>"
+            "rating": 5,
+            "title": "A cleanser that doesn't strip",
+            "quote": "<p>Soft, milky and gentle. My face never feels tight afterwards.</p>",
+            "author": "Sample review",
+            "verified": false,
+            "product": "daily-cleansing-milk"
           }
         },
-        "f3": {
-          "type": "fact",
+        "r3": {
+          "type": "review",
           "settings": {
-            "heading": "Made to be kept",
-            "text": "<p>Glass and aluminum you will want to keep on the shelf.</p>"
+            "rating": 4,
+            "title": "Lovely oil after a shower",
+            "quote": "<p>Absorbs quickly and the glass bottle looks beautiful on the shelf.</p>",
+            "author": "Sample review",
+            "verified": false,
+            "product": "calm-body-oil"
+          }
+        },
+        "r4": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "title": "Small but effective",
+            "quote": "<p>Two drops of the serum is enough. A bottle lasts me months.</p>",
+            "author": "Sample review",
+            "verified": false,
+            "product": "clarifying-serum"
           }
         }
       },
       "block_order": [
-        "f1",
-        "f2",
-        "f3"
+        "r1",
+        "r2",
+        "r3",
+        "r4"
       ],
       "settings": {
-        "eyebrow": "What goes in",
-        "heading": "Simple on purpose.",
-        "scheme": "scheme4"
+        "eyebrow": "Reviews",
+        "heading": "Loved by customers",
+        "summary": "Sample reviews for the Vela theme demo. Connect a reviews app to show real ones.",
+        "scheme": "scheme2"
       }
     },
     "story": {
@@ -201,10 +440,21 @@
         "eyebrow": "Our approach",
         "heading": "Made slowly, in small batches",
         "text": "<p>We work with a small lab, test every batch and only release formulas we use ourselves.</p>",
-        "button_label": "Shop body",
-        "button_link": "shopify://collections/body",
+        "button_label": "Our story",
+        "button_link": "shopify://pages/about",
         "scheme": "scheme1",
-        "image": "shopify://shop_images/vela-body-oil-story.png"
+        "image": "shopify://shop_images/vela-studio.png"
+      }
+    },
+    "journal": {
+      "type": "blog-posts",
+      "settings": {
+        "eyebrow": "Journal",
+        "heading": "From the journal",
+        "blog": "journal",
+        "limit": 3,
+        "excerpt": true,
+        "scheme": "scheme1"
       }
     },
     "questions": {
@@ -242,25 +492,21 @@
         "heading": "Questions, answered",
         "scheme": "scheme2"
       }
-    },
-    "signup": {
-      "type": "newsletter",
-      "settings": {
-        "eyebrow": "Stay close",
-        "heading": "Notes from the studio",
-        "text": "<p>Launches, restocks and the occasional ritual. No noise.</p>",
-        "scheme": "scheme3"
-      }
     }
   },
   "order": [
+    "slideshow",
+    "marquee",
+    "categories",
+    "tabs",
     "hero",
-    "edit",
+    "benefits",
     "routine",
+    "compare",
     "detail",
-    "facts",
+    "reviews",
     "story",
-    "questions",
-    "signup"
+    "journal",
+    "questions"
   ]
 }
