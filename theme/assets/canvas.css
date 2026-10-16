@@ -169,7 +169,8 @@
       box-shadow: 0 0 0 6px color-mix(in srgb, var(--background-1) 35%, transparent);
     }
     .canvas-marker__button:hover, .canvas-marker__button:focus-visible { background: var(--accent); color: var(--background-1); }
-    .canvas-notes { display: none; }
+    .canvas-notes { margin: 0; border: 0; }
+    .canvas-notes > li { border: 0; }
     .canvas-note:not(:popover-open) { display: none; }
     .canvas-note:popover-open {
       position: fixed;
