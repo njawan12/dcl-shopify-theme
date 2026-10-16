@@ -340,6 +340,7 @@
   .guided-set__grid { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); }
   .guided-step__product { grid-template-columns: minmax(6rem, 9rem) minmax(0, 1fr); }
   .guided-set__panel { position: sticky; inset-block-start: 1rem; min-block-size: 32rem; }
+  body:has(.site-header--sticky) .guided-set__panel { inset-block-start: 6rem; }
   .guided-set__steps { padding-block-start: 3rem; margin-inline-start: -1.5rem; }
   .mosaic-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .mosaic-item--lead { grid-column: span 2; grid-row: span 2; }
