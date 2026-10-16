@@ -1042,3 +1042,9 @@ facet-form:defined .facets__panel-foot button[type='submit'] { display: inline-f
   .header-menu__link { padding-inline: 0.5rem; font-size: 0.85rem; }
   .header-menu__link::after { inset-inline: 0.5rem; }
 }
+@media (max-width: 749px) {
+  .slideshow--mobile-stacked .slide__media { aspect-ratio: 1; }
+  .slideshow--mobile-stacked .slide__content { padding-block: 1.5rem 4.75rem; }
+  .slideshow--mobile-stacked .slide__heading { font-size: clamp(2.3rem, 10vw, 3rem); }
+  .slideshow--mobile-stacked .slideshow__controls { inset-block-end: 1rem; }
+}
