@@ -76,19 +76,32 @@ Alt text: Vela Edge crop layout with numbered detail markers on a close up of fa
 
 Tick these. They all work without extra code:
 
+- Breadcrumbs (collection pages)
 - Cart notes
+- Collapsible tabs
 - Collection filtering
 - Color swatches
-- Cross selling (complementary products)
+- Cross selling (cart recommendations and complementary products)
+- Before and after image slider
 - Gift card recipients
+- Image gallery
+- Image zoom
+- Mega menu
 - Pickup availability
 - Predictive search
+- Product badges
 - Product recommendations
+- Promo popups (email popup)
+- Quick buy (quick add on product cards)
 - Rich media (3D models and video)
+- Slide out cart
+- Slideshow
+- Sticky add to cart
 - Sticky header
+- Stock counter
 - Subscriptions (with a subscription app)
 
-Leave these unticked, Vela doesn't have them: mega menu, quick view, infinite scroll, breadcrumbs, store locator, cart drawer, age verifier.
+Leave these unticked, Vela doesn't have them: infinite scroll, store locator, age verifier, back in stock alerts, countdown timer, size chart, EU translations, lookbook with shoppable hotspots, quick view.
 
 Shopify's list may word these slightly differently. Ticking a feature the theme doesn't have is a common rejection reason, so when in doubt leave it off.
 
@@ -139,11 +152,14 @@ Enter the password from the Vela Skincare admin: Online Store, then Preferences 
 The Vela demo store (vela-skincare-qjtn7bvf.myshopify.com) uses Bogus Gateway for test payments. Use card number 1 with any future expiry date and any 3 digit code to place a test order.
 
 Where to find the main features:
-1. Home page: the first section is the Living canvas hero (Monument layout). Its Layout setting switches between Monument, Edge crop and Quiet frame without losing content.
-2. Home page, third section: Guided set. Tick steps to add several products at once. Products with options (Clarifying Serum) link to the product page instead.
-3. Home page, fourth section: Living canvas in the Edge crop layout. Click the numbered markers to open image details. On phones they show as a list.
-4. Product pages: Product composition can be Balanced, Compact or Editorial. Evidence note, Evidence pair and Process steps blocks are available in the product template.
-5. Test products: Barrier Cream is on sale, Overnight Balm is sold out, Lip Balm has a sold out Clay tint, Clarifying Serum and Calm Body Oil have size options, Vela Gift Card supports recipients.
+1. Home page, top: Slideshow, then scrolling text, shop by category (collection list in Circles style) and Featured collections with tabs. Product cards have a hover image and quick add; Clarifying Serum and Calm Body Oil show their sizes as quick add buttons.
+2. Adding any product opens the slide out cart with a free shipping bar (over $50), quantity buttons, an order note and recommendations.
+3. Home page, middle: Living canvas hero (Monument layout). Its Layout setting switches between Monument, Edge crop and Quiet frame without losing content. Further down, Guided set lets shoppers tick steps and add several products at once.
+4. Home page, lower: Before and after slider, Living canvas in the Edge crop layout with numbered image details, customer reviews, image with text, blog posts and questions. An email popup appears after 8 seconds on the first visit.
+5. Header: the Shop menu opens a mega menu. The search icon opens predictive search.
+6. Product pages (try Barrier Cream): swipeable gallery with thumbnails and zoom, Save badge, inventory status, quantity buttons, icons, How to use and Ingredients tabs from product metafields, share and a sticky add to cart bar. Product composition can be Balanced, Compact or Editorial.
+7. Collection pages (try Face): banner, product count, sorting and a filter drawer that updates results in place.
+8. Test products: Barrier Cream is on sale, Overnight Balm is sold out, Lip Balm has a sold out Clay tint, Clarifying Serum and Calm Body Oil have size options, Vela Gift Card supports recipients.
 
 **Theme review notes**
 
@@ -157,10 +173,12 @@ Digital Commerce Lab is a Shopify development and CRO agency that has built and 
 
 - Living canvas hero with three layouts: Monument, Edge crop and Quiet frame
 - Guided set: shoppers add a routine or set to the cart in one step, with an honest total
-- Commerce mosaic: featured collection with even grid, lead product or story break rhythms
+- Slide out cart with free shipping progress, quantity buttons, notes and recommendations
+- Full product pages: swipeable gallery with thumbnails and zoom, sticky add to cart, rating, inventory status, icons, collapsible tabs and share
+- Product cards with hover image and quick add
+- Header with dropdowns, mega menu and search
+- Slideshow, scrolling text, featured collections with tabs, icons with text, before and after slider, customer reviews, blog posts and email popup
+- Collection banner, filter drawer with live filtering and breadcrumbs
+- Commerce mosaic, collection list with tiles, circles or text on image
 - Evidence note, Evidence pair and Process steps blocks for product pages
-- Balanced, Compact and Editorial product page compositions
 - Related and complementary product recommendations
-- Faceted filters and sorting on collection and search pages
-- Slide out phone menu, sticky header and announcement bar
-- Section library: collection list, image with text, rich text, feature facts, customer quotes, video, email signup, logo list, questions

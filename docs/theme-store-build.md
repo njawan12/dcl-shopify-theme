@@ -43,3 +43,7 @@ Verified on dcl-theme-dev (draft theme): home, collection, collection list, cart
 4. Theme Store listing: screenshots, description, documentation page and support contact.
 5. Accessibility pass with a screen reader, plus Safari and Firefox checks.
 6. Optional: a cart drawer.
+
+## Store layer (2026-10-16)
+
+Added after a review against established Theme Store themes: slide out cart drawer (`sections/cart-drawer.liquid`, rendered from the layout), product gallery with thumbnails and zoom (`snippets/product-gallery.liquid`), sticky add to cart, rating, text, inventory, icons, collapsible tab and share product blocks, product cards with hover image and quick add, header with icons, dropdowns and mega menu, collection banner and filter drawer, and the sections slideshow, marquee, product-tabs, icon-row, before-after, reviews, blog-posts, newsletter-popup and a block based footer. New CSS is `assets/store.css`; new JS is `assets/store.js` (about 6 KB gzipped). Theme Check, the structural validator, 46 unit tests and the 369 assertion browser suite pass.
