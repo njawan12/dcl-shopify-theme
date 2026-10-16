@@ -39,7 +39,7 @@
         "button_link": "shopify://collections/routine",
         "scheme": "scheme2",
         "density": "balanced",
-        "image": "shopify://shop_images/vela-hero-serum.png",
+        "image": "shopify://shop_images/vela-hero-lifestyle.png",
         "product": "barrier-cream"
       }
     },
@@ -53,7 +53,7 @@
             "text": "We formulate for the routine you will actually do, morning and night.",
             "button_label": "Shop the routine",
             "button_link": "shopify://collections/routine",
-            "image": "shopify://shop_images/vela-lip-story.png"
+            "image": "shopify://shop_images/vela-hero-serum.png"
           }
         }
       },
@@ -153,7 +153,7 @@
         "button_label": "",
         "scheme": "scheme1",
         "density": "balanced",
-        "image": "shopify://shop_images/vela-cream-detail.png",
+        "image": "shopify://shop_images/vela-cream-texture.png",
         "product": "barrier-cream"
       }
     },
