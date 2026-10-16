@@ -505,3 +505,66 @@ if (!reducedMotion() && 'IntersectionObserver' in window) {
   watch(document);
   document.addEventListener('shopify:section:load', (event) => watch(event.target));
 }
+
+/* ---------- collection and search filters ---------- */
+class FacetForm extends HTMLElement {
+  connectedCallback() {
+    this.form = this.querySelector('form');
+    this.drawer = this.querySelector('.facets__drawer');
+    if (!this.form) return;
+    this.form.addEventListener('change', (event) => {
+      const delay = event.target.type === 'number' ? 600 : 0;
+      clearTimeout(this.timer);
+      this.timer = setTimeout(() => this.apply(event.target), delay);
+    });
+    this.form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      if (this.drawer) this.drawer.open = false;
+      this.apply();
+    });
+    this.addEventListener('click', (event) => {
+      if (event.target.closest('[data-facets-close]') || event.target === this.drawer) {
+        this.drawer.open = false;
+        this.drawer.querySelector('summary')?.focus();
+      }
+      const link = event.target.closest('.facets__active a');
+      if (link) { event.preventDefault(); this.load(new URL(link.href, window.location.origin)); }
+    });
+    this.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && this.drawer?.open) { this.drawer.open = false; this.drawer.querySelector('summary')?.focus(); }
+    });
+  }
+  apply(control) {
+    const params = new URLSearchParams();
+    for (const [key, value] of new FormData(this.form)) if (value !== '') params.append(key, value);
+    const url = new URL(this.form.action, window.location.origin);
+    url.search = params.toString();
+    this.load(url, control);
+  }
+  async load(url, control) {
+    const section = this.closest('.shopify-section');
+    const id = this.dataset.section;
+    const keepOpen = this.drawer?.open;
+    const focusName = control ? `[name="${CSS.escape(control.name)}"][value="${CSS.escape(control.value)}"], #${CSS.escape(control.id || 'none')}` : null;
+    section?.setAttribute('aria-busy', 'true');
+    try {
+      const fetchUrl = new URL(url);
+      fetchUrl.searchParams.set('section_id', id);
+      const response = await fetch(fetchUrl);
+      if (!response.ok) throw new Error(response.status);
+      const html = new DOMParser().parseFromString(await response.text(), 'text/html');
+      const fresh = html.querySelector(`#shopify-section-${CSS.escape(id)}`) || html.body.firstElementChild;
+      if (!fresh || !section) throw new Error('missing');
+      section.innerHTML = fresh.innerHTML;
+      history.replaceState(history.state, '', url.pathname + url.search);
+      const drawer = section.querySelector('.facets__drawer');
+      if (keepOpen && drawer) drawer.open = true;
+      if (focusName) section.querySelector(focusName)?.focus({ preventScroll: true });
+    } catch {
+      window.location.assign(url);
+    } finally {
+      section?.removeAttribute('aria-busy');
+    }
+  }
+}
+define('facet-form', FacetForm);

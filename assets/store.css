@@ -935,3 +935,79 @@ html[data-motion='none'] .marquee__list[aria-hidden] { display: none; }
 .drawer-note > summary { list-style: none; }
 .drawer-note > summary::-webkit-details-marker { display: none; }
 .mega__feature img { display: block; inline-size: 100%; }
+
+/* ---------- collection page ---------- */
+facet-form { display: block; }
+.breadcrumbs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-block-end: 1rem; font-size: 0.8rem; color: var(--soft); }
+.breadcrumbs a { text-decoration: none; }
+.breadcrumbs a:hover { text-decoration: underline; }
+.collection-head { max-inline-size: 48rem; margin-block-end: 2rem; }
+.collection-head h1 { margin-block-end: 0.75rem; font-size: clamp(2.4rem, 5vw, 4.2rem); }
+.collection-head .rich-text { color: var(--soft); max-inline-size: 56ch; }
+.collection-banner { position: relative; display: grid; min-block-size: clamp(16rem, 38vw, 28rem); color: #fff; overflow: hidden; }
+.collection-banner > * { grid-area: 1 / 1; }
+.collection-banner__image { inline-size: 100%; block-size: 100%; object-fit: cover; }
+.collection-banner::after { content: ''; grid-area: 1 / 1; background: linear-gradient(90deg, rgb(0 0 0 / 0.45), rgb(0 0 0 / 0.05) 70%); }
+.collection-banner__content { position: relative; z-index: 1; align-self: end; padding-block: 2.5rem; }
+.collection-banner .breadcrumbs { color: rgb(255 255 255 / 0.85); }
+.collection-banner h1 { margin-block-end: 0.5rem; font-size: clamp(2.6rem, 6vw, 5rem); }
+.collection-banner .rich-text { max-inline-size: 46ch; }
+.collection-empty { grid-column: 1 / -1; display: grid; justify-items: start; gap: 1rem; padding-block: 3rem; }
+@media (min-width: 990px) { .product-grid--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+.facets__bar { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; padding-block: 0.85rem; border-block: 1px solid var(--line); }
+.facets__toggle { display: inline-flex; align-items: center; gap: 0.5rem; min-block-size: 44px; padding: 0.4rem 1rem; border: 1px solid var(--line); border-radius: var(--pill); font-size: 0.9rem; font-weight: 600; list-style: none; cursor: pointer; }
+.facets__toggle::-webkit-details-marker { display: none; }
+.facets__toggle .icon { inline-size: 1rem; block-size: 1rem; }
+.facets__badge { display: inline-grid; place-items: center; min-inline-size: 1.3rem; block-size: 1.3rem; border-radius: var(--pill); background: var(--fg); color: var(--bg); font-size: 0.72rem; }
+.facets__count { margin: 0; font-size: 0.88rem; color: var(--soft); }
+.facets__sort { display: flex; align-items: center; gap: 0.6rem; margin-inline-start: auto; }
+.facets__sort label { margin: 0; font-size: 0.85rem; font-weight: 500; color: var(--soft); white-space: nowrap; }
+.facets__sort select { inline-size: auto; min-block-size: 40px; padding-block: 0.4rem; font-size: 0.9rem; border-color: var(--line); }
+.facets__drawer[open]::before { content: ''; position: fixed; inset: 0; z-index: 60; background: rgb(0 0 0 / 0.4); animation: fade-in 0.2s ease; }
+.facets__panel {
+  position: fixed;
+  inset-block: 0;
+  inset-inline-start: 0;
+  z-index: 61;
+  display: flex;
+  flex-direction: column;
+  inline-size: min(26rem, 92vw);
+  background: var(--bg);
+  animation: slide-in-start 0.3s var(--ease);
+}
+[dir='rtl'] .facets__panel { animation-name: slide-in-end; }
+.facets__panel-head { display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 1rem 0.75rem 1.5rem; border-block-end: 1px solid var(--line); }
+.facets__panel-title { margin: 0; font-family: var(--font-heading); font-size: 1.4rem; }
+.facets__groups { flex: 1; overflow-y: auto; padding: 0.5rem 1.5rem; }
+.facet { border-block-end: 1px solid var(--line); }
+.facet > summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem 0; font-weight: 600; list-style: none; }
+.facet > summary::-webkit-details-marker { display: none; }
+.facet > summary .icon { inline-size: 1rem; block-size: 1rem; transition: transform 0.2s; }
+.facet[open] > summary .icon { transform: rotate(180deg); }
+.facet__count { font-weight: 400; color: var(--soft); }
+.facet__values { margin: 0 0 1rem; padding: 0; list-style: none; display: grid; gap: 0.1rem; }
+.facet__option { display: flex; align-items: center; gap: 0.7rem; min-block-size: 40px; margin: 0; font-weight: 400; font-size: 0.95rem; cursor: pointer; }
+.facet__option.is-disabled { opacity: 0.45; cursor: default; }
+.facet__num { margin-inline-start: auto; font-size: 0.8rem; color: var(--soft); }
+.facet__swatch { inline-size: 1.2rem; block-size: 1.2rem; border-radius: 50%; border: 1px solid var(--line); }
+.facet__price { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; padding-block-end: 1rem; }
+.facet__price label { margin-block-start: 0; font-size: 0.8rem; font-weight: 500; }
+.facets__panel-foot { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; padding: 1rem 1.5rem 1.5rem; border-block-start: 1px solid var(--line); }
+facet-form:defined .facets__panel-foot button[type='submit'] { display: inline-flex; }
+.facets__active { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin: 1rem 0 0; padding: 0; list-style: none; }
+.pill { display: inline-flex; align-items: center; gap: 0.35rem; min-block-size: 36px; padding: 0.3rem 0.8rem; border: 1px solid var(--line); border-radius: var(--pill); font-size: 0.85rem; text-decoration: none; }
+.pill .icon { inline-size: 0.85rem; block-size: 0.85rem; }
+.pill:hover { border-color: var(--fg); }
+.facets__clear { font-size: 0.85rem; }
+.collection-main .product-grid { margin-block-start: 2rem; }
+.shopify-section[aria-busy='true'] .product-grid { opacity: 0.5; transition: opacity 0.2s; }
+@media (max-width: 749px) {
+  .facets__count { order: 3; flex-basis: 100%; }
+  .facets__sort label { position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden; clip-path: inset(50%); }
+}
+.pagination { display: flex; justify-content: center; margin-block-start: 3rem; }
+.pagination .page, .pagination .prev, .pagination .next { display: inline-flex; }
+.pagination a, .pagination .current { display: inline-grid; place-items: center; min-inline-size: 44px; min-block-size: 44px; padding-inline: 0.75rem; border-radius: var(--pill); text-decoration: none; }
+.pagination .current { background: var(--fg); color: var(--bg); }
+.pagination a:hover { background: var(--surface); }

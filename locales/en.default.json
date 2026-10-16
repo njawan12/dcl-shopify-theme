@@ -45,7 +45,8 @@
     "newsletter_close": "No thanks",
     "compare": "Drag to compare the two images",
     "slideshow": "Slideshow",
-    "verified": "Verified buyer"
+    "verified": "Verified buyer",
+    "breadcrumbs": "Breadcrumbs"
   },
   "product": {
     "regular_price": "Regular price",
@@ -114,7 +115,13 @@
     "sort": "Sort by",
     "clear": "Clear filters",
     "empty": "No products found.",
-    "title": "Collections"
+    "title": "Collections",
+    "filter": "Filter",
+    "product_count": {
+      "one": "{{ count }} product",
+      "other": "{{ count }} products"
+    },
+    "remove_filter": "Remove filter"
   },
   "cart": {
     "title": "Cart",
