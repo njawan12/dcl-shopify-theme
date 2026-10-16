@@ -1011,3 +1011,9 @@ facet-form:defined .facets__panel-foot button[type='submit'] { display: inline-f
 .pagination a, .pagination .current { display: inline-grid; place-items: center; min-inline-size: 44px; min-block-size: 44px; padding-inline: 0.75rem; border-radius: var(--pill); text-decoration: none; }
 .pagination .current { background: var(--fg); color: var(--bg); }
 .pagination a:hover { background: var(--surface); }
+@media (min-width: 750px) {
+  body:has(.site-header--sticky) .product-surface--balanced > .product-content { inset-block-start: calc(var(--header-height) + 4.5rem); }
+}
+.collection-banner { block-size: clamp(18rem, 36vw, 30rem); }
+.collection-banner__image { block-size: 100%; min-block-size: 0; }
+.facets__panel-foot .button { padding-inline: 0.75rem; white-space: nowrap; font-size: 0.9rem; }
