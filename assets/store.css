@@ -1035,3 +1035,10 @@ facet-form:defined .facets__panel-foot button[type='submit'] { display: inline-f
 }
 .product-form .shopify-payment-button__button--unbranded:hover:not([disabled]) { background: var(--foreground-1); color: var(--background-1); }
 .product-recs .mosaic-grid { gap: 2.25rem 1rem; }
+.header-menu__list { flex-wrap: nowrap; }
+.header-menu__link { white-space: nowrap; }
+@media (min-width: 990px) and (max-width: 1199px) {
+  .header-menu__list { gap: 0; }
+  .header-menu__link { padding-inline: 0.5rem; font-size: 0.85rem; }
+  .header-menu__link::after { inset-inline: 0.5rem; }
+}
