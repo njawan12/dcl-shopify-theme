@@ -1,5 +1,5 @@
 {%- comment -%}
-  Product card. Params: product, eager (optional), sizes (optional), lead (optional, larger image)
+  Product card. Params: product, scope (section id, keeps form ids unique), eager, sizes, lead (all optional)
 {%- endcomment -%}
 {%- liquid
   assign first_media = product.featured_media
@@ -16,6 +16,7 @@
     assign loading = 'eager'
   endif
   assign variant = product.selected_or_first_available_variant
+  assign card_form_id = 'CardForm-' | append: scope | append: '-' | append: product.id
   assign on_sale = false
   if product.compare_at_price_max > product.price_min
     assign on_sale = true
@@ -44,14 +45,14 @@
     {%- if settings.card_quick_add and product.available -%}
       <div class="card__quick">
         {%- if product.has_only_default_variant -%}
-          {%- form 'product', product, class: 'card__quick-form' -%}
+          {%- form 'product', product, id: card_form_id, class: 'card__quick-form' -%}
             <input type="hidden" name="id" value="{{ variant.id }}">
             <button type="submit" name="add" class="card__quick-button">
               {% render 'icon', icon: 'plus' %}<span>{{ 'product.add' | t }}</span><span class="visually-hidden">: {{ product.title | escape }}</span>
             </button>
           {%- endform -%}
         {%- elsif product.options.size == 1 and product.options_with_values.first.values.size <= 5 -%}
-          {%- form 'product', product, class: 'card__quick-form card__quick-form--options' -%}
+          {%- form 'product', product, id: card_form_id, class: 'card__quick-form card__quick-form--options' -%}
             <span class="card__quick-label">{{ 'product.quick_add' | t }}</span>
             <span class="card__quick-values">
               {%- for value in product.options_with_values.first.values -%}

@@ -25,12 +25,13 @@
     </div>
     {%- for block in section.blocks -%}
       {%- assign c = block.settings.collection -%}
+      {%- assign card_scope = section.id | append: '-' | append: forloop.index -%}
       <div class="product-tabs__panel" {% if tab_count > 1 %}role="tabpanel" id="Panel-{{ section.id }}-{{ forloop.index }}" aria-labelledby="Tab-{{ section.id }}-{{ forloop.index }}"{% unless forloop.first %} hidden{% endunless %}{% endif %}>
         <slide-track class="carousel{% if s.layout == 'grid' %} carousel--grid{% endif %}" style="--columns: {{ s.columns }}">
           <ul class="carousel__track" data-track role="list">
             {%- if c != blank and c.products_count > 0 -%}
               {%- for product in c.products limit: s.limit -%}
-                <li class="carousel__item">{% render 'product-card', product: product %}</li>
+                <li class="carousel__item">{% render 'product-card', product: product, scope: card_scope %}</li>
               {%- endfor -%}
             {%- else -%}
               {%- for i in (1..4) -%}
