@@ -4,7 +4,7 @@
     <h2>{{ 'search.results' | t: count: search.results_count, terms: search.terms }}</h2>
     {% render 'filters', results: search, url: routes.search_url, terms: search.terms, section: section, collection: nil %}
     {% paginate search.results by 24 %}
-      <div class="product-grid">{% for result in search.results %}{% if result.object_type == 'product' %}{% render 'product-card', product: result %}{% else %}<article><h3><a href="{{ result.url }}">{{ result.title | escape }}</a></h3></article>{% endif %}{% else %}<p>{{ 'search.empty' | t }}</p>{% endfor %}</div>
+      <div class="product-grid">{% for result in search.results %}{% if result.object_type == 'product' %}{% render 'product-card', product: result, scope: section.id %}{% else %}<article><h3><a href="{{ result.url }}">{{ result.title | escape }}</a></h3></article>{% endif %}{% else %}<p>{{ 'search.empty' | t }}</p>{% endfor %}</div>
       {% render 'pagination', paginate: paginate %}
     {% endpaginate %}
   {% endif %}

@@ -12,7 +12,7 @@
         {%- if s.heading != blank -%}<h2 class="product-recs__heading">{{ s.heading | escape }}</h2>{%- endif -%}
         <ul class="mosaic-grid product-recs__grid" role="list">
           {%- for rec in recommendations.products -%}
-            <li class="mosaic-item">{% render 'product-card', product: rec %}</li>
+            <li class="mosaic-item">{% render 'product-card', product: rec, scope: section.id %}</li>
           {%- endfor -%}
         </ul>
       </div>

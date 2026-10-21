@@ -33,7 +33,7 @@
     <ul class="mosaic-grid" role="list">
       {%- if s.collection != blank and s.collection.products_count > 0 -%}
         {%- for product in s.collection.products limit: limit -%}
-          <li class="mosaic-item{% if forloop.first and s.cadence == 'lead' %} mosaic-item--lead{% endif %}">{% render 'product-card', product: product %}</li>
+          <li class="mosaic-item{% if forloop.first and s.cadence == 'lead' %} mosaic-item--lead{% endif %}">{% render 'product-card', product: product, scope: section.id %}</li>
           {%- if forloop.index == story_at and s.cadence != 'grid' and stories.size > 0 -%}
             {%- assign block = stories.first -%}{%- render 'mosaic-story', block: block -%}
           {%- endif -%}
