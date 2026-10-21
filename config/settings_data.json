@@ -1,7 +1,7 @@
 {
-  "current": "Vela",
+  "current": "Tessel",
   "presets": {
-    "Vela": {
+    "Tessel": {
       "font_heading": "fraunces_n4",
       "font_body": "geist_n4",
       "type_scale": "expressive",

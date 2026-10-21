@@ -64,7 +64,7 @@ class GuidedSet extends HTMLElement {
       if (!response.ok) throw new Error(String(response.status));
       const body = await response.json();
       if (document.querySelector('cart-drawer') && body.sections) {
-        document.dispatchEvent(new CustomEvent('vela:cart-updated', { detail: { sections: body.sections, opener: this.button } }));
+        document.dispatchEvent(new CustomEvent('tessel:cart-updated', { detail: { sections: body.sections, opener: this.button } }));
         this.checks.forEach((input) => { input.checked = false; });
         this.update();
       } else {
