@@ -1,6 +1,6 @@
 # Theme Store build
 
-Theme name: **Vela** (theme and its single preset share the name, as Shopify requires).
+Theme name: **Tessel** (theme and its single preset share the name, as Shopify requires).
 
 Store sync: the `shopify-theme` branch holds the `theme/` folder at its root and is connected to dcl-theme-dev through Shopify's GitHub integration (draft theme `dcl-shopify-theme/shopify-theme`). Update it with `git subtree split --prefix=theme -b st && git push origin st:shopify-theme`.
 
@@ -18,7 +18,7 @@ Date: 2026-10-15. Builds on the tested `m2-production-theme` commerce core. The 
 
 **Standard library:** collection list, image with text, rich text, feature facts, customer quotes, video (uploaded or YouTube/Vimeo, never autoplay), email signup, logo list, questions (FAQ), announcement bar.
 
-**Theme wide:** Vela preset (Fraunces + Geist, sage palette), Vela homepage composition in `templates/index.json`, sticky header option, announcement bar in the header group, redesigned blog grid, article and collection headers. New CSS lives in `assets/canvas.css`; new JS is `assets/guided-set.js` only, loaded by that section.
+**Theme wide:** Tessel preset (Fraunces + Geist, sage palette), Tessel homepage composition in `templates/index.json`, sticky header option, announcement bar in the header group, redesigned blog grid, article and collection headers. New CSS lives in `assets/canvas.css`; new JS is `assets/guided-set.js` only, loaded by that section.
 
 Every new section has presets, translated schema labels, placeholder states for a fresh store, at most 12 settings and at most 8 settings per block.
 
@@ -38,7 +38,7 @@ Verified on dcl-theme-dev (draft theme): home, collection, collection list, cart
 ## Still needed before submission
 
 1. Walk through the real Theme Editor on the synced draft theme, adding each section from scratch.
-2. Vela demo store: real products, photography and collections.
+2. Tessel demo store: real products, photography and collections.
 3. Real product photography in the hero (shipped defaults use Shopify placeholders).
 4. Theme Store listing: screenshots, description, documentation page and support contact.
 5. Accessibility pass with a screen reader, plus Safari and Firefox checks.

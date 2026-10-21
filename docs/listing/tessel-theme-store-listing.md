@@ -1,14 +1,14 @@
-# Vela: Theme Store submission copy
+# Tessel: Theme Store submission copy
 
 Paste each field into the submission form in your Partner dashboard (Themes, then Submit a theme). Files for each upload are named below.
 
 ## Theme ZIP
 
-Upload: `Vela-1.0.0.zip`
+Upload: `Tessel-1.0.0.zip`
 
-Theme name and preset name are both **Vela**. They can't be changed after upload.
+Theme name and preset name are both **Tessel**. They can't be changed after upload.
 
-## Preset listing: Vela
+## Preset listing: Tessel
 
 **Tagline** (70 characters max, this one is 59)
 
@@ -28,15 +28,15 @@ https://vela-skincare-qjtn7bvf.myshopify.com
 
 **Desktop screenshot**
 
-File: `vela-desktop-1000x1248.png`
+File: `tessel-desktop-1000x1248.png`
 
-Alt text: Vela theme home page with a slideshow showing a woman holding a skincare jar, a serif headline, a Shop bestsellers button and a scrolling message strip
+Alt text: Tessel theme home page with a slideshow showing a woman holding a skincare jar, a serif headline, a Shop bestsellers button and a scrolling message strip
 
 **Mobile screenshot**
 
-File: `vela-mobile-750x1334.png`
+File: `tessel-mobile-750x1334.png`
 
-Alt text: Vela theme home page on a phone with a square slideshow photo above the headline and a one row header
+Alt text: Tessel theme home page on a phone with a square slideshow photo above the headline and a one row header
 
 ## Key highlights
 
@@ -44,33 +44,33 @@ Each image is 1600 x 1200 px.
 
 **Highlight 1**
 
-File: `vela-highlight-1-living-canvas.png`
+File: `tessel-highlight-1-living-canvas.png`
 
 Title (30 max): Living canvas hero
 
 Description (140 max): One hero, three layouts. Pair a striking image with a live product, its real price and proof points you can back up.
 
-Alt text: Vela Living canvas hero with headline, lifestyle photo and a featured product with its price
+Alt text: Tessel Living canvas hero with headline, lifestyle photo and a featured product with its price
 
 **Highlight 2**
 
-File: `vela-highlight-2-guided-set.png`
+File: `tessel-highlight-2-guided-set.png`
 
 Title (30 max): Guided set
 
 Description (140 max): Walk shoppers through a routine step by step, then let them add every product to the cart at once with an honest total.
 
-Alt text: Vela Guided set section showing three routine steps with products and checkboxes
+Alt text: Tessel Guided set section showing three routine steps with products and checkboxes
 
 **Highlight 3**
 
-File: `vela-highlight-3-slide-out-cart.png`
+File: `tessel-highlight-3-slide-out-cart.png`
 
 Title (30 max): Slide out cart
 
 Description (140 max): Add to cart without leaving the page. A free shipping bar, quantity buttons and smart suggestions help lift order value.
 
-Alt text: Vela slide out cart over a product page with a free shipping bar, two products and suggested add ons
+Alt text: Tessel slide out cart over a product page with a free shipping bar, two products and suggested add ons
 
 ## Features to select
 
@@ -101,7 +101,7 @@ Tick these. They all work without extra code:
 - Stock counter
 - Subscriptions (with a subscription app)
 
-Leave these unticked, Vela doesn't have them: infinite scroll, store locator, age verifier, back in stock alerts, countdown timer, size chart, EU translations, lookbook with shoppable hotspots, quick view.
+Leave these unticked, Tessel doesn't have them: infinite scroll, store locator, age verifier, back in stock alerts, countdown timer, size chart, EU translations, lookbook with shoppable hotspots, quick view.
 
 Shopify's list may word these slightly differently. Ticking a feature the theme doesn't have is a common rejection reason, so when in doubt leave it off.
 
@@ -109,13 +109,13 @@ Shopify's list may word these slightly differently. Ticking a feature the theme 
 
 Suggested: **$340 USD**
 
-Reasoning: Vela has three signature systems (Living canvas, Guided set, Evidence blocks) on top of a full section library, which puts it in the premium tier. Shopify allows $100 to $500 in $10 steps. You can start at $320 to $360 and adjust after launch.
+Reasoning: Tessel has three signature systems (Living canvas, Guided set, Evidence blocks) on top of a full section library, which puts it in the premium tier. Shopify allows $100 to $500 in $10 steps. You can start at $320 to $360 and adjust after launch.
 
 ## SEO
 
 **Metadata description**
 
-Vela is a Shopify theme for brand led stores with a focused range. Tell your product story with a flexible hero, guided routines and clear proof next to every product.
+Tessel is a Shopify theme for brand led stores with a focused range. Tell your product story with a flexible hero, guided routines and clear proof next to every product.
 
 **Google Analytics 4, remarketing ID, Facebook pixel**
 
@@ -129,7 +129,7 @@ https://form.jotform.com/262876049649070
 
 **Documentation**
 
-https://digitalcommercelab.co/pages/vela-documentation
+https://digitalcommercelab.co/pages/tessel-documentation
 
 **Merchant review notification email**
 
@@ -149,7 +149,7 @@ Enter the password from the Vela Skincare admin: Online Store, then Preferences 
 
 **Testing instructions**
 
-The Vela demo store (vela-skincare-qjtn7bvf.myshopify.com) uses Bogus Gateway for test payments. Use card number 1 with any future expiry date and any 3 digit code to place a test order.
+The Tessel demo store (vela-skincare-qjtn7bvf.myshopify.com) uses Bogus Gateway for test payments. Use card number 1 with any future expiry date and any 3 digit code to place a test order.
 
 Where to find the main features:
 1. Home page, top: Slideshow, then scrolling text, shop by category (collection list in Circles style) and Featured collections with tabs. Product cards have a hover image and quick add; Clarifying Serum and Calm Body Oil show their sizes as quick add buttons.
@@ -163,9 +163,9 @@ Where to find the main features:
 
 **Theme review notes**
 
-Vela is for brand led direct to consumer stores with a focused range, starting with beauty and wellness. These merchants sell a small number of considered products and win by telling a clear story, so Vela gives them a flexible hero that pairs editorial images with a live product, a Guided set that turns a routine into one add to cart action with an honest total, and Evidence blocks that present facts, comparisons and steps in a structured way that hides incomplete entries.
+Tessel is for brand led direct to consumer stores with a focused range, starting with beauty and wellness. These merchants sell a small number of considered products and win by telling a clear story, so Tessel gives them a flexible hero that pairs editorial images with a live product, a Guided set that turns a routine into one add to cart action with an honest total, and Evidence blocks that present facts, comparisons and steps in a structured way that hides incomplete entries.
 
-Vela is fully original code, not based on Dawn or Horizon. It loads very little JavaScript, uses native Shopify forms and routes so core shopping works without JavaScript, and avoids app like features or fake urgency.
+Tessel is fully original code, not based on Dawn or Horizon. It loads very little JavaScript, uses native Shopify forms and routes so core shopping works without JavaScript, and avoids app like features or fake urgency.
 
 Digital Commerce Lab is a Shopify development and CRO agency that has built and maintained stores for DTC and Shopify Plus brands.
 

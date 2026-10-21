@@ -1,4 +1,4 @@
-/* Vela store layer: cart drawer, steppers, gallery, sliders, tabs and dialogs.
+/* Tessel store layer: cart drawer, steppers, gallery, sliders, tabs and dialogs.
    Every component enhances working HTML; forms and links still work without it. */
 
 const define = (name, element) => {
@@ -224,7 +224,7 @@ document.addEventListener('submit', async (event) => {
     submitter?.classList.remove('is-loading');
   }
 });
-document.addEventListener('vela:cart-updated', (event) => {
+document.addEventListener('tessel:cart-updated', (event) => {
   const cart = drawer();
   if (!cart) return;
   cart.render(event.detail?.sections?.['cart-drawer']);
@@ -469,7 +469,7 @@ class SignupPopup extends HTMLElement {
   connectedCallback() {
     this.dialog = this.querySelector('dialog');
     if (!this.dialog) return;
-    const key = 'vela-popup-seen';
+    const key = 'tessel-popup-seen';
     const days = Number(this.dataset.days) || 7;
     if (window.Shopify?.designMode) {
       document.addEventListener('shopify:section:select', (event) => {

@@ -1,4 +1,4 @@
-# Vela release notes
+# Tessel release notes
 
 ## 1.0.0
 

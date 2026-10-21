@@ -12,8 +12,8 @@
       "gzip_bytes": 4605
     },
     "store.js": {
-      "bytes": 23779,
-      "gzip_bytes": 6261
+      "bytes": 23785,
+      "gzip_bytes": 6262
     },
     "variant-swap.js": {
       "bytes": 1595,
@@ -24,16 +24,16 @@
       "gzip_bytes": 539
     },
     "store.css": {
-      "bytes": 64889,
-      "gzip_bytes": 11931
+      "bytes": 64891,
+      "gzip_bytes": 11932
     },
     "canvas-editor.js": {
       "bytes": 644,
       "gzip_bytes": 365
     },
     "guided-set.js": {
-      "bytes": 3292,
-      "gzip_bytes": 1261
+      "bytes": 3294,
+      "gzip_bytes": 1262
     },
     "search.js": {
       "bytes": 2528,
